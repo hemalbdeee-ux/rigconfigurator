@@ -1,6 +1,6 @@
 # RigConfigurator.com — Hostinger Docker Manager stack
 # Deploy: Docker Manager → Compose → "Compose from URL" → paste the raw GitHub URL of this file
-# Requires: "Deploy Traefik" clicked once in Docker Manager (creates the external traefik-proxy network)
+# Requires: "Deploy Traefik" clicked once in Docker Manager (Hostinger runs Traefik in host network mode, no shared network needed)
 
 services:
   web:
@@ -20,10 +20,8 @@ services:
         condition: service_healthy
     networks:
       - internal
-      - traefik-proxy
     labels:
       - "traefik.enable=true"
-      - "traefik.docker.network=traefik-proxy"
       - "traefik.http.routers.rig.rule=Host(`${DOMAIN:-rigconfigurator.com}`) || Host(`www.${DOMAIN:-rigconfigurator.com}`)"
       - "traefik.http.routers.rig.entrypoints=websecure"
       - "traefik.http.routers.rig.tls.certresolver=letsencrypt"
@@ -80,5 +78,3 @@ volumes:
 
 networks:
   internal:
-  traefik-proxy:
-    external: true
