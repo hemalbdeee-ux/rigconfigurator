@@ -36,6 +36,25 @@ pipeline/                 Python: import_fitments.py (CSV→DB), refresh_prices.
 
 Update: push to GitHub → Docker Manager → project → **Rebuild/Update** (or `docker compose up -d --build` in Web console).
 
+## Data v1 (32 vehicles · 30 money pages · 147 products)
+
+```
+db/migrations/000_drop_seed.sql     removes demo rows
+db/migrations/003_vehicles.sql      32 vehicle generations with fit attributes (idempotent upsert)
+db/migrations/004_fitment_pages.sql editorial for 30 pages — GENERATED from db/content/pages_v1.py
+db/migrations/005_publish.sql       publishes pages with ≥2 products, drafts the rest (noindex)
+db/content/fitments_v1.py           product shortlist → build_fitments_csv.py → pipeline/data/fitments.csv
+db/apply.sh                         runs all migrations against the running container + revalidates
+```
+
+Apply on the VPS after `git pull`:
+```
+bash db/apply.sh
+docker exec rigconfigurator-pipeline python import_fitments.py data/fitments.csv
+docker exec -i rigconfigurator-db psql -U rig -d rigconfigurator < db/migrations/005_publish.sql
+```
+Edit content in `db/content/*.py`, regenerate (`python3 db/content/build_pages_sql.py`, `python3 db/content/build_fitments_csv.py`), commit, pull, re-run the three lines. ASIN fitments are `confidence 2` (from listing titles) — bump to 3 in `fitments_v1.py` once checked against the manufacturer fit guide; `confidence 1` rows show an "unverified" pill.
+
 ## Data flow
 
 ```
