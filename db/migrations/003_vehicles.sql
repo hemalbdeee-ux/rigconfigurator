@@ -69,8 +69,8 @@ VALUES
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'colorado','Colorado','2023-present','3rd Gen',2023,NULL,'truck',
  '{62}','bare',NULL,'4',2,7700,'265/70R17','6x120',2,
- '{"bed_names":{"62":"5ft 2in"},"tailgate":"optional storage tailgate","variants":["Trail Boss","ZR2","ZR2 Bison"]}',
- 'One 5''2" bed on all 2023+ cabs. Prior-gen (2015–2022) covers do not fit.'),
+ '{"bed_names":{"62":"5ft 2in"},"tailgate":"optional storage tailgate","variants":["Trail Boss","ZR2","ZR2 Bison"],"fit_note":"confirm 2023+ fit on multi-generation cover listings"}',
+ 'One 5''2" bed on all 2023+ cabs. Many sellers list 2015–2026 on one cover SKU; buy 2023+-specific listings or confirm with the seller.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'maverick','Maverick','2022-present','1st Gen',2022,NULL,'truck',
  '{54}','bare',NULL,'3',2,4000,'225/65R17','5x108',2,
@@ -144,8 +144,8 @@ VALUES
  'RWD-based three-row with raised rails and Class III hitch (5,600 lb with tow package).'),
 
 ((SELECT id FROM makes WHERE slug='jeep'),'grand-cherokee','Grand Cherokee','2022-present','5th Gen (WL)',2022,NULL,'suv',
- '{}','raised-rails',NULL,'4',2,6200,'265/60R18','5x127',2,
- '{"rails":"raised rails standard on most trims","grand_cherokee_l":"3-row L variant — longer roof, different rear mats","4xe":"PHEV shares fit","tow":"6,200 lb V6; 7,200 lb V8 (2022-2024)"}',
+ '{}','flush-rails',NULL,'4',2,6200,'265/60R18','5x127',2,
+ '{"rails":"factory flush side rails on most trims","grand_cherokee_l":"3-row L variant — longer roof, different rear mats","4xe":"PHEV shares fit","tow":"6,200 lb V6; 7,200 lb V8 (2022-2024)"}',
  'WL generation; two-row (L is three-row with a longer roof). Class IV hitch, up to 6,200 lb V6.'),
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'tahoe','Tahoe','2021-present','5th Gen (T1)',2021,NULL,'suv',

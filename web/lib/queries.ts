@@ -64,3 +64,16 @@ export async function allFitmentPaths() {
     JOIN categories c ON c.id = fp.category_id
     WHERE fp.status = 'published'`);
 }
+
+export async function pagesFor(vehicleId: number) {
+  return q<{ category_id: number; category_slug: string; title: string; verified_at: string | null; status: string }>(
+    `SELECT fp.category_id, c.slug AS category_slug, fp.title, fp.verified_at, fp.status
+     FROM fitment_pages fp JOIN categories c ON c.id = fp.category_id WHERE fp.vehicle_id = $1`, [vehicleId]);
+}
+
+export async function siblingsOf(v: Vehicle & { make_id?: number }): Promise<Vehicle[]> {
+  return q<Vehicle>(
+    `${VEHICLE_SELECT} WHERE v.id <> $1 AND (v.make_id = $2 OR v.body_style = $3)
+     ORDER BY (v.make_id = $2) DESC, (v.model_slug = $4) DESC, v.year_from DESC LIMIT 6`,
+    [v.id, v.make_id, v.body_style, v.model_slug]);
+}

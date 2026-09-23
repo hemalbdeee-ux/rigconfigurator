@@ -157,19 +157,10 @@ _BOXES = [
  ("B001PUZ24I","Yakima RocketBox 16 Cargo Box","Yakima","$450–$600",{},"Budget Yakima 16 cu ft."),
  ("B09HC2LWX8","Yakima DeepSpace 10 Hard Shell Cargo Box","Yakima","$350–$450",{},"Compact 10 cu ft."),
 ]
-add("toyota","rav4","2019-present","cargo-boxes",[
- ("B081J9P2KY","Autekcomma 260 lb Lockable Cross Bars, 2019-2025 RAV4 (not LE / Adventure / TRD Off-Road / Woodland)","Autekcomma","$90–$130",{"roof_type":"raised-rails"},"Standard raised rails only — buy first, then a box."),
- ("B08LG42HL8","FLYCLE Lockable Cross Bars, 2019-2025 RAV4 (not Adventure / TRD Off-Road)","FLYCLE","$80–$120",{"roof_type":"raised-rails"},"Standard rails only."),
- ("B07WGHX1K5","ROKIOTOEX Cross Bars, 2019-2024 RAV4 Adventure / TRD factory raised rails","ROKIOTOEX","$100–$150",{"roof_type":"raised-rails","trim":"Adventure/TRD Off-Road"},"Adventure / TRD rails only."),
- ("B0GDYBR15P","Aluminum Cross Bars, 2019-2025 RAV4, no-drill","Generic","$70–$110",{"roof_type":"raised-rails"},"Confirm trim on listing."),
-] + _BOXES)
+# RAV4 / Telluride crossbars moved to their roof-racks pages (fitments_v2.py); box pages list boxes only.
+add("toyota","rav4","2019-present","cargo-boxes",_BOXES)
 add("subaru","outback","2020-present","cargo-boxes",_BOXES)
-add("kia","telluride","2020-present","cargo-boxes",[
- ("B0DXPZDL1P","Lockable Aluminum Cross Bars, 2020-2025 Telluride","Generic","$90–$130",{"roof_type":"raised-rails"},"Buy first, then a box."),
- ("B09TW15M9N","Snailfly Lockable Cross Bars, 2019-2025 Telluride EX / S / SX / SX-P (except LE, X-Line, X-Pro)","Snailfly","$90–$130",{"roof_type":"raised-rails"},"Not for X-Line / X-Pro rails."),
- ("B0CZZWTQNH","Tuyoung 300 lb Cross Bars, 2023-2025 Telluride X-Pro & X-Line raised rails","Tuyoung","$100–$140",{"roof_type":"raised-rails","trim":"X-Line/X-Pro"},"X-Line / X-Pro only."),
- ("B0BM9ZMDTC","Snailfly 165 lb Cross Bars, 2023-2025 Telluride X-Pro / X-Line","Snailfly","$90–$130",{"roof_type":"raised-rails","trim":"X-Line/X-Pro"},"X-Line / X-Pro only."),
-] + _BOXES)
+add("kia","telluride","2020-present","cargo-boxes",_BOXES)
 
 # ---------------- Hitches
 add("ford","maverick","2022-present","hitches",[
