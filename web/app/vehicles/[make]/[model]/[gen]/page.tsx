@@ -50,15 +50,29 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
         {facts.filter(([, val]) => val).map(([k, val]) => <tr key={k}><th>{k}</th><td>{val}</td></tr>)}
       </tbody></table>
 
-      <h2>Accessories by category</h2>
-      <div className="grid">
-        {cats.map(c => (
-          <Link key={c.slug} href={`${vehiclePath(v)}/${c.slug}`} className="card">
-            <h3>{c.name}</h3>
-            <div className="muted">{countBy[c.slug] ? `${countBy[c.slug]} fit-checked picks` : "Coming soon"}</div>
-          </Link>
-        ))}
-      </div>
+      {(() => {
+        const ready = cats.filter(c => countBy[c.slug] > 0);
+        const planned = cats.filter(c => !countBy[c.slug]);
+        return (<>
+          <h2>Fit-checked accessories</h2>
+          {ready.length === 0 && <p className="muted">We are still verifying products for this {v.model_name}. The fit facts above are live; category pages land as each product list clears our fit check.</p>}
+          {ready.length > 0 && (
+            <div className="grid">
+              {ready.map(c => (
+                <Link key={c.slug} href={`${vehiclePath(v)}/${c.slug}`} className="card">
+                  <h3>{c.name}</h3>
+                  <div className="muted">{countBy[c.slug]} fit-checked picks</div>
+                </Link>
+              ))}
+            </div>
+          )}
+          {planned.length > 0 && (
+            <p className="muted" style={{ marginTop: 16, fontSize: 14 }}>
+              In verification for the {v.model_name}: {planned.map(c => c.name).join(", ")}.
+            </p>
+          )}
+        </>);
+      })()}
     </>
   );
 }
