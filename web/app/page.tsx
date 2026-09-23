@@ -2,7 +2,7 @@ import Link from "next/link";
 import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
 import { VehiclePicker } from "@/components/VehiclePicker";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export default async function Home() {
   const vehicles = await allVehicles();

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 export const metadata = { title: "All Vehicles — Fit-checked accessories by make, model and generation" };
 
 export default async function Vehicles() {
