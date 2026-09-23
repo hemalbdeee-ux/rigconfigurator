@@ -1,0 +1,84 @@
+# RigConfigurator.com — Hostinger Docker Manager stack
+# Deploy: Docker Manager → Compose → "Compose from URL" → paste the raw GitHub URL of this file
+# Requires: "Deploy Traefik" clicked once in Docker Manager (creates the external traefik-proxy network)
+
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: rigconfigurator-web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://${POSTGRES_USER:-rig}:${POSTGRES_PASSWORD:-changeme}@db:5432/${POSTGRES_DB:-rigconfigurator}
+      SITE_URL: https://${DOMAIN:-rigconfigurator.com}
+      AMAZON_TAG: ${AMAZON_TAG:-rigconfig-20}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - internal
+      - traefik-proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik-proxy"
+      - "traefik.http.routers.rig.rule=Host(`${DOMAIN:-rigconfigurator.com}`) || Host(`www.${DOMAIN:-rigconfigurator.com}`)"
+      - "traefik.http.routers.rig.entrypoints=websecure"
+      - "traefik.http.routers.rig.tls.certresolver=letsencrypt"
+      - "traefik.http.services.rig.loadbalancer.server.port=3000"
+      # www → non-www redirect
+      - "traefik.http.middlewares.rig-www.redirectregex.regex=^https://www\\.(.*)"
+      - "traefik.http.middlewares.rig-www.redirectregex.replacement=https://$${1}"
+      - "traefik.http.middlewares.rig-www.redirectregex.permanent=true"
+      - "traefik.http.routers.rig.middlewares=rig-www"
+
+  db:
+    image: postgres:16-alpine
+    container_name: rigconfigurator-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-rig}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: ${POSTGRES_DB:-rigconfigurator}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-rig} -d ${POSTGRES_DB:-rigconfigurator}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - internal
+
+  pipeline:
+    build:
+      context: ./pipeline
+      dockerfile: Dockerfile
+    container_name: rigconfigurator-pipeline
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-rig}:${POSTGRES_PASSWORD:-changeme}@db:5432/${POSTGRES_DB:-rigconfigurator}
+      SITE_URL: https://${DOMAIN:-rigconfigurator.com}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
+      PAAPI_ACCESS_KEY: ${PAAPI_ACCESS_KEY:-}
+      PAAPI_SECRET_KEY: ${PAAPI_SECRET_KEY:-}
+      AMAZON_TAG: ${AMAZON_TAG:-rigconfig-20}
+      KEEPA_KEY: ${KEEPA_KEY:-}
+    volumes:
+      - ./pipeline/data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - internal
+
+volumes:
+  pgdata:
+
+networks:
+  internal:
+  traefik-proxy:
+    external: true
