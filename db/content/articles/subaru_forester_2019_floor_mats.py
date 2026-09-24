@@ -1,0 +1,165 @@
+"""Long-form article — Best Floor Mats & Liners for 2019–2024 Subaru Forester (5th gen, SK).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("subaru", "forester", "2019-2024", "floor-mats")
+
+TITLE = "Best Floor Liners for 2019–2024 Subaru Forester: 5 Picks, Husky and Subaru OEM to $90 TPE"
+META = ("Five 5th-gen Forester floor liner sets from Husky, Subaru, LASFIT, 3W and IKABEVEM, with the 2025 cutoff, "
+        "Wilderness notes and cargo coverage for dog owners.")
+
+FAQ = [
+ ("Do 2019–2024 Forester liners fit a 2025 Forester?",
+  "No. The 2025 Forester is a new generation. Husky sells the 95381 set for 2025–2026 Foresters, separate from the 95891 it sells for 2019–2024. Subaru's own liners also change part numbers between generations. Buy liners that name your model year range."),
+ ("Does the Forester Wilderness need different liners?",
+  "The Wilderness (2022–2024) is a trim of the 5th-gen Forester with its own styling, suspension and water-repellent upholstery, but it shares the cabin floor. Liners listed for 2019–2024 Forester fit it unless the listing says otherwise. Its cargo area also matches the other trims."),
+ ("Are Subaru's own all-weather liners worth it?",
+  "Subaru's J501SSJ030 liners are a dealer part designed for the 5th-gen Forester, sold as a set of four. They fit the retention hooks exactly and cost less than Husky. What they don't advertise is Husky's lifetime crack warranty or made-in-USA production. For many owners, a dealer part at $80–$120 is the sensible default."),
+ ("Do Forester liners fit the Crosstrek or Impreza?",
+  "No. They share Subaru's Global Platform, but the cabins and floors differ. Buy liners that name the Forester and your years."),
+ ("Should I get a cargo liner for my Forester?",
+  "If you carry a dog, sports gear or muddy boots, yes. The Forester's cargo area is one of its main selling points, and it's carpeted. IKABEVEM's set includes a cargo liner; Husky and Subaru sell cargo liners separately."),
+ ("What's the difference between WeatherBeater and X-act Contour for a Forester?",
+  "Husky says X-act Contour is 22% more flexible and 10% softer than WeatherBeater, with a DuraGrip surface. WeatherBeater is firmer and holds its walls more rigidly. Both are made in the USA with a lifetime warranty against cracks and breaks. The WeatherBeater 95891 is the Forester set on this page."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto Subaru's retention hooks and clear of the pedals at full travel. Remove the factory mat first and heel-test it toward the pedals."),
+ ("How do I clean liners after a ski trip?",
+  "Pull them, knock off the snow, rinse with warm water and a little dish soap, and dry them before reinstalling. Skip silicone protectants. Empty the driver liner every few days in winter so salt melt doesn't overflow."),
+ ("Will liners fit around the Forester's rear seat recline?",
+  "Yes. The rear liners sit on the floor in front of the seat base; reclining the seatbacks doesn't change the floor. After installing, fold and recline the rear seats to make sure the liner edge doesn't catch."),
+ ("How much do Forester liners cost?",
+  "On this page, budget TPE sets run about $90–$140, Subaru's liners about $80–$120 and Husky's WeatherBeater about $130–$170. Amazon prices move daily, so check the live price."),
+ ("Is the Forester's cargo area the same on every 5th-gen trim?",
+  "The cargo floor is shared across 2019–2024 trims, including the Wilderness, though some trims add accessories like a cargo tray or net. A cargo liner cut for the 5th-gen Forester fits all of them. If you have an aftermarket drawer or subwoofer in the cargo area, measure before ordering, since a molded cargo liner needs a clear floor."),
+ ("Do liners help with resale value?",
+  "They help keep the carpet in the condition buyers and dealers notice first. A stained or salt-damaged driver footwell is one of the quickest ways a car looks used hard. Liners that come out easily and get cleaned often keep the carpet underneath close to new, which is worth more at trade-in than most of the price difference between liner brands."),
+]
+
+ARTICLE = {
+ "dek": "Five liner sets listed for the 5th-generation Forester, from Husky's made-in-USA WeatherBeater and Subaru's dealer liners to TPE kits with a cargo liner. It's one of the simplest vehicles to fit, so the choice is about walls, warranty and whether you need the cargo area covered.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2019–2024 Forester, on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**One floor for 2019–2024.** Every trim, including Wilderness, shares it.",
+  "**2025 is a new generation.** Husky sells a separate 95381 set for 2025–2026.",
+  "**Husky WeatherBeater is the documented pick.** Made in the USA with a lifetime crack warranty.",
+  "**Subaru's own liners are the value OEM choice.** Dealer part J501SSJ030.",
+  "**Cover the cargo area if you carry a dog.** IKABEVEM's kit includes it.",
+ ],
+ "top_picks": [
+  {"asin": "B07N7YX7WH", "role": "Best overall", "why": "Husky WeatherBeater 95891, 2019–2024 Forester, made in USA"},
+  {"asin": "B07JCDW4LC", "role": "Best factory option", "why": "Subaru genuine all-weather liners J501SSJ030, set of 4"},
+  {"asin": "B08M9422VV", "role": "Best TPE", "why": "LASFIT recycled TPE, 1st and 2nd row"},
+  {"asin": "B0CNW1R1LQ", "role": "Best with cargo liner", "why": "IKABEVEM floor liners plus cargo liner"},
+  {"asin": "B0C23ZL7JC", "role": "Best budget", "why": "3W TPE 1st and 2nd row"},
+ ],
+ "fit_table": {
+  "caption": "Forester floor liners by generation",
+  "head": ["Generation", "Years", "Liner note"],
+  "rows": [
+   ["5th gen (SK)", "2019–2024 (incl. Wilderness 2022–2024)", "All picks on this page"],
+   ["6th gen", "2025+", "Not compatible; Husky 95381 for 2025–2026"],
+   ["4th gen (SJ)", "2014–2018", "Not compatible"],
+  ],
+ },
+ "look_for": [
+  {"h": "The right generation",
+   "body": "The Forester is easy to fit within a generation and easy to get wrong across one. The 5th gen ran from 2019 to 2024, and the floor didn't change across those years, including the Wilderness trim added for 2022. The 2025 Forester is a new generation with its own liners; Husky sells the 95381 set for 2025–2026 separately from the 95891 for 2019–2024. If you're shopping used parts or a listing's year range spans generations, check the part number against your year."},
+  {"h": "Walls and winter use",
+   "body": "Foresters are popular in snow country, and snowmelt is what floor liners are for. A liner with a raised wall holds the slush until you dump it; a flat mat lets it run onto the carpet. Husky's WeatherBeater uses a firm ProGard material that keeps its walls upright. LASFIT's TPE is softer and rated from −13°F to 167°F, so it stays flexible in cold weather. Subaru's own liners have moderate walls. For a ski car, pick walls and a cold-weather rating over looks."},
+  {"h": "Cargo area for dogs and gear",
+   "body": "The Forester's square cargo area is one of its main strengths, and it's carpeted. Dogs, wet gear and muddy boots do more damage there than in the footwells. IKABEVEM's kit includes a cargo liner with the floor liners, which is the simplest way to cover everything. Husky and Subaru sell cargo liners separately. If you fold the rear seats often, look for a cargo liner with a seatback extension or add a seatback cover."},
+  {"h": "Warranty and origin",
+   "body": "Husky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA and covered by a lifetime warranty against cracks and breaks. LASFIT uses GRS-certified recycled TPE free of PVC and phthalates and offers 45-day returns on its store. Subaru's liners are genuine dealer parts. 3W's maker is a TPE mat manufacturer in Taizhou, China; 3W and IKABEVEM don't publish comparable warranty terms on the pages we checked."},
+  {"h": "Retention and pedal clearance",
+   "body": "Subaru uses retention hooks in the driver footwell. A Forester-specific liner lines up with them. Seat the driver liner on the hooks, heel-test it toward the pedals and press the brake and accelerator to the floor. Never lay a liner over the factory carpet mat; it's the most common cause of a liner sliding into the pedals."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Generation", "2019–2024 in the title", "2025+ or 2014–2018 listings"],
+   ["Walls", "Raised lip for snowmelt", "Flat mats in snow country"],
+   ["Cargo", "A cargo liner if you carry a dog", "Bare cargo carpet"],
+   ["Retention", "Hook holes for Subaru's posts", "Loose mats"],
+   ["Material", "Stated cold rating or crack warranty", "Hard plastic"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2019–2024 Forester",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["USA-made molded liner", "Husky 95891", "Front + 2nd", "High", "$130–$170", "Snow and mud"],
+   ["OEM all-weather liner", "Subaru J501SSJ030", "Set of 4", "Medium", "$80–$120", "Factory fit"],
+   ["Recycled TPE", "LASFIT", "Front + 2nd", "Medium-high", "$100–$140", "Cold climates"],
+   ["TPE + cargo kit", "IKABEVEM", "Front, 2nd, cargo", "Medium", "$90–$130", "Dog owners"],
+   ["Budget TPE", "3W", "Front + 2nd", "Medium", "$100–$140", "Value"],
+  ],
+ },
+ "picks": [
+  {"asin": "B07N7YX7WH", "role": "Best overall", "price": "$130–$170",
+   "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs grip carpet", "Front and 2nd row, 3 pieces", "Lists 2019–2024 Forester"],
+   "cons": ["Firmer than soft TPE", "Cargo liner sold separately", "Costs more than Subaru's liners"],
+   "body": "Husky's WeatherBeater 95891 is the three-piece front and second-row set for the 2019–2024 Forester. Husky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks.\n\nFor a Forester that lives in snow country or goes to trailheads, the firm, tall walls are what keep slush and mud off the carpet. The lifetime crack warranty matters most in the cold, where rigid liners are most likely to fail. The firmer material takes a warm day to relax fully after shipping.\n\nIt's more expensive than Subaru's own liners, and the cargo area isn't included. If you want both, add a cargo liner for the 5th-gen Forester. For a 2025 or later Forester, use Husky's 95381 instead. Husky's StayPut nibs are designed for carpet, which is what every 5th-gen Forester has, so the liners stay planted without extra fasteners beyond the driver-side hooks. The one-piece rear covers the center hump, which matters with a child seat or a middle passenger.",
+   "who": "Owners in snow country or who drive to trailheads.",
+   "specs": [["Part #", "Husky 95891"], ["Pieces", "3"], ["Fits", "2019–2024 Forester"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"], ["2025+", "Use Husky 95381"]]},
+  {"asin": "B07JCDW4LC", "role": "Best factory option", "price": "$80–$120",
+   "pros": ["Genuine Subaru part J501SSJ030", "Set of 4 (front and rear)", "Designed with the 5th-gen floor", "Lower price than Husky", "Dealer-supported"],
+   "cons": ["No published lifetime warranty on the listing", "Walls lower than Husky's", "Cargo liner sold separately"],
+   "body": "Subaru's genuine all-weather floor liners, J501SSJ030, are sold as a set of four for the 2019–2024 Forester. They're designed with the car, so fit at the retention hooks and footwell edges is dependable, and they cost less than Husky's set.\n\nThat makes them the sensible default for many owners. The trade-offs are wall height and paperwork: Subaru's liners don't match Husky's firm, tall walls, and the listing doesn't advertise a lifetime crack warranty. For a Forester that sees normal commuting and the occasional snowy weekend, that's usually fine.\n\nA Subaru dealer can confirm the part for your VIN and sells a matching cargo tray, which gives you a factory-look interior end to end. Genuine Subaru liners also tend to hold value when you sell the car, because buyers recognize the factory part. If a single piece wears out, the dealer can order it individually, which isn't always possible with aftermarket sets.",
+   "who": "Owners who want a factory fit at a fair price.",
+   "specs": [["Part #", "Subaru J501SSJ030"], ["Pieces", "4"], ["Fits", "2019–2024 Forester"], ["Type", "All-weather liner"], ["Price band", "$80–$120"]]},
+  {"asin": "B08M9422VV", "role": "Best TPE", "price": "$100–$140",
+   "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "3D laser-scanned", "Full cabin set", "45-day returns on LASFIT's store"],
+   "cons": ["Warranty length not stated", "Lower walls than Husky's", "Cargo sold separately"],
+   "body": "LASFIT's liners cover the first and second rows of the 2019–2024 Forester. LASFIT says they're 3D laser-scanned and made from GRS-certified recycled TPE free of PVC and phthalates, rated from −13°F to 167°F.\n\nThat cold rating is the reason to pick it for a ski car. The softer TPE stays flexible in freezing weather, grips wet boots and folds for cleaning without cracking. Walls are moderate, so empty the driver side after a heavy snow day.\n\nLASFIT's collection page doesn't state a warranty length, but its 45-day return window on its own store gives you time to check the fit. It sits between Subaru's liners and Husky's on price. LASFIT's recycled TPE is also free of the rubber smell some owners notice with cheaper mats in a hot car, which is worth mentioning for a vehicle that often sits in the sun at trailheads.",
+   "who": "Cold-climate owners who want soft TPE with a stated rating.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2019–2024 Forester"], ["Material", "Recycled TPE (GRS)"], ["Temp range", "−13°F to 167°F"], ["Returns", "45 days (LASFIT store)"]]},
+  {"asin": "B0CNW1R1LQ", "role": "Best with cargo liner", "price": "$90–$130",
+   "pros": ["Floor liners plus cargo liner in one kit", "Lists 2019–2024 Forester", "Cheapest full-interior coverage", "Raised edges", "Good for dog owners"],
+   "cons": ["No published warranty", "Little maker documentation", "Walls lower than Husky's"],
+   "body": "IKABEVEM's full set covers the front, second row and cargo area of the 2019–2024 Forester. For dog owners and anyone hauling gear, the cargo liner is the most useful piece, and getting it in the same box keeps the price down.\n\nIKABEVEM doesn't publish warranty or material specs we could check. The value is coverage per dollar: the whole interior for about the price of Husky's front and second-row set alone.\n\nCheck the cargo liner's photos against your cargo floor, and look for retention hook holes on the driver liner before ordering. If the cargo area gets hard use, a molded cargo liner with taller walls will last longer. A practical tip for dog owners: put a washable blanket over the cargo liner. The liner catches water and mud that soak through, and the blanket keeps a dog from sliding on the smooth surface during braking.",
+   "who": "Dog owners and gear haulers on a budget.",
+   "specs": [["Includes", "Front, 2nd row, cargo"], ["Fits", "2019–2024 Forester"], ["Material", "TPE (per listing)"], ["Warranty", "Confirm with seller"], ["Price band", "$90–$130"]]},
+  {"asin": "B0C23ZL7JC", "role": "Best budget", "price": "$100–$140",
+   "pros": ["Full cabin set", "Lists 2019–2024", "Flexible TPE", "Raised edges", "Easy to clean"],
+   "cons": ["No published warranty", "Priced close to LASFIT", "Cargo not included"],
+   "body": "3W's TPE liners cover the first and second rows of the 2019–2024 Forester. 3W's maker, Zhejiang Zhenya in Taizhou, China, specializes in TPE car and trunk mats, but doesn't publish warranty terms on its company site.\n\nIt's a solid everyday liner with raised edges and a Forester-specific cut. Because it's often priced close to LASFIT, compare the live prices: if LASFIT is within a few dollars, its stated cold rating and return window tip the balance.\n\nFor a commuter Forester in a mild climate, 3W is a fair choice that keeps the carpet clean without paying for a premium brand. Look at the listing photos for a one-piece rear liner across the hump and for the driver-side hook holes. Both are signs of a careful cut, and both matter more than the brand name on a budget liner.",
+   "who": "Commuters who want a TPE set at a fair price.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2019–2024 Forester"], ["Material", "TPE"], ["Maker", "Zhejiang Zhenya (3W)"], ["Price band", "$100–$140"]]},
+ ],
+ "install": [
+  "Confirm your Forester is a 2019–2024 model.",
+  "Remove the factory mats and vacuum, including the cargo area if you bought a cargo liner.",
+  "Hook the driver liner onto Subaru's retention hooks and heel-test it toward the pedals.",
+  "Fit the passenger and rear liners; recline and fold the rear seats to check clearance.",
+  "Lay the cargo liner and close the liftgate.",
+  "Press the pedals to the floor before driving.",
+ ],
+ "avoid": [
+  {"h": "2025+ liners", "body": "The new Forester has a different floor."},
+  {"h": "Crosstrek or Impreza liners", "body": "Shared platform, different floors."},
+  {"h": "Flat mats in snow country", "body": "Snowmelt needs walls."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Husky's WeatherBeater 95891 for a snow-country Forester, Subaru's J501SSJ030 for a factory fit at a fair price, and IKABEVEM if you want the cargo area covered too.",
+  "body": "The 5th-gen Forester is simple to fit: one floor for six model years and every trim. Husky has the strongest warranty and walls, Subaru's liners are the value OEM choice, LASFIT is the cold-weather TPE pick, IKABEVEM covers the cargo area and 3W is the budget option.\n\nAfter the floors, most Forester owners add a roof rack for skis or a cargo box, and a trailer hitch for a bike rack. The Forester's factory rails make crossbars straightforward.\n\nIf you're choosing between two sets and can't decide, let your climate pick. In a snow state, walls and a crack warranty matter most, which points to Husky. In a mild climate, fit and price matter most, which points to Subaru's liners or a TPE set. Either way, the cargo area deserves attention if a dog rides back there, because that carpet is harder to clean than the footwells and takes the most abuse over the years you'll own the car."},
+ "sources": [
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners 95891 Forester listing", "https://www.amazon.com/dp/B07N7YX7WH"],
+  ["Husky Liners 95381 2025–2026 Forester listing", "https://www.amazon.com/dp/B0DXX5WZRS"],
+  ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
+  ["3W / Zhejiang Zhenya company page", "https://www.3wmat.com/"],
+  ["Subaru Forester, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Forester"],
+ ],
+}
+
+FITS = [
+ ("B07N7YX7WH","Husky Liners Weatherbeater 3-piece front & 2nd row, 2019-2024 Forester (95891)","Husky Liners","$130–$170",{},"Brand-name, made in USA."),
+ ("B07JCDW4LC","Subaru Genuine All-Weather Floor Liners J501SSJ030, 2019-2024 Forester (set of 4)","Subaru","$80–$120",{},"OEM."),
+ ("B08M9422VV","LASFIT TPE Floor Liners 1st & 2nd row, 2019-2024 Forester","LASFIT","$100–$140",{},"Full cabin set."),
+ ("B0CNW1R1LQ","IKABEVEM Floor Liners + Cargo Liner full set, 2019-2024 Forester","IKABEVEM","$90–$130",{},"Includes cargo liner."),
+ ("B0C23ZL7JC","3W TPE Floor Liners 1st & 2nd row, 2019-2024 Forester","3W","$100–$140",{},"Full cabin set."),
+]
