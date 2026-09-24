@@ -1,0 +1,173 @@
+"""Long-form article — Best Floor Mats & Liners for 2023–2026 Honda Pilot (4th gen).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("honda", "pilot", "2023-present", "floor-mats")
+
+TITLE = "Best Floor Liners for 2023–2026 Honda Pilot: 6 Three-Row Sets, Plus Husky Rear Pieces"
+META = ("Six 4th-gen Honda Pilot floor liner options from Smartliner, MAXPRO, Powerty, Weize, NIKALAIKA and Husky, "
+        "with the removable second-row middle seat and TrailSport notes.")
+
+FAQ = [
+ ("Do 2016–2022 Pilot liners fit the 2023 Pilot?",
+  "No. The 2023 Pilot is a new generation with a new floor. Husky's catalog shows the split: its 18411 front liners are for 2016–2022 Pilot and 2019–2025 Passport, while its 12821 second-row and 14821 third-row liners are for 2023+. Buy liners that name 2023 or later."),
+ ("What is the Pilot's removable second-row middle seat?",
+  "On many 2023+ Pilots, the second-row middle seat can be removed and stored under the cargo floor, turning an eight-seat bench into seven seats with a walkway. That changes how the second-row floor is used, not its shape. Pick a second-row liner that covers the full width, so the walkway area is protected when the seat is out."),
+ ("Do TrailSport trims need different liners?",
+  "The TrailSport shares the cabin floor. Its rubberized all-season floor mats are standard on some model years, and some owners keep them; liners cut for the Pilot fit the same floor. Trim changes suspension and trim, not the floor pan."),
+ ("Does Husky make front liners for the 2023 Pilot?",
+  "In the listings we found, Husky offers the 2023+ Pilot's second row (WeatherBeater 12821 and X-act Contour 50931) and third row (14821), but its front-row Pilot listing (18411) is for 2016–2022. Check Husky's fit tool for a current 2023+ front piece, or pair Husky's rear pieces with a front pair from another brand."),
+ ("Do Pilot liners fit the Honda Passport?",
+  "Not for the 2023+ Pilot. The Passport is a two-row SUV with its own floor and has its own generation timeline. Buy liners that name the Passport."),
+ ("Is Smartliner's set complete?",
+  "Smartliner's Pilot set covers three rows plus a cargo liner, according to its title, for 2023–2025. Smartliner says its liners are one-piece, 100% recyclable TPE with a limited lifetime warranty."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto Honda's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
+ ("Do I need a third-row liner?",
+  "If the third row gets used, yes. It's carpeted and kids climb over it. Every set on this page except Husky's single pieces includes the third row; Husky's 14821 covers it on its own."),
+ ("How do I clean three-row liners?",
+  "Pull each row, shake out crumbs, rinse and scrub with mild soap, and dry before reinstalling. Skip silicone protectants."),
+ ("How much do Pilot liners cost?",
+  "On this page, three-row TPE sets run about $100–$160, Weize's set with cargo about $120–$160, and Smartliner's three rows plus cargo about $180–$230. Husky's single rear pieces cost less individually. Amazon prices move daily."),
+ ("Is X-act Contour or WeatherBeater better for the second row?",
+  "Husky says X-act Contour is 22% more flexible and 10% softer than WeatherBeater, with a DuraGrip surface; WeatherBeater is firmer. In a family SUV's second row, where kids climb in and out, the softer X-act Contour is pleasant underfoot. Both are made in the USA with the same lifetime warranty."),
+]
+
+ARTICLE = {
+ "dek": "Six floor liner options for the 4th-generation Pilot, from Smartliner's three rows plus cargo to Husky's made-in-USA second and third-row pieces. The Pilot's removable second-row middle seat is the quirk to plan around: the walkway it leaves needs covering too.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2023–2026 Pilot (rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**New generation in 2023.** 2016–2022 liners don't fit.",
+  "**Plan for the removable middle seat.** A full-width second-row liner covers the walkway.",
+  "**Smartliner covers everything.** Three rows plus cargo, lifetime warranty.",
+  "**Husky covers the rear rows.** 12821 or 50931 second row, 14821 third row.",
+  "**Budget three-row sets are plentiful.** MAXPRO, Powerty, NIKALAIKA.",
+ ],
+ "top_picks": [
+  {"asin": "B0C4QHXBDL", "role": "Best overall", "why": "Smartliner 3-row plus cargo liner, 2023–2025, limited lifetime warranty"},
+  {"asin": "B0DM83VB7L", "role": "Best 3-row value", "why": "MAXPRO complete 3-row set, 2023–2025"},
+  {"asin": "B0CP7NQJPD", "role": "Best for 2026", "why": "Powerty 3D TPE 3-row, 2023–2026"},
+  {"asin": "B0D8PS5X65", "role": "Best with cargo", "why": "Weize 5-piece floor mats plus cargo liners"},
+  {"asin": "B0CF68BMKG", "role": "Best made-in-USA rear", "why": "Husky X-act Contour 50931 second row, 2023–2026"},
+ ],
+ "fit_table": {
+  "caption": "2023–2026 Pilot: fit notes",
+  "head": ["Variable", "Versions", "Liner note"],
+  "rows": [
+   ["Generation", "2016–2022 vs 2023+", "Not compatible"],
+   ["Second row", "Bench with removable middle seat, or captain's chairs", "Full-width liner covers the walkway"],
+   ["Trim", "Sport, EX-L, TrailSport, Touring, Elite, Black Edition", "Same floor"],
+   ["Passport", "Separate two-row model", "Not compatible"],
+  ],
+ },
+ "look_for": [
+  {"h": "The removable second-row middle seat",
+   "body": "Honda designed the 2023 Pilot's second-row middle seat to come out and store under the cargo floor on many trims, so the same vehicle can seat eight or seven with a walkway to the third row. That's convenient, but it changes where feet land: with the middle seat removed, third-row passengers walk across the center of the second-row floor. A full-width second-row liner covers that area whether the seat is in or out. Check listing photos to make sure the second-row piece runs across the whole floor rather than stopping at the seat bases."},
+  {"h": "Rows and cargo",
+   "body": "A three-row Pilot has four zones: front, second row, third row and cargo. Smartliner covers all four. MAXPRO, Powerty and NIKALAIKA cover three rows. Weize's 5-piece adds cargo liners. Husky sells the second and third rows as single pieces. If you haul sports gear or a stroller, a cargo liner matters as much as any floor piece, because the Pilot's cargo floor also hides the storage well for the removable seat."},
+  {"h": "Generation boundary",
+   "body": "The 2023 Pilot is a new generation, so 2016–2022 liners don't fit. Husky's catalog makes the split clear, with its older 18411 front liner listed for 2016–2022 Pilot and the Passport, and new 12821, 50931 and 14821 rear pieces for 2023+. Some listings on this page stop at 2025; Powerty and NIKALAIKA run to 2026."},
+  {"h": "Warranty and material",
+   "body": "Smartliner says its liners are molded from one piece of heavy-duty, 100% recyclable TPE, free of PVC, latex and BPA, with a limited lifetime warranty; the company is based in Apopka, Florida. Husky says its liners are laser-measured, made in the USA and covered by a lifetime warranty against cracks and breaks; X-act Contour is 22% more flexible and 10% softer than WeatherBeater. MAXPRO, Powerty, Weize and NIKALAIKA don't publish comparable terms we could check."},
+  {"h": "Retention and pedal clearance",
+   "body": "Honda uses retention posts in the driver footwell. A Pilot-specific liner lines up with them. Seat the driver liner, heel-test it toward the pedals and press the brake and accelerator to the floor. Never lay a liner over the factory mat, including the TrailSport's rubber mats."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Generation", "2023+ in the title", "2016–2022 listings"],
+   ["Second row", "Full-width liner for the walkway", "Pieces that stop at the seat bases"],
+   ["Rows", "The zones you use", "Paying for rows you don't need"],
+   ["Cargo", "A cargo liner if you haul", "Bare cargo carpet"],
+   ["Retention", "Hook holes for Honda's posts", "Loose mats"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2023–2026 Pilot",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["One-piece TPE + cargo", "Smartliner", "3 rows + cargo", "Medium-high", "$180–$230", "Everything covered"],
+   ["3-row TPE", "MAXPRO, Powerty, NIKALAIKA", "3 rows", "Medium", "$100–$160", "Value"],
+   ["Mats + cargo", "Weize", "Floor + cargo", "Medium", "$120–$160", "Families who haul"],
+   ["USA-made rear pieces", "Husky 50931 / 12821 / 14821", "2nd or 3rd row", "High", "$60–$110 each", "Mixing brands"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0C4QHXBDL", "role": "Best overall", "price": "$180–$230",
+   "pros": ["Three rows plus cargo liner", "One-piece, 100% recyclable TPE", "Limited lifetime warranty", "No PVC, latex or BPA", "Covers transmission tunnel and under-seat areas, per Smartliner"],
+   "cons": ["Title stops at 2025; confirm 2026", "Walls lower than Husky's", "Costs more than 3-row budget sets"],
+   "body": "Smartliner's set covers all three rows plus the cargo area of the 2023–2025 Pilot. Smartliner says each liner is molded from a single piece of heavy-duty, 100% recyclable TPE, laser-scanned for the vehicle, free of PVC, latex and BPA, and covering wall to wall including the transmission tunnel and under-seat area. It carries a limited lifetime warranty.\n\nFor a family Pilot, one order that covers every zone with a written lifetime warranty is the strongest combination on this page. The cargo liner protects the floor that also hides the removable middle seat's storage.\n\nCheck the second-row piece in the listing photos to make sure it runs full width for the walkway. For a 2026, confirm with the seller.",
+   "who": "Families who want every zone covered with a warranty.",
+   "specs": [["Covers", "3 rows + cargo"], ["Fits", "2023–2025 Pilot"], ["Material", "One-piece TPE"], ["Warranty", "Limited lifetime"], ["Company", "Apopka, Florida"]]},
+  {"asin": "B0DM83VB7L", "role": "Best 3-row value", "price": "$120–$160",
+   "pros": ["Complete 3-row set", "Lists 2023–2025", "TPE with raised edges", "About half the price of Smartliner with cargo", "Light and easy to clean"],
+   "cons": ["No cargo liner", "No published warranty", "Confirm 2026"],
+   "body": "MAXPRO's complete 3-row set covers the front, second and third rows of the 2023–2025 Pilot. It's a TPE liner with raised edges, and it covers the zones that get the most foot traffic for a mid-range price.\n\nMAXPRO publishes little beyond the listing, so warranty and material grade are unknowns. The value is simple: three rows for well under Smartliner's price. Add a cargo liner if you haul.\n\nCheck that the second-row piece covers the full width for the removable middle seat walkway. Look at the listing photos for the driver-side retention holes and the shape of the third-row piece; a one-piece third-row liner that runs up to the seat base covers the area where kids' feet land when climbing in.",
+   "who": "Families who want three rows covered for a fair price.",
+   "specs": [["Rows", "3"], ["Fits", "2023–2025 Pilot"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$120–$160"]]},
+  {"asin": "B0CP7NQJPD", "role": "Best for 2026", "price": "$110–$150",
+   "pros": ["3-row 3D TPE", "Lists 2023–2026", "Covers the newest year", "Raised edges", "Low price"],
+   "cons": ["No cargo liner", "No published warranty", "Little maker documentation"],
+   "body": "Powerty's 3D TPE liners cover three rows of the 2023–2026 Pilot, including the newest model year. If you have a 2026, it's the safest budget option on this page.\n\nPowerty doesn't publish warranty or material specs we could check. NIKALAIKA's 3-row TPE set, also listed through 2026, is a close alternative in our product list.\n\nAs with any Pilot set, confirm the second-row piece covers the walkway before ordering. The 3D molding means each piece is shaped to the footwell rather than cut flat, which keeps water in the tray. The trade-off with budget TPE is predictability over years: without a published warranty, it's hard to know how the edges will hold up after several winters. For a family that trades cars every few years, that matters less.",
+   "who": "2026 owners and budget buyers.",
+   "specs": [["Rows", "3"], ["Fits", "2023–2026 Pilot"], ["Material", "3D TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$110–$150"]]},
+  {"asin": "B0D8PS5X65", "role": "Best with cargo", "price": "$120–$160",
+   "pros": ["Floor mats plus cargo liners", "5 pieces", "Lists 2023–2025", "Covers the cargo floor", "Mid-range price"],
+   "cons": ["Check which rows are covered", "No published warranty", "Confirm 2026"],
+   "body": "Weize's 5-piece set covers the floor plus cargo liners of the 2023–2025 Pilot. With five pieces, check the listing's diagram to see exactly which rows are covered; it's weighted toward the cabin floor and the trunk.\n\nFor families who haul gear and don't need a separate third-row piece, it's a practical middle option. Weize doesn't publish warranty terms we could check.\n\nIf you use the third row daily, a 3-row set plus a separate cargo liner may cover more. A cargo liner is especially useful on the Pilot because the cargo floor lifts to reveal the storage well where the removable middle seat lives. Keeping that floor clean keeps grit out of the well, too.",
+   "who": "Families who want floor and cargo covered.",
+   "specs": [["Pieces", "5"], ["Covers", "Floor + cargo liners"], ["Fits", "2023–2025 Pilot"], ["Material", "All-weather (per listing)"], ["Price band", "$120–$160"]]},
+  {"asin": "B0CF68BMKG", "role": "Best made-in-USA rear", "price": "$70–$110",
+   "pros": ["Husky X-act Contour, made in the USA", "Lifetime warranty against cracks and breaks", "22% more flexible, 10% softer than WeatherBeater", "DuraGrip surface", "Lists 2023–2026"],
+   "cons": ["Second row only", "Front row needs another source", "Costs more per row than budget sets"],
+   "body": "Husky's X-act Contour 50931 is a one-piece second-row liner for the 2023–2026 Pilot. Husky says X-act Contour is laser-measured, made in the USA, 22% more flexible and 10% softer than its WeatherBeater line, with a DuraGrip surface, and covered by a lifetime warranty against cracks and breaks.\n\nThe second row is where kids climb in and out and where third-row passengers walk through when the middle seat is out. A soft, grippy, warrantied liner there makes sense. Husky's WeatherBeater 12821 is the firmer alternative for the same row, and its 14821 covers the third row.\n\nIn the listings we found, Husky doesn't yet list a 2023+ Pilot front pair, so pair these with a front set from another brand, or check Husky's fit tool.",
+   "who": "Owners who want US-made liners in the rear rows.",
+   "specs": [["Part #", "Husky X-act Contour 50931"], ["Row", "2nd"], ["Fits", "2023–2026 Pilot"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"], ["3rd row", "Husky 14821"]]},
+  {"asin": "B0CF63YMF8", "role": "Best third-row piece", "price": "$60–$100",
+   "pros": ["Husky WeatherBeater third-row liner", "Made in the USA", "Lifetime warranty against cracks and breaks", "Adds third-row coverage to any set", "Lists 2023–2025"],
+   "cons": ["Third row only", "Confirm 2026", "Firm material"],
+   "body": "Husky's WeatherBeater 14821 is the third-row liner for the 2023–2025 Pilot. It's the piece to add if you bought a two-row set, or if you're building a Husky rear with the 50931 or 12821 second-row liner.\n\nThe third row is where kids ride and where crumbs and mud gather out of sight. A molded one-piece liner comes out easily for cleaning.\n\nIt carries WeatherBeater's credentials: laser-measured, made in the USA and a lifetime crack warranty. For a 2026, confirm with Husky.",
+   "who": "Owners adding third-row coverage.",
+   "specs": [["Part #", "Husky 14821"], ["Row", "3rd"], ["Fits", "2023–2025 Pilot"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+  {"asin": "B0C9ML98TG", "role": "Budget 3-row alternative", "price": "$100–$140", "pros": ["3-row TPE set", "Lists 2023–2026", "Low price", "Raised edges", "Covers the newest year"], "cons": ["No cargo liner", "No published warranty", "Little maker documentation"], "body": "NIKALAIKA's TPE 3-row liners cover the 2023–2026 Pilot, matching Powerty's year range at a similar or slightly lower price. It's a straightforward budget set for families who want every seating row covered.\n\nNIKALAIKA doesn't publish warranty or material details we could check, so compare the live prices of NIKALAIKA and Powerty and look at each listing's photos for the second-row piece: the one that runs full width across the floor is the better choice for a Pilot with the removable middle seat.\n\nAdd a cargo liner if you haul gear, and remove the factory mats before fitting.", "who": "Budget buyers who want three rows covered, including 2026.", "specs": [["Rows", "3"], ["Fits", "2023–2026 Pilot"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$100–$140"]]}
+ ],
+ "install": [
+  "Confirm your Pilot is a 2023 or later model.",
+  "Remove the factory mats from every row and vacuum; take out the middle seat if you want to check walkway coverage.",
+  "Hook the driver liner onto the retention posts and heel-test it toward the pedals.",
+  "Fit the passenger and second-row liners; slide and fold the second row to check clearance.",
+  "Fit the third-row and cargo liners; fold the third row up and down.",
+  "Press the pedals to the floor before driving.",
+ ],
+ "avoid": [
+  {"h": "2016–2022 liners", "body": "The 2023 Pilot has a new floor."},
+  {"h": "Narrow second-row pieces", "body": "The walkway needs covering when the middle seat is out."},
+  {"h": "Passport liners", "body": "Different vehicle, different floor."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Smartliner's three rows plus cargo for complete coverage with a warranty, MAXPRO or Powerty for three rows on a budget, and Husky's rear pieces if you want US-made liners where the kids sit.",
+  "body": "The 4th-gen Pilot is simple to fit within its generation. The one design quirk is the removable second-row middle seat, so pick a second-row piece that covers the full width. Smartliner covers every zone with a lifetime warranty, MAXPRO and Powerty are the three-row value picks, Weize adds cargo, and Husky's X-act Contour and WeatherBeater pieces bring US manufacturing to the rear rows.\n\nAfter the floors, most Pilot owners add a trailer hitch for a bike rack or small trailer, and a roof rack for gear on longer trips."},
+ "sources": [
+  ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky X-act Contour 50931 Pilot 2nd row listing", "https://www.amazon.com/dp/B0CF68BMKG"],
+  ["Husky WeatherBeater 14821 Pilot 3rd row listing", "https://www.amazon.com/dp/B0CF63YMF8"],
+  ["Husky WeatherBeater 18411 (2016–2022 Pilot) listing", "https://www.amazon.com/dp/B0189ZN02C"],
+  ["Honda Pilot, fourth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Honda_Pilot"],
+ ],
+}
+
+FITS = [
+ ("B0C4QHXBDL","SMARTLINER 3-Row + Cargo Liner set, 2023-2025 Pilot","SMARTLINER","$180–$230",{"rows":3},"Full set incl. cargo."),
+ ("B0DM83VB7L","MAXPRO 3-Row Complete Floor Liner Set, 2023-2025 Pilot","MAXPRO","$120–$160",{"rows":3},"Full 3-row set."),
+ ("B0CP7NQJPD","Powerty 3D TPE 3-Row Floor Liners, 2023-2026 Pilot","Powerty","$110–$150",{"rows":3},"Full 3-row set."),
+ ("B0D8PS5X65","Weize 5-Piece Floor Mats + Cargo Liners, 2023-2025 Pilot","Weize","$120–$160",{"rows":3},"Includes trunk mat."),
+ ("B0CF68BMKG","Husky Liners X-act Contour 50931 2nd Row, 2023-2026 Honda Pilot","Husky Liners","$70–$110",{"rows":3},"2nd row only."),
+ ("B0CF63YMF8","Husky Liners WeatherBeater 14821 3rd Row, 2023-2025 Honda Pilot","Husky Liners","$60–$100",{"rows":3},"3rd row only."),
+ ("B0C9ML98TG","NIKALAIKA TPE 3-Row Floor Liners, 2023-2026 Pilot","NIKALAIKA","$100–$140",{"rows":3},"Full 3-row set."),
+ ("B0FHMMZ7QZ","Husky Liners WeatherBeater 12821 2nd Row, 2023-2026 Honda Pilot","Husky Liners","$70–$110",{"rows":3},"2nd row only."),
+]
