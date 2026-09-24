@@ -33,6 +33,8 @@ FAQ = [
   "In snow country, yes. Husky says WeatherBeater is laser-measured, made in the USA and backed by a lifetime warranty against cracks and breaks, with tall walls that hold snowmelt. In a mild climate, a TPE set with a cargo liner is often the better value."),
  ("Can I buy Husky's CR-V pieces separately?",
   "Yes. Husky lists a WeatherBeater front pair (17281) and second-row piece (11491) for 2023–2026 CR-V including hybrid, and a 24411 cargo liner for the upper cargo position on 2023–2025 models including hybrid. Buying pieces lets you cover a 2023, skip the rear if you rarely carry passengers, or replace one worn piece."),
+ ("Will liners affect the CR-V's rear seat recline?",
+  "No. The CR-V's rear seats recline and fold, but the liners sit on the floor in front of the seat base. After installing, recline and fold the rear seats once to make sure the liner edge doesn't catch."),
 ]
 
 ARTICLE = {
