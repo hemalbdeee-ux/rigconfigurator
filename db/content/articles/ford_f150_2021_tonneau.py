@@ -13,7 +13,7 @@ FAQ = [
  ("What is the best tonneau cover for a 2021+ F-150?",
   "For most owners, the BAKFlip MX4 (448339 for the 5.5 ft bed): aluminum panels with polymer cores, 400 lb distributed load rating, auto-latching, a 5-year warranty and a sub-30-minute clamp-on install. If you want a hard cover for about half the money, the Gator EFX is the value pick; if you need the whole bed open without panels stacked against the cab, go RetraxPRO MX."),
  ("Do 2015–2020 F-150 tonneau covers fit a 2021 F-150?",
-  "Sometimes. Some soft covers are sold as one part for both generations — the TruXedo Lo Pro 597701 is listed for 2015–2026 on the 5.5 ft bed. Hard covers from BAK, Retrax and Gator use separate 2021+ part numbers (448339, 80378, GC24029). Buy the part number your model year is listed for; don't assume a 13th-gen cover fits."),
+  "Sometimes. Some soft covers are sold as one part for both generations — the TruXedo Lo Pro 597701 is listed for 2015–2026 on the 5.5 ft bed. Hard covers from BAK, Retrax and Gator use separate 2021+ part numbers (448339, 80378, GC24029). Buy the part number your model year is listed for; don't assume a 13th-gen cover fits. Our 2015–2020 F-150 guide covers the previous generation."),
  ("Do these covers fit the F-150 Lightning and Raptor?",
   "Both have the 5.5 ft (67.1 in) bed only. The BAKFlip MX4, RetraxPRO MX, Gator EFX and TruXedo Lo Pro listings all name the Raptor and the 2022+ Lightning; the Tyger T3 names the Lightning. For any cover not on this list, look for Lightning or Raptor in the listing title."),
  ("How do I know if I have the 5.5, 6.5 or 8 ft bed?",
@@ -34,7 +34,7 @@ FAQ = [
 
 ARTICLE = {
  "dek": "Six covers that fit the 14th-generation F-150's 5.5, 6.5 and 8 ft beds, ranked from a $229 soft tri-fold to a $1,850 retractable. For each one we list load rating, warranty and install time, and the fit details for the Lightning, Raptor and Pro Access tailgate.",
- "author": "md-hanzala",
+ "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment the maker lists for the 2021–2026 F-150, and on what F-150 owners report on the F150gen14 and F150Forum boards. Prices were checked at the manufacturer or RealTruck store in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
@@ -148,7 +148,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Measure the bed first, then pick: the BAKFlip MX4 if you can spend $1,050, the Gator EFX if you can't, and the RetraxPRO MX if you open the bed ten times a day.",
-  "body": "The best F-150 cover is the one sold for your bed length and model year. After that, the choice depends on how you use the bed. The MX4 has the best mix of load rating, warranty and daily use. The EFX gives you a lockable hard cover for about half the money. The Retrax is worth its price only if full-bed access that locks in any position saves you time every day. For a cover under $250, the Tyger T3's 5-year warranty beats cheap no-name listings.\n\nOnce the cover is on, the next upgrades are bed-side: a bed mat or liner under the cover and a tailgate-lock check. Use the vehicle hub to see every fit-checked accessory for your F-150.",
+  "body": "The best F-150 cover is the one sold for your bed length and model year. After that, the choice depends on how you use the bed. The MX4 has the best mix of load rating, warranty and daily use. The EFX gives you a lockable hard cover for about half the money. The Retrax is worth its price only if full-bed access that locks in any position saves you time every day. For a cover under $250, the Tyger T3's 5-year warranty beats cheap no-name listings.\n\nOnce the cover is on, most owners move on to the cab: laser-fit floor liners for the 14th-gen floor, and running boards if the truck sits high. The vehicle hub lists every fit-checked accessory for your F-150.",
  },
  "sources": [
   ["BAKFlip MX4 448339 (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448339/"],

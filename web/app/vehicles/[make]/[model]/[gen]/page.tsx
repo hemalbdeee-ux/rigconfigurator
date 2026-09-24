@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allVehicles, categoriesFor, fitsFor, getVehicle, pagesFor, siblingsOf, vehiclePath, vehicleTitle, yearsLabel, type Fit } from "@/lib/queries";
+import { allVehicles, categoriesFor, fitsFor, getVehicle, heroFor, pagesFor, siblingsOf, vehiclePath, vehicleTitle, yearsLabel, type Fit } from "@/lib/queries";
+import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
 import { SITE_URL, money } from "@/lib/db";
 
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
     title: `${vehicleTitle(v)} Accessories That Fit — Racks, Hitches, Covers & Mats`,
     description: `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it: bed, roof, hitch and interior.`,
     alternates: { canonical: vehiclePath(v) },
+    openGraph: { images: ogImage(await heroFor(v.id)) },
   };
 }
 
@@ -47,7 +49,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
   const { make, model, gen } = await params;
   const v = await getVehicle(make, model, gen);
   if (!v) notFound();
-  const [cats, fits, pages, sibs] = await Promise.all([categoriesFor(v.body_style), fitsFor(v.id), pagesFor(v.id), siblingsOf(v)]);
+  const [cats, fits, pages, sibs, hero] = await Promise.all([categoriesFor(v.body_style), fitsFor(v.id), pagesFor(v.id), siblingsOf(v), heroFor(v.id)]);
   const path = vehiclePath(v);
   const published = new Map(pages.filter(p => p.status === "published").map(p => [p.category_slug, p]));
   const byCat = (slug: string) => fits.filter(f => f.category_slug === slug);
@@ -81,6 +83,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
       <div className="crumbs"><Link href="/vehicles">Vehicles</Link> › {v.make_name} › {v.model_name} › {v.gen_name}</div>
       <h1>{vehicleTitle(v)} Accessories That Fit</h1>
       <p className="muted">{v.summary}</p>
+      <Hero h={hero} alt={`${vehicleTitle(v)} (${v.gen_name})`} priority />
 
       <div className="stats">
         <div><strong>{ready.length}</strong><span>fit-checked guides</span></div>
@@ -112,7 +115,8 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
             <h2>{c.name}</h2>
             <p>{categoryBlurb(c.slug, v)}</p>
             <div className="mini-list">{list.slice(0, 3).map((f, i) => <MiniPick key={f.id} f={f} rank={i + 1} page={path} />)}</div>
-            <p><Link href={`${path}/${c.slug}`}>{list.length > 3 ? `See all ${list.length} fit-checked ${c.name.toLowerCase()} →` : `Full ${c.name.toLowerCase()} guide: ${p.title} →`}</Link></p>
+            <p><Link href={`${path}/${c.slug}`}>{list.length > 3 ? `See all ${list.length} fit-checked ${c.name.toLowerCase()} →` : `Full ${c.name.toLowerCase()} guide: ${p.title} →`}</Link>
+              <span className="muted" style={{ fontSize: 14 }}> · <Link href={`/guides/${c.slug}`}>{c.name} for other vehicles</Link></span></p>
           </section>
         );
       })}

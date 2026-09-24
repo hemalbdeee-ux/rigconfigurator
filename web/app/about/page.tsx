@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function About() {
-  const a = AUTHORS["md-hanzala"];
+  const a = AUTHORS["jake-morrison"];
   return (
     <article className="art">
       <h1>About Rig Configurator</h1>
@@ -20,10 +20,11 @@ export default function About() {
       <p>Unless an article says it was installed and used by us, our picks are based on published specifications, fitment data and owner reports — not our own hands-on testing. Each long-form guide lists its sources and a &ldquo;How we chose&rdquo; note.</p>
       <h2>Who runs the site</h2>
       <section className="author">
-        <div className="avatar">MH</div>
+        <div className="avatar">JM</div>
         <div><strong>{a.name}</strong> <span className="muted">· {a.role}</span><p style={{ margin: "4px 0" }}>{a.bio}</p>
           <div>{a.facts.map(x => <span key={x} className="pill">{x}</span>)}</div></div>
       </section>
+      <p className="muted" style={{ fontSize: 14 }}>&ldquo;Jake Morrison&rdquo; is the pen name of Rig Configurator&apos;s founder. The bio above describes his actual work on the site.</p>
       <h2>How the site makes money</h2>
       <p>We earn a commission when you buy through our Amazon links, at no extra cost to you. Commissions never change which product ranks where. Read the <Link href="/disclosure">affiliate disclosure</Link>.</p>
       <h2>Found a fitment error?</h2>

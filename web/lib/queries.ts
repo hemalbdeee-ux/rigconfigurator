@@ -91,3 +91,24 @@ export async function relatedGuides(vehicleId: number, categoryId: number, limit
     ORDER BY (fp.vehicle_id=$1) DESC, (v.make_id=(SELECT make_id FROM vehicles WHERE id=$1)) DESC, v.year_from DESC
     LIMIT $3`, [vehicleId, categoryId, limit]);
 }
+
+export type Hero = { file: string; width: number; height: number; title: string; author: string; license: string; license_url: string | null; source_url: string };
+
+export async function heroFor(vehicleId: number): Promise<Hero | null> {
+  try {
+    const r = await q<Hero>(`SELECT file, width, height, title, author, license, license_url, source_url FROM vehicle_images WHERE vehicle_id=$1 AND status='approved'`, [vehicleId]);
+    return r[0] ?? null;
+  } catch { return null; } // table missing before migration 008
+}
+
+export type CategoryIndexRow = { category_slug: string; category_name: string; path: string; title: string; make_name: string; vehicle: string };
+
+export async function publishedGuides(categorySlug?: string): Promise<CategoryIndexRow[]> {
+  return q<CategoryIndexRow>(`
+    SELECT c.slug AS category_slug, c.name AS category_name, fp.title, m.name AS make_name,
+           '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path,
+           v.year_from||'–'||COALESCE(v.year_to::text,'present')||' '||m.name||' '||v.model_name AS vehicle
+    FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
+    WHERE fp.status='published' ${categorySlug ? "AND c.slug=$1" : ""}
+    ORDER BY c.sort, m.name, v.model_name, v.year_from DESC`, categorySlug ? [categorySlug] : []);
+}

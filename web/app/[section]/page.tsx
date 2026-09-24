@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 // Placeholder for silos not built yet. Replace each with its own route folder as you build it.
 const SECTIONS: Record<string, string> = {
   build: "Builder — pick a vehicle, fill slots with fit-checked parts, see a running total.",
-  guides: "Guides — cross-vehicle buying guides and install how-tos.",
   tools: "Tools — hitch class finder, bed-length checker, tow capacity calculator.",
   deals: "Deals — Amazon price drops on racks, covers and hitches.",
   laws: "Laws by state — window tint, lift height, light bar rules.",

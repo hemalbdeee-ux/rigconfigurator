@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allFitmentPaths, fitsFor, getCategory, getFitmentPage, getVehicle, relatedGuides, vehiclePath, vehicleTitle } from "@/lib/queries";
+import { allFitmentPaths, fitsFor, getCategory, getFitmentPage, getVehicle, heroFor, relatedGuides, vehiclePath, vehicleTitle } from "@/lib/queries";
+import { linkMap } from "@/lib/links";
+import { ogImage } from "@/components/Hero";
 import { ArticleView, type Article } from "@/components/ArticleView";
 import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
@@ -19,8 +21,8 @@ async function load(p: P) {
   const v = await getVehicle(p.make, p.model, p.gen);
   const c = await getCategory(p.category);
   if (!v || !c) return null;
-  const [fits, page, related] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id), relatedGuides(v.id, c.id)]);
-  return { v, c, fits, page, related };
+  const [fits, page, related, hero, links] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id), relatedGuides(v.id, c.id), heroFor(v.id), linkMap(v, c.slug)]);
+  return { v, c, fits, page, related, hero, links };
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
@@ -32,6 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
     description: d.page?.meta_desc ?? `${d.c.name} verified to fit the ${vehicleTitle(d.v)}, with prices and fit notes.`,
     alternates: { canonical: `${vehiclePath(d.v)}/${d.c.slug}` },
     robots: d.page?.status === "published" ? undefined : { index: false },
+    openGraph: { title, type: "article", images: ogImage(d.hero) },
   };
 }
 
@@ -49,7 +52,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   const p = await params;
   const d = await load(p);
   if (!d) notFound();
-  const { v, c, fits, page, related } = d;
+  const { v, c, fits, page, related, hero, links } = d;
   const article: Article | null = page?.article ?? null;
   const path = `${vehiclePath(v)}/${c.slug}`;
   const title = page?.title ?? `Best ${c.name} for ${vehicleTitle(v)}`;
@@ -67,7 +70,8 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
       ...(article ? [{ "@type": "Article", headline: title, description: page?.meta_desc, mainEntityOfPage: `${SITE_URL}${path}`,
         author: { "@type": "Person", name: getAuthor(article.author).name, url: `${SITE_URL}/about` },
         publisher: { "@type": "Organization", name: "Rig Configurator", url: SITE_URL },
-        dateModified: article.reviewed ?? page?.updated_at, datePublished: page?.verified_at }] : []),
+        dateModified: article.reviewed ?? page?.updated_at, datePublished: page?.verified_at,
+        ...(hero ? { image: `${SITE_URL}/img/${hero.file}` } : {}) }] : []),
       ...(faq.length ? [{ "@type": "FAQPage", mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
     ],
   };
@@ -75,7 +79,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   if (article) return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ArticleView v={v} c={c} fits={fits} a={article} title={title} faq={faq} related={related} path={path} verifiedAt={page?.verified_at} />
+      <ArticleView v={v} c={c} fits={fits} a={article} title={title} faq={faq} related={related} path={path} verifiedAt={page?.verified_at} hero={hero} links={links} />
     </>
   );
 

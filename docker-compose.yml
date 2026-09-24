@@ -15,6 +15,9 @@ services:
       SITE_URL: https://${DOMAIN:-rigconfigurator.com}
       AMAZON_TAG: ${AMAZON_TAG:-rigconfig-20}
       REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
+      IMG_DIR: /app/img
+    volumes:
+      - ./pipeline/data/img:/app/img:ro   # licensed hero photos from pipeline/fetch_images.py
     depends_on:
       db:
         condition: service_healthy
