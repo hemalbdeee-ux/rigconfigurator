@@ -1,0 +1,167 @@
+"""Long-form article — Best Floor Mats & Liners for 2015–2020 Ford F-150 (13th gen, P552).
+No invented hands-on testing: fit facts from listing titles in FITS and maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("ford", "f-150", "2015-2020", "floor-mats")
+
+TITLE = "Best Floor Liners for 2015–2020 Ford F-150: 6 SuperCrew & SuperCab Sets Checked by Cab and Rear Floor"
+META = ("Six floor liner sets listed for the 13th-gen F-150, from Husky WeatherBeater to $80 TPE, sorted by cab, "
+        "bench vs buckets and rear storage so the first order fits.")
+
+FAQ = [
+ ("Are 2015–2020 and 2021+ F-150 floor liners the same?",
+  "For the SuperCrew, very often. Husky lists its WeatherBeater 94041 for 2015–2026 SuperCrew, and OEDRO lists its liner for 2015–2025 SuperCrew. That means a set you buy now can move to a newer truck later. The exceptions are rear-floor options: a truck with a fold-flat or under-seat storage floor needs a matching second-row piece in either generation, so the rear floor matters more than the model year."),
+ ("What's the difference between SuperCrew and SuperCab liners?",
+  "The SuperCrew has four full-size doors and a long rear floor; the SuperCab has smaller rear-hinged doors and a much shorter rear footwell. The front rows are often shared, which is why Husky's 18361 front pair lists both. The rear liners are not interchangeable. Husky sells the 94051 three-piece set for the SuperCab only. Count your door handles: SuperCab rear doors open only after the front door is open."),
+ ("Do I need a different liner for a front bench seat?",
+  "The front floor is the same shape, but coverage differs. AKM's listing specifies bucket seats, so check whether the maker cut the center area for a console. Trucks with the 40/20/40 bench leave a center strip of carpet exposed with most two-piece front liners, and some makers sell a separate center piece. If you have a column shifter and a bench, a front liner cut for a floor console may leave a gap at the middle."),
+ ("Will these fit a 2015–2020 F-150 Raptor?",
+  "The Raptor SuperCrew uses the F-150 SuperCrew cab, and liners listed for SuperCrew generally include it, but not every budget listing names it. Confirm with the seller for a Raptor, because some Raptor interiors and seat options differ from standard trucks. The SuperCab Raptor (2017–2020 had both cabs) needs a SuperCab set."),
+ ("My F-150 XL has a vinyl floor. Do I need liners?",
+  "Vinyl floors clean easily, so many XL owners skip liners. If you want them anyway, a liner with raised walls keeps water off the vinyl and out of the seams around the seat bolts. Husky's 94041 listing says 'with carpet', so a nibbed underside is meant for carpet; on vinyl it still sits in the footwell but can shift more. Keep the driver liner hooked to the retention posts."),
+ ("Which liner is best for winter salt?",
+  "One with high walls and a crack warranty. Salt slush pools and then spills over low edges onto the carpet, and road salt stains carpet quickly. Husky's WeatherBeater carries a lifetime warranty against cracks and breaks, which matters because rigid liners can crack when bent in the cold. Empty the liners every few days in winter so the slush doesn't overflow."),
+ ("Are cheap TPE liners safe under the pedals?",
+  "Yes, if they fit the retention posts and don't stack on a carpet mat. The pedal risk comes from a mat that slides, not from its material. Every listing on this page claims a custom F-150 cut. After installing, push the driver liner toward the pedals with your heel and check full brake and throttle travel before driving."),
+ ("Do these liners include the rear center hump?",
+  "The sets here use one-piece rear liners that run across the center hump, based on their listing photos and piece counts. Some older-style sets use two rear pieces with the hump exposed. On a SuperCrew with kids in the middle seat, a one-piece rear liner is the better buy."),
+ ("How do I clean F-150 liners?",
+  "Take them out, rinse with a hose, scrub with mild soap and a stiff brush, and let them dry before putting them back. Don't use tire shine or silicone sprays, which leave the surface slippery under wet boots. A pressure washer on a low setting is fine for rubber and TPE liners if you keep the nozzle away from the edges."),
+]
+
+ARTICLE = {
+ "dek": "Six floor liner sets listed for the 13th-generation F-150, from made-in-USA Husky WeatherBeater down to $80 TPE. Three things decide fit: your cab, your front seat and what's under your rear seat.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fitment stated in each listing for the 2015–2020 F-150 (cab, seats, rear storage), on maker specs (material, origin, warranty, grip) and on coverage visible in listing photos. Maker claims were read on Husky Liners pages in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Cab first.** SuperCrew and SuperCab rear floors are different lengths. Front pairs are often shared; rear liners never are.",
+  "**Many sets span two generations.** Husky and OEDRO list their SuperCrew liners from 2015 into 2025–2026.",
+  "**Rear storage changes the rear liner.** Several listings exclude trucks with fold-flat under-seat storage.",
+  "**Bench vs buckets matters at the center.** A bench leaves a strip of carpet that two-piece front liners don't cover.",
+  "**Husky WeatherBeater is the documented pick.** Made in the USA, laser-measured, lifetime crack warranty.",
+ ],
+ "top_picks": [
+  {"asin": "B07QG3X6NH", "role": "Best overall", "why": "Husky WeatherBeater 94041, 2015–2026 SuperCrew without fold-flat storage, made in USA"},
+  {"asin": "B07BDNY9SF", "role": "Best TPE value", "why": "OEDRO all-weather TPE, 2015–2025 SuperCrew, full two-row set"},
+  {"asin": "B07C5XT7CN", "role": "Best for bucket seats", "why": "AKM TPE liners cut for the bucket-seat front layout"},
+  {"asin": "B0955QR36Y", "role": "Best budget", "why": "Motor Trend 3D contour-fit mats for the SuperCrew"},
+  {"asin": "B07QKG3GJW", "role": "Best for SuperCab", "why": "Husky WeatherBeater 94051, the SuperCab-only 3-piece set"},
+ ],
+ "fit_table": {
+  "caption": "2015–2020 F-150: layouts that change which liner fits",
+  "head": ["Area", "Versions", "What it means for liners"],
+  "rows": [
+   ["Cab", "Regular Cab, SuperCab, SuperCrew", "Rear liners are cab-specific. Husky 94051 is SuperCab; 94041 is SuperCrew."],
+   ["Front seats", "40/20/40 bench or buckets with console", "AKM is cut for buckets; bench trucks leave a center strip exposed."],
+   ["Rear floor (SuperCrew)", "Plain floor or under-seat storage options", "OEDRO and Husky 94041 exclude fold-flat storage; confirm with the seller."],
+   ["Floor", "Carpet or vinyl (work trims)", "Nibbed liners are designed for carpet; on vinyl rely on walls and retention posts."],
+   ["Raptor", "SuperCab (2017–2020) or SuperCrew", "Use the matching cab set and confirm Raptor with the seller."],
+  ],
+ },
+ "look_for": [
+  {"h": "The right cab, then the right rear floor",
+   "body": "The 13th-gen F-150 came as a Regular Cab, a SuperCab with rear-hinged half doors, and a SuperCrew with four full doors. Front footwells are close enough that Husky's 18361 front pair lists both SuperCab and SuperCrew, but the rear floor is completely different in length. The SuperCab's short rear floor needs its own liner, like the Husky 94051 set. On the SuperCrew, check under the rear seat cushion. OEDRO and Husky's 94041 both say 'without fold-flat storage', so if your truck has a storage system under the rear seat, get the seller to confirm fit before you order. The rear piece is where most returns happen on this truck."},
+  {"h": "Front seat layout and the center strip",
+   "body": "XL and XLT trucks commonly use a 40/20/40 front bench with a column shifter, while higher trims use two buckets with a floor console. The front footwells don't change, but the center floor does. With a console, it's covered. With a bench, there's a strip of carpet in the middle where a third passenger puts their feet, and most two-piece front liners don't reach it. AKM's listing calls out bucket seats specifically. If you carry a middle passenger, look for a set with a center piece, or accept that strip will get dirty. It's a small area, but it's the one area that takes wet boots on a crew truck."},
+  {"h": "Wall height at the sill and pedals",
+   "body": "A liner's job is to hold water, mud and slush inside a raised tray until you dump it. The F-150's door sills are high, so boots drag across the liner edge every time someone climbs in. Look for walls that run up to the sill plate and a lip that's stiff enough to stay up. On the driver side, check that the liner stops clear of the pedals and hooks to Ford's retention posts. After installing, push toward the pedals with your heel; it shouldn't move. Low-walled 'contour' mats are cheaper and easier to fit but let deep slush over the edge."},
+  {"h": "Material, warranty and cold behavior",
+   "body": "Husky's WeatherBeater is made in the USA from its ProGard formula and carries a lifetime warranty against cracks and breaks, according to Husky, with StayPut nibs on the underside. OEDRO, AKM and Broryan sell TPE liners, which are flexible, odor-free when new and easy to clean. Motor Trend and BDK sell softer contour mats with lower walls. The practical difference shows up in cold weather: rigid liners can crack if you fold them at 10°F, and cheap TPE can curl at the edges after years in the sun. A stated warranty is the easiest proxy for how a brand expects its material to age."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Cab", "Listing names SuperCrew or SuperCab", "\"Fits F-150\" with no cab"],
+   ["Rear storage", "A note on under-seat storage compatibility", "Rear liners that don't mention storage options"],
+   ["Front seats", "Bucket or bench layout named where it matters", "Assuming a console cut fits a bench truck"],
+   ["Retention", "Holes for Ford's driver-side posts", "Mats that slide under the pedals"],
+   ["Walls", "Raised lip up to the sill", "Flat trim-to-fit mats"],
+   ["Warranty", "Stated crack or lifetime warranty", "No warranty terms at all"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2015–2020 F-150",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["USA-made molded liner", "Husky WeatherBeater", "Front + rear", "High", "$150–$220", "Work trucks, winter"],
+   ["Laser-fit TPE liner", "OEDRO, AKM, Broryan", "Front + rear", "Medium-high", "$80–$130", "Most owners"],
+   ["3D contour mat", "Motor Trend, BDK", "Front + rear", "Low-medium", "$80–$120", "Budget, mild climates"],
+   ["Front pair only", "Husky 18361", "Front", "High", "$90–$130", "Trucks with empty rear seats"],
+  ],
+ },
+ "picks": [
+  {"asin": "B07QG3X6NH", "role": "Best overall", "price": "$150–$220",
+   "pros": ["Made in the USA from Husky's ProGard material", "Lifetime warranty against cracks and breaks", "StayPut nibs grip the carpet", "Listing spans 2015–2026 SuperCrew, so it moves to a newer truck", "One-piece rear liner across the hump"],
+   "cons": ["Excludes trucks with fold-flat rear storage", "Firmer feel than soft TPE", "Listing specifies carpeted floors"],
+   "body": "Husky's WeatherBeater 94041 is the best-documented liner set for a 13th-gen SuperCrew. The listing covers 2015–2026 F-150 SuperCrew trucks with carpet and without fold-flat storage, which is a useful signal: Husky treats the cab floor as unchanged across two generations, so the set can move with you to a newer F-150. It's three pieces, with driver and passenger fronts and a one-piece rear.\n\nHusky says WeatherBeater is laser-measured with vehicle-specific data, made in the USA from its ProGard formula, and anchored by StayPut nibs on the underside. The lifetime warranty covers cracks and breaks, the most common way a liner fails on a truck that lives outdoors in the north. The trade-offs are the firmer feel, which Husky itself contrasts with its softer X-act Contour line, and the storage exclusion. If your rear seat hides a storage system, confirm the rear piece with Husky's fitment tool or the seller first.",
+   "who": "SuperCrew owners without rear under-seat storage who want the longest-warranty liner.",
+   "specs": [["Part #", "Husky 94041"], ["Pieces", "3"], ["Fits", "2015–2026 F-150 SuperCrew, carpet, without fold-flat storage"], ["Material", "ProGard"], ["Grip", "StayPut nibs"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+  {"asin": "B07BDNY9SF", "role": "Best TPE value", "price": "$90–$130",
+   "pros": ["Full front and rear set", "Listing spans 2015–2025 SuperCrew", "TPE is flexible and easy to wash", "Raised edges", "Much cheaper than Husky"],
+   "cons": ["Not for rear under-seat fold-flat storage", "Warranty terms are thinner than Husky's", "No SuperCab version in this listing"],
+   "body": "OEDRO's all-weather TPE liners are the value pick for SuperCrew owners. The listing covers 2015–2025 F-150 SuperCrew and clearly excludes trucks with rear fold-flat storage. You get a full front and rear set with raised edges for about half the price of the Husky.\n\nTPE is the right material for a truck that gets hosed out often. It flexes when you pull it out, doesn't smell like rubber and wipes clean. What you give up is documentation: OEDRO doesn't publish a crack warranty or cold rating we could check, so it's harder to predict how the liner will age after several northern winters. In daily use, the fit claims are what matter, and OEDRO lists a truck-specific cut. As with every liner here, remove the factory carpet mat and hook the driver side to the retention posts. For a SuperCrew with a plain rear floor and a budget near $100, this is the set to start with.",
+   "who": "SuperCrew owners who want a full liner set for about $100.",
+   "specs": [["Rows", "Front + rear"], ["Fits", "2015–2025 F-150 SuperCrew, not rear fold-flat storage"], ["Material", "TPE"], ["Walls", "Raised edges"], ["Price band", "$90–$130"]]},
+  {"asin": "B07C5XT7CN", "role": "Best for bucket seats", "price": "$90–$130",
+   "pros": ["Listing specifies the bucket-seat layout", "1st and 2nd row", "TPE construction", "SuperCrew-specific cut", "Good middle price point"],
+   "cons": ["Bench-seat trucks should look elsewhere", "Confirm rear storage compatibility", "Listing stops at 2020"],
+   "body": "AKM's TPE liners stand out for one detail: the listing calls out the bucket-seat front layout on the 2015–2020 SuperCrew. That's useful if you have the console and want a liner shaped to it. The set covers the first and second rows.\n\nThe flip side is that bench-seat trucks, common on XL and XLT, should pick another set, because a front liner cut around a console can leave odd gaps next to a bench. The listing is also limited to 2015–2020, so it won't follow you to a 14th-gen truck the way Husky or OEDRO might. AKM doesn't publish a spec sheet we could check for warranty or cold rating. Before ordering, look under your rear cushion and ask the seller whether the rear piece fits your storage setup. For a Lariat, King Ranch or Platinum with buckets, it's a reasonable mid-price choice.",
+   "who": "Bucket-seat SuperCrews, typically Lariat and above.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2015–2020 F-150 SuperCrew, bucket seats"], ["Material", "TPE"], ["Front layout", "Buckets with console"], ["Price band", "$90–$130"]]},
+  {"asin": "B0955QR36Y", "role": "Best budget", "price": "$80–$120",
+   "pros": ["Low price for a full SuperCrew set", "Soft 3D contour shape", "Lighter than rigid liners", "Easy to trim if needed", "Quick to pull out and shake"],
+   "cons": ["Lower walls hold less water", "Less rigid, so edges can fold under", "SuperCrew only"],
+   "body": "Motor Trend's 3D Contour-Fit mats are the cheapest way to cover a SuperCrew's floor. They sit between a flat rubber mat and a rigid liner: shaped to the footwell, softer and with lower walls. The listing covers the 2015–2020 F-150 SuperCrew.\n\nThat design suits mild climates and family use. They're light, easy to carry to a hose and flexible enough that shipping creases disappear quickly. In snow and salt country the lower walls are the limit: melted slush can run over the edge onto the carpet if you don't empty them often. BDK sells a similar Motor Trend-branded contour set listed for 2015–2022 SuperCrew, which is in our product list as an alternative. If you want the look of a liner without the stiffness, this is a fair compromise, but don't expect the containment of a WeatherBeater.",
+   "who": "Budget buyers in mild climates who want soft, easy-to-clean mats.",
+   "specs": [["Type", "3D contour mat"], ["Fits", "2015–2020 F-150 SuperCrew"], ["Walls", "Low-medium"], ["Material", "Rubber-like (per listing)"], ["Price band", "$80–$120"]]},
+  {"asin": "B07QKG3GJW", "role": "Best for SuperCab", "price": "$150–$210",
+   "pros": ["Built for the SuperCab's short rear floor", "Same WeatherBeater material and warranty", "Made in the USA", "Covers 2015–2026 SuperCab", "3 pieces, front and rear"],
+   "cons": ["SuperCab only", "Priced like the SuperCrew set despite less rear floor", "Firm feel"],
+   "body": "SuperCab owners have fewer choices, because most budget brands only cut SuperCrew liners. Husky's 94051 set is listed for 2015–2026 F-150 SuperCab only, with front and second-row pieces shaped for the shorter rear floor behind the rear-hinged doors.\n\nIt shares everything that makes the 94041 the top pick: laser-measured fit, USA manufacturing, ProGard material, StayPut nibs and a lifetime warranty against cracks and breaks. SuperCab rear floors often carry tools and gear rather than passengers, and a firm liner with walls keeps dirt from those loads off the carpet. The long listing span also means a SuperCab set bought for a 2016 truck should fit a 2023 SuperCab if you trade up. It isn't cheap for the amount of floor it covers, but there's little else cut for this cab.",
+   "who": "SuperCab owners who want a liner cut for their rear floor, not a trimmed SuperCrew set.",
+   "specs": [["Part #", "Husky 94051"], ["Pieces", "3"], ["Fits", "2015–2026 F-150 SuperCab only"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+  {"asin": "B0CQ21CCXQ", "role": "Budget TPE alternative", "price": "$80–$120",
+   "pros": ["Lowest-price full TPE set here", "Listing spans 2015–2025 SuperCrew", "Front and rear", "Raised edges", "Flexible for cleaning"],
+   "cons": ["Not for fold-flat storage", "Little maker documentation", "Confirm bench vs buckets with seller"],
+   "body": "Broryan's TPE set is another budget route for the SuperCrew, listed for 2015–2025 with 1st and 2nd row pieces and the familiar exclusion for fold-flat storage. It matches OEDRO on paper and often sells for a bit less.\n\nThe reason to pick it over the Motor Trend mats is containment: it's a liner with raised edges rather than a soft contour mat. The reason to pick OEDRO or Husky over it is information. Broryan publishes little beyond the listing, so warranty and material grade are unknowns. For a truck that's mostly a commuter, the risk is low. For a work truck in a salt state, the extra $50–$100 for a warranty-backed Husky is easy to justify. Check the listing photos for retention post holes and confirm your front-seat layout with the seller before ordering.",
+   "who": "Commuter SuperCrews where price matters most.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2015–2025 F-150 SuperCrew, without fold-flat storage"], ["Material", "TPE"], ["Price band", "$80–$120"], ["Warranty", "Confirm with seller"]]},
+ ],
+ "install": [
+  "Confirm your cab (SuperCab or SuperCrew), front seat layout and whether anything sits under the rear seat cushion.",
+  "Remove the factory carpet mats and vacuum. Liners must sit directly on the carpet, never on another mat.",
+  "Set the driver liner first and press it onto Ford's retention posts. Check that it can't slide toward the pedals.",
+  "Fit the passenger liner, working the wall up against the console or bench and the door sill.",
+  "Lay the rear liner across the center hump and tuck it under the front seat rails where the design allows.",
+  "Let stiff liners warm in the cab for an hour, then recheck edges and full pedal travel before driving.",
+ ],
+ "avoid": [
+  {"h": "Ordering a SuperCrew rear on a SuperCab", "body": "The rear floors are different lengths. Only the front pair is sometimes shared."},
+  {"h": "Ignoring the rear storage note", "body": "Several listings exclude fold-flat storage. Check under the rear cushion before buying."},
+  {"h": "Stacking liners on factory mats", "body": "It lets the liner slide into the pedals. Remove the carpet mats first."},
+  {"h": "Low-wall mats in salt country", "body": "Contour mats let slush over the edge. Pick a raised-wall liner and empty it often."},
+ ],
+ "verdict": {
+  "thesis": "Buy the Husky WeatherBeater 94041 for a SuperCrew, the 94051 for a SuperCab, and OEDRO if you want a full TPE set for around $100.",
+  "body": "The 13th-gen F-150 is easy to fit once you know three things: your cab, your front seat layout and your rear floor. Husky's WeatherBeater sets are the most documented and the only ones here with a lifetime crack warranty, and the SuperCrew set spans 2015 to 2026, so it can follow you to a newer truck. OEDRO and Broryan give you a full TPE set for about half the money, and AKM is the pick for bucket-seat trucks. Motor Trend's contour mats are fine in mild climates.\n\nOnce the cab is covered, most owners turn to the bed and the steps: a tonneau cover keeps the bed dry, and running boards cut the mud that reaches the sill. If you've moved to a 2021–2026 F-150, the same Husky set often carries over; see our page for that generation for the fold-flat storage options."},
+ "sources": [
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners WeatherBeater 94041 listing", "https://www.amazon.com/dp/B07QG3X6NH"],
+  ["Husky Liners WeatherBeater 94051 SuperCab listing", "https://www.amazon.com/dp/B07QKG3GJW"],
+  ["Husky Liners 18361 front row listing", "https://www.amazon.com/dp/B00RPGWE9C"],
+  ["OEDRO F-150 SuperCrew liners listing", "https://www.amazon.com/dp/B07BDNY9SF"],
+  ["Ford F-Series, thirteenth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_F-Series_(thirteenth_generation)"],
+ ],
+}
+
+FITS = [
+ ("B07QG3X6NH","Husky Liners WeatherBeater 94041, 2015-2026 F-150 SuperCrew, carpet, without fold-flat storage","Husky Liners","$150–$220",{"cab":"SuperCrew","fold_flat_storage":False},"Made in USA; not for fold-flat storage."),
+ ("B07BDNY9SF","OEDRO All-Weather TPE Floor Liners, 2015-2025 F-150 SuperCrew (not rear fold-flat storage)","OEDRO","$90–$130",{"cab":"SuperCrew","fold_flat_storage":False},"Not for rear under-seat fold-flat storage."),
+ ("B07C5XT7CN","AKM TPE Floor Liners 1st & 2nd row, 2015-2020 F-150 SuperCrew (bucket seats)","AKM","$90–$130",{"cab":"SuperCrew","front":"bucket"},"Bucket-seat layout; confirm rear storage with seller."),
+ ("B0955QR36Y","Motor Trend 3D Contour-Fit Floor Mats, 2015-2020 F-150 SuperCrew","Motor Trend","$80–$120",{"cab":"SuperCrew"},"SuperCrew only; lower walls."),
+ ("B07QKG3GJW","Husky Liners WeatherBeater 94051, 2015-2026 F-150 SuperCab only, front & 2nd row","Husky Liners","$150–$210",{"cab":"SuperCab"},"SuperCab only."),
+ ("B0CQ21CCXQ","Broryan TPE Floor Liners 1st & 2nd row, 2015-2025 F-150 SuperCrew (w/o fold-flat storage)","Broryan","$80–$120",{"cab":"SuperCrew","fold_flat_storage":False},"Not for fold-flat storage."),
+ ("B0955VCWT1","BDK Motor Trend 3D Contour Liners front & 2nd row, 2015-2022 F-150 SuperCrew","BDK","$80–$120",{"cab":"SuperCrew"},"Covers 2015-2022."),
+ ("B00RPGWE9C","Husky Liners WeatherBeater 18361 Front Row, 2015-2025 F-150 SuperCrew & SuperCab","Husky Liners","$90–$130",{},"Front row only."),
+]

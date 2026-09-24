@@ -1,0 +1,166 @@
+"""Long-form article — Best Floor Mats & Liners for 2024–2026 Toyota Tacoma (4th gen, N400).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("toyota", "tacoma", "2024-present", "floor-mats")
+
+TITLE = "Best Floor Liners for 2024–2026 Toyota Tacoma Double Cab: 5 Picks, Gas vs i-FORCE MAX Hybrid"
+META = ("Five 4th-gen Tacoma Double Cab liner sets from WeatherTech, Toyota, LASFIT and budget TPE, with the hybrid "
+        "exclusions, manual-transmission front and XtraCab notes.")
+
+FAQ = [
+ ("Why do some Tacoma liners exclude the hybrid?",
+  "The i-FORCE MAX hybrid places its battery under the rear seat of the Double Cab, which changes the rear floor and under-seat area. LASFIT and COZONY both list their 2024+ sets as not for the hybrid. If you have a TRD Pro, a Trailhunter or any Tacoma with the i-FORCE MAX badge, buy a set that names the hybrid or ask the seller before ordering."),
+ ("Do 3rd-gen (2016–2023) Tacoma liners fit a 2024?",
+  "No. The 2024 Tacoma moved to Toyota's TNGA-F platform with a new cab and floor. None of the 3rd-gen sets carry over. Buy liners listed for 2024 and later."),
+ ("Is there a different liner for the manual Tacoma?",
+  "Yes, for the front row. Husky sells a front pair for 2024–2025 Double and XtraCab trucks with the manual transmission (13931) and a separate one for automatics (13921). WeatherTech's set on this page is listed for automatics. If you have a clutch pedal, buy a manual-specific front."),
+ ("What about the XtraCab?",
+  "The 2024+ XtraCab has no rear seat, just a storage area behind the front seats. Front pairs are sometimes shared with the Double Cab, as with Husky's 13921 and 13931, but the full sets on this page are Double Cab only. XtraCab owners should buy a front pair and, if needed, a cargo-area liner cut for that cab."),
+ ("Are Toyota's own all-weather liners worth it?",
+  "They're the safest fit because Toyota designs them with the floor and retention hooks. The part on this page (PT206-35242-20) is listed for 2024+ Double Cab. You pay more than for budget TPE, and the walls are typically not as tall as WeatherTech's. If you want a dealer part number and a factory look, it's a good buy."),
+ ("Does the TRD Pro need special liners?",
+  "The TRD Pro is a hybrid, so the hybrid rule applies to the rear piece. Its IsoDynamic front seats sit on the same floor, so front liners for the Double Cab should fit, but confirm with the seller. The Trailhunter is also hybrid-only."),
+ ("How do I keep the driver liner in place?",
+  "Remove the factory carpet mat, then hook the liner onto the retention posts. Heel-test it toward the pedals and press the brake, throttle and clutch (on manuals) to the floor. If the liner touches a pedal, stop and recheck the fit."),
+ ("Will a Tacoma bed mat or tonneau affect which floor liners I buy?",
+  "No. Bed accessories fit by bed length, 5 ft or 6 ft on the 2024+ Tacoma, and cab liners fit by cab, powertrain and transmission. They're separate purchases. Some brands sell bundles of floor liners plus a bed mat; if you buy one, check that the bed mat matches your bed length and that the cab liners match your hybrid or gas powertrain. The two fits are independent, so a bundle is only a good deal when both halves are right for your truck."),
+ ("What do floor liners cost for a new Tacoma?",
+  "On this page, budget TPE sets run about $80–$130, LASFIT about $120–$160, Toyota's own liners about $150–$200 and WeatherTech about $200–$260. A Husky front pair alone runs about $90–$130. Prices on Amazon move daily, so check the live price before ordering. The bigger cost is a wrong order: returns on liners often mean repacking a stiff, bulky box, so spend five minutes confirming cab, powertrain and transmission first."),
+ ("Do liners fit the TRD Off-Road and TRD Sport the same way?",
+  "Yes, as long as the cab, powertrain and transmission match. TRD Off-Road and TRD Sport are trims, not different floors, so a Double Cab automatic gas liner fits either. Both trims can be ordered with the gas engine or, depending on year and package, the hybrid, and the manual is offered on some configurations. Read the badge on the tailgate and your window sticker rather than going by trim name."),
+ ("How do I clean WeatherTech or TPE liners?",
+  "Take them out, rinse and scrub with mild soap, then dry them before reinstalling. WeatherTech sells its own cleaner, but soap and water work. Never use silicone protectant, which makes the surface slick."),
+ ("Should I buy the rear liner if nobody rides back there?",
+  "On a Double Cab, the rear floor catches gear, dogs and wet bags even without passengers. A one-piece rear liner is cheap insurance. On a hybrid, make sure the rear piece names the i-FORCE MAX, because a gas-only rear may not sit right."),
+]
+
+ARTICLE = {
+ "dek": "Five liner sets listed for the new 4th-generation Tacoma Double Cab, from WeatherTech and Toyota's own liners to $80 TPE. On this truck, the hybrid battery under the rear seat is the fit trap, followed by the manual transmission.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2024–2026 Tacoma (cab, powertrain, transmission), on maker specs where published and on coverage in listing photos. WeatherTech and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Hybrid changes the rear.** The i-FORCE MAX battery sits under the rear seat; LASFIT and COZONY exclude the hybrid.",
+  "**Nothing from 2016–2023 fits.** The 4th gen is a new platform.",
+  "**Manual trucks need a manual front.** Husky sells separate automatic and manual front pairs.",
+  "**XtraCab has no rear seat.** Full sets here are Double Cab only.",
+  "**WeatherTech and Toyota are the brand-name picks.** Both list 2024+ Double Cab.",
+ ],
+ "top_picks": [
+  {"asin": "B0GMY3NVPV", "role": "Best overall", "why": "WeatherTech FloorLiners 1st and 2nd row, 2024–2026 Double Cab automatic"},
+  {"asin": "B0CXGDDN3D", "role": "Best factory option", "why": "Toyota genuine all-weather liners PT206-35242-20, 2024+ Double Cab"},
+  {"asin": "B0D41RD1Q6", "role": "Best TPE (gas trucks)", "why": "LASFIT recycled TPE, 2024–2026 Double Cab automatic, not hybrid"},
+  {"asin": "B0DF4X546T", "role": "Best budget", "why": "AOMSAZTO all-weather TPE for the 2024–2025 Double Cab"},
+  {"asin": "B0D6CP3X41", "role": "Best front-only", "why": "Husky WeatherBeater 13921 front pair, Double and XtraCab automatics"},
+ ],
+ "fit_table": {
+  "caption": "2024–2026 Tacoma: what changes the liner",
+  "head": ["Variable", "Versions", "What it means"],
+  "rows": [
+   ["Cab", "XtraCab (no rear seat), Double Cab", "Full sets here are Double Cab; XtraCab uses front pairs"],
+   ["Powertrain", "2.4T gas or i-FORCE MAX hybrid", "Hybrid battery under rear seat; LASFIT and COZONY exclude it"],
+   ["Transmission", "8-speed auto or 6-speed manual", "Husky 13921 auto vs 13931 manual front"],
+   ["Hybrid-only trims", "TRD Pro, Trailhunter", "Use a set that names the hybrid"],
+  ],
+ },
+ "look_for": [
+  {"h": "Gas or hybrid",
+   "body": "The i-FORCE MAX hybrid puts its battery under the Double Cab's rear seat, so the rear floor and the area under the seat differ from the gas truck. LASFIT and COZONY both say 'not hybrid' in their titles, which is the honest answer. Toyota's own liner and WeatherTech's set name the Double Cab and, for WeatherTech, the automatic; they don't call out the hybrid in the short title, so confirm with your VIN or the maker's fit tool. If your Tacoma is a TRD Pro or Trailhunter, it's a hybrid, and the rear liner is the piece to double-check."},
+  {"h": "Automatic or manual",
+   "body": "Toyota brought the six-speed manual back for the 4th gen on select trims. The clutch pedal and shifter change the front floor, so front liners come in two versions. Husky sells the 13921 for automatics and the 13931 for manuals, both listed for Double and XtraCab. WeatherTech's set here is listed for automatics. A liner cut for an automatic can interfere with the clutch pedal. If you have three pedals, only buy a set that names the manual."},
+  {"h": "Double Cab or XtraCab",
+   "body": "The 4th-gen XtraCab dropped the rear jump seats, leaving a storage area behind the front seats. That means there's no second-row liner in the usual sense. Front pairs are often shared between XtraCab and Double Cab, but full two-row sets are Double Cab only. XtraCab owners should buy a front pair and look for a cargo-area mat cut for that cab."},
+  {"h": "Walls, material and warranty",
+   "body": "WeatherTech says its liners are laser-measured and backed by a lifetime limited warranty; its HP line is injection-molded TPE made in America with beveled high walls. LASFIT uses GRS-certified recycled TPE rated from −13°F to 167°F and offers 45-day returns on its store. Toyota's liners are dealer parts designed with the truck. The budget brands (COZONY, AOMSAZTO) sell TPE with raised edges but publish little else. On a new truck you plan to keep, a documented brand is worth the difference; on a lease, budget TPE does the job."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Generation", "2024+ in the title", "2016–2023 listings"],
+   ["Powertrain", "Gas or hybrid named", "Rear liners silent on the hybrid"],
+   ["Transmission", "Automatic or manual named", "Automatic fronts in a manual"],
+   ["Cab", "Double Cab or XtraCab named", "No cab named"],
+   ["Retention", "Hook holes for Toyota's posts", "Loose mats"],
+   ["Warranty", "Written terms", "No terms"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2024–2026 Tacoma",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["Laser-measured liner", "WeatherTech", "Front + rear", "High", "$200–$260", "Owners keeping the truck"],
+   ["Factory liner", "Toyota PT206-35242-20", "Front + rear", "Medium-high", "$150–$200", "Dealer part, factory look"],
+   ["Recycled TPE liner", "LASFIT", "Front + rear", "Medium-high", "$120–$160", "Gas trucks"],
+   ["Budget TPE", "COZONY, AOMSAZTO", "Front + rear", "Medium", "$80–$130", "Leases, value"],
+   ["Front pair", "Husky 13921/13931", "Front only", "High", "$90–$130", "XtraCab, manuals"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0GMY3NVPV", "role": "Best overall", "price": "$200–$260",
+   "pros": ["Laser-measured fit", "Lifetime limited warranty", "Listing covers 2024–2026 Double Cab", "1st and 2nd row", "High walls"],
+   "cons": ["Automatic only", "Confirm hybrid compatibility", "Most expensive here"],
+   "body": "WeatherTech's FloorLiners are listed for the 2024–2026 Tacoma Double Cab with automatic transmission, first and second row. WeatherTech says its liners are laser-measured and backed by a lifetime limited warranty, and its FloorLiner HP line is injection-molded TPE with beveled high walls and an anti-skid underside, made in America.\n\nFor a new truck, that's the most complete paper trail on this page. The high walls are what you want in the Tacoma's footwells, where trail mud and beach sand collect. The price is the highest here, and the short title doesn't mention the hybrid, so run your VIN through WeatherTech's fit checker if your truck has the i-FORCE MAX. Manual trucks should pick a manual-specific front instead.",
+   "who": "Automatic Double Cab owners keeping the truck long-term.",
+   "specs": [["Brand", "WeatherTech"], ["Rows", "1st + 2nd"], ["Fits", "2024–2026 Tacoma Double Cab, automatic"], ["Fit method", "Laser-measured"], ["Warranty", "Lifetime limited"], ["Hybrid", "Confirm with WeatherTech"]]},
+  {"asin": "B0CXGDDN3D", "role": "Best factory option", "price": "$150–$200",
+   "pros": ["Genuine Toyota part PT206-35242-20", "Designed with the 4th-gen floor", "Fits Toyota's retention hooks", "Dealer-supported", "Clean factory look"],
+   "cons": ["Walls not as tall as WeatherTech's", "Confirm hybrid and transmission with the dealer", "Costs more than budget TPE"],
+   "body": "Toyota's genuine all-weather liners, PT206-35242-20, are listed for the 2024+ Tacoma Double Cab. They're the lowest-risk fit because Toyota designed them with the truck, and a dealer can confirm fit by VIN, which settles the hybrid and transmission questions in one step.\n\nThe trade-off is containment: Toyota's all-weather liners typically have a lower lip than WeatherTech's, so a lot of snowmelt can reach the carpet at the edges. They cost less than WeatherTech but more than TPE brands. If you want a part number your dealer recognizes, it's the pick. It also keeps the interior looking stock, which matters to some owners at trade-in time. Ask the parts counter whether the set includes the second-row piece and whether a separate XtraCab version exists for your cab; Toyota's accessory catalog lists liners by cab and grade, and the dealer can see which one your VIN takes. Keep the receipt with the truck's paperwork, since a dealer part is easy to reorder if one piece wears through at the driver's heel.",
+   "who": "Owners who want a factory-fit liner confirmed by VIN.",
+   "specs": [["Part #", "Toyota PT206-35242-20"], ["Fits", "2024+ Tacoma Double Cab"], ["Type", "All-weather liner"], ["Verify", "Hybrid and transmission by VIN"], ["Price band", "$150–$200"]]},
+  {"asin": "B0D41RD1Q6", "role": "Best TPE (gas trucks)", "price": "$120–$160",
+   "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "3D laser scan", "Clear 'not hybrid' note", "45-day returns on LASFIT's store"],
+   "cons": ["Not for the i-FORCE MAX hybrid", "Automatic only", "Warranty length not stated on LASFIT's page"],
+   "body": "LASFIT's set is listed for 2024–2026 Tacoma Double Cab automatics, front and rear, and explicitly not for the i-FORCE MAX hybrid. That's the clearest powertrain note among the TPE brands.\n\nLASFIT says its liners are 3D laser-scanned and made from GRS-certified recycled TPE, rated from −13°F to 167°F. The softer TPE grips boots and folds for cleaning. It costs noticeably less than WeatherTech. If you have the gas 2.4-liter turbo with the automatic, it's the best value here. COZONY's set, also 'not hybrid', is a cheaper alternative in our product list.\n\nThe honest trade-off against WeatherTech is wall height and documentation. LASFIT's lip is a little lower, so after a day of wet snow you'll want to pull the driver liner and dump it before the melt reaches the edge. LASFIT's collection page doesn't state a warranty length, although its 45-day return window gives you time to check the fit around the rear seat base and the retention hooks. For a hybrid Tacoma, skip this set and ask WeatherTech or your Toyota dealer for a hybrid-specific rear piece.",
+   "who": "Gas automatic Double Cab owners who want TPE with a stated cold rating.",
+   "specs": [["Rows", "Front + rear"], ["Fits", "2024–2026 Tacoma Double Cab, automatic, not hybrid"], ["Material", "Recycled TPE (GRS)"], ["Temp range", "−13°F to 167°F"], ["Returns", "45 days (LASFIT store)"]]},
+  {"asin": "B0DF4X546T", "role": "Best budget", "price": "$80–$120",
+   "pros": ["Lowest price here", "Lists the 2024–2025 Double Cab", "TPE with raised edges", "Light and easy to clean", "Good for leases"],
+   "cons": ["No hybrid note; confirm with seller", "Transmission not named", "No published warranty"],
+   "body": "AOMSAZTO's all-weather TPE set is listed for the 2024–2025 Tacoma Double Cab and is the cheapest full set here. The title doesn't mention hybrid or transmission, so ask the seller before ordering.\n\nIf both check out, it's a sensible way to protect a leased or new truck's carpet for under $120. The walls are shallower than WeatherTech's and the brand publishes no warranty we could check. What you still get is a truck-specific cut with raised edges, which is far better than a universal trim-to-fit mat that slides around the footwell. Send the seller your trim, a photo of the rear seat base and the badge on the tailgate; an i-FORCE MAX badge means hybrid. If the seller can't say whether the rear piece fits the hybrid, buy the front and rear separately from a brand that does. At this price, replacing the set in three years still costs less than one WeatherTech set.",
+   "who": "Budget buyers and lessees.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2024–2025 Tacoma Double Cab"], ["Material", "TPE"], ["Verify", "Hybrid and transmission with seller"], ["Price band", "$80–$120"]]},
+  {"asin": "B0D6CP3X41", "role": "Best front-only", "price": "$90–$130",
+   "pros": ["Made in the USA", "Lifetime warranty against cracks and breaks", "Fits Double Cab and XtraCab automatics", "StayPut nibs", "Pairs with any rear liner"],
+   "cons": ["Front row only", "Automatic only (manual is 13931)", "Firm feel"],
+   "body": "Husky's WeatherBeater 13921 is a front pair listed for 2024–2026 Tacoma Double Cab and XtraCab automatics. It's the answer for XtraCab owners, who have no rear seat, and for anyone who wants Husky's front liners with a different rear piece.\n\nHusky says WeatherBeater is made in the USA, laser-measured, and covered by a lifetime warranty against cracks and breaks. Manual trucks should get the 13931 front pair instead, listed for 2024–2025 Double and XtraCab manuals.\n\nBuying the front pair alone also solves the hybrid question for Double Cab owners: the front floor isn't affected by the battery, so you can pair Husky's front liners with Toyota's hybrid-compatible rear liner or a hybrid-specific rear from another brand. The firm WeatherBeater material holds its walls upright in the footwell, and the StayPut nibs keep it from creeping toward the pedals. It needs a warm day to relax fully after shipping, so recheck the edges after a few days.",
+   "who": "XtraCab owners and anyone mixing brands front and rear.",
+   "specs": [["Part #", "Husky 13921"], ["Fits", "2024–2026 Tacoma Double Cab & XtraCab, automatic"], ["Pieces", "2 (front)"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"], ["Manual", "Use 13931"]]},
+ ],
+ "install": [
+  "Confirm cab, powertrain (gas or i-FORCE MAX) and transmission before ordering.",
+  "Remove the factory mats and vacuum.",
+  "Hook the driver liner onto the retention posts and heel-test it.",
+  "Fit the passenger liner against the sill and console.",
+  "Lay the rear liner and fold the rear seat to check clearance around the under-seat area.",
+  "Press all pedals to the floor to confirm clearance before driving.",
+ ],
+ "avoid": [
+  {"h": "Gas-only rears in a hybrid", "body": "The hybrid battery changes the rear floor. Match the powertrain."},
+  {"h": "3rd-gen liners", "body": "The 2016–2023 floor is different."},
+  {"h": "Automatic fronts in a manual", "body": "The clutch area needs a manual-specific front."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy WeatherTech for an automatic Double Cab you're keeping, Toyota's liners if you want a VIN-checked factory fit, and LASFIT for a gas truck on a budget.",
+  "body": "The 4th-gen Tacoma splits liners three ways: gas or hybrid, automatic or manual, Double Cab or XtraCab. WeatherTech has the most documentation, Toyota the safest fit, LASFIT the best value for gas automatics, and Husky's front pairs cover XtraCabs and manuals.\n\nOnce the cab is set, most owners move to running boards for the taller trims and a tonneau cover for the bed. Owners of a 2016–2023 Tacoma should use our 3rd-gen page; none of these carry over."},
+ "sources": [
+  ["WeatherTech FloorLiner HP buying guide (WeatherTech)", "https://www.weathertech.com/blog/product-spotlight/new-weathertech-floorliner-hp.html"],
+  ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
+  ["Husky Liners 13921 automatic front listing", "https://www.amazon.com/dp/B0D6CP3X41"],
+  ["Husky Liners 13931 manual front listing", "https://www.amazon.com/dp/B0D3VNVZJ6"],
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Toyota Tacoma, fourth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Tacoma_(fourth_generation)"],
+ ],
+}
+
+FITS = [
+ ("B0GMY3NVPV","WeatherTech FloorLiners 1st & 2nd row, 2024-2026 Tacoma Double Cab automatic","WeatherTech","$200–$260",{"cab":"Double Cab","trans":"automatic"},"Confirm hybrid with WeatherTech fit tool."),
+ ("B0CXGDDN3D","Toyota Genuine All-Weather Floor Liners PT206-35242-20, 2024+ Tacoma Double Cab","Toyota","$150–$200",{"cab":"Double Cab"},"OEM; confirm hybrid/transmission by VIN."),
+ ("B0D41RD1Q6","LASFIT TPE Floor Liners front & rear, 2024-2026 Tacoma Double Cab automatic (not hybrid)","LASFIT","$120–$160",{"cab":"Double Cab","hybrid":False},"Not for i-FORCE MAX hybrid."),
+ ("B0DF4X546T","AOMSAZTO All-Weather TPE Floor Liners, 2024-2025 Tacoma Double Cab","AOMSAZTO","$80–$120",{"cab":"Double Cab"},"Confirm hybrid and transmission with seller."),
+ ("B0D6CP3X41","Husky Liners WeatherBeater 13921 Front Row, 2024-2026 Tacoma Double & XtraCab, automatic","Husky Liners","$90–$130",{"trans":"automatic"},"Front row only."),
+ ("B0DLNN5LPW","COZONY TPE Floor Liners 1st & 2nd row, 2024-2025 Tacoma Double Cab (not hybrid)","COZONY","$90–$130",{"cab":"Double Cab","hybrid":False},"Not for hybrid."),
+ ("B0D3VNVZJ6","Husky Liners WeatherBeater 13931 Front Row, 2024-2025 Tacoma Double & Access Cab, manual","Husky Liners","$90–$130",{"trans":"manual"},"Manual trucks."),
+]
