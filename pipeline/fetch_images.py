@@ -23,9 +23,9 @@ UA = {"User-Agent": "RigConfiguratorBot/1.0 (https://rigconfigurator.com/about)"
 IMG_DIR = os.environ.get("IMG_DIR", "/app/data/img")
 AUTO_APPROVE = 6.0
 FREE = re.compile(r"^(cc0|public domain|pd|cc by(-sa)? ?\d(\.\d)?)", re.I)
-BAD = re.compile(r"interior|dashboard|cockpit|engine|motor\b|badge|logo|emblem|wheel|rim|seat|tail ?light|headlight|"
-                 r"grille detail|detail|crash|wreck|damaged|burn|police|sheriff|fire|ambulance|toy|lego|diecast|model car|"
-                 r"drawing|diagram|sketch|render|concept|prototype|patent|\bbed\b|trunk|cargo area|steering", re.I)
+BAD = re.compile(r"\b(interior|dashboard|cockpit|engine|motor|badge|logo|emblem|wheels?|rims?|seats?|tail ?lights?|headlights?|"
+                 r"details?|crash|wreck|damaged|burnt?|police|sheriff|fire|ambulance|toys?|lego|diecast|model car|"
+                 r"drawing|diagram|sketch|render|concept|prototype|patent|bed|trunk|cargo area|steering)\b", re.I)  # word-bounded: "toy" must not hit "Toyota"
 
 
 def model_tokens(model_name):
