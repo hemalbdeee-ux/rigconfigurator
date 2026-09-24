@@ -1,4 +1,5 @@
 -- 008_vehicle_images.sql — licensed hero photos per vehicle generation (filled by pipeline/fetch_images.py). Idempotent.
+SET client_min_messages = warning;
 CREATE TABLE IF NOT EXISTS vehicle_images (
   id           SERIAL PRIMARY KEY,
   vehicle_id   INT NOT NULL REFERENCES vehicles(id) ON DELETE CASCADE,

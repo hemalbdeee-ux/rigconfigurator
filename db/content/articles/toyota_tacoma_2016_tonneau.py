@@ -1,0 +1,182 @@
+"""Long-form article — Best Tonneau Covers for 2016–2023 Toyota Tacoma (3rd gen, N300).
+Mirrors the approved F-150 pilot. No invented hands-on testing: every spec below comes from the
+manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+Angle: ended generation with a big used market — one part number per bed covers all eight model years,
+but the deck rail cleats and Trail Edition bed storage boxes decide what actually fits.
+"""
+
+KEY = ("toyota", "tacoma", "2016-2023", "tonneau-covers")
+
+TITLE = "Best Tonneau Covers for 2016–2023 Toyota Tacoma: 6 Picks for the 5 ft and 6 ft Beds"
+META = ("Six tonneau covers for the 3rd-gen Tacoma's 60.5 and 73.7 in beds: load ratings, warranties, "
+        "deck rail cleat notes and which ones clear Trail Edition bed boxes.")
+
+FAQ = [
+ ("What is the best tonneau cover for a 2016–2023 Tacoma?",
+  "For most trucks, the BAKFlip MX4 (448426 for the 5 ft bed, 448427 for the 6 ft). It has polymer-reinforced aluminum panels, a 400 lb evenly distributed rating, auto-latches, a 5-year warranty and a 30-minute clamp-on install, and it folds flush against the cab. The one catch: RealTruck says it will not work with the factory bed storage boxes, so Trail Edition owners should look at the TruXedo Lo Pro or ask the seller about the UnderCover ArmorFlex."),
+ ("Does a 2005–2015 Tacoma tonneau cover fit a 2016–2023 Tacoma?",
+  "Usually not, even though the beds look the same size. The makers list the 2nd-gen 5 ft bed at 60.3 in and the 3rd-gen at 60.5 in, and they sell separate part numbers: BAKFlip MX4 448406 vs 448426, RetraxPRO MX 80811 vs 80851, TruXedo Lo Pro 555901 vs 556001. Rail shape and the tailgate seal line differ. Buy the part number listed for 2016–2023, especially on a used cover from a classified ad."),
+ ("Do these covers work with the factory deck rail cleats?",
+  "Most do, with one clear exception. RealTruck's page for the UnderCover ArmorFlex AX42014 says the tie-down cleats must be removed for install and cannot be reused. BAK's Amazon listing is written for trucks with the OE track system. Tyger says its T3 fits with or without the factory track. If you rely on the cleats for tie-downs, check the install sheet for the cover before you order."),
+ ("Which covers work with the Trail Edition bed storage boxes?",
+  "Fewer than you'd hope. RealTruck says the BAKFlip MX4, Gator EFX and RetraxPRO MX will not work with the factory bed storage boxes, and Tyger excludes Trail Special Edition trucks with boxes. RealTruck lists the TruXedo Lo Pro 556001 as compatible, but its Amazon title says it excludes the boxes. Owners on TacomaWorld report that folding-cover latch handles need about 6 in of room and hit the boxes. Confirm with the seller before you buy."),
+ ("How do I tell if I have the 5 ft or 6 ft bed?",
+  "Cab style is the first clue. Every Access Cab has the 6 ft bed. Double Cabs came with the 5 ft bed as standard and the 6 ft as an option. To be sure, measure inside the bed at the rail from the front wall to the inside of the closed tailgate: about 60.5 in is the short bed, about 73.7 in is the long bed. Retailers print these as 5' 1\" and 6' 2\"."),
+ ("Hard or soft cover on a Tacoma?",
+  "Hard covers (MX4, ArmorFlex, Gator EFX, RetraxPRO) lock when the tailgate is locked and carry 300–500 lb spread evenly. Soft covers (Lo Pro, Tyger T3) cost $221–$490, weigh around 30 lb and open fast, but vinyl can be cut. On a midsize truck that often parks at trailheads, a hard cover is worth it if you leave gear in the bed. If you mostly want rain and dust out, soft is fine."),
+ ("Will a tonneau cover leak on a Tacoma?",
+  "Every cover here is described as weather-resistant, not waterproof. Water gets past the tailgate seal and the rail gaps in hard rain, which is why the Gator EFX uses drain rails, the ArmorFlex has integrated drain tubes and the RetraxPRO has a water-management system. The composite bed has no rust to worry about, but electronics and bags should still sit in a bin. A cover that's even slightly short for the bed leaks far more, so match the length."),
+ ("Can I still use a bed rack with a tonneau cover?",
+  "Not with most folding covers, which take up the rail tops. The RetraxPRO XR (T-80851 for the 5 ft bed) adds T-slot rails along the sides so crossbars can mount over the closed cover. If you plan to add a bed rack or rooftop tent later, decide on that first and buy a cover that works with it."),
+ ("Do I need to drill to install a cover on a 3rd-gen Tacoma?",
+  "No. All six covers here clamp to the bed rails with no drilling. The makers quote 5–10 minutes for the Tyger T3, 30 minutes or less for the BAKFlip MX4 and Gator EFX, and under an hour for the ArmorFlex, RetraxPRO MX and TruXedo Lo Pro. Over-rail bedliners are the usual snag: Tyger says they need small holes cut for the clamps."),
+ ("Is a used cover a good deal for a 2016–2023 Tacoma?",
+  "It can be, because one part number covers all eight model years. Check three things: the part number sticker matches the 2016–2023 listing for your bed length, all clamps and the tailgate seal are included, and the seals aren't cracked. Warranties on the RetraxPRO, TruXedo Lo Pro and BAKFlip MX4 are non-transferable or tied to the original buyer, so a used cover comes with no coverage."),
+]
+
+ARTICLE = {
+ "dek": "Six covers that fit the 3rd-generation Tacoma's 5 ft (60.5 in) and 6 ft (73.7 in) beds, from a $221 soft tri-fold to a $1,850 retractable. For each one we list the load rating, warranty and install time, and whether it works with the deck rail cleats and the Trail Edition bed storage boxes.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment the maker or RealTruck lists for the 2016–2023 Tacoma, and on what owners report on TacomaWorld. Prices were checked at RealTruck or the maker's store in September 2026. Amazon prices change daily, so the button shows the live price.",
+ "takeaways": [
+  "**Two beds, and the cab tells you which.** Access Cabs have the 6 ft (73.7 in) bed only. Double Cabs have the 5 ft (60.5 in) bed as standard or the 6 ft as an option.",
+  "**One part number covers 2016–2023.** Every cover here is sold as a single SKU for all eight model years, but not for the 2005–2015 truck (60.3 in bed) and not for the 2024–2026 Tacoma.",
+  "**Trail Edition bed boxes rule out most hard covers.** RealTruck says the BAKFlip MX4, Gator EFX and RetraxPRO MX don't work with the factory bed storage boxes.",
+  "**The deck rail cleats can be casualties.** The UnderCover ArmorFlex install removes the tie-down cleats, and they can't be reused.",
+  "**Load ratings range from 300 to 500 lb:** 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4 and ArmorFlex, 300 lb for the Gator EFX. Soft covers carry no rating.",
+ ],
+ "top_picks": [
+  {"asin": "B071JQDXFD", "role": "Best overall", "why": "400 lb rating, folds flush to the cab, 5-year warranty, 30-minute install"},
+  {"asin": "B07XVRX7HW", "role": "Best value hard cover", "why": "Aluminum tri-fold with dual slam-latches for $549"},
+  {"asin": "B018XXXFP2", "role": "Best retractable", "why": "500 lb rating, locks at any position, full bed minus the canister"},
+  {"asin": "B018YFU05M", "role": "Best soft roll-up", "why": "¾ in profile, self-adjusting tension, the most box-friendly listing here"},
+  {"asin": "B07QH7VKCP", "role": "Best budget", "why": "$221 soft tri-fold, fits with or without the factory track, 5-year warranty"},
+ ],
+ "fit_table": {
+  "caption": "2016–2023 Tacoma beds and the details that change fit",
+  "head": ["Bed", "Inside length at rail", "Cabs", "Fit notes"],
+  "rows": [
+   ["5 ft (sold as 5' 1\")", "60.5 in", "Double Cab (standard)", "Most common. Don't confuse with 2005–2015 covers listed at 60.3 in."],
+   ["6 ft (sold as 6' 2\")", "73.7 in", "Access Cab (only bed), Double Cab (option)", "Order the 6 ft part number: MX4 448427, RetraxPRO 80852, Lo Pro 557001."],
+   ["Trail Edition bed boxes", "Either bed", "Trail Special Edition / Trail Edition", "Rules out MX4, Gator EFX, RetraxPRO MX and Tyger T3 per the makers. Confirm before buying."],
+   ["Deck rail cleats", "Either bed", "Trucks with the factory deck rail system", "ArmorFlex install removes the cleats for good. Most others clamp around the rail."],
+  ],
+ },
+ "look_for": [
+  {"h": "Bed length in inches, not cab name",
+   "body": "The 3rd-gen Tacoma has two beds, and retailers describe them in inches rather than Toyota's 5 ft and 6 ft names. The short bed is listed as 5' 1\" (60.5 in) and the long bed as 6' 2\" (73.7 in). Access Cabs only came with the long bed. Double Cabs usually have the short bed, but the long bed was an option, so a Double Cab alone doesn't tell you which you have. Measure inside the bed at the rail, from the front wall to the closed tailgate, before you order. A cover that is even an inch short won't seal at the tailgate, and the back corners will leak in the first storm."},
+  {"h": "The deck rail system and its cleats",
+   "body": "Many 3rd-gen Tacomas have Toyota's deck rail system: aluminum tracks along the bed walls with sliding tie-down cleats. It's useful, and it's the first thing a tonneau clamp runs into. BAK's listing names trucks with the OE track system, and Tyger says its T3 fits with or without it. The UnderCover ArmorFlex is the one to read carefully: RealTruck's page says the tie-down cleats must be removed during install and can't be reused. If you strap loads to those cleats every week, that matters more than a few pounds of load rating. Check the install sheet for any cover not listed here."},
+  {"h": "Trail Edition bed storage boxes",
+   "body": "Trail Special Edition and Trail Edition trucks have factory storage boxes in the bed sides, and that is where most hard covers stop working. RealTruck says the BAKFlip MX4, Gator EFX and RetraxPRO MX will not work with the factory bed storage boxes. Tyger excludes Trail Special Edition trucks with boxes. Owners on TacomaWorld say folding-cover latch handles need about 6 in of room and hit the box lids. A few listings disagree with their own retailer pages, so for a Trail Edition truck, ask the seller in writing before you buy. The alternative some owners choose is to pull the boxes and keep them for resale."},
+  {"h": "Generation-specific part numbers",
+   "body": "The 2016 redesign kept the beds almost the same size as the 2005–2015 truck, which makes it easy to buy the wrong cover. The makers list the 2nd-gen short bed at 60.3 in and the 3rd-gen at 60.5 in, with different part numbers: BAKFlip MX4 448406 vs 448426, RetraxPRO MX 80811 vs 80851, TruXedo Lo Pro 555901 vs 556001. The same applies going forward. The 2024–2026 Tacoma uses new parts (MX4 448446, for example). On this generation, the good news is that one part number fits all eight model years, which makes used covers easy to check."},
+  {"h": "Load rating and what you'll carry on top",
+   "body": "On a midsize truck that often carries a cooler, a spare tire or snow on top of the cover, the published rating is the clearest way to compare hard covers. The RetraxPRO MX is rated at 500 lb evenly distributed, the BAKFlip MX4 and UnderCover ArmorFlex at 400 lb, and the Gator EFX at 300 lb. The TruXedo Lo Pro and Tyger T3 are vinyl and carry no rating, so treat them as weather covers. Ratings assume a flat, spread-out load. A knee or a toolbox corner on one spot can still dent a panel. If nothing ever rides on top, spend the difference on a better warranty instead."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "\"2016–2023 Tacoma\" plus 5' 1\" (60.5 in) or 6' 2\" (73.7 in) in the listing", "Ranges that start at 2005 or run into 2024+"],
+   ["Deck rails", "Install sheet that keeps the cleats, or a note that it fits with or without the track", "Surprises: the ArmorFlex removes the cleats for good"],
+   ["Trail Edition", "Explicit \"with storage boxes\" fitment, confirmed by the seller", "Listings and retailer pages that disagree"],
+   ["Load rating", "A published number (300–500 lb) for a hard cover", "\"Heavy duty\" with no figure"],
+   ["Drainage", "Drain rails or drain tubes named", "No mention of water management"],
+   ["Warranty", "5 years to limited lifetime", "Under 2 years, or nothing stated"],
+  ],
+ },
+ "types_table": {
+  "caption": "Cover types compared on the 2016–2023 Tacoma",
+  "head": ["Type", "Price on this page", "Security", "Bed access", "Load on top", "Best for"],
+  "rows": [
+   ["Soft tri-fold", "$221 (Tyger T3)", "Low (vinyl)", "About ⅔; removable", "None", "Cheapest weather cover"],
+   ["Soft roll-up", "$490 (TruXedo Lo Pro)", "Low (vinyl)", "Nearly full bed", "None", "Tall loads, Trail Edition trucks (confirm)"],
+   ["Hard tri-fold", "$549 (Gator EFX) to $1,200 (ArmorFlex)", "High with tailgate locked", "About ⅔", "300–400 lb", "Security at a lower price"],
+   ["Hard fold, flush to cab (MX4)", "$1,250", "High with tailgate locked", "Nearly full", "400 lb", "Best all-round"],
+   ["Retractable", "$1,850 (RetraxPRO MX)", "High; locks at any position", "Full, minus the canister", "500 lb", "Daily open and close"],
+  ],
+ },
+ "picks": [
+  {"asin": "B071JQDXFD", "role": "Best overall", "price": "$1,250",
+   "pros": ["400 lb evenly distributed rating", "Polymer-reinforced aluminum panels with aluminum side rails", "Patented auto-latch system", "Folds flush against the cab; third brake light stays visible", "5-year warranty; made in Missouri"],
+   "cons": ["Won't work with the factory bed storage boxes (RealTruck)", "Most expensive folding cover here", "Separate part number (448427) for the 6 ft bed"],
+   "body": "The MX4 is the cover the others get compared against, and on a Tacoma it has the best balance of strength, access and ease of daily use. The panels are aluminum with a high-density polymer core, rated for 400 lb evenly distributed, and the latches engage by themselves when you close each section. When open, the whole stack folds flush against the cab, so you get nearly the full bed without a rolled bundle in the way, and RealTruck notes the third brake light stays visible in every position. BAK builds it in Missouri and backs it with a 5-year warranty.\n\nPart 448426 is listed for the 2016–2023 Tacoma 5 ft bed (60.5 in), and the Amazon listing names trucks with the OE track system. The 6 ft bed takes 448427. RealTruck lists it at $1,249.99 and rates the install Level 1: 30 minutes or less, no drilling on most trucks. The one hard limit is Trail Edition trucks. RealTruck's page states it will not work with the factory bed storage boxes, so owners with boxes should skip to the Lo Pro or check the ArmorFlex with the seller. For a standard SR5, TRD Sport or TRD Off-Road truck, this is the default choice.",
+   "who": "Owners of non-Trail Edition trucks who want a secure hard cover that stays on year-round.",
+   "specs": [["Type", "Hard folding"], ["Part #", "448426 (5 ft) · 448427 (6 ft)"], ["Fits", "2016–2023 Tacoma with OE track system"], ["Material", "Polymer-reinforced aluminum panels"], ["Load rating", "400 lb distributed"], ["Latching", "Auto-latch, locks with tailgate"], ["Install", "≤30 min, no drill"], ["Warranty", "5 years"], ["Bed boxes", "Not compatible (per RealTruck)"]]},
+  {"asin": "B07DCMT193", "role": "Toughest tri-fold", "price": "$1,200",
+   "pros": ["400 lb evenly distributed rating", "Aluminum panels with textured Multi-Shield coating", "Dual-action tailgate seal: open the tailgate without unlatching the cover", "Integrated drain tubes and safety straps", "5-year warranty; assembled in Missouri"],
+   "cons": ["Install removes the deck rail tie-down cleats, which can't be reused", "Costs almost as much as the MX4", "Trail Edition box fit rests on the Amazon title only; confirm with the seller"],
+   "body": "The ArmorFlex is UnderCover's heavy-duty tri-fold, and on paper it matches the MX4 on strength: aluminum panels with a textured matte-black Multi-Shield coating, EPDM rubber seals and a 400 lb evenly distributed rating. The dual-action tailgate seal lets you drop the tailgate without unlatching the cover, which is handy at a trailhead when you only need something near the back. Integrated drain tubes carry water out of the rail channels, and UnderCover backs it for 5 years. RealTruck lists AX42014 at $1,199.99 (regularly $1,349.99), with an install under an hour and no drilling on most trucks.\n\nThe Tacoma-specific catch is on RealTruck's page: installation requires removing the tie-down cleats from the deck rails, and they can't be reused. If you use the cleats for tie-downs, that's a real loss. The Amazon listing title says it fits trucks with or without the bedside storage boxes, which would make it the only hard folding cover here sold for Trail Edition trucks. RealTruck's page doesn't repeat that claim, so confirm it with the seller before ordering. The 6 ft bed takes AX42015.",
+   "who": "Owners who want a 400 lb tri-fold and don't use the deck rail cleats, or Trail Edition owners who confirm box fit first.",
+   "specs": [["Type", "Hard tri-fold"], ["Part #", "AX42014 (5 ft) · AX42015 (6 ft)"], ["Fits", "2016–2023 Tacoma"], ["Material", "Aluminum panels, EPDM seals"], ["Load rating", "400 lb distributed"], ["Deck rail cleats", "Removed during install, not reusable"], ["Install", "<1 hr, no drill"], ["Warranty", "5 years"]]},
+  {"asin": "B07XVRX7HW", "role": "Best value hard cover", "price": "$549",
+   "pros": ["Multi-layer aircraft-grade aluminum", "Automatic dual slam-latches", "Flush side seals and drain rails", "4 ft cargo retriever tool included", "Less than half the price of the MX4"],
+   "cons": ["300 lb rating, lowest of the hard covers here", "2-year warranty", "RealTruck says it won't work with the factory bed storage boxes"],
+   "body": "The Gator EFX is the cheapest way to get a lockable aluminum cover on a 3rd-gen Tacoma from an established brand. The panels are multi-layer aircraft-grade aluminum with a semi-gloss finish. Twin slam-latches lock automatically when you close it, and the flush side seals are designed to keep the stake pockets accessible. Gator includes a 4 ft cargo retriever, which is more useful than it sounds on a bed you can only reach from the tailgate when the cover is closed. RealTruck lists GC44014 at $549 (regularly $599) with a 30-minute, no-drill install.\n\nYou give up some rating and warranty for that price. Gator rates the EFX at 300 lb against 400 lb for the MX4 and ArmorFlex, and the warranty is 2 years plus a 30-day exchange. When folded, it opens about two-thirds of the bed, and it comes off without tools for tall loads. On storage boxes, the sources disagree: the Amazon listing says it fits with or without them, but RealTruck's page says it will not work with factory bed storage boxes. If your truck has the boxes, confirm with the seller.",
+   "who": "Buyers who want a lockable hard cover under $600 and can live with a 300 lb rating.",
+   "specs": [["Type", "Hard tri-fold"], ["Part #", "GC44014 (5 ft)"], ["Fits", "2016–2023 Tacoma"], ["Material", "Multi-layer aircraft-grade aluminum"], ["Load rating", "300 lb distributed"], ["Latching", "Automatic dual slam-latches"], ["Bed access folded", "About ⅔"], ["Install", "≤30 min, no drill"], ["Warranty", "2 years + 30-day exchange"]]},
+  {"asin": "B018XXXFP2", "role": "Best retractable", "price": "$1,850",
+   "pros": ["500 lb rating, the highest on this page", "Locks at any position with the TraxLatch handle", "Opens and closes with the tailgate up or down", "Sealed CoreTrax rollers and a water-management system", "Limited lifetime warranty"],
+   "cons": ["Most expensive cover here", "Canister takes space at the front of a short bed", "Not compatible with the factory side storage boxes"],
+   "body": "A retractable is the only style that gives you the whole bed and still locks at any point, so you can keep the front half covered and the back open. The RetraxPRO MX uses double-wall aluminum slats with a matte powder coat and is rated for 500 lb evenly distributed, the highest on this page. It opens and closes with the tailgate up or down, locks in any position through the TraxLatch handle, and runs on sealed CoreTrax rollers. Retrax rates it for -40°F to 180°F. RealTruck lists 80851 at $1,849.99 (regularly $2,149.99) with a limited lifetime warranty for the original buyer.\n\nOn a 60.5 in Tacoma bed, the canister costs you more than it would on a full-size truck. Every inch at the front of a short bed counts, although flat items can slide under it. Plan for that if you carry a cooler or a fridge up against the front wall. RealTruck lists the cover as not compatible with the factory side storage boxes. The 5 ft part is listed for the Double Cab and the 6 ft (80852) for Access and Double Cab. If you want crossbars over the cover later, the XR version (T-80851) adds T-slot rails.",
+   "who": "Owners who open the bed many times a day and want it fully open and locked in any position.",
+   "specs": [["Type", "Retractable (manual)"], ["Part #", "80851 (5 ft) · 80852 (6 ft) · XR: T-80851"], ["Fits", "2016–2023 Tacoma"], ["Material", "Double-wall aluminum slats"], ["Load rating", "500 lb distributed"], ["Lock", "TraxLatch, infinite positions"], ["Install", "<60 min, no drill"], ["Warranty", "Limited lifetime (non-transferable)"], ["Bed boxes", "Not compatible (per RealTruck)"]]},
+  {"asin": "B018YFU05M", "role": "Best soft roll-up", "price": "$490",
+   "pros": ["Sits ¾ in above the rails", "Patented self-adjusting spring tensioner", "Rolls up for nearly the whole bed", "Quick-release, removes without tools", "Limited lifetime warranty"],
+   "cons": ["Vinyl gives little security", "No load rating", "Trail Edition fit: RealTruck says yes, the Amazon title says no"],
+   "body": "For owners who haul bikes, dirt bikes or tall gear on weekends, a roll-up makes the most sense. It rolls to the cab in seconds and gives back nearly the whole bed. The TruXedo Lo Pro sits just ¾ in above the rails and mounts inside them, so it looks close to flush on a Tacoma. The patented spring tensioner adjusts itself, which fixes the usual roll-up problem of slack vinyl flapping at highway speed on a cold morning. The vinyl is industrial-grade and tear-resistant with a leather-grain finish, and the floating hook-and-loop edges help it seal against the rails.\n\nRealTruck lists 556001 at $489.99 (regularly $519.99) with a limited lifetime warranty and an install under an hour with no drilling. It is also the most promising option for Trail Edition trucks, but the sources don't agree. RealTruck's page says it works with the Trail Special Edition storage boxes if equipped, while the Amazon listing title says it excludes them. Ask the seller before you order if your truck has boxes. The 6 ft bed takes 557001.",
+   "who": "Owners who carry tall loads often and want full bed access more than security.",
+   "specs": [["Type", "Soft roll-up"], ["Part #", "556001 (5 ft) · 557001 (6 ft)"], ["Fits", "2016–2023 Tacoma"], ["Material", "Industrial-grade vinyl, leather-grain finish"], ["Profile", "¾ in above rails"], ["Tension", "Self-adjusting spring tensioner"], ["Install", "<1 hr, no drill"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B07QH7VKCP", "role": "Best budget", "price": "$221",
+   "pros": ["$221, the lowest price here", "24 oz dual-coated marine-grade vinyl on aluminum frames", "Fits with or without the factory utility track", "5–10 minute install (Tyger's figure)", "5-year warranty in the US"],
+   "cons": ["Vinyl gives no real security", "Not for Trail Special Edition trucks with storage boxes", "Over-rail bedliners need small holes cut"],
+   "body": "The Tyger T3 is the cheapest cover here from a brand that publishes real specs, and it is the most flexible about the deck rails. Tyger says it fits the 2016–2023 Tacoma 5 ft bed with or without the factory utility track, which makes it a safe pick for base trucks, lease returns or used trucks where you're not sure what the previous owner installed. The cover is 24 oz dual-coated marine-grade vinyl over aircraft-grade aluminum frames with stainless steel clamps. The crossbars come pre-assembled and fold with the cover. It weighs 30.4 lb, and Tyger lists it at $221 with free shipping in the lower 48 and a 5-year US warranty.\n\nTyger quotes a 5–10 minute install. Its own page notes that customer reviews put it closer to 30 minutes to an hour. Two fit notes come from Tyger's page: it is not compatible with Trail Special Edition trucks that have storage boxes, and over-rail bedliners need small holes cut for the clamps. Under-rail and spray-in liners need nothing. The 6 ft bed takes TG-BC3T1631.",
+   "who": "First-time cover buyers, used-truck owners and anyone who wants the bed covered for under $250.",
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "TG-BC3T1630 (5 ft) · TG-BC3T1631 (6 ft)"], ["Fits", "2016–2023 Tacoma, with or without track"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "30.4 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
+ ],
+ "install": [
+  "Empty the bed. Slide the deck rail cleats to where the clamps won't land, or take them off if the cover's install sheet says to (the ArmorFlex removes them for good).",
+  "Set the side rails or frame on the inside of the bed rails with the front seal tight against the front wall of the bed.",
+  "Fit the clamps loosely, then center the cover side to side so the rear seal lines up with the tailgate.",
+  "Close the tailgate, check the seal along its full width, then tighten the clamps evenly on both sides. Overtightening one side twists the frame.",
+  "Route any drain tubes (ArmorFlex, RetraxPRO) through the corner drain openings so water leaves the rail channels.",
+  "On a Trail Edition truck, open each storage box lid and each cover latch through its full travel before you drive away.",
+  "Re-check the clamps after the first week and then every so often. They loosen over washboard roads.",
+ ],
+ "avoid": [
+  {"h": "2005–2015 covers on a 2016+ truck", "body": "The beds differ by fractions of an inch (60.3 vs 60.5 in on the short bed), and the makers sell different part numbers. A cheap used 2nd-gen cover rarely seals right."},
+  {"h": "Assuming the storage boxes are fine", "body": "Most hard covers exclude Trail Edition bed boxes, and some listings contradict their retailer page. Get the seller's answer in writing."},
+  {"h": "Losing cleats you rely on", "body": "Read the install sheet. If a cover needs the tie-down cleats removed and you strap gear down every weekend, pick another cover."},
+  {"h": "Mixing up 5 ft and 6 ft", "body": "A Double Cab can have either bed. Measure the inside length at the rail before ordering, and don't go by cab style alone."},
+ ],
+ "verdict": {
+  "thesis": "Measure the bed, check for Trail Edition boxes, then choose: the BAKFlip MX4 for most trucks, the Gator EFX to save money, the RetraxPRO MX for daily access, and the TruXedo Lo Pro if you have boxes.",
+  "body": "The 3rd-gen Tacoma is easy to shop for in one way and tricky in two. It's easy because every cover here is sold as one part number for all eight model years, so used covers and used trucks are simple to match. The tricky parts are the deck rail cleats and the Trail Edition bed boxes, which rule out more covers than bed length does. For a standard truck, the BAKFlip MX4's 400 lb rating, flush fold and 5-year warranty make it the best buy. The Gator EFX gives you a lockable hard cover for $549, and the RetraxPRO MX is worth $1,850 only if you open the bed all day.\n\nIf you're moving up to a 2024–2026 Tacoma, none of these covers carry over, so sell yours with the truck. Once the bed is covered, most owners move on to a bed rack for overland gear or all-weather floor liners for the cab. The vehicle hub lists every fit-checked accessory for your Tacoma.",
+ },
+ "sources": [
+  ["BAKFlip MX4 448426 (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448426/"],
+  ["UnderCover ArmorFlex AX42014 (RealTruck)", "https://realtruck.com/p/undercover-armor-flex-tonneau-cover/udc-ax42014/"],
+  ["Gator EFX GC44014 (RealTruck)", "https://realtruck.com/p/gator-efx-hard-fold-tonneau-cover/guc-gc44014/"],
+  ["RetraxPRO MX 80851 (RealTruck)", "https://realtruck.com/p/retraxpro-mx-tonneau-cover/rtx-80851/"],
+  ["TruXedo Lo Pro 556001 (RealTruck)", "https://realtruck.com/p/truxedo-lo-pro-tonneau-cover/trx-556001/"],
+  ["Tyger T3 TG-BC3T1630 (Tyger Auto)", "https://www.tygerauto.com/tonneau-cover/tyger-t3-soft-trifold/tg-bc3t1630/tyger-t3-soft-tri-fold-fit-2016-2023-toyota-tacoma-5-bed.html"],
+  ["Toyota Tacoma (cab and bed configurations by generation)", "https://en.wikipedia.org/wiki/Toyota_Tacoma"],
+  ["Tonneau cover for SR5 Trail Edition with storage boxes (TacomaWorld)", "https://www.tacomaworld.com/threads/tonneau-cover-for-sr5-trail-edition-w-storage-boxes.720740/"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B071JQDXFD","BAKFlip MX4 Hard Folding Tonneau Cover 448426, 2016-2023 Tacoma w/OE Track System, 5' 1\" Bed (60.5 in)","BAK","$1,100–$1,300",{"bed_length_in":61},"400 lb rating; not for factory bed storage boxes."),
+ ("B07DCMT193","UnderCover ArmorFlex Hard Folding Tonneau Cover AX42014, 2016-2023 Tacoma (w/ or w/o bedside storage boxes), 5' 1\" Bed (60.5 in)","UnderCover","$1,150–$1,350",{"bed_length_in":61},"Install removes deck rail cleats; confirm storage-box fit with seller."),
+ ("B07XVRX7HW","Gator EFX Hard Tri-Fold Tonneau Cover GC44014, 2016-2023 Tacoma, 5' 1\" Bed (60.5 in)","Gator","$520–$600",{"bed_length_in":61},"300 lb rating; confirm storage-box fit (RealTruck says not compatible)."),
+ ("B018XXXFP2","RetraxPRO MX Retractable Tonneau Cover 80851, 2016-2023 Tacoma Double Cab, 5' 1\" Bed (60.5 in)","Retrax","$1,800–$2,150",{"bed_length_in":61},"500 lb rating; not for factory side storage boxes."),
+ ("B018YFU05M","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 556001, 2016-2023 Tacoma, 5' 1\" Bed (60.5 in)","TruXedo","$470–$520",{"bed_length_in":61},"Confirm Trail Edition box fit; sources disagree."),
+ ("B07QH7VKCP","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3T1630, 2016-2023 Tacoma, 5' (60 in) Bed","Tyger Auto","$210–$240",{"bed_length_in":61},"Fits with or without factory track; not Trail Edition with boxes."),
+ ("B07213G8HQ","BAKFlip MX4 Hard Folding Tonneau Cover 448427, 2016-2023 Tacoma w/OE Track System, 6' 2\" Bed (73.7 in)","BAK","$1,100–$1,300",{"bed_length_in":74},"6 ft version of #1; confirm price on listing."),
+ ("B07DCJK83K","UnderCover ArmorFlex Hard Folding Tonneau Cover AX42015, 2016-2023 Tacoma, 6' 2\" Bed (73.7 in)","UnderCover","$1,150–$1,350",{"bed_length_in":74},"6 ft version of #2; confirm price on listing."),
+ ("B018XXXHDC","RetraxPRO MX Retractable Tonneau Cover 80852, 2016-2023 Tacoma Regular/Access/Double Cab, 6' 2\" Bed (73.7 in)","Retrax","$1,800–$2,200",{"bed_length_in":74},"6 ft version of #4; confirm price on listing."),
+ ("B018YFTTMW","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 557001, 2016-2023 Tacoma, 6' 2\" Bed (73.7 in)","TruXedo","$470–$540",{"bed_length_in":74},"6 ft version of #5; confirm price on listing."),
+ ("B07QH7VH12","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3T1631, 2016-2023 Tacoma, 6' (74 in) Bed","Tyger Auto","$210–$250",{"bed_length_in":74},"6 ft version of #6; confirm price on listing."),
+]

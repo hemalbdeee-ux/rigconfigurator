@@ -1,0 +1,183 @@
+"""Long-form article — Best Tonneau Covers for 2019–2026 GMC Sierra 1500 (T1, 5th gen).
+Angle: bed material first (CarbonPro composite vs steel), MultiPro tailgate second. Deliberately
+different pick emphasis from the Silverado page. No invented hands-on testing: specs come from the
+manufacturer/retailer pages in SOURCES (checked 2026-09-24).
+"""
+
+KEY = ("gmc", "sierra-1500", "2019-present", "tonneau-covers")
+
+TITLE = "Best Tonneau Covers for 2019–2026 GMC Sierra 1500: 6 Picks for CarbonPro and Steel Beds"
+META = ("Six Sierra 1500 tonneau covers split by bed: four CarbonPro-specific part numbers and two for steel beds, "
+        "with MultiPro tailgate notes, load ratings and warranties.")
+
+FAQ = [
+ ("How do I know if my Sierra has the CarbonPro bed?",
+  "Look for RPO code E3Z (Carbon Fiber Composite Bed) on the window sticker or the Service Parts Identification label in the glovebox. Trucks with the AT4 or Denali CarbonPro Edition package also carry a CarbonPro badge on the fender. GM Authority reports the bed was standard on the 2022 Denali Ultimate and otherwise an AT4 or Denali option, and only on the Crew Cab short bed. The composite floor looks different from a painted steel bed with a liner."),
+ ("Will a standard Silverado/Sierra cover fit a CarbonPro bed?",
+  "Usually not. The standard short-bed part numbers from BAK (448130), Retrax (80481), TruXedo (572401) and Tyger (TG-BC3C1053) all exclude the CarbonPro bed in their listings or fitment notes. Buy a part number that names CarbonPro: BAKFlip MX4 448135, TruXedo Sentry 1574301, RetraxONE MX 60488, Extang Trifecta 2.0 92459 or TruXedo Lo Pro 574301. The cover will say \"Works with\" or \"Only works with\" Carbon Pro in the title."),
+ ("Is CarbonPro still available on a new Sierra 1500?",
+  "No. GM Authority reported in July 2026 that the CarbonPro composite bed is no longer available to order for the 2026 Sierra 1500 and isn't expected on the next-generation truck. It debuted on the 2019 Sierra. That makes CarbonPro mainly a used-truck question: if you're shopping a 2019–2025 AT4 or Denali, check for E3Z before you order a cover."),
+ ("Do tonneau covers work with the MultiPro tailgate?",
+  "Yes; every cover here either names MultiPro in its listing or seals on top of the tailgate without attaching to it. The catch is the inner gate. With a folding cover closed, the upper section may be held by the cover. One GM-Trucks owner reports that with a soft tri-fold closed, \"the top part of the tailgate won't release.\" Fold the rear panel first, or choose a retractable, which opens independently."),
+ ("Which cover lets me use the MultiPro inner gate with the bed covered?",
+  "A retractable. The RetraxONE MX opens and closes independently of the tailgate, and a GM-Trucks owner notes the MultiPro main gate and inner gate still operate on their own with it installed. You can pull the cover back 2 ft, drop the inner gate as a load stop, and leave the rest of the bed covered. Folding covers need the rear panel flipped forward first."),
+ ("Do Silverado covers fit the Sierra?",
+  "Yes for steel beds. The 2019–2026 Silverado 1500 and Sierra 1500 share the same beds, and most part numbers are sold as Silverado/Sierra. The two exceptions are the CarbonPro bed, which is GMC-only and needs its own part, and the 2019 Sierra Limited, which is the previous-generation truck and takes 2014–2018 covers."),
+ ("Is the 2019 Sierra Limited a new-body truck?",
+  "No. For 2019 GMC sold the previous-generation Sierra as the Sierra 1500 Limited alongside the new T1. It has the old bed, so it takes covers listed for 2014–2018 and \"2019 Limited/Legacy.\" Tyger's T3 fitment, for example, explicitly excludes the 2019 LD/Limited from its 2019–2026 part. The window sticker or registration will say Limited if yours is one."),
+ ("Does the CarbonPro cover need drilling?",
+  "Check your part's instructions. RealTruck's product notes for BAKFlip MX4 448135 say \"Installation Requires Drilling,\" while the same page's install overview says no drilling is required. BAK publishes a separate \"19+ GMC CarbonPro Bed\" install sheet for it. Download that sheet before ordering, since drilling a composite bed is a different job from clamping to a steel rail."),
+ ("What's the best cover for a Denali or AT4 with a steel bed?",
+  "If you want the cover to match the truck, the UnderCover Elite LX is a painted, one-piece hard lid rated at 500 lb. The UC1238L-50 listing is for Summit White (paint code GAZ) with the MultiPro tailgate, and other colors have other part numbers. If you'd rather have a folding cover, the BAKFlip MX4 448130 and Gator EFX GC14020 fit steel-bed Sierras."),
+ ("Do these covers work with GMC factory bed storage boxes?",
+  "No. The Extang Trifecta 2.0, RetraxONE MX and Gator EFX fitment notes at RealTruck all say they won't work with factory side storage boxes, and the same exclusion appears across the Silverado/Sierra part numbers. The boxes occupy the rail space the clamps need. Remove them, or shop for a cover designed around toolboxes."),
+]
+
+ARTICLE = {
+ "dek": "The Sierra shares its beds with the Silverado, but two GMC-only features change what fits: the optional CarbonPro composite bed and the MultiPro tailgate. Here are four covers made for CarbonPro and two for steel beds, from a $450 soft tri-fold to a $2,250 paint-matched lid.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on each maker's fitment notes for the 2019–2026 Sierra 1500, especially CarbonPro and MultiPro compatibility, and on what Sierra owners report in a GM-Trucks.com thread on MultiPro and CarbonPro covers. Prices were checked at RealTruck in September 2026. Amazon prices change daily, so the button shows the live price.",
+ "takeaways": [
+  "**Check the bed material before the bed length.** A CarbonPro Sierra (RPO E3Z) needs a CarbonPro part number, and most standard covers exclude it.",
+  "**CarbonPro is a Crew Cab short-bed, AT4/Denali feature.** It debuted for 2019 and was dropped for the 2026 model year, so it's mainly a used-truck question now.",
+  "**MultiPro works with every cover here,** but a closed folding cover can hold the inner gate shut. A retractable lets you use it with the bed covered.",
+  "**Steel-bed Sierras share covers with the Silverado.** The 2019 Sierra Limited doesn't; it's the old truck.",
+  "**None of these covers works with factory side storage boxes.**",
+ ],
+ "top_picks": [
+  {"asin": "B08V5DDW1X", "role": "Best for CarbonPro beds", "why": "BAKFlip MX4 made only for CarbonPro: 400 lb rating, 5-year warranty"},
+  {"asin": "B08V37RK9J", "role": "Best CarbonPro roll-up", "why": "Hard aluminum-slat roll-up, 400 lb rating, 100% bed access"},
+  {"asin": "B08V1VJWHF", "role": "Best budget for CarbonPro", "why": "$450 soft tri-fold that names CarbonPro and MultiPro, lifetime warranty"},
+  {"asin": "B07WJ6SDJ2", "role": "Best paint-matched (steel bed)", "why": "One-piece painted lid, 500 lb rating, gas struts and LED light"},
+  {"asin": "B07XVQ3KL5", "role": "Best value (steel bed)", "why": "Aluminum hard tri-fold with auto latches for $599"},
+ ],
+ "fit_table": {
+  "caption": "Which Sierra 1500 do you have? Bed material decides the part number",
+  "head": ["Truck", "Bed", "Floor length", "Cover to buy"],
+  "rows": [
+   ["Crew Cab short bed, CarbonPro (E3Z)", "Carbon-fiber composite", "69.9 in", "CarbonPro part only: MX4 448135, Sentry 1574301, RetraxONE 60488, Trifecta 92459"],
+   ["Crew Cab short bed, steel", "Steel", "69.9 in", "Any 2019–2026 Silverado/Sierra short-bed part (MX4 448130, EFX GC14020)"],
+   ["Double or Crew Cab standard bed", "Steel", "79.4 in", "Standard-bed Silverado/Sierra parts (MX4 448131)"],
+   ["Regular Cab long bed", "Steel", "98.2 in", "Long-bed parts (MX4 448132)"],
+   ["2019 Sierra 1500 Limited", "Steel, old body", "About 69 in", "2014–2018 / \"2019 Limited\" parts, not T1 covers"],
+  ],
+ },
+ "look_for": [
+  {"h": "Bed material outranks everything",
+   "body": "GMC offered the CarbonPro carbon-fiber composite bed from the 2019 model year. GMC says it's 25% lighter than steel, about 60 lb, with better dent and corrosion resistance. For covers, what matters is that its rails and bulkhead differ from the steel bed's, and the big makers treat it as a separate truck. BAK, Retrax, TruXedo and Tyger list their standard short-bed covers as not for CarbonPro, then sell separate CarbonPro parts. Confirm yours by finding RPO E3Z on the window sticker or glovebox label before comparing brands or prices. Everything else on this page follows from that one code."},
+  {"h": "Which Sierras actually have CarbonPro",
+   "body": "According to GM Authority, CarbonPro was an AT4 and Denali option (the CarbonPro Edition packages at $1,125, which also bundled a fender badge and the MultiPro tailgate Kicker audio system) and was standard on the 2022 Denali Ultimate. It was only available on the Crew Cab short bed, so every CarbonPro cover is a short-bed part. Availability was constrained in some years, and the bed is no longer orderable for the 2026 Sierra 1500. On a used AT4 or Denali, don't assume either way. Check the RPO code. A dark spray-in liner on a steel bed can look similar at a glance, so don't judge by eye."},
+  {"h": "MultiPro: what a cover changes",
+   "body": "The MultiPro tailgate launched on the 2019 Sierra 1500. Its inner gate works as a load stop, a full-width step and a work surface. Covers seal on top of the tailgate, so the main gate still drops, and BAK, Retrax, TruXedo, Extang and UnderCover all list MultiPro compatibility on the parts here. The inner gate is the catch. On the GM-Trucks MultiPro and CarbonPro thread, an owner with a soft tri-fold reports the top section won't release while the cover is closed. Folding covers need the rear panel flipped first; retractables don't. If you use the step every day, that alone can decide the cover type."},
+  {"h": "Install method on a composite bed",
+   "body": "Steel-bed covers clamp to the inside lip of the rail. On CarbonPro, check the instructions before you order. RealTruck's product notes for BAKFlip MX4 448135 say installation requires drilling, even though the generic overview on the same page says it doesn't, and BAK publishes a separate CarbonPro install sheet. A GM-Trucks owner who fitted GMC's own soft tri-fold to a CarbonPro bed used dealer-supplied mounting brackets. Read the install sheet first, because drilling a composite bed is a decision you don't want to make on the driveway. If the sheet calls for brackets you don't have, a GMC dealer can order them."},
+  {"h": "Load rating, warranty and storage boxes",
+   "body": "Published distributed ratings on this page run from 200 lb (RetraxONE MX) through 300 lb (Gator EFX) and 400 lb (MX4, Sentry) to 500 lb (Elite LX). Soft covers have none. Warranties vary even more: 1 year for the RetraxONE, 2 for the EFX, 3 for the Sentry, 5 for the MX4, and limited lifetime for the Extang and the Elite LX's structure and paint. The RealTruck fitment notes for the covers here also exclude GM's factory side storage boxes. If yours has them, this list doesn't apply. That applies to steel and CarbonPro trucks alike, and it's worth checking before the cover arrives."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Bed material", "\"Works with\" or \"Only works with Carbon Pro\" if you have E3Z", "Standard short-bed parts on a CarbonPro truck"],
+   ["Tailgate", "\"Works w/ MultiPro\" in the listing title", "Covers that say nothing about MultiPro"],
+   ["Model year", "2019–2026 new body; 2020+ on some CarbonPro parts", "\"2014–2019\" listings unless it's a 2019 Limited"],
+   ["Install", "The CarbonPro install sheet read before ordering", "Surprise drilling on a composite bed"],
+   ["Storage boxes", "Box-free bed, or a toolbox-specific cover", "Rail-clamp covers with GM side boxes installed"],
+   ["Warranty", "3 years or more", "1 year on a $1,600 cover without a reason"],
+  ],
+ },
+ "types_table": {
+  "caption": "Cover types compared on the Sierra 1500 short bed",
+  "head": ["Type", "Price on this page", "CarbonPro option", "Bed access", "Load on top", "Best for"],
+  "rows": [
+   ["Soft tri-fold", "$450 (Trifecta 2.0)", "Yes (92459)", "About ⅔; removable", "None", "Budget weather cover"],
+   ["Hard tri-fold", "$599 (Gator EFX)", "No (steel only)", "About ⅔", "300 lb", "Steel-bed value"],
+   ["Hard fold", "$1,250 (MX4 448135)", "Yes", "Folds against the cab", "400 lb", "Best all-round on CarbonPro"],
+   ["Hard roll-up", "$1,130 (Sentry)", "Yes (2020+)", "Full bed", "400 lb", "Full access, hard cover"],
+   ["Retractable", "$1,600 (RetraxONE MX)", "Yes", "Full, minus canister", "200 lb", "Using MultiPro with bed covered"],
+   ["Painted one-piece", "$2,250 (Elite LX)", "No", "Lid lifts; no stacking", "500 lb", "Denali-level finish on steel beds"],
+  ],
+ },
+ "picks": [
+  {"asin": "B08V5DDW1X", "role": "Best for CarbonPro beds", "price": "$1,250",
+   "pros": ["Built only for the CarbonPro bed", "400 lb distributed load rating", "Auto-latching; locks under a locked tailgate", "Doesn't block the third brake light", "5-year warranty; made in Missouri"],
+   "cons": ["Product notes say drilling is required", "$50 more than the steel-bed MX4", "Short bed only (as is every CarbonPro truck)"],
+   "body": "Part 448135 is BAK's MX4 built for the CarbonPro bed. The Amazon title says it \"Only Works w/ Carbon Pro Bed,\" so this is not a cover to buy for a steel Sierra. Otherwise it's the same cover that leads most full-size truck lists: polymer-reinforced aluminum panels rated at 400 lb evenly distributed, BAK's patented auto-latch, EPDM perimeter seals and a fold that stacks against the cab without blocking the third brake light. The Amazon title also says it works with the MultiPro/Multi-Flex tailgate.\n\nRealTruck lists 448135 at $1,249.99 with a 5-year warranty and an under-30-minute, one-person install. Read the install sheet before you buy. RealTruck's product notes for this part say \"Installation Requires Drilling,\" while the page's general overview says no drilling, and BAK publishes a dedicated \"19+ GMC CarbonPro Bed\" instruction sheet. On the GM-Trucks MultiPro/CarbonPro thread, one owner running an MX4 says it \"locks in each position, does not interfer with tailgate\" and took about 30 minutes to fit. If you ever swap to a steel-bed Sierra or Silverado, you'll need the standard 448130 instead, so this cover stays with the truck.",
+   "who": "CarbonPro owners who want the most complete hard folding cover and are fine following BAK's CarbonPro install sheet.",
+   "specs": [["Type", "Hard folding"], ["Part #", "448135 (CarbonPro only)"], ["Fits", "2019–2026 Sierra 1500 CarbonPro, 5'10\" (69.9 in)"], ["Material", "Polymer-reinforced aluminum panels"], ["Load rating", "400 lb distributed"], ["Tailgate", "Works with MultiPro"], ["Install", "≤30 min; see CarbonPro sheet (drilling noted)"], ["Warranty", "5 years"]]},
+  {"asin": "B08V37RK9J", "role": "Best CarbonPro roll-up", "price": "$1,130",
+   "pros": ["Hard aluminum slats that roll to the cab: 100% bed access", "400 lb load rating", "Up to 6 automatic latches with a tension cable", "Tool-free quick-release removal", "Keeps stake pocket access"],
+   "cons": ["3-year warranty, shorter than BAK's", "Listed from 2020; 2019 CarbonPro trucks not named", "Rolled bundle sits at the front of the bed"],
+   "body": "The Sentry gives CarbonPro owners what a hard folding cover can't: the whole bed open with no panels stacked against the cab. It's a hard roll-up of interlocking aluminum slats faced with leather-grain DualShield vinyl, so it rolls like a soft cover but carries weight like a hard one. RealTruck lists a 400 lb rating. TruXedo's locking system uses a tension cable and up to six automatic latches, and the slats are sold as slash-resistant, a real step up from a vinyl roll-up.\n\nRealTruck lists 1574301 at $1,129.99 (was $1,279.99) for the 2020–2026 Sierra 1500 short bed with CarbonPro. The Amazon listing title says 2020–2024. Neither names 2019, so if you have a 2019 CarbonPro truck, ask the seller before ordering. The warranty is 3 years on hardware and fabric, and the install is a no-drill clamp-on job TruXedo puts at 30 minutes to under an hour. It's assembled in South Dakota. For a softer, cheaper CarbonPro roll-up, TruXedo also sells the Lo Pro in a CarbonPro version (574301), which RealTruck lists at $539.99.",
+   "who": "2020+ CarbonPro owners who want a lockable hard cover and full bed access for tall loads.",
+   "specs": [["Type", "Hard roll-up"], ["Part #", "1574301 (CarbonPro)"], ["Fits", "2020–2026 Sierra 1500 CarbonPro per RealTruck (Amazon: 2020–2024)"], ["Material", "Aluminum slats, DualShield vinyl"], ["Load rating", "400 lb"], ["Latching", "Tension cable, up to 6 auto latches"], ["Install", "<1 hr, no drill"], ["Warranty", "3 years"]]},
+  {"asin": "B09YWL72QJ", "role": "Best CarbonPro retractable", "price": "$1,600",
+   "pros": ["Opens and closes without touching the tailgate", "Key-locks in any position", "Works with or without MultiPro, and with CarbonPro", "Spring-loaded one-hand handle", "Integrated drain tubes"],
+   "cons": ["200 lb rating, the lowest hard cover here", "1-year warranty", "One owner reports leaks after a couple of years"],
+   "body": "For a MultiPro truck, a retractable fixes the inner-gate problem. The RetraxONE MX slides forward into a compact canister, locks with a key at any point, and opens and closes without dropping the tailgate. On the GM-Trucks MultiPro/CarbonPro thread, one owner recommends it because the MultiPro main gate and inner gate still work on their own. You can pull the cover back 2 ft and use the inner gate as a load stop with the rest of the bed covered.\n\nRealTruck lists 60488 at $1,599.99 for the 2019–2026 Sierra 1500 short bed and states it works with the CarbonPro bed and with or without the MultiPro tailgate, though not with factory side storage boxes. The trade-offs come from the materials. The panel is aluminum-reinforced polycarbonate rated at 200 lb, versus 500 lb for the aluminum RetraxPRO, and the warranty is one year. Another owner in the same thread reports leaks after a couple of years that needed new rails. For a rack-ready CarbonPro option, the RetraxPRO XR T-80488 is sold for this bed.",
+   "who": "MultiPro owners who want to use the inner gate with the bed partly covered.",
+   "specs": [["Type", "Retractable (manual)"], ["Part #", "60488 (CarbonPro)"], ["Fits", "2019–2026 Sierra 1500 CarbonPro, 5'10\""], ["Material", "Aluminum-reinforced polycarbonate"], ["Load rating", "200 lb distributed"], ["Lock", "Key-lockable, any position"], ["Install", "<60 min, no drill"], ["Warranty", "1 year"]]},
+  {"asin": "B08V1VJWHF", "role": "Best budget for CarbonPro", "price": "$450–$520",
+   "pros": ["Cheapest CarbonPro-listed cover here", "Title names both CarbonPro and MultiPro", "Tool-free Jaw-Grip front and EZ-Lock rear clamps", "Triple-fin snap-on seals", "Limited lifetime warranty"],
+   "cons": ["Vinyl gives no real security", "About ⅔ bed access when folded", "RealTruck lists 2019–2025; confirm 2026"],
+   "body": "Most budget soft covers exclude CarbonPro, so the choice at this price is narrow. The Trifecta 2.0 92459 is one of the few that names both the CarbonPro bed and the MultiPro tailgate in its Amazon title. It's a leather-grained vinyl tri-fold on an aircraft-grade aluminum frame. Extang's patented corner tucks and triple-fin seals keep it tight, and dual-pivot hinges plus integrated buckle straps secure it when you drive with it folded.\n\nRealTruck lists it at $449.99 (list $519.99) for the 2019–2025 Sierra 1500 short bed, with Extang's limited lifetime warranty covering the rails, clamps, bows, hardware and vinyl. Installation needs no drilling. The front clamps tighten by hand and the rear EZ-Lock clamps lock in place. Folded, it opens about two-thirds of the bed, and it comes off entirely in seconds when you need the whole bed. The Amazon title extends to 2026, but RealTruck stops at 2025, so confirm 2026 fitment with the seller. Vinyl won't stop a determined thief, so treat it as a weather cover, not a lock box.",
+   "who": "CarbonPro owners who want the bed covered from weather for under $500 and don't need lockable security.",
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "92459 (CarbonPro)"], ["Fits", "2019–2025 Sierra 1500 CarbonPro per RealTruck; Amazon title says 2026"], ["Material", "Leather-grain vinyl, aluminum frame"], ["Clamps", "Jaw-Grip front, EZ-Lock rear"], ["Install", "No drill, tool-free"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B07WJ6SDJ2", "role": "Best paint-matched (steel bed)", "price": "$2,250",
+   "pros": ["Painted to match the truck (Summit White on this part)", "500 lb load rating, the highest here", "Gas struts, one-hand lock, removable LED light", "Carpeted underside and double-bulb EPDM seals", "Limited lifetime warranty on structure and paint"],
+   "cons": ["Most expensive cover on the page", "Not for CarbonPro beds", "One-piece lid: you can't haul tall loads with it on"],
+   "body": "A Denali or AT4 with a steel bed is the truck this cover is made for. The Elite LX is a one-piece ABS composite lid painted in automotive-grade paint to match the truck. UnderCover credits its \"X-Effect\" internal structure for a 500 lb evenly distributed rating, the highest on this page. Gas struts lift it, one hand works the integrated lock, and it comes with a carpeted headliner, a removable LED light and a cargo-retriever lanyard. Double-bulb EPDM seals run around the edge.\n\nRealTruck lists UC1238L-50 at $2,249.99 (list $2,349.99) for the 2019–2025 Sierra 1500 short bed. Its warranty is limited lifetime on the structure and paint and one year on struts and hardware. The -50 suffix is the color. The Amazon title identifies it as GAZ (Summit White), for trucks with the MultiPro tailgate, and says it does not fit the carbon bed. Order the suffix for your own paint code. The trade-off is the lid itself: nothing taller than the bed rails fits under it, and you can't fold part of it back.",
+   "who": "Steel-bed Denali and AT4 owners who want a factory-look cover and rarely haul tall loads.",
+   "specs": [["Type", "Hard one-piece, painted"], ["Part #", "UC1238L-50 (Summit White, GAZ)"], ["Fits", "2019–2025 Sierra 1500 w/ MultiPro, 5'10\"; not CarbonPro"], ["Material", "ABS composite, automotive paint"], ["Load rating", "500 lb distributed"], ["Opening", "Gas struts, one-hand lock"], ["Install", "No drill"], ["Warranty", "Lifetime structure/paint; 1 yr struts/hardware"]]},
+  {"asin": "B07XVQ3KL5", "role": "Best value (steel bed)", "price": "$599",
+   "pros": ["Aluminum hard tri-fold for $599", "Dual automatic slam-latches, one cable release", "Drain rails and flush side seals", "Free 4 ft cargo retriever", "Stake pockets stay usable"],
+   "cons": ["Not listed for CarbonPro", "300 lb rating, 2-year warranty", "About ⅔ bed access when folded"],
+   "body": "For a steel-bed Sierra where the budget stops around $600, the Gator EFX is the locking hard cover to beat. The panels are multi-layer aircraft-grade aluminum, and dual slam-latches lock them automatically. Gator claims twice as many locking points as competitors, all released with one cable from either side of the tailgate. Flush side seals and integrated drain rails move water out of the bed.\n\nGC14020 is sold for the 2019–2026 Silverado/Sierra 1500 short bed. It isn't listed for CarbonPro, so use one of the picks above if you have the composite bed. RealTruck lists it at $599 with a 300 lb distributed rating, a 2-year warranty plus a 30-day exchange, and a no-drill, 30-minute install. It won't work with factory bed storage boxes. When it's folded, about two-thirds of the bed is open, and it comes off without tools for the times you need the rest. Gator's clamp-on design leaves the stake pockets open for tie-downs or a rack later. For a folding cover with a higher rating on a steel bed, the BAKFlip MX4 448130 is the step up.",
+   "who": "Steel-bed Sierra owners who want a locking hard cover under $600.",
+   "specs": [["Type", "Hard tri-fold"], ["Part #", "GC14020"], ["Fits", "2019–2026 Silverado/Sierra 1500 short bed (steel)"], ["Material", "Multi-layer aircraft-grade aluminum"], ["Load rating", "300 lb distributed"], ["Install", "≤30 min, no drill"], ["Warranty", "2 years + 30-day exchange"]]},
+ ],
+ "install": [
+  "Confirm the bed: RPO E3Z means CarbonPro, and the cover's part number must say so. Remove any factory side storage boxes and rail caps.",
+  "On CarbonPro, download the maker's CarbonPro install sheet (BAK publishes one for 448135) and check for drilling or dealer brackets before you start.",
+  "Set the rails or frame with the front seal tight to the bulkhead, and fit the clamps loosely.",
+  "Close the MultiPro tailgate with the inner gate latched, center the cover so the rear seal sits evenly on the tailgate, then tighten the clamps evenly.",
+  "Route drain tubes (Retrax) through the corner drain holes, and check that the inner gate releases with the cover in its open position.",
+  "Re-check clamps after the first week, and again after a few months.",
+ ],
+ "avoid": [
+  {"h": "Standard short-bed parts on a CarbonPro truck", "body": "BAK, Retrax, TruXedo and Tyger all exclude CarbonPro from their standard Silverado/Sierra parts. Check for RPO E3Z before ordering."},
+  {"h": "Assuming a 2019 CarbonPro truck is covered", "body": "The TruXedo Sentry's CarbonPro part is listed from 2020. On a 2019 CarbonPro Sierra, ask the seller before ordering."},
+  {"h": "\"2014–2019\" listings on a new-body Sierra", "body": "Those are for the 2019 Sierra Limited, the previous-generation truck. The T1 needs a 2019–2026 part."},
+  {"h": "Rail-clamp covers with GM side storage boxes", "body": "The fitment notes for the covers here exclude factory side storage boxes. They occupy the rail space the clamps need."},
+ ],
+ "verdict": {
+  "thesis": "Find out whether your Sierra has CarbonPro first. If it does, the BAKFlip MX4 448135 is the best all-round cover and the Extang Trifecta 92459 the budget pick. If it doesn't, you're shopping the same list as a Silverado, and the Elite LX is the GMC-flavored upgrade.",
+  "body": "The Sierra 1500 is a Silverado with two GMC-specific complications, and both come down to reading part numbers carefully. On a CarbonPro truck, only CarbonPro-listed covers fit. The MX4 448135 has the best mix of rating and warranty, the Sentry gives the whole bed back with hard slats, and the RetraxONE is the one that keeps the MultiPro inner gate usable with the bed covered. On a steel bed, the Gator EFX is the value hard cover and the painted Elite LX is the upgrade for Denali owners who want the cover to match the truck.\n\nIf a bed rack is on your list, choose it before the cover. Only railed retractables, such as the RetraxPRO XR sold in a CarbonPro version, leave anything to mount to. For the cab, the Sierra shares its floor with the Silverado, so the same laser-fit floor liners fit, and running boards are the usual next step on a lifted AT4.",
+ },
+ "sources": [
+  ["BAKFlip MX4 448135 CarbonPro (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448135/"],
+  ["TruXedo Sentry 1574301 CarbonPro (RealTruck)", "https://realtruck.com/p/truxedo-sentry-tonneau-cover/trx-1574301/"],
+  ["RetraxONE MX 60488 CarbonPro (RealTruck)", "https://realtruck.com/p/retraxone-mx-tonneau-cover/rtx-60488/"],
+  ["Extang Trifecta 2.0 92459 CarbonPro (RealTruck)", "https://realtruck.com/p/extang-trifecta-20-tonneau-cover/ext-92459/"],
+  ["UnderCover Elite LX UC1238L-50 (RealTruck)", "https://realtruck.com/p/undercover-elite-lx-tonneau-cover/udc-uc1238l-50/"],
+  ["Gator EFX GC14020 (RealTruck)", "https://realtruck.com/p/gator-efx-hard-fold-tonneau-cover/guc-gc14020/"],
+  ["CarbonPro no longer available for 2026 (GM Authority)", "https://gmauthority.com/blog/2026/07/gmc-sierra-carbonpro-composite-bed-no-longer-available/"],
+  ["2022 Sierra CarbonPro availability, Crew Cab short bed only (GM Authority)", "https://gmauthority.com/blog/2022/04/2022-gmc-sierra-1500-carbonpro-bed-has-limited-availability/"],
+  ["CarbonPro bed overview (GMC)", "https://www.gmc.com/gmc-life/carbonpro-delivers-innovation-durability"],
+  ["Tonneau covers for MultiPro tailgates and CarbonPro beds (GM-Trucks.com)", "https://www.gm-trucks.com/forums/topic/252537-tonneau-covers-for-multi-pro-tailgates-and-carbon-pro-bedliners-denali/"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B08V5DDW1X","BAKFlip MX4 Hard Folding Tonneau Cover 448135, 2019-2026 Silverado/Sierra (only w/ Carbon Pro bed), w/MultiPro, 5'10\" (69.9 in)","BAK","$1,150–$1,300",{"bed_length_in":70,"bed_material":"CarbonPro"},"CarbonPro only; RealTruck notes drilling on this application."),
+ ("B08V37RK9J","TruXedo Sentry Hard Rolling Tonneau Cover 1574301, 2020-2024 Silverado/Sierra with CarbonPro bed, 5'10\" (69.9 in)","TruXedo","$1,100–$1,300",{"bed_length_in":70,"bed_material":"CarbonPro"},"Not listed for 2019; confirm 2019 and 2025+ with seller."),
+ ("B09YWL72QJ","RetraxONE MX Retractable Tonneau Cover 60488, 2019-2025 Silverado/Sierra 1500 w/ Carbon Pro bed, 5'10\" (69.9 in)","Retrax","$1,500–$1,650",{"bed_length_in":70,"bed_material":"CarbonPro"},"200 lb rating; 1-year warranty."),
+ ("B08V1VJWHF","Extang Trifecta 2.0 Soft Folding Tonneau Cover 92459, 2019-2026 Sierra 1500 (works w/ Carbon Pro bed), w/MultiPro, 5'10\" (69.9 in)","Extang","$430–$520",{"bed_length_in":70,"bed_material":"CarbonPro"},"RealTruck lists 2019-2025; confirm 2026 on listing."),
+ ("B07WJ6SDJ2","UnderCover Elite LX One-Piece Tonneau Cover UC1238L-50, 2019-2025 Sierra 1500 w/ MultiPro, Summit White (GAZ), 5'10\" (69.9 in), not Carbon bed","UnderCover","$2,150–$2,350",{"bed_length_in":70,"bed_material":"steel"},"Painted; order the suffix for your paint code."),
+ ("B07XVQ3KL5","Gator EFX Hard Tri-Fold Tonneau Cover GC14020, 2019-2026 Silverado/Sierra, 5'10\" bed","Gator","$549–$620",{"bed_length_in":70,"bed_material":"steel"},"Steel bed; not listed for CarbonPro."),
+ ("B08V4Y4Z9V","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 574301, 2020-2024 Silverado/Sierra with CarbonPro bed, 5'10\" (69.9 in)","TruXedo","$520–$580",{"bed_length_in":70,"bed_material":"CarbonPro"},"CarbonPro soft roll-up; confirm 2019 and 2025+ on listing."),
+ ("B0BS1WJDYR","RetraxPRO XR Retractable Tonneau Cover T-80488 with T-slot rails, 2019-2025 Silverado/Sierra 1500 w/ Carbon Pro bed, 5'10\" (69.9 in)","Retrax","$2,100–$2,500",{"bed_length_in":70,"bed_material":"CarbonPro"},"Rack-ready CarbonPro retractable; confirm price and 2026 fit."),
+ ("B07GNLG19C","BAKFlip MX4 Hard Folding Tonneau Cover 448130, 2019-2026 Silverado/Sierra, w/MultiPro/Multi-Flex, 5'10\" (69.9 in), not CarbonPro","BAK","$1,050–$1,250",{"bed_length_in":70,"bed_material":"steel"},"Steel-bed version of #1."),
+ ("B07GNHMVBM","BAKFlip MX4 Hard Folding Tonneau Cover 448131, 2019-2026 Silverado/Sierra, w/MultiPro/Multi-Flex, 6'7\" (79.4 in)","BAK","$1,100–$1,300",{"bed_length_in":79},"Standard bed (steel)."),
+]

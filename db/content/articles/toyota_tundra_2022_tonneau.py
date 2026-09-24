@@ -1,0 +1,182 @@
+"""Long-form article — Best Tonneau Covers for 2022–2026 Toyota Tundra (3rd gen, XK70).
+Mirrors the approved F-150 pilot. No invented hands-on testing: every spec below comes from the
+manufacturer/retailer pages listed in SOURCES (checked 2026-09-24). Owner forums (Tundras.com) could not be
+opened from our research tools, so no owner reports are cited.
+"""
+
+KEY = ("toyota", "tundra", "2022-present", "tonneau-covers")
+
+TITLE = "Best Tonneau Covers for 2022–2026 Toyota Tundra: 6 Fit-Checked Picks for Deck Rail Beds"
+META = ("Six tonneau covers fit-checked for the 3rd-gen Tundra's 5.5, 6.5 and 8.1 ft beds, with load ratings, "
+        "warranties and the deck rail and cleat notes that decide fit.")
+
+FAQ = [
+ ("What is the best tonneau cover for a 2022+ Toyota Tundra?",
+  "For most owners, the BAKFlip MX4 (448440 for the 5.5 ft bed). It has aluminum panels with polymer cores, a 400 lb distributed load rating, auto-latching, a 5-year warranty and a sub-30-minute clamp-on install, and it keeps the third brake light visible in every position. The catch on a Tundra: BAK says the tie-down cleats must come off to install it and cannot go back on. If you want to keep your deck rail cleats, look at the RetraxPRO MX 80861, which RealTruck lists as working with the deck rail system."),
+ ("Do 2007–2021 Tundra tonneau covers fit a 2022 Tundra?",
+  "No. The 2022 Tundra has a new composite bed, and every major maker sells separate part numbers for it: BAKFlip MX4 448440 for 2022+ against 448409 for 2007–2021, RetraxPRO MX 80861 against 80840, Tyger T3 TG-BC3T1062 against TG-BC3T1432. Some budget listings span both generations (one Rough Country soft tri-fold is titled 2007–2023 Tundra 5'7\"). Treat a listing like that as a question for the seller, not a guarantee, and buy a 2022+ part number when one exists."),
+ ("How do I know if my Tundra has the 5.5, 6.5 or 8.1 ft bed?",
+  "Check the cab first. CrewMax trucks come with the 5.5 ft or 6.5 ft bed; the Double Cab comes with the 6.5 ft or the 8.1 ft bed. There is no regular cab in this generation. Then measure inside the bed at the rail from the bulkhead to the closed tailgate. Cover listings describe the beds as 5'7\" (66.7 in), 6'7\" (78.7 in) and 8' (96 in); the numbers differ slightly from Toyota's brochure figures, so go by the part number for your bed."),
+ ("What is the Tundra deck rail system and why does it matter for a cover?",
+  "It is Toyota's available set of rails along the inside of the bed with sliding tie-down cleats. Clamp-on covers grip that same inside-rail area, so makers split their parts by it. Retrax sells the PRO MX as 80861 for trucks with the deck rail system and 80860 for trucks without it; TruXedo does the same with the Lo Pro 564001 and 563901. Extang's Trifecta 2.0 92472 and Tyger's T3 are sold as one part for both. Look in your bed before you order."),
+ ("Will a tonneau cover fit the Tundra Trail Special Edition?",
+  "Usually not. The Trail Special Edition has factory storage boxes in the bed, and BAK, Retrax and Extang all state that the covers on this page will not work with those boxes. If you have that truck, ask the seller for a cover built around the boxes before you buy, and expect far fewer choices. The standard 5.5 ft parts on this page are the wrong starting point for it."),
+ ("Can I keep my deck rail cleats with a BAKFlip MX4?",
+  "Not according to BAK. RealTruck's fitment notes for the 448440 say installation requires removal of the tie-down cleats if equipped, and that the cleats cannot be reinstalled. You keep the rails themselves and can still use the bed floor and any stake-pocket or floor tie-downs. If the sliding cleats are how you secure loads, choose a cover that lists the deck rail system as compatible, such as the RetraxPRO MX 80861 or the Extang Trifecta 2.0 92472."),
+ ("Hard or soft cover — which is better on a Tundra?",
+  "Hard covers (MX4, Gator FX, RetraxPRO) lock under a locked tailgate, carry 300–500 lb spread evenly and shed snow. Soft covers (Lo Pro, Trifecta 2.0, T3) cost $248–$490, weigh less and come off quickly, but a knife gets through vinyl. Buy hard if tools or gear stay in the bed overnight. Buy soft if you mostly want to keep rain and road dirt off the composite bed and value easy removal."),
+ ("Can I carry cargo on top of a Tundra tonneau cover?",
+  "Only on hard covers, and only up to the published evenly distributed rating: 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4, and 300 lb for the Gator FX. Those numbers assume the load is spread flat across the cover, not concentrated on one corner. Soft vinyl covers carry no rating and are weather covers only. If you want to carry a rooftop tent or crossbars over the bed, look at a railed retractable like the RetraxPRO XR."),
+ ("Do I need to drill the composite bed to install a cover?",
+  "No. Every cover here clamps to the inside of the bed rails. The makers quote 5–10 minutes (Tyger T3), 30 minutes or less (BAKFlip MX4, Gator FX) and under an hour (RetraxPRO MX, TruXedo Lo Pro). Tyger notes that a bedliner that wraps over the rails needs small holes cut for the clamps; under-rail and spray-in liners need nothing. Tighten clamps evenly rather than cranking one side down."),
+ ("Is a retractable cover worth it on a Tundra?",
+  "It is if you open the bed many times a day, or if you want to keep the deck rail cleats. The RetraxPRO MX locks at any position, carries 500 lb and works with the deck rail system on the 80861 part. The costs are the price (RealTruck lists it at $1,849.99), the canister that sits at the front of the bed, and roller service that means pulling the canister. Retrax does not publish the canister depth on this listing, so ask the seller before buying if bed length at the bulkhead matters to you."),
+]
+
+ARTICLE = {
+ "dek": "Six covers that fit the third-generation Tundra's 5.5, 6.5 and 8.1 ft composite beds, from a $248 soft tri-fold to a $1,850 retractable. For each one we list the load rating, warranty and install time, plus the deck rail, cleat and Trail Special Edition notes that decide whether it fits your truck.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time) and on the fitment the maker or RealTruck lists for the 2022–2026 Tundra, including their notes on the deck rail system, tie-down cleats and Trail Special Edition storage boxes. Prices were checked at RealTruck or the maker's store in September 2026. Amazon prices change daily, so the button shows the live price.",
+ "takeaways": [
+  "**Nothing from 2007–2021 carries over.** The 2022 Tundra got a new composite bed, and BAK, Retrax, TruXedo, Extang and Tyger all sell separate 2022+ part numbers. Buy those.",
+  "**Three beds, two cabs.** CrewMax has the 5.5 or 6.5 ft bed; Double Cab has the 6.5 or 8.1 ft bed. Covers are sold by bed length, so measure or check the window sticker.",
+  "**Check for the deck rail system first.** Retrax and TruXedo sell different part numbers for trucks with and without it, and the BAKFlip MX4 requires removing the tie-down cleats for good.",
+  "**Trail Special Edition storage boxes block most covers.** BAK, Retrax and Extang all exclude them in their fitment notes.",
+  "**Load ratings separate the hard covers:** 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4 and 300 lb for the Gator FX. Soft covers carry no rating.",
+ ],
+ "top_picks": [
+  {"asin": "B09V1T8WNW", "role": "Best overall", "why": "400 lb rating, 5-year warranty, third brake light never blocked, installs in under 30 minutes"},
+  {"asin": "B0BS529Z15", "role": "Best value hard cover", "why": "Aluminum solid-core panels and slam latches for about $200 less than the MX4"},
+  {"asin": "B09YS134XK", "role": "Best retractable", "why": "500 lb rating, locks at any position, and listed to work with the deck rail system"},
+  {"asin": "B09V1SCMFF", "role": "Best soft folding", "why": "One part number for trucks with or without deck rails, limited lifetime warranty"},
+  {"asin": "B0B4M621L9", "role": "Best budget", "why": "Aluminum-frame soft tri-fold with a 5-year warranty for $248"},
+ ],
+ "fit_table": {
+  "caption": "2022–2026 Tundra beds (the cover must match the bed, not the cab)",
+  "head": ["Bed", "Length as cover listings print it", "Cabs", "Notes"],
+  "rows": [
+   ["5.5 ft", "5'7\" (66.7 in)", "CrewMax", "The most common Tundra bed and the one with the most cover choices."],
+   ["6.5 ft", "6'7\" (78.7 in)", "CrewMax, Double Cab", "Order the 6'7\" part (BAKFlip MX4 448441, Lo Pro 564301, Tyger TG-BC3T1063)."],
+   ["8.1 ft", "8' (96 in)", "Double Cab", "Fewest choices. RetraxPRO MX 80865 is one listed long-bed option."],
+   ["Deck rail system", "Rails and sliding cleats inside the bed", "Available option; look in your bed", "Retrax and TruXedo sell separate with/without parts; MX4 requires removing the cleats."],
+  ],
+ },
+ "look_for": [
+  {"h": "A 2022+ part number, not a 2007–2021 one",
+   "body": "Toyota rebuilt the Tundra for 2022 around a bed made of sheet-molded compound (SMC) with aluminum cross members, and the cover makers treat it as a new truck. The BAKFlip MX4 is 448440 for a 2022+ 5.5 ft bed and 448409 for the old one; the RetraxPRO MX is 80861 against 80840; Tyger's T3 is TG-BC3T1062 against TG-BC3T1432. The bed names sound the same across generations, which is why people get caught. Some marketplace listings stretch across both, such as a soft tri-fold titled for 2007–2023 Tundras. When a maker offers a 2022+ part, buy it and ignore the rest."},
+  {"h": "Deck rail system: with, without, or cleats removed",
+   "body": "The Tundra's available deck rail system runs along the inside of the bed with sliding tie-down cleats, right where clamp-on covers grab. Makers handle it three ways. Retrax and TruXedo sell two parts, one for trucks with the rails (RetraxPRO MX 80861, Lo Pro 564001) and one for trucks without (80860, 563901). Extang and Tyger sell one part for both (Trifecta 2.0 92472, T3 TG-BC3T1062). BAK's MX4 fits, but the fitment notes say the tie-down cleats come off and cannot be reinstalled. Look in your bed before you order, because the wrong part will not clamp properly."},
+  {"h": "Bed length and cab, confirmed in inches",
+   "body": "The third-gen Tundra has three beds. CrewMax trucks get the 5.5 ft or 6.5 ft box, and Double Cab trucks get the 6.5 ft or 8.1 ft box. Cover listings print them as 5'7\" (66.7 in), 6'7\" (78.7 in) and 8' (96 in), and those figures don't match Toyota's brochure exactly, so don't panic over an inch. Go by the part number the maker lists for your bed. If you are buying used, measure inside the bed at the rail from the bulkhead to the closed tailgate. The 5.5 ft bed has the most choices; the 8.1 ft bed has the fewest, so check availability before you settle on a brand."},
+  {"h": "Load rating, and what the composite bed changes",
+   "body": "On a hard cover the published distributed-load rating is the clearest way to compare. The RetraxPRO MX's aluminum slats are rated for 500 lb, the BAKFlip MX4's aluminum and polymer panels for 400 lb, and the Gator FX's solid-core aluminum panels for 300 lb. Soft vinyl covers have no rating. The composite bed resists dents and rust, which makes it tempting to skip a cover, but it doesn't stop water pooling or keep tools out of sight. If you carry anything on top, or snow sits on the truck for days, buy a rated hard cover and keep the load spread flat."},
+  {"h": "Trail Special Edition and other bed add-ons",
+   "body": "Anything bolted into the bed can block a cover's clamps or seals. The Trail Special Edition's factory storage boxes are the big one: BAK, Retrax and Extang all state their covers won't work with them. Aftermarket bed dividers, bed-mounted toolboxes and some tall bedliner lips can do the same. Before you buy, stand at the tailgate and look along the inside of both bed rails. The clamps need a clear run of rail at the front, middle and back. If something sits there, ask the seller how their clamps handle it, and send a photo of both rails if you can."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "A 2022–2026 Tundra part number for your bed length (5'7\", 6'7\" or 8')", "Listings that start at 2007 or say \"fits most full-size trucks\""],
+   ["Deck rail system", "\"Works w/ deck rail system\" or a separate with-rail part if you have rails", "Listings that don't mention the rail system at all"],
+   ["Load rating", "Published distributed rating (300–500 lb) if you need a hard cover", "\"Heavy duty\" with no number"],
+   ["Trail Special Edition", "A listing that names it, if you have the storage boxes", "Assuming a standard-bed cover will clear the boxes"],
+   ["Warranty", "2 years minimum; 5 years to lifetime is better", "90 days or nothing stated"],
+   ["Brake light", "Third brake light visible in every position", "A folded stack that blocks it"],
+  ],
+ },
+ "types_table": {
+  "caption": "Cover types compared on the Tundra",
+  "head": ["Type", "Price on this page", "Security", "Bed access", "Load on top", "Best for"],
+  "rows": [
+   ["Soft roll-up", "~$490 (Lo Pro)", "Low (vinyl)", "Nearly full", "None", "Hauling tall loads often"],
+   ["Soft tri-fold", "$248–$450 (T3, Trifecta 2.0)", "Low (vinyl)", "About ⅔; comes off quickly", "None", "Weather cover, keeping cleats"],
+   ["Hard folding", "~$899 (Gator FX)", "High with tailgate locked", "⅔ or full with the cover folded to the cab", "300 lb", "Security for less money"],
+   ["Hard fold (MX4)", "~$1,100", "High with tailgate locked", "Nearly full; folds against the cab", "400 lb", "Best all-round"],
+   ["Retractable", "~$1,850 (RetraxPRO MX)", "High; locks at any position", "Full, minus the canister", "500 lb", "Daily use, deck rail trucks"],
+  ],
+ },
+ "picks": [
+  {"asin": "B09V1T8WNW", "role": "Best overall", "price": "$1,100",
+   "pros": ["400 lb distributed load rating", "Aluminum panels with high-density polymer cores", "Auto-latching; locks with the tailgate", "Third brake light visible in every position", "5-year warranty; assembled in Missouri"],
+   "cons": ["Tie-down cleats must come off and cannot be reinstalled", "Won't work with Trail Special Edition storage boxes", "Separate part (448441) and higher price for the 6.5 ft bed"],
+   "body": "The MX4 is the benchmark hard folding cover, and its specs hold up on the Tundra. BAK builds the panels from multi-layer aluminum around a high-density polymer core and rates the cover at 400 lb evenly distributed, enough for snow load or a sheet of plywood laid flat. The latches engage on their own when you close a panel. BAK also says it is the only hard fold that never blocks the third brake light, and on a tall truck that light matters.\n\nPart 448440 is listed for the 2022–2026 Tundra 5'7\" bed. RealTruck lists it at $1,099.99 (list $1,249.99), with a 5-year non-transferable warranty and a click-in, no-drill install BAK quotes at under 30 minutes. The Tundra-specific catch is in the fitment notes: installation requires removing the tie-down cleats, if equipped, and they cannot be reinstalled. The cover also won't work with Trail Special Edition storage boxes. If you rarely use the sliding cleats, that is an easy trade for the best all-round cover here. The 6'7\" version is 448441 at $1,299.99.",
+   "who": "Owners who want a secure hard cover on year-round, don't depend on the deck rail cleats, and would rather pay once.",
+   "specs": [["Type", "Hard folding"], ["Part #", "448440 (5.5 ft) · 448441 (6.5 ft)"], ["Fits", "2022–2026 Tundra (not Trail Special Edition boxes)"], ["Material", "Multi-layer aluminum, polymer core"], ["Load rating", "400 lb distributed"], ["Latching", "Auto-latch, locks with tailgate"], ["Deck rail", "Cleats removed, cannot be reinstalled"], ["Install", "<30 min, no drill"], ["Warranty", "5 years (non-transferable)"]]},
+  {"asin": "B0BS529Z15", "role": "Best value hard cover", "price": "$899",
+   "pros": ["Aircraft-grade aluminum with solid-core panels", "Automatic slam latches on every panel", "Opens closed, ⅔ or fully folded to the cab", "Rubber seals and rounded hinges", "About $200 less than the MX4"],
+   "cons": ["300 lb rating (MX4: 400 lb)", "2-year warranty only", "Amazon title reads 2022–2025; confirm 2026 on the listing"],
+   "body": "The Gator FX gets you a lockable hard cover with a real load rating for about $200 less than the MX4. The panels are solid-core aircraft-grade aluminum with a semi-gloss black finish, and automatic slam latches lock down every panel when you close it. Gator uses tight rubber seals and rounded hinges to keep water and dirt out. You can drive with it closed, folded back to open two-thirds of the bed, or folded all the way to the cab.\n\nRealTruck lists 8828440 for the 2022–2026 Tundra 5'7\" bed at $899. Gator quotes a no-drill clamp-on install of 30 minutes or less. The Amazon title calls it a quad-fold and stops at 2025, while RealTruck calls it a tri-fold and lists 2026, so confirm the year and panel count on the listing you buy. Against the MX4 you give up 100 lb of load rating and three years of warranty (2 years instead of 5). RealTruck's page doesn't mention the deck rail system or cleats either way, so if your truck has rails, ask the seller before ordering.",
+   "who": "Buyers who want a lockable, rated hard cover under $900 and can live with a 2-year warranty.",
+   "specs": [["Type", "Hard folding"], ["Part #", "8828440 (5.5 ft)"], ["Fits", "2022–2026 Tundra 5'7\" (RealTruck)"], ["Material", "Aircraft-grade aluminum, solid-core panels"], ["Load rating", "300 lb distributed"], ["Latching", "Automatic slam latches"], ["Install", "≤30 min, no drill"], ["Warranty", "2 years"]]},
+  {"asin": "B09YS134XK", "role": "Best retractable", "price": "$1,850",
+   "pros": ["500 lb rating, the highest here", "Listed to work with the deck rail system", "Locks at any position with the key-lockable TraxLatch", "Opens independently of the tailgate", "Limited lifetime warranty"],
+   "cons": ["Most expensive cover here", "Canister takes space at the front of the bed (depth not published)", "Won't work with Trail Special Edition storage boxes", "Roller repairs mean pulling the canister"],
+   "body": "A retractable is the only style here that opens the whole bed and still locks at any point, so you can leave the front covered and the back open for a tall load. The RetraxPRO MX uses double-wall aluminum slats rated for 500 lb, the highest on this page, and it opens and closes regardless of the tailgate. Retrax says the sealed CoreTrax rollers are tested from -40°F to 180°F, and water that gets past the seals drains out through integrated tubes.\n\nFor Tundra owners the key detail is the fitment note. Part 80861 is listed for the 2022–2026 Tundra 5'7\" bed and \"works w/ deck rail system\", so you keep your rails and cleats. If your truck has no rails, the matching part is 80860. RealTruck lists the 80861 at $1,849.99 (list $2,149.99) with a limited lifetime warranty and a clamp-on install under an hour. Retrax lists separate parts for the 6'7\" bed and an 8' long-bed version (80865). If you want crossbars or a rooftop tent over the bed, the XR version (T-80861) adds T-slot rails.",
+   "who": "Contractors and daily users who open the bed many times a day, and owners who want to keep the deck rail cleats.",
+   "specs": [["Type", "Retractable (manual)"], ["Part #", "80861 (with deck rails) · 80860 (without) · XR: T-80861"], ["Fits", "2022–2026 Tundra 5'7\" (not Trail Special Edition boxes)"], ["Material", "Double-wall aluminum slats"], ["Load rating", "500 lb distributed"], ["Lock", "Key-lockable TraxLatch, any position"], ["Drainage", "Integrated drain tubes"], ["Install", "<60 min, clamp-on"], ["Warranty", "Limited lifetime (non-transferable)"]]},
+  {"asin": "B09V1V2TC7", "role": "Best soft roll-up", "price": "$490",
+   "pros": ["Sits ¾ in above the bed rails", "Self-adjusting spring tensioner", "Rolls to the bulkhead for nearly full bed access", "Separate parts for trucks with and without rails", "Limited lifetime warranty; assembled in South Dakota"],
+   "cons": ["Vinyl gives no real security", "No load rating", "Tundra version has no quick-release system"],
+   "body": "For owners who haul tall loads every week, a roll-up is the practical choice. It rolls to the bulkhead in seconds, straps in place with the built-in buckles, and gives you nearly the whole bed. The TruXedo Lo Pro sits ¾ in above the rails, so it looks close to flush, and its patented spring tensioner keeps the industrial-grade vinyl tight through temperature swings instead of leaving it slack and flapping at highway speed.\n\nOn the Tundra you pick between two parts. The 564001 is titled for trucks with the rail system, and the 563901 for trucks without it; order the one that matches your bed, because each is built for a different rail setup. RealTruck lists the Lo Pro for the 2022–2026 Tundra 5'7\" bed at $489.99 (list $519.99) with a limited lifetime warranty. One Tundra-specific note on that page: because of the bed design, this version does not include TruXedo's quick-release system, so taking it off means undoing the clamps rather than pulling a lever. The 6'7\" with-rail version is 564301, and its Amazon title runs to 2025.",
+   "who": "Owners who haul tall or bulky loads often and want full bed access more than security.",
+   "specs": [["Type", "Soft roll-up"], ["Part #", "564001 (with rails) · 563901 (without) · 564301 (6.5 ft, with rails)"], ["Fits", "2022–2026 Tundra 5'7\""], ["Material", "Industrial-grade vinyl, leather-grain finish"], ["Profile", "¾ in above rails"], ["Tension", "Self-adjusting spring tensioner"], ["Install", "<1 hr, no drill"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B09V1SCMFF", "role": "Best soft folding", "price": "$450",
+   "pros": ["One part fits trucks with and without deck rails", "Aircraft-grade aluminum frame with dual-pivot hinges", "Triple-fin seals", "Tool-free clamps; comes off in seconds", "Limited lifetime warranty"],
+   "cons": ["Vinyl gives no real security", "About ⅔ bed access when folded", "Won't work with Trail Special Edition storage boxes"],
+   "body": "The Trifecta 2.0 is the simplest way to cover a Tundra bed without working out whether your truck has the deck rail system. Extang sells 92472 as one part for the 2022–2026 Tundra 5'7\" bed with or without rails, and RealTruck's notes say it works with the deck rail system. The vinyl is a heavy-duty leather-grain tarp over an aircraft-grade aluminum frame, and Extang's triple-fin seals and dual-pivot hinges are meant to keep water out at the edges.\n\nRealTruck lists it at $449.99 (list $519.99) with a limited lifetime warranty that covers the rails, clamps, bows, hardware and vinyl. The Jaw-Grip front and EZ-Lock rear clamps go on without tools, and the whole cover lifts off in seconds when you need the full bed. Folded, it gives about two-thirds of the bed. It costs about $200 more than the Tyger T3; you get a lifetime warranty in place of 5 years and the explicit deck rail compatibility note. For the 6.5 ft bed, confirm the matching Trifecta 2.0 part number on the listing before you order.",
+   "who": "Deck rail owners who want a soft cover that keeps their cleats and has a lifetime warranty.",
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "92472 (5.5 ft)"], ["Fits", "2022–2026 Tundra 5'7\", with or without deck rails"], ["Material", "Leather-grain vinyl, aluminum frame"], ["Seals", "Triple-fin"], ["Clamps", "Tool-free Jaw-Grip / EZ-Lock"], ["Bed access", "About ⅔ folded; removable"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0B4M621L9", "role": "Best budget", "price": "$248",
+   "pros": ["$248, the lowest price here", "24 oz marine-grade vinyl on aluminum frames", "Stainless steel clamps", "Fits trucks with or without the rail system", "5-year warranty, longer than the Gator FX's"],
+   "cons": ["No real security (vinyl)", "Over-rail bedliners need small holes cut", "No load rating"],
+   "body": "The Tyger T3 is the cheapest way to keep rain and road dirt off a Tundra bed without buying an unbranded cover. It uses dual-coated 24 oz marine-grade vinyl over aircraft-grade aluminum frames, with stainless steel clamps and pre-assembled crossbars that fold with the cover. It weighs 33.07 lb, and Tyger quotes a 5–10 minute install with basic tools. Tyger lists TG-BC3T1062 at $248 for the 2022–2026 Tundra 5.5 ft bed, with a 5-year warranty for US buyers.\n\nTyger's fitment notes say it fits models with or without the rail system, so, like the Extang, it spares you the with-or-without question. One detail from those notes: if your truck has a bedliner that wraps over the rails, you have to cut small holes in it for the clamps. Under-rail and spray-in liners need nothing. Tri-folds also flip up against the cab or come off completely, which a roll-up can't do as neatly. The 6.5 ft version is TG-BC3T1063, listed for 2022–2025 on Amazon, so confirm 2026 fit with the seller.",
+   "who": "First-time cover buyers, lease trucks and anyone who wants the bed covered for under $250.",
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "TG-BC3T1062 (5.5 ft) · TG-BC3T1063 (6.5 ft)"], ["Fits", "2022–2026 Tundra, with or without rails"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "33.07 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
+ ],
+ "install": [
+  "Empty the bed. Note whether you have the deck rail system and slide the cleats clear of the clamp positions; for the BAKFlip MX4, remove them as BAK's instructions require.",
+  "Set the rails or frame inside the bed rails with the front seal tight against the bulkhead, and check it sits level on both sides.",
+  "Fit the clamps loosely first, then center the cover so the rear seal lines up with the top of the tailgate.",
+  "Close the tailgate, check the seal along its full width, then tighten the clamps evenly side to side. Uneven clamping twists the frame and opens gaps.",
+  "Route any drain tubes the cover includes (RetraxPRO MX) to the drain points the instructions show.",
+  "Re-check clamp tightness after the first week of driving and again every few months, especially after washing or off-road use.",
+ ],
+ "avoid": [
+  {"h": "2007–2021 Tundra covers", "body": "The bed changed completely for 2022. Makers sell separate 2022+ parts for a reason, so buy those, and treat any listing that spans both generations as a question for the seller."},
+  {"h": "Ignoring the deck rail system", "body": "Ordering the without-rails Retrax or TruXedo part for a truck with rails, or the reverse, means the cover won't clamp properly. Look in the bed first."},
+  {"h": "Assuming it clears the Trail Special Edition boxes", "body": "BAK, Retrax and Extang all exclude those storage boxes. If your truck has them, ask the seller for a cover built around them."},
+  {"h": "Relying on a soft cover for security", "body": "Vinyl keeps weather out and hides the load. It doesn't stop a knife. Gear worth stealing needs a hard cover and a locked tailgate."},
+ ],
+ "verdict": {
+  "thesis": "Check the bed length and the deck rail system first, then pick: the BAKFlip MX4 if you can give up the cleats, the RetraxPRO MX if you want to keep them, and the Gator FX if you want a hard cover for less.",
+  "body": "The best Tundra cover is the one sold for your bed length, your rail setup and the 2022–2026 truck. Once that is settled, the MX4 has the best mix of load rating, warranty and daily use. The RetraxPRO MX costs more, but it keeps the deck rail cleats, locks at any position and carries 500 lb. The Gator FX is the lower-cost hard cover. For soft covers, the Extang Trifecta 2.0 is the easy choice on deck rail trucks, and the Tyger T3 at $248 beats no-name listings.\n\nIf you tow, the trailer hitch matters as much as the cover on a truck rated to tow up to 12,000 lb, and if you want to carry a rooftop tent or ladders, plan the bed rack before you buy a cover, since only railed covers like the RetraxPRO XR work under one. The vehicle hub lists every fit-checked accessory for your Tundra.",
+ },
+ "sources": [
+  ["BAKFlip MX4 448440 (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448440/"],
+  ["BAKFlip MX4 448441, 6'7\" (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448441/"],
+  ["RetraxPRO MX 80861 (RealTruck)", "https://realtruck.com/p/retraxpro-mx-tonneau-cover/rtx-80861/"],
+  ["Gator FX 8828440 (RealTruck)", "https://realtruck.com/p/gator-fx-tonneau-cover/ghf-8828440/"],
+  ["TruXedo Lo Pro 564001 (RealTruck)", "https://realtruck.com/p/truxedo-lo-pro-tonneau-cover/trx-564001/"],
+  ["Extang Trifecta 2.0 92472 (RealTruck)", "https://realtruck.com/p/extang-trifecta-20-tonneau-cover/ext-92472/"],
+  ["Tyger T3 TG-BC3T1062 (Tyger Auto)", "https://www.tygerauto.com/tonneau-cover/tyger-t3-soft-trifold/tg-bc3t1062/tyger-t3-soft-tri-fold-fit-2022-2026-toyota-tundra-55-bed.html"],
+  ["2022 Tundra SMC composite bed (Repairer Driven News)", "https://www.repairerdrivennews.com/2021/09/21/2022-toyota-tundra-features-stronger-frame-composite-pickup-bed/"],
+  ["Toyota Tundra, third generation (cabs, beds, towing)", "https://en.wikipedia.org/wiki/Toyota_Tundra"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B09V1T8WNW","BAKFlip MX4 Hard Folding Tonneau Cover 448440, 2022-2026 Toyota Tundra 5' 7\" Bed (66.7\")","BAK","$1,050–$1,250",{"bed_length_in":66},"400 lb rating; tie-down cleats removed and not reinstalled; not Trail Special Edition."),
+ ("B0BS529Z15","Gator FX Hard Folding Tonneau Cover 8828440, 2022-2025 Toyota Tundra 5' 7\" Bed (66.7\")","Gator","$850–$900",{"bed_length_in":66},"300 lb rating; confirm deck rail fit and 2026 on listing."),
+ ("B09YS134XK","RetraxPRO MX Retractable Tonneau Cover 80861, 2022-2025 Toyota Tundra w/ Deck Rail System 5' 7\" Bed","Retrax","$1,800–$2,150",{"bed_length_in":66},"For trucks WITH the deck rail system."),
+ ("B09V1V2TC7","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 564001, 2022-2024 Toyota Tundra w/ Rail System 5' 7\" Bed","TruXedo","$470–$520",{"bed_length_in":66},"For trucks WITH rails; no quick-release on Tundra."),
+ ("B09V1SCMFF","Extang Trifecta 2.0 Soft Folding Tonneau Cover 92472, 2022-2025 Toyota Tundra w/ and w/o Rail System 5' 7\" Bed","Extang","$430–$520",{"bed_length_in":66},"Fits with or without deck rails."),
+ ("B0B4M621L9","Tyger Auto T3 Soft Tri-fold Tonneau Cover, 2022-2026 Toyota Tundra 5.5' (67\") Bed, TG-BC3T1062","Tyger Auto","$230–$260",{"bed_length_in":66},"Over-rail bedliners need small holes cut."),
+ ("B09YS212XK","RetraxPRO MX Retractable Tonneau Cover 80860, 2022-2025 Toyota Tundra w/o Deck Rail System 5' 7\" Bed","Retrax","$1,800–$2,150",{"bed_length_in":66},"Without-rails version of #3."),
+ ("B09V1S4GJX","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 563901, 2022-2024 Toyota Tundra w/o Rail System 5' 7\" Bed","TruXedo","$470–$520",{"bed_length_in":66},"Without-rails version of #4; confirm 2025-2026 on listing."),
+ ("B09V1T97Y8","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 564301, 2022-2025 Toyota Tundra w/ Rail System 6' 7\" Bed (78.7\")","TruXedo","$480–$560",{"bed_length_in":79},"6.5 ft with-rails version of #4."),
+ ("B09YS1W5RM","RetraxPRO XR Retractable Tonneau Cover T-80863, 2022-2025 Toyota Tundra w/ Deck Rail System 6' 7\" Bed (78.7\")","Retrax","$1,900–$2,400",{"bed_length_in":79},"6.5 ft railed XR version; confirm price on listing."),
+ ("B0B4MB2H7M","Tyger Auto T3 Soft Tri-fold Tonneau Cover, 2022-2025 Toyota Tundra 6.5' (79\") Bed, TG-BC3T1063","Tyger Auto","$240–$280",{"bed_length_in":79},"6.5 ft version of #6; confirm price on listing."),
+ ("B0BS1VT148","RetraxPRO MX Retractable Tonneau Cover 80865, 2022-2025 Toyota Tundra w/ Deck Rail System 8' 0\" Bed (96\")","Retrax","$1,900–$2,300",{"bed_length_in":98},"8.1 ft bed version; confirm price on listing."),
+]

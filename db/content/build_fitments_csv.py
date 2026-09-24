@@ -9,7 +9,8 @@ for m in modules():
     make, model, gen, cat = m.KEY
     for i, (asin, name, brand, band, cond, note) in enumerate(m.FITS, 1):
         F3.append((asin, name, brand, cat, band, make, model, gen, cond, note, i))
-F = F1 + F2 + F3
+owned = {m.KEY for m in modules()}  # pages whose product list is owned by an article module
+F = [r for r in F1 + F2 if (r[5], r[6], r[7], r[3]) not in owned] + F3
 
 dest = os.path.join(os.path.dirname(__file__), "..", "..", "pipeline", "data", "fitments.csv")
 with open(dest, "w", newline="", encoding="utf-8") as fh:
