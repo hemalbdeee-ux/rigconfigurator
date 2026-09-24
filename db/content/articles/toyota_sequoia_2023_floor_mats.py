@@ -33,6 +33,8 @@ FAQ = [
   "Yes. Running boards and lifts change the outside of the vehicle, not the cabin floor. Running boards actually help liners last longer, because less mud reaches the sill and the liner edge. A lift makes the step-in taller, which means more scuffing on the front liner edges, so a liner with a firm wall like Husky's holds up better there."),
  ("Do Sequoia liners fit the Lexus LX 600?",
   "No. The LX 600 shares a platform family with other large Toyota SUVs but has its own cabin and floor. Buy liners that name the LX, and don't assume a Sequoia set will cross over."),
+ ("Are liners worth it if my Sequoia has leather and dark carpet?",
+  "Yes. Dark carpet hides dirt but not salt stains or wear, and the driver's heel area wears through carpet over years of use regardless of color. Liners also make resale easier, because the carpet underneath stays close to new. On a vehicle as expensive as the Sequoia, a few hundred dollars of liners protects a surface that's costly to replace."),
 ]
 
 ARTICLE = {
