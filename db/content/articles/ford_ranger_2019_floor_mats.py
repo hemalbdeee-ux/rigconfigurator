@@ -1,0 +1,165 @@
+"""Long-form article — Best Floor Mats & Liners for 2019–2023 Ford Ranger (P375).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("ford", "ranger", "2019-2023", "floor-mats")
+
+TITLE = "Best Floor Liners for 2019–2023 Ford Ranger: 6 SuperCrew & SuperCab Sets, Husky to $70 TPE"
+META = ("Six floor liner options for the 2019–2023 Ranger SuperCrew and SuperCab, from Husky WeatherBeater to LASFIT "
+        "and budget TPE, with the 2024 cutoff explained.")
+
+FAQ = [
+ ("Do 2019–2023 Ranger liners fit a 2024 Ranger?",
+  "No. The 2024 Ranger is a new generation with a new cab, and Husky sells separate parts for it (13791 front and 14791 rear for the 2024+ SuperCrew). One exception: Husky's 13411 front pair is listed for 2019–2024 SuperCrew and SuperCab, which suggests some overlap at the front for the 2024 model year. Treat that as a specific listing claim, not a rule, and buy 2024+ liners for a 2024 or later truck."),
+ ("What's the difference between the Ranger SuperCab and SuperCrew?",
+  "The SuperCrew has four full-size doors and a real rear bench. The SuperCab has small rear-hinged doors and a short rear area with jump seats. The rear floor lengths are completely different. Husky's 13411 front pair fits both, but its 14411 rear piece is SuperCrew only and its 93801 set is SuperCab only. Budget brands on this page are SuperCrew only."),
+ ("Does the 2019 Ranger take the same liners as 2020–2023?",
+  "The cab didn't change across 2019–2023. Most listings on this page cover 2019–2023. LASFIT's title starts at 2020, so confirm with the seller for a 2019, though the floor is the same generation."),
+ ("Is there a manual-transmission Ranger to worry about?",
+  "No. The 2019–2023 US Ranger came only with the 10-speed automatic, so there's no clutch-pedal variant to match. That simplifies the front liner compared with trucks like the Tacoma."),
+ ("Are Husky liners worth it on a Ranger?",
+  "If the truck lives in snow or mud, yes. Husky says WeatherBeater is laser-measured, made in the USA from its ProGard material and covered by a lifetime warranty against cracks and breaks. Budget TPE sets cost about half as much and fit well, but don't publish comparable terms."),
+ ("Can I buy Husky front and rear separately?",
+  "Yes, and on the Ranger SuperCrew that's how Husky sells it on the listings we found: 13411 front pair (SuperCrew and SuperCab) and 14411 rear (SuperCrew only). Buying separately also lets you skip the rear if nobody rides back there."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto the retention posts and clear of both pedals at full travel. Remove the factory mat first. Heel-test it toward the pedals after installing."),
+ ("How do I clean TPE liners?",
+  "Take them out, rinse and scrub with mild soap. Dry before reinstalling. Don't use silicone or tire shine; they make the surface slick under wet boots."),
+ ("Will the rear liner cover the space under the rear seat?",
+  "The rear pieces on this page are one-piece liners across the rear floor. The Ranger SuperCrew has storage under the rear seat cushion on some trims, and the liner sits in front of it on the floor. Look at listing photos for how far back each rear liner reaches."),
+ ("Do Ranger Tremor or FX4 trucks need different liners?",
+  "No. The Tremor package (2021–2023) and FX4 are packages on the SuperCrew and SuperCab; they change suspension, tires and trim, not the cab floor. Buy liners by cab and year. The Tremor's off-road use makes high walls and a crack warranty more useful, which favors Husky's WeatherBeater pieces."),
+ ("Can I use Ranger liners in a Ford Bronco or Maverick?",
+  "No. The Bronco shares a platform with the Ranger but has a different body and floor, and the Maverick is a unibody truck on a different platform. Each needs liners listed for that vehicle. Even front footwells that look similar differ in retention post position and sill shape, and a liner that doesn't sit on the posts can creep toward the pedals."),
+]
+
+ARTICLE = {
+ "dek": "Six liner options listed for the 2019–2023 Ranger, from Husky WeatherBeater front and rear pieces to $70 TPE. The fit rules are short on this truck: SuperCrew or SuperCab, and don't mix in 2024+ listings.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2019–2023 Ranger (cab, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Cab decides the rear.** SuperCrew and SuperCab rear floors are different; budget sets here are SuperCrew only.",
+  "**2024 is a new truck.** Husky sells separate 2024+ Ranger parts.",
+  "**Automatic only.** No manual-pedal variant to match on this generation.",
+  "**Husky sells front and rear separately.** 13411 front fits both cabs; 14411 rear is SuperCrew.",
+  "**Budget TPE is strong here.** 3W, OMAC and MAXPRO all list the SuperCrew.",
+ ],
+ "top_picks": [
+  {"asin": "B07PFFKXS4", "role": "Best overall (front)", "why": "Husky WeatherBeater 13411 front pair, SuperCrew and SuperCab, made in USA"},
+  {"asin": "B08SM45K59", "role": "Best TPE full set", "why": "3W TPE 1st and 2nd row, 2019–2023 SuperCrew"},
+  {"asin": "B09PXYWL15", "role": "Best recycled TPE", "why": "LASFIT, rated −13°F to 167°F, SuperCrew"},
+  {"asin": "B08MTZSH7K", "role": "Best budget", "why": "OMAC 3D TPE, 2019–2023 SuperCrew"},
+  {"asin": "B0F66H7VHG", "role": "Best for SuperCab", "why": "Husky WeatherBeater 93801, SuperCab-only 3-piece set"},
+ ],
+ "fit_table": {
+  "caption": "2019–2023 Ranger: liner fit by cab",
+  "head": ["Cab", "How to tell", "Liners on this page"],
+  "rows": [
+   ["SuperCrew", "Four full-size doors", "Husky 13411 + 14411, 3W, LASFIT, OMAC, MAXPRO"],
+   ["SuperCab", "Small rear-hinged doors, jump seats", "Husky 93801 (full set) or 13411 front"],
+   ["2024+ Ranger", "New generation", "Not compatible; use 2024+ listings"],
+  ],
+ },
+ "look_for": [
+  {"h": "SuperCrew or SuperCab",
+   "body": "The 2019–2023 Ranger was sold in the US as a SuperCab with small rear-hinged doors or a SuperCrew with four full doors. The front footwells are shared, which is why Husky's 13411 front pair lists both. The rear floors are not. The SuperCrew has a full rear footwell in front of a proper bench; the SuperCab has a short area behind the front seats. Every budget set on this page is SuperCrew only. SuperCab owners should look at Husky's 93801 full set or pair the 13411 front with a SuperCab-specific rear such as Husky's 14421. Count your doors before you shop, and read the title for the cab name."},
+  {"h": "Generation boundaries",
+   "body": "This Ranger ran from 2019 to 2023 in the US, and the 2024 model is a new generation. Husky splits its catalog accordingly, with separate 2024+ SuperCrew front (13791) and rear (14791) pieces. Within 2019–2023, the cab didn't change, so a listing covering 2019–2023 is a clean fit. LASFIT's title starts at 2020; for a 2019, confirm with the seller. Don't buy a set that lists '2019–2025' without checking which generations it actually covers."},
+  {"h": "Walls and retention",
+   "body": "The Ranger is a mid-size truck with a relatively small footwell, so a liner with high walls holds a useful amount of slush before it overflows. Look for a lip that runs up the sill and the side of the console, and hook holes for Ford's driver-side retention posts. After installing, heel-test the driver liner toward the pedals and press both pedals to the floor. Every set here claims a Ranger-specific cut."},
+  {"h": "Material and warranty",
+   "body": "Husky says WeatherBeater is laser-measured, designed and made in the USA from its ProGard formula, anchored by StayPut nibs and covered by a lifetime warranty against cracks and breaks. LASFIT uses GRS-certified recycled TPE rated from −13°F to 167°F and offers 45-day returns on its store. 3W, OMAC and MAXPRO sell TPE liners with raised edges and little published documentation; 3W's maker is a TPE mat manufacturer in Taizhou, China. In a cold climate, a stated cold rating or crack warranty is worth paying for; in the Sun Belt, budget TPE is usually enough."},
+  {"h": "Rear storage and the fold-up rear seat",
+   "body": "The Ranger SuperCrew's rear seat cushions flip up, and some trucks have storage bins beneath them. The rear liner sits on the floor in front of that area, so it rarely interferes, but a liner with a tall back wall can catch the cushion when you fold it down. After installing, flip each rear cushion up and down and make sure it latches without pinching the liner. On the SuperCab, the rear area is small and often used for cargo; a liner with walls there keeps tools and wet gear off the carpet better than a flat mat. Look at listing photos to see how far back each rear liner reaches and whether it's one piece across the hump."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Cab", "SuperCrew or SuperCab named", "No cab"],
+   ["Years", "2019–2023 range", "2024+ listings"],
+   ["Retention", "Hook holes for Ford's posts", "Loose mats"],
+   ["Walls", "Raised lip at the sill", "Flat mats"],
+   ["Rear", "One-piece across the hump", "Two small rear mats"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2019–2023 Ranger",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["USA-made molded liner", "Husky 13411 + 14411", "Front + rear (separate)", "High", "$150–$220 combined", "Snow and mud"],
+   ["Recycled TPE", "LASFIT", "Front + rear", "Medium-high", "$110–$150", "Daily drivers"],
+   ["Budget TPE", "3W, OMAC, MAXPRO", "Front + rear", "Medium", "$80–$150", "Value"],
+   ["SuperCab set", "Husky 93801", "Front + rear", "High", "$150–$210", "SuperCab owners"],
+  ],
+ },
+ "picks": [
+  {"asin": "B07PFFKXS4", "role": "Best overall (front)", "price": "$90–$130",
+   "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "Fits both SuperCrew and SuperCab", "StayPut nibs", "Pairs with a cab-specific rear"],
+   "cons": ["Front row only; rear sold separately", "Firm feel", "Combined front+rear costs more than budget sets"],
+   "body": "Husky's WeatherBeater 13411 front pair is listed for 2019–2024 Ranger SuperCrew and SuperCab. On the listings we found, Husky sells the Ranger in pieces rather than one full SuperCrew set, so the best-documented setup is this front pair plus the 14411 SuperCrew rear (in our product list), or the 93801 full set for SuperCab.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, made in the USA from ProGard, anchored by StayPut nibs and backed by a lifetime warranty against cracks and breaks. Buying front and rear separately has an upside: if the back seat rarely sees passengers, you can start with the fronts, which take nearly all the mud, and add the rear later. The downside is price; front plus rear lands around $150–$220, more than any budget full set. The 2024 in the front pair's title is Husky's claim for that part only; for a 2024 Ranger, use Husky's 2024+ listings.",
+   "who": "Owners who want the best-documented front liners and may add the rear later.",
+   "specs": [["Part #", "Husky 13411"], ["Pieces", "2 (front)"], ["Fits", "2019–2024 Ranger SuperCrew & SuperCab (per listing)"], ["Rear", "14411 (SuperCrew) sold separately"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+  {"asin": "B08SM45K59", "role": "Best TPE full set", "price": "$110–$150",
+   "pros": ["Full 1st and 2nd row in one box", "Listing spans 2019–2023 SuperCrew", "Flexible TPE", "Raised edges", "Cheaper than Husky front+rear"],
+   "cons": ["SuperCrew only", "No published warranty", "Walls lower than Husky's"],
+   "body": "3W's TPE set is the most straightforward full set for the 2019–2023 Ranger SuperCrew. The listing covers the full generation, first and second row, with raised edges. You get front and rear in one box for less than Husky's two parts.\n\n3W's maker, Zhejiang Zhenya in Taizhou, China, specializes in TPE mats but doesn't publish warranty terms on its company site. TPE is flexible, odor-free and easy to hose off. The walls are a bit lower than a WeatherBeater's, so in heavy snow you'll empty the driver side more often. For most SuperCrew owners outside the snow belt, this is the best balance of coverage and price. Before ordering, check the listing photos for the retention post holes on the driver liner and a one-piece rear across the hump; 3W's Ranger listing shows both. If you ever sell the truck, a clean carpet under a liner that came out every week is one of the easiest things for a buyer to notice.",
+   "who": "SuperCrew owners who want one full set around $130.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2019–2023 Ranger SuperCrew"], ["Material", "TPE"], ["Maker", "Zhejiang Zhenya (3W)"], ["Price band", "$110–$150"]]},
+  {"asin": "B09PXYWL15", "role": "Best recycled TPE", "price": "$110–$150",
+   "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "3D laser-scanned", "Front and rear", "45-day returns on LASFIT's store"],
+   "cons": ["Title starts at 2020; confirm 2019", "SuperCrew only", "Warranty length not stated"],
+   "body": "LASFIT's liners are listed for 2020–2023 Ranger SuperCrew, front and rear. LASFIT says they're 3D laser-scanned and made from GRS-certified recycled TPE without PVC or phthalates, rated from −13°F to 167°F.\n\nThat cold rating is what sets it apart from the other budget TPE sets. The soft surface grips boots and flexes for cleaning in winter without cracking. The walls are moderate. For a 2019 truck, the floor is the same generation, but the title starts at 2020, so ask the seller. LASFIT's 45-day return window on its own store gives you time to check the fit. If your Ranger lives in the Sun Belt, the cold rating matters less, and the softer surface's grip on wet boots is the main benefit. LASFIT also sells cargo and trunk protection for other vehicles, but for a pickup the bed mat is the matching purchase, sized for the 5 ft SuperCrew bed or 6 ft SuperCab bed.",
+   "who": "SuperCrew owners in cold climates who want a stated temperature rating.",
+   "specs": [["Rows", "Front + rear"], ["Fits", "2020–2023 Ranger SuperCrew (confirm 2019)"], ["Material", "Recycled TPE (GRS)"], ["Temp range", "−13°F to 167°F"], ["Returns", "45 days (LASFIT store)"]]},
+  {"asin": "B08MTZSH7K", "role": "Best budget", "price": "$80–$120",
+   "pros": ["Low price", "3D molded TPE", "Covers 2019–2023 SuperCrew", "Raised edges", "Light and easy to clean"],
+   "cons": ["No published warranty", "SuperCrew only", "Walls lower than premium sets"],
+   "body": "OMAC's 3D custom-fit TPE liners are listed for 2019–2023 Ranger SuperCrew and are among the cheapest raised-edge sets for this truck. MAXPRO's 1st and 2nd row set and AOMSAZTO's mats, both in our product list, are similar alternatives at similar prices.\n\nAt this price, you're buying the cut and the edge. OMAC doesn't publish a warranty or cold rating we could check, so aging is harder to predict. For a Ranger that commutes in a mild climate, that's a fair trade. For a truck that sees salt every winter, LASFIT's cold rating or Husky's warranty is worth the extra. One more check: OMAC's listing is SuperCrew only. SuperCab owners should skip it and look at Husky's 93801 or a front pair plus a SuperCab rear. For a SuperCrew commuter, the saving over Husky's front-plus-rear combination is roughly $70–$120, which pays for a good bed mat.",
+   "who": "Budget buyers with a SuperCrew in a mild climate.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2019–2023 Ranger SuperCrew"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$80–$120"]]},
+  {"asin": "B0F66H7VHG", "role": "Best for SuperCab", "price": "$150–$210",
+   "pros": ["Cut for the SuperCab's short rear area", "Made in the USA", "Lifetime warranty against cracks and breaks", "Full 3-piece set", "Few alternatives for this cab"],
+   "cons": ["SuperCab only", "Priced like a SuperCrew set", "Firm feel"],
+   "body": "Husky's WeatherBeater 93801 is listed for 2019–2023 Ranger SuperCab only, front and second row, three pieces. SuperCab owners have few alternatives because the budget brands cut SuperCrew liners, so this is the set to buy rather than trimming a SuperCrew rear.\n\nIt has the same WeatherBeater credentials: laser-measured, made in the USA from ProGard, StayPut nibs and a lifetime crack warranty. SuperCab rear areas often carry tools and gear, and a firm liner with walls keeps them off the carpet. If you only need the rear, Husky's 14421 SuperCab second-row piece is listed separately. Husky's lifetime warranty covers cracks and breaks, which is the failure mode that matters most for firm liners in cold weather. On a SuperCab that's used as a work truck, where the rear area carries toolboxes rather than people, that coverage is worth more than soft feel.",
+   "who": "SuperCab owners who want a liner cut for their cab.",
+   "specs": [["Part #", "Husky 93801"], ["Pieces", "3"], ["Fits", "2019–2023 Ranger SuperCab only"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+ ],
+ "install": [
+  "Confirm your cab (SuperCrew or SuperCab) and model year.",
+  "Remove the factory carpet mats and vacuum.",
+  "Hook the driver liner onto Ford's retention posts and heel-test it toward the pedals.",
+  "Fit the passenger liner against the sill and console.",
+  "Lay the rear liner across the floor and check the rear seat folds without catching it.",
+  "Press both pedals to the floor to confirm clearance before driving.",
+ ],
+ "avoid": [
+  {"h": "SuperCrew rears in a SuperCab", "body": "The rear areas differ. Only the front pair is shared."},
+  {"h": "2024+ listings", "body": "The new Ranger has a different cab."},
+  {"h": "Ignoring the year start", "body": "Some listings start at 2020. Confirm a 2019."},
+  {"h": "Stacking mats", "body": "Always remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Husky's 13411 front pair plus the matching rear for the best-documented setup, 3W for a one-box SuperCrew set, and Husky's 93801 for a SuperCab.",
+  "body": "The 2019–2023 Ranger is one of the easier trucks to fit: automatic only, one generation, two cabs. Husky's WeatherBeater parts give you the strongest warranty, sold front and rear separately for the SuperCrew. 3W and LASFIT are the full-set TPE choices, OMAC the budget pick, and Husky's 93801 the SuperCab answer.\n\nOnce the cab is covered, most Ranger owners look at a tonneau cover and a bed rack for the 5 ft or 6 ft bed. If you've moved to a 2024 Ranger, see our page for the new generation; the bed racks and liners there are different parts."},
+ "sources": [
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners 13411 front listing", "https://www.amazon.com/dp/B07PFFKXS4"],
+  ["Husky Liners 14411 SuperCrew 2nd row listing", "https://www.amazon.com/dp/B07PHPWSM5"],
+  ["Husky Liners 93801 SuperCab listing", "https://www.amazon.com/dp/B0F66H7VHG"],
+  ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
+  ["Ford Ranger (Americas), 2019 (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)"],
+ ],
+}
+
+FITS = [
+ ("B07PFFKXS4","Husky Liners WeatherBeater 13411 Front Row, 2019-2024 Ranger SuperCrew & SuperCab","Husky Liners","$90–$130",{},"Front row only; pair with 14411 (SuperCrew) rear."),
+ ("B08SM45K59","3W TPE Floor Liners 1st & 2nd row, 2019-2023 Ranger SuperCrew","3W","$110–$150",{"cab":"SuperCrew"},"SuperCrew only."),
+ ("B09PXYWL15","LASFIT TPE Floor Liners front & rear, 2020-2023 Ranger SuperCrew","LASFIT","$110–$150",{"cab":"SuperCrew"},"Listed from 2020; confirm 2019 with seller."),
+ ("B08MTZSH7K","OMAC 3D Custom-Fit TPE Floor Liners, 2019-2023 Ranger SuperCrew","OMAC","$80–$120",{"cab":"SuperCrew"},"SuperCrew only."),
+ ("B0F66H7VHG","Husky Liners WeatherBeater 93801, 2019-2023 Ranger SuperCab only, front & 2nd row","Husky Liners","$150–$210",{"cab":"SuperCab"},"SuperCab only."),
+ ("B07PHPWSM5","Husky Liners WeatherBeater 14411 2nd Row, 2019-2023 Ranger SuperCrew (not SuperCab)","Husky Liners","$60–$100",{"cab":"SuperCrew"},"Rear only."),
+ ("B0D2HNW86C","MAXPRO TPE Floor Liners 1st & 2nd row, 2019-2023 Ranger SuperCrew","MAXPRO","$80–$120",{"cab":"SuperCrew"},"SuperCrew only."),
+ ("B0CNT13Y6V","AOMSAZTO Floor Mats 1st & 2nd row, 2019-2023 Ranger SuperCrew","AOMSAZTO","$70–$110",{"cab":"SuperCrew"},"SuperCrew only."),
+]

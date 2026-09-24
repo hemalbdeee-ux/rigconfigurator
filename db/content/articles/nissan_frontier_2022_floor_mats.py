@@ -1,0 +1,166 @@
+"""Long-form article — Best Floor Mats & Liners for 2022–2026 Nissan Frontier (D41).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("nissan", "frontier", "2022-present", "floor-mats")
+
+TITLE = "Best Floor Liners for 2022–2026 Nissan Frontier Crew Cab: 6 Picks by Rear Speaker and Storage"
+META = ("Six 2022+ Frontier Crew Cab floor liner options from WeatherTech, Husky, Smartliner, Rough Country and budget "
+        "TPE, checked against the Fender under-seat speaker and rear storage.")
+
+FAQ = [
+ ("Why do some Frontier liners say 'not for rear under-seat speaker'?",
+  "Frontiers with the Fender premium audio system, common on PRO-4X and SL trims, have a speaker enclosure under the rear seat. It changes the rear floor area, so some rear liners don't sit correctly. LUMWAY and Binmotor list their sets as not for the rear under-seat speaker. If you have Fender audio, look for a set that names it or confirm with the seller."),
+ ("Do 2005–2021 Frontier liners fit a 2022+ Frontier?",
+  "Generally no. The 2022 Frontier has a new body and interior, even though it's built on an updated version of the older platform. Buy liners listed for 2022 or later. One listing on this site's running-board page spans both generations, but floor liners are cab-specific enough that you should stick to 2022+ listings."),
+ ("What's the difference between King Cab and Crew Cab liners?",
+  "The King Cab has small rear-hinged doors and a short rear area; the Crew Cab has four full doors and a proper rear bench. Husky's X-act Contour 51901 front pair fits both, but rear liners are cab-specific. Every full set on this page is Crew Cab."),
+ ("What does 'with 2nd-row under-seat storage' mean on the Powerty listing?",
+  "Some Crew Cabs have a storage bin under the rear seat cushion. Powerty's set is cut for trucks with that storage. Lift the rear cushion: if you see a bin, that set is designed for your floor. If you see a speaker box, you have Fender audio; if you see neither, confirm with the seller."),
+ ("Are WeatherTech All-Weather mats the same as FloorLiners?",
+  "No. WeatherTech's All-Weather Floor Mats (the W608 and W610 pair on this page) are flatter mats with a channeled surface and lower edges. FloorLiners are deeper trays with high walls. Mats are cheaper and easier to fit; liners hold more water."),
+ ("Is Rough Country a good choice for Frontier mats?",
+  "Rough Country's all-weather mats are listed for 2022–2025 Frontier Crew Cab, front and rear, and it's a well-known off-road accessory brand. It's a reasonable mid-price option. We couldn't find published material or warranty specs for these mats to compare, so rank it on fit and price."),
+ ("Does the Frontier have a manual transmission?",
+  "Not the 2022+ US Frontier. It uses a 9-speed automatic with the 3.8-liter V6, so there's no clutch-pedal variant to match."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto the retention posts and clear of both pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
+ ("How do I clean them?",
+  "Pull, rinse and scrub with mild soap. Dry before reinstalling. Skip silicone protectants, which make the surface slick."),
+ ("Do PRO-4X Frontiers always have the Fender under-seat speaker?",
+  "Fender premium audio is standard or optional depending on year and trim, and it's most common on PRO-4X and SL. Don't assume from the trim name. Lift the rear seat cushion and look for a speaker enclosure, or check the window sticker for Fender audio. The answer decides whether LUMWAY and Binmotor are options for you."),
+ ("Will Frontier liners fit a Nissan Titan?",
+  "No. The Titan is a full-size truck with a much larger cab, and Husky sells separate Titan parts such as its 14601 Crew Cab second-row liner. Frontier liners are cut for the mid-size D41 cab only. Match the model and generation named in the title."),
+]
+
+ARTICLE = {
+ "dek": "Six liner options listed for the 2022+ Frontier Crew Cab, from WeatherTech and Husky to $80 TPE. The fit trap on this truck is under the rear seat: the Fender audio speaker box and the optional storage bin change which rear liner sits flat.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2022–2026 Frontier (cab, rear speaker, rear storage), on published maker specs (material, warranty, origin) and on coverage in listing photos. Smartliner, Husky and WeatherTech claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Check under the rear seat.** Fender audio puts a speaker there; some trucks have a storage bin instead.",
+  "**Two listings exclude the speaker.** LUMWAY and Binmotor say not for the rear under-seat speaker.",
+  "**Crew Cab only for full sets.** King Cab rears differ; Husky's 51901 front fits both.",
+  "**Automatic only.** No manual variant on the 2022+ Frontier.",
+  "**Smartliner and Husky publish warranties.** Budget brands don't.",
+ ],
+ "top_picks": [
+  {"asin": "B09PGKNFZL", "role": "Best overall", "why": "Smartliner one-piece TPE, 2022–2026 Crew Cab, limited lifetime warranty"},
+  {"asin": "B0BTJD4FZ5", "role": "Best brand-name mats", "why": "WeatherTech All-Weather mats W608/W610, 1st and 2nd row"},
+  {"asin": "B09XC2GFCK", "role": "Best off-road brand", "why": "Rough Country all-weather mats, 2022–2025 Crew Cab"},
+  {"asin": "B0CP7PN2DL", "role": "Best for rear storage", "why": "Powerty 3D TPE cut for 2nd-row under-seat storage"},
+  {"asin": "B0CYZHCXFW", "role": "Best budget", "why": "Binmotor all-weather, 2022–2026 Crew Cab without rear speaker"},
+ ],
+ "fit_table": {
+  "caption": "2022–2026 Frontier: what's under the rear seat decides the rear liner",
+  "head": ["Rear seat area", "How to tell", "Picks that list it"],
+  "rows": [
+   ["Fender under-seat speaker", "Speaker box under rear cushion (Fender audio)", "Confirm with seller; LUMWAY and Binmotor exclude it"],
+   ["Under-seat storage bin", "Plastic bin under rear cushion", "Powerty"],
+   ["Plain floor", "Carpet only", "LUMWAY, Binmotor, most sets"],
+   ["King Cab", "Small rear-hinged doors", "Front pair only (Husky 51901)"],
+  ],
+ },
+ "look_for": [
+  {"h": "What's under the rear seat",
+   "body": "The 2022+ Frontier Crew Cab can have one of three things under the rear seat cushion: a Fender audio speaker enclosure, a storage bin, or plain carpet. Each changes the rear floor profile a little, and liner makers have noticed. LUMWAY and Binmotor list their sets as not for the rear under-seat speaker. Powerty lists its set for trucks with second-row under-seat storage. Smartliner's listing tells you to check the storage option. Lift the cushion and look before you buy; it's the difference between a rear liner that lies flat and one that rides up against the seat base."},
+  {"h": "Liner or mat",
+   "body": "WeatherTech sells two very different products. Its All-Weather Floor Mats (the W608 front and W610 rear pair here) are flatter with a channeled surface and lower edges. Its FloorLiners are deep trays with high walls. Smartliner, Powerty, LUMWAY and Binmotor sell liners with raised edges; Rough Country's product is an all-weather mat. For a PRO-4X that sees mud and snow, a liner holds more. For a daily driver, a mat is easier to take in and out and costs less."},
+  {"h": "Cab and year",
+   "body": "The 2022 Frontier was a full redesign of the body and interior. Buy listings that start at 2022. The Crew Cab has a full rear footwell; the King Cab has a short rear area with small rear-hinged doors. Husky's X-act Contour 51901 front pair is listed for both cabs, and its WeatherBeater 14521 second-row piece is Crew Cab only. All the full sets here are Crew Cab. King Cab owners should buy a front pair and a King Cab-specific rear."},
+  {"h": "Warranty and material",
+   "body": "Smartliner says its liners are molded from one piece of heavy-duty, 100% recyclable TPE with no PVC, latex or BPA, designed in the US by a company based in Apopka, Florida, and covered by a limited lifetime warranty. Husky says its liners are made in the USA and backed by a lifetime warranty against cracks and breaks; its X-act Contour line is 22% more flexible and 10% softer than WeatherBeater. WeatherTech says its products are laser-measured with a lifetime limited warranty. The budget brands don't publish comparable terms."},
+  {"h": "Retention and the tall step-in",
+   "body": "The Frontier's step-in height is noticeable, especially on the PRO-4X, so boots drag over the front liner edge more than on a car. A liner whose wall runs up the sill takes that wear instead of the carpet. On the driver side, check that the liner hooks onto Nissan's retention posts and stops clear of the pedals. Heel-test it toward the pedals after installing and press the brake and throttle to the floor. If you add running boards later, less mud reaches the sill, but the liner edge still takes the scuffs."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Generation", "2022+ in the title", "2005–2021 listings"],
+   ["Rear seat", "Speaker or storage named", "No note about the under-seat area"],
+   ["Cab", "Crew Cab or King Cab named", "No cab"],
+   ["Retention", "Hook holes for Nissan's posts", "Loose mats"],
+   ["Walls", "Raised lip for mud and snow", "Flat mats in snow country"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2022–2026 Frontier",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["One-piece TPE liner", "Smartliner", "Front + rear", "Medium-high", "$120–$160", "Most owners"],
+   ["Brand-name all-weather mat", "WeatherTech W608/W610", "Front + rear", "Low", "$100–$150", "Easy in/out"],
+   ["Off-road brand mat", "Rough Country", "Front + rear", "Low-medium", "$90–$130", "Value with a known brand"],
+   ["Budget TPE liner", "Powerty, LUMWAY, Binmotor", "Front + rear", "Medium", "$80–$130", "Value"],
+   ["Front pair", "Husky X-act Contour 51901", "Front", "Medium-high", "$90–$130", "King Cab"],
+  ],
+ },
+ "picks": [
+  {"asin": "B09PGKNFZL", "role": "Best overall", "price": "$120–$160",
+   "pros": ["One-piece heavy-duty TPE", "Limited lifetime warranty", "No PVC, latex or BPA", "Covers the transmission tunnel and under-seat area, per Smartliner", "Lists 2022–2026 Crew Cab"],
+   "cons": ["Check under-seat storage option on the listing", "Walls lower than a WeatherBeater", "Designed in US; manufacturing location not stated"],
+   "body": "Smartliner's 2-row set is listed for the 2022–2026 Frontier Crew Cab. Smartliner says each liner is molded from a single piece of heavy-duty, 100% recyclable TPE, laser-scanned for the vehicle, free of PVC, latex and BPA, and covering wall to wall including the transmission tunnel and under-seat area. It carries a limited lifetime warranty.\n\nThat's the best-documented full set for this truck. The listing points owners to check their under-seat storage option, which is the right warning for a Frontier. Before ordering, lift the rear cushion and tell the seller whether you have the Fender speaker, a storage bin or bare carpet. The walls are moderate, so after a snow day you'll empty the driver side before the melt reaches the edge. For a Frontier that's kept for years, the lifetime warranty is the deciding factor over cheaper TPE.",
+   "who": "Crew Cab owners who want a warranty-backed one-piece TPE set.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2022–2026 Frontier Crew Cab"], ["Material", "One-piece TPE, 100% recyclable"], ["Warranty", "Limited lifetime"], ["Check", "Under-seat storage/speaker option"], ["Company", "Apopka, Florida"]]},
+  {"asin": "B0BTJD4FZ5", "role": "Best brand-name mats", "price": "$100–$150",
+   "pros": ["WeatherTech brand and lifetime limited warranty", "Front and rear pair (W608 + W610)", "Channeled surface traps water", "Easy to lift out and shake", "Laser-measured, per WeatherTech"],
+   "cons": ["Mats, not deep liners", "Lower edges hold less slush", "Confirm cab and year with WeatherTech's fit tool"],
+   "body": "WeatherTech's All-Weather Floor Mats for the Frontier pair the W608 front with the W610 rear. These are mats, not WeatherTech's deep FloorLiners, so they're flatter with a channeled surface and lower edges. WeatherTech says its products are laser-measured and backed by a lifetime limited warranty.\n\nMats have real advantages on a daily driver: they lift out easily, they're cheaper than liners and they don't need to match the cab walls exactly, which makes the under-seat speaker question less critical. The trade-off is containment. A heavy snowfall's worth of melt can reach the carpet. WeatherTech also sells a Frontier second-row FloorLiner (4617052) if you want a deeper rear. Confirm fit by cab and year with WeatherTech's fit checker.",
+   "who": "Owners who want brand-name mats that are easy to live with.",
+   "specs": [["Parts", "WeatherTech W608 (front) + W610 (rear)"], ["Type", "All-weather mat"], ["Fits", "Nissan Frontier 1st & 2nd row (confirm cab/year)"], ["Warranty", "Lifetime limited"], ["Walls", "Low, channeled"]]},
+  {"asin": "B09XC2GFCK", "role": "Best off-road brand", "price": "$90–$130",
+   "pros": ["Well-known off-road accessory brand", "Front and rear", "Listed for 2022–2025 Crew Cab", "Mid-range price", "Pairs well with other Rough Country parts"],
+   "cons": ["No published material or warranty specs we could check", "2026 not listed", "Mats rather than deep liners"],
+   "body": "Rough Country's all-weather mats are listed for 2022–2025 Frontier Crew Cab, front and rear. Rough Country is a familiar name among PRO-4X owners who already run its lifts, lights or bumpers.\n\nWe couldn't find published material or warranty terms for these specific mats, so we rank them on fit and price. As an all-weather mat, they're easier to lift out than a deep liner but hold less water. For a 2026, confirm with the seller. If you want a documented warranty, Smartliner or WeatherTech are the safer bets at similar or slightly higher prices. The honest comparison is with WeatherTech's mats at a similar price: WeatherTech publishes a lifetime limited warranty and a laser-measured claim, while Rough Country's page for these mats doesn't give comparable terms. If you care about the brand match with other Rough Country parts on the truck, it's a fine choice.",
+   "who": "PRO-4X owners who like the Rough Country ecosystem.",
+   "specs": [["Brand", "Rough Country"], ["Rows", "Front + rear"], ["Fits", "2022–2025 Frontier Crew Cab"], ["Type", "All-weather mat"], ["Price band", "$90–$130"]]},
+  {"asin": "B0CP7PN2DL", "role": "Best for rear storage", "price": "$80–$120",
+   "pros": ["Cut for 2nd-row under-seat storage", "3D TPE with raised edges", "1st and 2nd row", "Low price", "Clear layout note"],
+   "cons": ["Only for trucks with the storage bin", "No published warranty", "2026 not listed"],
+   "body": "Powerty's 3D TPE liners are listed for 2022–2025 Frontier Crew Cab with second-row under-seat storage. If your rear cushion hides a storage bin, this is the one budget set cut specifically for that floor.\n\nIt's a raised-edge TPE liner at a budget price, with little maker documentation. For a truck with the Fender speaker or a plain floor, pick another set. For a storage-bin truck, it's the most direct fit here. Powerty doesn't publish material or warranty specs we could check, so treat it as a price-driven buy with a specific fit. Before ordering, lift the rear cushion and photograph the storage bin, then compare it with the listing photos. If the bin looks different from the one in the photos, ask the seller.",
+   "who": "Crew Cab owners with the rear under-seat storage bin.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2022–2025 Frontier Crew Cab with 2nd-row under-seat storage"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$80–$120"]]},
+  {"asin": "B0CYZHCXFW", "role": "Best budget", "price": "$80–$120",
+   "pros": ["Lists 2022–2026 Crew Cab", "Clear 'not rear under-seat speaker' note", "TPE with raised edges", "Low price", "Covers the newest model year"],
+   "cons": ["Not for Fender audio trucks", "No published warranty", "Walls lower than premium sets"],
+   "body": "Binmotor's all-weather set is listed for 2022–2026 Frontier Crew Cab and says it's not for trucks with the rear under-seat speaker. For S, SV and many other trucks without Fender audio, it's a clean, cheap fit that covers the newest model year.\n\nLUMWAY's set, which adds door sill guards and has the same speaker exclusion, is a close alternative in our product list. Both are price-driven buys with little documentation. If you have Fender audio, skip both and confirm a rear liner with the seller or Smartliner. LUMWAY's version adds door sill guards, which protect the painted sill from boot scuffs, so it's worth the small premium if the sills already show wear.",
+   "who": "Non-Fender Crew Cabs on a budget.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2022–2026 Frontier Crew Cab, not rear under-seat speaker"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$80–$120"]]},
+ ],
+ "install": [
+  "Lift the rear seat cushion: note speaker, storage bin or plain floor.",
+  "Remove the factory mats and vacuum.",
+  "Hook the driver liner onto the retention posts and heel-test it toward the pedals.",
+  "Fit the passenger liner against the sill and console.",
+  "Lay the rear liner and fold the cushion down to check it seats over the under-seat area.",
+  "Press both pedals to the floor to confirm clearance.",
+ ],
+ "avoid": [
+  {"h": "Speaker-excluded sets on Fender trucks", "body": "The under-seat speaker changes the rear floor. Match it."},
+  {"h": "Pre-2022 listings", "body": "The 2022 Frontier has a new interior."},
+  {"h": "Crew Cab rears in a King Cab", "body": "Rear areas differ; only front pairs are shared."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Smartliner for a warranty-backed Crew Cab set, WeatherTech's mats for easy daily use, and Binmotor if you don't have the Fender under-seat speaker.",
+  "body": "The 2022+ Frontier's liner decision happens under the rear seat. Once you know whether you have the Fender speaker, a storage bin or plain carpet, the choice is easy. Smartliner has the best documentation and a limited lifetime warranty. WeatherTech's mats are the brand-name, easy-in-out choice. Rough Country suits PRO-4X owners, Powerty fits storage-bin trucks and Binmotor is the budget pick for trucks without the speaker.\n\nWith the cab covered, most Frontier owners add running boards for the Crew Cab's step-in and a tonneau cover for the bed. Check the running boards' bracket fit for the 2022+ body before ordering."},
+ "sources": [
+  ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
+  ["WeatherTech FloorLiner HP buying guide (WeatherTech)", "https://www.weathertech.com/blog/product-spotlight/new-weathertech-floorliner-hp.html"],
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners 51901 X-act Contour front listing", "https://www.amazon.com/dp/B0B8FX6R9Z"],
+  ["WeatherTech W608/W610 Frontier mats listing", "https://www.amazon.com/dp/B0BTJD4FZ5"],
+  ["Nissan Frontier, third generation (Wikipedia)", "https://en.wikipedia.org/wiki/Nissan_Frontier"],
+ ],
+}
+
+FITS = [
+ ("B09PGKNFZL","SMARTLINER 2-Row Floor Liners, 2022-2026 Frontier Crew Cab","SMARTLINER","$120–$160",{"cab":"Crew Cab"},"Check under-seat storage/speaker option on listing."),
+ ("B0BTJD4FZ5","WeatherTech All-Weather Floor Mats W608-W610, Nissan Frontier 1st & 2nd row","WeatherTech","$100–$150",{"cab":"Crew Cab"},"Mats, not liners; confirm cab/year with WeatherTech."),
+ ("B09XC2GFCK","Rough Country All-Weather Floor Mats front & rear, 2022-2025 Frontier Crew Cab","Rough Country","$90–$130",{"cab":"Crew Cab"},"Crew Cab."),
+ ("B0CP7PN2DL","Powerty 3D TPE Floor Liners 1st & 2nd row, 2022-2025 Frontier Crew Cab with 2nd-row under-seat storage","Powerty","$80–$120",{"cab":"Crew Cab","rear_storage":True},"For trucks with rear under-seat storage."),
+ ("B0CYZHCXFW","Binmotor All-Weather Floor Mats, 2022-2026 Frontier Crew Cab (not rear under-seat speaker)","Binmotor","$80–$120",{"cab":"Crew Cab","rear_speaker":False},"Not for under-seat speaker."),
+ ("B0F3HY8QZ6","LUMWAY TPE Floor Liners + door sill guards, 2022-2026 Frontier Crew Cab (not rear under-seat speaker)","LUMWAY","$90–$130",{"cab":"Crew Cab","rear_speaker":False},"Not for 2nd-row under-seat speaker (Fender audio)."),
+ ("B0B8FX6R9Z","Husky Liners X-act Contour 51901 Front Row, 2022-2026 Frontier Crew Cab & King Cab","Husky Liners","$90–$130",{},"Front row only; fits King Cab too."),
+]
