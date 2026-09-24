@@ -1,0 +1,178 @@
+"""Long-form article — Best Roof Racks for 2020–2025 Hyundai Palisade (1st gen, LX2).
+Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: fit data and specs come from
+the Thule/etrailer/retailer pages listed in SOURCES (checked 2026-09-24); Amazon picks are identified by listing title.
+"""
+
+KEY = ("hyundai", "palisade", "2020-2025", "roof-racks")
+
+TITLE = "Best Roof Racks for 2020–2025 Hyundai Palisade: 6 Crossbar Picks for Its Flush Side Rails"
+META = ("Six crossbar sets for the first-gen Palisade's flush side rails, from a Thule Evo system to budget lockable bars, "
+        "with load limits, crossbar spread and the 2026 fit trap.")
+
+FAQ = [
+ ("Does the Hyundai Palisade have raised or flush roof rails?",
+  "The Amazon listings we checked name every US trim, SE through Calligraphy, with factory side rails, and the rack makers treat those as flush rails: the rail is attached to the roof along its whole length with no gap underneath. Thule's fit guide pairs the 2020–2025 Palisade with its Evo Flush Rail foot and fit kit 6008, and etrailer's Palisade list has flush-rail and naked-roof systems but no raised-rail towers. Some Amazon sellers just say \"side rails,\" which is the same thing. If you can't slide your fingers under the rail, buy flush-rail bars."),
+ ("Will 2020–2025 Palisade crossbars fit the 2026 Palisade?",
+  "Don't assume so. The 2026 Palisade is a new generation (Hyundai unveiled it in December 2024), with a different body and roof. Every pick on this page is listed for the first generation, 2020–2025. Some sellers now print separate 2026 listings, which is a sign the fit changed. Buy the listing that names your model year, and check the rail shape before you order."),
+ ("What does '2019–2025 Palisade' mean on an Amazon listing?",
+  "It is a listing habit, not a separate US model. Production of the Palisade started in 2019 in Korea, but the first US model year was 2020. A bar sold for 2019–2025 fits the same 2020–2025 US trucks as one sold for 2020–2025. What matters more is the rail type in the title (flush or side rails) and whether the trims you drive are listed."),
+ ("How much weight can I put on a Palisade roof rack?",
+  "Two limits apply and the lower one wins. The rack's rating is printed by the maker: Thule rates its Evo Flush Rail system at 165 lb, while several Amazon bars print 220–300 lb. The Palisade's own roof limit is in the owner's manual and on no rack listing, so look it up there. Count the bars, the carrier and the cargo toward the total. A 300 lb bar rating does not raise the roof's limit."),
+ ("Does the Palisade sunroof get in the way of crossbars?",
+  "Usually not with the bars closed over it, but check before you drive with the glass open. Flush-rail feet put the bar a few inches above the roof, and a tall cargo box or a bike fork mount can sit close to the front edge of the sunroof opening. Slide the front bar back if the rails allow it, keep carrier bases away from the glass, and open the sunroof once with the rack loaded, parked, to see what moves."),
+ ("What crossbar spread does the Palisade allow?",
+  "In an etrailer answer about fitting a Thule Motion XT box, the expert gives the Palisade's crossbar spread as 32 in with its crossbars. The Motion XT needs 23-5/8 to 36-7/8 in, so it fits. Clamp-on bars that slide along the rail let you set your own spread. Check your carrier's minimum and maximum spread before buying bars or a box."),
+ ("Are cheap lockable crossbars good enough?",
+  "For bikes, skis and a mid-size cargo box, many owners run them. They clamp to the same rails and usually include locks. What you give up is proof: brands like Thule publish a load rating, a lifetime warranty and a fit kit for your exact roof, while generic listings often print high ratings without saying how they were measured. Check the ends of the bars and the clamps again after the first week of driving."),
+ ("Are roof racks loud on a Palisade?",
+  "Some wind noise is normal with any crossbar. Aero-shaped bars with a rubber strip in the top channel, like the Thule WingBar Evo, are quieter than square or round bars, and etrailer reviewers describe the WingBar Evo on the Palisade as pretty quiet. Whistling usually comes from an open channel, a strip that has crept out of place, or bars mounted with their front edge tilted. Pull the bars off when you don't need them for weeks."),
+ ("Can I put a rooftop tent on a Palisade?",
+  "Only after you check two numbers: the rack's rating and the Palisade's roof limit in the owner's manual. The flush-rail systems here are rated around 165 lb by Thule, which is below the weight of most hard-shell tents plus people. Crossbars and a mid-size box are the realistic load for this roof. If a tent is the plan, talk to the tent maker about their required dynamic and static ratings first."),
+ ("Should I buy Hyundai's accessory crossbars instead?",
+  "If your dealer offers genuine Hyundai cross rails, they are made for the factory rails. We could not find a Palisade OEM crossbar listing on Amazon that names the vehicle and years, so it is not a pick here. If you go that route, ask for the load rating and whether the bars lock, and compare that against the Thule system's 165 lb rating and lifetime warranty."),
+]
+
+ARTICLE = {
+ "dek": "The first-generation Palisade's side rails sit tight to the roof, so the rack world treats it as a flush-rail SUV. Here are six crossbar sets listed for the 2020–2025 Palisade, from a $700 Thule Evo system down to lockable bars around $100, with load ratings, crossbar spread and the fit mistakes that send bars back.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these racks ourselves. Picks were chosen on the fitment each maker or seller lists for the 2020–2025 Palisade, on published specs (load rating, fit kit, bar length, warranty), and on what etrailer's fit experts and reviewers report for this SUV. Thule system prices were checked at etrailer and The Rack Shop in September 2026. Amazon prices move daily, so the button shows the live price; where we give a band for a generic bar, treat it as a guide.",
+ "takeaways": [
+  "**The Palisade has flush side rails, not raised ones.** Thule fits it with Evo Flush Rail feet and kit 6008, and etrailer's Palisade list has no raised-rail towers. Raised-rail clamps that wrap under the rail won't grip.",
+  "**2020–2025 bars are not 2026 bars.** The 2026 Palisade is a new generation. Buy a listing that names your model year.",
+  "**Rack rating and roof limit are different numbers.** Thule rates its Palisade system at 165 lb. Some Amazon bars print 220–300 lb, but the owner's manual roof limit still caps what you can carry.",
+  "**Bar length matters on this roof.** Thule's Palisade kit uses 50 in (127 cm) WingBar Evo bars, and etrailer shows the WingBar Edge as not fitting the 2022 Palisade. Follow the fit guide, not the bar you had on your last car.",
+  "**Crossbar spread decides which box fits.** etrailer gives about 32 in for the Palisade. Check your cargo box or bike tray's minimum and maximum spread against it.",
+ ],
+ "top_picks": [
+  {"asin": "B0BZ5GGHP9", "role": "Best overall", "why": "Thule Evo Flush Rail system with a vehicle-specific kit, 165 lb rating and a limited lifetime warranty"},
+  {"asin": "B0CCLSCKSM", "role": "Best value", "why": "Aluminum bars with solid metal mounts, a 220 lb printed rating and anti-theft locks, listed for 2020–2025 flush rails"},
+  {"asin": "B0BC1CV7L5", "role": "Best budget lockable", "why": "165 lb aluminum bars listed for 2020–2025 flush rails, with locks"},
+  {"asin": "B08CSVZML6", "role": "Best trim-specific listing", "why": "Title names SE, SEL, XRT, Limited and Calligraphy with flush side rails"},
+  {"asin": "B0DDH72T81", "role": "Highest printed rating", "why": "300 lb printed rating, lockable, listed for every trim through 2025"},
+ ],
+ "fit_table": {
+  "caption": "2020–2025 Palisade roof: what the rack makers expect",
+  "head": ["Item", "Palisade (1st gen)", "What it means for bars"],
+  "rows": [
+   ["Model years", "2020–2025 (new generation from 2026)", "Buy a listing that names 2020–2025. 2026 needs its own listing."],
+   ["Rail type", "Factory flush side rails on all trims we found listed", "Flush-rail feet or clamp bars. Raised-rail towers won't fit."],
+   ["Trims named by sellers", "SE, SEL, XRT (2023+), Limited, Calligraphy", "Same rail across trims in the listings we found."],
+   ["Thule fit", "Evo Flush Rail 710601 + fit kit 6008 (TH83CE) + 50 in WingBar Evo", "WingBar Edge shows as not fitting the 2022 Palisade on etrailer."],
+   ["Crossbar spread", "About 32 in (etrailer expert)", "Check your box or tray range against it."],
+  ],
+ },
+ "look_for": [
+  {"h": "Flush-rail feet, not raised-rail clamps",
+   "body": "Roof racks are sold by roof type first, and the Palisade's rails are the flush kind: they are attached to the roof along their whole length, so there is no gap to wrap a strap or tower around. Thule's answer for the 2022 Palisade is its Evo Flush Rail foot (710601) with fit kit 6008, and etrailer's Palisade list contains flush-rail systems and naked-roof clip systems, no raised-rail towers. Many Amazon listings say \"flush side rails\" in the title; others just say \"side rails.\" Either way, the clamp has to grip the rail from the side. Look at a product photo of the clamp before ordering."},
+  {"h": "A listing that names 2020–2025, and not 2026",
+   "body": "The Palisade changed generations for 2026, so a listing that stops at 2025 is doing its job. The risk runs the other way: a bar sold for the new 2026 truck may not fit your first-gen roof, and sellers have started splitting listings by generation. You will also see 2019–2025 in titles. That is a listing habit from Korean production dates; the first US Palisade was a 2020. Match the model year range and the rail type, and ignore claims like \"fits most SUVs\"."},
+  {"h": "A load rating you can check",
+   "body": "Thule publishes 165 lb for its Evo Flush Rail system on the Palisade. Amazon listings on this page print 165 lb (OMAC), 220 lb (ERKUL) and 300 lb (Tuyoung, EYOUHZ). Those bigger numbers are the seller's claim for the bars, not a promise about your roof. The Palisade's roof limit is in the owner's manual, and it applies to bars, carrier and cargo together. A heavier printed rating is useful headroom for a loaded box, but it does not let you carry more than the roof allows."},
+  {"h": "Bar length and overhang",
+   "body": "Thule's Palisade system uses 127 cm (50 in) WingBar Evo bars. That length keeps the bar ends close to the feet, which cuts wind noise and keeps you from hitting your head on a bar end at the liftgate. Longer universal bars leave more overhang for side-by-side kayaks, but they hum more. etrailer shows Thule's flush-style WingBar Edge as not fitting the 2022 Palisade, which is a good reminder that bar length and foot type come from the fit guide, not from what fit your last car."},
+  {"h": "Locks and aero shape",
+   "body": "Most of the Amazon bars here include locks in the price. Thule sells One-Key lock cores separately. Locks don't make a rack theft-proof, but they stop someone lifting the whole set off a parked Palisade. For noise, an aero (wing) profile with a rubber strip in the top channel is the quiet choice. Square and round bars whistle more at highway speed, which you will hear on a three-row SUV that spends a lot of time at 70 mph."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "2020–2025 Palisade named in the title, with flush or side rails", "\"Universal\" bars, or listings for 2026 only"],
+   ["Mount", "Side-gripping flush-rail clamp or Thule Evo Flush Rail + kit 6008", "Raised-rail towers that wrap under the rail"],
+   ["Load rating", "A published number; Thule 165 lb, others up to 300 lb printed", "No number, or a rating with no mention of the roof limit"],
+   ["Profile", "Aero bar with a rubber channel strip", "Open-channel bars if noise bothers you"],
+   ["Security", "Locking end caps or feet", "Bars that come off with a hex key in seconds"],
+   ["Warranty", "Stated length (Thule: limited lifetime)", "Nothing stated"],
+  ],
+ },
+ "types_table": {
+  "caption": "Palisade roof rack types compared",
+  "head": ["Type", "Price seen", "Rating", "Fit method", "Noise", "Best for"],
+  "rows": [
+   ["Thule Evo Flush Rail system", "$604.85–$704.85 (The Rack Shop, etrailer)", "165 lb", "Flush-rail feet + kit 6008", "Low with WingBar Evo", "Owners who want a warrantied, exact-fit system"],
+   ["Vehicle-specific Amazon bars", "Roughly $90–$160 (check live price)", "165–300 lb printed", "Side clamp on the flush rail", "Varies by bar", "Budget boxes, bikes and skis"],
+   ["Platform (Rhino-Rack Pioneer)", "$1,389.98 (etrailer)", "Not listed on the fit page", "Flush-rail legs", "Higher", "Flat loads, recovery gear"],
+   ["Naked-roof clip systems", "About $605–$750 (etrailer)", "Varies", "Clips in the door jambs", "Low", "Not needed: the Palisade has rails"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0BZ5GGHP9", "role": "Best overall", "price": "$605–$705",
+   "pros": ["Thule's Palisade fit: Evo Flush Rail feet plus fit kit 6008", "165 lb load rating published by Thule", "WingBar Evo profile with split rubber strips to cut wind noise", "Limited lifetime warranty", "Works with Thule's full range of bike, ski and box mounts"],
+   "cons": ["About five times the price of generic lockable bars", "Lock cores cost extra", "Amazon title lists 2020–2023; confirm 2024–2025 with the seller"],
+   "body": "Thule's own fit for the Palisade is the reference point for every other rack on this page. It uses the Evo Flush Rail foot (710601), which clamps the side of the rail, with fit kit 6008 (etrailer part TH83CE) and 127 cm (50 in) bars. etrailer's fit expert gives exactly that combination for the 2022 Palisade, and The Rack Shop sells the same foot and kit as a complete Palisade rack for 2020–2025. The rating is 165 lb, and Thule covers it with a limited lifetime warranty.\n\nThe Amazon listing is titled for the Palisade with flush rails and a 165 lb capacity, but it names 2020–2023. The Rack Shop sells the same foot and kit 6008 as a complete rack for 2020–2025, so the parts should match, but ask the seller to confirm before you order for a 2024 or 2025. etrailer lists the WingBar Evo version at $704.85 and The Rack Shop lists the system from $604.85 with SquareBars. Reviewers on etrailer call it rock solid and quiet, and the channel takes Thule and most clamp-on accessories.",
+   "who": "Owners who will leave bars on for years, carry a box or bikes often, and want a warrantied fit kit made for this roof.",
+   "specs": [["Type", "Flush-rail foot + aero crossbars"], ["Parts", "Evo Flush Rail 710601, kit 6008 (TH83CE), WingBar Evo 127"], ["Fits", "2020–2023 Palisade per Amazon title; retailers list kit 6008 through 2025"], ["Bar length", "50 in (127 cm)"], ["Load rating", "165 lb"], ["Locks", "Thule One-Key cores, sold separately"], ["Warranty", "Limited lifetime"], ["Price seen", "$604.85 (SquareBar) to $704.85 (WingBar Evo)"]]},
+  {"asin": "B0CCLSCKSM", "role": "Best value", "price": "$110–$170",
+   "pros": ["Listed for the 2020–2025 Palisade with flush rails", "220 lb printed rating", "Solid metal mounts named in the title", "Anti-theft locks included", "Silver and black versions"],
+   "cons": ["Load rating is the seller's claim, not an independent figure", "Warranty terms are on the listing, not published like Thule's", "Aero shape and noise vary; read recent reviews"],
+   "body": "The ERKUL Heavy Duty set is the step up from the cheapest generic bars. The title names the 2020–2025 Palisade and says it is compatible with flush rails, so it covers the whole first generation in one listing. ERKUL calls out solid metal mounts, which matters because cheap flush-rail clamps are often plastic bodies with a steel screw. The bars are aluminum with anti-theft locks, and the printed rating is 220 lb.\n\nTreat that 220 lb as headroom for a loaded cargo box, not a new roof limit. The Palisade's own roof limit in the owner's manual still applies, and it covers the bars, the carrier and what is inside. ERKUL also sells a black version (B0CRBHRNS4) with the same title, and a newer aero bar with a smart clamp system. We list the silver heavy-duty version because it is the one with the metal mounts named. Check the clamps after the first week of driving and again after the first long trip.",
+   "who": "Buyers who want vehicle-specific bars with locks and metal mounts for a fraction of Thule's price.",
+   "specs": [["Type", "Clamp-on crossbars, flush rails"], ["Fits", "2020–2025 Palisade (per listing)"], ["Material", "Aluminum bars, metal mounts"], ["Load rating", "220 lb (printed by seller)"], ["Locks", "Anti-theft locks included"], ["Colors", "Silver (B0CCLSCKSM), black (B0CRBHRNS4)"], ["Warranty", "See listing"]]},
+  {"asin": "B0BC1CV7L5", "role": "Best budget lockable", "price": "$90–$140",
+   "pros": ["Listed for the 2020–2025 Palisade with flush rails", "Lockable", "165 lb printed rating, the same number Thule uses", "Aluminum bars", "Low cost for a set that names the vehicle"],
+   "cons": ["Thin published specs beyond the title", "Round-edged bars can be louder than wing profiles", "Check clamp fit on your trim before the first long trip"],
+   "body": "OMAC sells two Palisade listings, and this one says flush rails in the title, so it is the one to buy. The bars are aluminum, silver, lockable and rated at 165 lb, which happens to match the number Thule prints for its flush-rail system. That conservative figure is a good sign: a seller who prints a number close to the premium brands is less likely to be inflating it.\n\nThe listing covers 2020–2025, and it names the rail type, which is the detail that matters most. What you don't get is detail: no published fit kit, bar length or warranty beyond what the listing says. For a family that wants bars for summer bikes and a ski box in winter, and will take them off in between, it is the cheapest set here that names the Palisade and the rail type. The other OMAC listing (B08WJG7XGB) is also for the 2020–2025 Palisade.",
+   "who": "Budget buyers who want locks and a sensible 165 lb rating and will remove the bars between seasons.",
+   "specs": [["Type", "Clamp-on crossbars, flush rails"], ["Fits", "2020–2025 Palisade (per listing)"], ["Material", "Aluminum, silver"], ["Load rating", "165 lb (printed by seller)"], ["Locks", "Yes"], ["Sold as", "2 bars"]]},
+  {"asin": "B08CSVZML6", "role": "Best trim-specific listing", "price": "$90–$130",
+   "pros": ["Title names SE, SEL, XRT, Limited and Calligraphy", "Says flush side rails outright", "Lockable aluminum bars", "Covers every first-gen model year", "Snailfly sells matching bars for many SUVs, so replacement parts are common"],
+   "cons": ["Listing reads 2019–2025 (the US Palisade began in 2020)", "No load rating in the title", "Generic warranty"],
+   "body": "Snailfly's listing is the most specific on trims: it names the SE, SEL, XRT, Limited and Calligraphy, and it says flush side rails. That covers the question owners ask most, which is whether the XRT's black trim or the Calligraphy's finish change the rail. By this listing they don't; the same bar is sold for all five. The bars are aluminum and lockable, sold as a pair for trips, bikes, kayaks and luggage.\n\nThe title reads 2019–2025. That is common on Palisade listings, because production started in 2019, but US trucks are 2020–2025, so read it as full first-generation coverage. The title does not give a load rating, so use the lower of the seller's stated number on the page and your roof limit from the owner's manual. Snailfly also has an older black listing for 2019–2024 (B07V4J3RHQ). Buy the current flush-rail version above so the fit matches your trim.",
+   "who": "Owners of XRT or Calligraphy trims who want a listing that names their trim before they order.",
+   "specs": [["Type", "Clamp-on crossbars, flush side rails"], ["Fits", "2019–2025 Palisade SE, SEL, XRT, Limited, Calligraphy (per listing)"], ["Material", "Aluminum"], ["Locks", "Yes"], ["Load rating", "Not in title; check listing"], ["Uses", "Cargo carrier, kayak, bike, luggage (per listing)"]]},
+  {"asin": "B0DDH72T81", "role": "Highest printed rating", "price": "$100–$140",
+   "pros": ["300 lb printed rating", "Lockable, anti-theft", "Names SE, SEL, XRT, Limited and Calligraphy", "Aluminum rails", "Useful headroom when a loaded box sits near its limit"],
+   "cons": ["A 300 lb bar rating does not raise the Palisade's roof limit", "Rating is the seller's figure", "Bulkier clamps than Thule's"],
+   "body": "Tuyoung prints 300 lb for this set, the highest number on the page, and names the SE, SEL, XRT, Limited and Calligraphy for 2019–2025. The bars are aluminum with locks, and the listing is sold as heavy duty. It is the pick for someone who carries a full cargo box every summer and wants the bars loafing well under their rating rather than sitting at it.\n\nBe clear about what 300 lb means. It is the seller's rating for the bars. The Palisade's own roof limit, printed in the owner's manual, is the ceiling for everything on the roof. A higher-rated bar flexes less under a heavy box, which is useful, but it doesn't make the roof stronger. The same logic applies to the EYOUHZ bars below.",
+   "who": "Owners who load a big cargo box heavy and want the stiffest-rated bar that still names the Palisade.",
+   "specs": [["Type", "Clamp-on crossbars, side rails"], ["Fits", "2019–2025 Palisade SE, SEL, XRT, Limited, Calligraphy (per listing)"], ["Material", "Aluminum"], ["Load rating", "300 lb (printed by seller)"], ["Locks", "Yes, anti-theft"], ["Warranty", "See listing"]]},
+  {"asin": "B0CKP9QYP7", "role": "Alternative 300 lb set", "price": "$100–$140",
+   "pros": ["300 lb printed rating", "Lockable and adjustable", "Names XRT, SE, SEL and Limited with side rails", "Adjustable position lets you set crossbar spread", "Heavy-duty listing for 2019–2025"],
+   "cons": ["Calligraphy not named in the title", "Seller-printed rating", "Thin warranty detail"],
+   "body": "EYOUHZ sells a near twin of the Tuyoung set: 300 lb printed, lockable and adjustable, listed for 2019–2025 Palisade XRT, SE, SEL and Limited with side rails. Adjustable matters on the Palisade because the bars slide along the rail, which lets you set the crossbar spread your box or bike tray asks for, and move the front bar back from the sunroof opening.\n\nThe title leaves out the Calligraphy. The Calligraphy uses the same flush rail in the other listings we checked, but ask the seller before you order for one. As with every high printed rating here, the roof limit in your owner's manual still sets the ceiling. If the Tuyoung listing is out of stock or priced higher on the day, this is the set to compare it with, and YZONA sells a similar 300 lb bar (B0DFW1LDMD) for the same trims.",
+   "who": "Buyers who want an adjustable 300 lb set and don't drive a Calligraphy, or who have confirmed Calligraphy fit with the seller.",
+   "specs": [["Type", "Clamp-on crossbars, side rails"], ["Fits", "2019–2025 Palisade XRT, SE, SEL, Limited (per listing)"], ["Load rating", "300 lb (printed by seller)"], ["Locks", "Yes"], ["Adjustable", "Yes, along the rail"], ["Warranty", "See listing"]]},
+ ],
+ "install": [
+  "Wash the side rails and let them dry. Grit under a clamp pad scratches the rail finish and lets the clamp slip.",
+  "Measure the spread your carrier needs (etrailer gives about 32 in for the Palisade) and mark the front and rear bar positions on the rail with tape.",
+  "Set the bars on the rails with the aero edge facing forward and the ends even on both sides, so the bar sits square across the roof.",
+  "Tighten the clamps in steps, side to side, to the torque the maker gives. Thule includes a torque-limiting tool that clicks when the foot is tight enough.",
+  "Check that the front bar clears the sunroof opening and that the liftgate opens fully without touching the rear bar or a carrier.",
+  "Lock the bars, then check every clamp after the first week of driving and after any long trip with a loaded box.",
+ ],
+ "avoid": [
+  {"h": "Raised-rail towers on a flush rail", "body": "Towers or straps that wrap under the rail need a gap the Palisade doesn't have. They will not clamp, or they will clamp badly and slide."},
+  {"h": "2026 Palisade listings on a 2020–2025 SUV", "body": "The 2026 truck is a new generation. Buy the listing that names your years, even if a newer one looks similar in photos."},
+  {"h": "Treating the bar rating as the roof limit", "body": "A 300 lb bar on a roof with a lower limit is still limited by the roof. Add up bars, carrier and cargo, then compare with the owner's manual."},
+  {"h": "Guessing Thule parts", "body": "Thule's Palisade fit is Evo Flush Rail feet, kit 6008 and 50 in bars. etrailer shows the WingBar Edge as not fitting the 2022 Palisade. Use the fit guide."},
+ ],
+ "verdict": {
+  "thesis": "Buy flush-rail bars that name the 2020–2025 Palisade: the Thule Evo system if you want the exact-fit kit and lifetime warranty, the ERKUL set if you want metal mounts and locks for a fraction of the price.",
+  "body": "The Palisade is easy to fit once you accept that its rails are flush. The Thule Evo Flush Rail system with kit 6008 is the one with published fit data, a 165 lb rating and a lifetime warranty, and it is worth the money if the bars will stay on for years. The ERKUL, OMAC and Snailfly bars clamp to the same rails for roughly a sixth of the price, and the 300 lb Tuyoung and EYOUHZ sets suit owners who load a box heavy. Whichever you buy, the Palisade's owner's manual roof limit is the number that decides how much goes up there.\n\nWith bars on, most owners add a rooftop cargo box for the third-row luggage problem, and a trailer hitch for a bike rack when the roof is full. The Palisade shares its platform with the 2020–2025 Kia Telluride, but the rails differ, so check each one's own fit.",
+ },
+ "sources": [
+  ["2022 Hyundai Palisade roof rack systems (etrailer)", "https://www.etrailer.com/roof-2022_Hyundai_Palisade.htm"],
+  ["Thule flush rail fit kit TH83CE for the 2022 Palisade (etrailer Q&A)", "https://www.etrailer.com/question-606671.html"],
+  ["Thule WingBar Evo for 2022 Palisade, TH27QG (etrailer)", "https://www.etrailer.com/Roof-Rack/Hyundai/Palisade/2022/TH27QG.html"],
+  ["Thule WingBar Edge TH59JG, listed as not fitting the 2022 Palisade (etrailer)", "https://www.etrailer.com/Roof-Rack/Hyundai/Palisade/2022/TH59JG.html?VehicleID=20227056200"],
+  ["Palisade Thule fit Q&A incl. crossbar spread (etrailer)", "https://www.etrailer.com/answers.aspx?AnswerModel=Palisade&Manufacturer=Thule&Filter=fit&AnswerMake=Hyundai"],
+  ["2020–2025 Palisade Thule complete rack, kit 6008 (The Rack Shop)", "https://therackshop.com/2020-2025-hyundai-palisade-w-flush-rails-thule-crossbar-complete-roof-rack/"],
+  ["Thule Evo Flush Rail rack for Palisade (Rack Warehouse)", "https://www.rackwarehouse.com/products/thule-evo-flush-rail-rack/vehicle/hyundai/palisade/"],
+  ["Hyundai Palisade generations (Wikipedia)", "https://en.wikipedia.org/wiki/Hyundai_Palisade"],
+ ],
+}
+
+# (asin, name, brand, band, cond, note) — picks first, then variants.
+FITS = [
+ ("B0BZ5GGHP9","Thule Roof Rack Crossbars for Hyundai Palisade with Flush Rails, 2020-2023, 165 lb","Thule","$600–$710",{"roof_type":"flush-rails"},"Evo Flush Rail + kit 6008; confirm 2024-2025 with the seller."),
+ ("B0CCLSCKSM","ERKUL Heavy Duty 220 lb Roof Rack Cross Bars, 2020-2025 Palisade, flush rails, silver","ERKUL","$110–$170",{"roof_type":"flush-rails"},"Metal mounts; locks included."),
+ ("B0BC1CV7L5","OMAC Roof Rack Cross Bars, 2020-2025 Palisade, lockable 165 lb, flush rails","OMAC","$90–$140",{"roof_type":"flush-rails"},"165 lb printed rating."),
+ ("B08CSVZML6","SNAILFLY Aluminum Cross Bars, 2019-2025 Palisade SE/SEL/XRT/Limited/Calligraphy with flush side rails","Snailfly","$90–$130",{"roof_type":"flush-rails"},"All first-gen trims named."),
+ ("B0DDH72T81","Tuyoung 300 lb Lockable Cross Bars, 2019-2025 Palisade SE/SEL/XRT/Limited/Calligraphy","Tuyoung","$100–$140",{"roof_type":"flush-rails"},"Seller-printed 300 lb; roof limit still applies."),
+ ("B0CKP9QYP7","EYOUHZ 300 lb Lockable Cross Bars, 2019-2025 Palisade XRT/SE/SEL/Limited with side rails","EYOUHZ","$100–$140",{"roof_type":"flush-rails"},"Calligraphy not named; confirm with seller."),
+ ("B0CRBHRNS4","ERKUL Heavy Duty 220 lb Roof Rack Cross Bars, 2020-2025 Palisade, flush rails, black","ERKUL","$110–$170",{"roof_type":"flush-rails"},"Black version of #2."),
+ ("B08WJG7XGB","OMAC Roof Rack Cross Bars, 2020-2025 Palisade, lockable 165 lb","OMAC","$90–$140",{"roof_type":"flush-rails"},"Second OMAC listing; confirm rail type on listing."),
+ ("B0DFW1LDMD","YZONA 300 lb Lockable Cross Bars, 2019-2025 Palisade SE/SEL/XRT/Limited with side rails","YZONA","$100–$140",{"roof_type":"flush-rails"},"Alternative to #6."),
+ ("B0CJPS7RJL","HmmtyRack 300 lb Lockable Cross Bars, 2019-2025 Palisade","HmmtyRack","$100–$140",{"roof_type":"flush-rails"},"All trims with side rails."),
+]

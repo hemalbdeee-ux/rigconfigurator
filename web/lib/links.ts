@@ -3,6 +3,8 @@
 import { q } from "./db";
 import { vehiclePath, type Vehicle } from "./queries";
 
+export const CURRENT_MODEL_YEAR = 2026;
+
 export const CATEGORY_PHRASES: Record<string, string[]> = {
   "tonneau-covers": ["tonneau covers", "tonneau cover", "bed cover"],
   "bed-racks": ["bed racks", "bed rack"],
@@ -28,7 +30,10 @@ export async function linkMap(v: Vehicle, currentCategory: string): Promise<Reco
   const map: Record<string, string> = { "vehicle hub": vehiclePath(v), [`${v.model_name} fit hub`]: vehiclePath(v) };
   for (const r of rows) {
     if (r.same) for (const p of CATEGORY_PHRASES[r.category_slug] ?? []) map[p] = r.path;
-    else if (r.year_to) { map[`${r.year_from}–${r.year_to} ${r.model_name}`] = r.path; map[`${r.year_from}-${r.year_to} ${r.model_name}`] = r.path; }
+    else {
+      const to = r.year_to ?? CURRENT_MODEL_YEAR; // "-present" generations are written as "2025–2026 4Runner"
+      map[`${r.year_from}–${to} ${r.model_name}`] = r.path; map[`${r.year_from}-${to} ${r.model_name}`] = r.path;
+    }
   }
   return map;
 }
