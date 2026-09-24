@@ -14,7 +14,7 @@ with conn() as c, open(path, newline="", encoding="utf-8") as f:
         c.execute(
             """INSERT INTO products (asin, category_id, name, brand, price_band)
                VALUES (%s, (SELECT id FROM categories WHERE slug=%s), %s, %s, %s)
-               ON CONFLICT (asin) DO UPDATE SET category_id=EXCLUDED.category_id, name=EXCLUDED.name, brand=EXCLUDED.brand, price_band=EXCLUDED.price_band, updated_at=now()""",
+               ON CONFLICT (asin) DO UPDATE SET active=TRUE, category_id=EXCLUDED.category_id, name=EXCLUDED.name, brand=EXCLUDED.brand, price_band=EXCLUDED.price_band, updated_at=now()""",
             (r["asin"], r["category_slug"], r["name"], r["brand"], r["price_band"]))
         c.execute(
             """INSERT INTO fitments (product_id, vehicle_id, condition, note, source, confidence, rank)
