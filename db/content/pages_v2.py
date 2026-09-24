@@ -209,7 +209,7 @@ P("ford","explorer","2020-present","roof-racks","2020–2025 Ford Explorer",[
 # ================================================================ HITCHES
 P("jeep","wrangler","2018-present","hitches","2018–2025 Jeep Wrangler JL",[
   "**Factory hitch** comes with the tow package on many JLs — check under the rear bumper first.",
-  "**Tow rating** is 2,000 lb (2-door) to 3,500 lb (4-door with tow package) — a 2 in receiver doesn't change that.",
+  "**Tow rating** 2018–2023: 2,000 lb (2-door) / 3,500 lb (4-door). 2024+: 3,500 lb (2-door) / 5,000 lb (4-door, V6 or 2.0T, 8-speed, tow pkg). 4xe and 392: 3,500 lb.",
   "**Aftermarket steel bumpers** often have their own receiver."])
 P("ford","explorer","2020-present","hitches","2020–2025 Ford Explorer",[
   "**Factory Class 3/4 receiver** is standard or packaged on many trims — check before buying.",

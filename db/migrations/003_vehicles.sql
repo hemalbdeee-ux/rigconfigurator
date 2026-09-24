@@ -94,8 +94,8 @@ VALUES
  'All-new 2025 platform on TNGA-F. 5th-gen roof racks, mats and hitches do NOT carry over.'),
 
 ((SELECT id FROM makes WHERE slug='jeep'),'wrangler','Wrangler','2018-present','JL',2018,NULL,'suv',
- '{}','removable',NULL,'2',2,3500,'255/75R17','5x127',2,
- '{"doors":["2-door","4-door Unlimited"],"roof":"removable hardtop / soft top / Sky One-Touch","spare":"tailgate-mounted — bike racks need spare-tire clearance","hitch":"factory Class II 2 in on tow package; aftermarket Class III common","variants":["Rubicon","392","4xe"]}',
+ '{}','removable',NULL,'2',2,5000,'255/75R17','5x127',2,
+ '{"doors":["2-door","4-door Unlimited"],"roof":"removable hardtop / soft top / Sky One-Touch","spare":"tailgate-mounted — bike racks need spare-tire clearance","hitch":"factory Class II 2 in on tow package; aftermarket Class III common","tow":"2018–2023: 2,000 lb 2-door / 3,500 lb 4-door; 2024+: 3,500 lb 2-door / 5,000 lb 4-door (3.6L V6 or 2.0L turbo, 8-speed auto, tow pkg); 4xe and 392: 3,500 lb","variants":["Rubicon","392","4xe"]}',
  'Removable roof means roof racks bolt to the hardtop or a cage-style rack. Tailgate spare tire dictates bike-rack and cargo-carrier choice.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'bronco','Bronco','2021-present','6th Gen (U725)',2021,NULL,'suv',
@@ -119,8 +119,8 @@ VALUES
  'Three-row family SUV with raised rails; Class III hitch and 5,000 lb tow. Grand Highlander is a different vehicle.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'outback','Outback','2020-present','6th Gen (BT)',2020,2025,'suv',
- '{}','raised-rails',176,'2',1.25,3500,'225/60R18','5x114.3',2,
- '{"rails":"raised rails with integrated swing-out crossbars (most trims); Wilderness has fixed ladder-style rack","hitch":"1.25 in factory; 2 in aftermarket common","tow":"2,700 lb std; 3,500 lb XT/Wilderness","fit_note":"crossbars for integrated-rail Outbacks differ from standard raised rails; 2026 Outback is a new generation"}',
+ '{}','raised-rails',176,'2',2,3500,'225/60R18','5x114.3',2,
+ '{"rails":"raised rails with integrated swing-out crossbars (most trims); Wilderness has fixed ladder-style rack","hitch":"2 in factory (Subaru L101SAN000, Class II, harness included); 2 in aftermarket Class III common","tow":"2,700 lb std; 3,500 lb XT/Wilderness","fit_note":"crossbars for integrated-rail Outbacks differ from standard raised rails; 2026 Outback is a new generation"}',
  'Integrated swing-out crossbars on most trims (Wilderness has a fixed rack) — check which rail style before buying a crossbar kit.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'forester','Forester','2019-2024','5th Gen (SK)',2019,2024,'suv',
