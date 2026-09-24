@@ -1,0 +1,166 @@
+"""Long-form article — Best Floor Mats & Liners for 2010–2024 Toyota 4Runner (5th gen, N280).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("toyota", "4runner", "2010-2024", "floor-mats")
+
+TITLE = "Best Floor Liners for 2010–2024 Toyota 4Runner: 6 Picks for Cabin and Cargo, 5-Seat vs 7-Seat"
+META = ("Six 5th-gen 4Runner floor and cargo liner picks, from Husky WeatherBeater and TuxMat to Toyota TRD Pro, with "
+        "the 2013 split, third-row and sliding cargo deck notes.")
+
+FAQ = [
+ ("Why do many 4Runner liners start at 2013 instead of 2010?",
+  "Husky's WeatherBeater 99571 and TuxMat's set are both listed for 2013–2024, not 2010–2024. The 5th gen launched for 2010, and liner makers treat the early trucks separately, likely because of a change to the floor or retention hooks. We can't confirm the exact reason from the listings. If you have a 2010–2012, buy a set that names your year or confirm with the seller."),
+ ("What is the sliding cargo deck and why does it matter?",
+  "Some 4Runners, especially Limited trims, have a sliding rear cargo deck that pulls out over the bumper and holds up to a stated load. It changes the cargo floor, so cargo liners are cut differently. Husky's 25722 cargo liner is for trucks with the standard cargo area and without the third row or sliding deck. The budget floor-plus-cargo set on this page also excludes the sliding deck."),
+ ("Do third-row 4Runners need different liners?",
+  "The first and second row liners are the same, but the cargo liner differs, because the third-row seat folds into the cargo floor. Husky sells the 25741 cargo liner for trucks with the third-row option. Some sets also list '5-seat' only, like TuxMat and the budget set here, so a 7-seat owner should check before ordering a full kit."),
+ ("Do 4Runner liners fit the Lexus GX460?",
+  "Husky lists its 99571 front and second-row set for 2013–2024 4Runner and 2014–2024 Lexus GX460, because the two share a platform. Cargo liners and other brands' sets don't necessarily cross over. Only use a 4Runner set in a GX if the listing names it."),
+ ("Will 5th-gen 4Runner liners fit the 2025 4Runner?",
+  "No. The 2025 4Runner is a new generation on the TNGA-F platform with a new cab. Husky sells a separate 96531 set for it. See our page for the 2025+ 4Runner."),
+ ("Are Toyota TRD Pro liners worth the price?",
+  "They're genuine Toyota all-weather liners with TRD Pro branding (PT908-89200-02 in our list). They fit the floor and hooks exactly. You pay extra for the logo compared with Toyota's standard liners, and they don't claim Husky's wall height or warranty. Confirm model years on the listing, because TRD Pro liner part numbers vary by year range."),
+ ("Should I buy a cargo liner too?",
+  "On a 4Runner, yes, if you carry gear, dogs or muddy boots. The cargo area is where overland gear and wet equipment ride. Match the liner to your cargo floor: standard, sliding deck or third row. MERXENG's cargo mat is a budget option for the 5-seat truck."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto Toyota's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
+ ("How do I clean liners after trail use?",
+  "Pull them, knock off dried mud, then rinse and scrub with mild soap. Let them dry before reinstalling. Skip silicone protectants. For sand, shake and vacuum; sand trapped under a liner abrades the carpet."),
+ ("Do TRD Pro and Trail Edition 4Runners take different liners?",
+  "No. TRD Pro, TRD Off-Road, Trail, SR5 and Limited share the cabin floor within a model-year range. What changes is the cargo floor: Limited trucks more often have the sliding cargo deck, and SR5 and Limited could be ordered with the third row. Buy cabin liners by year and cargo liners by cargo floor type, not by trim name."),
+]
+
+ARTICLE = {
+ "dek": "Six picks for the 5th-generation 4Runner's cabin and cargo area, from Husky WeatherBeater and TuxMat to Toyota's TRD Pro liners and a $60 cargo mat. Most sets start at 2013, and the cargo floor splits three ways, so check your year and your cargo area before ordering.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2010–2024 4Runner (year range, seating, cargo floor), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and TuxMat claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Most sets start at 2013.** Husky and TuxMat list 2013–2024; 2010–2012 owners should confirm.",
+  "**Cargo floor splits three ways.** Standard, sliding cargo deck or third row; each takes a different cargo liner.",
+  "**5-seat or 7-seat.** TuxMat and the budget full set are 5-seat.",
+  "**GX460 shares Husky's cabin set.** Husky 99571 lists the 2014–2024 GX460.",
+  "**2025 is a new truck.** None of these fit the 6th gen.",
+ ],
+ "top_picks": [
+  {"asin": "B00BB1UMEG", "role": "Best overall", "why": "Husky WeatherBeater 99571, 2013–2024 4Runner and GX460, made in USA"},
+  {"asin": "B0BMXSVVZ5", "role": "Best coverage", "why": "TuxMat 1st and 2nd row, 2013–2024 5-seat, up the sidewalls"},
+  {"asin": "B07X7JS2PW", "role": "Best factory option", "why": "Toyota TRD Pro all-weather liners"},
+  {"asin": "B003G0QJWE", "role": "Best cargo liner", "why": "Husky WeatherBeater 25722, standard cargo area without 3rd row or sliding deck"},
+  {"asin": "B0D7CMJSKL", "role": "Best budget full set", "why": "Floor mats plus cargo liner, 2013–2024 5-seat, no sliding tray"},
+ ],
+ "fit_table": {
+  "caption": "2010–2024 4Runner: cabin and cargo fit",
+  "head": ["Variable", "Versions", "What to buy"],
+  "rows": [
+   ["Model year", "2010–2012 vs 2013–2024", "Husky 99571 and TuxMat list 2013–2024; confirm earlier trucks"],
+   ["Seating", "5-seat or 7-seat (third row)", "TuxMat and budget set are 5-seat; 7-seat cargo uses Husky 25741"],
+   ["Cargo floor", "Standard / sliding cargo deck / third row", "Husky 25722 standard only; budget set excludes sliding tray"],
+   ["Sister vehicle", "Lexus GX460 (2014–2024)", "Husky 99571 lists it"],
+   ["2025+", "New generation", "Not compatible"],
+  ],
+ },
+ "look_for": [
+  {"h": "Your model year inside the generation",
+   "body": "The 5th-gen 4Runner ran for fifteen model years, and liner makers don't treat them all the same. Husky's WeatherBeater 99571 and TuxMat's set both list 2013–2024, and the budget floor-plus-cargo set here starts at 2013 too. The generation began in 2010, so 2010–2012 owners should look for a listing that names their year or ask the seller. Within 2013–2024, the cabin floor is consistent, which is why these sets cover such a long span. A liner bought for a 2015 will fit a 2022. That makes a good liner one of the few accessories that transfers when you trade one 5th gen for another."},
+  {"h": "Cargo area: standard, sliding deck or third row",
+   "body": "The cargo area is where 4Runner liners get complicated. Trucks came with a standard cargo floor, the optional sliding cargo deck, or the third-row seat, which folds into the floor. Each needs a different cargo liner. Husky sells the 25722 for the standard cargo area without the third row or sliding deck, and the 25741 for third-row trucks. The budget full set on this page says not for the sliding cargo tray. If your 4Runner has the slide-out deck, look for a liner or mat cut for it, or skip the cargo liner and use a rubber mat that sits on the deck."},
+  {"h": "Walls for trail mud and sand",
+   "body": "4Runners get used off pavement more than most SUVs, and trail mud, beach sand and snow are what liners are for. High, firm walls hold more before anything reaches the carpet. Husky's WeatherBeater uses a firm ProGard material that keeps its walls upright. TuxMat takes a different approach, running up the sidewalls with a textured surface, which protects more carpet but holds less standing water. Toyota's TRD Pro liners sit in between. For a truck that sees trails every weekend, walls first; for a daily driver, coverage and feel."},
+  {"h": "Warranty and origin",
+   "body": "Husky says WeatherBeater liners are laser-measured, designed and made in the USA, anchored by StayPut nibs and covered by a lifetime warranty against cracks and breaks. TuxMat offers a limited lifetime warranty and a 30-day money-back guarantee and says its mats are laser-scanned. Toyota's liners are dealer parts. The budget floor-plus-cargo set and MERXENG's cargo mat don't publish comparable terms. On a vehicle people keep for well over a decade, a warranty is a fair way to compare brands."},
+  {"h": "Retention and the driver's heel",
+   "body": "Toyota uses retention posts in the driver footwell to keep the mat off the pedals. A 4Runner-specific liner has holes for them. Seat the driver liner on the posts and heel-test it toward the pedals, then press the brake and throttle to the floor. The driver's heel zone wears first, especially with hiking or work boots. A liner with a textured or reinforced heel area lasts longer; check the listing photos."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Year", "Your year inside the listed range", "2013+ sets on a 2010–2012 without confirming"],
+   ["Seating", "5-seat or 7-seat named", "Full kits that don't state seating"],
+   ["Cargo floor", "Standard, sliding deck or third row named", "Cargo liners that don't say which"],
+   ["Walls", "High walls for mud and sand", "Flat mats on a trail truck"],
+   ["Retention", "Hook holes for Toyota's posts", "Loose mats"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor and cargo protection for the 2010–2024 4Runner",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["USA-made molded liner", "Husky 99571", "Front + 2nd row", "High", "$150–$210", "Trail and winter"],
+   ["Max-coverage mat", "TuxMat", "Front + 2nd, sidewalls", "Sidewalls", "$200–$260", "Interior protection"],
+   ["Factory liner", "Toyota TRD Pro", "Front + 2nd row", "Medium-high", "$150–$200", "OEM look"],
+   ["Molded cargo liner", "Husky 25722 / 25741", "Cargo area", "High", "$100–$150", "Gear and dogs"],
+   ["Budget full set", "Floor + cargo kit", "Front, 2nd, cargo", "Medium", "$110–$150", "Value"],
+   ["Cargo mat", "MERXENG", "Cargo floor", "Low", "$50–$80", "Budget cargo protection"],
+  ],
+ },
+ "picks": [
+  {"asin": "B00BB1UMEG", "role": "Best overall", "price": "$150–$210",
+   "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs grip carpet", "Lists 2013–2024 4Runner and 2014–2024 GX460", "Three pieces with one-piece rear"],
+   "cons": ["Starts at 2013", "Cargo liner sold separately", "Firm feel"],
+   "body": "Husky's WeatherBeater 99571 covers the front and second rows of every 2013–2024 4Runner and the 2014–2024 Lexus GX460. The long range tells you the cabin floor didn't change across a decade of 4Runners, and it means the set can move with you from one 5th gen to another.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from its ProGard formula and anchored by StayPut nibs. The lifetime warranty covers cracks and breaks. On a 4Runner that sees trails, sand and snow, the firm, tall walls are what keep the carpet clean. It feels stiffer than soft TPE until it warms, and it doesn't include the cargo area, so pair it with Husky's 25722 or 25741 cargo liner to match your cargo floor. For a 2010–2012 truck, confirm with Husky or the seller before ordering.",
+   "who": "2013–2024 owners who use the truck off pavement or in winter.",
+   "specs": [["Part #", "Husky 99571"], ["Pieces", "3"], ["Fits", "2013–2024 4Runner; 2014–2024 Lexus GX460"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"], ["Cargo", "Sold separately (25722 / 25741)"]]},
+  {"asin": "B0BMXSVVZ5", "role": "Best coverage", "price": "$200–$260",
+   "pros": ["Extends up the sidewalls", "Laser-scanned fit", "Limited lifetime warranty", "30-day money-back guarantee", "Textured, leather-like surface"],
+   "cons": ["5-seat only per listing", "Starts at 2013", "Holds less standing water than a deep liner"],
+   "body": "TuxMat's set covers the first and second rows of 2013–2024 4Runners with five seats. TuxMat says its mats are laser-scanned and extend up the sidewalls to protect areas other mats leave exposed, with a textured, leather-like surface. It's backed by a limited lifetime warranty and a 30-day money-back guarantee.\n\nFor a Limited or a clean daily-driven 4Runner, TuxMat's coverage and look are the draw. The trade-off shows up in wet weather: a max-coverage mat with a textured surface doesn't hold a pool of slush the way Husky's tall-walled tray does, so empty it often in snow country. Seven-seat owners should confirm with TuxMat, since this listing names the 5-seat truck. At roughly $200–$260, it's the premium choice here.",
+   "who": "Owners who want the most carpet covered and a premium finish.",
+   "specs": [["Rows", "1st + 2nd"], ["Fits", "2013–2024 4Runner, 5-seat"], ["Coverage", "Floor plus sidewalls"], ["Fit method", "Laser-scanned"], ["Warranty", "Limited lifetime + 30-day money-back"]]},
+  {"asin": "B07X7JS2PW", "role": "Best factory option", "price": "$150–$200",
+   "pros": ["Genuine Toyota part PT908-89200-02", "TRD Pro logo", "Designed around Toyota's retention hooks", "Dealer-supported", "Factory look"],
+   "cons": ["Confirm model years on the listing", "You pay for the logo", "Walls lower than Husky's"],
+   "body": "Toyota's TRD Pro all-weather liners, PT908-89200-02, are the factory route with TRD Pro branding. They're designed with the truck, so fit at the retention hooks and footwell edges is reliable, and a dealer can confirm the part for your VIN.\n\nThe listing's short title doesn't state the year range, and Toyota has used different part numbers across the 5th gen, so confirm your model year before ordering. Compared with Husky, you give up some wall height and the published crack warranty; compared with Toyota's plain all-weather liners, you pay for the logo. For a TRD Off-Road or TRD Pro owner who wants the interior to match, it's the obvious pick.",
+   "who": "TRD owners who want dealer-part liners with TRD Pro branding.",
+   "specs": [["Part #", "Toyota PT908-89200-02"], ["Branding", "TRD Pro"], ["Fits", "4Runner (confirm years on listing)"], ["Type", "All-weather liner"], ["Price band", "$150–$200"]]},
+  {"asin": "B003G0QJWE", "role": "Best cargo liner", "price": "$100–$150",
+   "pros": ["Covers the cargo area with raised walls", "Lists 2010–2024, the full generation", "Same WeatherBeater material and warranty", "Made in the USA", "Protects against gear, dogs and wet equipment"],
+   "cons": ["Only for the standard cargo area", "Not for the sliding deck or third row", "Grey in this listing; check color"],
+   "body": "Husky's WeatherBeater 25722 cargo liner is listed for 2010–2024 4Runners with the standard cargo area and without the third row or sliding cargo deck. It's one of the few Husky 4Runner parts that covers the full generation back to 2010.\n\nThe cargo area is where a 4Runner earns its reputation, carrying coolers, recovery gear and wet dogs. A molded liner with raised walls keeps spills and mud off the carpet. If your truck has the third row, use Husky's 25741 instead; if it has the sliding deck, look for a deck-specific mat. This listing is the grey version, so check the color options if you want black.",
+   "who": "5-seat owners without the sliding deck who carry gear.",
+   "specs": [["Part #", "Husky 25722"], ["Fits", "2010–2024 4Runner, standard cargo area, no 3rd row or sliding deck"], ["Area", "Cargo"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"], ["Third row", "Use 25741"]]},
+  {"asin": "B0D7CMJSKL", "role": "Best budget full set", "price": "$110–$150",
+   "pros": ["Front, second row and cargo in one kit", "Lists 2013–2024 5-seat", "Clear 'no sliding tray' note", "Cheaper than buying pieces separately", "Raised edges"],
+   "cons": ["5-seat, no sliding tray only", "Generic brand, little documentation", "Starts at 2013"],
+   "body": "This budget kit bundles floor mats and a cargo liner for 2013–2024 4Runners with five seats and without the sliding cargo tray. It covers the whole interior for about the price of Husky's front and second-row set alone.\n\nIt's a generic brand, so warranty and material grade are unknowns. The clear exclusions in the title are a good sign that the seller knows the cargo floor variants. For a 5-seat truck without the sliding deck, it's the cheapest complete solution. MERXENG's cargo mat, in our product list, is an even cheaper way to cover only the cargo floor. Check listing photos for the driver-side retention holes and a one-piece rear across the hump before you order. If it fits your truck, you can always upgrade the front pair to Husky later and keep the budget cargo liner.",
+   "who": "5-seat owners who want the whole interior covered for the least money.",
+   "specs": [["Includes", "Front, 2nd row, cargo"], ["Fits", "2013–2024 4Runner, 5-seat, no sliding cargo tray"], ["Material", "TPE/rubber (per listing)"], ["Warranty", "Confirm with seller"], ["Price band", "$110–$150"]]},
+ ],
+ "install": [
+  "Confirm model year, seating (5 or 7) and cargo floor type before ordering.",
+  "Remove the factory mats and vacuum the cabin and cargo area.",
+  "Hook the driver liner onto the retention posts and heel-test it toward the pedals.",
+  "Fit the passenger and second-row liners, then fold the second row forward to check clearance.",
+  "Lay the cargo liner and close the tailgate and rear glass to make sure nothing catches.",
+  "Press the pedals to the floor to confirm clearance before driving.",
+ ],
+ "avoid": [
+  {"h": "Wrong cargo liner", "body": "Standard, sliding deck and third-row floors differ. Match yours."},
+  {"h": "2013+ sets on a 2010–2012", "body": "Confirm early trucks with the seller."},
+  {"h": "5-seat kits in a 7-seat truck", "body": "The cargo piece differs with the third row."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Husky's WeatherBeater 99571 plus the matching Husky cargo liner for a trail-used 4Runner, TuxMat for maximum coverage, and the budget kit for a 5-seat truck on a tight budget.",
+  "body": "Fitting a 5th-gen 4Runner comes down to three checks: year (2013+ for most sets), seating and cargo floor. Husky's cabin set and cargo liners give you the strongest warranty and highest walls. TuxMat covers the most carpet and looks the best. Toyota's TRD Pro liners are the factory choice, and the budget kit covers the whole interior for the least money.\n\nWith the interior handled, 4Runner owners usually turn to the roof and the hitch: a roof rack for gear and a trailer hitch for a bike rack or small trailer. If you've moved to a 2025 4Runner, none of these liners fit; see our 6th-gen page."},
+ "sources": [
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners 99571 listing", "https://www.amazon.com/dp/B00BB1UMEG"],
+  ["Husky Liners 25722 cargo liner listing", "https://www.amazon.com/dp/B003G0QJWE"],
+  ["Husky Liners 25741 third-row cargo liner listing", "https://www.amazon.com/dp/B003R8D60I"],
+  ["TuxMat home page (TuxMat)", "https://tuxmat.com/"],
+  ["Toyota 4Runner, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner_(fifth_generation)"],
+ ],
+}
+
+FITS = [
+ ("B00BB1UMEG","Husky Liners WeatherBeater 99571 Front & 2nd Row, 2013-2024 4Runner; 2014-2024 Lexus GX460","Husky Liners","$150–$210",{"year_from":2013},"2013+; confirm 2010-2012."),
+ ("B0BMXSVVZ5","TuxMat Custom Car Mats 1st & 2nd row, 2013-2024 4Runner 5-seat","TuxMat","$200–$260",{"rows":2,"year_from":2013},"5-seat, 2013+."),
+ ("B07X7JS2PW","Toyota Genuine TRD Pro All-Weather Floor Liners PT908-89200-02, 4Runner","Toyota","$150–$200",{},"OEM TRD Pro logo liners; confirm model years on listing."),
+ ("B003G0QJWE","Husky Liners WeatherBeater 25722 Cargo Liner, 2010-2024 4Runner standard cargo area (no 3rd row / sliding deck)","Husky Liners","$100–$150",{"rows":2,"cargo_tray":False},"Standard cargo area only."),
+ ("B0D7CMJSKL","Floor Mats + Cargo Liner, 2013-2024 4Runner 5-seat without sliding cargo tray","Generic","$110–$150",{"rows":2,"cargo_tray":False,"year_from":2013},"Not for sliding cargo deck."),
+ ("B003R8D60I","Husky Liners WeatherBeater 25741 Cargo Liner, 2010-2024 4Runner with 3rd row option","Husky Liners","$100–$150",{"rows":3},"Third-row trucks."),
+ ("B0DT6N79NN","MERXENG All-Weather Cargo Mat, 2010-2024 4Runner 5-seat","MERXENG","$50–$80",{"rows":2},"Cargo area only."),
+]

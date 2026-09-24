@@ -1,0 +1,168 @@
+"""Long-form article — Best Floor Mats & Liners for 2025–2026 Toyota 4Runner (6th gen, N500).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("toyota", "4runner", "2025-present", "floor-mats")
+
+TITLE = "Best Floor Liners for 2025–2026 Toyota 4Runner: 6 Picks for Gas, Hybrid, 5-Seat and 7-Seat"
+META = ("Six 6th-gen 4Runner floor liner sets from Husky, Toyota, LASFIT and TripleAliners, sorted by i-FORCE MAX "
+        "hybrid, third-row seating and cargo coverage.")
+
+FAQ = [
+ ("Do 5th-gen 4Runner liners fit the 2025 4Runner?",
+  "No. The 2025 4Runner is a new generation on the TNGA-F platform, shared with the Tacoma, with a new cabin floor. Husky sells a separate 96531 set for it, distinct from the 99571 it sells for 2013–2024 trucks. Buy only listings that name 2025 or later."),
+ ("Why do so many listings say 'not hybrid'?",
+  "The i-FORCE MAX hybrid adds a battery and changes the floor or under-seat area in the second row, so liner makers cut separate hybrid versions or exclude it. LASFIT, TripleAliners, Vantio and the budget 7-seat set on this page all exclude the hybrid. If your 4Runner is a TRD Pro, Trailhunter or Platinum, or any trim with the i-FORCE MAX badge, look for a set that names the hybrid or ask the seller. Toyota's own liner is the easiest route, since a dealer can confirm it by VIN."),
+ ("Which 2025 4Runners have a third row?",
+  "The third row is optional on some trims such as SR5 and Limited. Seven-seat trucks need a third-row liner and a cargo liner cut around the folded third row. The budget 7-seat set and NQOQN's set on this page list 7-seat trucks; Toyota says its liner is third-row compatible."),
+ ("Does the TRD Pro or Trailhunter take the same liners?",
+  "Both are hybrid-only, so the hybrid rule applies. Their front floors match other 4Runners, but confirm the second-row piece. Toyota's genuine liner, confirmed by VIN, is the lowest-risk choice for these trims."),
+ ("Do 4Runner liners fit a Tacoma?",
+  "No. The two share a platform, but the 4Runner's cabin, second row and cargo area are its own. Buy a set that names the 4Runner."),
+ ("Is the full set with cargo and backrest mats worth it?",
+  "If you fold the second row flat to carry gear, a backrest mat protects the seatbacks from dirt and scratches. LASFIT's full set and TripleAliners include them. If you rarely fold the seats, a front and second-row set plus a cargo liner is enough."),
+ ("How should the driver liner sit?",
+  "Flat on the carpet, hooked onto the retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
+ ("How do I clean them after the trail?",
+  "Pull them, knock off dried mud and rinse. Scrub with mild soap and let them dry before reinstalling. Skip silicone protectants. Vacuum sand out of the carpet before putting liners back, so it doesn't grind under them."),
+ ("Is Husky's 2025 set only for 2025?",
+  "The listing we found for Husky's WeatherBeater 96531 names the 2025 Toyota 4Runner. Husky often extends year ranges as it confirms fitment. For a 2026, ask Husky or the seller before ordering."),
+ ("How much do 2025 4Runner liners cost?",
+  "On this page, budget 5-seat TPE sets start around $100–$140, LASFIT's cabin set runs about $120–$160, full kits with cargo and seatbacks $150–$220, Husky's cabin set about $150–$210 and Toyota's genuine liners about $180–$240. Prices on Amazon change daily, so check the live price. Buying the right powertrain and seating version the first time saves more than any price difference, because returning bulky liners is a hassle."),
+ ("Should I wait for more brands to list the 2025 4Runner?",
+  "If you have a hybrid or a seven-seat truck and don't want Toyota's liner, waiting a few months often brings more options as makers scan the new vehicle. If you have a gas five-seat truck, there's plenty of choice now. In either case, protect the new carpet in the meantime; even a front pair of all-weather mats is better than months of mud on factory carpet."),
+]
+
+ARTICLE = {
+ "dek": "Six floor and cargo liner sets listed for the new 6th-generation 4Runner, from Husky WeatherBeater and Toyota's own liners to TripleAliners' full kits. Three questions decide fit: gas or hybrid, five seats or seven, and how much of the cargo area you want covered.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2025–2026 4Runner (powertrain, seating, coverage), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**New generation.** 2010–2024 liners don't fit.",
+  "**Hybrid matters.** LASFIT, TripleAliners and Vantio exclude the i-FORCE MAX hybrid.",
+  "**Five or seven seats.** Third-row trucks need a 3-row set.",
+  "**Toyota's liner is the safest hybrid fit.** A dealer can confirm by VIN; Toyota says it's third-row compatible.",
+  "**Husky lists the 2025.** Confirm 2026 before ordering.",
+ ],
+ "top_picks": [
+  {"asin": "B0FCZGT27J", "role": "Best overall", "why": "Husky WeatherBeater 96531, 2025 4Runner front and 2nd row, made in USA"},
+  {"asin": "B0DV11JW53", "role": "Best factory / hybrid-safe", "why": "Toyota genuine all-weather liners, third-row compatible"},
+  {"asin": "B0F1CMKNT5", "role": "Best TPE (gas 5-seat)", "why": "LASFIT recycled TPE, 2025–2026 gas 5-seat"},
+  {"asin": "B0F23X594D", "role": "Best full kit", "why": "TripleAliners front, 2nd row, cargo and seatback, gas 5-seat"},
+  {"asin": "B0F6V4NW6B", "role": "Best for 7-seat", "why": "3-row set plus cargo liner for SR5 and Limited 7-seat, gas"},
+ ],
+ "fit_table": {
+  "caption": "2025–2026 4Runner: what changes the liner",
+  "head": ["Variable", "Versions", "What to buy"],
+  "rows": [
+   ["Powertrain", "i-FORCE 2.4T gas or i-FORCE MAX hybrid", "LASFIT, TripleAliners, Vantio: gas only. Toyota: confirm by VIN"],
+   ["Seating", "5-seat or 7-seat (third row, select trims)", "7-seat: budget 3-row set or NQOQN"],
+   ["Hybrid-only trims", "TRD Pro, Trailhunter, Platinum", "Use a hybrid-listed or Toyota liner"],
+   ["Coverage", "Cabin only, or cabin + cargo + seatbacks", "LASFIT full set, TripleAliners"],
+   ["Previous gen", "2010–2024", "Not compatible"],
+  ],
+ },
+ "look_for": [
+  {"h": "Gas or i-FORCE MAX",
+   "body": "The 2025 4Runner offers the i-FORCE 2.4-liter turbo and the i-FORCE MAX hybrid, and the hybrid is standard on the TRD Pro, Trailhunter and Platinum. Several liner makers exclude the hybrid from their listings, which tells you the hybrid's second-row floor area differs. LASFIT, TripleAliners, Vantio and the budget 7-seat set all say 'not hybrid'. NQOQN's 7-seat set doesn't mention powertrain in its title. Toyota's own all-weather liner is the easiest way to be sure, because a dealer can check it against your VIN. Look for the i-FORCE MAX badge on the back of the truck if you're unsure which you have."},
+  {"h": "Five seats or seven",
+   "body": "The 6th-gen 4Runner offers a third row on some trims such as SR5 and Limited. With seven seats, you need a third-row liner and a cargo liner shaped around the folded third row, and the second-row piece may differ too. The budget 3-row set here is listed for 7-seat SR5 and Limited trucks (gas), and NQOQN's full kit lists 7-seat. Toyota says its liner is third-row compatible. Five-seat trucks have more choice: Husky, LASFIT, TripleAliners and Vantio all list 5-seat."},
+  {"h": "How much of the cargo area to cover",
+   "body": "Liner sets for the new 4Runner come in three scopes. Husky's 96531 covers the front and second rows. LASFIT sells a cabin-only set and a full set with cargo and backrest mats. TripleAliners covers front, second row, cargo and seatbacks in one kit. If you fold the second row to haul bikes or camping gear, the backrest mats keep the seatbacks clean. If the cargo area mostly carries groceries, a cabin set plus a simple cargo mat is enough and costs less."},
+  {"h": "Warranty and documentation",
+   "body": "Husky says WeatherBeater is laser-measured, designed and made in the USA from its ProGard material and covered by a lifetime warranty against cracks and breaks. LASFIT uses GRS-certified recycled TPE rated from −13°F to 167°F and offers 45-day returns on its store. Toyota's liners are dealer parts. TripleAliners, Vantio and NQOQN don't publish comparable terms on the pages we checked. On a new 4Runner that owners typically keep for many years, a documented brand is worth weighing against price."},
+  {"h": "Retention, walls and trail use",
+   "body": "Toyota uses retention posts in the driver footwell, and a 4Runner-specific liner has holes that lock onto them. Seat the driver liner on the posts, heel-test it toward the pedals and press the brake and throttle to the floor before the first drive. Wall height matters on a truck that's built for trails: the new 4Runner's Trailhunter and TRD Pro trims are aimed at off-road use, and mud, sand and snowmelt all end up in the footwells. A tall, firm wall like Husky's holds more than a soft, low-edged mat. For a daily driver in a dry climate, softer TPE with moderate walls is more comfortable and easier to clean."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Generation", "2025+ in the title", "2010–2024 listings"],
+   ["Powertrain", "Gas or hybrid named", "Gas-only sets on a hybrid"],
+   ["Seating", "5-seat or 7-seat named", "5-seat kits in a 7-seat truck"],
+   ["Coverage", "Cargo and seatbacks if you fold seats", "Paying for pieces you won't use"],
+   ["Retention", "Hook holes for Toyota's posts", "Loose mats"],
+   ["Warranty", "Written terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Floor protection for the 2025–2026 4Runner",
+  "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
+  "rows": [
+   ["USA-made molded liner", "Husky 96531", "Front + 2nd row", "High", "$150–$210", "Trail and winter"],
+   ["Factory liner", "Toyota genuine", "Cabin (3rd-row compatible)", "Medium-high", "$180–$240", "Hybrids, VIN-checked fit"],
+   ["Recycled TPE", "LASFIT", "Cabin or full set", "Medium-high", "$120–$220", "Gas 5-seat"],
+   ["Full kit", "TripleAliners", "Cabin + cargo + seatback", "Medium-high", "$150–$200", "Gear haulers"],
+   ["3-row set", "Generic 7-seat, NQOQN", "3 rows + cargo", "Medium", "$140–$200", "7-seat trucks"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0FCZGT27J", "role": "Best overall", "price": "$150–$210",
+   "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs", "Front and 2nd row, 3 pieces", "High, firm walls for trail mud"],
+   "cons": ["Title names 2025; confirm 2026", "Confirm hybrid and seating with Husky", "Cargo liner sold separately"],
+   "body": "Husky's WeatherBeater 96531 is listed for the 2025 Toyota 4Runner, front and second row, three pieces. It's the new-generation counterpart to the 99571 set that Husky sold for 2013–2024 trucks, which confirms the cabin floor changed with the platform.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard, and anchored by StayPut nibs. The lifetime warranty covers cracks and breaks. For a 4Runner that sees trails, beaches or snow, the tall, firm walls are the main reason to pick it over TPE. The short title doesn't say gas or hybrid, 5-seat or 7-seat, so check Husky's fit tool with your trim before ordering, and ask about 2026. Pair it with a cargo liner if you haul gear.",
+   "who": "Owners who want the best-documented, highest-walled cabin liners.",
+   "specs": [["Part #", "Husky 96531"], ["Pieces", "3"], ["Fits", "2025 4Runner, front & 2nd row (confirm 2026)"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
+  {"asin": "B0DV11JW53", "role": "Best factory / hybrid-safe", "price": "$180–$240",
+   "pros": ["Genuine Toyota part", "Listing says third-row compatible", "Dealer can confirm by VIN, including hybrid", "Designed with the new floor", "Factory look"],
+   "cons": ["Costs more than TPE brands", "Walls typically lower than Husky's", "Confirm what pieces are included"],
+   "body": "Toyota's genuine all-weather floor liners for the 2025+ 4Runner are listed as third-row compatible. The strongest argument for them is certainty: a Toyota parts counter can check the part against your VIN, which settles the hybrid and seating questions in one step. For a TRD Pro, Trailhunter or Platinum, all hybrids, that's worth a lot.\n\nThe trade-offs are price and containment. Toyota's liners cost more than LASFIT or TripleAliners, and they don't claim Husky's wall height or crack warranty. Ask the dealer which rows the set includes, since third-row compatibility and third-row coverage aren't the same thing. For owners who want a factory fit on a hybrid or 7-seat truck without guesswork, this is the pick.",
+   "who": "Hybrid and 7-seat owners who want a VIN-confirmed factory fit.",
+   "specs": [["Brand", "Toyota (genuine)"], ["Fits", "2025+ 4Runner, third-row compatible (per listing)"], ["Verify", "Hybrid and rows by VIN"], ["Type", "All-weather liner"], ["Price band", "$180–$240"]]},
+  {"asin": "B0F1CMKNT5", "role": "Best TPE (gas 5-seat)", "price": "$120–$160",
+   "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "3D laser-scanned", "Clear gas 5-seat fit", "45-day returns on LASFIT's store"],
+   "cons": ["Not for hybrid", "Not for 7-seat", "Cargo not included in this set"],
+   "body": "LASFIT's liners are listed for 2025–2026 4Runner 5-seat gas trucks, front and rear, with a clear hybrid exclusion. LASFIT says they're 3D laser-scanned and made from GRS-certified recycled TPE free of PVC and phthalates, rated from −13°F to 167°F.\n\nFor an SR5, TRD Sport or TRD Off-Road with the gas engine and five seats, it's the best value here. The softer TPE grips boots and folds for cleaning. The walls are a little lower than Husky's. LASFIT also sells a full set with cargo and backrest mats (in our product list) for owners who fold the second row. Hybrid and 7-seat owners should look elsewhere.",
+   "who": "Gas 5-seat owners who want soft TPE with a stated cold rating.",
+   "specs": [["Rows", "Front + rear"], ["Fits", "2025–2026 4Runner 5-seat, gas (not hybrid)"], ["Material", "Recycled TPE (GRS)"], ["Temp range", "−13°F to 167°F"], ["Full set", "LASFIT B0F1CMB75T adds cargo + backrest"]]},
+  {"asin": "B0F23X594D", "role": "Best full kit", "price": "$150–$200",
+   "pros": ["Front, 2nd row, cargo and seatback in one kit", "Heavy-duty TPE", "Clear gas 5-seat fit", "Protects folded seatbacks", "Cheaper than buying pieces"],
+   "cons": ["Not for hybrid", "5-seat only", "No published warranty we could check"],
+   "body": "TripleAliners' heavy-duty TPE kit covers the front, second row, cargo area and seatbacks of 2025–2026 4Runner 5-seat gas trucks. It's the most complete kit here for owners who fold the second row flat to carry bikes, camping gear or a dog crate.\n\nTripleAliners doesn't publish warranty terms we could check, so compare it on coverage and price. For gear haulers, the seatback piece is the real value, since those carpeted backs scuff quickly. Hybrid owners and 7-seat owners should skip it. Check listing photos to see how the cargo piece meets the seatback mats when the second row is folded; a gap there is where dirt gets onto the carpet. If the kit arrives creased from shipping, leave the pieces flat in a warm cabin for a day before judging the fit, since heavy-duty TPE relaxes slowly.",
+   "who": "Gas 5-seat owners who haul gear with the seats folded.",
+   "specs": [["Includes", "Front, 2nd row, cargo, seatback"], ["Fits", "2025–2026 4Runner 5-seat, gas (not hybrid)"], ["Material", "Heavy-duty TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$150–$200"]]},
+  {"asin": "B0F6V4NW6B", "role": "Best for 7-seat", "price": "$150–$200",
+   "pros": ["3-row set plus cargo liner", "Lists 7-seat SR5 and Limited", "One kit for the whole interior", "Raised edges", "Rare 7-seat coverage"],
+   "cons": ["Not for hybrid", "Generic brand", "No published warranty"],
+   "body": "This all-weather kit is listed for 2025–2026 4Runner 7-seat SR5 and Limited, gas only, and includes three rows plus a cargo liner. Seven-seat coverage is scarce this early in the generation, so it fills a gap.\n\nIt's a generic brand with little documentation. NQOQN's 7-seat kit with trunk and backrest pieces, in our product list, is an alternative that doesn't mention powertrain, so confirm hybrid fit with the seller. For a hybrid 7-seat, Toyota's liner is the safer route. Before ordering, confirm your third-row layout and that the cargo liner is cut for the folded third row rather than a flat 5-seat floor. Photos of the cargo piece in the listing should show the seat-mechanism shape.",
+   "who": "Gas 7-seat owners who want all three rows and the cargo area covered.",
+   "specs": [["Includes", "3 rows + cargo"], ["Fits", "2025–2026 4Runner 7-seat SR5/Limited, gas"], ["Material", "TPE (per listing)"], ["Warranty", "Confirm with seller"], ["Price band", "$150–$200"]]},
+ ],
+ "install": [
+  "Confirm powertrain (gas or hybrid), seating (5 or 7) and model year.",
+  "Remove the factory mats and vacuum.",
+  "Hook the driver liner onto the retention posts and heel-test it toward the pedals.",
+  "Fit the passenger, second-row and (if equipped) third-row liners; fold each row to check clearance.",
+  "Lay the cargo liner and seatback mats, then close the liftgate.",
+  "Press the pedals to the floor before driving.",
+ ],
+ "avoid": [
+  {"h": "Gas-only sets in a hybrid", "body": "Several listings exclude the i-FORCE MAX. Match your powertrain."},
+  {"h": "5th-gen liners", "body": "The 2025 floor is new."},
+  {"h": "5-seat kits in a 7-seat truck", "body": "Third-row trucks need a 3-row set."},
+  {"h": "Stacking mats", "body": "Remove the factory mat first."},
+ ],
+ "verdict": {
+  "thesis": "Buy Husky's 96531 for the best-documented cabin liners, Toyota's own liners for a hybrid or 7-seat truck, and LASFIT or TripleAliners for a gas 5-seat.",
+  "body": "The new 4Runner's liner market is still filling in, and many listings exclude the hybrid or the third row. Husky's WeatherBeater has the strongest warranty and walls. Toyota's liners are the safe, VIN-confirmed option for hybrids and seven seats. LASFIT and TripleAliners are the best value for gas 5-seat trucks, and the budget 3-row kit covers 7-seat gas trucks.\n\nAfter the interior, most 6th-gen owners add a roof rack for gear and a trailer hitch for a bike rack. Owners of a 2010–2024 4Runner should use our 5th-gen page."},
+ "sources": [
+  ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Husky Liners 96531 2025 4Runner listing", "https://www.amazon.com/dp/B0FCZGT27J"],
+  ["Husky Liners 99571 (2013–2024) listing", "https://www.amazon.com/dp/B00BB1UMEG"],
+  ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
+  ["Toyota genuine 4Runner liners listing", "https://www.amazon.com/dp/B0DV11JW53"],
+  ["Toyota 4Runner, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
+ ],
+}
+
+FITS = [
+ ("B0FCZGT27J","Husky Liners WeatherBeater 96531 Front & 2nd Row, 2025 Toyota 4Runner","Husky Liners","$150–$210",{},"Confirm 2026, hybrid and seating with Husky."),
+ ("B0DV11JW53","Toyota Genuine All-Weather Floor Liners, 2025+ 4Runner, third-row compatible","Toyota","$180–$240",{},"OEM liners; confirm by VIN."),
+ ("B0F1CMKNT5","LASFIT All-Weather TPE Floor Liners, 2025-2026 4Runner 5-seat gas (not hybrid), front & rear","LASFIT","$120–$160",{"rows":2,"hybrid":False},"5-seat gas only."),
+ ("B0F23X594D","TripleAliners Heavy-Duty TPE Liners, 2025-2026 4Runner 5-seat, front/2nd row/cargo/seatback (not hybrid)","TripleAliners","$150–$200",{"rows":2,"hybrid":False},"Full set; gas only."),
+ ("B0F6V4NW6B","All-Weather Floor Mats + Cargo Liner, 2025-2026 4Runner 7-seat SR5/Limited (not hybrid)","Generic","$150–$200",{"rows":3,"hybrid":False},"3-row set."),
+ ("B0F1CMB75T","LASFIT Floor Liners + Cargo + Backrest Mats, 2025-2026 4Runner 5-seat gas","LASFIT","$170–$220",{"rows":2,"hybrid":False},"Full set incl. cargo; gas only."),
+ ("B0G3NYLLVR","NQOQN All-Weather Floor Mats + Trunk + Backrest, 2025-2026 4Runner 7-seat","NQOQN","$140–$190",{"rows":3},"3-row set; confirm hybrid."),
+ ("B0GRYDX3SF","Vantio TPE Floor Liners, 2025-2026 4Runner 5-seat (not hybrid)","Vantio","$100–$140",{"rows":2,"hybrid":False},"Budget 5-seat."),
+]
