@@ -1,15 +1,15 @@
 """Long-form article — Best Rooftop Cargo Boxes for 2020–2025 Subaru Outback (6th gen, BT).
 Mirrors the approved F-150 tonneau pilot. No invented hands-on testing: box specs come from Yakima's own
-product pages; vehicle facts from db/migrations/003_vehicles.sql plus the references in SOURCES
+product pages plus Thule, SportRack and etrailer; vehicle facts from db/migrations/003_vehicles.sql plus the references in SOURCES
 (checked 2026-09-24). Boxes are universal; the Outback-specific part is swing-out bars vs Wilderness rails,
 roof load, crossbar spread and hatch clearance.
 """
 
 KEY = ("subaru", "outback", "2020-present", "cargo-boxes")
 
-TITLE = "Best Rooftop Cargo Boxes for 2020–2025 Subaru Outback: 5 Picks for Swing-Out Bars and Wilderness"
-META = ("Five Yakima cargo boxes for the 6th-gen Outback, with swing-out crossbar spread, Wilderness rail notes, "
-        "roof load math and box length vs rear gate clearance.")
+TITLE = "Best Rooftop Cargo Boxes for 2020–2025 Subaru Outback: 7 Picks for Swing-Out Bars and Wilderness"
+META = ("Seven Yakima, Thule and SportRack cargo boxes for the 6th-gen Outback: swing-out crossbar spread, Wilderness "
+        "rail notes, roof load math and rear gate clearance.")
 
 FAQ = [
  ("Can I mount a cargo box on the Outback's factory swing-out crossbars?",
@@ -21,9 +21,9 @@ FAQ = [
  ("Will a roof box hit the Outback's rear gate?",
   "The Outback is a long wagon, so it has more room at the back of the roof than a compact SUV, but a long box can still reach the rear gate's path. Mount the box forward, then open the gate slowly the first time. If your Outback has a power rear gate with an adjustable opening height, you can lower that setting as a backup."),
  ("What size roof box is best for an Outback?",
-  "A 16 cu ft box such as the Yakima SkyBox 16 or GrandTour 16 suits most families, and it leaves room under a roof limit of roughly 150–176 lb. Skiers should look at length rather than volume: the SkyBox NX Skinny takes skis up to 195 cm while leaving bar space. If you want the lightest box, the 30.2 lb DeepSpace 10 has a 100 lb cargo limit."),
+  "A 16 cu ft box such as the Yakima SkyBox 16 or GrandTour 16 suits most families, and it leaves room under a roof limit of roughly 150–176 lb. Skiers should look at length rather than volume: the SkyBox NX Skinny takes skis up to 195 cm while leaving bar space, and the 18 cu ft Thule Motion 3 XL takes 200 cm skis. On a budget, the SportRack Vista XL fits 18 cu ft into 63 in for $449.95. If you want the lightest box, the 30.2 lb DeepSpace 10 has a 100 lb cargo limit."),
  ("Do I need aftermarket crossbars for a roof box on an Outback?",
-  "Not always. The swing-out bars work for occasional trips if their spread fits the box. Aftermarket bars make sense when you want a spread the factory bars can't reach (the DeepSpace 10 needs 32–46 in), a quieter aero bar, or a Wilderness setup. Buy bars listed for your Outback's rail type. Integrated-rail and Wilderness kits are different, and our Outback roof rack page lists both."),
+  "Not always. The swing-out bars work for occasional trips if their spread fits the box; the Thule Motion 3 boxes have the widest range here (21-13/16 to 36-9/16 in, per etrailer). Aftermarket bars make sense when you want a spread the factory bars can't reach (the DeepSpace 10 needs 32–46 in), a quieter aero bar, or a Wilderness setup. Buy bars listed for your Outback's rail type. Integrated-rail and Wilderness kits are different, and our Outback roof rack page lists both."),
  ("Can I carry skis and a cargo box on an Outback at the same time?",
   "Yes, with a narrow box. A full-width 16 cu ft box takes most of the crossbar length. The SkyBox NX Skinny is 26.5 in wide, and Yakima says it leaves crossbar space for other gear, so a ski or bike mount can go next to it. Add up the weight of the box, the second mount and the gear, and keep the total under the roof limit."),
  ("Do 2020–2025 Outback roof box setups carry over to the 2026 Outback?",
@@ -35,23 +35,23 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Five Yakima rooftop boxes matched to the 6th-generation Outback's long roof, from the 30 lb DeepSpace 10 to a 92 in ski box. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the swing-out factory bars, the Wilderness rails and the roof load limit.",
+ "dek": "Seven rooftop boxes from Yakima, Thule and SportRack matched to the 6th-generation Outback's long roof, from the 30 lb DeepSpace 10 to the 18 cu ft Thule Motion 3 XL. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the swing-out factory bars, the Wilderness rails and the roof load limit.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
- "method": "We did not mount these boxes ourselves. We ranked them on Yakima's published specs (volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on how those specs fit the Outback's swing-out bars, Wilderness rails and rear gate, and on the roof load figures in our fitment data and the references below. Prices were checked on Yakima's store in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule and SportRack: volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on etrailer's spread figures for the Thule and SportRack boxes, on how those specs fit the Outback's swing-out bars, Wilderness rails and rear gate, and on the roof load figures in our fitment data and the references below. Prices were checked on the makers' stores in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Know your rails.** Most 2020–2025 Outbacks have raised rails with swing-out crossbars; the Wilderness has its own heavier-duty rails and usually takes aftermarket bars.",
-  "**Measure the swing-out bar spread.** A box needs the bars inside its range: 24–34.5 in for the SkyBox 16, 24–36 in for the GrandTour 16, 32–46 in for the DeepSpace 10.",
+  "**Measure the swing-out bar spread.** A box needs the bars inside its range: 24–34.5 in for the SkyBox 16, 24–36 in for the GrandTour 16, 21-13/16 to 36-9/16 in for the Thule Motion 3 XL, 32–46 in for the DeepSpace 10.",
   "**Driving load is the number that counts.** Published figures for the standard Outback range from 150 to 176 lb. The Wilderness's 700 lb figure is static (parked), not for a box on the move.",
   "**The long roof helps.** The Outback has more roof behind the rear bar than a compact SUV, but test the rear gate with any box over 80 in.",
-  "**Skiers: think length and width.** The SkyBox NX Skinny takes 195 cm skis and leaves bar space for a second carrier.",
+  "**Skiers: think length and width.** The Thule Motion 3 XL takes 200 cm skis; the SkyBox NX Skinny takes 195 cm and leaves bar space for a second carrier.",
  ],
  "top_picks": [
   {"asin": "B001PUZXGK", "role": "Best overall", "why": "16 cu ft, 15 in tall, 47 lb, 24–34.5 in spread; $599 on sale"},
   {"asin": "B0DYWCZSD8", "role": "Best for skiers", "why": "195 cm skis, 26.5 in wide, leaves room on the bars for a ski or bike mount"},
   {"asin": "B083KP48XC", "role": "Best premium", "why": "Tallest 16 cu ft box here, 24–36 in spread, dual-side opening"},
-  {"asin": "B001PUZ24I", "role": "Budget long box", "why": "16 cu ft for a $350 list price; the long roof suits its 92 in length better than a compact SUV"},
-  {"asin": "B09HC2LWX8", "role": "Lightest load", "why": "30.2 lb, 100 lb rating, needs 32–46 in spread (aftermarket or Wilderness bars)"},
+  {"asin": "B0HGC24R2P", "role": "Best 18 cu ft", "why": "Thule Motion 3 XL: 200 cm skis, widest spread range here (21-13/16 to 36-9/16 in)"},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "why": "SportRack Vista XL: 18 cu ft in a 63 in shell for $449.95; check its fixed mounting positions"},
  ],
  "fit_table": {
   "caption": "2020–2025 Outback roof setups (what the box mounts to)",
@@ -64,15 +64,15 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Swing-out bar spread vs the box's range",
-   "body": "The Outback's party trick is crossbars that stow inside the rails and swing out when you need them. Before you buy a box, check whether your deployed bars can slide along the rails or sit at one position, then measure center to center and compare with the box. Yakima lists 24–34.5 in for the SkyBox 16 and 24–36 in for the GrandTour 16, so check that the factory spread falls inside those. The DeepSpace 10 needs 32–46 in. If the factory bars can't hit a box's range, aftermarket bars on the rails can."},
+   "body": "The Outback's party trick is crossbars that stow inside the rails and swing out when you need them. Before you buy a box, check whether your deployed bars can slide along the rails or sit at one position, then measure center to center and compare with the box. Yakima lists 24–34.5 in for the SkyBox 16 and 24–36 in for the GrandTour 16, so check that the factory spread falls inside those. The DeepSpace 10 needs 32–46 in, and the SportRack Vista XL mounts at fixed 25-7/8, 27-7/8 or 29-7/8 in positions per etrailer. The Thule Motion 3 XL's 21-13/16 to 36-9/16 in range is the most forgiving. If the factory bars can't hit a box's range, aftermarket bars on the rails can."},
   {"h": "Driving load, not the Wilderness's 700 lb",
-   "body": "The 700 lb Wilderness figure is a static rating: the weight the roof holds while parked, which is why it gets quoted for rooftop tents. A box counts against the driving load, which is much lower. For the standard 6th-gen Outback, our fitment data lists 176 lb and one reference quotes 150 lb for 2020–2022, so read the manual for your year. The boxes here weigh 30.2 to 51.5 lb. Add your bars, and a standard Outback usually has about 100 lb left for gear."},
+   "body": "The 700 lb Wilderness figure is a static rating: the weight the roof holds while parked, which is why it gets quoted for rooftop tents. A box counts against the driving load, which is much lower. For the standard 6th-gen Outback, our fitment data lists 176 lb and one reference quotes 150 lb for 2020–2022, so read the manual for your year. The boxes here weigh 30.2 to 51.5 lb (SportRack doesn't publish the Vista XL's weight). Add your bars, and a standard Outback usually has about 100 lb left for gear."},
   {"h": "Rear gate clearance on the long roof",
-   "body": "The Outback is a wagon, so there is more roof behind the rear crossbar than on a compact crossover. That means long boxes are more workable here, but not automatic. The rear gate swings up toward the back of the roof, and the 92 in RocketBox 16 or the 84 in SkyBox NX Skinny are the boxes to test. Mount the box forward on the bars, open the gate slowly the first time, and check the gap. If your Outback has a power rear gate with an adjustable height, a lower setting adds margin."},
+   "body": "The Outback is a wagon, so there is more roof behind the rear crossbar than on a compact crossover. That means long boxes are more workable here, but not automatic. The rear gate swings up toward the back of the roof, and the 92 in RocketBox 16, the 84.7 in Thule Motion 3 XL and the 84 in SkyBox NX Skinny are the boxes to test; the 63 in SportRack Vista XL is the easiest. Mount the box forward on the bars, open the gate slowly the first time, and check the gap. If your Outback has a power rear gate with an adjustable height, a lower setting adds margin."},
   {"h": "Width for skis, bikes and boats",
    "body": "Outbacks tend to carry more than one kind of gear. A full-width 16 cu ft box is 35–36 in wide and fills most of the crossbar length. The SkyBox NX Skinny, at 26.5 in wide, is the one Yakima says leaves bar space for other gear, so a ski rack, bike mount or kayak carrier can go beside it. Its 195 cm ski length is also the longest here. Just remember that everything on the bars shares the same driving roof limit."},
   {"h": "Height and garage clearance",
-   "body": "A box adds its height on top of the rails and bars, and the Wilderness sits higher still. The boxes here are 15 in tall (SkyBox 16, RocketBox 16), 16 in (SkyBox NX Skinny, DeepSpace 10) and 18 in (GrandTour 16). If you park in a garage or use a parking structure, measure the car with bars fitted and add the box height before you choose. A 3 in difference between the SkyBox and GrandTour can decide whether it fits."},
+   "body": "A box adds its height on top of the rails and bars, and the Wilderness sits higher still. The boxes here are 15 in tall (SkyBox 16, RocketBox 16), 16 in (SkyBox NX Skinny, DeepSpace 10), 17 in (Thule Motion 3 XL), 18 in (GrandTour 16) and 19 in (SportRack Vista XL). If you park in a garage or use a parking structure, measure the car with bars fitted and add the box height before you choose. A 3 in difference between the SkyBox and GrandTour can decide whether it fits."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -82,11 +82,11 @@ ARTICLE = {
    ["Length", "Under 85 in for easy rear gate clearance; test anything longer", "Assuming a wagon clears any box"],
    ["Width", "26–27 in if you want a second carrier on the bars", "A full-width box plus bikes that overloads the roof"],
    ["Opening", "Dual-side, so you load from the curb", "Single-side boxes"],
-   ["Warranty", "Limited lifetime (all Yakima boxes here)", "No warranty stated"],
+   ["Warranty", "Limited lifetime (Yakima boxes and, per etrailer, the Thule Motion 3)", "No warranty stated; ask the seller"],
   ],
  },
  "types_table": {
-  "caption": "Box sizing for the Outback (Yakima's published specs)",
+  "caption": "Box sizing for the Outback (makers' published specs; Thule and SportRack spread per etrailer)",
   "head": ["Box", "Volume", "L × W × H", "Box weight", "Crossbar spread", "Rear gate guidance"],
   "rows": [
    ["SkyBox 16 Carbonite", "16 cu ft", "81 × 36 × 15 in", "47 lb", "24–34.5 in", "Mount forward; usually room to spare"],
@@ -94,6 +94,8 @@ ARTICLE = {
    ["GrandTour 16", "16 cu ft", "79 × 35 × 18 in", "51.5 lb", "24–36 in", "Shortest 16 here; check garage height"],
    ["RocketBox 16", "16 cu ft", "92 × 26 × 15 in", "42 lb", "Not published; confirm", "Longest; measure before buying"],
    ["DeepSpace 10", "10 cu ft", "60 × 23 × 16 in", "30.2 lb", "32–46 in", "No gate issues; needs wide bar spread"],
+   ["Thule Motion 3 XL", "18 cu ft", "84.7 × 35 × 17 in", "51 lb", "21-13/16 to 36-9/16 in", "Mount forward, test the gate"],
+   ["SportRack Vista XL", "18 cu ft", "63 × 38 × 19 in", "Not published", "Fixed at 25-7/8, 27-7/8 or 29-7/8 in", "No gate issues; rear-opening lid"],
   ],
  },
  "picks": [
@@ -127,10 +129,22 @@ ARTICLE = {
    "body": "The DeepSpace 10 does the most with the Outback's driving roof limit. Yakima lists it at 60 x 23 x 16 in and 30.2 lb, and it is the only box on this page with a published cargo rating: 100 lb. On a standard Outback at 150–176 lb, that 30 lb shell leaves room for a real load once bars are counted. It has tie-down points inside, a wide-angle lid, and a limited lifetime warranty, and Yakima lists it at $649, made in the USA.\n\nThe spread is the catch. The DeepSpace needs 32–46 in between the bars, wider than the 16 cu ft boxes need. Measure your deployed swing-out bars; if they sit closer than 32 in, you'll need aftermarket bars on the rails that can be spaced wider. Wilderness owners who have already moved to aftermarket bars may find it easiest to fit. At 60 in long it is nowhere near the rear gate, but at 10 cu ft it isn't a ski box.",
    "who": "Outback owners who want the lightest locking box and have, or will fit, bars that can be spread 32 in or more.",
    "specs": [["Volume", "10 cu ft"], ["Exterior", "60 × 23 × 16 in"], ["Box weight", "30.2 lb"], ["Max load", "100 lb"], ["Crossbar spread", "32–46 in"], ["Material", "Textured ABS"], ["Made in", "USA"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0HGC24R2P", "role": "Best 18 cu ft", "price": "$1,149.95",
+   "pros": ["18 cu ft, 2 cu ft more than the 16s", "Skis up to 200 cm, the longest here", "21-13/16 to 36-9/16 in spread (etrailer), the widest range on this page", "One-handed dual-side opening, PowerClick mounts, SlideLock", "Thule rates it for 165 lb of cargo; limited lifetime warranty per etrailer"],
+   "cons": ["$1,149.95 at Thule, the priciest box here", "51 lb, so it takes a big share of a 150–176 lb driving limit", "84.7 in long; this listing is a Limited Edition finish, so confirm the color"],
+   "body": "The Thule Motion 3 XL is the step up for Outback owners who want more room than a 16 cu ft box and longer skis than the Yakimas take. Thule lists it at 18 cu ft with exterior dimensions of 84.7 x 35 x 17 in, a 51 lb box weight and a 165 lb maximum load. It takes skis up to 200 cm, 5 cm more than the SkyBox NX Skinny, opens from either side with one hand, locks with SlideLock, and clamps on with PowerClick mounts. Thule lists it at $1,149.95. This Amazon listing is a Limited Edition version, so check the finish on the listing.\n\nFor the Outback, the spread range is the big advantage. etrailer lists 21-13/16 to 36-9/16 in for the Motion 3 boxes, the widest range on this page, which gives the best chance of matching the swing-out bars wherever they deploy, and etrailer lists a limited lifetime warranty for the line. The costs are weight and length. At 51 lb it leaves roughly 100 lb or less for gear under a 150–176 lb driving limit once the bars are counted, so pack skis, boots and soft bags, not a cooler. At 84.7 in it is about as long as the SkyBox NX Skinny, so mount it forward and open the rear gate slowly the first time.",
+   "who": "Skiers and road-trippers who want 18 cu ft and 200 cm skis and the widest spread range for the swing-out bars.",
+   "specs": [["Volume", "18 cu ft"], ["Exterior", "84.7 × 35 × 17 in"], ["Box weight", "51 lb"], ["Max load", "165 lb"], ["Crossbar spread", "21-13/16 to 36-9/16 in (etrailer)"], ["Ski length", "Up to 200 cm"], ["Mount / lock", "PowerClick / SlideLock"], ["Warranty", "Limited lifetime (etrailer)"]]},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "price": "$449.95",
+   "pros": ["18 cu ft for $449.95 at SportRack", "63 in long, nowhere near the rear gate", "Tool-free mounting hardware and a lock", "Fits square, round and most factory bars, per SportRack", "Rear opening lets you load away from traffic"],
+   "cons": ["Fixed mounting positions (25-7/8, 27-7/8 or 29-7/8 in per etrailer) must match your bars", "38 in wide and 19 in tall, the widest and tallest box here", "Box weight, load rating and warranty not published; confirm"],
+   "body": "The SportRack Vista XL gives an Outback 18 cu ft for $449.95, less than half the price of the Thule Motion 3 XL. SportRack lists it at 63 x 38 x 19 in in UV-resistant ABS, with tool-free mounting hardware and a lock, and says it fits square bars, round bars and most factory racks. Its short, wide shape suits the wagon: at 63 in it sits well forward of the rear gate and still holds more than any 16 cu ft box here. etrailer lists it under the Outback Wagon among its fits.\n\nThe mount is the thing to check on the swing-out bars. etrailer's expert gives three fixed mounting positions, 25-7/8, 27-7/8 and 29-7/8 in center to center, so deploy your factory bars and measure: if they don't land on one of those, you'll need aftermarket bars you can position. The lid opens at the rear, so you load from behind the car, which is handy at a trailhead but means reaching over the roof's tail. At 38 in wide it fills the bars, and at 19 in tall it is the tallest box here, which matters for garages and on a Wilderness. SportRack's page doesn't list box weight, load rating or warranty terms, so confirm them on the listing before loading up.",
+   "who": "Budget buyers who want a short, big box and have bars that match its mounting positions.",
+   "specs": [["Volume", "18 cu ft"], ["Exterior", "63 × 38 × 19 in"], ["Opening", "Rear"], ["Mounting positions", "25-7/8, 27-7/8 or 29-7/8 in (etrailer)"], ["Hardware", "Tool-free; lock included"], ["Material", "UV-resistant ABS"], ["Box weight / max load", "Not published; confirm"], ["Price", "$449.95 (SportRack)"]]},
  ],
  "install": [
   "On standard trims, swing the factory crossbars out and lock them in position; on a Wilderness or with aftermarket bars, fit and torque the bars to the maker's spec.",
-  "Measure the spread between the bars center to center and confirm it is inside the box's range (24–34.5 in SkyBox 16, 24–36 in GrandTour 16, 32–46 in DeepSpace 10).",
+  "Measure the spread between the bars center to center and confirm it is inside the box's range (24–34.5 in SkyBox 16, 24–36 in GrandTour 16, 21-13/16 to 36-9/16 in Motion 3 XL, 32–46 in DeepSpace 10) or on one of the Vista XL's fixed positions.",
   "With a helper, set the box on the bars, center it side to side, and slide it forward, keeping the front clear of the sunroof path.",
   "Fit the clamps loosely, open the rear gate slowly and check the gap at the tail of the box, then tighten the clamps to the box maker's instructions.",
   "Lock the box and mounts, rock it from each corner, and re-check the clamps after the first drive.",
@@ -143,8 +157,8 @@ ARTICLE = {
   {"h": "Stacking a box, bikes and skis past the limit", "body": "A narrow box leaves room for other carriers, but everything shares one driving roof limit. Weigh the full setup."},
  ],
  "verdict": {
-  "thesis": "Measure your swing-out bars, then choose the Yakima SkyBox 16 for most Outbacks, the SkyBox NX Skinny for skiers, or the DeepSpace 10 when roof weight is tight.",
-  "body": "On the 6th-gen Outback, the box matters less than the bars and the driving load. The SkyBox 16 is low, relatively light and fits the widest range of factory setups, which makes it the default pick. The SkyBox NX Skinny is the ski box that leaves room for a second carrier, the GrandTour 16 is for bulky gear and the widest spread range, and the DeepSpace 10 gives the most cargo headroom if your bars can spread 32 in or more. The RocketBox 16 is only a bargain once you've measured for its 92 in length.\n\nIf the swing-out bars don't fit your box, see our Outback roof rack page for crossbars matched to integrated rails and to the Wilderness. For heavy items like coolers, a trailer hitch and hitch carrier keep the weight low. The vehicle hub lists every fit-checked accessory for your Outback.",
+  "thesis": "Measure your swing-out bars, then choose the Yakima SkyBox 16 for most Outbacks, the Thule Motion 3 XL for 18 cu ft and long skis, or the SportRack Vista XL on a budget.",
+  "body": "On the 6th-gen Outback, the box matters less than the bars and the driving load. The SkyBox 16 is low, relatively light and fits the widest range of factory setups, which makes it the default pick. The SkyBox NX Skinny is the ski box that leaves room for a second carrier, the GrandTour 16 is for bulky gear and the widest spread range, and the DeepSpace 10 gives the most cargo headroom if your bars can spread 32 in or more. The Thule Motion 3 XL costs the most but has the widest spread range and takes 200 cm skis, and the SportRack Vista XL is the budget 18 cu ft box if its fixed mounting positions match your bars. The RocketBox 16 is only a bargain once you've measured for its 92 in length.\n\nIf the swing-out bars don't fit your box, see our Outback roof rack page for crossbars matched to integrated rails and to the Wilderness. For heavy items like coolers, a trailer hitch and hitch carrier keep the weight low. The vehicle hub lists every fit-checked accessory for your Outback.",
  },
  "sources": [
   ["Yakima SkyBox 16 Carbonite (Yakima)", "https://yakima.com/collections/roof-boxes/products/skybox-16-carbonite-2014-2023"],
@@ -155,6 +169,10 @@ ARTICLE = {
   ["Subaru Outback — 6th gen retractable roof rack, Wilderness 700 lb rating, 2026 7th gen", "https://en.wikipedia.org/wiki/Subaru_Outback"],
   ["Subaru roof load figures, Wilderness vs standard (AHG Auto Service)", "https://www.ahgautoservice.com/how-much-can-the-subaru-wilderness-roof-hold/"],
   ["Outback Wilderness rack options (The Rack Shop)", "https://therackshop.com/subaru-outback-wilderness-rack-options/"],
+  ["Thule Motion 3 XL (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-motion-3-xl-_-639850"],
+  ["Thule Motion 3 spread and warranty (etrailer)", "https://www.etrailer.com/Roof-Box/Thule/TH59PN.html"],
+  ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
+  ["SportRack Vista XL mounting positions (etrailer)", "https://www.etrailer.com/question-156482.html"],
   ["2026 Outback roof rack ratings (The Drive)", "https://www.thedrive.com/news/why-the-2026-subaru-outbacks-roof-rack-has-three-different-weight-ratings"],
  ],
 }
@@ -166,4 +184,6 @@ FITS = [
  ("B083KP48XC","Yakima GrandTour 16 Premium Rooftop Cargo Box, 16 cu ft, dual-side opening","Yakima","$700–$900",{},"24-36 in spread; 18 in tall, check garage height."),
  ("B001PUZ24I","Yakima RocketBox 16 Cargo Box, 16 cu ft (92 in long)","Yakima","$350–$600",{},"Long box: measure rear gate clearance; confirm spread."),
  ("B09HC2LWX8","Yakima DeepSpace 10 Hard Shell Cargo Box, 10 cu ft (100 lb max)","Yakima","$550–$700",{},"Needs 32-46 in spread; factory bars may be too close, confirm."),
+ ("B0HGC24R2P","Thule Motion 3 XL Rooftop Cargo Box, 18 cu ft, Limited Edition","Thule","$1,100–$1,250",{},"21-13/16 to 36-9/16 in spread; 84.7 in long, test rear gate. Confirm finish."),
+ ("B00BCLL8C0","SportRack Vista XL Rear Opening Cargo Box, 18 cu ft, Black","SportRack","$400–$500",{},"Fixed mounting positions; confirm they match your bars and the load rating."),
 ]

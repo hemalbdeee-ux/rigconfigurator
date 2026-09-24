@@ -6,8 +6,8 @@ Roof type replaces bed length: the Model 3 has a glass roof with fixed mounting 
 
 KEY = ("tesla", "model-3", "2017-present", "roof-racks")
 
-TITLE = "Best Roof Racks for 2017–2026 Tesla Model 3: 4 Fixed-Point Picks, Highland vs 2017–2023"
-META = ("Four roof racks for the Model 3's glass roof, with Tesla's 150 lb limit, Highland vs 2017–2023 fit, "
+TITLE = "Best Roof Racks for 2017–2026 Tesla Model 3: 5 Fixed-Point Picks, Highland vs 2017–2023"
+META = ("Five roof racks for the Model 3's glass roof, with Tesla's 150 lb limit, Highland vs 2017–2023 fit, "
         "28 in crossbar spread, locks, wind noise and range impact.")
 
 FAQ = [
@@ -34,7 +34,7 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Four fixed-point roof racks for the Model 3's glass roof, plus Tesla's $400 factory rack as the benchmark. We list load ratings against Tesla's 150 lb limit, which bars fit the 2024 Highland and which fit only the 2017–2023 car, and what bars and boxes cost you in range.",
+ "dek": "Five fixed-point roof racks for the Model 3's glass roof, plus Tesla's $400 factory rack as the benchmark. We list load ratings against Tesla's 150 lb limit, which bars fit the 2024 Highland and which fit only the 2017–2023 car, and what bars and boxes cost you in range.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, locks, materials), on the fitment each maker or listing states for the 2017–2023 Model 3 and the 2024+ Highland, and on fit answers from etrailer's product experts. Prices were checked at the Tesla Shop, maker stores and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
@@ -49,6 +49,7 @@ ARTICLE = {
   {"asin": "B0FX44TW2R", "role": "Best overall (Amazon)", "why": "Lockable bars whose listing covers 2017–2026, including the Highland"},
   {"asin": "B0GV1CCG1Y", "role": "Best aero profile", "why": "Aero bars listed at 220 lb for 2017–2024; confirm Highland with the seller"},
   {"asin": "B0BN1N2QX4", "role": "Best for 2017–2023 cars", "why": "Lockable set listed only for the pre-Highland body, so there's no fit ambiguity"},
+  {"asin": "B0G5MWLCDR", "role": "Best OE-style look (2017–2023)", "why": "IKON Motorsports aluminum and ABS bars styled like a factory rack, $144.99 at IKON"},
   {"asin": "B09T3LXFL3", "role": "Budget pick", "why": "Low-cost fixed-point bars listed for 2017–2025"},
  ],
  "fit_table": {
@@ -90,6 +91,7 @@ ARTICLE = {
   "rows": [
    ["Tesla OEM rack", "$400 (Tesla Shop)", "150 lb dynamic, 495 lb static", "Tesla claims minimal", "Factory fit, integrated locks"],
    ["Aftermarket fixed-point bars", "About $130–$220", "Listed 176–220 lb; roof limit 150 lb", "Similar to OEM when empty", "Budget or when OEM is out of stock"],
+   ["IKON Motorsports OE-style bars", "$144.99 (IKON)", "Not published; roof limit 150 lb", "Low OE-style profile", "Factory look on a 2017–2023 car"],
    ["Yakima BaseLine (door-jamb clips)", "$694.80 (etrailer)", "165 lb listed; roof limit 150 lb", "Aero JetStream bars", "Owners already using Yakima gear"],
    ["Bars + cargo box", "Bars + box", "Box weight counts toward 150 lb", "10–25% at 65–75 mph (fueleconomy.gov)", "Road trips, skis"],
    ["Hitch carrier (aftermarket receiver)", "Separate hitch category", "Per hitch rating", "1–5% on the highway (fueleconomy.gov)", "Bikes, range-conscious trips"],
@@ -114,6 +116,12 @@ ARTICLE = {
    "body": "For an original Model 3, a listing that stops at 2023 is an advantage, not a limitation. This AUXPACBO lockable rack is sold only for the 2017–2023 car, so there is no question about which towers you get. That matches the way Tesstudio and TESEVO split their racks at the 2023.10 build. The towers lock, the bars are aluminum, and the set bolts into the fixed points under the roof trim without drilling.\n\nIt doesn't fit a Highland, so if you bought a 2024 or later car, skip it. AUXPACBO doesn't publish a weight or noise figure, so read the listing for the stated load rating and plan around Tesla's 150 lb roof limit either way. Expect about $150–$220. If you're selling a pre-Highland Model 3 soon, keep the rack in mind: it won't move to a newer Model 3, so it may make more sense to sell it with the car. Before ordering, compare the tower photos on the listing with the mounting points under your roof trim, and check the return terms in case anything doesn't line up. Also confirm the bar's T-slot size if you already own T-bolt carriers.",
    "who": "Owners of a 2017–2023 Model 3 who want lockable bars made for exactly that body.",
    "specs": [["Type", "Fixed-point crossbars"], ["Fits", "2017–2023 Model 3 only (per listing)"], ["Material", "Aluminum"], ["Lock", "Lockable towers"], ["Load rating", "Confirm on listing; roof limit 150 lb"], ["Install", "Fixed points, no drilling"], ["Price band", "About $150–$220"]]},
+  {"asin": "B0G5MWLCDR", "role": "Best OE-style look (2017–2023)", "price": "$130–$170",
+   "pros": ["Sold by IKON Motorsports, an established aftermarket parts brand with its own store", "OE-style profile meant to look like a factory rack", "Aluminum bars with ABS covers", "Pair of bars with mounting hardware included", "IKON lists it at $144.99 with 30-day returns"],
+   "cons": ["Amazon title says 2017–2023, while IKON's product page says 2017–2026; confirm Highland fit before ordering", "No load rating or lock published", "IKON says installation instructions are not included and recommends professional installation"],
+   "body": "IKON Motorsports sells body kits and bolt-on parts through its own store as well as Amazon, and this is its fixed-point crossbar for the Model 3. The Amazon title names the 2017–2023 Model 3 and describes an OE-style bar in black aluminum and ABS. IKON's own product page lists it at $144.99, describes the material as aluminum plus ABS, and says the box contains one pair of crossbars with mounting hardware. The appeal is looks: an OE-style bar sits lower and cleaner than the tall towers on some budget sets, which suits a car bought for its clean lines.\n\nThe fine print needs attention. IKON's product page says it fits 2017–2026, but the Amazon title stops at 2023, and the two bodies take different parts from makers that publish fitment. Treat it as a pre-Highland rack unless the seller confirms otherwise for your build date. IKON publishes no load rating and no lock, so plan around Tesla's 150 lb roof limit and store the bars inside if the car parks on the street. IKON also says installation instructions are not included and recommends professional installation, and that painting or modifying the part voids its warranty. Its 30-day return window is the time to check fit against your roof's mounting points and listen for wind noise at highway speed.",
+   "who": "Owners of a 2017–2023 Model 3 who want a factory-style bar from a known aftermarket brand and don't need locks.",
+   "specs": [["Type", "OE-style fixed-point crossbars"], ["Fits", "2017–2023 Model 3 per Amazon title (IKON page says 2017–2026; confirm)"], ["Material", "Aluminum + ABS (IKON)"], ["Included", "Pair of crossbars with mounting hardware"], ["Load rating", "Not published; roof limit 150 lb"], ["Lock", "Not published"], ["Instructions", "Not included (IKON)"], ["Price seen", "$144.99 (IKON Motorsports)"]]},
   {"asin": "B09T3LXFL3", "role": "Budget pick", "price": "$140–$200",
    "pros": ["Among the cheapest Model 3-specific bars", "Listed for 2017–2025", "Fixed-point mount, no drilling", "Model 3-specific towers, not a universal kit", "Good for occasional use"],
    "cons": ["Highland fit needs confirming with the seller", "No lock in the title", "Few published specs"],
@@ -137,7 +145,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Tesla's $400 rack is the benchmark; on Amazon, buy the WheelX set if you want one listing that covers every Model 3, or the AUXPACBO if your car is 2017–2023 — and keep everything under 150 lb.",
-  "body": "On the Model 3, the rack decision is mostly about which body you have. Tesla's rack fits all of them and publishes the numbers that matter: 150 lb dynamic, 495 lb static. On Amazon, WheelX is the only set we found whose listing runs from 2017 to 2026 with locks. The AUXPACBO is the clean choice for a 2017–2023 car, the aero set is the range-focused option if you can confirm Highland fit, and AUPACBO is the budget pick.\n\nIf you mostly carry bikes, a trailer hitch with a hitch-mounted carrier costs far less range than a roof rack, and all-weather floor mats protect the cabin on ski trips. Owners of the 2020–2026 Model Y face the same fixed-point roof, with a 165 lb rating and a Juniper split. The vehicle hub lists every fit-checked accessory for the Model 3.",
+  "body": "On the Model 3, the rack decision is mostly about which body you have. Tesla's rack fits all of them and publishes the numbers that matter: 150 lb dynamic, 495 lb static. On Amazon, WheelX is the only set we found whose listing runs from 2017 to 2026 with locks. The AUXPACBO is the clean choice for a 2017–2023 car, IKON's OE-style bars suit owners who want a factory look without locks, the aero set is the range-focused option if you can confirm Highland fit, and AUPACBO is the budget pick.\n\nIf you mostly carry bikes, a trailer hitch with a hitch-mounted carrier costs far less range than a roof rack, and all-weather floor mats protect the cabin on ski trips. Owners of the 2020–2026 Model Y face the same fixed-point roof, with a 165 lb rating and a Juniper split. The vehicle hub lists every fit-checked accessory for the Model 3.",
  },
  "sources": [
   ["Tesla Model 3 Roof Rack (Tesla Shop)", "https://shop.tesla.com/product/model-3-roof-rack"],
@@ -147,6 +155,7 @@ ARTICLE = {
   ["Yakima BaseClip fit kit Y06173 (etrailer)", "https://www.etrailer.com/Roof-Rack/Yakima/Y06173.html"],
   ["Yakima carrier fit and Model 3 crossbar spacing (etrailer expert answers)", "https://www.etrailer.com/answers.aspx?AnswerMake=Tesla&Manufacturer=Yakima&Filter=fit"],
   ["Cargo box and rear carrier fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
+  ["IKON Motorsports OE-style Model 3 roof rack cross bars (IKON)", "https://ikonmotorsports.com/products/2017-2023-tesla-model-3-oe-style-top-roof-rack-cross-bars-aluminum-abs"],
   ["Fuel consumption impacts of auto roof racks (Lawrence Berkeley National Laboratory)", "https://eta.lbl.gov/publications/fuel-consumption-impacts-auto-roof"],
  ],
 }
@@ -156,5 +165,6 @@ FITS = [
  ("B0FX44TW2R","WheelX Lockable Cross Bars, 2017-2026 Model 3, 176 lb","WheelX","$150–$220",{"roof_type":"fixed-points"},"Lists Highland; roof limit is Tesla's 150 lb."),
  ("B0GV1CCG1Y","220 lb Aero Cross Bars, 2017-2024 Model 3","Generic","$130–$190",{"roof_type":"fixed-points"},"Confirm Highland (2024+) with seller."),
  ("B0BN1N2QX4","AUXPACBO Lockable Roof Rack, 2017-2023 Model 3","AUXPACBO","$150–$220",{"roof_type":"fixed-points","year_to":2023},"Pre-Highland only."),
+ ("B0G5MWLCDR","IKON MOTORSPORTS OE Style Roof Rack Cross Bars, 2017-2023 Tesla Model 3, Aluminum ABS","IKON Motorsports","$130–$170",{"roof_type":"fixed-points","year_to":2023},"Title says 2017-2023; IKON site says to 2026 — confirm Highland with seller."),
  ("B09T3LXFL3","AUPACBO Cross Bars, 2017-2025 Model 3","AUPACBO","$140–$200",{"roof_type":"fixed-points"},"Confirm Highland fit with seller."),
 ]

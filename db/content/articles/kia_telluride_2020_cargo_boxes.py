@@ -1,79 +1,80 @@
 """Long-form article — Best Rooftop Cargo Boxes for 2020–2025 Kia Telluride (1st gen).
-Mirrors the approved F-150 tonneau pilot. No invented hands-on testing: box specs come from Yakima's own
-product pages; vehicle facts from db/migrations/003_vehicles.sql plus the references in SOURCES
+Mirrors the approved F-150 tonneau pilot. No invented hands-on testing: box specs come from Yakima, Thule
+and SportRack product pages and etrailer; vehicle facts from db/migrations/003_vehicles.sql plus the references in SOURCES
 (checked 2026-09-24). Boxes are universal; the Telluride-specific part is flush vs raised rails, the
 220 lb roof figure vs 165 lb crossbar ratings, crossbar spread and hatch clearance.
 """
 
 KEY = ("kia", "telluride", "2020-present", "cargo-boxes")
 
-TITLE = "Best Rooftop Cargo Boxes for 2020–2025 Kia Telluride: 5 Picks for Flush and X-Line Rails"
-META = ("Five Yakima cargo boxes for the 2020–2025 Telluride, with flush vs X-Line/X-Pro rail notes, 220 lb roof "
-        "vs 165 lb crossbar limits and crossbar spread checks.")
+TITLE = "Best Rooftop Cargo Boxes for 2020–2025 Kia Telluride: 7 Picks for Flush and X-Line Rails"
+META = ("Seven Yakima, Thule and SportRack cargo boxes for the 2020–2025 Telluride, with flush vs X-Line/X-Pro rails, "
+        "220 lb roof vs 165 lb bar limits and spread checks.")
 
 FAQ = [
  ("What is the roof weight limit on a 2020–2025 Kia Telluride?",
   "Telluride owners quote 220 lb (100 kg), evenly distributed, from the owner's manual, and etrailer cites the same figure. In practice the crossbars often set a lower limit: the Thule systems etrailer recommends for the Telluride are rated at 165 lb. Your working limit is the lower of the roof and bar ratings, and the bars, box and gear all count against it."),
  ("Does the Telluride have flush rails or raised rails?",
-  "It depends on the trim. The regular trims (the rail-equipped EX, S, SX and SX-P that crossbar listings name) have flush-style side rails with no gap underneath. The 2023–2025 X-Line and X-Pro have raised side rails. The two need different crossbar feet, and many listings exclude one or the other, so match the bars to your trim before buying a box."),
+  "It depends on the trim. The standard trims (LX, S, EX, SX and SX-P) have flush-style side rails with no gap underneath. The 2023–2025 X-Line and X-Pro have raised side rails with a gap. The two need different crossbar feet, and many listings exclude one or the other, so match the bars to your trim before buying a box."),
  ("What size cargo box fits a Telluride?",
-  "A 16 cu ft box such as the Yakima SkyBox 16 or GrandTour 16 suits most families and still leaves weight for gear. The Telluride's long roof has room for larger boxes too; Yakima makes the SkyBox 21 and SkyBox NX XXL, but check that their weight plus contents stays under your bars' rating, often 165 lb."),
+  "A 16 cu ft box such as the Yakima SkyBox 16 or GrandTour 16 suits most families and still leaves weight for gear. The Telluride's long roof also suits a 21 cu ft box like the Thule Motion 3 XXL (91.3 in long, 57.2 lb). Bigger boxes weigh more, so check that box plus contents stays under your bars' rating, often 165 lb. The SportRack Vista XL gives 18 cu ft in a short 63 in shell for less money."),
  ("Will a roof box hit the Telluride's liftgate?",
   "The Telluride has a long, flat roof, so there is usually room to mount a box well forward of the liftgate's arc. Long boxes, like the 92 in RocketBox 16, still need a check: mount the box forward, open the liftgate slowly, and look at the gap. If your trim has a power liftgate with adjustable height, a lower setting adds margin."),
  ("How far apart can crossbars sit on a Telluride with flush rails?",
-  "That depends on the bar kit. The Rack Shop's Thule setup for the flush-rail Telluride lists a maximum bar spread of 27.5 in. That works for the SkyBox 16 (24–34.5 in) and GrandTour 16 (24–36 in) at the short end of their range, but not for the DeepSpace 10, which needs at least 32 in. Check your kit's spread before choosing a box."),
+  "That depends on the bar kit. The Rack Shop's Thule setup for the flush-rail Telluride lists a maximum bar spread of 27.5 in. That works for the SkyBox 16 (24–34.5 in), GrandTour 16 (24–36 in) and Thule Motion 3 (21-13/16 to 36-9/16 in per etrailer), and the SportRack Vista XL's 25-7/8 in mounting position, but not for the DeepSpace 10, which needs at least 32 in. Check your kit's spread before choosing a box."),
  ("Do I need Kia's own crossbars for a roof box?",
   "No. Kia sells accessory crossbars, and aftermarket kits from Thule, Yakima and others are made for both the flush rails and the X-Line/X-Pro raised rails. A box clamps to any of them, so choose bars on rating, spread and noise. Our Telluride roof rack page lists fit-checked bars by trim."),
- ("Is the 2027 Telluride the same for cargo boxes?",
-  "The box moves over, since boxes clamp to crossbars rather than the car. The 2027 Telluride is a new second generation, 2.3 in longer, and Kia gives the X-Pro raised roof rails. Bars for the 2020–2025 model shouldn't be assumed to fit, so buy crossbars listed for the 2027 and use its manual's roof figure."),
+ ("Is the 2027 Telluride the same for cargo boxes, and is there a 2026?",
+  "The box moves over, since boxes clamp to crossbars rather than the car. Kia skipped the 2026 model year, so the next Telluride is the 2027, a new second generation that is 2.3 in longer, and Kia gives the X-Pro raised roof rails. Bars for the 2020–2025 model shouldn't be assumed to fit, so buy crossbars listed for the 2027 and use its manual's roof figure."),
  ("Can I carry a cargo box and bikes on a Telluride roof?",
   "Yes, if the box is narrow enough and the weight works. A full-width 16 cu ft box is 35–36 in wide. The SkyBox NX Skinny (26.5 in) or RocketBox 16 (26 in) leave room on the bars for a bike mount. Add up the box, the mount, the bike and the cargo and keep it under the bar rating, which is often 165 lb."),
  ("Will a roof box fit in my garage on a Telluride?",
-  "Measure first. The Telluride is already a tall SUV, and the X-Line and X-Pro raised rails add height. The boxes here add 15 in (SkyBox 16, RocketBox 16), 16 in (NX Skinny, DeepSpace 10) or 18 in (GrandTour 16) on top of the bars. Measure the vehicle with bars fitted, add the box height, and compare with your garage door opening."),
+  "Measure first. The Telluride is already a tall SUV, and the X-Line and X-Pro raised rails add height. The boxes here add 15 in (SkyBox 16, RocketBox 16), 16 in (NX Skinny, DeepSpace 10), about 18 in (GrandTour 16, Motion 3 XXL) or 19 in (SportRack Vista XL) on top of the bars. Measure the vehicle with bars fitted, add the box height, and compare with your garage door opening."),
  ("Should I use a roof box or a hitch carrier on a Telluride?",
   "The Telluride has a 5,000 lb tow rating with a 2 in Class III receiver on towing-equipped builds, which makes a hitch carrier a good option for heavy items like coolers and bins. A roof box is better for soft, bulky gear, keeps the rear camera and liftgate clear, and locks. Many three-row families use both: the box for bags, the hitch carrier for the heavy stuff."),
 ]
 
 ARTICLE = {
- "dek": "Five Yakima rooftop boxes matched to the first-generation Telluride's long roof, from a 30 lb compact box to a 92 in ski box. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the flush rails, the X-Line and X-Pro raised rails, and the gap between the roof's 220 lb figure and common 165 lb crossbar ratings.",
+ "dek": "Seven rooftop boxes from Yakima, Thule and SportRack matched to the first-generation Telluride's long roof, from a 30 lb compact box to a 21 cu ft Thule Motion 3 XXL. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the flush rails, the X-Line and X-Pro raised rails, and the gap between the roof's 220 lb figure and common 165 lb crossbar ratings.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
- "method": "We did not mount these boxes ourselves. We ranked them on Yakima's published specs (volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on how those specs fit the Telluride's rails, crossbar spread and liftgate, and on the roof and bar ratings in the owner's-manual quotes and retailer pages listed below. Prices were checked on Yakima's store in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule and SportRack: volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on etrailer's spread figures for the Thule and SportRack boxes, on how those specs fit the Telluride's rails, crossbar spread and liftgate, and on the roof and bar ratings in the owner's-manual quotes and retailer pages listed below. Prices were checked on the makers' stores and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Two rail types.** The regular trims have flush rails; the 2023–2025 X-Line and X-Pro have raised rails. Crossbars differ, and the box goes on the bars.",
+  "**Two rail types.** The standard trims (LX through SX-P) have flush rails; the 2023–2025 X-Line and X-Pro have raised rails. Crossbars differ, and the box goes on the bars.",
   "**The bars usually set the limit.** Owners quote 220 lb from the manual for the roof, but common Telluride crossbar kits are rated at 165 lb. Use the lower number.",
   "**Check spread on flush-rail kits.** One Thule flush-rail setup tops out at a 27.5 in spread, fine for the SkyBox 16 and GrandTour 16 but too short for the DeepSpace 10's 32 in minimum.",
-  "**The long roof gives options.** Hatch clearance is easier than on a compact SUV, so the choice is mostly about weight, width and garage height.",
-  "**2027 is a new generation.** Boxes carry over; crossbars should be bought for the 2027 model.",
+  "**The long roof takes a big box.** The 21 cu ft Thule Motion 3 XXL is 91.3 in long, and Thule rates it for 165 lb of cargo, but it weighs 57.2 lb, so the bar rating runs out before the box fills.",
+  "**No 2026, then a new 2027.** Kia skipped the 2026 model year. Boxes carry over to the 2027; crossbars should be bought for it.",
  ],
  "top_picks": [
   {"asin": "B083KP48XC", "role": "Best overall", "why": "16 cu ft, 18 in deep for bulky family gear, 24–36 in spread fits flush-rail kits"},
   {"asin": "B001PUZXGK", "role": "Best value", "why": "16 cu ft, 15 in tall, 47 lb, $599 on sale; 24 in minimum spread suits short-spread bars"},
   {"asin": "B0DYWCZSD8", "role": "Best box plus bike", "why": "26.5 in wide, leaving room on the bars for bikes; 195 cm skis"},
-  {"asin": "B001PUZ24I", "role": "Budget long box", "why": "16 cu ft, 42 lb, $350 list; the long roof leaves more room for its 92 in length"},
-  {"asin": "B09HC2LWX8", "role": "Lightest box", "why": "30.2 lb with a 100 lb rating, but needs bars that spread 32 in or more"},
+  {"asin": "B0F8PNL8H9", "role": "Biggest box", "why": "Thule Motion 3 XXL: 21 cu ft, 215 cm skis, 21-13/16 to 36-9/16 in spread fits flush-rail kits"},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "why": "SportRack Vista XL: 18 cu ft in 63 in, $449.95, mounts at 25-7/8 in on short-spread bars"},
  ],
  "fit_table": {
   "caption": "2020–2025 Telluride roof setups (what the box mounts to)",
   "head": ["Trim", "Rails", "Crossbar notes", "Box notes"],
   "rows": [
-   ["EX, S, SX, SX-P (rail-equipped regular trims)", "Flush side rails", "Flush-rail kits; one Thule setup: 165 lb, 27.5 in max spread", "SkyBox 16 / GrandTour 16 fit the spread; DeepSpace 10 does not on that kit"],
+   ["LX, S, EX, SX, SX-P (standard trims)", "Flush side rails", "Flush-rail kits; one Thule setup: 165 lb, 27.5 in max spread", "SkyBox 16, GrandTour 16, Motion 3 and Vista XL fit the spread; DeepSpace 10 does not on that kit"],
    ["X-Line, X-Pro (2023–2025)", "Raised side rails", "Raised-rail kits listed for X-Line/X-Pro (e.g. Thule WingBar Edge, 165 lb)", "Check the kit's spread against the box"],
    ["All 2020–2025", "Roof: 220 lb (100 kg) evenly distributed, per owner's manual quotes", "Bar rating is often lower (165 lb)", "Bars + box + gear under the lower figure"],
+   ["2026", "No 2026 model year (Kia skipped it)", "—", "—"],
    ["2027+ (new generation)", "New body; X-Pro has raised rails", "Buy bars listed for 2027", "Boxes carry over"],
   ],
  },
  "look_for": [
   {"h": "Flush rails vs X-Line and X-Pro raised rails",
-   "body": "The first Telluride question isn't the box. It's which rails you have. The regular trims have flush-style rails bonded close to the roof, and they need crossbar feet that clamp to that profile. The 2023–2025 X-Line and X-Pro have raised side rails with a gap underneath, and they take a different kit. Crossbar listings are explicit about this: some list EX, S, SX and SX-P and exclude the X-Line and X-Pro, and others are X-Line/X-Pro only. Get the right bars first; every box here clamps to either type."},
+   "body": "The first Telluride question isn't the box. It's which rails you have. The standard LX, S, EX, SX and SX-P trims have flush-style rails bonded close to the roof, and they need crossbar feet that clamp to that profile. The 2023–2025 X-Line and X-Pro have raised side rails with a gap underneath, and they take a different kit. Crossbar listings are explicit about this: some name the flush-rail trims and exclude the X-Line and X-Pro, and others are X-Line/X-Pro only. Get the right bars first; every box here clamps to either type."},
   {"h": "The 220 lb roof figure vs the 165 lb bar rating",
-   "body": "Telluride owners quote 220 lb (100 kg), evenly distributed, from the owner's manual, which is generous for a family SUV. The catch is the crossbars. The Thule flush-rail and raised-rail setups etrailer and The Rack Shop list for the Telluride are rated at 165 lb, and your working limit is the lower of the two. The boxes here weigh 30.2 to 51.5 lb. Subtract the box and the bars from 165 lb and you typically have about 100 lb for gear, unless your bars carry a higher rating."},
+   "body": "Telluride owners quote 220 lb (100 kg), evenly distributed, from the owner's manual, which is generous for a family SUV. The catch is the crossbars. The Thule flush-rail and raised-rail setups etrailer and The Rack Shop list for the Telluride are rated at 165 lb, and your working limit is the lower of the two. The boxes here weigh 30.2 to 57.2 lb (SportRack doesn't publish the Vista XL's weight). Subtract the box and the bars from 165 lb and you typically have 90 to 100 lb for gear, unless your bars carry a higher rating."},
   {"h": "Crossbar spread on flush-rail kits",
-   "body": "Flush-rail kits often have a limited spread. The Rack Shop's Thule setup for the flush-rail Telluride lists a maximum spread of 27.5 in. That is inside the range for the SkyBox 16 (24–34.5 in) and GrandTour 16 (24–36 in), so both mount, just toward the short end of their range. The DeepSpace 10 needs 32–46 in and won't mount on that setup. Check your own bars' spread before ordering; raised-rail X-Line and X-Pro kits have their own ranges."},
+   "body": "Flush-rail kits often have a limited spread. The Rack Shop's Thule setup for the flush-rail Telluride lists a maximum spread of 27.5 in. That is inside the range for the SkyBox 16 (24–34.5 in), the GrandTour 16 (24–36 in) and the Thule Motion 3 XXL (21-13/16 to 36-9/16 in, per etrailer), and etrailer lists 25-7/8 in as one of the SportRack Vista XL's fixed mounting positions. The DeepSpace 10 needs 32–46 in and won't mount on that setup. Check your own bars' spread before ordering; raised-rail X-Line and X-Pro kits have their own ranges."},
   {"h": "Width for a three-row family's gear",
-   "body": "A full-width 16 cu ft box is 35–36 in wide and fills most of the bar length. On a Telluride carrying seven people, that's often the right call: all the soft bags go up top and the third row stays usable. If you also carry bikes, a narrow box leaves space: the SkyBox NX Skinny is 26.5 in wide and the RocketBox 16 is 26 in. A second carrier also adds weight, and the bar rating still applies to the whole setup."},
+   "body": "A full-width box is 35–38 in wide and fills most of the bar length (the Vista XL is 38 in). On a Telluride carrying seven or eight people, that's often the right call: all the soft bags go up top and the third row stays usable. If you also carry bikes, a narrow box leaves space: the SkyBox NX Skinny is 26.5 in wide and the RocketBox 16 is 26 in. A second carrier also adds weight, and the bar rating still applies to the whole setup."},
   {"h": "Height, garages and the X-Pro",
-   "body": "The Telluride is already a tall SUV, and the X-Line and X-Pro's raised rails lift the bars higher. The boxes here add 15 in (SkyBox 16, RocketBox 16), 16 in (SkyBox NX Skinny, DeepSpace 10) or 18 in (GrandTour 16) on top of that. If you use a home garage or a parking structure, measure the Telluride with bars fitted and add the box height before you buy. The 3 in between the SkyBox 16 and GrandTour 16 can decide whether it fits."},
+   "body": "The Telluride is already a tall SUV, and the X-Line and X-Pro's raised rails lift the bars higher. The boxes here add 15 in (SkyBox 16, RocketBox 16), 16 in (SkyBox NX Skinny, DeepSpace 10), about 18 in (GrandTour 16, Motion 3 XXL) or 19 in (SportRack Vista XL) on top of that. If you use a home garage or a parking structure, measure the Telluride with bars fitted and add the box height before you buy. The 3 in between the SkyBox 16 and GrandTour 16 can decide whether it fits."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -83,11 +84,11 @@ ARTICLE = {
    ["Volume", "16 cu ft for most families; larger only if the weight math works", "Buying on cubic feet alone"],
    ["Width", "26–27 in if you want bikes on the bars too", "Full-width box plus bikes over the bar rating"],
    ["Opening", "Dual-side, so you load from the curb", "Single-side boxes on a tall SUV"],
-   ["Warranty", "Limited lifetime (all Yakima boxes here)", "No warranty stated"],
+   ["Warranty", "Limited lifetime (Yakima boxes and, per etrailer, the Thule Motion 3)", "No warranty stated; ask the seller"],
   ],
  },
  "types_table": {
-  "caption": "Box sizing for the Telluride (Yakima's published specs)",
+  "caption": "Box sizing for the Telluride (makers' published specs; Thule and SportRack spread per etrailer)",
   "head": ["Box", "Volume", "L × W × H", "Box weight", "Crossbar spread", "Liftgate / fit guidance"],
   "rows": [
    ["GrandTour 16", "16 cu ft", "79 × 35 × 18 in", "51.5 lb", "24–36 in", "Fits a 27.5 in flush-rail kit; mount forward"],
@@ -95,6 +96,8 @@ ARTICLE = {
    ["SkyBox NX Skinny", "12 cu ft", "84 × 26.5 × 16 in", "43 lb", "Not published; confirm", "Room for bikes beside it"],
    ["RocketBox 16", "16 cu ft", "92 × 26 × 15 in", "42 lb", "Not published; confirm", "Longest; test the liftgate"],
    ["DeepSpace 10", "10 cu ft", "60 × 23 × 16 in", "30.2 lb", "32–46 in", "Won't mount on a 27.5 in max kit"],
+   ["Thule Motion 3 XXL", "21 cu ft", "91.3 × 36.2 × 18.1 in", "57.2 lb", "21-13/16 to 36-9/16 in", "Biggest here; fits a 27.5 in kit, test the liftgate"],
+   ["SportRack Vista XL", "18 cu ft", "63 × 38 × 19 in", "Not published", "Fixed at 25-7/8, 27-7/8 or 29-7/8 in", "Short; rear-opening lid"],
   ],
  },
  "picks": [
@@ -128,6 +131,18 @@ ARTICLE = {
    "body": "The DeepSpace 10 is the lightest box on this page, 30.2 lb, and the only one with a published cargo rating, 100 lb. Yakima lists it at 60 x 23 x 16 in with 10 cu ft, tie-down points inside, a wide-angle lid, and a limited lifetime warranty, made in the USA, at $649. On a Telluride whose bars are rated at 165 lb, that light shell leaves room for a full 100 lb load plus the bars.\n\nThe spread decides whether it can go on your Telluride at all. It needs the bars 32–46 in apart. The Rack Shop's Thule flush-rail setup lists a 27.5 in maximum spread, so this box won't mount on it. If you have an X-Line or X-Pro with raised rails, or a bar kit that can be spaced 32 in or more, check that figure first. At 10 cu ft and 60 in long it isn't a ski box, but it suits a family's weekend bags and leaves most of the roof clear.",
    "who": "Telluride owners with bars that spread 32 in or more who want the lightest locking box.",
    "specs": [["Volume", "10 cu ft"], ["Exterior", "60 × 23 × 16 in"], ["Box weight", "30.2 lb"], ["Max load", "100 lb"], ["Crossbar spread", "32–46 in"], ["Material", "Textured ABS"], ["Made in", "USA"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0F8PNL8H9", "role": "Biggest box", "price": "$1,249.95 (box alone)",
+   "pros": ["21 cu ft, the most volume on this page", "Skis up to 215 cm, 5–7 pairs or 3–5 snowboards", "21-13/16 to 36-9/16 in spread (etrailer) fits a 27.5 in flush-rail kit", "Dual-side opening that works one-handed, PowerClick mounts, SlideLock", "Thule rates it for 165 lb of cargo; limited lifetime warranty per etrailer"],
+   "cons": ["57.2 lb, the heaviest box here", "91.3 in long, so test the liftgate", "This Amazon listing is a bundle with GoPack duffels, so it costs more than the box alone"],
+   "body": "If a three-row Telluride is carrying a full crew for a week, the Thule Motion 3 XXL is the box that holds it. Thule lists it at 21 cu ft with exterior dimensions of 91.3 x 36.2 x 18.1 in, a 57.2 lb box weight and a 165 lb maximum load. It takes skis up to 215 cm, opens from both sides with one hand, locks with Thule's SlideLock, and clamps on with PowerClick mounts. etrailer lists a crossbar spread of 21-13/16 to 36-9/16 in for the Motion 3 boxes, which covers a flush-rail kit capped at 27.5 in as well as the raised-rail X-Line and X-Pro kits, and a limited lifetime warranty. Thule lists the box alone at $1,249.95. This Amazon listing bundles it with a GoPack duffel set, so compare it with the box-only price.\n\nThe catch is that the bars run out before the box does. The box's 165 lb load rating matches the common Telluride crossbar rating, but on those bars the 57.2 lb box and the bars themselves count too, which leaves roughly 90 lb or a little more for gear. Fill it with sleeping bags, jackets and soft duffels, not coolers. The length also needs a check. Thule lists a front clearance figure of more than 54 13/16 in for this box, so measure your Telluride against Thule's hatch clearance guidance, mount it forward and open the liftgate slowly the first time.",
+   "who": "Big families and ski groups who fill a Telluride to the roof and want the most volume, packed light.",
+   "specs": [["Volume", "21 cu ft"], ["Exterior", "91.3 × 36.2 × 18.1 in"], ["Box weight", "57.2 lb"], ["Max load", "165 lb"], ["Crossbar spread", "21-13/16 to 36-9/16 in (etrailer)"], ["Ski length", "Up to 215 cm"], ["Mount / lock", "PowerClick / SlideLock"], ["Warranty", "Limited lifetime (etrailer)"]]},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "price": "$449.95",
+   "pros": ["18 cu ft for $449.95 at SportRack, the lowest price per cubic foot here", "63 in long, well clear of the liftgate on the long roof", "etrailer lists a 25-7/8 in mounting position, inside a 27.5 in flush-rail kit", "Tool-free mounting hardware and a lock", "Fits square, round and most factory bars, per SportRack"],
+   "cons": ["Rear-opening lid, so you load from behind a tall SUV", "38 in wide and 19 in tall, the widest and tallest box here", "SportRack doesn't publish box weight or a load rating; confirm on the listing"],
+   "body": "The SportRack Vista XL is the budget way to put 18 cu ft on a Telluride. SportRack lists it at 63 x 38 x 19 in with 18 cu ft, UV-resistant ABS construction, tool-free mounting hardware and a lock, for $449.95, about a third of the Motion 3 XXL's price. It is short and wide rather than long, which suits the Telluride well: at 63 in it sits far forward of the liftgate on the long roof. etrailer's expert gives three fixed mounting positions at 25-7/8, 27-7/8 and 29-7/8 in center to center, and the 25-7/8 in position fits inside a flush-rail kit with a 27.5 in maximum spread. On an X-Line or X-Pro, set the raised-rail bars to one of those positions.\n\nThe trade-offs come from the price and the shape. The lid opens at the rear, which SportRack pitches as loading away from traffic, but on a vehicle as tall as the Telluride that means reaching up and forward from behind the car, so a step stool helps. At 38 in wide it fills the bars, and at 19 in tall it adds the most height of any box here, which matters on the X-Line and X-Pro. SportRack's page doesn't list a box weight, a load rating or warranty terms, so confirm all three on the listing before you plan a load.",
+   "who": "Budget buyers who want big, short, lockable space and don't mind loading from the rear.",
+   "specs": [["Volume", "18 cu ft"], ["Exterior", "63 × 38 × 19 in"], ["Opening", "Rear"], ["Mounting positions", "25-7/8, 27-7/8 or 29-7/8 in (etrailer)"], ["Hardware", "Tool-free; lock included"], ["Material", "UV-resistant ABS"], ["Box weight / max load", "Not published; confirm"], ["Price", "$449.95 (SportRack)"]]},
  ],
  "install": [
   "Fit crossbars listed for your rails: flush-rail feet on the regular trims, raised-rail feet on the 2023–2025 X-Line and X-Pro. Torque them to the maker's spec.",
@@ -135,17 +150,18 @@ ARTICLE = {
   "With a helper and a step stool, set the box on the bars, center it side to side, and slide it forward, keeping it clear of the panoramic sunroof's path if you have one.",
   "Fit the clamps loosely, open the liftgate slowly to check the gap at the tail of the box, then tighten the clamps to the box maker's instructions.",
   "Lock the box and mounts, rock it from each corner, and re-check the clamps after the first drive.",
-  "Load heavy items low and centered between the bars, and keep bars + box + gear under the lower of the bar rating and the roof's 220 lb figure.",
+  "Load heavy items low and centered between the bars, and keep bars + box + gear under the lower of the bar rating and the roof's 220 lb figure. With the 57.2 lb Motion 3 XXL on 165 lb bars, that leaves roughly 90 lb for cargo.",
  ],
  "avoid": [
   {"h": "Using the 220 lb roof figure as your limit", "body": "Common Telluride crossbar kits are rated at 165 lb. The lower rating is the one that applies."},
   {"h": "Flush-rail bars on an X-Line or X-Pro (or the reverse)", "body": "The 2023–2025 X-Line and X-Pro have raised rails. Crossbar listings split by trim, so buy bars that name yours."},
   {"h": "A 32 in-minimum box on short-spread bars", "body": "The DeepSpace 10 needs 32–46 in. A flush-rail kit with a 27.5 in maximum spread can't hold it."},
-  {"h": "Forgetting the extra height", "body": "A tall SUV plus bars plus a 15–18 in box can clear a road but not your garage. Measure before the first trip home."},
+  {"h": "Forgetting the extra height", "body": "A tall SUV plus bars plus a 15–19 in box can clear a road but not your garage. Measure before the first trip home."},
+  {"h": "Filling a 21 cu ft box to the brim", "body": "The Motion 3 XXL holds far more than a 165 lb bar rating allows once the 57.2 lb box and the bars are counted. Pack it with light, bulky gear."},
  ],
  "verdict": {
-  "thesis": "Fit crossbars for your rail type, then choose the Yakima GrandTour 16 for bulky family gear or the SkyBox 16 for a lower, cheaper box. Both suit short-spread flush-rail kits.",
-  "body": "On the first-gen Telluride, the roof is generous but the crossbars set the rules: a 165 lb rating on common kits and, on some flush-rail setups, a 27.5 in maximum spread. The GrandTour 16 and SkyBox 16 both start at a 24 in spread, so they suit those bars, and 16 cu ft is the right size for most three-row trips. The SkyBox NX Skinny is the box to pick if bikes ride on the roof too, the RocketBox 16 is the budget long box, and the DeepSpace 10 only makes sense on bars that spread 32 in or more.\n\nStart with the right crossbars; our Telluride roof rack page lists kits for flush rails and for X-Line and X-Pro raised rails. For heavy gear, the Class III trailer hitch on towing-equipped Tellurides takes a hitch cargo carrier. The vehicle hub lists every fit-checked accessory for your Telluride.",
+  "thesis": "Fit crossbars for your rail type, then choose the Yakima GrandTour 16 for bulky family gear, the Thule Motion 3 XXL for the most volume, or the SportRack Vista XL on a budget. All suit short-spread flush-rail kits.",
+  "body": "On the first-gen Telluride, the roof is generous but the crossbars set the rules: a 165 lb rating on common kits and, on some flush-rail setups, a 27.5 in maximum spread. The GrandTour 16 and SkyBox 16 both start at a 24 in spread, so they suit those bars, and 16 cu ft is the right size for most three-row trips. The Thule Motion 3 XXL is the step up for a full crew: 21 cu ft and 215 cm skis, as long as you pack it light. The SportRack Vista XL gives 18 cu ft in a short shell for $449.95 if rear loading is acceptable. The SkyBox NX Skinny is the box to pick if bikes ride on the roof too, the RocketBox 16 is the budget Yakima long box, and the DeepSpace 10 only makes sense on bars that spread 32 in or more.\n\nStart with the right crossbars; our Telluride roof rack page lists kits for flush rails and for X-Line and X-Pro raised rails. For heavy gear, the Class III trailer hitch on towing-equipped Tellurides takes a hitch cargo carrier. The vehicle hub lists every fit-checked accessory for your Telluride.",
  },
  "sources": [
   ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],
@@ -156,7 +172,10 @@ ARTICLE = {
   ["Telluride roof rack recommendations and 220 lb manual figure (etrailer)", "https://www.etrailer.com/question-481662.html"],
   ["2023 Telluride X-Line raised side rails, Thule WingBar Edge (etrailer)", "https://www.etrailer.com/question-690825.html"],
   ["Thule flush-rail rack for 2020–2025 Telluride, 165 lb / 27.5 in spread (The Rack Shop)", "https://therackshop.com/2020-2025-kia-telluride-5dr-w-flush-rails-thule-crossbar-complete-roof-rack/"],
-  ["Roof load limit owner thread (TellurideForum)", "https://tellurideforum.org/threads/roof-load-limit.11998/"],
+  ["Thule Motion 3 XXL (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-motion-3-xxl-_-639950"],
+  ["Thule Motion 3 21 cu ft, spread and warranty (etrailer)", "https://www.etrailer.com/Roof-Box/Thule/TH59PN.html"],
+  ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
+  ["SportRack Vista XL mounting positions (etrailer)", "https://www.etrailer.com/question-156482.html"],
  ],
 }
 
@@ -167,4 +186,6 @@ FITS = [
  ("B0DYWCZSD8","Yakima SkyBox NX Skinny 12 cu ft Cargo Box (26.5 in wide)","Yakima","$700–$850",{},"Room for bikes on the bars; confirm spread on listing."),
  ("B001PUZ24I","Yakima RocketBox 16 Cargo Box, 16 cu ft (92 in long)","Yakima","$350–$600",{},"Long box; confirm spread and liftgate gap."),
  ("B09HC2LWX8","Yakima DeepSpace 10 Hard Shell Cargo Box, 10 cu ft (100 lb max)","Yakima","$550–$700",{},"Needs 32-46 in spread; not for 27.5 in max flush-rail kits, confirm your bars."),
+ ("B0F8PNL8H9","Thule Motion 3 XXL 21 cu ft Rooftop Cargo Box with GoPack Duffel Set, 165 lb load capacity","Thule","$1,200–$1,500",{},"Bundle listing; 57.2 lb box, 21-13/16 to 36-9/16 in spread. Test liftgate gap."),
+ ("B00BCLL8C0","SportRack Vista XL Rear Opening Cargo Box, 18 cu ft, Black","SportRack","$400–$500",{},"Rear opening; confirm box weight and load rating on the listing."),
 ]

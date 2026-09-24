@@ -7,9 +7,9 @@ Not the Grand Highlander (separate, larger vehicle).
 
 KEY = ("toyota", "highlander", "2020-present", "roof-racks")
 
-TITLE = "Best Roof Racks for 2020–2026 Toyota Highlander: 4 Cross Bar Picks by Trim and Roof Rail"
-META = ("Four cross bar sets for the 4th-gen Highlander's factory side rails, with load ratings, which trims have rails, "
-        "Thule and Yakima fixed-point kits and fuel costs.")
+TITLE = "Best Roof Racks for 2020–2026 Toyota Highlander: 6 Cross Bar Picks by Trim and Roof Rail"
+META = ("Six cross bar sets for the 4th-gen Highlander's factory side rails, incl. Toyota OEM and BRIGHTLINES, with load "
+        "ratings, trims and fuel costs.")
 
 FAQ = [
  ("What are the best cross bars for a 2020+ Toyota Highlander?",
@@ -35,7 +35,7 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Four cross bar sets for the 4th-generation Highlander's factory side rails, from about $80 to $140, plus the Thule and Yakima fixed-point systems etrailer lists at around $700. We list which trims have rails, each set's load rating and lock status, and what a roof load costs you in fuel.",
+ "dek": "Six cross bar sets for the 4th-generation Highlander's factory side rails, from about $80 clamp-on bars to Toyota's own PT767-48200, plus the Thule and Yakima fixed-point systems etrailer lists at around $700. We list which trims have rails, each set's load rating and lock status, and what a roof load costs you in fuel.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these bars ourselves. We ranked them on stated fitment (years and trims named in the listing), published load ratings, locks and price, and compared them with the Thule and Yakima systems etrailer lists for the 2020–2025 Highlander. Prices for Thule and Yakima were checked at etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
@@ -43,12 +43,13 @@ ARTICLE = {
   "**Check your roof first.** XLE, XSE, Limited and Platinum trims have factory side rails, per the listings here. Some Highlanders, possibly base L or LE, come bare and need a different system.",
   "**It's not a Grand Highlander.** That's a larger 2024+ vehicle with its own roof. Buy bars that name the 2020–2026 Highlander.",
   "**The rails have fixed points.** etrailer classes them as flush rails with fixed mounting points, which Thule's Evo Fixpoint and Yakima's SkyLine use. Amazon bars clamp to the rails instead.",
-  "**Gas, Hybrid, V6 and turbo all share fit.** The 2023 engine change didn't change the roof, and etrailer lists one Thule kit for 2020–2025.",
+  "**Toyota's own bars are rated at 165 lb.** Genuine PT767-48200 bars bolt to the rails; Toyota Canada lists 75 kg (165 lb) evenly distributed, and BRIGHTLINES' fixed-point replacement lists 154 lb.",
   "**Roof cargo costs fuel.** fueleconomy.gov puts a rooftop box at 10–25% worse at 65–75 mph. Take bars off when you don't need them.",
  ],
  "top_picks": [
   {"asin": "B08KW6ZVWR", "role": "Best overall (Amazon)", "why": "Listing covers 2020–2026 and names XLE, XSE, Limited and Platinum"},
   {"asin": "B0FCC3VV88", "role": "Best lockable", "why": "260 lb stated rating and anti-theft locks"},
+  {"asin": "B082ZSXR7R", "role": "Best factory fit (Toyota OEM)", "why": "Genuine PT767-48200 bars for XLE, Limited and Platinum, 165 lb per Toyota Canada"},
   {"asin": "B0C2PF9P84", "role": "Best stated rating for the price", "why": "220 lb listed for any 2020–2025 Highlander with raised side rails"},
   {"asin": "B08H5LH7BF", "role": "Best for Hybrid owners", "why": "Listing names the Hybrid alongside XLE, XSE, Limited and Platinum"},
  ],
@@ -66,7 +67,7 @@ ARTICLE = {
   {"h": "Roof type: rails, fixed points or bare",
    "body": "The 4th-gen Highlander's side rails run close to the roof. etrailer's fit data classes them as flush-mounted rails with fixed mounting points, which is how Thule's Evo Fixpoint feet and Yakima's SkyLine towers attach. The Amazon sets here clamp around the rails instead, and their listings describe them as side-rail bars. Either approach needs rails. If your roof is bare, you need a naked-roof system such as Yakima's BaseLine, which etrailer lists for the 2023 Highlander at $604.75 to $773.75. Door-jamb clip systems work on any roof, but they cost several times more than rail bars."},
   {"h": "Trim names in the listing",
-   "body": "Cross bar listings for this Highlander name trims, not just years, because rails vary. The Snailfly and HEKA listings name XLE, XSE, Limited and Platinum, HEKA adds the Hybrid, and the lockable 260 lb set names XLE, Limited and Platinum. None of the four names the L or LE. If you own one of those, look at the roof before ordering: if there are rails, measure them against the listing photos, and if the roof is bare, skip clamp-on bars altogether. A quick photo of your roof sent to the seller is the fastest way to settle it."},
+   "body": "Cross bar listings for this Highlander name trims, not just years, because rails vary. The Snailfly and HEKA listings name XLE, XSE, Limited and Platinum, HEKA adds the Hybrid, and the lockable 260 lb set names XLE, Limited and Platinum. None of the Amazon listings names the L or LE. If you own one of those, look at the roof before ordering: if there are rails, measure them against the listing photos, and if the roof is bare, skip clamp-on bars altogether. A quick photo of your roof sent to the seller is the fastest way to settle it."},
   {"h": "Load rating: bars vs roof",
    "body": "Each set lists its own rating. The Thule WingBar Evo and Yakima SkyLine systems carry 165 lb according to etrailer, the Richeer bars list 220 lb and the lockable set lists 260 lb. Those are bar ratings. The roof and rails have their own limit, which we couldn't find published for this generation, so check the owner's manual. The lowest of the three is what you can carry while driving, and it includes the weight of the bars and any box. Load heavy items low and centered between the bars, and strap long items to both bars."},
   {"h": "Years: 2020–2025 vs 2026 listings",
@@ -90,6 +91,8 @@ ARTICLE = {
   "head": ["Type", "Price", "Load rating", "Mount", "Best for"],
   "rows": [
    ["Amazon clamp-on bars", "About $80–$140", "220–260 lb listed (where stated)", "Clamp to factory side rails", "Most owners, occasional use"],
+   ["BRIGHTLINES OEM-style bars", "$145.99 (ASG Auto Sports)", "154 lb evenly distributed", "Preset holes in the factory rails", "Factory look for less"],
+   ["Toyota genuine PT767-48200", "Dealer price; confirm", "165 lb (Toyota Canada)", "Bolts to the factory rails", "Factory fit, dealer install"],
    ["Thule WingBar Evo", "$704.85 (etrailer)", "165 lb", "Evo Fixpoint feet + kit TH22RE", "Owners who want a documented system and lifetime warranty"],
    ["Yakima SkyLine + JetStream", "$694.85 (etrailer)", "165 lb", "SkyLine towers into the rails' fixed points", "Yakima accessory owners"],
    ["Naked-roof system (bare roof)", "$604.75–$773.75 (Yakima BaseLine, etrailer)", "Per system", "Clips to the door jambs", "Highlanders without rails"],
@@ -103,12 +106,24 @@ ARTICLE = {
    "body": "Snailfly's set is the best starting point because its listing is the most complete for this generation. It covers 2020 through 2026, so it includes the newest model year that several other listings stop short of. It also names the trims with factory side rails: XLE, XSE, Limited and Platinum. The bars clamp to those rails with no drilling, and at about $90–$130 the set costs a fraction of the roughly $700 Thule and Yakima systems etrailer lists.\n\nWhat the title doesn't give you is a load rating or a lock. Read the listing for the stated capacity, and remember that the roof and rails have their own limit, which you'll find in the owner's manual. If your Highlander is an L or LE, look at the roof first, because none of the listings here name those trims. The Snailfly listing is a good fit for most owners who carry a box, bikes or skis a few times a year. If you leave bars on all year in public parking, the lockable 260 lb set is the better choice.",
    "who": "Owners of a railed Highlander, including 2026 models, who want the clearest listing fit at a low price.",
    "specs": [["Type", "Clamp-on cross bars"], ["Fits", "2020–2026 Highlander XLE/XSE/Limited/Platinum (per listing)"], ["Roof", "Factory side rails"], ["Load rating", "Not in title; check listing"], ["Lock", "Not stated"], ["Install", "Clamp-on, no drilling"], ["Price band", "About $90–$130"]]},
+  {"asin": "B082ZSXR7R", "role": "Best factory fit (Toyota OEM)", "price": "$300–$450",
+   "pros": ["Genuine Toyota accessory, part PT767-48200", "Toyota says it mounts directly to the roof rails with included screws", "Contoured footings Toyota lists as compatible with panoramic roofs", "165 lb (75 kg) evenly distributed per Toyota Canada's accessory store", "12-month Toyota accessory warranty"],
+   "cons": ["Toyota's US page lists XLE, Limited and Platinum only; confirm XSE and Hybrid by VIN", "No lock mentioned", "Priced well above the aftermarket sets"],
+   "body": "Toyota's own cross bars, part PT767-48200, are the factory answer for a railed 4th-gen Highlander. Toyota's US parts site describes them as bars that mount directly to the roof rails, with aerodynamic styling and contoured footings compatible with panoramic roofs, and lists the XLE, Limited and Platinum as the trims. Dealer parts catalogs list the same part number for the 2020–2025 Highlander. Toyota Canada's accessory store, which sells the Highlander and Hybrid bars under PT767-48200 and PT767-48201, gives the rating: 75 kg, or 165 lb, evenly distributed across both bars. That is the same figure etrailer lists for the Thule and Yakima systems.\n\nWhat you are paying for is the fit. The bars bolt to the rails' preset points with the supplied screws, so nothing slides or needs centering, and the dealer can install them under Toyota's 12-month service warranty; installed elsewhere, the parts-only warranty is also 12 months. Toyota's page says to see the owner's manual for weight limits and mentions no lock, so bars left on in public lots are as exposed as the unlocked aftermarket sets. Toyota's US page doesn't name the XSE or the Hybrid, even though the aftermarket listings group them with the other railed trims, so have the dealer check your VIN. The Amazon title is a short part-number listing; match PT767-48200 before you buy.",
+   "who": "XLE, Limited and Platinum owners who want dealer-backed bars that match the factory look.",
+   "specs": [["Part number", "PT767-48200 (Toyota)"], ["Fits", "2020–2025 Highlander per dealer catalogs; XLE, Limited, Platinum per Toyota"], ["Mount", "Directly to factory roof rails with included screws"], ["Load rating", "165 lb (75 kg) evenly distributed, per Toyota Canada"], ["Panoramic roof", "Compatible footings (Toyota)"], ["Lock", "Not mentioned"], ["Warranty", "12 months (Toyota)"]]},
   {"asin": "B0FCC3VV88", "role": "Best lockable", "price": "$100–$140",
    "pros": ["Anti-theft locks", "260 lb stated rating, the highest here", "Names XLE, Limited and Platinum", "Clamps to the factory side rails", "Costs about the same as unlocked sets"],
    "cons": ["Listing stops at 2025", "XSE not named in the title; confirm", "260 lb is a bar rating, not a roof rating"],
-   "body": "If the bars will stay on the car, locks matter more than anything else, and this is the only set here that lists them. It also has the highest stated rating of the four, at 260 lb, and names the XLE, Limited and Platinum trims. At about $100–$140, the locks cost you very little over an unlocked set, and they stop someone lifting the bars in a parking lot with a hex key.\n\nKeep the 260 lb in context. It describes the bars, not the Highlander's roof or rails, so your real limit is whichever is lowest. Check the owner's manual before you load up a cargo box. The title stops at 2025 and doesn't name the XSE, so owners of a 2026 or an XSE should ask the seller before ordering. The XSE has factory side rails according to the Snailfly and HEKA listings, so fit is likely, but get it in writing. Before you order, compare the clamp photos on the listing with your rails, and check the return terms in case the fit is off.",
+   "body": "If the bars will stay on the car, locks matter more than anything else, and this is the only set here that lists them. It also has the highest stated rating on this page, at 260 lb, and names the XLE, Limited and Platinum trims. At about $100–$140, the locks cost you very little over an unlocked set, and they stop someone lifting the bars in a parking lot with a hex key.\n\nKeep the 260 lb in context. It describes the bars, not the Highlander's roof or rails, so your real limit is whichever is lowest. Check the owner's manual before you load up a cargo box. The title stops at 2025 and doesn't name the XSE, so owners of a 2026 or an XSE should ask the seller before ordering. The XSE has factory side rails according to the Snailfly and HEKA listings, so fit is likely, but get it in writing. Before you order, compare the clamp photos on the listing with your rails, and check the return terms in case the fit is off.",
    "who": "Owners who leave bars on year-round and park in public lots.",
    "specs": [["Type", "Clamp-on cross bars, lockable"], ["Fits", "2020–2025 Highlander XLE/Limited/Platinum (per listing)"], ["Roof", "Factory side rails"], ["Bar rating", "260 lb (per listing)"], ["Lock", "Anti-theft locks"], ["Install", "Clamp-on, no drilling"], ["Price band", "About $100–$140"]]},
+  {"asin": "B08R13N12N", "role": "Best OEM-style aftermarket", "price": "$130–$170",
+   "pros": ["Title names XLE, XSE, Limited, Platinum and Hybrid with the factory rails", "Mounts to the rails' preset mounting holes, no drilling", "154 lb rating when evenly distributed, per ASG Auto Sports", "Aluminum aero bars sold as a factory-bar replacement", "One-year warranty with tech support"],
+   "cons": ["No lock mentioned", "Amazon title stops at 2025 while the retailer page says 2020–2026; confirm a 2026", "154 lb is slightly below the 165 lb that Toyota, Thule and Yakima list"],
+   "body": "BRIGHTLINES builds this set as a replacement for Toyota's factory bars, and it attaches the same way: to the preset mounting holes in the Highlander's side rails, with no drilling. That is closer to the Toyota, Thule Evo Fixpoint and Yakima SkyLine approach than the clamp-on Amazon sets, and it means the bars sit at fixed positions rather than sliding. The Amazon title names the XLE, XSE, Limited, Platinum and Hybrid with flush side rails for 2020–2025, which covers the same railed trims as the Snailfly and HEKA listings; the title's \"flush\" is the same factory rail etrailer describes as flush with fixed points.\n\nASG Auto Sports, which sells BRIGHTLINES racks, lists the Highlander set at $145.99, with high-grade aluminum bars, an aero shape meant to keep wind noise down, a 154 lb rating when the load is evenly spread and a one-year manufacturer warranty with tech support. It lists the fit as 2020–2026; the Amazon title stops at 2025, so ask the seller if you own a 2026. Neither page mentions locks. Compared with Toyota's PT767-48200, you give up the dealer install and a few pounds of rating, and you usually pay much less than dealer pricing. Compared with the clamp-on sets, you get fixed-point mounting and a known brand with replacement parts.",
+   "who": "Railed-trim owners who want a factory-style fixed-point bar without dealer pricing.",
+   "specs": [["Type", "Aero aluminum crossbars, OEM-style replacement"], ["Fits", "2020–2025 Highlander XLE/XSE/Limited/Platinum/Hybrid (per title)"], ["Mount", "Preset mounting holes in the factory rails"], ["Load rating", "154 lb evenly distributed (ASG Auto Sports)"], ["Lock", "Not mentioned"], ["Price seen", "$145.99 (ASG Auto Sports)"], ["Warranty", "1 year"]]},
   {"asin": "B0C2PF9P84", "role": "Best stated rating for the price", "price": "$80–$120",
    "pros": ["220 lb stated rating", "Listed for any 2020–2025 Highlander with raised side rails", "Among the cheapest sets here", "Clamps to the rails, no drilling", "Simple fit rule: rails or no rails"],
    "cons": ["No lock mentioned", "Listing stops at 2025", "No trims named; the fit depends on having rails"],
@@ -137,14 +152,17 @@ ARTICLE = {
   {"h": "Leaving bars on all year", "body": "Empty bars still cost fuel. LBNL found empty racks were the biggest single factor in fuel wasted by roof racks."},
  ],
  "verdict": {
-  "thesis": "Check for rails, then buy the Snailfly set for the clearest 2020–2026 fit, the lockable 260 lb set if the bars stay on, or a Thule or Yakima fixed-point system if you want a lifetime warranty.",
-  "body": "On the Highlander, the rails decide everything. If your roof has them, the Amazon sets fit for about $80–$140. Snailfly's listing covers the most years and trims, the lockable 260 lb set is the one to leave on the car, Richeer gives a stated 220 lb rating for the least money, and HEKA names the Hybrid. If you want a documented system with a lifetime warranty, etrailer's Thule and Yakima fixed-point kits cost about $700. If your roof is bare, skip rail clamps entirely.\n\nOnce the bars are on, a cargo box is the usual next step, and the Highlander's Class III trailer hitch gives you a bike-rack option that costs less fuel. All-weather floor mats protect the three rows inside. The vehicle hub lists every fit-checked accessory for the Highlander.",
+  "thesis": "Check for rails, then buy the Snailfly set for the clearest 2020–2026 fit, the lockable 260 lb set if the bars stay on, Toyota's PT767-48200 or BRIGHTLINES' replacement for a factory look, or a Thule or Yakima fixed-point system if you want a lifetime warranty.",
+  "body": "On the Highlander, the rails decide everything. If your roof has them, the Amazon sets fit for about $80–$140. Snailfly's listing covers the most years and trims, the lockable 260 lb set is the one to leave on the car, Richeer gives a stated 220 lb rating for the least money, and HEKA names the Hybrid. Toyota's genuine bars and BRIGHTLINES' OEM-style replacement bolt to the rails' preset points instead of clamping, with 165 lb and 154 lb ratings. If you want a documented system with a lifetime warranty, etrailer's Thule and Yakima fixed-point kits cost about $700. If your roof is bare, skip rail clamps entirely.\n\nOnce the bars are on, a cargo box is the usual next step, and the Highlander's Class III trailer hitch gives you a bike-rack option that costs less fuel. All-weather floor mats protect the three rows inside. The vehicle hub lists every fit-checked accessory for the Highlander.",
  },
  "sources": [
   ["Thule WingBar Evo for Highlander flush rails, TH28YG (etrailer)", "https://www.etrailer.com/Roof-Rack/Thule/TH28YG.html"],
   ["Thule Evo Fixpoint fit kit 7100, TH22RE (etrailer)", "https://www.etrailer.com/Roof-Rack/Thule/TH22RE.html"],
   ["Yakima SkyLine with JetStream bars, Y94HB (etrailer)", "https://www.etrailer.com/Roof-Rack/Yakima/Y94HB.html"],
   ["2023 Toyota Highlander roof rack systems (etrailer)", "https://www.etrailer.com/roof-2023_Toyota_Highlander.htm"],
+  ["Toyota Roof Rack Cross Bars PT767-48200 (Toyota Parts)", "https://autoparts.toyota.com/products/product/roof-rack-cross-bars-xle-limited-platinum-pt76748200"],
+  ["Roof Rack Cross Bars 2020–2025 Highlander/Hybrid, 165 lb rating (Toyota Customs, Canada)", "https://toyotacustoms.com/products/roof-rack-cross-bars"],
+  ["BRIGHTLINES crossbars for 2020–2026 Highlander (ASG Auto Sports)", "https://www.asgautosports.com/products/brightlines-crossbars-roof-racks-compatible-with-toyota-highlander-2020-2025-for-kayak-luggage-ski-carrier"],
   ["Toyota Highlander, 4th generation XU70 (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Highlander"],
   ["Cargo box and rear carrier fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
   ["Fuel consumption impacts of auto roof racks (Lawrence Berkeley National Laboratory)", "https://eta.lbl.gov/publications/fuel-consumption-impacts-auto-roof"],
@@ -154,7 +172,9 @@ ARTICLE = {
 # Product list for this page (replaces the v2 list). (asin, name, brand, band, cond, note)
 FITS = [
  ("B08KW6ZVWR","Snailfly Cross Bars, 2020-2026 Highlander XLE/XSE/Limited/Platinum (side rails)","Snailfly","$90–$130",{"roof_type":"raised-rails"},"Side-rail trims; check load rating on listing."),
+ ("B082ZSXR7R","Toyota Genuine Roof Rack Cross Bars PT767-48200, 2020-2025 Highlander XLE/Limited/Platinum","Toyota","$300–$450",{"roof_type":"raised-rails"},"OEM part PT767-48200; Toyota lists XLE/Limited/Platinum — confirm XSE/Hybrid by VIN."),
  ("B0FCC3VV88","260 lb Lockable Cross Bars, 2020-2025 Highlander XLE/Limited/Platinum","Generic","$100–$140",{"roof_type":"raised-rails"},"Anti-theft locks; confirm XSE and 2026 with seller."),
+ ("B08R13N12N","BRIGHTLINES Crossbars Replacement, 2020-2025 Highlander XLE/XSE/Limited/Platinum/Hybrid with flush side rails","BRIGHTLINES","$130–$170",{"roof_type":"raised-rails"},"Bolts to factory rail mounting holes; confirm 2026 with seller."),
  ("B0C2PF9P84","Richeer 220 lb Cross Bars, 2020-2025 Highlander with raised side rails","Richeer","$80–$120",{"roof_type":"raised-rails"},"Raised rails only."),
  ("B08H5LH7BF","HEKA Cross Bars, 2020-2025 Highlander XLE/XSE/Limited/Platinum/Hybrid (factory side rails)","HEKA","$80–$120",{"roof_type":"raised-rails"},"Trims with factory side rails; names Hybrid."),
 ]
