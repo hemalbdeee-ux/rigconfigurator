@@ -150,7 +150,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy WeatherTech's full set for three rows from one brand, Husky's 95691 for US-made front and second-row liners, and Smartliner if you want the cargo area covered too.",
-  "body": "The Telluride is fit by its second row. Once you know bench, captain's chairs with a console, or without, the choice is straightforward. WeatherTech covers three rows with a lifetime limited warranty, Husky is the US-made choice for the busiest rows, Smartliner adds a cargo liner, TOUGHPRO is the rubber budget pick and SUPER LINER fits the no-console layout precisely.\n\nAfter the floors, most Telluride owners add a trailer hitch for a bike rack or small trailer, and a roof rack on the factory rails."},
+  "body": "The Telluride is fit by its second row. Once you know bench, captain's chairs with a console, or without, the choice is straightforward. WeatherTech covers three rows with a lifetime limited warranty, Husky is the US-made choice for the busiest rows, Smartliner adds a cargo liner, TOUGHPRO is the rubber budget pick and SUPER LINER fits the no-console layout precisely.\n\nAfter the floors, most Telluride owners add a trailer hitch for a bike rack or small trailer, and a roof rack on the factory rails. Whichever liners you choose, check the driver side every few weeks; it's the piece that wears first and the one that matters for safety."},
  "sources": [
   ["WeatherTech FloorLiner HP buying guide (WeatherTech)", "https://www.weathertech.com/blog/product-spotlight/new-weathertech-floorliner-hp.html"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
