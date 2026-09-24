@@ -10,7 +10,7 @@ META = ("Seven Maverick floor liner options from Husky, WeatherTech, Mixsuper, o
 
 FAQ = [
  ("Why are Maverick liners split by hybrid and EcoBoost?",
-  "The Maverick Hybrid places its battery under the rear seat, and that changes the rear floor compared with the 2.0L EcoBoost truck. Husky sells separate sets: 95401 for hybrid models and 95051 for the EcoBoost. Most budget listings name one or the other. Check the badge on the tailgate or your window sticker before ordering."),
+  "The Maverick Hybrid places its battery under the rear seat, and that changes the rear floor compared with the 2.0L EcoBoost truck. Husky sells separate sets: 95401 for hybrid models and 95051 for the EcoBoost. Most budget listings name one or the other. Check your window sticker or the hybrid badge before ordering."),
  ("Do front liners differ between hybrid and EcoBoost?",
   "Husky sells its full sets by powertrain, and WeatherTech sells an all-weather front mat listed for the Maverick Hybrid. The front footwell is similar, but because makers package front and rear together by powertrain, the simplest approach is to buy the full set for your powertrain."),
  ("Does the 2025 Maverick refresh change liners?",
@@ -60,14 +60,14 @@ ARTICLE = {
   "caption": "2022–2026 Maverick: powertrain decides the rear liner",
   "head": ["Powertrain", "How to tell", "Liners"],
   "rows": [
-   ["Hybrid (FWD; AWD from 2025)", "Hybrid badge; standard on many trims", "Husky 95401, Mixsuper, otoez, SHINJEW"],
+   ["Hybrid (FWD; AWD from 2025)", "Hybrid badge; window sticker", "Husky 95401, Mixsuper, otoez, SHINJEW"],
    ["2.0L EcoBoost (incl. Tremor)", "EcoBoost badge or window sticker", "Husky 95051, budget gas set"],
    ["Rear under-seat storage", "Flip-up rear cushions", "Check cushion clearance after install"],
   ],
  },
  "look_for": [
   {"h": "Hybrid or EcoBoost",
-   "body": "The Maverick is sold with a hybrid powertrain or the 2.0L EcoBoost, and the hybrid's battery sits under the rear seat. That changes the rear floor enough that liner makers sell separate sets. Husky's 95401 is for hybrid models only and its 95051 for the EcoBoost gas model only. Mixsuper, otoez and SHINJEW all say hybrid only; the budget floor-and-cargo set says not hybrid. Check your tailgate badge or window sticker before comparing anything else. The Tremor package is EcoBoost."},
+   "body": "The Maverick is sold with a hybrid powertrain or the 2.0L EcoBoost, and the hybrid's battery sits under the rear seat. That changes the rear floor enough that liner makers sell separate sets. Husky's 95401 is for hybrid models only and its 95051 for the EcoBoost gas model only. Mixsuper, otoez and SHINJEW all say hybrid only; the budget floor-and-cargo set says not hybrid. Check your window sticker or the hybrid badge before comparing anything else. The Tremor package is EcoBoost."},
   {"h": "Front and rear as a set",
    "body": "Because the rear floor differs by powertrain, makers package front and rear together by powertrain rather than selling a universal front pair. Husky does sell individual hybrid front and second-row pieces (15841 and 16831), and WeatherTech sells an all-weather front mat listed for the Maverick Hybrid. For most owners, buying the full set for your powertrain is simpler and avoids mismatched edges."},
   {"h": "Rear storage bins",
@@ -108,7 +108,7 @@ ARTICLE = {
   {"asin": "B09SKRHKDY", "role": "Best for EcoBoost", "price": "$140–$200",
    "pros": ["Cut for the EcoBoost gas model", "Made in the USA", "Lifetime warranty against cracks and breaks", "Fits the Tremor (EcoBoost)", "Lists 2022–2026"],
    "cons": ["EcoBoost only", "Firm feel", "Fewer budget alternatives for EcoBoost"],
-   "body": "Husky's WeatherBeater 95051 is the EcoBoost counterpart, listed for 2022–2026 Maverick EcoBoost gas models only. It shares the same WeatherBeater credentials: laser-measured, made in the USA, StayPut nibs and a lifetime crack warranty.\n\nEcoBoost owners have fewer liner options than hybrid owners, because many budget brands cut only hybrid sets. That makes this Husky set especially useful for the Tremor, which is EcoBoost-only and often used on dirt roads.\n\nThe tall walls hold trail mud and snowmelt. Check the rear cushions latch cleanly after installing. If you're unsure which powertrain you have, the window sticker lists it, and the EcoBoost badge on the tailgate is the quick visual check.",
+   "body": "Husky's WeatherBeater 95051 is the EcoBoost counterpart, listed for 2022–2026 Maverick EcoBoost gas models only. It shares the same WeatherBeater credentials: laser-measured, made in the USA, StayPut nibs and a lifetime crack warranty.\n\nEcoBoost owners have fewer liner options than hybrid owners, because many budget brands cut only hybrid sets. That makes this Husky set especially useful for the Tremor, which is EcoBoost-only and often used on dirt roads.\n\nThe tall walls hold trail mud and snowmelt. Check the rear cushions latch cleanly after installing. If you're unsure which powertrain you have, the window sticker lists it; hybrid trucks also carry a hybrid badge.",
    "who": "EcoBoost and Tremor owners.",
    "specs": [["Part #", "Husky 95051"], ["Pieces", "3"], ["Fits", "2022–2026 Maverick, EcoBoost gas only"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
   {"asin": "B0FY7JGDS5", "role": "Best WeatherTech", "price": "$180–$240",
