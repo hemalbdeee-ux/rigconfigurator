@@ -9,14 +9,7 @@ def add(make, model, gen, cat, rows):
         F.append((asin, name, brand, cat, band, make, model, gen, cond, note, i))
 
 # ---------------- F-150 2021+ tonneau
-add("ford","f-150","2021-present","tonneau-covers",[
- ("B0B94WC2F1","Tyger Auto T3 Soft Tri-Fold Tonneau Cover, 2021-2026 F-150 & Lightning, 5.5 ft","Tyger Auto","$250–$320",{"bed_length_in":66},"Lists Lightning fitment; not for beds with utility track."),
- ("B0DK3928N1","OEDRO FRP Hard Tri-Fold Tonneau Cover, 2015-2025 F-150, 5.5 ft","OEDRO","$300–$400",{"bed_length_in":66},"Hard FRP panels; utility track must be removed."),
- ("B0C4G2H93V","XTWEEX Hard Tri-Fold Tonneau Cover, 2015-2026 F-150, 5.5 ft","XTWEEX","$300–$400",{"bed_length_in":66},"Fiberglass panels, no-drill clamps."),
- ("B0BXVQ85RQ","Just-V Hard Tri-Fold Tonneau Cover, 2015-2026 F-150 Crew Cab, 5.5 ft (excl. Raptor)","Just-V","$300–$380",{"bed_length_in":66},"Excludes Raptor."),
- ("B0C4FWZZFV","Soft Roll-Up Tonneau Cover, 2015-2026 F-150, 6.5 ft Standard Box","Generic","$150–$200",{"bed_length_in":78},"6.5 ft bed only."),
- ("B0CFXLJYBM","Soft Roll-Up Tonneau Cover, 2015-2025 F-150 Fleetside, 6.5 ft (78.9 in)","Generic","$150–$200",{"bed_length_in":78},"6.5 ft bed only."),
-])
+# F-150 2021+ tonneau list now lives in articles/ford_f150_2021_tonneau.py (FITS)
 
 # ---------------- Silverado 1500 2019+ tonneau
 _SILV = [

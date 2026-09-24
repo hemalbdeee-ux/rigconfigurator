@@ -77,3 +77,17 @@ export async function siblingsOf(v: Vehicle & { make_id?: number }): Promise<Veh
      ORDER BY (v.make_id = $2) DESC, (v.model_slug = $4) DESC, v.year_from DESC LIMIT 6`,
     [v.id, v.make_id, v.body_style, v.model_slug]);
 }
+
+export type GuideLink = { path: string; title: string; vehicle: string; category: string };
+
+// Other published guides for the same vehicle, then the same category on sibling vehicles.
+export async function relatedGuides(vehicleId: number, categoryId: number, limit = 6): Promise<GuideLink[]> {
+  return q<GuideLink>(`
+    SELECT '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path, fp.title,
+           v.year_from||'–'||COALESCE(v.year_to::text,'present')||' '||m.name||' '||v.model_name AS vehicle, c.name AS category
+    FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
+    WHERE fp.status='published' AND NOT (fp.vehicle_id=$1 AND fp.category_id=$2)
+      AND (fp.vehicle_id=$1 OR (fp.category_id=$2 AND v.body_style=(SELECT body_style FROM vehicles WHERE id=$1)))
+    ORDER BY (fp.vehicle_id=$1) DESC, (v.make_id=(SELECT make_id FROM vehicles WHERE id=$1)) DESC, v.year_from DESC
+    LIMIT $3`, [vehicleId, categoryId, limit]);
+}

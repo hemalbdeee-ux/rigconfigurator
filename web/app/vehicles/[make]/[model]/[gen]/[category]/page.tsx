@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allFitmentPaths, fitsFor, getCategory, getFitmentPage, getVehicle, vehiclePath, vehicleTitle } from "@/lib/queries";
+import { allFitmentPaths, fitsFor, getCategory, getFitmentPage, getVehicle, relatedGuides, vehiclePath, vehicleTitle } from "@/lib/queries";
+import { ArticleView, type Article } from "@/components/ArticleView";
+import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
 import { SITE_URL, amazonUrl, money } from "@/lib/db";
 
@@ -17,8 +19,8 @@ async function load(p: P) {
   const v = await getVehicle(p.make, p.model, p.gen);
   const c = await getCategory(p.category);
   if (!v || !c) return null;
-  const [fits, page] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id)]);
-  return { v, c, fits, page };
+  const [fits, page, related] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id), relatedGuides(v.id, c.id)]);
+  return { v, c, fits, page, related };
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
@@ -47,7 +49,8 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   const p = await params;
   const d = await load(p);
   if (!d) notFound();
-  const { v, c, fits, page } = d;
+  const { v, c, fits, page, related } = d;
+  const article: Article | null = page?.article ?? null;
   const path = `${vehiclePath(v)}/${c.slug}`;
   const title = page?.title ?? `Best ${c.name} for ${vehicleTitle(v)}`;
   const faq: { q: string; a: string }[] = page?.faq ?? [];
@@ -61,9 +64,20 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
         { "@type": "ListItem", position: 3, name: c.name, item: `${SITE_URL}${path}` }] },
       { "@type": "ItemList", name: title, itemListElement: fits.map((f, i) => ({
         "@type": "ListItem", position: i + 1, url: amazonUrl(f.asin), name: f.name })) },
+      ...(article ? [{ "@type": "Article", headline: title, description: page?.meta_desc, mainEntityOfPage: `${SITE_URL}${path}`,
+        author: { "@type": "Person", name: getAuthor(article.author).name, url: `${SITE_URL}/about` },
+        publisher: { "@type": "Organization", name: "Rig Configurator", url: SITE_URL },
+        dateModified: article.reviewed ?? page?.updated_at, datePublished: page?.verified_at }] : []),
       ...(faq.length ? [{ "@type": "FAQPage", mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
     ],
   };
+
+  if (article) return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <ArticleView v={v} c={c} fits={fits} a={article} title={title} faq={faq} related={related} path={path} verifiedAt={page?.verified_at} />
+    </>
+  );
 
   return (
     <>

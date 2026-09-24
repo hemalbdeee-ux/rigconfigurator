@@ -91,6 +91,7 @@ CREATE TABLE fitment_pages (
   install_md    TEXT,
   faq           JSONB DEFAULT '[]',        -- [{q,a}]
   verdict_md    TEXT,
+  article       JSONB,                     -- long-form article (playbook standard); see db/content/articles
   status        TEXT DEFAULT 'draft',      -- draft | review | published | noindex
   verified_at   DATE,
   updated_at    TIMESTAMPTZ DEFAULT now(),

@@ -7,8 +7,6 @@ const SECTIONS: Record<string, string> = {
   tools: "Tools — hitch class finder, bed-length checker, tow capacity calculator.",
   deals: "Deals — Amazon price drops on racks, covers and hitches.",
   laws: "Laws by state — window tint, lift height, light bar rules.",
-  about: "About Rig Configurator.",
-  disclosure: "Affiliate disclosure: As an Amazon Associate we earn from qualifying purchases.",
   privacy: "Privacy policy.",
   terms: "Terms of use.",
 };
