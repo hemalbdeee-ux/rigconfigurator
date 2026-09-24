@@ -33,6 +33,8 @@ FAQ = [
   "The cargo floor is shared across 2019–2024 trims, including the Wilderness, though some trims add accessories like a cargo tray or net. A cargo liner cut for the 5th-gen Forester fits all of them. If you have an aftermarket drawer or subwoofer in the cargo area, measure before ordering, since a molded cargo liner needs a clear floor."),
  ("Do liners help with resale value?",
   "They help keep the carpet in the condition buyers and dealers notice first. A stained or salt-damaged driver footwell is one of the quickest ways a car looks used hard. Liners that come out easily and get cleaned often keep the carpet underneath close to new, which is worth more at trade-in than most of the price difference between liner brands."),
+ ("Do I need a separate liner for the rear center hump?",
+  "No. The Forester's rear floor is fairly flat, and the rear liners on this page are cut to run across the center area. Husky's 95891 uses a one-piece rear, and Subaru's set of four includes rear pieces shaped for the floor. Check listing photos if you carry a middle passenger often, since a one-piece rear is easier to clean than two separate mats."),
 ]
 
 ARTICLE = {
