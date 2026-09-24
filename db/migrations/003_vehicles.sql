@@ -84,8 +84,8 @@ VALUES
 
 -- ===================== SUVs =====================
 ((SELECT id FROM makes WHERE slug='toyota'),'4runner','4Runner','2010-2024','5th Gen (N280)',2010,2024,'suv',
- '{}','raised-rails',165,'3',2,5000,'265/70R17','6x139.7',2,
- '{"trd_pro_factory_rack":"basket rack replaces rails on TRD Pro","rear_window":"power roll-down","third_row":"optional (Limited/SR5)","fit_note":"crossbar kits for raised rails; TRD Pro needs basket-compatible mounts"}',
+ '{}','raised-rails',120,'3',2,5000,'265/70R17','6x139.7',2,
+ '{"trd_pro_factory_rack":"basket rack replaces rails on TRD Pro","rear_window":"power roll-down","third_row":"optional (Limited/SR5)","roof_load":"120 lb per 2016 owner''s manual (as quoted by Trail4Runner) — confirm in your manual","fit_note":"crossbar kits for raised rails; TRD Pro needs basket-compatible mounts"}',
  'Factory raised rails on most trims (TRD Pro has a basket rack instead). Long generation = huge aftermarket; hitch is Class III on tow-package trucks.'),
 
 ((SELECT id FROM makes WHERE slug='toyota'),'4runner','4Runner','2025-present','6th Gen (N410)',2025,NULL,'suv',
@@ -103,9 +103,9 @@ VALUES
  '{"doors":["2-door","4-door"],"roof":"removable hardtop / soft top; hardtop has factory rail mounting points on some trims","spare":"tailgate-mounted","variants":["Raptor","Badlands","Sasquatch pkg (35 in tires)"]}',
  'Removable hardtop/soft top; roof racks mount to hardtop rails or exo-racks. Tailgate spare affects bike racks.'),
 
-((SELECT id FROM makes WHERE slug='toyota'),'rav4','RAV4','2019-present','5th Gen (XA50)',2019,NULL,'suv',
+((SELECT id FROM makes WHERE slug='toyota'),'rav4','RAV4','2019-present','5th Gen (XA50)',2019,2025,'suv',
  '{}','raised-rails',165,'2',1.25,3500,'225/65R17','5x114.3',2,
- '{"rails":"raised rails standard on XLE and up; LE has bare roof","hitch":"1.25 in Class I/II factory; aftermarket 2 in Class III common","tow":"1,500 lb std; 3,500 lb Adventure/TRD Off-Road","hybrid":"RAV4 Hybrid + Prime share fit"}',
+ '{"rails":"raised rails standard on XLE and up; LE has bare roof","hitch":"1.25 in Class I/II factory; aftermarket 2 in Class III common","tow":"1,500 lb std; 3,500 lb Adventure/TRD Off-Road","hybrid":"RAV4 Hybrid + Prime share fit","fit_note":"2026 RAV4 is a new generation — these fitments stop at 2025"}',
  'Best-selling SUV. Raised rails on XLE+ (LE is bare roof — different crossbar kit). Tow rating depends heavily on trim.'),
 
 ((SELECT id FROM makes WHERE slug='honda'),'cr-v','CR-V','2023-present','6th Gen',2023,NULL,'suv',
@@ -118,9 +118,9 @@ VALUES
  '{"rails":"raised rails standard on most trims","third_row":true,"hybrid":"Hybrid shares fit","grand_highlander":"different vehicle (2024+) — do not mix"}',
  'Three-row family SUV with raised rails; Class III hitch and 5,000 lb tow. Grand Highlander is a different vehicle.'),
 
-((SELECT id FROM makes WHERE slug='subaru'),'outback','Outback','2020-present','6th Gen (BT)',2020,NULL,'suv',
+((SELECT id FROM makes WHERE slug='subaru'),'outback','Outback','2020-present','6th Gen (BT)',2020,2025,'suv',
  '{}','raised-rails',176,'2',1.25,3500,'225/60R18','5x114.3',2,
- '{"rails":"raised rails with integrated swing-out crossbars (most trims); Wilderness has fixed ladder-style rack","hitch":"1.25 in factory; 2 in aftermarket common","tow":"2,700 lb std; 3,500 lb XT/Wilderness","fit_note":"crossbars for integrated-rail Outbacks differ from standard raised rails"}',
+ '{"rails":"raised rails with integrated swing-out crossbars (most trims); Wilderness has fixed ladder-style rack","hitch":"1.25 in factory; 2 in aftermarket common","tow":"2,700 lb std; 3,500 lb XT/Wilderness","fit_note":"crossbars for integrated-rail Outbacks differ from standard raised rails; 2026 Outback is a new generation"}',
  'Integrated swing-out crossbars on most trims (Wilderness has a fixed rack) — check which rail style before buying a crossbar kit.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'forester','Forester','2019-2024','5th Gen (SK)',2019,2024,'suv',
@@ -153,15 +153,15 @@ VALUES
  '{"rails":"raised rails standard","third_row":true,"suburban":"same fit for roof/hitch; different cargo mats","variants":["Z71","RST","High Country"]}',
  'Full-size three-row; raised rails, Class IV hitch, 8,400 lb tow. Suburban shares roof and hitch fit.'),
 
-((SELECT id FROM makes WHERE slug='kia'),'telluride','Telluride','2020-present','1st Gen',2020,NULL,'suv',
- '{}','raised-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,
- '{"rails":"raised rails standard","third_row":true,"variants":["X-Line","X-Pro 2023+"],"fit_note":"2026 is a new generation"}',
- 'Three-row with raised rails and 5,000 lb tow (Class III). 2026 model year is a redesign.'),
+((SELECT id FROM makes WHERE slug='kia'),'telluride','Telluride','2020-present','1st Gen',2020,2025,'suv',
+ '{}','flush-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,
+ '{"rails":"flush side rails on LX/S/EX/SX/SX-P; raised rails with a gap on X-Line/X-Pro (2023+)","third_row":true,"variants":["X-Line","X-Pro 2023+"],"fit_note":"Kia skipped the 2026 model year; the next generation is the 2027 Telluride"}',
+ 'Three-row with flush side rails (raised on X-Line/X-Pro) and 5,000 lb tow (Class III). The next generation starts with the 2027 model year.'),
 
 ((SELECT id FROM makes WHERE slug='hyundai'),'palisade','Palisade','2020-2025','1st Gen (LX2)',2020,2025,'suv',
- '{}','raised-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,
- '{"rails":"raised rails standard","third_row":true,"variants":["XRT 2023+"],"fit_note":"2026 is a new generation"}',
- 'Telluride twin: raised rails, Class III, 5,000 lb. 2026 is a new generation.'),
+ '{}','flush-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,
+ '{"rails":"flush side rails (Thule/etrailer classify them as flush)","third_row":true,"variants":["XRT 2023+"],"fit_note":"2026 is a new generation"}',
+ 'Telluride twin: flush side rails, Class III, 5,000 lb. 2026 is a new generation.'),
 
 ((SELECT id FROM makes WHERE slug='honda'),'pilot','Pilot','2023-present','4th Gen',2023,NULL,'suv',
  '{}','raised-rails',NULL,'3',2,5000,'255/60R18','5x120',3,
