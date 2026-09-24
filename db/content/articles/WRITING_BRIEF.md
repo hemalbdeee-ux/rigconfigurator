@@ -60,3 +60,18 @@ vehicle facts, e.g. `{"bed_length_in": 67}`, `{"cab": "Crew Cab"}`, `{"roof_type
 Run `python3 db/content/validate_articles.py db/content/articles/<your files>` from the repo root
 (`/home/claude/rigconfigurator`) and fix every ✗ until PASS. Report: file names, word counts, picks+ASINs,
 and any fact you could not verify.
+
+## Search budget (important)
+The whole session shares ~200 web searches. Use at most ~8 WebSearch calls per page:
+start from the existing rows for your page in `db/content/fitments_v1.py` / `fitments_v2.py`
+(already-verified ASINs), then search only for the brand-name picks you're missing. Prefer WebFetch on
+maker/RealTruck/etrailer pages (not counted as searches) for specs. If you run out, finish with what you have
+(≥4 picks) rather than stopping mid-file.
+
+## Category notes
+- **hitches**: fit = vehicle-specific frame brackets; receiver 1.25 vs 2 in; hitch class/GTW/TW vs the
+  VEHICLE's tow rating (the lower wins); factory tow package/receiver presence by trim; fascia trimming;
+  exhaust/spare-tire clearance; hybrids/EVs; wiring harness (4-flat/7-way) as a must-buy add-on.
+  Brands: CURT, Draw-Tite, Reese, B&W, Husky, OEM (Mopar/Ford/Toyota), plus reputable budget brands.
+- **roof racks / cargo boxes / bed racks / light bars**: see the articles already written in this folder for
+  that category and keep the same depth; don't copy their text.

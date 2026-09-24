@@ -1,0 +1,180 @@
+"""Long-form article — Best Trailer Hitches for 2020–2026 Tesla Model Y (incl. 2025 Juniper refresh).
+Mirrors the approved pilot (ford_f150_2021_tonneau.py), adapted to hitch logic: build year replaces bed length,
+and the vehicle's own tow rating (Tesla owner's manual) caps every hitch rating. No invented hands-on testing:
+specs come from the Tesla Shop, Tesla owner's manual, CURT, Stealth Hitches and etrailer pages in sources
+(checked 2026-09-24).
+"""
+
+KEY = ("tesla", "model-y", "2020-present", "hitches")
+
+TITLE = "Best Hitches for 2020–2026 Tesla Model Y: 6 Picks vs the $1,300 Tesla Tow Package"
+META = ("Tesla's $1,300 Model Y Tow Package vs six aftermarket hitches, matched by build year (2020–2024, 2025 "
+        "Juniper, 2026) with the 3,500 lb and 160 lb bike-rack limits.")
+
+FAQ = [
+ ("What is the best trailer hitch for a Tesla Model Y?",
+  "If you plan to tow a trailer, Tesla's own Model Y Tow Package. Tesla lists it at $1,300 with shipping and Service Center installation included, and it is the only option that comes with Tesla's 7-pin connector and the Trailer Mode software. If you only want a bike rack or a cargo carrier, the CURT Class 3 hitch kit is the best aftermarket pick for 2020–2022 cars: CURT rates the hitch at 3,500 lb and 525 lb tongue weight, and the kit adds a plug-in 4-way harness."),
+ ("How much can a Model Y tow?",
+  "Tesla's owner's manual gives 3,500 lb (1,588 kg) maximum towing capacity and 350 lb (159 kg) maximum tongue weight for the 5-seat and Performance cars, regardless of wheel size, with five or fewer passengers. Six- and seven-seat cars range from 2,300 to 3,500 lb depending on wheels and passenger count. Tesla also asks for 42 psi cold tire pressure when towing. No aftermarket hitch raises those numbers, whatever its own rating says."),
+ ("How much weight can a bike rack put on a Model Y hitch?",
+  "Tesla's manual limits accessory carriers such as bike racks to vertical loads of 160 lb (72 kg). That figure covers the rack and the bikes together. A two-bike platform rack that weighs around 50 lb leaves roughly 110 lb for bikes, which is fine for two regular bikes but tight for two e-bikes. Check the rack's weight and your bikes' weights before you buy a four-bike carrier."),
+ ("Does a 2020–2024 Model Y hitch fit the 2025 Juniper?",
+  "Don't assume it does. The aftermarket treats the build years as different cars: CURT lists its hitch for 2020–2023, the Draw-Tite listing stops at 2024, one budget listing is sold for the 2025 Juniper only and says it does not fit 2026, and Stealth Hitches sells separate hitches for 2020–2022, 2023–2024 and 2026. Tesla says its own tow package is compatible with all Model Y vehicles. Buy the listing that names your build year."),
+ ("Can I buy Tesla's tow package after delivery?",
+  "Yes. Tesla sells the Model Y Tow Package in the Tesla Shop as well as in the configurator. The $1,300 price includes shipping to your chosen Service Center and installation there. It includes the steel tow bar with a 2 in receiver, the 7-pin connector, the trailer harness and the tow mode software. Ball mounts are sold separately. At our last check the shop showed it as out of stock with an email alert, so check availability before you plan a trip around it."),
+ ("Does an aftermarket hitch turn on Trailer Mode?",
+  "Tesla's tow package includes a 'tow mode software package', and its support page says Trailer Mode switches on automatically when a trailer is plugged into the 7-pin connector. The aftermarket harness here, CURT 56532, is a 4-way flat plug that taps into the taillight wiring, and CURT does not claim it triggers Trailer Mode. If you need Trailer Mode's longer following distance and parking-sensor changes, confirm with Tesla before buying an aftermarket setup."),
+ ("Is a Model Y hitch visible from behind?",
+  "On most of these hitches, only the receiver is. CURT describes its Model Y hitch as having a concealed main body, and an etrailer install video describes the Draw-Tite Model Y hitch as completely hidden behind the bumper. Stealth Hitches and EcoHitch go further: the receiver itself detaches or sits behind the bumper and nothing hangs down when it is not in use. The trade-off is price. etrailer lists the EcoHitch Invisi and Stealth hidden hitch at $387 and $638."),
+ ("Do I need to cut the bumper to install a Model Y hitch?",
+  "You remove it, and on some hitches you give up part of the structure behind it. etrailer lists CURT's Model Y hitch with temporary removal of the bumper fascia and notes that it 'requires permanent removal of the impact structure', with the hitch taking its place. An etrailer expert says the Draw-Tite also replaces the bumper beam, while the EcoHitch sits lower and keeps it. etrailer rates the CURT and EcoHitch installs 10 out of 10 for difficulty."),
+ ("Will a hitch-mounted bike rack affect range less than a roof rack?",
+  "Generally yes, because the bikes sit behind the car rather than up in the airflow over the roof. That is the main reason Model Y owners buy a hitch at all. Keep the 160 lb vertical limit in mind, and remember that a rack that blocks the rear camera or the lower taillights needs a light board or a careful check before a long drive."),
+ ("Which wiring do I need for a Model Y hitch?",
+  "With Tesla's tow package, nothing extra: the 7-pin connector and harness are included. With an aftermarket hitch on a 2020–2022 car, CURT's 56532 plug-in harness gives a 4-way flat connector for tail, brake and turn lights; CURT lists it for the 2020, 2021 and 2022 Model Y and rates the install as novice. For 2023 and later cars, confirm harness fit on the listing, because 56532 doesn't list those years."),
+]
+
+ARTICLE = {
+ "dek": "Tesla's $1,300 factory tow package against six aftermarket hitches for the 2020–2026 Model Y, sorted by build year, with the 3,500 lb tow limit, the 160 lb bike-rack limit, and the Juniper fit changes most lists skip.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these hitches ourselves. We ranked them on published ratings (class, gross trailer weight, tongue weight), on the Model Y build years each maker or listing names, and on install details from CURT, Stealth Hitches and etrailer. The vehicle's limits come from Tesla's Model Y owner's manual and the Tesla Shop. Prices were checked at Tesla, etrailer and the makers in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Tesla's limits cap every hitch.** The manual gives 3,500 lb towing, 350 lb tongue weight and 160 lb vertical load for bike racks. A hitch rated 525 lb tongue weight doesn't change that.",
+  "**The factory tow package is the only route to Tesla's 7-pin plug and Trailer Mode.** Tesla lists it at $1,300 installed, and says it fits all Model Y vehicles.",
+  "**Build year decides aftermarket fit.** CURT lists 2020–2023, Draw-Tite's listing stops at 2024, and 2025 Juniper and 2026 cars have their own part numbers.",
+  "**Most bolt-on hitches replace the rear impact structure.** etrailer notes this for the CURT and Draw-Tite; EcoHitch sits lower and keeps it.",
+  "**Budget a harness.** An aftermarket hitch comes without lights; CURT's 56532 plug-in 4-way covers 2020–2022 cars.",
+ ],
+ "top_picks": [
+  {"asin": "B0H8ZSCKL4", "role": "Best aftermarket kit (2020–2022)", "why": "CURT Class 3 hitch plus plug-in 4-way harness; 3,500 lb GTW, 525 lb TW hitch rating"},
+  {"asin": "B08YPB5F5Y", "role": "Best brand-name for 2020–2024", "why": "Draw-Tite Max-Frame that etrailer shows hidden behind the bumper"},
+  {"asin": "B0F2MDYT6Z", "role": "Best for 2025 Juniper", "why": "Listed for the 2025 refresh only, which is the fit problem most hitches ignore"},
+  {"asin": "B09TQVQKGH", "role": "Best budget", "why": "Class 3, 2 in receiver, listed for 2020–2026 Model Y"},
+  {"asin": "B0DD7XP7JZ", "role": "Must-buy wiring add-on", "why": "CURT 56532 plug-in 4-way harness for 2020–2022, no splicing"},
+ ],
+ "fit_table": {
+  "caption": "Model Y build years and which hitches list them (the hitch must match the build, not just the name)",
+  "head": ["Build", "Tesla Tow Package", "Aftermarket options that list it", "Notes"],
+  "rows": [
+   ["2020–2022", "Yes (fits all Model Y)", "CURT 13598 and kit, Draw-Tite 76430, CURT 56532 harness, Stealth SHR25065, LOCAME", "Widest choice. The only years the CURT harness lists."],
+   ["2023–2024", "Yes", "CURT 13598 (2023), Draw-Tite 76430, Stealth SHR25069, LOCAME", "Confirm harness fit; 56532 stops at 2022."],
+   ["2025 (Juniper refresh)", "Yes", "Juniper-only Class 3 (B0F2MDYT6Z), LOCAME", "New full-width rear light bar and bumper. Early-2025 builds can be the old body."],
+   ["2026", "Yes", "Stealth SHR09004 (2026 only), LOCAME", "Stealth says SHR09004 does not fit 2025."],
+   ["6- or 7-seat", "Yes, lower rating", "Same hitches as the build year", "Tesla rates 2,300–3,500 lb by wheels and passengers."],
+  ],
+ },
+ "look_for": [
+  {"h": "Your build year, not just 'Model Y'",
+   "body": "The Model Y looks like one car from 2020 to 2026, but hitch makers don't treat it that way. CURT lists its Class 3 hitch for 2020–2023. The Draw-Tite listing covers 2020–2024. One budget hitch is sold for the 2025 Juniper only and says it won't fit 2026. Stealth Hitches sells separate hitches for 2020–2022, 2023–2024 and 2026, and says the 2026 one does not fit a 2025. The March 2025 refresh changed the rear bumper and lights, and the build date on the door jamb tells you which body you have. An early-2025 car can still be the old one."},
+  {"h": "The car's rating, not the hitch's",
+   "body": "Tesla's manual sets the limits: 3,500 lb towing and 350 lb tongue weight for the 5-seat and Performance cars, and 2,300–3,500 lb for 6- and 7-seat cars depending on wheels and passengers. For bike racks and cargo carriers the limit is 160 lb of vertical load. CURT rates its hitch at 525 lb tongue weight and some budget listings print 6,500 lb, but the lowest number in the chain wins. Plan loads around 350 lb and 160 lb, whatever the hitch sticker says."},
+  {"h": "Factory tow package or aftermarket",
+   "body": "Tesla's $1,300 Tow Package includes a steel tow bar with a 2 in receiver, the 7-pin connector, the harness and the tow mode software, and Tesla installs it at a Service Center. Trailer Mode switches on when a trailer is plugged in, lengthens cruise-control following distance and changes parking-sensor behavior. An aftermarket hitch costs a third to a quarter as much and is fine for a bike rack. If you tow a trailer regularly, the factory package is the cleaner setup."},
+  {"h": "What happens to the bumper structure",
+   "body": "This is the Model Y detail most listings leave out. etrailer notes that CURT's Model Y hitch requires permanent removal of the rear impact structure, with the hitch replacing it, and an etrailer expert says the Draw-Tite also replaces the bumper beam. EcoHitch mounts lower and keeps it. etrailer rates the CURT and EcoHitch installs 10 out of 10 for difficulty. If that concerns you, or the car is leased, the Tesla package or a professional install is the safer choice."},
+  {"h": "Wiring and lights",
+   "body": "A bike rack can hide the lower lights, and a trailer needs its own. Tesla's package has a 7-pin connector. For aftermarket hitches on 2020–2022 cars, CURT's 56532 harness plugs into the taillight connectors with no cutting or splicing, gives a 4-way flat plug and includes a dust cover. CURT sells it with a hitch as a kit. For 2023 and later cars, confirm harness fit before you buy, because 56532 lists only 2020–2022."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "Listing names your build years (2020–2024, 2025 Juniper or 2026)", "\"Fits Model Y\" with no years, or 2020–2026 on a budget bolt-on without detail"],
+   ["Receiver", "2 in square, the size Tesla's own package uses", "1-1/4 in adapters that cut rack choice"],
+   ["Ratings", "Published GTW and tongue weight, read against Tesla's 3,500/350 lb", "A big GTW number treated as the car's rating"],
+   ["Bike racks", "Platform racks within 160 lb total", "Vertical-hanging racks (CURT rules them out)"],
+   ["Structure", "Clear install notes on the impact structure and fascia", "No install instructions or hardware list"],
+   ["Wiring", "Plug-in harness listed for your year", "Splice-in kits on a car still under warranty"],
+  ],
+ },
+ "types_table": {
+  "caption": "Hitch types on the Model Y",
+  "head": ["Type", "Price on this page", "Visible when not in use", "Towing", "Wiring", "Best for"],
+  "rows": [
+   ["Tesla Tow Package", "$1,300 installed", "Receiver visible", "Up to Tesla's 3,500 lb", "7-pin + Trailer Mode", "Regular trailer towing"],
+   ["Brand-name bolt-on (CURT, Draw-Tite)", "About $250–$420", "Receiver only", "Hitch 3,500 lb; car rating rules", "Add a harness", "Bike racks, light towing"],
+   ["Hidden (Stealth, EcoHitch)", "$387–$638 (etrailer)", "No", "With a tow kit", "Stealth kit includes wiring", "Clean look, occasional use"],
+   ["Budget Class 3", "About $120–$260", "Receiver visible", "Varies; car rating rules", "Add a harness", "Bike racks on a budget"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0H8ZSCKL4", "role": "Best aftermarket kit (2020–2022)", "price": "$300–$420",
+   "pros": ["CURT hitch rated 3,500 lb GTW and 525 lb tongue weight", "Kit adds a plug-in 4-way flat harness", "Concealed main body, open-back receiver", "Designed, welded and coated in Wisconsin", "Limited lifetime warranty on the hitch"],
+   "cons": ["Listing covers 2020–2022 only", "Requires permanent removal of the rear impact structure (etrailer)", "No Trailer Mode, 7-pin or Tesla support"],
+   "body": "This is the most complete aftermarket setup for an early Model Y. The hitch is CURT's Class 3 Model Y part, which CURT lists for 2020–2023, with a 2 in receiver, 3,500 lb gross trailer weight, 525 lb tongue weight and a gloss black powder coat. The main body is concealed and the receiver has an open back that doesn't trap dirt. CURT says it is designed, welded and coated in Wisconsin and tested to SAE J684, and it carries a limited lifetime warranty. The kit on this listing pairs it with a 4-way flat harness and names the 2020–2022 Model Y. etrailer sells the CURT hitch alone for $279.56.\n\nTwo details matter on a Tesla. First, the car's limits apply: 3,500 lb and 350 lb tongue weight for towing, and 160 lb for a bike rack. The 525 lb rating is headroom, not permission. Second, the install is involved. etrailer rates it 10 out of 10 and notes that the hitch replaces the rear impact structure, which is removed for good. CURT also says the hitch is not for vertical-hanging bike racks. For a platform rack or a small utility trailer on a 2020–2022 car, it's the strongest listing here.",
+   "who": "2020–2022 owners who want a brand-name hitch and harness in one box for a bike rack or light trailer.",
+   "specs": [["Class / receiver", "Class 3, 2 in"], ["Hitch part", "CURT 13598 (CURT lists 2020–2023)"], ["Kit listing fits", "2020–2022 Model Y"], ["Hitch rating", "3,500 lb GTW / 525 lb TW"], ["Car's limit", "3,500 lb / 350 lb TW; 160 lb carriers"], ["Hitch weight", "35 lb"], ["Wiring", "4-way flat harness in kit"], ["Install", "Difficult; impact structure removed"], ["Warranty", "Limited lifetime (1-yr finish, 1-yr parts)"]]},
+  {"asin": "B08YPB5F5Y", "role": "Best brand-name for 2020–2024", "price": "$250–$350",
+   "pros": ["Draw-Tite Max-Frame Class 3 with 2 in receiver", "Listing covers 2020–2024, one year more than CURT", "etrailer install video shows it hidden behind the bumper", "etrailer calls Draw-Tite installs typically easier", "Big-name maker with dealer support"],
+   "cons": ["Replaces the bumper beam, per an etrailer expert", "Ratings not published on the pages we could read; confirm on the listing", "No harness included"],
+   "body": "Draw-Tite's Max-Frame 76430 is the brand-name choice if your Model Y is a 2023 or 2024, which CURT's harness doesn't cover and its hitch only partly covers. The listing names the 2020–2024 Model Y and a 2 in square receiver. etrailer's install video for a 2022 Model Y describes the hitch as completely hidden behind the bumper once it's on, so only the receiver shows. In an etrailer Q&A comparing it with EcoHitch on a 2023 Model Y, the expert says Draw-Tite installs are typically easier and cheaper.\n\nThe same answer explains the trade-off: the Draw-Tite replaces the bumper beam, while the EcoHitch sits lower and keeps it. etrailer's product pages we could open didn't show Draw-Tite's GTW and tongue-weight figures, so confirm them on the listing. Either way, the car's 350 lb tongue weight and 160 lb carrier limit decide what you can load. Pair it with a harness listed for your year.",
+   "who": "2020–2024 owners who want a big-brand hitch that sits out of sight and don't mind a structural install.",
+   "specs": [["Class / receiver", "Class 3, 2 in square"], ["Part #", "Draw-Tite 76430 (Max-Frame)"], ["Fits", "2020–2024 Model Y (per listing)"], ["Look", "Hidden behind bumper (etrailer video)"], ["Structure", "Replaces bumper beam (etrailer expert)"], ["Ratings", "Confirm on listing; car limits 3,500 / 350 lb"], ["Wiring", "Not included"]]},
+  {"asin": "B0F2MDYT6Z", "role": "Best for 2025 Juniper", "price": "$180–$260",
+   "pros": ["Listing is specific to the 2025 Juniper", "Says plainly it does not fit 2026", "2 in receiver for ball mounts, carriers and bike racks", "Excludes the tow hook, so it doesn't claim more than it does", "Costs a fraction of the Tesla package"],
+   "cons": ["Budget brand with thin published specs", "No harness; confirm wiring for your year", "Confirm the ratings and structure changes with the seller"],
+   "body": "The 2025 refresh is where most hitch listings get vague. Tesla launched the refreshed Model Y (codenamed Juniper) in the US in March 2025 with a new full-width rear light bar and a reshaped rear, and the aftermarket responded with separate parts. This listing is one of the few that says exactly what it fits: the 2025 Juniper, not 2026. That kind of specific listing is what you want, because Stealth Hitches, for example, says its 2026 hitch doesn't fit a 2025.\n\nIt is a Class 3 2 in receiver for a ball mount, cargo carrier or bike rack, and the title says the tow hook is excluded. It doesn't publish the kind of detail CURT does, so ask the seller for the tongue-weight rating and whether any structure is removed. Tesla's 160 lb carrier limit and 3,500 lb towing limit apply either way. Check your build date first: a car built early in 2025 may still be the pre-refresh body, and then the 2020–2024 hitches apply.",
+   "who": "2025 Juniper owners who want a bike-rack hitch without paying $1,300 for Tesla's package.",
+   "specs": [["Class / receiver", "Class 3, 2 in"], ["Fits", "2025 Model Y Juniper only (not 2026)"], ["Tow hook", "Excluded"], ["Ratings", "Confirm with seller; car limits 3,500 / 350 lb"], ["Carrier limit", "160 lb (Tesla manual)"], ["Wiring", "Not included"]]},
+  {"asin": "B09TQVQKGH", "role": "Best budget", "price": "$120–$200",
+   "pros": ["Class 3 with 2 in receiver", "Listing names the 2020–2026 Model Y", "Black powder coat", "Low price for a bike-rack hitch", "Works with standard 2 in platform racks"],
+   "cons": ["One listing across three body changes; confirm your year", "No published tongue-weight rating we could verify", "No harness"],
+   "body": "The LOCAME hitch is the cheapest way here to add a 2 in receiver to a Model Y for a bike rack or a cargo carrier. It is a Class 3 steel hitch with a black powder coat, and the listing names the 2020–2026 Model Y. That wide range is the thing to check: the brand-name makers split the Model Y into 2020–2022, 2023–2024, 2025 and 2026 fits, so one part covering all of them needs a direct answer from the seller for your build date.\n\nFor a bike rack, the hitch's own rating matters less than it seems, because Tesla's 160 lb vertical limit on carriers is lower than any Class 3 rating. What matters is that the receiver sits square, the bolts match your car's mounting points and the install instructions are clear. Read recent reviews from owners of your year, and add a harness if your rack blocks the lights.",
+   "who": "Owners who only need a bike rack or cargo tray and want to spend as little as possible.",
+   "specs": [["Class / receiver", "Class 3, 2 in"], ["Fits", "2020–2026 Model Y (per listing)"], ["Finish", "Black powder coat"], ["Ratings", "Confirm on listing; car limits apply"], ["Carrier limit", "160 lb (Tesla manual)"], ["Wiring", "Not included"]]},
+  {"asin": "B0HB2ZQJL3", "role": "Light-duty bike-rack hitch", "price": "$150–$220",
+   "pros": ["2 in receiver with a hitch cover included", "Honest light-duty rating: 2,000 lb GTW", "Listing names 2020–2026 Model Y", "Enough for a platform bike rack within Tesla's 160 lb", "Cheaper than the brand-name hitches"],
+   "cons": ["2,000 lb GTW is well below the car's 3,500 lb", "Wide year range to confirm", "No wiring"],
+   "body": "This listing is useful because it doesn't overstate what it does. It is a 2 in receiver for the 2020–2026 Model Y with a 2,000 lb gross trailer weight, and it comes with a receiver cover. That is well short of the car's 3,500 lb towing limit, so it isn't the hitch for a camper, but it's plenty for a platform bike rack or a hitch cargo tray, where Tesla's 160 lb vertical limit is the real ceiling.\n\nAs with any budget part listed across 2020–2026, ask the seller about your build year, especially a 2025 Juniper or a 2026. Ask whether any bumper structure is removed during install, and look for an instruction sheet before you buy. If you later want to tow a small trailer, you'll need a harness and a hitch rated closer to the car's limit, so buy the CURT or the Tesla package if towing is likely.",
+   "who": "Owners who want a receiver for a bike rack only and like a clearly stated light-duty rating.",
+   "specs": [["Receiver", "2 in"], ["Fits", "2020–2026 Model Y (per listing)"], ["Rating", "2,000 lb GTW (listing)"], ["Included", "Hitch cover"], ["Carrier limit", "160 lb (Tesla manual)"], ["Wiring", "Not included"]]},
+  {"asin": "B0DD7XP7JZ", "role": "Must-buy wiring add-on", "price": "$40–$70",
+   "pros": ["Plug-and-play: T's into the taillight connectors", "No cutting or splicing of factory wiring", "4-way flat output for tail, brake and turn", "Rubber dust cover included", "CURT rates the install as novice"],
+   "cons": ["Lists 2020, 2021 and 2022 Model Y only", "4-way only; no brake-controller or reverse circuits", "No Trailer Mode"],
+   "body": "Any aftermarket hitch leaves you without trailer lights, and some bike racks hide the lower lights too. CURT's 56532 fixes that on 2020–2022 cars. It is a vehicle-side harness with OEM-style connectors that T's into the taillight assembly, so nothing is cut or spliced. CURT rates the install as novice, includes a rubber dust cover, and suggests its Easy-Mount bracket (sold separately) to fix the plug to the receiver tube without drilling. It has a limited one-year warranty.\n\nThe 4-way flat plug covers tail, brake and turn signals, which is what a small utility trailer or a light board on a bike rack needs. It doesn't give the brake-controller or reverse circuits of Tesla's 7-pin, and CURT doesn't claim it turns on Trailer Mode. CURT lists it for 2020–2022 only, so owners of 2023 and later cars should confirm harness fit before buying.",
+   "who": "2020–2022 owners pairing any aftermarket hitch with a trailer or a light board.",
+   "specs": [["Part #", "CURT 56532"], ["Fits", "2020–2022 Model Y"], ["Output", "4-way flat"], ["Connection", "Plug-in, T-connectors at taillights"], ["Install", "Novice (CURT)"], ["Included", "Rubber dust cover"], ["Warranty", "Limited 1 year"]]},
+ ],
+ "install": [
+  "Decide factory or aftermarket first. Tesla's Tow Package is installed at a Service Center as part of the $1,300 price, so the steps below apply only to aftermarket hitches.",
+  "Confirm the build date on the door-jamb label and match it to the listing: 2020–2022, 2023–2024, 2025 Juniper or 2026.",
+  "Remove the rear fascia and undertray following the maker's sheet. CURT's and Draw-Tite's hitches replace the rear impact structure, so read the instructions before starting and have a second person for the fascia.",
+  "Bolt the hitch to the mounting points and torque to the maker's figures. Refit the fascia, trimming only where the instructions say to.",
+  "Fit the harness, such as CURT 56532 on 2020–2022 cars, at the taillight connectors and mount the 4-way plug near the receiver.",
+  "Check every light with the trailer or light board connected. Re-torque the hitch bolts after the first few hundred miles, and set tires to Tesla's 42 psi when towing.",
+ ],
+ "avoid": [
+  {"h": "Treating the hitch rating as the car's", "body": "A 525 lb or 6,500 lb sticker doesn't raise Tesla's 3,500 lb towing, 350 lb tongue-weight and 160 lb carrier limits. The lowest number wins."},
+  {"h": "A 2020–2024 hitch on a Juniper", "body": "The 2025 refresh changed the rear. Buy a listing that names the 2025 Juniper or 2026, and check your build date if the car is an early 2025."},
+  {"h": "Vertical-hanging bike racks", "body": "CURT says its Model Y hitch is not compatible with racks that hang bikes vertically. Those racks also load the receiver hardest, so use a platform rack within 160 lb."},
+  {"h": "Skipping the lights", "body": "A rack that hides the taillights, or a trailer with no harness, is a ticket and a hazard. Budget a harness or light board with the hitch."},
+ ],
+ "verdict": {
+  "thesis": "Tow a trailer with Tesla's $1,300 package; carry bikes with the CURT kit on a 2020–2022 car, the Draw-Tite on a 2023–2024, or a Juniper-specific hitch on a 2025.",
+  "body": "The best Model Y hitch depends on what you'll hang from it. For a trailer, Tesla's tow package is worth the premium: it's installed by Tesla and it is the only way to get the 7-pin plug and Trailer Mode. For bikes and cargo trays, an aftermarket 2 in receiver does the job for a fraction of the price, provided it names your build year and you stay inside Tesla's 160 lb carrier limit. The CURT kit is the most complete option for 2020–2022, the Draw-Tite covers through 2024, and 2025 Juniper owners should buy a listing written for that car.\n\nA hitch-mounted bike rack keeps bikes out of the airflow, which is why many owners pick it over a roof rack. If you need both, a cargo box on the roof and bikes on the hitch is a common setup. The vehicle hub lists every fit-checked accessory for your Model Y.",
+ },
+ "sources": [
+  ["Model Y Tow Package (Tesla Shop)", "https://shop.tesla.com/product/model-y-tow-package"],
+  ["Model Y Tow Package support page (Tesla)", "https://www.tesla.com/support/shop/model-y-tow-package"],
+  ["Model Y Owner's Manual: Towing and Accessories (Tesla)", "https://www.tesla.com/ownersmanual/modely/en_us/GUID-F5C80FF5-8DE3-4750-8BAF-0DCC0CFA0C5C.html"],
+  ["CURT 13598 Class 3 hitch, Model Y (CURT)", "https://www.curtmfg.com/part/13598"],
+  ["CURT 56532 Model Y wiring harness (CURT)", "https://www.curtmfg.com/part/56532"],
+  ["2021 Tesla Model Y trailer hitches (etrailer)", "https://www.etrailer.com/Trailer-Hitch/Tesla/Model+Y/2021/DT58MR.html?vehicleid=202120216003159"],
+  ["Draw-Tite vs EcoHitch for a 2023 Model Y (etrailer Q&A)", "https://www.etrailer.com/question-710375.html"],
+  ["Stealth Hitches 2026 Model Y SHR09004 (Stealth Hitches)", "https://stealthhitches.com/products/tesla-hitch-shr09004"],
+  ["Tesla Model Y (2025 refresh dates and changes)", "https://en.wikipedia.org/wiki/Tesla_Model_Y"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B0H8ZSCKL4","CURT Class 3 Trailer Hitch with 4-Way Flat Custom Wiring Harness, 2 in, fits 2020-2022 Tesla Model Y","CURT","$300–$420",{"year_to":2022},"Hitch rated 3,500 lb GTW / 525 lb TW; car limit 350 lb TW."),
+ ("B08YPB5F5Y","Draw-Tite 76430 Max-Frame Class 3 Trailer Hitch, 2 in, 2020-2024 Tesla Model Y","Draw-Tite","$250–$350",{"year_to":2024},"Replaces bumper beam; confirm ratings on listing."),
+ ("B0F2MDYT6Z","Class 3 Trailer Hitch 2 in, 2025 Model Y Juniper (not 2026)","Generic","$180–$260",{"year_from":2025,"year_to":2025},"Juniper-specific; confirm ratings with seller."),
+ ("B09TQVQKGH","LOCAME Class 3 Trailer Hitch 2 in, Tesla Model Y 2020-2026","LOCAME","$120–$200",{},"Wide year range; confirm your build year."),
+ ("B0HB2ZQJL3","Trailer Hitch Receiver 2 in, 2020-2026 Model Y, 2,000 lb GTW, includes cover","Generic","$150–$220",{},"Light-duty; bike racks within 160 lb."),
+ ("B0DD7XP7JZ","CURT 56532 Vehicle-Side Custom 4-Pin Trailer Wiring Harness, 2020-2022 Tesla Model Y","CURT","$40–$70",{"year_to":2022},"Plug-in 4-way; no Trailer Mode."),
+ ("B0BNVFCPRH","Class 3 Trailer Hitch 2 in, 2020-2024 Model Y","Generic","$170–$250",{"year_to":2024},"Pre-Juniper only."),
+ ("B0H2GPMC4N","Class 3 Trailer Hitch 2 in, 2020-2026 Model Y all trims","Generic","$180–$260",{},"For bike racks / carriers; confirm build year with seller."),
+ ("B0G3242GBZ","Trailer Hitch 2 in receiver, 2020-2025 Model Y, alloy steel","Generic","$170–$250",{},"Bike racks / cargo carriers; confirm Juniper fit."),
+]

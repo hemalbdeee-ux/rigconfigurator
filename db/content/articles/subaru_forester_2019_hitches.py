@@ -1,0 +1,175 @@
+"""Long-form article — Best Trailer Hitches for 2019–2024 Subaru Forester (5th gen, SK).
+Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every spec below
+comes from the manufacturer/dealer pages listed in sources (checked 2026-09-24).
+"""
+
+KEY = ("subaru", "forester", "2019-2024", "hitches")
+
+TITLE = "Best Trailer Hitches for 2019–2024 Subaru Forester: 6 Picks, 1.25 vs 2 in Receivers"
+META = ("Six hitches for the 2019–2024 Forester: 1.25 and 2 in picks from Draw-Tite, CURT, Reese and Subaru, "
+        "plus the 1,500 lb (3,000 lb Wilderness) limit and bike-rack tips.")
+
+FAQ = [
+ ("How much can a 2019–2024 Subaru Forester tow?",
+  "Subaru's hitch documentation lists 1,500 lb of trailer weight and 150 lb of tongue weight for the standard Forester, and 3,000 lb with 300 lb of tongue weight for the Wilderness, which arrived for 2022. Every aftermarket hitch on this page is rated at 3,500 lb, but that rating doesn't change what the car can tow. The lower number always wins, so a non-Wilderness Forester is a 1,500 lb tow vehicle whichever hitch you bolt on."),
+ ("Should I get a 1.25 in or 2 in receiver on a Forester?",
+  "Get a 2 in receiver if you plan to carry bikes. Many platform bike racks, especially the larger ones, are sold only in 2 in or come in a reduced 1.25 in version. A 2 in hitch also takes the widest choice of cargo carriers and ball mounts. A 1.25 in hitch like the Draw-Tite 36671 or Reese 06191 is lighter (27.5 lb) and fine for a small utility trailer at the Forester's 1,500 lb limit. Since the car's rating is the ceiling either way, the receiver size is really an accessory decision."),
+ ("Does a Class 3 hitch let a Forester tow 3,500 lb?",
+  "No. The CURT 13409 and Draw-Tite 76271 are rated for 3,500 lb and 525 lb of tongue weight, but those are the hitch's limits. The Forester's frame, brakes, cooling and CVT set the vehicle limit: 1,500 lb and 150 lb on standard trims, and 3,000 lb and 300 lb on the Wilderness, per Subaru's documentation. A Class 3 hitch gives you a 2 in receiver and a stronger part working well within its limit. It does not add towing capacity."),
+ ("Can a Forester carry two e-bikes on a hitch rack?",
+  "Check the numbers first. The tongue weight limit on a non-Wilderness Forester is 150 lb, per Subaru's hitch documentation, and a hitch bike rack counts entirely as tongue weight. Add the rack's own weight to the weight of both bikes, as listed by their makers. Two heavy e-bikes on a large platform rack can reach or pass 150 lb. The Wilderness allows 300 lb, which leaves much more room. If you are close to the limit, a lighter rack or one bike on the roof is the safer choice."),
+ ("What's different about the Forester Wilderness for hitches?",
+  "The Wilderness gets a higher towing rating (3,000 lb and 300 lb of tongue weight, per Subaru), a 0.5 in lift and a 4.11 final drive ratio versus 3.70 on other trims, according to Wikipedia's generation summary. Subaru's 2022–2024 factory hitch, L101SSJ005, is listed for all trims including the Wilderness. Aftermarket makers list their hitches for the Forester without trim exclusions, but confirm the Wilderness on the listing for budget brands. Subaru's note on the factory hitch also lists the 2025 Forester Wilderness as a fit, unlike other 2025 trims."),
+ ("Is the Subaru factory hitch 1.25 or 2 in?",
+  "It depends on the year. Subaru's 2019–2021 factory hitch, L101SSJ001, has a 1-1/4 in receiver and is listed as a Class One hitch for 1,500 lb. The 2022–2024 version, L101SSJ005, uses a 2 in receiver. Both are listed by Subaru Parts Pros with a wiring harness included, both need a separate ball mount, and both show a $475 MSRP. If you have a 2019–2021 car and want 2 in for a bike rack, an aftermarket hitch is the way to get it."),
+ ("Will a 2019–2024 Forester hitch fit the 2025 Forester?",
+  "The 2025 Forester is a new generation, released in North America in 2024 for the 2025 model year. Subaru sells a separate factory hitch for it. Some aftermarket hitches, including the Draw-Tite 36671, Draw-Tite 76271 and CURT 13409, are listed by their makers through 2026, which is worth knowing, but confirm with the maker's fit checker using your exact year and trim. The exception is the 2025 Wilderness, which Subaru lists as a fit for the older L101SSJ005 hitch."),
+ ("Do I need to drill to install a Forester hitch?",
+  "Draw-Tite and Reese list the 76271, 36671 and 06191 as bolt-on with no drilling, at about 30 minutes each. CURT rates the 13409 as a novice install but notes that installation requires hole enlargement, so plan for a drill and the right bit. The factory hitch is dealer-installable. As with any SUV hitch, the frame holes can be dirty or rusty, and some installs need the exhaust lowered for access. Read the instructions before you start."),
+ ("What wiring do I need to tow with a Forester?",
+  "A 4-way flat connector covers tail, brake and turn lights on nearly every small trailer. Subaru Parts Pros lists the factory hitches with a wiring harness, and the L101SSJ005 with a hitch plug too. For CURT, Draw-Tite, Reese and budget hitches, buy a vehicle-specific T-connector that plugs into the Forester's tail-light connectors, so you don't cut any factory wiring. At the Forester's 1,500 lb limit most small trailers don't need electric brakes, but check your state's rules for your trailer."),
+ ("Can I use a vertical-hanging bike rack on the Forester?",
+  "Not on the CURT 13409. CURT's page says that hitch is not compatible with vertical-hanging bike racks. If you want a hanging rack, confirm compatibility with the hitch maker first, and check the rack's own tongue weight and fit against the Forester's rear hatch. Platform racks are the more common choice on a Forester because they keep bikes lower and away from the paint. Either way, the rack's loaded weight counts against the 150 lb tongue limit on standard trims."),
+]
+
+ARTICLE = {
+ "dek": "Six hitches for the 5th-generation Forester, from a budget 2 in Class 3 to Subaru's own kit. For each one we list receiver size, hitch rating, weight and install time, and explain why the car's 1,500 lb limit (3,000 lb on the Wilderness) matters more than the hitch class, especially for e-bike racks.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these hitches ourselves. We ranked them on published specs (receiver size, class, gross trailer and tongue weight ratings, product weight, install time, finish and warranty), on the fitment each maker lists for the 2019–2024 Forester, and on Subaru's accessory documentation for tow ratings and year splits. Specs were read on the Draw-Tite, Reese Towpower, CURT and Subaru dealer parts pages in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**The Forester's rating is low and fixed.** Subaru lists 1,500 lb and 150 lb of tongue weight for standard trims, and 3,000 lb and 300 lb for the 2022+ Wilderness. A 3,500 lb hitch doesn't change that.",
+  "**Pick the receiver for your accessories.** 2 in (Draw-Tite 76271, CURT 13409) takes the widest range of bike racks and carriers; 1.25 in (Draw-Tite 36671, Reese 06191) is lighter and cheaper.",
+  "**Tongue weight is the real limit for bike racks.** Rack plus bikes all count against 150 lb on a non-Wilderness Forester.",
+  "**The factory hitch changed in 2022.** Subaru's 2019–2021 hitch is 1-1/4 in; the 2022–2024 hitch is 2 in.",
+  "**Budget for wiring.** Subaru's kits are listed with a harness; aftermarket hitches need a separate plug-in 4-flat T-connector.",
+ ],
+ "top_picks": [
+  {"asin": "B089T747G3", "role": "Best overall", "why": "2 in Class III, 3,500 lb/525 lb, no drilling, 30-minute install, powder coat over e-coat"},
+  {"asin": "B07PDHHSST", "role": "Best 2 in alternative", "why": "CURT round-tube Class 3, 3,500 lb/525 lb, 34 lb, A-coat inside and out"},
+  {"asin": "B089T7SGQ4", "role": "Best 1.25 in", "why": "27.5 lb Class II, no drilling, 30 minutes, listed 2019–2026"},
+  {"asin": "B0BS7762VF", "role": "Best factory option (2022–2024)", "why": "Subaru's 2 in hitch with wiring harness and plug listed in the kit"},
+  {"asin": "B0F9L6DMRT", "role": "Best budget", "why": "2 in Class 3 for bike racks at a budget price"},
+ ],
+ "fit_table": {
+  "caption": "2019–2024 Forester: rating and factory receiver by version",
+  "head": ["Version", "Max tow (Subaru)", "Max tongue weight", "Factory hitch", "Notes"],
+  "rows": [
+   ["2019–2021, all trims", "1,500 lb", "150 lb", "L101SSJ001, 1-1/4 in", "Aftermarket 2 in hitches available (76271, 13409)."],
+   ["2022–2024, non-Wilderness", "1,500 lb", "150 lb", "L101SSJ005, 2 in", "Facelift years; same aftermarket hitches listed."],
+   ["2022–2024 Wilderness", "3,000 lb", "300 lb", "L101SSJ005, 2 in", "0.5 in lift, 4.11 final drive."],
+   ["2025 Wilderness", "3,000 lb", "300 lb", "L101SSJ005 (per Subaru note)", "Other 2025 trims are the new generation."],
+  ],
+ },
+ "look_for": [
+  {"h": "The 1,500 lb ceiling",
+   "body": "Every hitch here is rated at 3,500 lb, and none of that matters beyond the Forester's own rating. Subaru's documentation lists 1,500 lb and 150 lb of tongue weight for standard trims. The Wilderness, which arrived for 2022 with a 0.5 in lift and a 4.11 final drive, doubles that to 3,000 lb and 300 lb. So for most Foresters, towing means a small utility trailer, a light jet-ski trailer or a teardrop well under 1,500 lb loaded. Choose the hitch for its receiver, finish and fit, and treat the car's rating as the hard limit. Weigh a loaded trailer rather than trusting its brochure weight, and keep tongue weight around 10–15% of the trailer so the car stays stable."},
+  {"h": "1.25 in vs 2 in receiver",
+   "body": "This is the main decision on a Forester. A 1.25 in receiver, like the Draw-Tite 36671 or Reese 06191, weighs 27.5 lb and bolts on in about 30 minutes. It handles a ball mount for small trailers and a 1.25 in bike rack. A 2 in receiver, like the Draw-Tite 76271 or CURT 13409, opens up the full range of platform bike racks and cargo carriers, many of which are sold only in 2 in. It weighs more (34–37 lb) but costs little extra. If bikes are the reason you're buying a hitch, get 2 in. Adapters that let a 1.25 in rack fit a 2 in receiver exist, but going the other way is the problem, so the bigger receiver keeps your options open."},
+  {"h": "Tongue weight and bike racks",
+   "body": "A hitch bike rack puts all of its weight on the tongue. On a non-Wilderness Forester, that means rack plus bikes must stay under 150 lb, per Subaru. Heavy platform racks and e-bikes use up that budget quickly, so add up the rack weight and each bike's listed weight before you buy. The Wilderness allows 300 lb. Also check the rack's clearance to the rear hatch and bumper. CURT notes that its 13409 isn't compatible with vertical-hanging bike racks, so platform racks are the safer match there. A rack that folds up when empty also saves bumper space when parking and makes the rear hatch easier to reach."},
+  {"h": "Factory hitch year split",
+   "body": "Subaru changed its own hitch with the 2022 facelift. The 2019–2021 kit, L101SSJ001, is a Class One hitch with a 1-1/4 in receiver and a 176 lb tongue rating on the hitch. The 2022–2024 kit, L101SSJ005, has a 2 in receiver and covers all trims including the Wilderness, plus the 2025 Wilderness. Both are listed with a wiring harness and need a separate ball mount. Subaru also says the earlier hitch isn't compatible with its rear bumper underguard accessory. Buy the one that matches your model year. Owners of 2019–2021 cars who want a 2 in receiver have to go aftermarket, since the factory kit for those years is 1-1/4 in only."},
+  {"h": "Coating and install details",
+   "body": "The Forester sells heavily in snow states, so coating matters. Draw-Tite and Reese use black powder coat over e-coat. CURT co-cures the 13409 in a liquid A-coat inside and out before its gloss black powder coat. Install time is similar: Draw-Tite and Reese quote 30 minutes with no drilling, and CURT rates the 13409 as a novice install but says it requires hole enlargement. Budget brands rarely publish these details, so confirm the coating and hardware on the listing before you order. Whatever the brand, spray the bolts with a rust inhibitor after install if you plan to remove the hitch later."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "Listing that names the 2019–2024 Forester (and Wilderness if you have one)", "\"Universal\" hitches or ranges that stop at 2018"],
+   ["Receiver", "2 in for bike racks and carriers; 1.25 in only if you're sure", "1.25 in if you plan a large platform bike rack"],
+   ["Ratings", "Published GTW and TW (3,500 lb class hitches are common)", "Listings with no tongue weight figure"],
+   ["Finish", "Powder coat over e-coat or A-coat", "Plain paint for winter-road cars"],
+   ["Install", "Bolt-on, no drilling, instructions published", "Kits that need welding"],
+   ["Wiring", "Plug-in vehicle-specific 4-flat harness", "Splice-in kits"],
+  ],
+ },
+ "types_table": {
+  "caption": "Hitch types for the 2019–2024 Forester",
+  "head": ["Type", "Example on this page", "Receiver", "Hitch rating", "Weight", "Best for"],
+  "rows": [
+   ["Class III, square tube", "Draw-Tite 76271", "2 in", "3,500 lb / 525 lb", "37 lb", "Bike racks, carriers, small trailers"],
+   ["Class 3, round tube", "CURT 13409", "2 in", "3,500 lb / 525 lb", "34 lb", "Platform racks in salt states"],
+   ["Class II", "Draw-Tite 36671 / Reese 06191", "1.25 in", "3,500 lb / 350 lb", "27.5 lb", "Small trailers, light racks"],
+   ["Factory", "Subaru L101SSJ005 / L101SSJ001", "2 in / 1-1/4 in by year", "Per vehicle rating", "Not published", "Dealer install, harness included"],
+   ["Budget Class 3", "Wsays", "2 in", "Per listing", "Per listing", "Bike racks on a budget"],
+  ],
+ },
+ "picks": [
+  {"asin": "B089T747G3", "role": "Best overall", "price": "$200–$280",
+   "pros": ["2 in receiver fits the widest range of bike racks and carriers", "3,500 lb GTW / 525 lb TW, weight-distribution compatible", "Bolt-on, no drilling, about 30 minutes (Draw-Tite's figure)", "Black powder coat over e-coat", "Listed for 2019–2026 Forester and 2022–2026 WRX"],
+   "cons": ["37 lb, the heaviest hitch here", "Hitch rating far exceeds the Forester's 1,500 lb limit", "Wiring sold separately"],
+   "body": "The Draw-Tite 76271 is the best all-round hitch for the Forester because it gives you a 2 in receiver without any drilling. Draw-Tite rates it as a Class III for 3,500 lb gross trailer weight and 525 lb tongue weight, with the same numbers for weight distribution. On a Forester that rating is all margin, since Subaru limits the standard car to 1,500 lb and 150 lb and the Wilderness to 3,000 lb and 300 lb. The reason to buy it is the receiver: a 2 in opening takes almost any platform bike rack or cargo carrier.\n\nDraw-Tite lists it for the 2019–2025 and 2026 Forester and the 2022–2026 WRX, bolt-on to existing points with no drilling and a 30-minute install time. It is finished in black powder coat over e-coat, which is the right treatment for a car that sees salted roads, and it has a limited lifetime warranty. At 37 lb it is heavier than the 1.25 in options, which matters only if you plan to take it off. Budget for a plug-in 4-flat harness on top. For most Forester owners who want bikes on the back and the option of a small trailer, this is the hitch to start with.",
+   "who": "Forester owners who want a 2 in receiver for a bike rack or cargo carrier, with no drilling and a quick install.",
+   "specs": [["Class", "III"], ["Part #", "Draw-Tite 76271"], ["Receiver", "2 in square"], ["Ratings", "3,500 lb GTW / 525 lb TW (WD same)"], ["Fits", "2019–2026 Forester, 2022–2026 WRX (per Draw-Tite)"], ["Weight", "37 lb"], ["Install", "About 30 min, no drilling"], ["Finish", "Black powder coat over e-coat"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B07PDHHSST", "role": "Best 2 in alternative", "price": "$200–$270",
+   "pros": ["3,500 lb GTW / 525 lb TW", "Liquid A-coat inside and out, plus gloss black powder coat", "34 lb, lighter than the Draw-Tite 76271", "Open-back receiver for easy cleaning", "Designed, welded and coated in Wisconsin"],
+   "cons": ["Installation requires hole enlargement (CURT's note)", "Not compatible with vertical-hanging bike racks", "Limited lifetime warranty covers finish and parts for one year"],
+   "body": "The CURT 13409 is the other strong 2 in option, and its coating is the main reason to choose it over the Draw-Tite. CURT co-cures the hitch in a rust-resistant liquid A-coat inside and out, then adds gloss black powder coat. It is a Class 3 with a round main body, rated for 3,500 lb gross trailer weight and 525 lb tongue weight, which is the same rating as the Draw-Tite and again far above the Forester's own limits. It weighs 34 lb against the Draw-Tite's 37 lb and has an open-back receiver that doesn't trap dirt.\n\nThere are two things to know before ordering. CURT says installation requires hole enlargement, so this is not a pure bolt-on job even though CURT rates it as a novice install. And CURT's page states that the 13409 is not compatible with vertical-hanging bike racks, so pair it with a platform rack. CURT lists it for the 2019–2026 Forester, all styles, and tests it to SAE J684. The warranty is CURT's limited lifetime, with one year on the finish and parts. Installation hardware is included; the 4-flat wiring harness is a separate purchase.",
+   "who": "Owners in salt states who want a 2 in receiver for a platform bike rack and don't mind enlarging a hole during install.",
+   "specs": [["Class", "3"], ["Part #", "CURT 13409"], ["Receiver", "2 in, open back"], ["Ratings", "3,500 lb GTW / 525 lb TW"], ["Fits", "2019–2026 Forester, all styles (per CURT)"], ["Weight", "34 lb"], ["Install", "Novice; requires hole enlargement"], ["Finish", "A-coat inside and out + gloss black powder coat"], ["Note", "Not for vertical-hanging bike racks"]]},
+  {"asin": "B089T7SGQ4", "role": "Best 1.25 in", "price": "$180–$250",
+   "pros": ["27.5 lb, the lightest hitch here", "3,500 lb GTW / 350 lb TW hitch rating", "Bolt-on, no drilling, about 30 minutes", "Black powder coat over e-coat", "Listed for 2019–2026 Forester"],
+   "cons": ["1.25 in receiver limits bike rack and carrier choice", "Not weight-distribution compatible", "Wiring sold separately"],
+   "body": "If you only need to tow a small trailer or run a light 1.25 in bike rack, the Draw-Tite 36671 is the lighter, simpler choice. It is a Class II hitch with a 1-1/4 in square receiver, rated by Draw-Tite for 3,500 lb gross trailer weight and 350 lb tongue weight. That's still more than the Forester's own 1,500 lb and 150 lb limit on standard trims, so for towing, the smaller receiver costs you nothing. It weighs 27.5 lb, about 10 lb less than the 2 in Draw-Tite 76271.\n\nDraw-Tite lists it for the 2019–2026 Forester, bolt-on with no drilling and a 30-minute install time. The finish is black powder coat over e-coat, and the warranty is limited lifetime. Draw-Tite notes it is not compatible with weight-distribution systems, which is irrelevant at the Forester's weights. The real limit is accessories: many larger platform bike racks are sold only in 2 in, so check the rack you want before you settle on 1.25 in. Like the other aftermarket hitches, it needs a separate plug-in harness for trailer lights.",
+   "who": "Owners who tow a small utility trailer or use a light 1.25 in bike rack and want the lightest bolt-on hitch.",
+   "specs": [["Class", "II"], ["Part #", "Draw-Tite 36671"], ["Receiver", "1-1/4 in square"], ["Ratings", "3,500 lb GTW / 350 lb TW"], ["Fits", "2019–2026 Forester (per Draw-Tite)"], ["Weight", "27.5 lb"], ["Install", "About 30 min, no drilling"], ["Finish", "Black powder coat over e-coat"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0BS7762VF", "role": "Best factory option (2022–2024)", "price": "$410–$475",
+   "pros": ["Genuine Subaru hitch engineered and crash tested with the car", "2 in receiver", "Wiring harness and hitch plug listed in the kit", "Covers all 2022–2024 trims including Wilderness", "Also listed for the 2025 Wilderness"],
+   "cons": ["$475 MSRP, the most expensive pick", "Ball mount and ball sold separately", "Not for 2019–2021 cars or non-Wilderness 2025 models"],
+   "body": "Subaru's L101SSJ005 is the factory 2 in hitch for the 2022–2024 Forester. Subaru Parts Pros describes it as engineered and crash tested to match the vehicle, and lists it for all 2022–2024 trims including the Wilderness, plus the 2025 Forester Wilderness only. Subaru ties the ratings to the car: 1,500 lb and 150 lb on standard trims, 3,000 lb and 300 lb on the Wilderness. The kit includes a wiring harness and hitch plug, which the aftermarket hitches here don't.\n\nThe cost is the catch. Subaru Parts Pros shows a $475 MSRP, discounted to $413.25, before you add a ball mount. Subaru lists its L101SSJ205 or L101SSJ207 ball mounts as matching options. For 2019–2021 cars, the factory equivalent is the L101SSJ001, which has a 1-1/4 in receiver instead of 2 in, and Subaru says that earlier hitch isn't compatible with the rear bumper underguard. If you want a factory look, a dealer install and the harness in the box, this is the one to buy. If you want the lowest cost, the Draw-Tite 76271 gives you the same receiver size for less.",
+   "who": "2022–2024 owners who want a dealer-installed factory hitch with the harness included.",
+   "specs": [["Part #", "Subaru L101SSJ005"], ["Receiver", "2 in"], ["Fits", "2022–2024 Forester all trims; 2025 Wilderness only"], ["Ratings", "Per vehicle: 1,500 lb / 150 lb; Wilderness 3,000 lb / 300 lb"], ["Includes", "Wiring harness and hitch plug"], ["Ball mount", "Sold separately (L101SSJ205 or L101SSJ207)"], ["MSRP", "$475 (dealer price $413.25)"]]},
+  {"asin": "B0876X7Y23", "role": "1.25 in alternative", "price": "$170–$240",
+   "pros": ["Same 3,500 lb / 350 lb rating as the Draw-Tite 36671", "27.5 lb", "Bolt-on, no drilling, about 30 minutes", "Black powder coat over e-coat", "Tested to exceed V-5 and SAE J684"],
+   "cons": ["1.25 in receiver", "Not weight-distribution compatible", "Ball mount not included"],
+   "body": "The Reese Towpower 06191 is the 1.25 in alternative when the Draw-Tite is out of stock or priced higher. Reese Towpower and Draw-Tite are sister brands, and the published specs for these two parts match line for line: Class II, 1-1/4 in square receiver, 3,500 lb gross trailer weight, 350 lb tongue weight, 27.5 lb, bolt-on to the frame with no drilling, and a 30-minute install time. Reese lists it for the 2019–2026 Forester and says it is tested to exceed V-5 and SAE J684.\n\nThe finish is black powder coat over e-coat, and the hardware is included. The ball mount is not, and the hitch isn't weight-distribution compatible, which you wouldn't use on a Forester anyway. Reese describes it as a visible hitch, so expect the cross tube to show below the rear bumper when you look from behind. Choose between this and the Draw-Tite on price at the time you buy; on paper there's nothing to separate them. Add a plug-in 4-flat harness to the order if you plan to tow, and a 1-1/4 in ball mount sized for your trailer coupler.",
+   "who": "Owners who want a 1.25 in bolt-on hitch and will buy whichever of Reese or Draw-Tite is cheaper that day.",
+   "specs": [["Class", "II"], ["Part #", "Reese Towpower 06191"], ["Receiver", "1-1/4 in square"], ["Ratings", "3,500 lb GTW / 350 lb TW"], ["Fits", "2019–2026 Forester (per Reese)"], ["Weight", "27.5 lb"], ["Install", "About 30 min, no drilling"], ["Finish", "Black powder coat over e-coat"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0F9L6DMRT", "role": "Best budget", "price": "$120–$180",
+   "pros": ["Lowest price here", "2 in receiver for platform bike racks", "Listing names the 2019–2026 Forester", "Class 3 per listing", "Good match for bike-rack-only use"],
+   "cons": ["No maker spec page to check ratings and coating", "Warranty thinner than the name brands", "Wilderness fit not spelled out"],
+   "body": "For owners who only want a 2 in receiver for a bike rack, a budget Class 3 like this Wsays hitch can save $80 or more against the Draw-Tite 76271. The listing names the 2019–2026 Forester and calls it a Class 3 with a 2 in receiver. On a Forester, the car's own 1,500 lb and 150 lb limits are the ceiling, so a budget hitch doesn't have to be stronger than the name brands to be adequate. What it lacks is published documentation: CURT, Draw-Tite and Reese post GTW, tongue weight, product weight, finish and install time on their own sites.\n\nBefore you buy, confirm on the listing the tongue weight rating, the coating (powder coat over e-coat is what you want for winter), whether the bolts are included, and whether the Wilderness is covered. For a car that tows a trailer regularly, or lives on salted roads, the extra money for the Draw-Tite or CURT buys better-documented corrosion protection and a limited lifetime warranty. As with every aftermarket hitch on this page, the plug-in wiring harness is extra.",
+   "who": "Owners who need a 2 in receiver for a bike rack and want to spend as little as possible.",
+   "specs": [["Class", "3 (per listing)"], ["Receiver", "2 in"], ["Fits", "2019–2026 Forester (per listing)"], ["Ratings", "Confirm on listing; vehicle limit still applies"], ["Finish", "Confirm on listing"], ["Price band", "$120–$180"]]},
+ ],
+ "install": [
+  "Confirm your model year and trim. The factory hitch changed for 2022, and the Wilderness has a different tow rating. If a rear bumper underguard is fitted, check compatibility first.",
+  "Read the instructions and park on level ground. Some installs need the exhaust lowered for access, and CURT's 13409 needs a hole enlarged, so have a drill ready.",
+  "Clean the existing frame holes and weld nuts with a wire brush or penetrating spray so the bolts start by hand.",
+  "Lift the hitch into place with a helper or jack, start every bolt by hand, then torque to the value in the instructions.",
+  "Fit a plug-in 4-flat T-connector between the Forester's tail-light connectors and secure the plug where it won't drag.",
+  "Test the lights, then re-check hitch bolt torque after your first few drives.",
+ ],
+ "avoid": [
+  {"h": "Planning around the hitch rating", "body": "A 3,500 lb hitch on a standard Forester is still a 1,500 lb, 150 lb setup. Only the Wilderness goes to 3,000 lb."},
+  {"h": "Buying 1.25 in when you want a big bike rack", "body": "Many larger platform racks come only in 2 in. Decide on the rack first, then the hitch."},
+  {"h": "Overloading the tongue with e-bikes", "body": "Rack plus bikes count as tongue weight. Two e-bikes on a heavy rack can reach the 150 lb limit on standard trims."},
+  {"h": "Mixing up factory hitch years", "body": "The 2019–2021 factory hitch is 1-1/4 in (L101SSJ001) and the 2022–2024 hitch is 2 in (L101SSJ005). Order by model year."},
+ ],
+ "verdict": {
+  "thesis": "Get the Draw-Tite 76271 for a no-drill 2 in receiver, the CURT 13409 for the best coating, and the Draw-Tite 36671 or Reese 06191 if 1.25 in is all you need.",
+  "body": "On a 2019–2024 Forester, the hitch choice is mostly about the receiver, because every hitch here is rated well above the car. If you plan to carry bikes, buy a 2 in: the Draw-Tite 76271 bolts on in about 30 minutes with no drilling, and the CURT 13409 adds A-coat inside and out at the cost of a hole enlargement. The 1.25 in Draw-Tite 36671 and Reese 06191 are the lightest options for small trailers. The Subaru factory kit makes sense if you want the dealer to install it with the harness included.\n\nWhatever you choose, keep the Forester's 150 lb tongue limit in mind when you load a bike rack, and add a plug-in harness before you tow. Many Forester owners pair a hitch with a roof rack crossbar set or a cargo box for gear that won't fit inside.",
+ },
+ "sources": [
+  ["Draw-Tite 76271 Class III hitch (Draw-Tite)", "https://www.draw-tite.com/product/76271"],
+  ["Draw-Tite 36671 Class II hitch (Draw-Tite)", "https://www.draw-tite.com/product/36671"],
+  ["Reese Towpower 06191 Class II hitch (Reese Towpower)", "https://www.reesetowpower.com/product/06191_class-2-trailer-hitch-3500-lbs"],
+  ["CURT 13409 Class 3 hitch (CURT)", "https://www.curtmfg.com/part/13409"],
+  ["Subaru L101SSJ005 trailer hitch, 2022–2024 (Subaru Parts Pros)", "https://www.subarupartspros.com/sku/l101ssj005.html"],
+  ["Subaru L101SSJ001 trailer hitch, 2019–2021 (Subaru Parts Pros)", "https://www.subarupartspros.com/sku/l101ssj001.html"],
+  ["Subaru Forester, fifth and sixth generations (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Forester"],
+  ["How much can my Subaru tow? (Wilsonville Subaru)", "https://www.wilsonvillesubaru.com/how-much-can-my-subaru-tow/"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B089T747G3","Draw-Tite 76271 Class 3 Trailer Hitch 2 in, 2019-2025 Subaru Forester & 2022-2024 WRX","Draw-Tite","$200–$280",{"receiver_in":2},"No drilling; about 30 min. Forester still limited to 1,500 lb (3,000 lb Wilderness)."),
+ ("B07PDHHSST","CURT 13409 Class 3 Trailer Hitch 2 in, select Subaru Forester (2019-2026)","CURT","$200–$270",{"receiver_in":2},"Requires hole enlargement; not for vertical-hanging bike racks."),
+ ("B089T7SGQ4","Draw-Tite 36671 Class 2 Trailer Hitch 1.25 in, 2019-2026 Forester","Draw-Tite","$180–$250",{"receiver_in":1.25},"27.5 lb; no drilling."),
+ ("B0BS7762VF","Subaru Genuine 2022-2024 Forester Trailer Hitch Towing Kit L101SSJ005","Subaru","$410–$475",{"receiver_in":2},"2022-2024 all trims; harness included per dealer."),
+ ("B0876X7Y23","Reese Towpower 06191 Class 2 Trailer Hitch 1.25 in, 2019-2026 Forester","Reese","$170–$240",{"receiver_in":1.25},"Same published specs as Draw-Tite 36671."),
+ ("B0F9L6DMRT","Wsays Class 3 Trailer Hitch 2 in, 2019-2026 Forester","Wsays","$120–$180",{"receiver_in":2},"Budget; confirm ratings and Wilderness fit on listing."),
+ ("B07X2L4RNY","Subaru Genuine 2019-2021 Forester Trailer Hitch Towing Kit L101SSJ001","Subaru","$410–$475",{"receiver_in":1.25},"2019-2021 factory hitch; 1-1/4 in receiver."),
+]

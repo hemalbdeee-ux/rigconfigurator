@@ -1,0 +1,177 @@
+"""Long-form article — Best Trailer Hitches for 2019–2025 Toyota RAV4 (5th gen, XA50).
+Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every rating below
+comes from the maker/retailer/Toyota pages listed in SOURCES (checked 2026-09-24).
+"""
+
+KEY = ("toyota", "rav4", "2019-present", "hitches")
+
+TITLE = "Best Trailer Hitches for 2019–2025 Toyota RAV4: 6 Fit-Checked Picks by Tow Rating and Receiver"
+META = ("Six hitches and harnesses for the 2019–2025 RAV4, Hybrid and Prime: 2 in vs 1.25 in receivers, "
+        "GTW/TW ratings, the 1,500 lb base rating and kick-sensor notes.")
+
+FAQ = [
+ ("What is the best trailer hitch for a 2019–2025 RAV4?",
+  "For most owners, the B&W RH670118BW (etrailer part BW47BR). It is a Class III hitch with a 2 in receiver rated 4,500 lb gross trailer weight and 675 lb tongue weight, made in the USA, and it bolts on in three pieces with no drilling. etrailer lists it at $211.78 with a limited lifetime warranty, and its fitment covers the gas RAV4, later Hybrids and the Prime. The truck's own tow rating still sets the limit."),
+ ("How much can a 2019–2025 RAV4 tow?",
+  "It depends on the version. Toyota dealer figures put the gas LE, XLE, XLE Premium and Limited at 1,500 lb, the Adventure and TRD Off-Road at 3,500 lb with the Tow Prep Package, every RAV4 Hybrid at 1,750 lb and the RAV4 Prime plug-in at 2,500 lb. A hitch rated 4,500 lb does not change any of those numbers. The lower of the hitch rating and the vehicle rating is your limit."),
+ ("Do the RAV4 Adventure and TRD Off-Road already have a hitch?",
+  "They came with Toyota's Tow Prep Package standard, which a Toyota dealer describes as including a trailer hitch receiver and wiring harness, plus the cooling hardware behind the 3,500 lb rating. If you have one of those trims, look under the bumper before buying anything. Wikipedia's RAV4 page notes both trims were dropped for 2025, so a 2025 gas RAV4 is a 1,500 lb vehicle."),
+ ("Should I get a 2 in or 1.25 in receiver on a RAV4?",
+  "Get 2 in unless you already own 1.25 in accessories. Most hitch bike racks and cargo carriers are built for a 2 in receiver, and the brand-name Class III hitches here cost about the same as the Class II ones. The Reese 06192 is the 1.25 in option: 3,500 lb and 350 lb tongue weight, a 35-minute install, and it isn't rated for weight distribution. On a 1,500 lb RAV4, either receiver out-rates the vehicle."),
+ ("Does a hitch fit the RAV4 Hybrid and RAV4 Prime?",
+  "Most brand-name hitches list both, but check the exact years. B&W lists the BW47BR for 2019–2025 RAV4, 2023–2025 RAV4 Hybrid, 2019–2024 Prime and the 2025 plug-in hybrid. Draw-Tite lists its 76634 for 2019–2025 RAV4 and 2021–2023 Prime. Reese lists the Class II 06192 for 2019–2025 RAV4 and 2024 Prime. If your Hybrid or Prime year isn't named, confirm on the listing."),
+ ("Will a hitch affect the RAV4's hands-free power liftgate?",
+  "It can. etrailer's notes for the CURT Class II, TowSmart and Blue Ox RAV4 hitches say the hands-free liftgate may need adjustment, and its EcoHitch notes say you may need to kick to the side of the receiver. Toyota's own PK960-42K10 instructions say installation may require disabling or removing the kick sensor. If you use the kick-to-open feature a lot, factor that in before you buy."),
+ ("Which wiring harness does a RAV4 need?",
+  "The CURT 56434 is a plug-in 4-way flat harness for 2019–2025 RAV4 and RAV4 Prime, all styles. It connects at the taillight assembly with no cutting or splicing, needs a battery connection, and has a one-year warranty. CURT rates the install as professional difficulty, and a reviewer notes several trunk trim panels have to come off. CURT also sells a hitch-and-harness bundle for the same years."),
+ ("Do 2006–2018 RAV4 hitches fit a 2019–2025 RAV4?",
+  "No. The 2019 redesign moved to a new platform, and hitch makers use separate part numbers. CURT's 13406 is listed for 2013–2018 RAV4 only, and Draw-Tite's 75235 is listed for 2006–2018. Buy a part whose listing names 2019 or later. The same applies going forward: the 2026 RAV4 is a new generation, and CURT sells a separate hitch (13652) for 2026–2027."),
+ ("Can I put a bike rack on a 1,500 lb RAV4?",
+  "Yes. A bike rack or cargo carrier is tongue weight, not trailer weight, and every hitch here is rated at 350 lb tongue weight or more. The limits are the rack's own rating, your RAV4's tongue weight figure in the owner's manual, and liftgate clearance. Heavy e-bike racks add up quickly, so weigh the rack and bikes together and compare against the manual before you load."),
+ ("Is the Toyota factory hitch better than aftermarket?",
+  "It is the one your dealer will install and warranty with the vehicle, and it comes with a hitch cover. Toyota describes PK960-42K10 as a Class II hitch with a 2 in receiver, engineered to handle the RAV4's maximum tow rating. It is not offered for Limited grades with the Advanced Technology Package or the Prime XSE with the Premium package, and it may require disabling the kick sensor. Aftermarket Class III hitches are usually cheaper and carry higher ratings."),
+]
+
+ARTICLE = {
+ "dek": "Six fit-checked picks for the 2019–2025 RAV4, RAV4 Hybrid and RAV4 Prime: two 2 in Class III hitches, Toyota's factory accessory, a 1.25 in Class II, a hitch-and-harness bundle, and the plug-in harness. For each one we list ratings, fitment by powertrain and install notes, and how each compares with the RAV4's 1,500–3,500 lb tow ratings.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these hitches ourselves. We ranked them on published ratings (gross trailer weight, tongue weight, weight-distribution compatibility), on the RAV4, Hybrid and Prime fitment each maker lists, and on install notes from etrailer and Toyota's accessory page. Tow ratings come from Toyota dealer towing guides; trim changes come from the RAV4 XA50 reference page. Prices were checked at etrailer or the maker's store in September 2026 where available. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Your RAV4's rating is the ceiling.** Gas LE through Limited: 1,500 lb. Adventure and TRD Off-Road with Tow Prep: 3,500 lb. Hybrid: 1,750 lb. Prime: 2,500 lb.",
+  "**Every hitch here out-rates the vehicle.** The B&W and Draw-Tite are 4,500 lb, the Reese Class II is 3,500 lb. Those numbers are margin, not permission.",
+  "**2019–2025 only.** The 2026 RAV4 is a new generation with its own hitches, and 2006–2018 parts don't fit either.",
+  "**Check Hybrid and Prime years on each listing.** Coverage varies: B&W lists Prime through 2024, Draw-Tite through 2023, Reese's Class II only 2024.",
+  "**Expect kick-sensor and trim notes.** Several hitches, including Toyota's own, can affect the hands-free liftgate sensor.",
+ ],
+ "top_picks": [
+  {"asin": "B0DQ2H21RR", "role": "Best overall", "why": "4,500 lb / 675 lb, made in USA, 3-piece bolt-on, $211.78 at etrailer"},
+  {"asin": "B07XSJSBG8", "role": "Best OEM", "why": "Toyota's own 2 in hitch with cover, built around the RAV4's tow rating"},
+  {"asin": "B0876WF3N9", "role": "Best 1.25 in", "why": "Class II, 3,500 / 350 lb, 35-minute no-drill install for 1.25 in racks"},
+  {"asin": "B01K52C53W", "role": "Best bundle", "why": "CURT hitch plus 4-way custom harness in one box, lists 2021–2024 Prime"},
+  {"asin": "B07W4LF7HR", "role": "Wiring harness", "why": "Plug-in 4-way flat for 2019–2025 RAV4 and Prime, no splicing"},
+ ],
+ "fit_table": {
+  "caption": "2019–2025 RAV4 tow ratings by version (Toyota dealer figures). The lower of vehicle and hitch rating wins.",
+  "head": ["Version", "Max trailer", "Factory hitch", "What to buy"],
+  "rows": [
+   ["Gas LE / XLE / XLE Premium / Limited", "1,500 lb", "Not standard", "Any hitch here; 2 in for racks"],
+   ["Gas Adventure / TRD Off-Road (2019–2024)", "3,500 lb", "Tow Prep Package: receiver + harness", "Check under the bumper; likely just a ball mount"],
+   ["RAV4 Hybrid (all trims)", "1,750 lb", "Not standard", "Confirm Hybrid year on listing (B&W lists 2023–2025)"],
+   ["RAV4 Prime (2021–2024)", "2,500 lb", "Not standard", "B&W, Draw-Tite or CURT bundle; check Prime years"],
+   ["2025 plug-in hybrid", "Check owner's manual", "Not standard", "B&W lists the 2025 plug-in hybrid"],
+  ],
+ },
+ "look_for": [
+  {"h": "Your version's tow rating",
+   "body": "The fifth-generation RAV4 has four tow ratings, and none of them depend on the hitch. Toyota dealer figures: 1,500 lb for gas LE, XLE, XLE Premium and Limited; 3,500 lb for Adventure and TRD Off-Road, which get the Tow Prep Package; 1,750 lb for every Hybrid; and 2,500 lb for the Prime plug-in. The Tow Prep hardware is what earns 3,500 lb, so adding a Class III hitch to an XLE doesn't make it an Adventure. Wikipedia's XA50 page notes Adventure and TRD Off-Road were dropped for 2025."},
+  {"h": "Receiver size: 2 in vs 1.25 in",
+   "body": "A 2 in receiver takes more bike racks and cargo carriers and doesn't need an adapter, so it is the default choice. B&W's BW47BR, Draw-Tite's 76634 and Rigid Hitch's R3-0523 are 2 in Class III hitches. Toyota's PK960-42K10 is described as Class II but also has a 2 in tube. The Reese 06192 is a true 1.25 in Class II, rated 3,500 lb and 350 lb, and not approved for weight distribution. Only pick 1.25 in if your rack or carrier already uses it."},
+  {"h": "Hybrid and Prime coverage by year",
+   "body": "The RAV4 Hybrid and Prime share the body but not always the hitch listing, so read the fitment line. etrailer lists B&W's BW47BR for 2019–2025 RAV4, 2023–2025 RAV4 Hybrid, 2019–2024 Prime and the 2025 plug-in hybrid. Draw-Tite lists the 76634 for 2019–2025 RAV4 and 2021–2023 Prime. Reese lists the 06192 for 2019–2025 RAV4 and 2024 Prime. CURT's 56434 harness covers 2019–2025 RAV4 and Prime, all styles. If your powertrain and year aren't named, ask the seller."},
+  {"h": "Kick sensor, tie-downs and fascia",
+   "body": "The RAV4's rear end has a few parts in the way. etrailer's notes for the CURT Class II, TowSmart and Blue Ox hitches say the hands-free liftgate may need adjustment and the passenger-side tie-down bracket comes off. Its EcoHitch hidden hitch needs fascia trimming and may mean kicking to the side of the receiver. Toyota's own PK960-42K10 page says installation may require disabling or removing the kick sensor. B&W's hitch installs to factory attachment points with no drilling; owners mention tight access on the passenger side."},
+  {"h": "Wiring: plug-in beats splicing",
+   "body": "The 2019–2025 RAV4 has plug-in harness options, so there is no reason to splice. CURT's 56434 connects at the taillight assembly, uses a powered converter fed from the battery, includes a fuse holder and dust cover, and has a one-year warranty. CURT rates the install as professional difficulty, and a reviewer notes more trunk trim panels come off than the instructions suggest. Tekonsha sells a T-One harness listed for select RAV4s as an alternative. Adventure and TRD Off-Road trucks with Tow Prep should already have a factory harness."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "Listing names 2019–2025 RAV4 and your Hybrid/Prime year", "2006–2018 parts, or 2026+ parts"],
+   ["Receiver", "2 in for racks and carriers; 1.25 in only if you own 1.25 in gear", "Adapters stacked to make a 2 in rack fit 1.25 in"],
+   ["Ratings", "Published GTW and TW from the maker", "Only a big GTW and no tongue weight"],
+   ["Install", "Bolt-on, no drilling, kick-sensor note stated", "Listings that ignore the liftgate sensor"],
+   ["Finish / warranty", "Powder coat over e-coat; limited lifetime", "Unstated coating or warranty"],
+   ["Wiring", "Plug-in harness listed for 2019–2025 RAV4", "Universal splice kits"],
+  ],
+ },
+ "types_table": {
+  "caption": "Hitch options on the RAV4 compared",
+  "head": ["Option", "Price on this page", "Receiver / rating", "Unlocks higher tow rating?", "Best for"],
+  "rows": [
+   ["Factory Tow Prep (Adventure/TRD OR)", "Standard on those trims", "Factory receiver + harness", "Yes: 3,500 lb", "Buyers of those trims"],
+   ["Brand-name Class III (B&W)", "~$212", "2 in, 4,500 / 675 lb", "No", "Most owners"],
+   ["Toyota accessory (PK960-42K10)", "Dealer price varies", "2 in, Class II", "No", "Warranty-minded owners"],
+   ["Class II (Reese 06192)", "~$150–$220 band", "1.25 in, 3,500 / 350 lb", "No", "Existing 1.25 in gear"],
+   ["Hitch + harness bundle (CURT)", "~$260–$340 band", "2 in; confirm ratings", "No", "One-box towing setup"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0DQ2H21RR", "role": "Best overall", "price": "$212",
+   "pros": ["4,500 lb GTW / 675 lb TW", "Three-piece bolt-on to factory attachment points, no drilling or welding", "Made in the USA", "Covers gas RAV4, later Hybrids, Prime and the 2025 plug-in hybrid", "Limited lifetime warranty"],
+   "cons": ["Passenger-side access is tight; some owners drop the exhaust", "Hybrid listed from 2023 only; confirm 2019–2022 Hybrid", "Harness sold separately"],
+   "body": "B&W is known for its heavy-duty truck hitches, and the RAV4 hitch has good ratings for a compact SUV. The RH670118BW (sold by etrailer as BW47BR) is a Class III hitch with a 2 in receiver rated 4,500 lb gross trailer weight and 675 lb tongue weight. It is powder-coated steel, made in the USA, and uses a concealed cross tube that sits below the bumper. etrailer lists it at $211.78 with a limited lifetime warranty.\n\nIt bolts to factory attachment points with the supplied hardware in three pieces, with no drilling or welding. etrailer quotes 30–45 minutes for an experienced DIYer and 1–2 hours for a first-timer without a lift. Reviewers mention tight passenger-side access, and some lower the exhaust or use jack stands. Fitment runs 2019–2025 RAV4, 2023–2025 RAV4 Hybrid, 2019–2024 Prime and the 2025 plug-in hybrid. The Amazon listing names 2019–2025 RAV4, so confirm Hybrid coverage if yours is a 2019–2022.",
+   "who": "Most RAV4 owners who want a 2 in receiver for a rack, carrier or small trailer from a US maker.",
+   "specs": [["Class / receiver", "Class III, 2 in"], ["Part #", "RH670118BW (etrailer BW47BR)"], ["Fits", "2019–2025 RAV4; 2023–2025 Hybrid; 2019–2024 Prime; 2025 PHEV"], ["GTW / TW", "4,500 lb / 675 lb"], ["Install", "3-piece bolt-on, no drilling; 30 min–2 hr"], ["Finish", "Powder-coated steel"], ["Made in", "USA"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B07XSJSBG8", "role": "Best OEM", "price": "Dealer price varies",
+   "pros": ["Toyota Genuine part; dealer can install it", "2 in receiver tube", "Engineered for the RAV4's maximum tow rating", "Hitch cover included", "Covered by Toyota's parts warranty"],
+   "cons": ["Not offered for Limited with Advanced Technology Package or Prime XSE with Premium package", "May require disabling or removing the kick sensor", "Toyota describes it as Class II; lower rating than aftermarket Class III"],
+   "body": "If you want the hitch your dealer would install, PK960-42K10 is Toyota's accessory for the 2019-and-up RAV4. Toyota's accessory page describes it as a Class II hitch with a 2 in receiver tube, engineered to accommodate the RAV4's maximum tow rating, and it includes a hitch cover. It is covered by Toyota's parts warranty, which matters to owners who want every accessory on the same paperwork as the vehicle. Several dealer parts catalogs now show a PK960-42R10 labeled Class III for the RAV4. Ask your parts counter which number currently ships.\n\nTwo restrictions from Toyota's page matter. The hitch is not available for Limited grades with the Advanced Technology Package or for the RAV4 Prime XSE with the Premium package. And installing it may require disabling or removing the kick sensor for the hands-free liftgate. If you have one of those trims or rely on the kick feature, an aftermarket hitch is the better route.",
+   "who": "Owners who want a Toyota Genuine part, installed and warrantied by the dealer.",
+   "specs": [["Class / receiver", "Class II, 2 in tube (per Toyota)"], ["Part #", "PK960-42K10 (check PK960-42R10)"], ["Fits", "2019+ RAV4; not Limited w/ Adv. Tech or Prime XSE Premium"], ["Rating", "Built to the RAV4's max tow rating"], ["Includes", "Hitch cover"], ["Install note", "May need kick sensor disabled/removed"], ["Warranty", "Toyota parts warranty"]]},
+  {"asin": "B0876WF3N9", "role": "Best 1.25 in", "price": "$150–$220",
+   "pros": ["Class II, 3,500 lb GTW / 350 lb TW", "35-minute install, no drilling on RAV4", "Concealed bolt-on design", "Also lists 2024 Prime and 2022–2025 Lexus NX", "Limited lifetime warranty"],
+   "cons": ["1.25 in receiver limits rack and carrier choice", "Not compatible with weight distribution", "Prime coverage listed for 2024 only"],
+   "body": "Some owners already have a 1.25 in bike rack from a previous car, or want the smallest receiver that tucks under the bumper. The Reese 06192 is the brand-name answer. Reese rates it Class II at 3,500 lb gross trailer weight and 350 lb tongue weight, both of which exceed every RAV4's own rating. It is solid all-welded steel with a black powder coat, concealed behind the fascia, and bolts on in about 35 minutes with no drilling on the RAV4. The warranty is limited lifetime.\n\nKnow the limits. Reese says it is not compatible with weight-distribution systems, which is not an issue for trailers this size. A 1.25 in receiver also rules out many heavier platform bike racks built only in 2 in. Reese lists fit for 2019–2025 RAV4 and 2024 RAV4 Prime; other Prime years aren't named, so confirm on the listing.",
+   "who": "Owners with existing 1.25 in racks, or who only ever carry bikes and a light cargo tray.",
+   "specs": [["Class / receiver", "Class II, 1.25 in"], ["Part #", "06192"], ["Fits", "2019–2025 RAV4; 2024 Prime"], ["GTW / TW", "3,500 lb / 350 lb"], ["WD", "Not compatible"], ["Install", "~35 min, no drilling (RAV4)"], ["Finish", "Black powder coat"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B07V3NLKV9", "role": "Made-in-USA alternative", "price": "$259",
+   "pros": ["Class III, 2 in receiver", "Made in the USA", "Black powder coat finish", "Sold direct by Rigid Hitch at $258.95", "Listing names 2019–2024 RAV4"],
+   "cons": ["Rigid Hitch's page doesn't publish GTW/TW; confirm on listing", "Listing stops at 2024", "More than the B&W at etrailer's price"],
+   "body": "Rigid Hitch is a smaller US maker that sells direct, and its R3-0523 is a 2 in Class III receiver for the RAV4 with a black powder coat. Rigid Hitch lists it at $258.95. The Amazon listing names 2019–2024 RAV4 and says made in the USA. It is a reasonable alternative when the B&W is out of stock or you prefer to buy direct from the maker.\n\nThe paper trail is thinner. The maker page we could read does not publish the GTW or TW rating, install time or Hybrid/Prime fitment, so confirm all of that on the listing or with Rigid Hitch before you order, and confirm 2025 fit if yours is a 2025. Whatever the hitch is rated, the RAV4's own 1,500–3,500 lb rating is the limit you tow to.",
+   "who": "Buyers who want a US-made 2 in hitch from a smaller maker and will confirm the ratings first.",
+   "specs": [["Class / receiver", "Class III, 2 in"], ["Part #", "R3-0523"], ["Fits", "2019–2024 RAV4 (per listing)"], ["GTW / TW", "Confirm on listing"], ["Finish", "Black powder coat"], ["Made in", "USA"], ["Price", "$258.95 direct"]]},
+  {"asin": "B01K52C53W", "role": "Best bundle", "price": "$260–$340",
+   "pros": ["Class 3 hitch and 4-way flat custom harness in one box", "2 in receiver", "Listing names 2019–2025 RAV4 and 2021–2024 Prime", "Installation hardware and dust cover included", "CURT's plug-in harness avoids splicing"],
+   "cons": ["Listing doesn't name the hitch part number; confirm ratings", "Harness still needs a battery connection", "Costs more than buying the B&W and a harness separately in some weeks"],
+   "body": "If you want to order once and tow, CURT sells a Class 3 hitch bundled with a 4-way flat custom harness. The listing names 2019–2025 RAV4 and 2021–2024 RAV4 Prime, and includes installation hardware and a rubber dust cover. The harness side is CURT's vehicle-specific plug-in design, the same approach as the 56434 below, so you avoid splicing into the RAV4's lighting.\n\nThe listing doesn't name the CURT hitch part number, so it doesn't give us a maker page to check ratings against. Confirm the gross trailer weight and tongue weight on the listing and keep the CURT paperwork that ships in the box. As with every hitch here, the vehicle's rating is the real limit. A gas XLE is still a 1,500 lb tow vehicle with this kit fitted. Compare the bundle price with buying a hitch and the 56434 separately on the day you order.",
+   "who": "Owners who want a hitch and working trailer lights from one order with matched parts.",
+   "specs": [["Class / receiver", "Class 3, 2 in"], ["Includes", "Hitch + 4-way flat custom harness, hardware, dust cover"], ["Fits", "2019–2025 RAV4; 2021–2024 Prime (per listing)"], ["GTW / TW", "Confirm on listing"], ["Wiring", "Plug-in, 4-way flat"], ["Install", "Bolt-on hitch; plug-in harness"]]},
+  {"asin": "B07W4LF7HR", "role": "Wiring harness", "price": "$50–$80",
+   "pros": ["Fits 2019–2025 RAV4 and RAV4 Prime, all styles", "Plug-and-play at the taillight; no cutting or splicing", "Powered converter with SMT circuitry", "Dust cover and fuse holder included", "Optional Easy-Mount bracket puts the plug on the receiver"],
+   "cons": ["Needs a battery connection", "CURT rates the install professional difficulty", "One-year warranty"],
+   "body": "Any hitch you plan to tow with needs lights, and on a non-Tow-Prep RAV4 the CURT 56434 is the plug-in way to add them. CURT lists it for 2019–2025 RAV4 and RAV4 Prime, all styles, as well as the Mitsubishi Outlander PHEV. It connects between the RAV4's taillight connectors and the 4-way flat plug, so there is no cutting or splicing. It uses a powered converter, which is why it needs a battery connection, and it includes a fuse holder and a dust cover. CURT sells an Easy-Mount bracket that holds the plug on the hitch receiver.\n\nCURT rates the install as professional difficulty, mostly because of the route to the battery. One reviewer notes that more trunk trim panels come off than the instruction sheet suggests. The warranty is one year. Adventure and TRD Off-Road owners with the factory Tow Prep harness don't need it.",
+   "who": "Gas XLE/Limited, Hybrid and Prime owners who need 4-way trailer lights without splicing.",
+   "specs": [["Type", "Vehicle-side custom harness, 4-way flat"], ["Part #", "56434"], ["Fits", "2019–2025 RAV4 & Prime, all styles"], ["Converter", "Powered, SMT circuitry"], ["Includes", "Fuse holder, dust cover"], ["Install", "Plug-in at taillight; battery wire; professional difficulty"], ["Warranty", "1 year"]]},
+ ],
+ "install": [
+  "Read the door-jamb and owner's-manual tow rating for your version, and look under the bumper for a factory Tow Prep receiver before ordering.",
+  "Open the cargo area and remove the trim panels, spare-tire cover and, where the instructions say, the passenger-side tie-down bracket.",
+  "Support the exhaust and lower it if you need room on the passenger side; B&W owners report this side is the tight one.",
+  "Lift the hitch or its side brackets into place, start all bolts by hand at the factory attachment points, then torque to the instruction sheet.",
+  "Trim the fascia if your hitch requires it, and test the hands-free liftgate; adjust or disable the kick sensor per the instructions if needed.",
+  "Plug the harness in at the taillights, run and fuse the battery wire, mount the 4-way plug, and test every circuit before towing.",
+ ],
+ "avoid": [
+  {"h": "Towing to the hitch rating", "body": "A 4,500 lb hitch on a 1,500 lb XLE is still a 1,500 lb tow setup. The RAV4's rating, not the hitch sticker, sets the limit."},
+  {"h": "Hitches from the wrong generation", "body": "2006–2018 parts (CURT 13406, Draw-Tite 75235) and 2026+ parts (CURT 13652) don't fit 2019–2025 RAV4s."},
+  {"h": "Assuming Hybrid or Prime is covered", "body": "Coverage varies by maker and year. Match the listing's Hybrid or Prime years to your vehicle."},
+  {"h": "Ignoring the kick sensor", "body": "Toyota's hitch and several aftermarket ones can affect the hands-free liftgate. Plan to adjust or disable it."},
+ ],
+ "verdict": {
+  "thesis": "Know your RAV4's tow rating, then fit the B&W RH670118BW and a CURT 56434 harness; pick the Toyota hitch only if dealer install matters more than price.",
+  "body": "The best RAV4 hitch is a 2 in Class III that lists your exact year and powertrain. The B&W combines 4,500 lb and 675 lb ratings, US manufacture and a no-drill three-piece install at a lower etrailer price than most brand-name options. Toyota's accessory hitch makes sense if you want dealer installation and warranty, provided your trim isn't excluded. The Reese Class II fits owners with 1.25 in gear. Whatever you fit, tow to 1,500, 1,750, 2,500 or 3,500 lb depending on the version, not to the hitch's number.\n\nA hitch pairs well with a roof rack: bikes go on the back, and a cargo box on the crossbars takes the luggage, which keeps the tongue weight down. The vehicle hub lists every fit-checked accessory for the RAV4.",
+ },
+ "sources": [
+  ["B&W BW47BR RAV4 hitch (etrailer)", "https://www.etrailer.com/Trailer-Hitch/B-and-W/BW47BR.html"],
+  ["Toyota hitch receiver PK960-42K10 (Toyota Auto Parts)", "https://autoparts.toyota.com/products/product/hitch-receiver-pk96042k10"],
+  ["Reese 06192 Class II hitch (Reese)", "https://www.reeseprod.com/product/06192_class-ii-trailer-hitch"],
+  ["Draw-Tite 76634 Class III hitch (Draw-Tite)", "https://www.draw-tite.com/product/76634_class-iii-trailer-hitch"],
+  ["CURT 56434 custom wiring harness (CURT)", "https://www.curtmfg.com/part/56434"],
+  ["Rigid Hitch R3-0523 (Rigid Hitch)", "https://www.rigidhitch.com/r3-0523-class-iii-receiver-rigid-r3.html"],
+  ["2022 RAV4 hitch comparison and install notes (etrailer)", "https://www.etrailer.com/hitch-2022_Toyota_RAV4.htm"],
+  ["2024 Toyota RAV4 towing capacity by trim (Toyota Vallejo)", "https://www.toyotavallejo.com/blogs/5095/2024-toyota-rav4-towing-capacity"],
+  ["Toyota RAV4 (XA50) generation and trims (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_RAV4_(XA50)"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B0DQ2H21RR","B&W Class 3 Trailer Hitch 2 in receiver RH670118BW, 2019-2025 Toyota RAV4","B&W","$200–$240",{},"4,500 lb GTW / 675 lb TW; made in USA."),
+ ("B07XSJSBG8","Toyota Genuine 2019 & Up RAV4 Trailer Tow Hitch Kit PK960-42K10","Toyota","$250–$400",{},"Not for Limited w/ Adv. Tech or Prime XSE Premium; confirm current part number."),
+ ("B0876WF3N9","Reese 06192 Class 2 Trailer Hitch 1.25 in, 2019-2025 Toyota RAV4, 2024 RAV4 Prime","Reese","$150–$220",{},"1.25 in; 3,500 lb / 350 lb; no WD."),
+ ("B07V3NLKV9","Rigid Hitch R3-0523 Class 3 Trailer Hitch 2 in, 2019-2024 RAV4, made in USA","Rigid Hitch","$230–$270",{"year_to":2024},"Confirm ratings and 2025 fit on listing."),
+ ("B01K52C53W","CURT Class 3 Trailer Hitch 2 in with 4-way flat wiring harness, 2019-2025 RAV4 & 2021-2024 RAV4 Prime","CURT","$260–$340",{},"Hitch + harness bundle; confirm ratings on listing."),
+ ("B07W4LF7HR","CURT 56434 Vehicle-Side Custom 4-Pin Trailer Wiring Harness, select Toyota RAV4","CURT","$50–$80",{},"2019-2025 RAV4 & Prime; battery connection."),
+ ("B0H8Z9D2FN","CURT Class 3 Trailer Hitch with 4-way custom wiring harness, 2019-2025 RAV4","CURT","$250–$330",{},"Alternate hitch + harness listing; confirm contents."),
+]
