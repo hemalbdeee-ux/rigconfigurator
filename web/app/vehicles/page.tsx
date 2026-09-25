@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
 
 export const revalidate = 60;
-export const metadata = { title: "All Vehicles — Fit-checked accessories by make, model and generation" };
+export const metadata: Metadata = {
+  title: "Truck & SUV Accessories by Vehicle",
+  description: "Every truck and SUV generation we cover, with the racks, hitches, tonneau covers, floor liners and steps verified to fit each one.",
+  alternates: { canonical: "/vehicles" },
+  openGraph: { title: "Truck & SUV Accessories by Vehicle | Rig Configurator", url: "/vehicles", siteName: "Rig Configurator", type: "website" },
+};
 
 export default async function Vehicles() {
   const vs = await allVehicles();

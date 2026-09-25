@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { categorySeoTitle } from "@/lib/seo";
 import { getCategory, publishedGuides } from "@/lib/queries";
 
 export const revalidate = 3600;
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const c = await getCategory((await params).category);
   if (!c) return {};
   return {
-    title: `${c.name} by Vehicle — Fit-Checked Guides`,
+    title: categorySeoTitle(c),
     description: `${c.name} matched to your exact truck or SUV generation. Pick your vehicle to see what fits, with prices and fit notes.`,
     alternates: { canonical: `/guides/${c.slug}` },
   };

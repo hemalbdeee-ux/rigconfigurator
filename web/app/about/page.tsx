@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { AUTHORS } from "@/lib/authors";
 
 export const metadata: Metadata = {
-  title: "About Rig Configurator — How We Check Fitment",
+  title: { absolute: "About Rig Configurator: How We Check Fitment" },
   description: "Who runs Rig Configurator, how products are matched to each truck and SUV generation, and how the site makes money.",
   alternates: { canonical: "/about" },
 };

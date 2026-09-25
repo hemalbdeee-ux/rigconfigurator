@@ -38,15 +38,17 @@ const NOUNS: Record<string, { one: string; many: string; prep: "on" | "in" }> = 
 function nouns(c: Category) {
   return NOUNS[c.slug] ?? { one: c.name.split(/ & | and /)[0].toLowerCase().replace(/(x|ch|sh|s)es$/, "$1").replace(/s$/, ""), many: c.name.toLowerCase(), prep: "on" as const };
 }
-/** "a" / "an" by sound: an F-150, an RAV4, an LED bar, an 8-lug, an hour; a Tacoma, a UTV, a one-piece, a used truck. */
+/** "a" / "an" by sound: an F-150, an LED bar, an SUV, an 8-lug, an hour; a RAV4, a Tacoma, a UTV, a one-piece, a used truck. */
 export function article(word: string) {
   const w = word.trim();
   if (/^(8|11|18)(?!\d{3})/.test(w)) return "an";                      // eight, eleven, eighteen, eighty…
-  if (/^[FHLMNRSX](?=[-\dA-Z]|$)/.test(w)) return "an";                 // letter-by-letter codes: F-150, RAV4, LED, SUV, HD
+  if (/^[FHLMNRSX](?=[-\d]|$)/.test(w) || /^(LED|SUV|HD|RV|MX|SRT|RS|SR5?)\b/.test(w)) return "an"; // letter-by-letter: F-150, X5, LED, SUV
   if (/^U(?=[-\dA-Z])/.test(w) || /^(uni|use|usu|uti|one|eu)/i.test(w)) return "a";
   if (/^(hour|honest|heir)/i.test(w)) return "an";
   return /^[aeiou]/i.test(w) ? "an" : "a";
 }
+/** "Ram 1500" rather than a bare "1500" when the model name is only a number. */
+export const modelName = (v: Vehicle) => /^\d+(\s|$)/.test(v.model_name) ? `${v.make_name} ${v.model_name}` : v.model_name;
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 /** Split a long table caption into a heading and a trailing note: "X (note)" or "X. Note." */
 function splitCaption(t?: Table) {
@@ -83,9 +85,10 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
   const picked = new Set(a.picks.map(p => p.asin));
   const others = fits.filter(f => !picked.has(f.asin));
   const n = nouns(c);
+  const model = modelName(v);
   const fitCap = splitCaption(a.fit_table);
   const typesCap = splitCaption(a.types_table);
-  const fitH = fitCap.h || `Which ${v.model_name} do you have?`;
+  const fitH = fitCap.h || `Which ${model} do you have?`;
   const typesH = typesCap.h || `${cap(n.one)} types compared`;
   const toc: [string, string][] = [
     ...(a.fit_table ? [["fit-check", fitH] as [string, string]] : []),
@@ -137,7 +140,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       {a.fit_table && (<section id="fit-check"><h2>{fitH}</h2><T t={{ ...a.fit_table, caption: fitCap.note }} /></section>)}
 
       <section id="what-to-look-for">
-        <h2>What to look for in {v.model_name} {n.many}</h2>
+        <h2>What to look for in {model} {n.many}</h2>
         {a.look_for.map(x => <div key={x.h}><h3>{x.h}</h3><Md s={x.body} linker={L} /></div>)}
         {a.look_table && <T t={a.look_table} />}
       </section>
@@ -178,14 +181,14 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — {money(f.price_cents, f.price_band)} · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
       </section>)}
 
-      {a.install?.length ? (<section id="install"><h2>How to install {article(n.one)} {n.one} {n.prep} the {v.model_name}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}
+      {a.install?.length ? (<section id="install"><h2>How to install {article(n.one)} {n.one} {n.prep} the {model}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}
 
       {a.avoid?.length ? (<section id="avoid"><h2>What to avoid</h2><div className="box warnbox">{a.avoid.map(x => <p key={x.h}><strong>{x.h}.</strong> <Inline s={x.body} linker={L} /></p>)}</div></section>) : null}
 
       <section className="cta-box">
-        <strong>See everything that fits your {v.model_name}</strong>
+        <strong>See everything that fits your {model}</strong>
         <p className="muted">Bed, roof, hitch and interior, filtered to the {vehicleTitle(v)}.</p>
-        <Link className="btn" href={vehiclePath(v)}>Open the {v.model_name} fit hub →</Link>
+        <Link className="btn" href={vehiclePath(v)}>Open the {model} fit hub →</Link>
       </section>
 
       {faq.length > 0 && (<section id="faq"><h2>Frequently asked questions</h2>
@@ -198,7 +201,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       </section>
 
       {next && (<Link href={next.path} className="next-step" style={{ display: "block" }}>
-        <div className="lbl">Next step for your {v.model_name}</div>
+        <div className="lbl">Next step for your {model}</div>
         <strong style={{ color: "var(--fg)" }}>{next.title}</strong> <span>→</span>
       </Link>)}
 

@@ -5,6 +5,7 @@ import { allVehicles, categoriesFor, fitsFor, getVehicle, heroFor, pagesFor, sib
 import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
 import { SITE_URL, money } from "@/lib/db";
+import { hubSeoTitle } from "@/lib/seo";
 
 export const revalidate = 3600;
 type P = { make: string; model: string; gen: string };
@@ -18,11 +19,13 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const { make, model, gen } = await params;
   const v = await getVehicle(make, model, gen);
   if (!v) return {};
+  const description = `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it: bed, roof, hitch and interior.`;
+  const title = hubSeoTitle(v);
   return {
-    title: `${vehicleTitle(v)} Accessories That Fit — Racks, Hitches, Covers & Mats`,
-    description: `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it: bed, roof, hitch and interior.`,
+    title,
+    description,
     alternates: { canonical: vehiclePath(v) },
-    openGraph: { images: ogImage(await heroFor(v.id)) },
+    openGraph: { title: title.absolute, description, url: vehiclePath(v), siteName: "Rig Configurator", type: "website", images: ogImage(await heroFor(v.id)) },
   };
 }
 
