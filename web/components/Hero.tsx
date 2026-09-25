@@ -17,4 +17,6 @@ export function Hero({ h, alt, priority = false }: { h: H | null; alt: string; p
   );
 }
 
-export const ogImage = (h: H | null) => h ? [{ url: `/img/${h.file.replace(/\.webp$/, "-og.jpg")}`, width: 1200, height: 630 }] : undefined;
+export const DEFAULT_OG = [{ url: "/og/default.jpg", width: 1200, height: 630, alt: "Rig Configurator" }];
+export const staticOg = (name: string, alt: string) => [{ url: `/og/${name}.jpg`, width: 1200, height: 630, alt }];
+export const ogImage = (h: H | null) => h ? [{ url: `/img/${h.file.replace(/\.webp$/, "-og.jpg")}`, width: 1200, height: 630 }] : DEFAULT_OG;

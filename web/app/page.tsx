@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/db";
+import { DEFAULT_OG } from "@/components/Hero";
 import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
 import { VehiclePicker } from "@/components/VehiclePicker";
 
-export const revalidate = 60;
+// Rendered per request: at `docker build` the DB is unreachable and a prerendered copy would list no vehicles.
+export const dynamic = "force-dynamic";
 
 const HOME_TITLE = "Rig Configurator: Fit-Checked Truck & SUV Accessories";
 const HOME_DESC = "Pick your vehicle, see only the racks, hitches, tonneau covers and gear that actually fit. Verified against manufacturer fit guides.";
@@ -12,8 +14,8 @@ export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },
   description: HOME_DESC,
   alternates: { canonical: "/" },
-  openGraph: { title: HOME_TITLE, description: HOME_DESC, url: "/", siteName: "Rig Configurator", type: "website", locale: "en_US" },
-  twitter: { card: "summary", title: HOME_TITLE, description: HOME_DESC },
+  openGraph: { title: HOME_TITLE, description: HOME_DESC, url: "/", siteName: "Rig Configurator", type: "website", locale: "en_US", images: DEFAULT_OG },
+  twitter: { card: "summary_large_image", title: HOME_TITLE, description: HOME_DESC },
 };
 
 const homeLd = {

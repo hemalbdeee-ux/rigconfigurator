@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { SITE_URL } from "@/lib/db";
+import { DEFAULT_OG } from "@/components/Hero";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: "Rig Configurator: Fit-Checked Truck & SUV Accessories", template: "%s | Rig Configurator" },
   description: "Pick your vehicle, see only the racks, hitches, tonneau covers and gear that actually fit. Verified against manufacturer fit guides.",
-  openGraph: { siteName: "Rig Configurator", type: "website", locale: "en_US" },
+  openGraph: { siteName: "Rig Configurator", type: "website", locale: "en_US", images: DEFAULT_OG },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
