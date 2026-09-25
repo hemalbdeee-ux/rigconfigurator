@@ -1,0 +1,173 @@
+"""Long-form article — Best Running Boards & Side Steps for 2022–2026 Nissan Frontier Crew Cab (D41).
+No invented hands-on testing: fit facts from listing titles in FITS, specs from RealTruck pages in sources (checked 2026-09-24).
+"""
+
+KEY = ("nissan", "frontier", "2022-present", "running-boards")
+
+TITLE = "Best Running Boards for 2022–2026 Nissan Frontier Crew Cab: 5 Picks and the 2005–2021 Bracket Trap"
+META = ("Five Frontier Crew Cab side steps from Go Rhino, TAC and TIEZFUL, and why listings that span 2005–2025 need a "
+        "bracket check on the 2022+ truck.")
+
+FAQ = [
+ ("Why do so many Frontier running boards list 2005 to 2025?",
+  "The 2022 Frontier got a new body and interior, but it's built on an updated version of the previous truck's platform, and several board makers list one part for both generations. That doesn't guarantee the brackets line up on a 2022+. Westin sells a separate 27-2435 mount kit for the 2022 Frontier Crew Cab and King Cab, which suggests the mounting changed. Confirm 2022+ bracket fit with the seller before ordering any listing that spans both generations."),
+ ("Crew Cab or King Cab?",
+  "Every pick here is Crew Cab, with four full doors. The King Cab has small rear-hinged doors and needs shorter boards."),
+ ("What is the Go Rhino RB30 Slim?",
+  "A narrow version of Go Rhino's RB30. RealTruck describes the RB30 line as galvanized 16-gauge steel with open flow-through slots that shed dirt and snow, a 600 lb per side rating, a limited lifetime structural warranty and a 5-year finish warranty."),
+ ("Do these fit the PRO-4X?",
+  "The PRO-4X shares the Crew Cab body. It's the off-road trim, so consider clearance: slim boards or sliders suit it better than drop steps."),
+ ("Is the Frontier manual or automatic?",
+  "The 2022+ US Frontier uses a 9-speed automatic; it doesn't affect running boards, which bolt to the body."),
+ ("Do I need to drill?",
+  "RealTruck lists the Go Rhino RB30 as bolt-on with no drilling. Budget listings vary; check the listing and confirm the bracket kit for 2022+."),
+ ("Are drop steps useful on a Frontier?",
+  "On a lifted Frontier or for short passengers, yes. TIEZFUL's 5.1 in drop-down steps put a lower step at each door. They reduce side clearance."),
+ ("What does TAC Sidewinder mean?",
+  "TAC's Sidewinder is its 4 in drop-style side step line. The Frontier listing spans 2005–2026 Crew Cab, so confirm bracket fit for the 2022+ body."),
+ ("How much weight can boards hold?",
+  "RealTruck lists the Go Rhino RB30 at 600 lb per side. The budget listings may not state a rating; ask the seller."),
+ ("Can I install them myself?",
+  "Yes, with a helper. Bolt the brackets to the body points, set the boards, level them, torque to spec and recheck after a week."),
+ ("What should I ask the seller before ordering Frontier running boards?",
+  "Send your model year, cab (Crew Cab), and trim, and ask two things: whether the included brackets fit the 2022+ Frontier body without drilling, and whether any 2022+-specific bracket kit is needed. Ask for the answer in writing through the marketplace messages. If the seller can't answer, pick a different listing; a board that needs drilling to fit isn't the right part."),
+ ("Are rock sliders a better choice for a PRO-4X?",
+  "For regular off-road use, yes. Sliders mount to the frame and protect the rocker panels from rocks; running boards are designed for stepping and can bend on impact. If you mostly drive on pavement and gravel, a slim board like the Go Rhino RB30 Slim or TAC's stainless tube is enough."),
+ ("Do Frontier running boards fit the King Cab?",
+  "No. The King Cab has small rear-hinged doors and a shorter cab, so it needs shorter boards. Westin's 2022 mount kit covers both cabs, but the boards themselves are cab-specific. Buy boards that name the King Cab."),
+]
+
+ARTICLE = {
+ "dek": "Five side steps for the 2022+ Frontier Crew Cab, from Go Rhino's galvanized RB30 Slim to budget drop steps. Most Frontier listings span 2005 to 2025, so the real work is confirming the brackets fit the 2022+ truck before you buy.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-24",
+ "method": "We did not install these steps ourselves. We ranked them on the fitment each listing states for the Frontier Crew Cab, on published retailer specs where available and on listing details, and we flag every listing that spans both generations. Go Rhino specs come from RealTruck's product pages, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Most listings span 2005–2025.** Confirm 2022+ bracket fit with the seller.",
+  "**Westin sells a 2022-specific mount kit.** A sign the mounting changed.",
+  "**Crew Cab only here.** King Cab boards are shorter.",
+  "**Go Rhino RB30 is the documented pick.** Galvanized, 600 lb/side, lifetime structural warranty.",
+  "**Slim boards suit the PRO-4X.** Drop steps suit lifted road trucks.",
+ ],
+ "top_picks": [
+  {"asin": "B0D98W19S6", "role": "Best overall", "why": "Go Rhino RB30 Slim, galvanized, flow-through slots"},
+  {"asin": "B09NRWB49Y", "role": "Best drop-style step", "why": "TAC Sidewinder 4 in, lists through 2026"},
+  {"asin": "B0G336DBYZ", "role": "Best drop-down steps", "why": "TIEZFUL 5.1 in drop-down steps"},
+  {"asin": "B0FG32L3H3", "role": "Best budget 2-step", "why": "TIEZFUL 2-step running boards"},
+  {"asin": "B0H9WXBK8B", "role": "Budget 5 in alternative", "why": "Carbon-steel 2-step boards, 5 in"},
+ ],
+ "fit_table": {
+  "caption": "Frontier running boards: generation and cab",
+  "head": ["Variable", "Versions", "What to do"],
+  "rows": [
+   ["Listing span", "2005–2025/2026 in one part", "Confirm 2022+ brackets with seller"],
+   ["Cab", "King Cab, Crew Cab", "All picks Crew Cab"],
+   ["Trim", "S, SV, SL, PRO-X, PRO-4X", "Same body; clearance matters on PRO-4X"],
+   ["Mount kit", "Westin 27-2435 for 2022 Crew/King", "Suggests 2022 mounting differs"],
+  ],
+ },
+ "look_for": [
+  {"h": "The cross-generation listing problem",
+   "body": "Almost every Frontier running board on Amazon lists 2005 through 2025 or 2026 in one part. The 2022 Frontier kept an updated version of the older truck's underpinnings but got a new body, and Westin sells a separate mount kit (27-2435) for the 2022 Crew Cab and King Cab, which suggests the mounting points or bracket geometry changed. A wide year range isn't proof of fit. Before ordering any board here, message the seller with your year and ask whether the included brackets fit the 2022+ body. It's the most important step on this page."},
+  {"h": "Slim board, drop step or 2-step",
+   "body": "Go Rhino's RB30 Slim is a narrow galvanized board that keeps side clearance, suited to a PRO-4X that sees trails. TAC's Sidewinder and TIEZFUL's drop-down steps put a lower step at each door for lifted trucks and short passengers. TIEZFUL's 2-step boards and the generic 5 in boards give a step pad at each door on a simple rail. Pick by how you use the truck: trails favor slim; family use favors drop steps or a wider board."},
+  {"h": "Finish and warranty",
+   "body": "RealTruck describes Go Rhino's RB30 line as galvanized 16-gauge steel under a textured powder coat or bedliner coating, with a limited lifetime structural warranty and a 5-year finish warranty, and a 600 lb per side rating. The TAC, TIEZFUL and generic listings don't publish comparable terms on the pages we read. In salt states, galvanized steel lasts longest."},
+  {"h": "Clearance on the PRO-4X",
+   "body": "The PRO-4X is the Frontier's off-road trim. Any board reduces side clearance; drop steps reduce it most. If you go off pavement often, choose the slim Go Rhino or consider rock sliders, which protect the rocker rather than just providing a step."},
+  {"h": "Install",
+   "body": "RealTruck lists the Go Rhino RB30 as bolt-on with no drilling and vehicle-specific brackets. Budget listings vary. Use a helper to hold the board while starting bolts, level it, torque to spec and recheck after a week. If brackets don't line up with the 2022+ body, stop and contact the seller rather than drilling."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fit", "Seller confirms 2022+ brackets", "Trusting a 2005–2025 range alone"],
+   ["Cab", "Crew Cab named", "King Cab boards"],
+   ["Clearance", "Slim boards for trails", "Drop steps off-road"],
+   ["Finish", "Galvanized under coating", "Bare paint in salt"],
+   ["Mounting", "Bolt-on, no drilling", "Drilling to make it fit"],
+   ["Warranty", "Stated terms", "None"],
+  ],
+ },
+ "types_table": {
+  "caption": "Side steps for the 2022–2026 Frontier Crew Cab",
+  "head": ["Type", "Example", "Step", "Clearance", "Price band", "Best for"],
+  "rows": [
+   ["Slim galvanized board", "Go Rhino RB30 Slim", "Narrow, slotted", "Good", "$400–$520", "Durability, trails"],
+   ["Drop-style step", "TAC Sidewinder", "4 in drop", "Low", "$170–$240", "Lifted trucks"],
+   ["Drop-down steps", "TIEZFUL 5.1 in", "Drop-down", "Low", "$160–$230", "Short riders"],
+   ["2-step rail", "TIEZFUL, generic", "Pad at each door", "Fair", "$120–$220", "Budget"],
+  ],
+ },
+ "picks": [
+  {"asin": "B0D98W19S6", "role": "Best overall", "price": "$400–$520",
+   "pros": ["Galvanized 16-gauge steel (RealTruck, RB30 line)", "Flow-through slots shed dirt and snow", "Rated 600 lb per side (RealTruck)", "Limited lifetime structural, 5-year finish warranty", "Slim profile keeps clearance"],
+   "cons": ["Listing spans 2005–2024; confirm 2022+ brackets", "Narrow step", "Costs more than budget steps"],
+   "body": "Go Rhino's RB30 Slim 69634680SPC is listed for 2005–2024 Nissan Frontier Crew Cab in textured black. RealTruck describes the RB30 line as galvanized 16-gauge steel with open flow-through slots, a 600 lb per side rating, a limited lifetime structural warranty and a 5-year finish warranty, installed with no drilling.\n\nIt's the only board here with published construction, load and warranty details, and the slim profile suits a Frontier that sees trails. The slots keep the step from packing with snow.\n\nThe listing spans both Frontier generations, so ask the seller or Go Rhino to confirm the brackets for a 2022+ Crew Cab before ordering. Also confirm 2025 and 2026, since the title stops at 2024.",
+   "who": "Owners who want the best-documented step and will confirm 2022+ fit.",
+   "specs": [["Part #", "Go Rhino 69634680SPC"], ["Type", "Slim slotted board"], ["Material", "Galvanized 16-ga steel (RB30 line)"], ["Rating", "600 lb per side (RealTruck)"], ["Warranty", "Limited lifetime structural, 5-yr finish"], ["Fits", "2005–2024 Frontier Crew Cab (confirm 2022+ brackets)"]]},
+  {"asin": "B09NRWB49Y", "role": "Best drop-style step", "price": "$170–$240",
+   "pros": ["TAC Sidewinder 4 in drop steps", "Lists 2005–2026 Crew Cab", "Lower first step", "Budget price", "Covers 2026"],
+   "cons": ["Listing spans generations; confirm 2022+ brackets", "Reduces clearance", "No published warranty"],
+   "body": "TAC's Sidewinder 4 in drop side steps are listed for 2005–2026 Frontier Crew Cab. They put a lower step at each door, which helps on a lifted Frontier or for shorter passengers, and the listing covers 2026.\n\nThe same caution applies as with every Frontier listing: the year range spans both generations, so confirm the 2022+ brackets with the seller. Drop steps are the lowest point on the truck's side, so they're a road-truck choice.\n\nTAC doesn't publish warranty terms we could check.",
+   "who": "Lifted road trucks and short passengers.",
+   "specs": [["Brand", "TAC"], ["Line", "Sidewinder"], ["Drop", "4 in"], ["Fits", "2005–2026 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$170–$240"]]},
+  {"asin": "B0G336DBYZ", "role": "Best drop-down steps", "price": "$160–$230",
+   "pros": ["5.1 in drop-down steps", "Lists 2005–2025 Crew Cab", "Lower step at each door", "Budget price", "Simple design"],
+   "cons": ["Confirm 2022+ brackets", "Reduces clearance", "No published warranty"],
+   "body": "TIEZFUL's 5.1 in drop-down side steps are listed for 2005–2025 Frontier Crew Cab. They're an alternative to TAC's Sidewinder with a slightly larger drop, per the listing.\n\nAs with every cross-generation listing here, confirm the brackets for a 2022+ truck. TIEZFUL doesn't publish warranty terms we could check.\n\nCompare live prices with TAC and pick the one whose seller confirms 2022+ fit.",
+   "who": "Owners who want a low step on a budget.",
+   "specs": [["Brand", "TIEZFUL"], ["Drop", "5.1 in"], ["Fits", "2005–2025 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$160–$230"]]},
+  {"asin": "B0FG32L3H3", "role": "Best budget 2-step", "price": "$150–$220",
+   "pros": ["2-step rails", "Step pad at each door", "Lists 2005–2025 Crew Cab", "Budget price", "Simple install"],
+   "cons": ["Confirm 2022+ brackets", "No published warranty", "Less continuous step"],
+   "body": "TIEZFUL's 2-step running boards are listed for 2005–2025 Frontier Crew Cab. They give a defined step at each door on a simple rail, at a budget price.\n\nConfirm the 2022+ brackets with the seller. For a Frontier that needs a basic step, it's an inexpensive option. Check the listing for a textured step pad and included hardware.",
+   "who": "Budget buyers.",
+   "specs": [["Brand", "TIEZFUL"], ["Type", "2-step rails"], ["Fits", "2005–2025 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$150–$220"]]},
+  {"asin": "B0H9WXBK8B", "role": "Budget 5 in alternative", "price": "$120–$180",
+   "pros": ["5 in carbon-steel 2-step boards", "Textured steps per listing", "Lists 2005–2025 Crew Cab", "Lowest price here", "Heavy-duty per listing"],
+   "cons": ["Confirm 2022+ brackets", "Generic brand", "Coating is the only rust protection"],
+   "body": "These 5 in carbon-steel 2-step running boards are listed for 2005–2025 Frontier Crew Cab with textured steps. They're the cheapest option here.\n\nCarbon steel is strong but relies on its coating for rust protection, so touch up chips. Confirm the 2022+ brackets with the seller.\n\nFor a work truck that needs a step for the least money, it does the job.",
+   "who": "Lowest-budget buyers.",
+   "specs": [["Type", "2-step boards"], ["Width", "5 in"], ["Material", "Carbon steel"], ["Fits", "2005–2025 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$120–$180"]]},
+  {"asin": "B0BKGFCTV2", "role": "Best no-drill drop steps", "price": "$160–$230", "pros": ["4.7 in drop-down step bars", "Carbon steel with anti-rust coating per listing", "No-drill per listing", "Anti-slip steps", "Lists 2005–2026 Crew Cab"], "cons": ["Listing spans generations; confirm 2022+ brackets", "Reduces clearance", "No published warranty terms we could check"], "body": "SMANOW's drop-down step bars are listed for 2005–2026 Nissan Frontier Crew Cab. The listing describes a 4.7 in drop, carbon-steel construction with an anti-rust coating, anti-slip steps and a no-drill install.\n\nThe no-drill claim and the 2026 coverage make it a practical drop-step choice for a newer Frontier, as long as the seller confirms the brackets for the 2022+ body; the same cross-generation caution applies as for every listing here. Drop steps are the lowest part of the truck's side, so they suit road trucks and lifted trucks, not rock trails.\n\nCompare it with TAC's Sidewinder and TIEZFUL's drop-down steps: all three solve the same problem, and the deciding factors are the seller's 2022+ confirmation and live price.", "who": "Owners who want a no-drill drop step for a 2022+ truck.", "specs": [["Brand", "SMANOW"], ["Drop", "4.7 in (per listing)"], ["Material", "Carbon steel, anti-rust coated (per listing)"], ["Install", "No-drill (per listing)"], ["Fits", "2005–2026 Frontier Crew Cab (confirm 2022+)"]]},
+  {"asin": "B08J4HB9CK", "role": "Best stainless tube step", "price": "$130–$200", "pros": ["3 in stainless steel side bars", "Stainless resists rust", "Slim tube keeps clearance", "Low price", "Classic nerf-bar look"], "cons": ["Listing spans 2005–2024; confirm 2022+ brackets", "Narrow 3 in step", "No published warranty terms we could check"], "body": "TAC's 3 in stainless steel side bars are listed for 2005–2024 Nissan Frontier Crew Cab (and the related 2005–2012 Suzuki Equator). A round stainless tube is the classic nerf-bar look and the slimmest step here.\n\nStainless steel resists rust without relying on a coating, which is an advantage in salt states at this price. The 3 in tube is narrow, though, so it's a foothold for adults rather than a platform for kids. Its slim profile also keeps the most clearance, which suits a PRO-4X.\n\nConfirm 2022+ bracket fit and 2025–2026 coverage with the seller before ordering.", "who": "Owners who want a slim, rust-resistant tube step.", "specs": [["Brand", "TAC"], ["Tube", "3 in round"], ["Material", "Stainless steel"], ["Fits", "2005–2024 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$130–$200"]]},
+  {"asin": "B0B6RFS4PC", "role": "Best wide budget board", "price": "$150–$220", "pros": ["6 in board", "Black powder coat", "Lists 2005–2025 Crew Cab", "Widest step among budget picks", "Flat platform"], "cons": ["Confirm 2022+ brackets", "No published warranty", "Coating is the only rust protection"], "body": "CLIMWA's 6 in running boards are listed for 2005–2025 Nissan Frontier Crew Cab in black powder coat. At 6 in, they're the widest budget step here, a flat platform that's easier for kids and older passengers than a tube.\n\nAs with every cross-generation listing, confirm the brackets for the 2022+ body with the seller. The powder coat is the only rust protection, so touch up chips.\n\nFor a family Frontier that stays on pavement, a wide board is more comfortable than a drop step or tube.", "who": "Families who want a wide step on a budget.", "specs": [["Brand", "CLIMWA"], ["Width", "6 in"], ["Finish", "Black powder coat"], ["Fits", "2005–2025 Frontier Crew Cab (confirm 2022+)"], ["Price band", "$150–$220"]]}
+ ],
+ "install": [
+  "Confirm your Frontier is a 2022+ Crew Cab and get the seller's confirmation of 2022+ bracket fit.",
+  "Locate the body mounting points; remove plugs if present.",
+  "Test-fit the brackets before tightening anything; if holes don't align, stop and contact the seller.",
+  "With a helper, mount the boards and start all bolts.",
+  "Level and torque to spec.",
+  "Recheck torque after a week.",
+ ],
+ "avoid": [
+  {"h": "Trusting a 2005–2025 range", "body": "Confirm 2022+ brackets first."},
+  {"h": "King Cab boards", "body": "Shorter doors."},
+  {"h": "Drilling to make it fit", "body": "Wrong brackets mean wrong part."},
+  {"h": "Drop steps on a PRO-4X trail truck", "body": "Lowest point on the side."},
+ ],
+ "verdict": {
+  "thesis": "Buy Go Rhino's RB30 Slim for a galvanized, 600 lb-rated step with a lifetime structural warranty, TAC's Sidewinder for a lower step through 2026, and TIEZFUL on a budget — after the seller confirms 2022+ brackets.",
+  "body": "Frontier side steps come with one big caveat: most listings span two generations. Confirm the brackets for the 2022+ body, then choose by use. Go Rhino's RB30 Slim is the best-documented step and suits the PRO-4X; TAC and TIEZFUL drop steps help lifted trucks and short riders; the 2-step rails cover the budget end.\n\nSteps keep mud off the sill, which keeps floor liners cleaner; if you have the Fender under-seat speaker, check liner compatibility too. A tonneau cover is the other common first upgrade."},
+ "sources": [
+  ["Go Rhino RB30 running boards (RealTruck)", "https://realtruck.com/p/go-rhino-rb30-running-boards/"],
+  ["Go Rhino RB30 Slim Frontier listing", "https://www.amazon.com/dp/B0D98W19S6"],
+  ["Westin 27-2435 2022 Frontier mount kit listing", "https://www.amazon.com/dp/B0B5DV8YLY"],
+  ["TAC Sidewinder Frontier listing", "https://www.amazon.com/dp/B09NRWB49Y"],
+  ["TIEZFUL Frontier drop-down steps listing", "https://www.amazon.com/dp/B0G336DBYZ"],
+  ["Nissan Frontier (Wikipedia)", "https://en.wikipedia.org/wiki/Nissan_Frontier"],
+ ],
+}
+
+FITS = [
+ ("B0D98W19S6","Go Rhino RB30 Slim Running Boards 69634680SPC, 2005-2024 Nissan Frontier Crew Cab","Go Rhino","$400–$520",{"cab":"Crew Cab"},"Listing spans generations — confirm 2022+ brackets with seller."),
+ ("B09NRWB49Y","TAC Sidewinder 4 in Drop Side Steps, 2005-2026 Frontier Crew Cab","TAC","$170–$240",{"cab":"Crew Cab"},"Crew Cab only; listing spans both generations — confirm bracket fit for 2022+ with seller."),
+ ("B0G336DBYZ","TIEZFUL 5.1 in Drop-Down Side Steps, 2005-2025 Frontier Crew Cab","TIEZFUL","$160–$230",{"cab":"Crew Cab"},"Crew Cab; confirm 2022+ with seller."),
+ ("B0FG32L3H3","TIEZFUL 2-Step Running Boards, 2005-2025 Frontier Crew Cab","TIEZFUL","$150–$220",{"cab":"Crew Cab"},"Crew Cab; confirm 2022+ with seller."),
+ ("B0H9WXBK8B","5 in 2-Step Carbon Steel Running Boards, 2005-2025 Frontier Crew Cab","Generic","$120–$180",{"cab":"Crew Cab"},"Confirm 2022+ with seller."),
+ ("B0BKGFCTV2","SMANOW 4.7 in Drop-Down Running Boards, 2005-2026 Frontier Crew Cab (no-drill)","SMANOW","$160–$230",{"cab":"Crew Cab"},"Confirm 2022+ brackets with seller."),
+ ("B08J4HB9CK","TAC 3 in Stainless Side Bars, 2005-2024 Frontier Crew Cab","TAC","$130–$200",{"cab":"Crew Cab"},"Confirm 2022+ and 2025+ with seller."),
+ ("B0B6RFS4PC","CLIMWA 6 in Running Boards Black, 2005-2025 Frontier Crew Cab","CLIMWA","$150–$220",{"cab":"Crew Cab"},"Confirm 2022+ brackets with seller."),
+]
