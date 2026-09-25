@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/db";
 import { allFitmentPaths, allVehicles, vehiclePath } from "@/lib/queries";
 
-export const revalidate = 3600;
+// Rendered per request: the DB is not reachable during `docker build`, so a build-time sitemap would be empty.
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [vs, fps] = await Promise.all([allVehicles(), allFitmentPaths()]);

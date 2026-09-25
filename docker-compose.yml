@@ -7,6 +7,8 @@ services:
     build:
       context: ./web
       dockerfile: Dockerfile
+      args:
+        SITE_URL: https://${DOMAIN:-rigconfigurator.com}
     container_name: rigconfigurator-web
     restart: unless-stopped
     environment:

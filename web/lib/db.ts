@@ -25,7 +25,8 @@ export async function q<T = any>(text: string, params: any[] = []): Promise<T[]>
   }
 }
 
-export const SITE_URL = process.env.SITE_URL ?? "http://localhost:3000";
+// Production default; override with SITE_URL (build arg + runtime env) for staging/local.
+export const SITE_URL = (process.env.SITE_URL || "https://rigconfigurator.com").replace(/\/+$/, "");
 export const AMAZON_TAG = process.env.AMAZON_TAG ?? "rigconfig-20";
 
 export function amazonUrl(asin: string) {
