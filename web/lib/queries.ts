@@ -87,7 +87,7 @@ export type GuideLink = { path: string; title: string; vehicle: string; category
 export async function relatedGuides(vehicleId: number, categoryId: number, limit = 6): Promise<GuideLink[]> {
   return q<GuideLink>(`
     SELECT '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path, fp.title,
-           v.year_from||'–'||COALESCE(v.year_to::text,'present')||' '||m.name||' '||v.model_name AS vehicle, c.name AS category
+           v.year_from||'–'||COALESCE(v.year_to, EXTRACT(YEAR FROM CURRENT_DATE)::int)::text||' '||m.name||' '||v.model_name AS vehicle, c.name AS category
     FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
     WHERE fp.status='published' AND NOT (fp.vehicle_id=$1 AND fp.category_id=$2)
       AND (fp.vehicle_id=$1 OR (fp.category_id=$2 AND v.body_style=(SELECT body_style FROM vehicles WHERE id=$1)))
@@ -110,7 +110,7 @@ export async function publishedGuides(categorySlug?: string): Promise<CategoryIn
   return q<CategoryIndexRow>(`
     SELECT c.slug AS category_slug, c.name AS category_name, fp.title, m.name AS make_name,
            '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path,
-           v.year_from||'–'||COALESCE(v.year_to::text,'present')||' '||m.name||' '||v.model_name AS vehicle
+           v.year_from||'–'||COALESCE(v.year_to, EXTRACT(YEAR FROM CURRENT_DATE)::int)::text||' '||m.name||' '||v.model_name AS vehicle
     FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
     WHERE fp.status='published' ${categorySlug ? "AND c.slug=$1" : ""}
     ORDER BY c.sort, m.name, v.model_name, v.year_from DESC`, categorySlug ? [categorySlug] : []);
