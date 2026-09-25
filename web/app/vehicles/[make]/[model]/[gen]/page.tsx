@@ -60,7 +60,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
   const planned = cats.filter(c => !ready.includes(c));
 
   const facts: [string, string | null][] = [
-    ["Generation", v.gen_name], ["Years", yearsLabel(v)], ["Body", v.body_style.toUpperCase()],
+    ["Generation", v.gen_name], ["Years", v.year_to ? yearsLabel(v) : `${v.year_from}–present (current generation)`], ["Body", v.body_style.toUpperCase()],
     ["Bed lengths", v.bed_lengths_in?.length ? v.bed_lengths_in.map(b => `${b} in (${(b / 12).toFixed(1)} ft)`).join(", ") : null],
     ["Roof type", v.roof_type], ["Roof load", v.roof_load_lb ? `${v.roof_load_lb} lb dynamic` : null],
     ["Hitch class", v.hitch_class && v.hitch_class !== "none" ? `Class ${v.hitch_class} (${v.receiver_in} in receiver)` : "No factory receiver"],

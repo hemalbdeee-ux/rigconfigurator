@@ -1,4 +1,5 @@
 import type { Category, Vehicle } from "@/lib/queries";
+import { yearsLabel } from "@/lib/queries";
 
 const model = (v: Vehicle) => /^\d+(\s|$)/.test(v.model_name) ? `${v.make_name} ${v.model_name}` : v.model_name;
 
@@ -18,8 +19,7 @@ export function seoTitle(...candidates: string[]): { absolute: string } {
   return { absolute: last.slice(0, MAX_TITLE + 1).replace(/\s+\S*$/, "").replace(/[\s,:;–—-]+$/, "") };
 }
 
-/** "2024–2026" instead of "2024–present" for titles; ISR keeps the current year fresh. */
-export const titleYears = (v: Vehicle) => `${v.year_from}–${v.year_to ?? new Date().getFullYear()}`;
+export const titleYears = yearsLabel;
 
 const SHORT: Record<string, string> = {
   "roof-racks": "Roof Racks",

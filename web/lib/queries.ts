@@ -22,7 +22,8 @@ const VEHICLE_SELECT = `
   SELECT v.*, m.slug AS make_slug, m.name AS make_name
   FROM vehicles v JOIN makes m ON m.id = v.make_id`;
 
-export const yearsLabel = (v: Vehicle) => `${v.year_from}–${v.year_to ?? "present"}`;
+// Open-ended generations show the current year ("2019–2026"), matching article titles; ISR keeps it fresh.
+export const yearsLabel = (v: Vehicle) => `${v.year_from}–${v.year_to ?? new Date().getFullYear()}`;
 export const vehicleTitle = (v: Vehicle) => `${yearsLabel(v)} ${v.make_name} ${v.model_name}`;
 export const vehiclePath = (v: Vehicle) => `/vehicles/${v.make_slug}/${v.model_slug}/${v.gen_slug}`;
 
