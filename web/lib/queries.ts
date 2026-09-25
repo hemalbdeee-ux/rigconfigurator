@@ -57,8 +57,10 @@ export async function getFitmentPage(vehicleId: number, categoryId: number) {
 }
 
 export async function allFitmentPaths() {
+  // lastmod = the article's review date (updated_at is bumped by every db/apply.sh run, so it is not a real edit date)
   return q<{ make_slug: string; model_slug: string; gen_slug: string; category_slug: string; updated_at: string }>(`
-    SELECT m.slug AS make_slug, v.model_slug, v.gen_slug, c.slug AS category_slug, fp.updated_at
+    SELECT m.slug AS make_slug, v.model_slug, v.gen_slug, c.slug AS category_slug,
+           COALESCE((fp.article->>'reviewed')::date, fp.verified_at, fp.updated_at::date) AS updated_at
     FROM fitment_pages fp
     JOIN vehicles v ON v.id = fp.vehicle_id JOIN makes m ON m.id = v.make_id
     JOIN categories c ON c.id = fp.category_id

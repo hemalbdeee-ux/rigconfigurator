@@ -9,3 +9,7 @@ UPDATE fitment_pages fp SET status = 'draft', updated_at = now()
 WHERE status = 'published'
   AND (SELECT count(*) FROM fitments f JOIN products p ON p.id = f.product_id AND p.active
        WHERE f.vehicle_id = fp.vehicle_id AND p.category_id = fp.category_id) < 2;
+
+-- Stamp the first-publish date once. Long-form pages use the article's first review date; others use today.
+UPDATE fitment_pages SET published_at = COALESCE((article->>'reviewed')::date, CURRENT_DATE)
+WHERE status = 'published' AND published_at IS NULL;

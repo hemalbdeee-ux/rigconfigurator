@@ -1,4 +1,7 @@
-import { Pool } from "pg";
+import { Pool, types } from "pg";
+
+// DATE columns come back as "YYYY-MM-DD" strings, not Date objects at local midnight (which shifted JSON-LD dates by a day).
+types.setTypeParser(1082, (v: string) => v);
 
 declare global {
   // eslint-disable-next-line no-var

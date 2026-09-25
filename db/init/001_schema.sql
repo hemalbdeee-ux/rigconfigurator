@@ -94,6 +94,7 @@ CREATE TABLE fitment_pages (
   article       JSONB,                     -- long-form article (playbook standard); see db/content/articles
   status        TEXT DEFAULT 'draft',      -- draft | review | published | noindex
   verified_at   DATE,
+  published_at  DATE,                      -- set once on first publish (005_publish.sql)
   updated_at    TIMESTAMPTZ DEFAULT now(),
   UNIQUE (vehicle_id, category_id)
 );

@@ -7,7 +7,7 @@ import { ogImage } from "@/components/Hero";
 import { ArticleView, type Article } from "@/components/ArticleView";
 import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
-import { SITE_URL, amazonUrl, money } from "@/lib/db";
+import { SITE_URL, money } from "@/lib/db";
 import { articleSeoTitle } from "@/lib/seo";
 
 export const revalidate = 3600;
@@ -30,13 +30,15 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const d = await load(await params);
   if (!d) return {};
   const title = d.page?.title ?? `Best ${d.c.name} for ${vehicleTitle(d.v)}`;
+  const path = `${vehiclePath(d.v)}/${d.c.slug}`;
   return {
     title: articleSeoTitle(d.v, d.c),   // ≤ 60 chars for the SERP; the full headline stays as the H1
 
     description: d.page?.meta_desc ?? `${d.c.name} verified to fit the ${vehicleTitle(d.v)}, with prices and fit notes.`,
-    alternates: { canonical: `${vehiclePath(d.v)}/${d.c.slug}` },
+    alternates: { canonical: path },
     robots: d.page?.status === "published" ? undefined : { index: false },
-    openGraph: { title, type: "article", images: ogImage(d.hero) },
+    openGraph: { title, description: d.page?.meta_desc ?? undefined, url: path, siteName: "Rig Configurator", type: "article", images: ogImage(d.hero) },
+    twitter: { card: "summary_large_image", title },
   };
 }
 
@@ -67,12 +69,13 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
         { "@type": "ListItem", position: 1, name: "Vehicles", item: `${SITE_URL}/vehicles` },
         { "@type": "ListItem", position: 2, name: vehicleTitle(v), item: `${SITE_URL}${vehiclePath(v)}` },
         { "@type": "ListItem", position: 3, name: c.name, item: `${SITE_URL}${path}` }] },
-      { "@type": "ItemList", name: title, itemListElement: fits.map((f, i) => ({
-        "@type": "ListItem", position: i + 1, url: amazonUrl(f.asin), name: f.name })) },
+      // Names only: ListItem.url must point at pages on this site, never at Amazon.
+      { "@type": "ItemList", name: title, numberOfItems: fits.length, itemListElement: fits.map((f, i) => ({
+        "@type": "ListItem", position: i + 1, name: f.name })) },
       ...(article ? [{ "@type": "Article", headline: title.length <= 110 ? title : articleSeoTitle(v, c).absolute, description: page?.meta_desc, mainEntityOfPage: `${SITE_URL}${path}`,
         author: { "@type": "Person", name: getAuthor(article.author).name, url: `${SITE_URL}/about` },
         publisher: { "@type": "Organization", name: "Rig Configurator", url: SITE_URL },
-        dateModified: article.reviewed ?? page?.updated_at, datePublished: page?.verified_at,
+        datePublished: page?.published_at ?? article.reviewed, dateModified: article.reviewed ?? page?.updated_at,
         ...(hero ? { image: `${SITE_URL}/img/${hero.file}` } : {}) }] : []),
       ...(faq.length ? [{ "@type": "FAQPage", mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
     ],
