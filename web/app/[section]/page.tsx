@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 // Placeholder for silos not built yet. Replace each with its own route folder as you build it.
@@ -6,11 +7,13 @@ const SECTIONS: Record<string, string> = {
   tools: "Tools — hitch class finder, bed-length checker, tow capacity calculator.",
   deals: "Deals — Amazon price drops on racks, covers and hitches.",
   laws: "Laws by state — window tint, lift height, light bar rules.",
-  privacy: "Privacy policy.",
-  terms: "Terms of use.",
 };
 
-export const metadata = { robots: { index: false } };
+export async function generateMetadata({ params }: { params: Promise<{ section: string }> }): Promise<Metadata> {
+  const { section } = await params;
+  const name = section.charAt(0).toUpperCase() + section.slice(1);
+  return { title: `${name}: Coming Soon`, robots: { index: false, follow: true } };
+}
 export function generateStaticParams() { return Object.keys(SECTIONS).map(section => ({ section })); }
 
 export default async function Section({ params }: { params: Promise<{ section: string }> }) {

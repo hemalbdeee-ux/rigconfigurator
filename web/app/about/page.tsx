@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { AUTHORS } from "@/lib/authors";
+import { CONTACT_EMAIL } from "@/lib/db";
 
 export const metadata: Metadata = {
   title: { absolute: "About Rig Configurator: How We Check Fitment" },
@@ -28,7 +29,7 @@ export default function About() {
       <h2>How the site makes money</h2>
       <p>We earn a commission when you buy through our Amazon links, at no extra cost to you. Commissions never change which product ranks where. Read the <Link href="/disclosure">affiliate disclosure</Link>.</p>
       <h2>Found a fitment error?</h2>
-      <p>Fit data changes with model-year updates. If a product we list doesn&apos;t fit your vehicle, tell us the year, trim and part number and we&apos;ll correct the page.</p>
+      <p>Fit data changes with model-year updates. If a product we list doesn&apos;t fit your vehicle, email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the year, trim and part number and we&apos;ll correct the page.</p>
     </article>
   );
 }

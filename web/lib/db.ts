@@ -30,6 +30,8 @@ export async function q<T = any>(text: string, params: any[] = []): Promise<T[]>
 
 // Production default; override with SITE_URL (build arg + runtime env) for staging/local.
 export const SITE_URL = (process.env.SITE_URL || "https://rigconfigurator.com").replace(/\/+$/, "");
+// Public contact address (privacy/terms/about). Override with CONTACT_EMAIL.
+export const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "contact@rigconfigurator.com";
 export const AMAZON_TAG = process.env.AMAZON_TAG ?? "rigconfig-20";
 
 export function amazonUrl(asin: string) {
