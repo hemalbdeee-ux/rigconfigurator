@@ -20,6 +20,41 @@ export type Article = {
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const fmtDate = (d?: string) => d ? new Date(d).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) : "";
 
+// Per-category nouns for generated headings (category names in the DB are plural and sometimes compound, e.g. "Roof Racks & Crossbars").
+const NOUNS: Record<string, { one: string; many: string; prep: "on" | "in" }> = {
+  "tonneau-covers": { one: "tonneau cover", many: "tonneau covers", prep: "on" },
+  "bed-racks": { one: "bed rack", many: "bed racks", prep: "on" },
+  "roof-racks": { one: "roof rack", many: "roof racks", prep: "on" },
+  "cargo-boxes": { one: "cargo box", many: "cargo boxes", prep: "on" },
+  "hitches": { one: "trailer hitch", many: "trailer hitches", prep: "on" },
+  "bike-racks": { one: "bike rack", many: "bike racks", prep: "on" },
+  "floor-mats": { one: "floor liner", many: "floor mats and liners", prep: "in" },
+  "seat-covers": { one: "seat cover", many: "seat covers", prep: "in" },
+  "running-boards": { one: "running board", many: "running boards", prep: "on" },
+  "led-light-bars": { one: "LED light bar", many: "LED light bars", prep: "on" },
+  "dash-cams": { one: "dash cam", many: "dash cams", prep: "in" },
+  "lift-kits": { one: "lift kit", many: "lift kits", prep: "on" },
+};
+function nouns(c: Category) {
+  return NOUNS[c.slug] ?? { one: c.name.split(/ & | and /)[0].toLowerCase().replace(/(x|ch|sh|s)es$/, "$1").replace(/s$/, ""), many: c.name.toLowerCase(), prep: "on" as const };
+}
+/** "a" / "an" by sound: an F-150, an RAV4, an LED bar, an 8-lug, an hour; a Tacoma, a UTV, a one-piece, a used truck. */
+export function article(word: string) {
+  const w = word.trim();
+  if (/^(8|11|18)(?!\d{3})/.test(w)) return "an";                      // eight, eleven, eighteen, eighty…
+  if (/^[FHLMNRSX](?=[-\dA-Z]|$)/.test(w)) return "an";                 // letter-by-letter codes: F-150, RAV4, LED, SUV, HD
+  if (/^U(?=[-\dA-Z])/.test(w) || /^(uni|use|usu|uti|one|eu)/i.test(w)) return "a";
+  if (/^(hour|honest|heir)/i.test(w)) return "an";
+  return /^[aeiou]/i.test(w) ? "an" : "a";
+}
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+/** Split a long table caption into a heading and a trailing note: "X (note)" or "X. Note." */
+function splitCaption(t?: Table) {
+  if (!t?.caption) return { h: "", note: undefined as string | undefined };
+  const m = t.caption.match(/^(.+?)(?:\s*\((.+)\)\s*|\.\s+(.+))$/);
+  return m ? { h: m[1].replace(/[.:]$/, ""), note: (m[2] ?? m[3]).replace(/\.$/, "") } : { h: t.caption.replace(/[.:]$/, ""), note: undefined };
+}
+
 function T({ t }: { t: Table }) {
   return (
     <div className="tbl">
@@ -47,12 +82,17 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
   const author = getAuthor(a.author);
   const picked = new Set(a.picks.map(p => p.asin));
   const others = fits.filter(f => !picked.has(f.asin));
+  const n = nouns(c);
+  const fitCap = splitCaption(a.fit_table);
+  const typesCap = splitCaption(a.types_table);
+  const fitH = fitCap.h || `Which ${v.model_name} do you have?`;
+  const typesH = typesCap.h || `${cap(n.one)} types compared`;
   const toc: [string, string][] = [
-    ...(a.fit_table ? [["fit-check", "Which bed do you have?"] as [string, string]] : []),
+    ...(a.fit_table ? [["fit-check", fitH] as [string, string]] : []),
     ["what-to-look-for", "What to look for"],
-    ...(a.types_table ? [["types", "Cover types compared"] as [string, string]] : []),
+    ...(a.types_table ? [["types", typesH] as [string, string]] : []),
     ...a.picks.map((p, i) => [slug(`pick-${i + 1}`), `#${i + 1}: ${byAsin.get(p.asin)?.brand ?? ""} — ${p.role}`] as [string, string]),
-    ...(a.install?.length ? [["install", "How to install"] as [string, string]] : []),
+    ...(a.install?.length ? [["install", `How to install ${article(n.one)} ${n.one}`] as [string, string]] : []),
     ...(a.avoid?.length ? [["avoid", "What to avoid"] as [string, string]] : []),
     ["faq", "FAQ"], ["verdict", "Verdict"],
   ];
@@ -94,15 +134,15 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
 
       <nav className="toc-box"><strong>On this page</strong><ol>{toc.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}</ol></nav>
 
-      {a.fit_table && (<section id="fit-check"><h2>Which {v.model_name} bed do you have?</h2><T t={a.fit_table} /></section>)}
+      {a.fit_table && (<section id="fit-check"><h2>{fitH}</h2><T t={{ ...a.fit_table, caption: fitCap.note }} /></section>)}
 
       <section id="what-to-look-for">
-        <h2>What to look for in a {v.model_name} {c.name.toLowerCase().replace(/s$/, "")}</h2>
+        <h2>What to look for in {v.model_name} {n.many}</h2>
         {a.look_for.map(x => <div key={x.h}><h3>{x.h}</h3><Md s={x.body} linker={L} /></div>)}
         {a.look_table && <T t={a.look_table} />}
       </section>
 
-      {a.types_table && (<section id="types"><h2>{c.name} types compared</h2><T t={a.types_table} /></section>)}
+      {a.types_table && (<section id="types"><h2>{typesH}</h2><T t={{ ...a.types_table, caption: typesCap.note }} /></section>)}
 
       {a.picks.map((p, i) => {
         const f = byAsin.get(p.asin);
@@ -138,7 +178,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — {money(f.price_cents, f.price_band)} · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
       </section>)}
 
-      {a.install?.length ? (<section id="install"><h2>How to install a {c.name.toLowerCase().replace(/s$/, "")} on the {v.model_name}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}
+      {a.install?.length ? (<section id="install"><h2>How to install {article(n.one)} {n.one} {n.prep} the {v.model_name}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}
 
       {a.avoid?.length ? (<section id="avoid"><h2>What to avoid</h2><div className="box warnbox">{a.avoid.map(x => <p key={x.h}><strong>{x.h}.</strong> <Inline s={x.body} linker={L} /></p>)}</div></section>) : null}
 
