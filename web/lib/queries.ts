@@ -104,11 +104,11 @@ export async function heroFor(vehicleId: number): Promise<Hero | null> {
   } catch { return null; } // table missing before migration 008
 }
 
-export type CategoryIndexRow = { category_slug: string; category_name: string; path: string; title: string; make_name: string; vehicle: string };
+export type CategoryIndexRow = { category_slug: string; category_name: string; path: string; title: string; meta_desc: string | null; make_name: string; vehicle: string };
 
 export async function publishedGuides(categorySlug?: string): Promise<CategoryIndexRow[]> {
   return q<CategoryIndexRow>(`
-    SELECT c.slug AS category_slug, c.name AS category_name, fp.title, m.name AS make_name,
+    SELECT c.slug AS category_slug, c.name AS category_name, fp.title, fp.meta_desc, m.name AS make_name,
            '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path,
            v.year_from||'–'||COALESCE(v.year_to, EXTRACT(YEAR FROM CURRENT_DATE)::int)::text||' '||m.name||' '||v.model_name AS vehicle
     FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
