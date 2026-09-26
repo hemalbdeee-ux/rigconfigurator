@@ -1,0 +1,182 @@
+"""Long-form article — Best Bed Racks for 2019–2026 GMC Sierra 1500 (T1).
+Mirrors ford_ranger_2024_bed_racks.py. No invented hands-on testing: specs come from Putco, Yakima, Agri-Cover (Adarac)
+and RealTruck pages checked 2026-09-26. CarbonPro, MultiPro, bed-length and Sierra Limited notes match
+gmc_sierra_1500_2019_tonneau.py and db/migrations/003_vehicles.sql.
+"""
+
+KEY = ("gmc", "sierra-1500", "2019-present", "bed-racks")
+
+TITLE = "Best Bed Racks for 2019–2026 GMC Sierra 1500: 6 Picks, Plus the CarbonPro Bed Warning"
+META = ("Six bed racks for the 2019+ Sierra 1500, with static and dynamic ratings, rack heights, "
+        "tonneau pairings, MultiPro tailgate notes and CarbonPro bed cautions.")
+
+FAQ = [
+ ("What is the best bed rack for a 2019+ GMC Sierra 1500?",
+  "On a steel bed, the Putco Venture TEC. Putco rates it at 1,000 lb static, 600 lb dynamic and 300 lb off-road, it sets into the stake pockets without drilling, and its Amazon title names the Sierra 1500 with the 5'8\" bed. The RealTruck GoRack is the value alternative: 1,000 lb static and 600 lb dynamic, listed by RealTruck at $1,089.99, with an Amazon listing for the 2019–2024 Sierra 1500 short bed."),
+ ("Can I put a bed rack on a CarbonPro Sierra?",
+  "Possibly, but treat it as a separate truck. GMC's CarbonPro bed is a carbon-fiber composite, and tonneau makers sell separate parts for it because its rails and bulkhead differ from the steel bed. None of the rack pages we read list CarbonPro fitment. Before ordering, ask the rack maker whether its stake-pocket inserts or clamps are approved for CarbonPro, and never drill a composite bed without the maker's instructions."),
+ ("How do I know if my Sierra has the CarbonPro bed?",
+  "Look for RPO code E3Z on the window sticker or the glovebox label. GM Authority reports CarbonPro was an AT4 and Denali option, standard on the 2022 Denali Ultimate, and offered only on the Crew Cab short bed. It is no longer available for the 2026 Sierra 1500. A dark spray-in liner on a steel bed can look similar, so check the code rather than judging by eye."),
+ ("Does a bed rack interfere with the MultiPro tailgate?",
+  "Not directly. Racks mount at the stake pockets or bed rails ahead of the tailgate, so the main gate still drops and the MultiPro inner gate, step and load-stop positions keep working. Check any rack with rear uprights that stick out past the tailgate opening, and remember a folding tonneau under the rack can sit over the inner gate when closed. A roll-up or retractable leaves it free."),
+ ("Do Silverado 1500 bed racks fit the Sierra 1500?",
+  "On a steel bed, generally yes: the T1 Silverado and Sierra share bed lengths, and many listings, including the Putco, GoRack, Adarac and BackRack picks here, name both trucks. The exceptions are the CarbonPro bed and trucks with factory side storage boxes. Rough Country's Silverado rack lists only the Silverado by name, so ask before buying it for a Sierra."),
+ ("Which rack works with a tonneau cover on the Sierra?",
+  "Stake-pocket racks leave the rails free for a cover. Putco says most inside-the-rail roll-up covers work under the Venture TEC, and Agri-Cover lists ACCESS roll-ups and LOMAX folding covers for the Adarac. RealTruck says the GoRack can mount to a T-slot cover. BackRack sells wide-top and low-profile tonneau kits. On a CarbonPro bed, the cover itself needs a CarbonPro part number first."),
+ ("What do static, dynamic and off-road ratings mean?",
+  "Static is the parked load, which counts when people sleep in a rooftop tent. Dynamic is the moving load, lower because bumps and braking multiply force. Off-road is lower still. Putco quotes 1,000, 600 and 300 lb, Adarac 1,000, 500 and 400 lb, and Yakima's HD towers 500 lb on-road and 300 lb off-road. Keep tent and gear under the moving figure."),
+ ("What rack height suits an AT4 or AT4X with a rooftop tent?",
+  "A mid-height rack near the roofline keeps the tent out of the wind over the cab and gives room underneath for gear. Yakima's OverHaul HD adjusts from 19 to 30 in, and the OutPost HD sits at 13 in. Adarac's crossbars stand 26 in above the box rail on full-size trucks, which suits ladders more than tents. Check that a full-height load doesn't block the view of the cab-mounted third brake light."),
+ ("Do I need a headache rack or a full bed rack?",
+  "A headache rack like the BackRack Original guards the rear window, carries lights and gives a front support for ladders, and RealTruck lists the frame at $239.99. It won't carry a tent. A full bed rack spans the bed and spreads the load over both axles. Many work trucks run a headache rack and a rear rack together, which leaves the middle of the bed open."),
+ ("Will a bed rack fit a Sierra with factory side storage boxes?",
+  "Usually not. GM's in-bed side storage boxes sit along the rails where stake-pocket uprights and clamps go, and none of the racks here list them as supported. BackRack's toolbox kits are for aftermarket crossover toolboxes, not the factory side boxes. If your truck has them, ask the maker before ordering, or stick with a headache rack at the front of the bed."),
+]
+
+ARTICLE = {
+ "dek": "Six racks for the T1 Sierra's three beds, from a $240 headache rack to Putco's 1,000 lb Venture TEC. For each one we list load ratings, height and mounting, and flag what the CarbonPro composite bed, the MultiPro tailgate and your tonneau cover mean for fit.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-26",
+ "method": "We did not install these racks ourselves. We ranked them on published specs (static and dynamic load ratings, height, material, warranty), on fitment from the maker and the Amazon listing title, and on how each rack mounts to the Sierra's bed. None of the rack pages we read list the CarbonPro composite bed, so every pick carries a confirm note for CarbonPro owners. Prices were checked at Putco, RealTruck, Yakima and Agri-Cover in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**Check for CarbonPro first.** RPO E3Z means a composite bed. No rack page we read lists it, so get the maker's approval and don't drill.",
+  "**Steel-bed Sierras share racks with the Silverado.** Putco, GoRack, Adarac and BackRack name both trucks in their listings.",
+  "**Compare the moving rating.** Putco and GoRack are 600 lb dynamic, Adarac 500 lb, Yakima 500 lb on-road. Static tops out at 1,000 lb.",
+  "**MultiPro keeps working.** Racks mount ahead of the tailgate, so the inner gate and step stay usable.",
+  "**Factory side storage boxes block most racks,** because they cover the rail space the uprights use.",
+ ],
+ "top_picks": [
+  {"asin": "B07VQ95FNQ", "role": "Best overall", "why": "1,000 / 600 / 300 lb ratings, no-drill stake pockets, tent brackets included"},
+  {"asin": "B0CNS9TSYB", "role": "Best overland value", "why": "1,000 lb static / 600 lb dynamic for $1,089.99, MOLLE built in"},
+  {"asin": "B0777NLP2D", "role": "Best with a tonneau", "why": "Agri-Cover rack built around ACCESS and LOMAX covers"},
+  {"asin": "B07MRHDLS4", "role": "Best mid-height clamp rack", "why": "Fixed 13 in Yakima towers, 500 lb on-road, $799"},
+  {"asin": "B0C9VW9CPH", "role": "Best headache rack", "why": "12-gauge steel BackRack with tonneau hardware, listed for 2019–2025 Sierra"},
+ ],
+ "fit_table": {
+  "caption": "Which 2019–2026 Sierra 1500 do you have? Bed and material decide the rack",
+  "head": ["Truck", "Bed", "Floor length", "Rack notes"],
+  "rows": [
+   ["Crew Cab short bed, CarbonPro (E3Z)", "Carbon-fiber composite", "69.9 in", "No rack here lists CarbonPro. Ask the maker; don't drill."],
+   ["Crew Cab short bed, steel", "Steel", "69.9 in (5'8\"/5'10\")", "Putco, GoRack and BackRack list it."],
+   ["Double or Crew Cab standard bed", "Steel", "79.4 in (6'6\"/6'7\")", "Putco 6'6\", Adarac 6.5', Yakima towers."],
+   ["Regular Cab long bed", "Steel", "98.2 in (8 ft)", "Adarac 8 ft, Yakima towers."],
+   ["2019 Sierra 1500 Limited", "Steel, old body", "About 69 in", "Old truck; buy 2014–2018 parts."],
+  ],
+ },
+ "look_for": [
+  {"h": "CarbonPro changes the question",
+   "body": "GMC offered the CarbonPro carbon-fiber composite bed from 2019, and GMC says it is 25% lighter than steel, with better dent and corrosion resistance. Tonneau makers treat it as a separate truck because its rails and bulkhead differ, and on RealTruck at least one CarbonPro cover calls for drilling. None of the rack pages we read mention CarbonPro at all. Stake-pocket racks and rail clamps both load parts of the bed that differ from steel, so ask Putco, RealTruck, Agri-Cover or Yakima to confirm in writing before ordering. Find RPO E3Z on the sticker first. GM Authority reports CarbonPro isn't available for 2026."},
+  {"h": "Bed length under its many names",
+   "body": "Steel-bed Sierras use the same three beds as the Silverado: 69.9, 79.4 and 98.2 in at the floor. Rack listings call the short bed 5'8\" or 5'10\" and the standard bed 6'6\" or 6'7\". Putco lists 5'8\" and 6'6\" versions of the Venture TEC for the 2019+ truck, the GoRack listing is the 5.8' bed only, and Adarac sells 6.5' and 8 ft listings, as well as a 5'8\" part through Agri-Cover. Stake-pocket racks are cut to the bed, so a short-bed rack on a standard bed leaves the rear uprights out of place. Measure bulkhead to tailgate if the truck came used."},
+  {"h": "Static, dynamic and off-road ratings",
+   "body": "For a rooftop tent, a single capacity figure isn't enough. Putco rates the Venture TEC at 1,000 lb static, 600 lb dynamic and 300 lb off-road. RealTruck lists the GoRack at 1,000 lb static and 600 lb dynamic. Agri-Cover gives the Adarac Pro Series 1,000 lb static, 500 lb dynamic and 400 lb off-road, evenly distributed. Yakima rates both HD towers at 500 lb on-road and 300 lb off-road. On an AT4 or AT4X that sees trails, the off-road number is the one to respect: a tent, awning and recovery gear add up quickly, and the rack's own weight comes out of payload before any of it."},
+  {"h": "Height, the cab and the third brake light",
+   "body": "Yakima's OutPost HD sits at a fixed 13 in, low enough to keep a tent mostly out of the wind. The OverHaul HD adjusts between 19 and 30 in. Agri-Cover puts the Adarac's crossbars 26 in above the box rail on full-size trucks, which carries ladders over the cab. Putco and RealTruck describe their racks as mid-height near the roofline without publishing a figure. Whatever you choose, look at the truck from behind once it's loaded. The third brake light sits at the top of the cab, and crossbars or a tent at that height can block the view of it."},
+  {"h": "MultiPro, tonneau and storage boxes",
+   "body": "The MultiPro tailgate launched on the 2019 Sierra 1500 and is standard on most trims. Racks mount ahead of it, so the main gate drops and the inner gate, step and load stop still work. The tonneau under the rack is the bigger decision. Stake-pocket racks leave the rails free: Putco says most inside-rail roll-ups work, and Agri-Cover lists ACCESS roll-ups and LOMAX folding covers. A folding cover can hold the MultiPro inner gate shut when closed, so a roll-up suits daily step users. GM's factory side storage boxes are the exception, because they take the rail space."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Bed material", "Written approval for CarbonPro, or a steel bed", "Drilling a composite bed on a guess"],
+   ["Fitment", "A 2019+ part for your bed length", "\"2014 & up\" titles with no 2019 part number"],
+   ["Load rating", "Static, dynamic and off-road figures", "One number with no context"],
+   ["Mounting", "No-drill stake-pocket inserts or a known clamp", "Clamps on factory side storage boxes"],
+   ["Tonneau", "Inside-rail roll-up or T-slot cover listed by the rack maker", "A tri-fold that blocks the MultiPro inner gate"],
+   ["Warranty", "Limited lifetime (Putco, GoRack, Yakima)", "No warranty stated"],
+  ],
+ },
+ "types_table": {
+  "caption": "Bed rack styles on the 2019–2026 Sierra 1500",
+  "head": ["Type", "Example on this page", "Typical use", "Rooftop tent", "Tonneau", "Trade-off"],
+  "rows": [
+   ["Headache rack", "BackRack Original", "Window guard, lights", "No", "With tonneau kit", "Front support only"],
+   ["Fixed mid towers", "Yakima OutPost HD (13 in)", "Tent, bikes", "Yes (500 lb on-road)", "Tonneau Kit 1", "Crossbars extra"],
+   ["Adjustable towers", "Yakima OverHaul HD (19–30 in)", "Changing loads", "Yes (500 lb on-road)", "Tonneau Kit 1", "Heavier, pricier"],
+   ["Mid-height overland", "Putco Venture TEC, RealTruck GoRack", "Tent, awning", "Yes (600 lb dynamic)", "Roll-ups / T-slot covers", "Highest price"],
+   ["Work rack", "Adarac Pro Series", "Ladders, kayaks", "Check with maker", "ACCESS, LOMAX", "26 in tall; drag"],
+  ],
+ },
+ "picks": [
+  {"asin": "B07VQ95FNQ", "role": "Best overall", "price": "From $2,398.99",
+   "pros": ["1,000 lb static / 600 lb dynamic / 300 lb off-road", "6061-T6 aluminum, textured powder coat", "No-drill stake-pocket install", "Four tent mounting brackets included", "Made in the USA; limited lifetime warranty"],
+   "cons": ["Most expensive rack here", "Title spans 2014–2023; confirm the 2019+ part", "CarbonPro not listed; confirm with Putco"],
+   "body": "The Venture TEC is the rack to beat on paper. Putco rates it at 1,000 lb static, 600 lb dynamic and 300 lb off-road, which is enough headroom for a rooftop tent, occupants and an awning within the dynamic limit. It is rust-resistant 6061-T6 aluminum in a matte black textured powder coat, set into the stake pockets without drilling, and Putco says its CNC-bent sides follow the cab's contour. Dual T-slot rails carry MOLLE panels and accessories, and four tent mounting brackets come in the box. Putco lists 5'8\" and 6'6\" versions for the 2019+ Sierra.\n\nRealTruck lists the Venture TEC from $2,398.99; Putco's site showed sale pricing from $1,666.89 when checked. This Amazon listing names the Chevy Silverado 1500 and GMC Sierra 1500 2014–2023 with the 5'8\" bed, which covers two generations, so confirm the 2019+ part with Putco. CarbonPro owners should also ask whether the stake-pocket mounts are approved on the composite bed, since Putco's pages don't say. Putco says most inside-rail roll-up covers fit underneath, which keeps the bed covered on an AT4 or Denali.",
+   "who": "Steel-bed Sierra owners building a tent setup who want the highest published ratings.",
+   "specs": [["Type", "Mid-height overland rack"], ["Fits", "Silverado/Sierra 1500 5'8\" bed (per listing; confirm 2019+ and CarbonPro)"], ["Material", "6061-T6 aluminum"], ["Load rating", "1,000 lb static / 600 lb dynamic / 300 lb off-road"], ["Mounting", "No-drill stake pockets"], ["Included", "4 tent mounting brackets"], ["Tonneau", "Most inside-rail roll-ups"], ["Warranty", "Limited lifetime"], ["Price", "From $2,398.99 (RealTruck)"]]},
+  {"asin": "B0CNS9TSYB", "role": "Best overland value", "price": "$1,089.99",
+   "pros": ["1,000 lb static / 600 lb dynamic", "MOLLE side panels and four-sided T-slots", "No-drill: stake pockets, utility rails or T-slot covers", "Listing names the 2019–2024 Sierra 1500", "Limited lifetime warranty"],
+   "cons": ["5.8' short bed only", "Height and weight not published", "Confirm 2025–2026 and CarbonPro with the seller"],
+   "body": "RealTruck's GoRack gives Sierra owners Putco-class ratings for less: 1,000 lb static and 600 lb dynamic, at $1,089.99 on RealTruck. It combines extruded aluminum side rails with adjustable steel crossbars, has T-slots on all four sides, and builds MOLLE panels into the sides for bags, traction boards and tools. RealTruck says it installs without drilling to the stake pockets, utility rails or a T-slot bed cover, and it carries a limited lifetime warranty. The Amazon listing names the 2019–2024 Chevrolet Silverado 1500 and GMC Sierra 1500 with the 5.8' bed, part 9450101.\n\nThat means Crew Cab short beds only. Standard- and long-bed Sierras need another rack. The listing ends at 2024, so ask about 2025 and 2026 trucks, and because CarbonPro is only found on the short bed, it's exactly the bed this rack fits, so get the seller to confirm the composite bed too. RealTruck doesn't publish a height or weight. The T-slot cover mount is useful on a Denali: a railed cover can stay on under the rack.",
+   "who": "Short-bed Sierra owners who want tent-grade ratings and built-in MOLLE for about $1,100.",
+   "specs": [["Type", "Mid-height overland rack"], ["Fits", "2019–2024 Silverado/Sierra 1500, 5.8' bed (per listing)"], ["Material", "Aluminum rails, steel crossbars"], ["Load rating", "1,000 lb static / 600 lb dynamic"], ["Mounting", "No-drill: stake pockets, utility rails, T-slot covers"], ["Part number", "9450101"], ["Warranty", "Limited lifetime"], ["Price", "$1,089.99 (RealTruck)"]]},
+  {"asin": "B0777NLP2D", "role": "Best with a tonneau", "price": "About $693 (5'8\", Agri-Cover)",
+   "pros": ["1,000 lb static / 500 lb dynamic / 400 lb off-road", "Made to pair with ACCESS and LOMAX covers", "No-drill aluminum stake-pocket inserts", "Uprights adjust and remove", "Sold in 5'8\", 6.5' and 8 ft versions"],
+   "cons": ["Listing reads \"2014 & Up\"; confirm the 2019+ part", "26 in over the rail; more drag", "CarbonPro not listed"],
+   "body": "Agri-Cover makes ACCESS roll-up covers, and its Adarac Aluminum Pro Series is designed to share the bed with one. The uprights sit in aluminum stake-pocket inserts with no drilling, and Agri-Cover lists compatibility with LOMAX folding hard covers, ACCESS roll-ups and most inside-the-rail covers. It is extruded anodized aluminum with anti-slip, anti-vibration rubber inserts, and its utility channels take kayak and bike mounts. Agri-Cover rates it at 1,000 lb static, 500 lb dynamic and 400 lb off-road, evenly distributed, which is a better off-road figure than the Putco's.\n\nOn full-size trucks the crossbars stand 26 in above the box rail, putting ladders and lumber over the cab. The uprights adjust and lift out, so you're not driving with an empty rack all week. Agri-Cover's shop listed the 2019-on 1500 5'8\" silver part (F2020091) at $693 with a discount when checked. This Amazon listing is the 6.5' bed with a \"2014 & Up\" title, which predates the T1, so confirm the 2019+ part. An 8 ft listing is sold for Regular Cab trucks.",
+   "who": "Owners who want a covered bed plus a ladder or kayak rack, on any bed length.",
+   "specs": [["Type", "Stake-pocket work rack"], ["Fits", "Silverado/Sierra 1500 6.5' bed (per listing; confirm 2019+)"], ["Height", "26 in above box rail (full-size)"], ["Load rating", "1,000 lb static / 500 lb dynamic / 400 lb off-road"], ["Mounting", "Aluminum stake-pocket inserts, no drilling"], ["Tonneau", "ACCESS, LOMAX, most inside-rail covers"], ["Price", "$693 for 5'8\" (Agri-Cover, sale)"]]},
+  {"asin": "B07MRHDLS4", "role": "Best mid-height clamp rack", "price": "$799 (towers)",
+   "pros": ["Fixed 13 in height keeps loads low", "500 lb on-road / 300 lb off-road", "44.09 lb towers", "Track Kit and Tonneau Kit adapters", "Limited lifetime warranty"],
+   "cons": ["Towers only; HD Bar crossbars extra", "Universal; confirm Sierra fit in Yakima's lookup", "Clamps on a CarbonPro rail need Yakima's approval"],
+   "body": "Yakima's OutPost HD is four fixed towers at 13 in, a height that keeps a tent or cargo box low and out of most of the wind over the cab. Yakima rates it at 500 lb on-road and 300 lb off-road, lists the towers at 44.09 lb and $799, and covers them with a limited lifetime warranty. You add HD Bar crossbars in 60, 68 or 78 in lengths. Because the towers clamp to the rail instead of the stake pockets, one set fits the short, standard or long bed, and it moves to your next truck with the right bars.\n\nClamping is also the caution. On a steel bed it's straightforward, but on a CarbonPro bed the clamps load a composite rail, so ask Yakima before ordering. Beds with a track system need Track Kit 1 or 2, and select tonneau covers need Tonneau Kit 1, which is how you keep a cover under the rack. The listing doesn't name the Sierra, so run the truck through Yakima's fit lookup. If you want more height later, the OverHaul HD adjusts from 19 to 30 in for $1,200.",
+   "who": "Owners who want a low, brand-name tent or bike platform for any bed length.",
+   "specs": [["Type", "Fixed-height clamp towers"], ["Height", "13 in"], ["Load rating", "500 lb on-road / 300 lb off-road"], ["Weight", "44.09 lb (towers)"], ["Mounting", "Clamp; Track Kit 1/2 for tracked beds"], ["Tonneau", "Tonneau Kit 1 for select covers"], ["Crossbars", "HD Bar 60/68/78 in, sold separately"], ["Warranty", "Limited lifetime"], ["Price", "$799 towers (Yakima)"]]},
+  {"asin": "B07MDSP8T8", "role": "Best adjustable height", "price": "$1,200 (towers)",
+   "pros": ["19–30 in adjustable towers", "500 lb on-road / 300 lb off-road", "BedGrip clamps and SKS locks", "Four-sided T-slots for accessories", "Moves between trucks"],
+   "cons": ["Towers only; crossbars extra", "59.52 lb before crossbars", "Universal; confirm Sierra and CarbonPro fit"],
+   "body": "The OverHaul HD is the OutPost's adjustable sibling. Its towers move between 19 and 30 in, so one rack can sit just above the rails for kayaks and then lift a tent high enough to leave room for a fridge and bins underneath. Yakima gives it the same 500 lb on-road and 300 lb off-road ratings, lists the towers at 59.52 lb and $1,200, and backs them with a limited lifetime warranty. BedGrip clamps, SKS locks and T-slots come standard, and HD Bar crossbars are extra.\n\nAt full height the crossbars rise near the top of the Sierra's cab, so check the view of the third brake light once a load is on. The same kit rules apply as for the OutPost: Track Kit 1 or 2 for tracked beds, Tonneau Kit 1 for select covers, and Yakima's fit lookup for the truck itself, since the listing is universal. CarbonPro owners should get Yakima's approval for clamps on the composite rail. For owners whose loads change weekly, it's the most flexible rack here.",
+   "who": "AT4 and Denali owners who switch between boats, bikes and a tent and want one rack for all of it.",
+   "specs": [["Type", "Adjustable-height clamp towers"], ["Height", "19–30 in"], ["Load rating", "500 lb on-road / 300 lb off-road"], ["Weight", "59.52 lb (towers)"], ["Mounting", "BedGrip clamps; Track Kit 1/2 for tracked beds"], ["Tonneau", "Tonneau Kit 1 for select covers"], ["Warranty", "Limited lifetime"], ["Price", "$1,200 towers (Yakima)"]]},
+  {"asin": "B0C9VW9CPH", "role": "Best headache rack", "price": "From $239.99 (frame)",
+   "pros": ["Listing names 2019–2025 Silverado/Sierra 1500", "12-gauge steel, semi-gloss black powder coat", "No drilling on most trucks", "Combo includes wide-top tonneau kit", "Guards the rear window; light mounts available"],
+   "cons": ["No tent capacity", "1-year workmanship warranty; finish not covered", "Low-profile tonneau kit needs drilling"],
+   "body": "A headache rack earns its place on a working Sierra: it keeps shifting cargo off the rear glass, carries work lights and gives ladders a front support. The BackRack Original is the standard choice, and RealTruck lists the frame at $239.99 in 12-gauge steel with a semi-gloss black powder coat. RealTruck says it installs without drilling on most trucks using vehicle-specific brackets and clamps. This combo pairs frame 15019 with the 50122 wide-top tonneau hardware kit for the 2019–2025 Silverado/Sierra 1500, which saves working out the parts list yourself.\n\nThe hardware kit is what you have to get right. BackRack sells a standard-bed kit, toolbox kits and low-profile tonneau kits, and RealTruck notes the low-profile kit requires drilling two holes per side, something to avoid on a CarbonPro bed. The warranty is one year on workmanship, and the powder coat isn't covered. Folding light brackets are sold for owners who park in a garage. Pair it with a rear upright and you have a simple lumber rack.",
+   "who": "Work-focused owners who want window protection and lights while keeping the bed and cover free.",
+   "specs": [["Type", "Headache rack"], ["Fits", "2019–2025 Silverado/Sierra 1500 (per listing)"], ["Material", "12-gauge steel, black powder coat"], ["Mounting", "No drill on most trucks; low-profile kit drills"], ["Included (combo)", "Frame 15019 + kit 50122"], ["Warranty", "1 year workmanship"], ["Price", "From $239.99 frame (RealTruck)"]]},
+ ],
+ "install": [
+  "Read the RPO list for E3Z (CarbonPro) and check for factory side storage boxes; if either applies, get the rack maker's written fit confirmation first.",
+  "Confirm the bed: 69.9 in short (5'8\"/5'10\"), 79.4 in standard (6'6\"/6'7\") or 98.2 in long (8 ft), and buy the matching 2019+ part.",
+  "Fit the tonneau cover before the rack, choosing an inside-rail roll-up or a T-slot cover the rack maker lists.",
+  "Seat the stake-pocket inserts or position clamps with the correct track or tonneau kit, then assemble uprights and crossbars loosely.",
+  "Square and center the rack, torque every fastener to spec, and check tailgate, MultiPro inner gate and third brake light clearance.",
+  "Re-torque after the first drive and first trail, and keep tent and gear under the dynamic rating.",
+ ],
+ "avoid": [
+  {"h": "Assuming CarbonPro is just another bed", "body": "It's composite, with different rails and bulkhead. Get the maker's approval and never drill it on a guess."},
+  {"h": "Buying a \"2014 & up\" part blind", "body": "The T1 bed is new for 2019. The 2019 Sierra Limited, though, is the old truck and takes 2014–2018 parts."},
+  {"h": "Driving at the static rating", "body": "Stay under the dynamic figure on the road: 600 lb for Putco and GoRack, 500 lb for Adarac and Yakima."},
+  {"h": "Ordering around side storage boxes", "body": "GM's factory boxes occupy the rails. None of the racks here list them as compatible."},
+ ],
+ "verdict": {
+  "thesis": "Check for CarbonPro first; on a steel bed, buy the Putco Venture TEC for a tent, the GoRack for value on the short bed, and the Adarac if a roll-up tonneau cover matters most.",
+  "body": "Steel-bed Sierras have an easy time: stake pockets and shared Silverado parts mean no-drill racks for every bed. The Putco Venture TEC has the best published ratings, the GoRack matches them on the short bed for less than half the price, and the Adarac is built around a roll-up cover. Yakima's OutPost HD and OverHaul HD are the clamp options for any bed length, and the BackRack Original covers the window guard and lights for work trucks. CarbonPro owners should put every pick through the maker first.\n\nPlan the tonneau cover and rack together; our Sierra tonneau guide covers CarbonPro-specific cover parts. A loaded rack sits behind the cab, so check payload before adding a trailer hitch load on top. For the cab, the Sierra shares the Silverado's floor, so the same floor liners fit, and running boards are the usual next step on a lifted AT4.",
+ },
+ "sources": [
+  ["Putco Venture TEC Rack (Putco)", "https://www.putco.com/venture-tec-rack"],
+  ["Putco Venture TEC Rack (RealTruck)", "https://realtruck.com/p/putco-venture-tec-rack/"],
+  ["RealTruck GoRack (RealTruck)", "https://realtruck.com/p/realtruck-gorack/"],
+  ["ADARAC Aluminum Pro Series specs (Agri-Cover)", "https://www.agricover.com/adarac/pro/"],
+  ["ADARAC Pro Series 19-on 1500 5'8\" bed (Agri-Cover shop)", "https://shop.agricover.com/product/adaracalupro/adaracalupro/19-ON_Chevy-GMC_Full-Size_1500_5ft_8_Bed_SLVR"],
+  ["Yakima OutPost HD towers (Yakima)", "https://yakima.com/products/outpost-hd"],
+  ["Yakima OverHaul HD towers (Yakima)", "https://yakima.com/products/overhaul-hd"],
+  ["BackRack Original Headache Rack 15019 (RealTruck)", "https://realtruck.com/p/backrack-original-headache-rack/bkr-15019/"],
+  ["CarbonPro no longer available for 2026 (GM Authority)", "https://gmauthority.com/blog/2026/07/gmc-sierra-carbonpro-composite-bed-no-longer-available/"],
+  ["CarbonPro bed overview (GMC)", "https://www.gmc.com/gmc-life/carbonpro-delivers-innovation-durability"],
+ ],
+}
+
+# (asin, name, brand, band, cond, note) — picks first, then size/style variants.
+FITS = [
+ ("B07VQ95FNQ","Putco Venture Tec Rack, Chevy Silverado 1500 / GMC Sierra 1500 2014-2023 5'8\" Bed","Putco","$2,200–$2,950",{"bed_length_in": 70},"5'8\" bed; confirm the 2019+ part, and CarbonPro fit, with Putco."),
+ ("B0CNS9TSYB","RealTruck GoRack Overland Truck Rack 9450101, 2019-2024 Silverado 1500 / Sierra 1500, 5.8' Bed","RealTruck","$1,000–$1,150",{"bed_length_in": 70},"Short bed only; confirm 2025-2026 and CarbonPro with seller."),
+ ("B0777NLP2D","Adarac Aluminum Pro Series Truck Bed Rack 4000948, 2014 & Up Silverado / Sierra 1500 6.5' Bed","Adarac","$650–$800",{"bed_length_in": 79},"6.5' bed; title reads 2014 & up — confirm the 2019+ part."),
+ ("B07MRHDLS4","Yakima OutPost HD Fixed Mid Height Truck Bed Rack (towers only)","Yakima","$750–$850",{},"Universal clamp towers; confirm Sierra fit, CarbonPro and crossbars in Yakima's fit lookup."),
+ ("B07MDSP8T8","Yakima OverHaul HD Adjustable Truck Bed Rack (towers only)","Yakima","$1,100–$1,250",{},"Universal clamp towers; confirm Sierra fit, CarbonPro and crossbars in Yakima's fit lookup."),
+ ("B0C9VW9CPH","RealTruck BackRack Original Rack + Wide-Top Tonneau Hardware 15019 & 50122, 2019-2025 Silverado/Sierra 1500","BackRack","$350–$450",{},"Headache rack with tonneau hardware kit."),
+ ("B07VRF13SD","Putco Venture Tec Rack, Chevy Silverado/GMC Sierra 2014-2027 6'6\" Bed","Putco","$2,200–$2,950",{"bed_length_in": 79},"6'6\" bed version; confirm the 2019+ part with Putco."),
+ ("B0777R6Q4K","Adarac Aluminum Pro Series Truck Bed Rack 4000949, 2014 & Up Silverado / Sierra 1500 8' Bed","Adarac","$650–$800",{"bed_length_in": 98},"8 ft bed; confirm the 2019+ part."),
+ ("B0C9W4WVZD","RealTruck BackRack Safety Rack + Low-Profile Tonneau Hardware 10900 & 40122, 2019-2025 Silverado/Sierra 1500","BackRack","$400–$550",{},"Low-profile tonneau kit requires drilling; avoid on CarbonPro."),
+ ("B07MMKJ45M","RealTruck BackRack Original Rack Frame Only 15019, 2019-2025 Silverado/Sierra 1500","BackRack","$200–$280",{},"Frame only; needs a hardware kit."),
+]

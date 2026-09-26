@@ -20,7 +20,13 @@ if __name__ == "__main__":
         faq = json.dumps([{"q": q, "a": a} for q, a in m.FAQ], ensure_ascii=False)
         art = json.dumps(m.ARTICLE, ensure_ascii=False)
         where = f"vehicle_id=(SELECT v.id FROM vehicles v JOIN makes mk ON mk.id=v.make_id WHERE mk.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}') AND category_id=(SELECT id FROM categories WHERE slug='{cat}')"
-        out.append(f"UPDATE fitment_pages SET title=$t${m.TITLE}$t$, meta_desc=$m${m.META}$m$, faq=$f${faq}$f$::jsonb, article=$a${art}$a$::jsonb, verified_at=CURRENT_DATE, updated_at=now() WHERE {where};")
+        # upsert: an article module alone can create a new vehicle x category page (published by 005 once it has >= 2 fits)
+        out.append(f"""INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, faq, article, verified_at)
+SELECT v.id, c.id, $t${m.TITLE}$t$, $m${m.META}$m$, $f${faq}$f$::jsonb, $a${art}$a$::jsonb, CURRENT_DATE
+FROM vehicles v JOIN makes mk ON mk.id=v.make_id, categories c
+WHERE mk.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}' AND c.slug='{cat}'
+ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq,
+  article=EXCLUDED.article, verified_at=EXCLUDED.verified_at, updated_at=now();""")
         # page's product list is owned by FITS: clear it; apply.sh re-imports fitments.csv right after migrations
         out.append(f"""DELETE FROM fitments f USING products p WHERE p.id=f.product_id
   AND p.category_id=(SELECT id FROM categories WHERE slug='{cat}')
