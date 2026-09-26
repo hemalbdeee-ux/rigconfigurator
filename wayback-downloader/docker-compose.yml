@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      SITE_NAME: ${SITE_NAME:-Wayback Restore}
+      MAX_PARALLEL_JOBS: ${MAX_PARALLEL_JOBS:-2}
+      MAX_FILES_PER_JOB: ${MAX_FILES_PER_JOB:-0}
+      JOB_TTL_HOURS: ${JOB_TTL_HOURS:-48}
+    volumes:
+      - data:/data
+volumes:
+  data:
