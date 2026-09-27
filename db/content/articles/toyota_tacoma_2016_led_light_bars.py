@@ -1,0 +1,182 @@
+"""Long-form article — Best LED Light Bars & Light Kits for 2016–2023 Toyota Tacoma (3rd gen, N300).
+Mirrors the approved pilot (ford_f150_2021_tonneau.py) and the 4Runner/JL light-bar pages. No invented hands-on
+testing: every spec below comes from the manufacturer/retailer pages listed in sources (checked 2026-09-27).
+Light bars are largely universal; what is Tacoma-specific is the mount (lower bumper, upper grille, fog pocket,
+hood hinge), so the picks are 3rd-gen Tacoma mount kits and complete kits whose Amazon titles name the truck.
+"""
+
+KEY = ("toyota", "tacoma", "2016-2023", "led-light-bars")
+
+TITLE = "Best LED Light Bars for 2016–2023 Toyota Tacoma: 6 Mount-Checked Kits by Location"
+META = ("Six 3rd-gen Tacoma light kits, from hidden lower-bumper and grille bars to ditch pods and fog "
+        "pocket lights, with wiring, TRD Pro and road-use notes.")
+
+FAQ = [
+ ("What is the best LED light bar for a 2016–2023 Tacoma?",
+  "For most trucks, a 32 in bar hidden behind the lower bumper opening on Cali Raised LED's brackets. Cali Raised lists the kit for all 2016–2023 trims with a dual-row OSRAM bar, black powder-coated brackets and a wiring harness, says it needs no cutting or drilling, and prices it at $384.99 without its OEM-style switch or $394.99 with it. The bar sits low, so glare off the hood is minimal, and it is out of sight when off. If you want a better road-driving light rather than a bar, look at a fog-pocket pod kit instead."),
+ ("Does a lower bumper light bar fit the TRD Pro?",
+  "Cali Raised says its 2016–2023 lower bumper hidden kit is compatible with all trims, grilles and sensors for that application, and specifically with the TRD Pro grille and factory camera mounts. That covers the TRD Pro, which launched for the 2017 model year with its own heritage-style 'TOYOTA' grille, per Wikipedia. For other brands' brackets, look for a listing that names the TRD Pro or says all trims; if it doesn't, ask the seller before ordering."),
+ ("Did the Tacoma TRD Pro come with Rigid fog lights?",
+  "Yes, at launch. Wikipedia's Tacoma history says the TRD Pro introduced for the 2017 model year came with Rigid Industries LED fog lights, along with FOX internal bypass shocks, a TRD Pro skid plate and the heritage-inspired grille. We couldn't confirm from a primary source which later 3rd-gen TRD Pro years kept the same fog units, so check your truck before buying replacement fog pods. If yours already has Rigid fogs, a ditch or bumper bar adds more than a fog swap will."),
+ ("Are LED light bars legal on a Tacoma?",
+  "Usually only off-road. Rules vary by state, but many states treat light bars and auxiliary lights with off-road beam patterns as off-road equipment that must be switched off on public roads, and some also require an opaque cover or limit how many auxiliary lamps you can run and how high they sit. A hidden lower-bumper bar is still an off-road light. Replacement fog lights are the easiest category to keep street-friendly, especially ones sold as SAE fogs. Check your own state's vehicle code before driving with a bar uncovered."),
+ ("Do I need to drill to mount a light bar on a 3rd-gen Tacoma?",
+  "Not with the kits on this page. Cali Raised describes its lower bumper and upper grille brackets as bolt-on at factory mounting points with no drilling, and its bracket-only lower bumper set as needing no modifications, typically one to two hours with basic hand tools. Diode Dynamics lists its Tacoma ditch light kit as bolt-on with no cutting or drilling, and RealTruck describes its Stage Series ditch kits the same way. Budget ditch kits usually use the hood-hinge bolts too, but read the install sheet first."),
+ ("How do I wire a light bar on a Tacoma?",
+  "Use a harness with a relay, an inline fuse and a switch. A bar drawing several amps shouldn't run straight through a small dash switch; the relay lets the switch carry only a small signal current while heavier wire feeds the light from the battery. Cali Raised includes a harness with its bar kits and sells an OEM-style dash switch that fits a factory blank. Mount the relay and fuse near the battery, route wire away from exhaust heat, and use grommets wherever it passes through metal."),
+ ("How many amps does a Tacoma light setup draw?",
+  "Divide watts by system voltage. Baja Designs lists each Squadron Sport fog light at 30 W and 2.2 A at 13.8 V, so a pair draws about 4.4 A. A 60 W pair of budget ditch pods pulls roughly 4.3 A, and a large dual-row bar can draw well over 10 A. Add up every light you plan to run on one circuit, then size the fuse and relay for that total with some margin, or give each light group its own relay and fuse."),
+ ("Can I mount a light bar on my Tacoma's roof?",
+  "Yes, but on the 3rd-gen truck it usually goes on a roof rack or platform rather than dedicated roof brackets, and we didn't find a roof-specific kit titled for this generation with specs we could verify. A long bar up high gives the most reach but throws the most glare off the hood and sits in the airflow at highway speed. Low mounts such as the lower bumper, grille or hood hinges avoid those trade-offs and are easier to keep switched off and out of sight on the road."),
+ ("Spot, flood or combo beam: which should I pick?",
+  "Match the beam to the mount. A spot beam throws a narrow, long-range pattern that suits open desert and fire roads. A flood spreads light wide and short, which suits slow trails and camp. A combo bar mixes both and is the safe choice for a single grille or bumper bar. Ditch pods work best with wide or side-projecting beams that light the trail edges, and fog-pocket pods usually use a wide cornering pattern. Amber lenses reduce glare back from dust, rain and snow."),
+ ("Do 2016–2023 Tacoma light bar brackets fit the 2024–2026 Tacoma?",
+  "No. The 2024–2026 Tacoma moved to Toyota's TNGA-F platform, shared with the Tundra, per Wikipedia, and has an all-new front end. Cali Raised sells separate grille and ditch brackets for 2024+ trucks and says its 2024 ditch brackets aren't compatible with 2023 or older models. Buy brackets titled for your generation only; universal bars can move between trucks, but mounts don't."),
+]
+
+ARTICLE = {
+ "dek": "Six 3rd-gen Tacoma lighting setups, from a $65 hidden bumper bracket to complete 32 in bar kits, Diode Dynamics ditch pods and Baja fog pocket lights. Bars are mostly universal, so we focus on what is specific to the 2016–2023 Tacoma: the mount, the TRD Pro front end, wiring and the road-use rules that decide when you can switch them on.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-27",
+ "method": "We did not install these lights ourselves. We ranked them on published specs (bar length, watts, sealing, harness, warranty), on the fitment each maker, retailer or Amazon listing gives for the 2016–2023 Tacoma, and on the 3rd-gen history in Wikipedia's Tacoma page. Prices were checked at the maker or a specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price. Where a listing is our only source for a spec, we say so.",
+ "takeaways": [
+  "**Buy the mount, then the bar.** The bar is usually universal. What must match is the bracket: lower bumper, upper grille, fog pocket or hood hinge.",
+  "**The lower bumper is the best all-round spot.** Cali Raised's 32 in hidden kit bolts in with no drilling and is listed for all 2016–2023 trims, including the TRD Pro grille.",
+  "**The 2017 TRD Pro launched with Rigid LED fog lights.** Check what's in your fog pockets before paying for a replacement fog kit.",
+  "**Get a harness with a relay, fuse and switch.** Size the fuse to the total amps you'll run on that circuit.",
+  "**Most bars are off-road only.** Keep them off, and covered where your state requires it, on public roads.",
+ ],
+ "top_picks": [
+  {"asin": "B088QSCD4Z", "role": "Best overall", "why": "32 in dual-row bar hidden in the lower bumper, all trims, no drilling, from $384.99"},
+  {"asin": "B088QSSYYF", "role": "Best grille bar", "why": "32 in bar behind the upper grille, works with Toyota grilles, bolt-on at factory points"},
+  {"asin": "B08BH62NT4", "role": "Best ditch light kit", "why": "Stainless hood-hinge brackets with Stage Series pods, no cutting or drilling"},
+  {"asin": "B0GVQ32GN8", "role": "Best fog light upgrade", "why": "Two 3,200 lm IP69K pods that run on the factory fog switch"},
+  {"asin": "B07T3GR9M8", "role": "Best budget bracket", "why": "$64.99 lower bumper brackets for your own 32 in bar"},
+ ],
+ "fit_table": {
+  "caption": "2016–2023 Tacoma details that affect light mounting",
+  "head": ["Item", "Applies to", "What it means for lights"],
+  "rows": [
+   ["Lower bumper opening", "2016–2023, all trims", "Cali Raised 32 in hidden brackets listed for all trims, grilles and sensors."],
+   ["Upper grille", "2016–2023", "Cali Raised 32 in upper grille brackets; maker says they work with all Toyota grilles."],
+   ["TRD Pro", "2017–2023", "Heritage 'TOYOTA' grille; launched with Rigid Industries LED fog lights (Wikipedia)."],
+   ["Hood hinges", "2016–2023", "Ditch brackets from Diode Dynamics, Rago, BLIAUTO and others bolt to the hinge area."],
+   ["Fog pockets", "Trims with factory fogs", "Replacement pod kits plug into the fog harness; check TRD Pro fogs first."],
+   ["2024–2026 Tacoma", "4th gen", "All-new front end on TNGA-F; 3rd-gen brackets don't carry over."],
+  ],
+ },
+ "look_for": [
+  {"h": "Pick the mount location first",
+   "body": "On a 3rd-gen Tacoma there are four common homes for extra light. The lower bumper opening takes a 32 in bar hidden behind the mesh, which keeps the stock look and sits low enough to limit glare off the hood. The upper grille takes a second 32 in bar higher up for a bit more reach. The hood hinges take two ditch pods at the base of the windshield, aimed at the trail edges. The fog pockets take replacement pods that plug into the factory fog wiring. Roof bars usually ride on a platform rack. Choose the location, buy a mount whose listing names the 2016–2023 Tacoma, then choose the light that fits it."},
+  {"h": "TRD Pro grilles, sensors and fogs",
+   "body": "Not every 3rd-gen front is the same. The TRD Pro arrived for 2017 with a heritage-inspired 'TOYOTA' grille and Rigid Industries LED fog lights, per Wikipedia. That matters twice. First, grille and bumper brackets have to clear the TRD Pro grille and any front camera; Cali Raised says its lower bumper kit works with all trims, grilles and sensors, including the TRD Pro grille and factory camera mounts, and its upper grille brackets with all Toyota grilles and most aftermarket ones. Second, a TRD Pro that still has its Rigid fogs gains less from a fog-pocket swap than from a bar or ditch lights, so check what you have first."},
+  {"h": "Bar length and beam",
+   "body": "Bar length follows the bracket. Both Cali Raised Tacoma grille mounts take a 32 in bar, and the brackets-only versions expect you to supply one of that length. Before buying a bar from another brand, confirm its overall length and end-mount style match the brackets, because side-mount and bottom-mount bars differ. For a single low bar, a combo beam is the safest choice: it puts some light far down the road and some to the sides. A spot beam suits open desert and fire roads, a flood suits slow trails. Ditch pods work best with wide or side-projecting beams aimed at the edges."},
+  {"h": "Wiring, relay, fuse and amp draw",
+   "body": "Every add-on light needs a relay, an inline fuse sized for its draw, and a switch you can reach from the seat. To size it, divide watts by voltage: Baja lists each Squadron Sport light at 30 W and 2.2 A at 13.8 V, and a 60 W pair of pods pulls about 4.3 A. Add up every light on one circuit before choosing the fuse. Cali Raised includes a harness with its bar kits and sells an OEM-style BUMPER LIGHT BAR dash switch for a factory blank, which looks cleaner than a stick-on rocker. Fog-pocket kits are simplest, because Baja's adaptors connect to the factory fog harness and the stock fog switch."},
+  {"h": "Sealing, glare and amber",
+   "body": "Look for a published IP rating. Baja rates the Squadron Sport light IP69K, and RealTruck lists Diode Dynamics' Stage Series ditch pods as IP69K with an eight-year warranty. Cali Raised's Tacoma kit pages don't give an IP figure, and many budget ditch kits quote IP67 or nothing, so ask if you plan on water crossings or pressure-washing. Glare depends on height: a lower bumper bar or fog pods cause little, while ditch pods and roof bars can reflect off the hood and into the cab. Amber lenses cut back-scatter in dust, rain and snow, which is why many owners choose amber for ditch pods."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Fitment", "Mount listing names the 2016–2023 Tacoma (and TRD Pro, if you have one)", "\"Universal Toyota\" brackets with no year range"],
+   ["Generation", "3rd-gen listing only", "2024+ or 2005–2015 brackets"],
+   ["Wiring", "Harness with relay, fuse and switch, or plug-in fog adaptors", "Bare lights spliced into a headlight circuit"],
+   ["Output", "Published lumens and watts", "\"Super bright\" with no figures"],
+   ["Sealing", "IP67–IP69K rating stated", "No waterproof rating"],
+   ["Mounting", "Bolt-on at factory points, no drilling", "Kits that need you to cut the bumper or drill the hood"],
+  ],
+ },
+ "types_table": {
+  "caption": "3rd-gen Tacoma light mount locations compared",
+  "head": ["Mount", "Example on this page", "Beam use", "Glare", "Road use", "Trade-off"],
+  "rows": [
+   ["Lower bumper (hidden)", "Cali Raised 32 in kit", "Driving / combo", "Low", "Usually off-road only", "Low bar is more exposed to mud and rocks"],
+   ["Upper grille (hidden)", "Cali Raised 32 in upper grille kit", "Driving / combo", "Low to some", "Usually off-road only", "Can be seen through the grille"],
+   ["Hood hinge (ditch)", "Diode Dynamics Stage Series", "Trail edges and corners", "Some", "Usually off-road only", "Pods in view from the cabin"],
+   ["Fog pocket", "Baja Squadron Sport", "Wide cornering / fog", "Lowest", "Most street-friendly (SAE versions exist)", "Smallest output area"],
+   ["Roof (on a rack)", "Rack-maker brackets", "Long-range reach", "Most (off hood)", "Off-road only in most states", "Wind noise; needs a rack"],
+  ],
+ },
+ "picks": [
+  {"asin": "B088QSCD4Z", "role": "Best overall", "price": "From $385",
+   "pros": ["Hidden in the lower bumper; stock look when off", "Listed for all 2016–2023 trims, grilles and sensors", "Includes a 32 in dual-row OSRAM bar and harness", "Spot or combo beam", "2-year warranty on brackets, bar, harness and switch"],
+   "cons": ["No IP rating or lumen figure on the maker page", "Low bar is exposed to mud, rocks and brush", "Still off-road lighting in most states"],
+   "body": "For most 3rd-gen owners, a bar hidden in the lower bumper opening is the best balance of output, looks and glare, and Cali Raised LED's kit is built around this truck. Cali Raised lists it for all 2016–2023 Tacoma trims and says it is compatible with all grilles and sensors for that application, naming the TRD Pro grille and factory camera mounts. It says no cutting or drilling is required. The kit includes a 32 in dual-row bar with 5D-optic OSRAM LEDs, black powder-coated vehicle-specific brackets, hardware and a wiring harness, with an optional OEM-style BUMPER LIGHT BAR dash switch in tall or small versions.\n\nCali Raised prices the kit at $384.99 without the OEM-style switch and $394.99 with it, and covers the brackets, bar, harness and switch for two years. This Amazon listing is the combo-beam version with harness and no switch, so plan how you'll control it. The trade-offs are small but real: Cali Raised doesn't publish an IP rating or lumen figure for the bar, so compare it on the listing if output matters, and a bar this low catches mud and trail debris. It is also still an off-road light, so keep it switched off on public roads where your state requires it.",
+   "who": "Any 2016–2023 owner, TRD Pro included, who wants a real light bar with a stock-looking front and minimal glare.",
+   "specs": [["Type", "Hidden lower bumper bar kit"], ["Bar", "32 in dual-row OSRAM, spot or combo"], ["Fits", "2016–2023 Tacoma, all trims (maker)"], ["Mounting", "No cutting or drilling"], ["Included", "Bar, brackets, hardware, harness"], ["Switch", "Optional OEM-style dash switch"], ["Warranty", "2 years"], ["Price", "$384.99 no switch / $394.99 with switch (Cali Raised)"]]},
+  {"asin": "B088QSSYYF", "role": "Best grille bar", "price": "From $385",
+   "pros": ["32 in bar mounted inside the upper grille opening", "Keeps the original grille in place", "Maker says it works with all Toyota grilles", "Bolt-on at factory mounting points, no drilling", "Made in the USA, 2-year warranty"],
+   "cons": ["Visible through the grille mesh", "Higher than the bumper mount, so a little more glare", "No IP or lumen figures on the maker page"],
+   "body": "If you want the bar a little higher than the bumper, or you already run a lower bar and want a second, Cali Raised's upper grille kit puts a 32 in dual-row bar inside the upper grille opening. Cali Raised lists it for the 2016–2023 Tacoma, says the hidden mount keeps your original grille in place, and describes the install as bolt-on at factory mounting points with no drilling. It says the brackets work with all Toyota grilles and most aftermarket grilles, which matters on a TRD Pro with its heritage-style grille. The kit includes the brackets, a 32 in dual-row bar in spot or combo, hardware and a harness, with an optional small OEM-style switch.\n\nCali Raised lists the kit at $384.99 without the OEM switch, with a 2-year warranty on all its products and US-made powder-coated brackets. This Amazon listing is the combo-beam version with harness and no switch. The upper grille sits higher than the bumper opening, so expect a little more light off the hood and a bar you can partly see through the mesh. Running both upper and lower bars doubles the current draw, so give each its own fused, relayed circuit or size one harness for both. Treat it as off-road lighting on the road.",
+   "who": "Owners who want a grille-mounted bar, or a second bar above a lower bumper bar.",
+   "specs": [["Type", "Hidden upper grille bar kit"], ["Bar", "32 in dual-row, spot or combo"], ["Fits", "2016–2023 Tacoma"], ["Grilles", "All Toyota grilles, most aftermarket (maker)"], ["Mounting", "Bolt-on, factory points, no drilling"], ["Warranty", "2 years"], ["Price", "$384.99 without OEM switch (Cali Raised)"]]},
+  {"asin": "B08BH62NT4", "role": "Best ditch light kit", "price": "Check listing",
+   "pros": ["Stage Series pods, IP69K (RealTruck)", "Eight-year warranty (RealTruck)", "Thick-gauge stainless steel brackets", "Bolt-on, no cutting or drilling", "Amber backlight; yellow or white pods"],
+   "cons": ["Lumen figures not on the pages we read", "Pods sit in view from the cabin", "Pricier than budget ditch kits"],
+   "body": "Ditch lights mount at the hood hinges, at the base of the windshield, and light the trail edges and corners that a bumper bar doesn't reach. Diode Dynamics' Stage Series backlit kit is the brand-name way to add them to a 3rd-gen Tacoma. Diode Dynamics lists the kit for 2016–2023 with thick-gauge stainless steel brackets, bolt-on fitment with no cutting or drilling, and an integrated amber backlight. It takes SS3 pods with an 80 x 30 degree beam or C2 pods with a 55 x 20 degree beam, in cool white (6000K) or selective yellow (3000K), and in Sport or Pro power levels; Diode Dynamics says Pro offers double the power. This Amazon listing is the SS3 Pro in yellow with a combo beam.\n\nRealTruck's Stage Series ditch kit page lists the pods as IP69K and gives an eight-year warranty: three years full replacement plus five years for manufacturing defects. Neither page we read gives lumen figures, so compare the pod options on the listing. The price varies widely with pod choice; Diode Dynamics' page shows a starting price of $99.95, so confirm which configuration a price refers to. Yellow pods cut glare in dust and rain. Keep them off on public roads where your state requires it.",
+   "who": "Trail drivers who want to see the edges and corners and want a long warranty.",
+   "specs": [["Type", "Hood-hinge ditch light kit (2 pods)"], ["Pods", "SS3 Pro, yellow, combo (this listing)"], ["Beam", "SS3: 80 x 30 degrees"], ["Fits", "2016–2023 Tacoma"], ["Sealing", "IP69K (RealTruck)"], ["Brackets", "Stainless steel, bolt-on"], ["Warranty", "8 years (RealTruck)"], ["Price", "Varies by pod; check listing"]]},
+  {"asin": "B0GVQ32GN8", "role": "Best fog light upgrade", "price": "$437",
+   "pros": ["3,200 lumens at 30 W per light", "IP69K rated, 12–32 V", "Adaptors run on the factory fog switch", "RGBW backlight, clear or amber lens", "Limited lifetime warranty"],
+   "cons": ["Retailer page we read lists 4Runner only; confirm Tacoma fit", "Two pods, not a bar: less reach", "Less useful if your TRD Pro already has Rigid fogs"],
+   "body": "If you want better light for night driving without an obvious bar, Baja Designs' Squadron Sport 2.0 fog pocket kit replaces the factory fog lights with two Squadron Sport pods. 4Runner Lifestyle lists each light at 3,200 lumens and 30 W (2.2 A at 13.8 V), rated IP69K with a 12–32 V input and a wide cornering beam in clear or Baja amber. The kit includes two lights, two mounting brackets, two wiring adaptors that work with the factory fog switch, a harness for the backlight and all mounting hardware. Because it uses the factory fog wiring, there is no separate switch to add.\n\nThe fitment is the catch. This Amazon listing's title names the Tacoma 12–23 alongside the Tundra and 4Runner, but the retailer page we read lists only the 4Runner, so confirm with the seller that the brackets suit your 3rd-gen fog pockets before ordering. Your truck also needs factory fog pockets and wiring. The 2017 TRD Pro launched with Rigid Industries LED fogs, so a TRD Pro owner may gain less here than from a ditch or bumper bar. The kit costs $436.95 at 4Runner Lifestyle with a limited lifetime warranty. This Sport version is an off-road light; Baja also offers SAE fog versions for road use.",
+   "who": "Owners with factory fog pockets who want switch-integrated fog upgrades and will confirm fit.",
+   "specs": [["Type", "Fog pocket pod kit (2 lights)"], ["Output", "3,200 lm, 30 W each"], ["Current", "2.2 A @ 13.8 V each"], ["Sealing", "IP69K"], ["Beam", "Wide cornering, clear or amber"], ["Fits", "Tacoma 12–23 per listing title; confirm"], ["Warranty", "Limited lifetime"], ["Price", "$436.95 (4Runner Lifestyle)"]]},
+  {"asin": "B07T3GR9M8", "role": "Best budget bracket", "price": "$65",
+   "pros": ["$64.99 for Tacoma-specific brackets", "Bolt-on, no drilling, cutting or modification", "Black powder-coated steel, made in the USA", "About 1–2 hours with hand tools", "2-year warranty"],
+   "cons": ["Bar, switch and harness sold separately", "You must confirm your bar's length and mount style", "No hidden cost savings if you need a harness too"],
+   "body": "If you already own a 32 in bar, or want to choose one yourself, Cali Raised sells its lower bumper hidden brackets on their own. Cali Raised lists them at $64.99 for the 2016–2023 Tacoma, sold as a pair with installation hardware, and describes a bolt-on install with no drilling, cutting or modifications that takes about one to two hours with basic hand tools. The brackets are black semi-gloss powder-coated steel, made in the USA, with a 2-year warranty. It is the cheapest way on this page to get a Tacoma-specific mount for a real bar, and it is the same mount as our top pick.\n\nThe bar is where you need to be careful. Any 32 in bar you buy separately is universal, so confirm its overall length and end-bracket style match these mounts before ordering, and budget for a harness with a relay, a fuse sized for the bar's draw and a switch. Cali Raised only includes wiring when you buy the brackets with a light. Once you add a quality bar and harness, the savings over the full kit shrink, so this makes most sense if the bar is already in your garage. It is still off-road lighting once installed.",
+   "who": "2016–2023 owners with a 32 in bar on hand, or who want to pick the bar separately.",
+   "specs": [["Type", "Hidden lower bumper brackets only"], ["Bar size", "32 in (not included)"], ["Fits", "2016–2023 Tacoma"], ["Mounting", "Bolt-on, no drilling"], ["Install time", "About 1–2 hours (maker)"], ["Material", "Powder-coated steel, USA-made"], ["Warranty", "2 years"], ["Price", "$64.99 (Cali Raised)"]]},
+  {"asin": "B0H9YSR69N", "role": "Best budget ditch kit", "price": "Check listing",
+   "pros": ["Titled for the 2016–2023 Tacoma", "Complete kit: pods, brackets, switch, harness", "4 mm hood-hinge brackets (per listing)", "Combo beam 3 in cube pods", "Far cheaper than brand-name ditch kits"],
+   "cons": ["Specs only from the listing title", "No IP rating or warranty we could verify", "Rocker switch rather than an OEM-style blank"],
+   "body": "If you want ditch lights for the trail edges but not a brand-name price, BLIAUTO's kit is titled specifically for the 2016–2023 Tacoma and ships as a complete setup. According to the listing title, it includes two 3 in cube pods with a combo beam, 4 mm thick hood-hinge mount brackets, a rocker switch and a wiring harness, and the title claims 60 W and 6,000 lm for the pair. That puts both pods at the hood hinges where brand-name kits mount, so the placement and beam coverage are similar in principle.\n\nThe weakness is verification. The Amazon listing is the only source for those figures; we couldn't find a maker spec sheet, IP rating or warranty to check them against, so treat the lumen claim with caution and confirm the details on the listing. At 60 W the pair draws roughly 4.3 A at 13.8 V, so make sure the harness includes a relay and an inline fuse sized for it, and route the wires clear of the hood hinge travel. A rocker switch is functional but less tidy than an OEM-style blank. If you plan water crossings or want a long warranty, Diode Dynamics' kit above is the better buy.",
+   "who": "Budget-minded owners who want complete ditch lights in one box and accept listing-only specs.",
+   "specs": [["Type", "Hood-hinge ditch light kit (2 pods)"], ["Pods", "3 in cube, combo beam (per listing)"], ["Claimed output", "60 W, 6,000 lm pair (listing title)"], ["Fits", "2016–2023 Tacoma"], ["Included", "Pods, 4 mm brackets, rocker switch, harness"], ["Current", "About 4.3 A at 13.8 V (calculated)"], ["Price", "Check listing"]]},
+ ],
+ "install": [
+  "Choose the location, check your trim (TRD Pro grille, factory fogs, front camera) and confirm every bracket is listed for the 2016–2023 Tacoma.",
+  "Disconnect the negative battery terminal before any wiring work.",
+  "Fit the brackets at the factory points the instructions show (lower bumper, upper grille, hood hinge or fog pocket), leaving bolts loose for aiming.",
+  "Route the harness away from exhaust heat, hood hinges and moving parts; mount the relay and fuse near the battery and use a grommet through the firewall.",
+  "Mount the switch within reach, or plug fog-pocket adaptors into the factory fog harness.",
+  "Reconnect the battery and test each light, then aim them at night on level ground.",
+  "Tighten every bolt and re-check after the first trail run. Keep the lights off, and covered where required, on public roads.",
+ ],
+ "avoid": [
+  {"h": "Buying 2024+ or 2005–2015 brackets", "body": "Mounts are generation-specific. The 2024–2026 Tacoma has an all-new front end, so buy only listings that name 2016–2023."},
+  {"h": "Replacing fogs you don't need to", "body": "The 2017 TRD Pro launched with Rigid LED fog lights. Check what's in your fog pockets before buying a fog kit."},
+  {"h": "Wiring without a relay and fuse", "body": "Add up the watts, divide by voltage, and fuse and relay each circuit for that current rather than splicing into a factory circuit."},
+  {"h": "Running auxiliary lights on the road", "body": "Light bars and ditch pods are off-road lighting in most states. Keep them off, and covered where your state requires it, on public roads."},
+ ],
+ "verdict": {
+  "thesis": "Pick the mount before the light: Cali Raised's hidden lower bumper kit for most 2016–2023 trucks, its upper grille kit for a second bar, and Diode Dynamics' ditch kit to light the trail edges.",
+  "body": "On a 3rd-gen Tacoma, the bar is the easy part and the mount is where fit goes wrong. Cali Raised's 32 in lower bumper kit is the best all-round choice because it is listed for every trim and grille, bolts in without drilling and keeps glare low. The upper grille kit adds a second bar or a higher mount, Diode Dynamics' Stage Series ditch kit covers the corners with the longest warranty here, and the $64.99 bracket set is the cheapest route if you own a bar. Baja's fog pocket kit is a strong fog upgrade, but confirm Tacoma fit and check whether your TRD Pro already has Rigid fogs. If you drive the new truck, see our 2024–2026 Tacoma light bar guide; 2016–2023 Tacoma brackets don't carry over.\n\nRoof lights and a roof rack compete for the same space, and a bed rack can carry work lights for camp, so plan them together. After lighting, many Tacoma owners add a trailer hitch for recovery gear and bike racks, a tonneau cover to keep gear dry, and floor liners for muddy boots. The vehicle hub lists every fit-checked accessory for your Tacoma.",
+ },
+ "sources": [
+  ["2016–2023 Toyota Tacoma 32 in Hidden LED Light Bar Kit (Cali Raised LED)", "https://caliraisedled.com/products/2016-2020-toyota-tacoma-32-lower-bumper-hidden-led-light-bar-kit"],
+  ["32 in Lower Bumper Hidden LED Light Bar Mounting Brackets, 2016–2023 Tacoma (Cali Raised LED)", "https://caliraisedled.com/products/2016-2020-toyota-tacoma-32-lower-bumper-hidden-led-light-bar-mounting-brackets"],
+  ["32 in Upper Grille LED Light Bar Brackets Kit, 2016–2023 Tacoma (Cali Raised LED)", "https://caliraisedled.com/products/2016-2021-toyota-tacoma-32-led-light-bar-upper-grille-brackets-kit"],
+  ["Stage Series Backlit Ditch Light Kit for 2016–2023 Toyota Tacoma (Diode Dynamics)", "https://www.diodedynamics.com/stage-series-backlit-ditch-light-kit-for-2016-2023-toyota-tacoma.html"],
+  ["Diode Dynamics Stage Series Ditch Light Kit (RealTruck)", "https://realtruck.com/p/diode-dynamics-stage-series-ditch-light-kit/"],
+  ["Baja Designs Squadron-R 2.0 Sport Fog Pocket Kit (4Runner Lifestyle)", "https://www.4runnerlifestyle.com/products/baja-designs-squadron-r-2-0-sport-fog-pocket-light-kit-for-4runner-2010-2024"],
+  ["Toyota Tacoma — 3rd gen, 2017 TRD Pro with Rigid LED fogs, 4th gen TNGA-F (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Tacoma"],
+ ],
+}
+
+# Product list for this page. (asin, name, brand, band, cond, note)
+FITS = [
+ ("B088QSCD4Z","Cali Raised LED 32 Inch Lower Bumper Hidden LED Light Bar Kit for 2016-2023 Tacoma (Combo Beam bar and Wiring Harness, No Switch)","Cali Raised LED","$375–$400",{"mount":"lower-bumper"},"All trims incl. TRD Pro grille per maker; no switch on this listing."),
+ ("B088QSSYYF","Cali Raised LED 32 Inch Upper Grille LED Light Bar Brackets Kit for 2016-2023 Toyota Tacoma (Combo Beam bar and Wiring Harness, No Switch)","Cali Raised LED","$375–$400",{"mount":"grille"},"Works with Toyota grilles per maker; no switch on this listing."),
+ ("B08BH62NT4","Diode Dynamics Stage Series Backlit Ditch Light Kit, Toyota Tacoma 2016-2023, SS3 Pro Yellow Combo","Diode Dynamics","Check listing",{"mount":"hood-hinge"},"Bolt-on stainless brackets, no drilling."),
+ ("B0GVQ32GN8","Baja Designs Squadron Sport 2.0 Fog Pocket Kit, Tacoma 12-23 / Tundra 14-21 / 4Runner 10-24 (Wide Cornering, Amber)","Baja Designs","$420–$460",{"mount":"fog-pocket"},"Retailer page lists 4Runner only — confirm Tacoma fog pocket fit and factory fog wiring."),
+ ("B07T3GR9M8","Cali Raised LED 32 Inch Lower Bumper Hidden LED Light Bar Mounting Brackets for 2016-2023 Toyota Tacoma","Cali Raised LED","$60–$75",{"mount":"lower-bumper"},"Brackets only; bar is universal — confirm 32 in length and end-bracket style."),
+ ("B0H9YSR69N","BLIAUTO LED Ditch Lights Kit for Tacoma 2016-2023, 4mm Hood Hinge Brackets, Rocker Switch Harness, 3 in Combo Pods 60W","BLIAUTO","Check listing",{"mount":"hood-hinge"},"Specs from listing only; confirm harness has relay and fuse."),
+ ("B06W9NX9YW","Cali Raised LED 32 Inch Lower Bumper Flush Slim Light Bar Mounting Brackets, 2016-2023 Tacoma","Cali Raised LED","Check listing",{"mount":"lower-bumper"},"Brackets only for a slim bar — confirm bar fit."),
+ ("B08BGZ9Z1Y","Diode Dynamics Stage Series Backlit Ditch Light Kit, Tacoma 2016-2023, Bracket Only","Diode Dynamics","Check listing",{"mount":"hood-hinge"},"Brackets only; pods sold separately — confirm pod model."),
+ ("B091FYVC6Y","Rago Fabrication Low Profile Ditch Light Brackets, 2016-2023 Tacoma 3rd Gen, hood-hinge, made in USA","Rago Fabrication","Check listing",{"mount":"hood-hinge"},"Brackets only; pods universal — confirm pod size."),
+ ("B0C9MGHDDW","WeiSen Hidden Upper Grille Light Bar Mounting Brackets for 32 in Dual Row Bar, Tacoma 2016-2023","WeiSen","Check listing",{"mount":"grille"},"Budget brackets; bar universal — confirm 32 in dual-row fit."),
+]
