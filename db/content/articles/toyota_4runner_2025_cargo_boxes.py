@@ -1,0 +1,181 @@
+"""Long-form article — Best Rooftop Cargo Boxes for 2025–2026 Toyota 4Runner (6th gen, N410).
+Mirrors the approved RAV4/Telluride cargo-box pages. No invented hands-on testing: box specs come from Yakima,
+Thule, Rhino-Rack and SportRack pages plus etrailer, and vehicle facts from db/migrations/003_vehicles.sql,
+the 6th-gen 4Runner roof-rack article and the references in SOURCES (checked 2026-09-27). Boxes are
+universal; the 4Runner-specific part is the 165 lb dynamic figure owners cite, factory vs aftermarket
+crossbars, the Trailhunter's ARB platform, crossbar spread and hatch clearance.
+"""
+
+KEY = ("toyota", "4runner", "2025-present", "cargo-boxes")
+
+TITLE = "Best Rooftop Cargo Boxes for 2025–2026 Toyota 4Runner: 6 Picks for Factory Bars and Trailhunter"
+META = ("Six Yakima, Thule, Rhino-Rack and SportRack cargo boxes for the 6th-gen 4Runner: 165 lb roof math, factory "
+        "bars, Trailhunter platform and hatch gap.")
+
+FAQ = [
+ ("What is the roof load limit on a 2025–2026 4Runner?",
+  "Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static for the 2025 4Runner; confirm both in your own manual. For a cargo box, the dynamic figure is the one that matters, because it applies while driving and covers the crossbars or platform, the box and the gear. A 51.5 lb GrandTour 16 leaves about 113 lb before the bars. The Rack Shop's Thule crossbar kit for this truck is also rated at 165 lb, so both limits line up."),
+ ("Can I put a cargo box on the 2025 4Runner's factory crossbars?",
+  "Owners on 4Runner6G.com report fitting a Thule box and a Yakima basket to the factory crossbars on SR5 and TRD Off-Road Premium trucks. One owner said they had to move the crossbars one position closer before the box's clamps fit with room to spare. Check your box's minimum and maximum spread against where the factory bars can sit, and check that the clamps clear the roof."),
+ ("Do cargo boxes fit the Trailhunter's factory platform?",
+  "Our roof rack guide covers the Trailhunter's ARB-built platform, which Toyota also sells as PT989-89251 for other trims. Rail-clamp crossbars have nothing to grip on it, so the box has to clamp to the platform's own bars or slats. Check the box maker's maximum crossbar size (Thule lists 3-5/16 x 1-1/2 in for the Pulse) against the platform's profile, and ask the seller if the listing doesn't say."),
+ ("Do 2010–2024 4Runner crossbars fit the 2025–2026 4Runner?",
+  "No. The sixth-generation 4Runner has a new roof and rail geometry, and rack makers sell separate parts for each generation. Your cargo box carries over, because it clamps to bars rather than the truck, but crossbars and platforms from the 2010–2024 4Runner won't mount. Buy bars that name 2025 or 2026, such as the Thule raised-rail kit The Rack Shop lists for this truck."),
+ ("What size cargo box is best for the 6th-gen 4Runner?",
+  "A 15 to 18 cu ft box fits the roof and the weight budget well. At 165 lb dynamic, you can carry a 51 lb box and still have roughly 100 lb for gear once light bars are counted. The Thule Force 3 L gives 16 cu ft at 43 lb, and the Rhino-Rack MasterFit 440L gives 15.5 cu ft at 38.6 lb. The Thule Motion 3 XL holds 18 cu ft at 51 lb, but 18 cu ft of dense gear will exceed the figure."),
+ ("How do I check hatch clearance on a 2025 4Runner?",
+  "Measure from the center of the front crossbar to the seam where the roof meets the rear hatch, then compare with the box maker's figure. Thule lists more than 50 5/8 in for the Force 3 L and more than 52 3/32 in for the Motion 3 XL. If your measurement is shorter, slide the bars and box forward or choose a shorter box, then open the hatch slowly the first time to check the tail."),
+ ("Does the hybrid i-FORCE MAX 4Runner take the same cargo box?",
+  "Yes. Our fitment data lists the i-FORCE MAX hybrid on the TRD Pro and Trailhunter, and the box choice depends on the roof hardware, not the powertrain. What differs by trim is whether you have factory raised rails with crossbars or the Trailhunter's platform. Confirm the roof setup, then use the same spread, weight and hatch checks as any other 6th-gen truck."),
+ ("Will a roof box fit in my garage with a 2025 4Runner?",
+  "Measure first. The 4Runner is a tall SUV, and rails, platforms and the Trailhunter rack raise the box further. The boxes here add 15 in (Yakima CBX 16), 16.8 in (Thule Force 3 L), about 17 in (Motion 3 XL, MasterFit 440L), 18 in (GrandTour 16) or 19 in (SportRack Vista XL). Measure the truck with bars fitted, add the box height, and compare with your garage door opening."),
+ ("Are aftermarket crossbars better than factory bars for a cargo box?",
+  "Not always. Factory bars are fine if their spread and profile suit your box and you stay under the roof figure. Aftermarket kits add a published rating, a lock option and a T-track for T-bolt mounts. The Rack Shop lists a Thule raised-rail kit for 2025–2026 with 53 in bars and a 165 lb rating at $444.90 on sale. Our roof rack guide lists fit-checked bars and platforms."),
+ ("Should I use a roof box or a hitch cargo carrier on the new 4Runner?",
+  "Use the hitch for heavy items. Our fitment data lists a 6,000 lb tow rating for the 6th gen, and a hitch carrier can take coolers, water and fuel that would eat the 165 lb roof figure fast. A roof box suits light, bulky gear like sleeping bags, jackets and camp chairs, locks it away, and leaves the rear free. Many owners pair a light roof box with a hitch carrier for the heavy things."),
+]
+
+ARTICLE = {
+ "dek": "Six rooftop boxes from Yakima, Thule, Rhino-Rack and SportRack matched to the sixth-generation 4Runner, from a 38.6 lb dual-side box to an 18 cu ft Thule Motion 3 XL. For each one we list volume, length, box weight and crossbar spread, and what those numbers mean for the 165 lb dynamic roof figure owners cite, the factory crossbars, the Trailhunter's platform and the rear hatch.",
+ "author": "jake-morrison",
+ "reviewed": "2026-09-27",
+ "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, front clearance, warranty), on etrailer's spread and mounting figures, on 4Runner6G.com owner threads about factory crossbars and roof load, and on The Rack Shop's Thule kit for this truck. Rack and platform facts come from our 2025–2026 4Runner roof rack guide. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "takeaways": [
+  "**165 lb dynamic is the working figure.** Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static. Bars, box and gear all count while driving.",
+  "**Factory bars can carry a box.** Owners report a Thule box on SR5 and TRD Off-Road Premium factory bars, sometimes after moving the bars one position closer.",
+  "**Trailhunter owners clamp to the platform.** The ARB-built rack has no rails to clamp; check the box's maximum bar size against the platform's bars.",
+  "**Measure front bar to hatch seam.** Thule lists more than 50 5/8 in for the Force 3 L and more than 52 3/32 in for the Motion 3 XL.",
+  "**Boxes carry over from the 2010–2024 4Runner; bars don't.** The 6th gen has a new roof, so buy crossbars listed for 2025–2026.",
+ ],
+ "top_picks": [
+  {"asin": "B083KP48XC", "role": "Best overall", "why": "Yakima GrandTour 16: 16 cu ft in 79 in, dual-side, 24–36 in spread"},
+  {"asin": "B0DYQ4T5ZZ", "role": "Best Thule", "why": "Force 3 L: 16 cu ft in 76.8 in at 43 lb, 165 lb rating"},
+  {"asin": "B0C41RZ4HM", "role": "Most rugged", "why": "Yakima CBX 16: 15 in tall, internal tie-downs, 24–35.5 in spread"},
+  {"asin": "B07B4P7WYX", "role": "Lightest 16-class", "why": "Rhino-Rack MasterFit 440L: 15.5 cu ft at 38.6 lb, dual-side"},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "why": "SportRack Vista XL: 18 cu ft in 63 in for $449.95"},
+ ],
+ "fit_table": {
+  "caption": "2025–2026 4Runner roof setups (what the box mounts to)",
+  "head": ["Roof as delivered", "Typical trucks", "Box mounting", "Weight notes"],
+  "rows": [
+   ["Raised rails with factory crossbars", "SR5, TRD Off-Road Premium and other railed trims (per owner reports)", "Clamp to the factory bars; move the bars if the spread is off", "165 lb dynamic (owner-cited) covers bars, box and gear"],
+   ["Raised rails, aftermarket bars", "Any railed trim", "Thule raised-rail kit (53 in bars, 165 lb) or similar listed for 2025–2026", "Bar and roof figures both 165 lb"],
+   ["Factory ARB platform", "Trailhunter (or PT989-89251 on other trims)", "Clamp to the platform bars if the box's clamp size allows", "Platform weight counts against 165 lb"],
+   ["Aftermarket platform", "Rough Country 88205, Sherpa, Front Runner", "Clamp to slats or crossbars", "Sherpa quotes about 50 lb for the Capitol"],
+  ],
+ },
+ "look_for": [
+  {"h": "The 165 lb dynamic figure",
+   "body": "Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static for the 2025 4Runner. For a cargo box the dynamic number is the one that counts, because it applies while you're driving and covers the bars or platform, the box and everything in it. The boxes here weigh 38.6 lb (MasterFit 440L) to 57 lb (CBX 16), which leaves roughly 108 to 126 lb before the bars. On factory crossbars that means around 100 lb of gear; on a platform like the Sherpa Capitol, which Sherpa quotes at about 50 lb, the figure drops to roughly 60 to 75 lb. Confirm the numbers in your manual."},
+  {"h": "Factory crossbars and where they sit",
+   "body": "Many 6th-gen trucks come with raised rails and crossbars. In a 4Runner6G.com thread about fitting a cargo box, SR5 and TRD Off-Road Premium owners report mounting a Thule box and a Yakima basket to the factory bars, and one owner had to move the bars one position closer before the clamps fit with room to spare. That is the key check: the bars can only sit where the rails allow, so compare those positions with the box's range, such as 24 to 36 in for the GrandTour 16 or 24 to 35.5 in for the CBX 16. Clamps also need clearance under the bar."},
+  {"h": "Trailhunter and platform roofs",
+   "body": "The Trailhunter wears an ARB-built platform, and Toyota sells the same rack as PT989-89251 for other trims. Owners installing it report removing the factory rails first, so rail-clamp crossbars have nothing to grip. On a platform, the box clamps to the platform's bars or slats, and the question becomes clamp size: Thule lists a maximum bar of 3-5/16 x 1-1/2 in for its Pulse clamps, for example. Check the box maker's figure against your platform's profile. The platform's weight also comes off the 165 lb dynamic figure before the box does."},
+  {"h": "Hatch clearance and box length",
+   "body": "The rear hatch opens up and back toward the rear of the roof, and a long box mounted too far back can meet it. Thule publishes front-clearance figures for its boxes: more than 50 5/8 in for the 76.8 in Force 3 L and more than 52 3/32 in for the 84.7 in Motion 3 XL. Measure from the center of your front crossbar to the seam where the roof meets the hatch and compare. The boxes here run from 63 in (SportRack Vista XL) and 76 in (MasterFit 440L) to 79 in (GrandTour 16), 83 in (CBX 16) and 84.7 in (Motion 3 XL)."},
+  {"h": "Height, noise and the garage",
+   "body": "The 4Runner is already tall, and a platform lifts the box higher than factory bars do. The CBX 16 is 15 in tall, the Force 3 L 16.8 in, the Motion 3 XL and MasterFit about 17 in, the GrandTour 18 in and the Vista XL 19 in. Measure the truck with its bars fitted and add the box height before the first trip home. For noise, a tapered, centered box mounted level is quieter than a blunt one, and taking the box off between trips also removes its drag."},
+ ],
+ "look_table": {
+  "head": ["Feature", "Look for", "Avoid"],
+  "rows": [
+   ["Box weight", "Under 52 lb to keep about 100 lb for gear under 165 lb", "Heavy boxes on a heavy platform"],
+   ["Crossbar spread", "A range that covers where your factory bars can sit", "Boxes whose minimum spread your bars can't reach"],
+   ["Clamp size", "A published maximum bar size that fits your bars or platform", "Assuming box clamps fit platform slats"],
+   ["Length", "Under about 80 in for the most hatch margin", "Long boxes without measuring front bar to hatch seam"],
+   ["Opening", "Dual-side for curb loading on a tall truck", "Rear-only lids if you're short on reach"],
+   ["Generation", "Crossbars listed for 2025–2026", "2010–2024 4Runner bars and platforms"],
+  ],
+ },
+ "types_table": {
+  "caption": "Box sizing for the 6th-gen 4Runner (makers' published specs; SportRack positions per etrailer)",
+  "head": ["Box", "Volume", "L × W × H", "Box weight", "Crossbar spread", "Hatch guidance"],
+  "rows": [
+   ["Yakima GrandTour 16", "16 cu ft", "79 × 35 × 18 in", "51.5 lb", "24–36 in", "Mount forward; measure"],
+   ["Thule Force 3 L", "16 cu ft", "76.8 × 33.3 × 16.8 in", "43 lb", "Not published; confirm", "Thule: more than 50 5/8 in front clearance"],
+   ["Yakima CBX 16", "16 cu ft", "83 × 38 × 15 in", "57 lb", "24–35.5 in", "Longer; measure"],
+   ["Thule Motion 3 XL", "18 cu ft", "84.7 × 35 × 17 in", "51 lb", "Confirm (etrailer lists 21-13/16 to 36-9/16 in for the Motion 3 XXL)", "Thule: more than 52 3/32 in front clearance"],
+   ["Rhino-Rack MasterFit 440L", "15.5 cu ft", "76 × 32 × 17 in", "38.6 lb", "620–930 mm (about 24.4–36.6 in)", "Short; measure"],
+   ["SportRack Vista XL", "18 cu ft", "63 × 38 × 19 in", "Not published", "Fixed at 25-7/8, 27-7/8 or 29-7/8 in", "Shortest; rear-opening lid"],
+  ],
+ },
+ "picks": [
+  {"asin": "B083KP48XC", "role": "Best overall", "price": "$709",
+   "pros": ["16 cu ft in 79 in, short for a 16", "24–36 in spread covers a wide range of factory bar positions", "18 in deep for bulky camp gear", "Dual-side opening and SKS locks", "Limited lifetime warranty"],
+   "cons": ["51.5 lb", "18 in tall, so check the garage", "No published load rating on Yakima's page"],
+   "body": "The GrandTour 16 is the all-round box for a 6th-gen 4Runner on factory bars. Yakima lists it at 79 x 35 x 18 in with 16 cu ft, a 51.5 lb box weight and a 24 to 36 in crossbar spread, the widest range of any Yakima 16 here. That range matters on this truck, because factory crossbars can sit only where the rails allow, and owners on 4Runner6G.com report having to move bars a position to fit a box. The 18 in depth swallows camp chairs and bulky duffels, it opens from both sides, takes skis and boards up to 185 cm, and comes with SKS locks and a limited lifetime warranty at $709.\n\nThe weight math is comfortable but not generous. Against the 165 lb dynamic figure owners cite, a 51.5 lb box leaves about 113 lb before the bars, so plan on roughly 100 lb of gear on factory crossbars. At 79 in it is shorter than the CBX 16 and the Motion 3 XL, which helps keep the tail clear of the hatch, but measure front bar to hatch seam before you tighten the clamps. The 18 in height is the one number to check if you park in a garage.",
+   "who": "6th-gen owners on factory or aftermarket bars who want a big, easy-loading 16 cu ft box.",
+   "specs": [["Volume", "16 cu ft"], ["Exterior", "79 × 35 × 18 in"], ["Box weight", "51.5 lb"], ["Crossbar spread", "24–36 in"], ["Opening", "Dual-side"], ["Ski length", "Up to 185 cm"], ["Lock", "SKS locks included"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0DYQ4T5ZZ", "role": "Best Thule", "price": "$879.95",
+   "pros": ["16 cu ft in 76.8 in", "43 lb, 8.5 lb lighter than the GrandTour", "Thule rates it for 165 lb of cargo", "Published front-clearance figure (more than 50 5/8 in)", "Dual-side opening, PowerClick mounts, SlideLock"],
+   "cons": ["$879.95 at Thule", "Skis only up to 175 cm", "Thule's page doesn't list a crossbar spread or warranty; confirm"],
+   "body": "The Thule Force 3 L is the box to choose if you want Thule's hardware and the most weight left for gear among the full 16s here. Thule lists it at 76.8 x 33.3 x 16.8 in with 16 cu ft, a 43 lb box weight and a 165 lb maximum load. It opens from both sides, clamps on with PowerClick mounts and locks with SlideLock. Thule also publishes a front-clearance figure of more than 50 5/8 in to avoid hatch contact, which gives 4Runner owners a number to measure against instead of guessing. It takes 5 to 7 pairs of skis up to 175 cm and costs $879.95 at Thule.\n\nOn the 6th-gen, 43 lb leaves about 122 lb of the 165 lb dynamic figure before bars, the most of any 16 cu ft box here except the MasterFit. The box's own 165 lb rating matches the roof and the Thule raised-rail kit, but the roof figure still covers bars and box, so the real gear allowance is lower. The trade-offs are price, about $170 more than the GrandTour, and shorter skis. Thule's page doesn't list a crossbar spread or warranty terms, so confirm both before you order.",
+   "who": "Owners who want a premium dual-side 16 with a published hatch-clearance figure and a light shell.",
+   "specs": [["Volume", "16 cu ft"], ["Exterior", "76.8 × 33.3 × 16.8 in"], ["Box weight", "43 lb"], ["Max load", "165 lb"], ["Front clearance", "More than 50 5/8 in"], ["Ski length", "Up to 175 cm"], ["Mount / lock", "PowerClick / SlideLock"], ["Crossbar spread / warranty", "Not published; confirm"]]},
+  {"asin": "B0C41RZ4HM", "role": "Most rugged", "price": "$699",
+   "pros": ["15 in tall, the lowest 16 cu ft box here", "Internal tie-down points and a flattened floor", "24–35.5 in spread", "Dual-side opening, SKS locks, about 10-minute install", "Limited lifetime warranty"],
+   "cons": ["57 lb, the heaviest box here", "83 in long; measure the hatch gap", "38 in wide, filling the bars"],
+   "body": "The Yakima CBX 16 is the box that suits the 4Runner's trail image: a rugged-looking shell, internal tie-down points and a flattened floor for boxy gear. Yakima lists it at 83 x 38 x 15 in with 16 cu ft, a 57 lb weight and a 24 to 35.5 in crossbar spread. It opens from both sides, comes with SKS locks and a removable torque-limiting knob, takes skis and boards up to 185 cm, and Yakima quotes about a 10-minute install. It costs $699 at Yakima with a limited lifetime warranty.\n\nThe 15 in height is a real advantage on a tall truck, 3 in lower than the GrandTour. Weight is the trade-off: at 57 lb it leaves about 108 lb of the 165 lb dynamic figure before bars, and on a heavy platform that drops fast, so this box suits factory or aftermarket crossbars better than a steel platform. It is also 83 in long, so mount it well forward and measure from the front bar to the hatch seam. At 38 in wide it takes most of the bar length, leaving little room for a bike mount beside it.",
+   "who": "Owners who want a low, rugged 16 cu ft box with tie-downs and will carry it on crossbars.",
+   "specs": [["Volume", "16 cu ft"], ["Exterior", "83 × 38 × 15 in"], ["Box weight", "57 lb"], ["Crossbar spread", "24–35.5 in"], ["Opening", "Dual-side"], ["Ski length", "Up to 185 cm"], ["Install", "About 10 min"], ["Warranty", "Limited lifetime"]]},
+  {"asin": "B0HGC24R2P", "role": "Biggest box", "price": "$1,149.95 at Thule",
+   "pros": ["18 cu ft, the most volume in a dual-side box here", "Skis up to 200 cm", "51 lb, lighter than the CBX 16", "Thule rates it for 165 lb", "One-hand dual-side opening"],
+   "cons": ["$1,149.95, the priciest box here", "84.7 in long, the longest here", "Crossbar spread for the XL not confirmed; the Amazon listing is a Limited Edition finish"],
+   "body": "The Thule Motion 3 XL is the pick for long skis and big family trips. Thule lists it at 18 cu ft (500 L) with exterior dimensions of 84.7 x 35 x 17 in, a 51 lb box weight, a 165 lb maximum load and room for 5 to 7 pairs of skis up to 200 cm. It opens from both sides with one hand, and Thule publishes a front-clearance figure of more than 52 3/32 in to avoid hatch contact. Thule lists it at $1,149.95. This Amazon listing is a Limited Edition finish, so confirm the color and price against Thule's box.\n\nOn the 6th-gen 4Runner, 51 lb leaves about 114 lb of the 165 lb dynamic figure before bars, which is fine for skis and jackets but not for 18 cu ft of dense gear. The length is the bigger check: at 84.7 in it is the longest box here, so measure front bar to hatch seam against Thule's 52 3/32 in figure. etrailer lists a 21-13/16 to 36-9/16 in spread for the larger Motion 3 XXL; confirm the XL's range with Thule before mounting it on factory bars.",
+   "who": "Skiers and big families who want the most volume and are willing to pack it light.",
+   "specs": [["Volume", "18 cu ft (500 L)"], ["Exterior", "84.7 × 35 × 17 in"], ["Box weight", "51 lb"], ["Max load", "165 lb"], ["Ski length", "Up to 200 cm"], ["Front clearance", "More than 52 3/32 in"], ["Opening", "Dual-side, one-hand"], ["Crossbar spread", "Confirm with Thule"]]},
+  {"asin": "B07B4P7WYX", "role": "Lightest 16-class", "price": "Rhino-Rack doesn't list a price; check the listing",
+   "pros": ["15.5 cu ft at 38.6 lb, the lightest box here", "Dual-side opening with three locking points", "75 kg (165 lb) rating", "620–930 mm spacing covers most bar positions", "Fits Rhino-Rack Heavy Duty bars with the RUBK-MF kit"],
+   "cons": ["5-year warranty, shorter than lifetime terms", "No price on Rhino-Rack's page", "17 in tall"],
+   "body": "The Rhino-Rack MasterFit 440L is the light box for owners who run a platform or plan to add one. Rhino-Rack lists it at 440 L (15.5 cu ft), 76 x 32 x 17 in, with a 38.6 lb box weight and a 75 kg (165 lb) maximum load. It opens from both sides with a key lock and three locking points, needs a crossbar spacing of 620 to 930 mm (about 24.4 to 36.6 in), and Rhino-Rack lists it for Vortex, Euro, Thule square and aero bars, and its Heavy Duty bars with the RUBK-MF kit. It carries a 5-year warranty.\n\nOn the 6th-gen, 38.6 lb leaves about 126 lb of the 165 lb dynamic figure before bars, more than any other box here. That margin matters most on a platform, where the rack's own weight comes off first: on a roughly 50 lb Sherpa Capitol, the MasterFit still leaves around 75 lb for gear. At 76 in it is among the shorter boxes here, which helps at the hatch. Rhino-Rack's page doesn't list a price, so compare on the listing.",
+   "who": "Owners with a platform or heavy bars who need the lightest box with dual-side opening.",
+   "specs": [["Volume", "440 L / 15.5 cu ft"], ["Exterior", "76 × 32 × 17 in"], ["Box weight", "38.6 lb"], ["Max load", "75 kg (165 lb)"], ["Crossbar spacing", "620–930 mm (about 24.4–36.6 in)"], ["Opening", "Dual-side, 3 locking points"], ["Warranty", "5 years"]]},
+  {"asin": "B00BCLL8C0", "role": "Best budget", "price": "$449.95",
+   "pros": ["18 cu ft for $449.95", "63 in long, the most hatch margin here", "Tool-free hardware and a lock", "Fits square, round and most factory bars, per SportRack", "Rear opening keeps you out of traffic"],
+   "cons": ["Box weight and load rating not published; confirm", "Fixed mounting positions", "19 in tall and 38 in wide"],
+   "body": "The SportRack Vista XL gives the most space for the least money. SportRack lists it at 63 x 38 x 19 in with 18 cu ft, UV-resistant ABS, tool-free mounting hardware and a lock, for $449.95, and says it fits square and round bars and most factory racks. At 63 in it is the shortest box here, so hatch clearance is rarely a worry. etrailer lists three fixed mounting positions, 25-7/8, 27-7/8 and 29-7/8 in center to center, so your factory bars need to sit at one of them.\n\nThe unknowns are weight and rating. SportRack's page doesn't publish a box weight or a load rating, and 18 cu ft can hold much more than the roughly 100 lb of gear the 165 lb figure allows, so confirm the weight on the listing and pack light, bulky items. The lid opens at the rear, which means reaching up over the back of a tall truck, so keep a step handy. At 19 in it adds the most height here.",
+   "who": "Budget buyers who want a short, lockable box for light, bulky gear.",
+   "specs": [["Volume", "18 cu ft"], ["Exterior", "63 × 38 × 19 in"], ["Opening", "Rear"], ["Mounting positions", "25-7/8, 27-7/8 or 29-7/8 in (etrailer)"], ["Hardware", "Tool-free; lock included"], ["Material", "UV-resistant ABS"], ["Box weight / max load", "Not published; confirm"], ["Price", "$449.95 (SportRack)"]]},
+ ],
+ "install": [
+  "Check your roof: factory bars on raised rails, bare rails, or the Trailhunter/ARB platform. Add crossbars listed for 2025–2026 if you need them.",
+  "Add up bars or platform plus box and subtract from your manual's dynamic figure (owners cite 165 lb) to get your gear allowance.",
+  "Set the bars inside the box's spread range. Factory bars may need to move a position, as owners on 4Runner6G.com report.",
+  "With a helper, set the box on the bars, center it and slide it forward, keeping it clear of the windshield and moonroof.",
+  "Fit the clamps loosely, measure front bar to hatch seam against the maker's figure, open the hatch slowly, then tighten to spec.",
+  "Lock the box, rock it from each corner, and re-check the clamps after the first drive and after rough roads.",
+ ],
+ "avoid": [
+  {"h": "Buying 2010–2024 4Runner bars", "body": "The 6th gen has a new roof and rail geometry. Buy crossbars and platforms listed for 2025–2026."},
+  {"h": "Using the static figure for a box", "body": "Owners cite 770 lb static, but that applies only when parked. On the road the 165 lb dynamic figure covers bars, box and gear."},
+  {"h": "Assuming box clamps fit a platform", "body": "Check the box's maximum bar size against the Trailhunter or aftermarket platform's bars before you order."},
+  {"h": "Filling an 18 cu ft box with dense gear", "body": "The Motion 3 XL and Vista XL hold far more than the roughly 100 lb of gear the figure allows. Put coolers and water on the hitch or inside."},
+ ],
+ "verdict": {
+  "thesis": "The Yakima GrandTour 16 is the best all-round box for the 6th-gen 4Runner, the Thule Force 3 L the premium pick, the Rhino-Rack MasterFit 440L the choice on a platform, and the SportRack Vista XL the budget box.",
+  "body": "On the 2025–2026 4Runner, the 165 lb dynamic figure owners cite gives more room than the older truck's roof, but bars, box and gear still share it. The GrandTour 16 balances volume, a wide 24 to 36 in spread and a fair price. The Force 3 L is lighter and publishes a hatch-clearance figure, the CBX 16 is the low, rugged option on crossbars, the Motion 3 XL takes 200 cm skis, the MasterFit is the lightest dual-side box for platform trucks, and the Vista XL is the budget pick once you confirm its weight.\n\nIf you still need bars or a platform, our 4Runner roof rack guide lists parts made for this generation. A trailer hitch with a cargo carrier is the place for heavy gear. Owners of the 2010–2024 4Runner have a lower roof figure and should use the separate guide.",
+ },
+ "sources": [
+  ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],
+  ["Yakima CBX 16 (Yakima)", "https://yakima.com/products/cbx-16"],
+  ["Thule Force 3 L (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-force-3-l-_-645750"],
+  ["Thule Motion 3 XL (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-motion-3-xl-_-639850"],
+  ["Thule Motion 3 XXL spread (etrailer)", "https://www.etrailer.com/Roof-Box/Thule/TH59PN.html"],
+  ["Rhino-Rack MasterFit Roof Box 440L RMFT440 (Rhino-Rack)", "https://www.rhinorack.com/en-us/products/roof-racks/roof-boxes/roof-boxes/masterfit-roof-box-440l-black-_rmft440"],
+  ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
+  ["SportRack Vista XL mounting positions (etrailer)", "https://www.etrailer.com/question-156482.html"],
+  ["Factory crossbars and a rooftop cargo box, 2025 4Runner (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/help-with-factory-crossbars-measurement-will-my-rooftop-cargo-box-fit.5075/"],
+  ["Roof load figures cited by owners (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/installing-trailhunter-roof-rack-on-another-trim-same-weight-load-capacity.2248/"],
+  ["Thule crossbar kit for 2025–2026 4Runner raised rails (The Rack Shop)", "https://therackshop.com/2025-2026-toyota-4runner-w-raised-rails-thule-53-crossbar-complete-roof-rack/"],
+ ],
+}
+
+# Product list for this page (boxes only; crossbars live on the 4Runner roof-racks page). (asin, name, brand, band, cond, note)
+FITS = [
+ ("B083KP48XC","Yakima GrandTour 16 Premium Rooftop Cargo Box, 16 cu ft, dual-side opening (79 in long)","Yakima","$700–$900",{},"Universal box; confirm your factory bars sit 24-36 in apart."),
+ ("B0DYQ4T5ZZ","Thule Force 3 L Rooftop Cargo Box, 16 cu ft (76.8 in long)","Thule","$800–$950",{},"Universal box; confirm spread with Thule and 50 5/8 in hatch clearance."),
+ ("B0C41RZ4HM","Yakima CBX 16 Aerodynamic Rooftop Cargo Box for Cars, Wagons and SUVs","Yakima","$650–$800",{},"Universal box, 57 lb; confirm hatch gap (83 in long)."),
+ ("B0HGC24R2P","Thule Motion 3 XL Rooftop Cargo Box, 18 cu ft, Limited Edition","Thule","$1,100–$1,250",{},"Universal box; confirm spread, finish and 52 3/32 in hatch clearance."),
+ ("B07B4P7WYX","Rhino-Rack MasterFit Roof Box 440L (Black), 15.5 cu ft","Rhino-Rack","$600–$900",{},"Universal box; confirm 620-930 mm spacing on your bars or platform."),
+ ("B00BCLL8C0","SportRack Vista XL Rear Opening Cargo Box, 18 cu ft, Black","SportRack","$400–$500",{},"Fixed mounting positions; confirm box weight and load rating on the listing."),
+]
