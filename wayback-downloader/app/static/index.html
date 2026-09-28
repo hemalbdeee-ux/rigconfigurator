@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{SITE_NAME}} – download a website from the Wayback Machine</title>
+<meta name="description" content="Restore a complete website from the Internet Archive's Wayback Machine: every page, image, stylesheet and script, with links fixed to work offline or on new hosting.">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1b1f24; --muted: #5b6573; --line: #dfe3e8;
+    --accent: #2458d6; --accent-ink: #fff; --ok: #1d7a46; --bad: #b3261e; --track: #e7ebf0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --card: #1a1e24; --text: #e8ebef; --muted: #9aa4b1; --line: #2b313a;
+            --accent: #6c95ff; --accent-ink: #0b1020; --ok: #5cc48a; --bad: #ff8a80; --track: #262c35; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); line-height: 1.15; margin: 0 0 8px; }
+  .lede { color: var(--muted); margin: 0 0 28px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; }
+  input, select { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--line);
+                  border-radius: 10px; padding: 11px 13px; min-width: 0; }
+  #url { flex: 1 1 280px; }
+  button { font: inherit; font-weight: 600; border: 0; border-radius: 10px; padding: 11px 20px;
+           background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  button:disabled { opacity: .55; cursor: default; }
+  details { margin-top: 14px; color: var(--muted); }
+  summary { cursor: pointer; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 12px; }
+  label { display: flex; flex-direction: column; gap: 4px; font-size: .9rem; }
+  label.check { flex-direction: row; align-items: center; gap: 8px; }
+  .hint { font-size: .85rem; color: var(--muted); margin: 8px 0 0; }
+  #job { margin-top: 20px; display: none; }
+  .bar { height: 10px; background: var(--track); border-radius: 99px; overflow: hidden; margin: 14px 0 10px; }
+  .bar > div { height: 100%; width: 0; background: var(--accent); transition: width .4s; }
+  .bar.indeterminate > div { width: 30%; animation: slide 1.2s infinite ease-in-out; }
+  @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(340%); } }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center; }
+  .stats b { display: block; font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+  .stats span { font-size: .8rem; color: var(--muted); }
+  #stage { font-weight: 600; }
+  #stage.done { color: var(--ok); } #stage.error { color: var(--bad); }
+  pre { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px;
+        font-size: .78rem; max-height: 180px; overflow: auto; white-space: pre-wrap; word-break: break-all; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .actions a { text-decoration: none; }
+  section.how { margin-top: 40px; }
+  section.how h2 { font-size: 1.15rem; }
+  section.how ol { padding-left: 20px; color: var(--muted); }
+  footer { margin-top: 40px; font-size: .85rem; color: var(--muted); }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } button { width: 100%; } .actions a { flex: 1 1 100%; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Restore any website from the Wayback Machine</h1>
+  <p class="lede">Enter a domain or an archive.org link. You get the whole site back as a ZIP: pages, images, CSS, JavaScript and fonts, with every link fixed so it runs offline or on new hosting.</p>
+
+  <form class="card" id="form">
+    <div class="row">
+      <input id="url" required placeholder="example.com  or  https://web.archive.org/web/2019…/example.com" autocomplete="off">
+      <button id="go" type="submit">Restore site</button>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <select id="snapshot" style="flex:1 1 280px">
+        <option value="">Latest version of every page</option>
+      </select>
+      <button type="button" class="secondary" id="load-snaps">Choose a date</button>
+    </div>
+    <p class="hint" id="snap-hint">Pick a date to restore the site as it looked then. Each file uses the capture closest to that date.</p>
+    <details>
+      <summary>Advanced options</summary>
+      <div class="grid">
+        <label>Only captures from<input id="from" placeholder="e.g. 2015"></label>
+        <label>Only captures up to<input id="to" placeholder="e.g. 20201231"></label>
+        <label class="check"><input type="checkbox" id="subs"> Include subdomains</label>
+        <label class="check"><input type="checkbox" id="media"> Skip video &amp; audio</label>
+      </div>
+    </details>
+  </form>
+
+  <div class="card" id="job">
+    <div><span id="stage">Queued</span> · <span id="target"></span></div>
+    <div class="bar" id="bar"><div></div></div>
+    <div class="stats">
+      <div><b id="found">0</b><span>files found</span></div>
+      <div><b id="downloaded">0</b><span>downloaded</span></div>
+      <div><b id="failed">0</b><span>not archived</span></div>
+      <div><b id="mb">0</b><span>MB</span></div>
+    </div>
+    <pre id="log"></pre>
+    <div class="actions">
+      <a id="zip" href="#" hidden><button type="button">Download ZIP</button></a>
+      <a id="preview" href="#" target="_blank" rel="noopener" hidden><button type="button" class="secondary">Preview restored site</button></a>
+      <button type="button" class="secondary" id="cancel">Cancel</button>
+    </div>
+  </div>
+
+  <section class="how">
+    <h2>How it works</h2>
+    <ol>
+      <li>It lists every file the Internet Archive captured for the domain.</li>
+      <li>It picks one capture per file: the newest, or the closest to the date you chose.</li>
+      <li>It downloads the original files without the archive's toolbar, then finds images, fonts and pages the index missed by following links.</li>
+      <li>It rewrites links to relative paths and packs everything into a ZIP you can open locally or upload to any host.</li>
+    </ol>
+    <p class="hint">Large sites take a while because archive.org limits how fast files can be downloaded. You can leave this page open, or come back later on the same browser.</p>
+  </section>
+  <footer>{{SITE_NAME}} is not affiliated with the Internet Archive. Only restore sites you own or have permission to use.</footer>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const STAGES = { queued: "Queued", indexing: "Listing archived files", downloading: "Downloading",
+  missing: "Finding missing files", rewriting: "Fixing links", zipping: "Packing ZIP", done: "Done", error: "Failed" };
+let jobId = null, timer = null;
+
+function store(key, value) { try { value ? localStorage.setItem(key, value) : localStorage.removeItem(key); } catch (e) {} }
+function recall(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
+
+function fmtTs(ts) {
+  const y = ts.slice(0, 4), m = ts.slice(4, 6), d = ts.slice(6, 8);
+  return new Date(`${y}-${m}-${d}T00:00:00Z`).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+}
+
+$("load-snaps").onclick = async () => {
+  const url = $("url").value.trim();
+  if (!url) { $("url").focus(); return; }
+  $("snap-hint").textContent = "Looking up captures…";
+  try {
+    const r = await fetch("/api/snapshots?url=" + encodeURIComponent(url));
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || "Lookup failed");
+    const sel = $("snapshot");
+    sel.length = 1;
+    data.snapshots.slice().reverse().forEach((ts) => sel.add(new Option(fmtTs(ts), ts)));
+    $("snap-hint").textContent = data.snapshots.length
+      ? `${data.snapshots.length} months with a capture of ${data.host}. Pick one.`
+      : `No home page captures found for ${data.host}.`;
+  } catch (e) { $("snap-hint").textContent = e.message; }
+};
+
+$("form").onsubmit = async (ev) => {
+  ev.preventDefault();
+  $("go").disabled = true;
+  try {
+    const r = await fetch("/api/jobs", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url: $("url").value, timestamp: $("snapshot").value || null,
+        from_ts: $("from").value || null, to_ts: $("to").value || null,
+        include_subdomains: $("subs").checked, skip_media: $("media").checked }) });
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || "Could not start");
+    watch(data.id);
+  } catch (e) { alert(e.message); }
+  $("go").disabled = false;
+};
+
+$("cancel").onclick = () => jobId && fetch(`/api/jobs/${jobId}/cancel`, { method: "POST" });
+
+function watch(id) {
+  jobId = id; store("lastJob", id);
+  $("job").style.display = "block";
+  clearTimeout(timer);
+  poll();
+}
+
+async function poll() {
+  let s;
+  try {
+    const r = await fetch(`/api/jobs/${jobId}`);
+    if (r.status === 404) { store("lastJob", null); $("job").style.display = "none"; return; }
+    s = await r.json();
+  } catch (e) { timer = setTimeout(poll, 4000); return; }
+  const label = STAGES[s.stage] || s.stage;
+  $("stage").textContent = s.stage === "queued" && s.queue_position ? `${label} (${s.queue_position} ahead)` : label;
+  $("stage").className = s.stage;
+  $("target").textContent = s.target + (s.timestamp ? ` as of ${fmtTs(s.timestamp.padEnd(8, "01"))}` : "");
+  $("found").textContent = s.found.toLocaleString();
+  $("downloaded").textContent = (s.downloaded + s.skipped).toLocaleString();
+  $("failed").textContent = s.failed.toLocaleString();
+  $("mb").textContent = (s.bytes / 1e6).toFixed(1);
+  const bar = $("bar");
+  const active = ["downloading", "missing"].includes(s.stage) && s.found;
+  bar.classList.toggle("indeterminate", !active && !["done", "error"].includes(s.stage));
+  bar.firstElementChild.style.width = s.stage === "done" ? "100%"
+    : active ? `${Math.min(99, 100 * (s.downloaded + s.failed + s.skipped) / s.found)}%` : "";
+  $("log").textContent = s.log.join("\n");
+  $("log").scrollTop = 1e9;
+  const finished = ["done", "error"].includes(s.stage);
+  $("zip").hidden = !s.zip_ready; $("zip").href = `/api/jobs/${jobId}/download`;
+  $("preview").hidden = s.stage !== "done"; $("preview").href = `/preview/${jobId}/index.html`;
+  $("cancel").hidden = finished;
+  if (!finished) timer = setTimeout(poll, 1500);
+}
+
+const last = recall("lastJob");
+if (last) watch(last);
+</script>
+</body>
+</html>
