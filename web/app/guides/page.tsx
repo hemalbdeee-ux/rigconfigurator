@@ -37,6 +37,9 @@ export default async function Guides() {
         </section>
       ))}
 
+      <h2>Not sure which type you need?</h2>
+      <p>Start with the <Link href="/learn">explainers</Link>: hard vs soft tonneau covers, hitch classes and per-vehicle upgrade plans.</p>
+
       <h2>How the guides are made</h2>
       <p>Each product is linked to a vehicle generation using the maker&apos;s fit guide and part-number listing, checked against the retailer listing. Where a listing is unclear, the guide says to confirm fit rather than guess. Picks are based on fitment, published specs and owner reports, and each guide lists its sources. Read more on the <Link href="/about">about page</Link> and in our <Link href="/disclosure">affiliate disclosure</Link>.</p>
     </article>

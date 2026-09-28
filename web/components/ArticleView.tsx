@@ -74,9 +74,10 @@ function Buy({ f, path, placement, label = "Check price on Amazon" }: { f?: Fit;
   return <a className="btn" href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=${placement}`} rel="nofollow sponsored noopener" target="_blank">{label} ›</a>;
 }
 
-export function ArticleView({ v, c, fits, a, title, faq, related, path, verifiedAt, hero, links }: {
+export function ArticleView({ v, c, fits, a, title, faq, related, path, verifiedAt, hero, links, learn = [], upgrades = null }: {
   v: Vehicle; c: Category; fits: Fit[]; a: Article; title: string; faq: { q: string; a: string }[];
   related: GuideLink[]; path: string; verifiedAt?: string | null; hero: HeroT | null; links: Record<string, string>;
+  learn?: { path: string; title: string }[]; upgrades?: string | null;
 }) {
   const L = new Linker(links);
   const next = related.find(r => r.vehicle === vehicleTitle(v));
@@ -145,6 +146,9 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         {a.look_table && <T t={a.look_table} />}
       </section>
 
+      {learn.length > 0 && (<aside className="learn-box"><strong>Learn first:</strong>{" "}
+        {learn.map((x, i) => <span key={x.path}>{i > 0 && " · "}<Link href={x.path}>{x.title.split(":")[0]}</Link></span>)}</aside>)}
+
       {a.types_table && (<section id="types"><h2>{typesH}</h2><T t={{ ...a.types_table, caption: typesCap.note }} /></section>)}
 
       {a.picks.map((p, i) => {
@@ -189,6 +193,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <strong>See everything that fits your {model}</strong>
         <p className="muted">Bed, roof, hitch and interior, filtered to the {vehicleTitle(v)}.</p>
         <Link className="btn" href={vehiclePath(v)}>Open the {model} fit hub →</Link>
+        {upgrades && <> <Link className="btn btn-ghost" href={upgrades}>See the {model} upgrade plan →</Link></>}
       </section>
 
       {faq.length > 0 && (<section id="faq"><h2>Frequently asked questions</h2>

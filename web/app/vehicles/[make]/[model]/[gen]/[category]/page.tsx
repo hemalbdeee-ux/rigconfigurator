@@ -9,6 +9,7 @@ import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
 import { SITE_URL, money } from "@/lib/db";
 import { articleSeoTitle } from "@/lib/seo";
+import { explainersFor, upgradesPathFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
 type P = { make: string; model: string; gen: string; category: string };
@@ -22,8 +23,8 @@ async function load(p: P) {
   const v = await getVehicle(p.make, p.model, p.gen);
   const c = await getCategory(p.category);
   if (!v || !c) return null;
-  const [fits, page, related, hero, links] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id), relatedGuides(v.id, c.id), heroFor(v.id), linkMap(v, c.slug)]);
-  return { v, c, fits, page, related, hero, links };
+  const [fits, page, related, hero, links, learn, upgrades] = await Promise.all([fitsFor(v.id, c.slug), getFitmentPage(v.id, c.id), relatedGuides(v.id, c.id), heroFor(v.id), linkMap(v, c.slug), explainersFor([c.slug]), upgradesPathFor(v)]);
+  return { v, c, fits, page, related, hero, links, learn, upgrades };
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
@@ -56,7 +57,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   const p = await params;
   const d = await load(p);
   if (!d) notFound();
-  const { v, c, fits, page, related, hero, links } = d;
+  const { v, c, fits, page, related, hero, links, learn, upgrades } = d;
   const article: Article | null = page?.article ?? null;
   const path = `${vehiclePath(v)}/${c.slug}`;
   const title = page?.title ?? `Best ${c.name} for ${vehicleTitle(v)}`;
@@ -84,7 +85,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   if (article) return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <ArticleView v={v} c={c} fits={fits} a={article} title={title} faq={faq} related={related} path={path} verifiedAt={page?.verified_at} hero={hero} links={links} />
+      <ArticleView v={v} c={c} fits={fits} a={article} title={title} faq={faq} related={related} path={path} verifiedAt={page?.verified_at} hero={hero} links={links} learn={learn} upgrades={upgrades} />
     </>
   );
 

@@ -147,3 +147,20 @@ CREATE TABLE vehicle_images (
   UNIQUE (vehicle_id, source_url)
 );
 CREATE UNIQUE INDEX vehicle_images_one_approved ON vehicle_images(vehicle_id) WHERE status = 'approved';
+
+-- pillar pages (upgrades hubs + explainers); see db/migrations/010_pillar_pages.sql
+CREATE TABLE pillar_pages (
+  id             SERIAL PRIMARY KEY,
+  kind           TEXT NOT NULL CHECK (kind IN ('upgrades', 'explainer')),
+  slug           TEXT NOT NULL UNIQUE,            -- explainer: url slug; upgrades: '<make>/<model>/<gen>'
+  vehicle_id     INT REFERENCES vehicles(id) ON DELETE CASCADE,
+  category_slugs TEXT[] NOT NULL DEFAULT '{}',    -- categories this page links to / is about
+  title          TEXT NOT NULL,
+  meta_desc      TEXT,
+  faq            JSONB NOT NULL DEFAULT '[]',
+  article        JSONB NOT NULL,
+  status         TEXT NOT NULL DEFAULT 'published',
+  published_at   DATE NOT NULL DEFAULT CURRENT_DATE, -- set on first insert, never updated
+  updated_at     TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX pillar_pages_vehicle ON pillar_pages (vehicle_id);

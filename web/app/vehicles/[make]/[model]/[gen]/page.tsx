@@ -6,6 +6,7 @@ import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
 import { SITE_URL, money } from "@/lib/db";
 import { hubSeoTitle } from "@/lib/seo";
+import { upgradesPathFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
 type P = { make: string; model: string; gen: string };
@@ -52,7 +53,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
   const { make, model, gen } = await params;
   const v = await getVehicle(make, model, gen);
   if (!v) notFound();
-  const [cats, fits, pages, sibs, hero] = await Promise.all([categoriesFor(v.body_style), fitsFor(v.id), pagesFor(v.id), siblingsOf(v), heroFor(v.id)]);
+  const [cats, fits, pages, sibs, hero, upgrades] = await Promise.all([categoriesFor(v.body_style), fitsFor(v.id), pagesFor(v.id), siblingsOf(v), heroFor(v.id), upgradesPathFor(v)]);
   const path = vehiclePath(v);
   const published = new Map(pages.filter(p => p.status === "published").map(p => [p.category_slug, p]));
   const byCat = (slug: string) => fits.filter(f => f.category_slug === slug);
@@ -99,6 +100,11 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
           <strong>Jump to:</strong> {ready.map((c, i) => <span key={c.slug}>{i > 0 && " · "}<a href={`#${c.slug}`}>{c.name}</a></span>)}
         </nav>
       )}
+
+      {upgrades && (<Link href={upgrades} className="next-step" style={{ display: "block" }}>
+        <div className="lbl">Start here</div>
+        <strong style={{ color: "var(--fg)" }}>{vehicleTitle(v)} upgrades, ranked by priority</strong> <span>→</span>
+      </Link>)}
 
       <h2>Fit facts</h2>
       <table><tbody>

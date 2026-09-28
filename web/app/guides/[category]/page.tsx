@@ -6,6 +6,7 @@ import { SITE_URL } from "@/lib/db";
 import { GUIDE_COPY } from "@/lib/guideCopy";
 import { staticOg } from "@/components/Hero";
 import { getCategory, publishedGuides } from "@/lib/queries";
+import { explainersFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
 type P = { category: string };
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
 
 export default async function CategoryIndex({ params }: { params: Promise<P> }) {
   const { category } = await params;
-  const [c, rows] = await Promise.all([getCategory(category), publishedGuides(category)]);
+  const [c, rows, learn] = await Promise.all([getCategory(category), publishedGuides(category), explainersFor([category])]);
   if (!c || rows.length === 0) notFound();
   const copy = GUIDE_COPY[c.slug];
   const byMake = new Map<string, typeof rows>();
@@ -60,6 +61,9 @@ export default async function CategoryIndex({ params }: { params: Promise<P> }) 
       <nav className="toc-box"><strong>{rows.length} {rows.length === 1 ? "guide" : "guides"}, one per vehicle generation</strong>
         <ul className="cat-list">{[...byMake].map(([make, list]) => list.map(r => <li key={r.path}><Link href={r.path}>{r.vehicle}</Link></li>))}</ul>
       </nav>
+
+      {learn.length > 0 && (<aside className="learn-box"><strong>Explainers:</strong>{" "}
+        {learn.map((x, i) => <span key={x.path}>{i > 0 && " · "}<Link href={x.path}>{x.title.split(":")[0]}</Link></span>)}</aside>)}
 
       {copy && (<section>
         <h2>What decides whether {c.name.toLowerCase()} fit</h2>
