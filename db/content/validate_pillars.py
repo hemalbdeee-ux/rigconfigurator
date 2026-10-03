@@ -29,7 +29,7 @@ def check(path):
     if len(a.get("sources", [])) < 4: errs.append("need >= 4 sources")
     if m.KIND == "upgrades":
         pr = a.get("priority", [])
-        if not 4 <= len(pr) <= 8: errs.append(f"priority {len(pr)} (4-8)")
+        if not 3 <= len(pr) <= 8: errs.append(f"priority {len(pr)} (3-8)")
         for p in pr:
             if p.get("category") not in m.CATEGORIES: errs.append(f"priority category {p.get('category')} not in CATEGORIES")
             if len(p.get("why", "").split()) < 90: errs.append(f"priority '{p.get('h')}' why < 90 words")

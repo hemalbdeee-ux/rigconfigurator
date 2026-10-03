@@ -114,9 +114,9 @@ VALUES
  'Bare roof from the factory — crossbars use door-jamb clamps. 2017–2022 fitments do not carry over.'),
 
 ((SELECT id FROM makes WHERE slug='toyota'),'highlander','Highlander','2020-present','4th Gen (XU70)',2020,NULL,'suv',
- '{}','raised-rails',NULL,'3',2,5000,'235/65R18','5x114.3',3,
- '{"rails":"raised rails standard on most trims","third_row":true,"hybrid":"Hybrid shares fit","grand_highlander":"different vehicle (2024+) — do not mix"}',
- 'Three-row family SUV with raised rails; Class III hitch and 5,000 lb tow. Grand Highlander is a different vehicle.'),
+ '{}','flush-rails',NULL,'3',2,5000,'235/65R18','5x114.3',3,
+ '{"rails":"flush side rails with fixed points on railed trims (per etrailer); some base trims may be bare — confirm","third_row":true,"hybrid":"Hybrid shares fit","grand_highlander":"different vehicle (2024+) — do not mix"}',
+ 'Three-row family SUV with flush side rails on most trims; Class III hitch and 5,000 lb tow. Grand Highlander is a different vehicle.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'outback','Outback','2020-present','6th Gen (BT)',2020,2025,'suv',
  '{}','raised-rails',176,'2',2,3500,'225/60R18','5x114.3',2,
@@ -149,9 +149,9 @@ VALUES
  'WL generation; two-row (L is three-row with a longer roof). Class IV hitch, up to 6,200 lb V6.'),
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'tahoe','Tahoe','2021-present','5th Gen (T1)',2021,NULL,'suv',
- '{}','raised-rails',NULL,'4',2,8400,'275/60R20','6x139.7',3,
- '{"rails":"raised rails standard","third_row":true,"suburban":"same fit for roof/hitch; different cargo mats","variants":["Z71","RST","High Country"]}',
- 'Full-size three-row; raised rails, Class IV hitch, 8,400 lb tow. Suburban shares roof and hitch fit.'),
+ '{}','flush-rails',NULL,'4',2,8400,'275/60R20','6x139.7',3,
+ '{"rails":"flush side rails (per etrailer and The Rack Shop); Z71 uses its own fit kit","third_row":true,"suburban":"same fit for roof/hitch; different cargo mats","variants":["Z71","RST","High Country"]}',
+ 'Full-size three-row; flush side rails, Class IV hitch, 8,400 lb tow. Suburban shares roof and hitch fit.'),
 
 ((SELECT id FROM makes WHERE slug='kia'),'telluride','Telluride','2020-present','1st Gen',2020,2025,'suv',
  '{}','flush-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,
