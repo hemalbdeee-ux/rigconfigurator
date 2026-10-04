@@ -19,6 +19,8 @@ titles stop at 2025 and Husky fit on a 2023; fit and track-kit choice of the uni
 the 2023+ bed; load ratings and 2023+ fit of the YZONA and Hooke Road racks; the price and rating of the RetraxPRO
 XR T-80455; StowFlex availability after 2023 and whether any cover seal touches its lid release. The ColoradoFans
 sport bar thread is cited by the guides and was not reopened for this page, so it is attributed to them.
+Source fixes 2026-10-04: the bed rack guide now says "some ZR2 and Z71 trucks" throughout, both bed guides' verdicts
+tell readers to check for the factory hitch, and the vehicle data summary says Crew Cab only.
 """
 
 KIND = "upgrades"
@@ -188,8 +190,7 @@ ARTICLE = {
            "front edge seals, where a headache rack mounts and where most overland racks put their front "
            "uprights.\n\n"
            "We could not confirm which trims carry it. Our tonneau guide cites Rough Country's exclusion for "
-           "Trail Boss models and a ColoradoFans thread about Trail Boss, ZR2 and Z71 trucks. Our bed rack guide "
-           "says some ZR2 and Z71 trucks in one place and many ZR2s in another. Chevrolet's 2023 brochure, as we "
+           "Trail Boss models and a ColoradoFans thread about Trail Boss, ZR2 and Z71 trucks. Our bed rack guide says Trail Boss trucks and some ZR2 and Z71 trucks. Chevrolet's 2023 brochure, as we "
            "read it, mentions a bed-mounted sport bar with a ZR2 sail panel, and lists a Sport Bar Package "
            "compatible with a soft roll-up tonneau cover from Chevrolet Accessories. So go by what is bolted to "
            "your bed, not by the badge.",

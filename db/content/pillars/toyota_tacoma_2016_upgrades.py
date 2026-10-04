@@ -27,6 +27,9 @@ trucks; an Access Cab rear liner; 2024 or 2025 fit on cross-generation listings 
 Hooke Road); load ratings for both Hooke Road racks and the Thule Xsporter Pro; Baja fog pocket kit fit on the Tacoma;
 the RetraxPRO XR's price; rack fit around Trail Edition bed boxes. The floor mat guide's Wikipedia URL
 (Toyota_Tacoma_(third_generation)) could not be fetched and is not cited.
+Source fixes 2026-10-04: vehicle data hitch class changed to Class IV (Toyota's label), the tonneau guide now treats
+the deck rails as standard, and the floor liner guide names the 5-speed manual, so the page no longer reports those
+three as disagreements.
 """
 
 KIND = "upgrades"
@@ -45,9 +48,7 @@ FAQ = [
   "brackets from about $65. The bed rack is last, but decide on it before you pay for the cover. A budget start, "
   "YHTAUTO liners and Tyger's T3 cover, comes to about $291–$331."),
  ("Do I need to buy a trailer hitch for a 2016–2023 Tacoma?",
-  "Often not. Look under the rear bumper first. Our vehicle data lists a Class III hitch with a 2 in receiver and a "
-  "6,800 lb maximum. Toyota's releases call the factory part a Class IV towing receiver hitch and put it in the Tow "
-  "Package with a 4- and 7-pin connector. The 2018 release calls that package optional on the V6. The 2021 and 2023 "
+  "Often not. Look under the rear bumper first. Our vehicle data lists a Class IV hitch with a 2 in receiver and a 6,800 lb maximum. Toyota's releases put that Class IV towing receiver hitch in the Tow Package with a 4- and 7-pin connector. The 2018 release calls that package optional on the V6. The 2021 and 2023 "
   "releases say it is standard with the V6 and available for the four-cylinder. We did not read every model year. If "
   "a receiver is there, an aftermarket trailer hitch adds nothing, and no hitch raises Toyota's rating."),
  ("Do 2016–2023 Tacoma parts fit the 2024–2026 Tacoma, or the other way around?",
@@ -186,10 +187,7 @@ ARTICLE = {
   {"h": "Towing: look for the factory receiver before you shop for a hitch",
    "body": "There is no trailer hitch guide for the 2016–2023 Tacoma on this site, so here is what the truck may "
            "already have.\n\n"
-           "**The receiver.** Our vehicle data lists a **Class III hitch with a 2 in receiver**. Toyota's press "
-           "releases name the factory part a **Class IV towing receiver hitch**, supplied in the Tow Package with a "
-           "4- and 7-pin connector. We print both labels because we could not reconcile "
-           "them. Toyota's 2018 release calls the V6 Tow Package optional. Its 2021 and 2023 releases say the "
+           "**The receiver.** Our vehicle data lists a **Class IV hitch with a 2 in receiver**. That is Toyota's own label: its press releases name the factory part a **Class IV towing receiver hitch**, supplied in the Tow Package with a 4- and 7-pin connector. Toyota's 2018 release calls the V6 Tow Package optional. Its 2021 and 2023 releases say the "
            "package is standard with the V6 and available for the four-cylinder. We did not read the releases for "
            "2017, 2019, 2020 or 2022, so look under the rear bumper instead of going by year or trim. If a receiver "
            "is there, an aftermarket trailer hitch adds nothing.\n\n"
@@ -205,9 +203,7 @@ ARTICLE = {
            "utility system and four standard adjustable tie-down cleats. The rails are both a mount and an obstacle: "
            "racks made for this truck clamp into the tracks, while cover clamps have to work around the rails and "
            "their cleats.\n\n"
-           "Our own pages disagree on how common the rails are. Our vehicle data and bed rack guide treat them as "
-           "fitted to the whole generation, which matches Toyota's wording. Our tonneau guide says many trucks have "
-           "them, and Tyger sells its T3 for beds with or without the factory track. On a used truck, look. A "
+           "Toyota's wording makes the rails part of every bed in this generation, and our guides treat them that way. Tyger still sells its T3 for beds with or without the factory track, so on a used truck, look. A "
            "previous cover install may also have cost the truck its cleats.\n\n"
            "The second check is the Trail Edition. Toyota's 2021 release describes the Trail Special Edition, built "
            "on the SR5, with lockable, insulated bed storage, and its 2023 release lists lockable bed storage on the "
@@ -231,8 +227,7 @@ ARTICLE = {
            "Cab. The Access Cab comes with the 73.7 in bed only. The Double Cab has the 60.5 in bed as standard and "
            "the 73.7 in bed as an option. Our vehicle data rounds those to 61 and 74 in, retailers print 5' 1\" and "
            "6' 2\", and Tyger's titles print 60 and 74 in. They are the same two beds.\n\n"
-           "There are two manual gearboxes to know about. Our floor liner guide mentions the six-speed manual. "
-           "Wikipedia lists that 6-speed with the V6 and also a 5-speed manual with the four-cylinder for 2016–2017. "
+           "There are two manual gearboxes to know about. Wikipedia lists a 6-speed manual with the V6 and a 5-speed manual with the four-cylinder for 2016–2017. "
            "Either one means a manual-specific front liner.",
    "table": {"caption": "2016–2023 Tacoma configurations that change the upgrade plan",
              "head": ["Truck", "What it has", "What changes"],

@@ -30,7 +30,7 @@ FAQ = [
  ("Is a retractable cover worth it on a Maverick?",
   "For most owners, no. The RetraxPRO MX 80337 is rated for 500 lb, locks at any position and carries a lifetime warranty, but at about $2,150 it costs roughly twice as much as the MX4. The canister also takes part of an already short 54.4 in bed. It makes sense if you use the Maverick as a work truck and open the bed many times a day."),
  ("Does a tonneau cover affect towing or the hitch on a Maverick?",
-  "No. The cover sits on the bed rails and seals against the closed tailgate, and it doesn't touch the receiver. What does change with towing is the hitch itself. Only trucks with the 4K Tow Package get a 2 in receiver, and others have a smaller Class I. If you tow a camper, keep the tailgate closed so the rear of the cover stays locked, and check that a trailer tongue-jack handle can't swing into the tailgate."),
+  "No. The cover sits on the bed rails and seals against the closed tailgate, and it doesn't touch the receiver. What does change with towing is the hitch itself. Trucks with the 4K Tow Package get a factory 2 in receiver. We could not confirm a factory receiver on other trucks, so look under the bumper. If you tow a camper, keep the tailgate closed so the rear of the cover stays locked, and check that a trailer tongue-jack handle can't swing into the tailgate."),
 ]
 
 ARTICLE = {

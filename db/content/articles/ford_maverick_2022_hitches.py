@@ -27,7 +27,7 @@ FAQ = [
  ("Will a hitch interfere with the Maverick's spare tire?",
   "etrailer's product notes for the CURT C84BR (13504) say it is compatible with full-size spare configurations, which matters because the 4K Tow Package adds a 17 in conventional spare according to Jalopnik. For the other hitches here, the makers don't publish a spare-tire note, so confirm on the listing if you have swapped to a larger spare. The spare hangs under the bed, ahead of where the hitch cross tube sits."),
  ("Can I use a hitch bike rack or cargo carrier on a 2,000 lb Maverick?",
-  "Yes, and that is what most non-4K owners use a hitch for. What matters is tongue weight, not trailer weight. Ford lists a 400 lb maximum tongue load for the Maverick, and every hitch here is rated at 600 lb or more, so the rack plus bikes or cargo must stay under Ford's 400 lb figure and under the rack's own rating. A 2 in receiver also takes more racks than a 1.25 in one."),
+  "Yes, and that is what most non-4K owners use a hitch for. What matters is tongue weight, not trailer weight. Ford's towing guide prints a 400 lb maximum tongue load beside the 4K package's 4,000 lb receiver, and we found no separate figure for 2,000 lb trucks, so treat 400 lb as the ceiling and check your owner's manual. Every hitch here is rated at 600 lb or more, so the rack plus bikes or cargo must stay under Ford's figure and under the rack's own rating. A 2 in receiver also takes more racks than a 1.25 in one."),
  ("Is a Class 3 hitch overkill on a small truck like the Maverick?",
   "No. Class 3 simply means a 2 in receiver and a rating the maker has tested to. Every brand-name bolt-on hitch for the Maverick is Class 3, and the 2 in receiver is what Ford itself fits with the 4K package. The extra rating over your truck's limit is margin, not permission to tow more. You still tow to 2,000 lb or 4,000 lb depending on how your truck was built."),
 ]
@@ -140,7 +140,7 @@ ARTICLE = {
   {"h": "Treating the hitch rating as the tow rating", "body": "A 4,500 lb hitch on a non-4K Maverick is still a 2,000 lb tow setup. Ford's rating, not the hitch sticker, sets the limit."},
   {"h": "Buying a hitch for a truck that already has one", "body": "4K Tow Package trucks have a factory Class III 2 in receiver. Look under the bumper before you order."},
   {"h": "The wrong harness on a hybrid", "body": "CURT's 56477 excludes 2022–2024 hybrids and needs the LED accent on 2025+. Match year, powertrain and taillight."},
-  {"h": "Loading a hitch rack past 400 lb", "body": "Ford lists a 400 lb maximum tongue load for the Maverick. A loaded bike rack or cargo tray counts against it."},
+  {"h": "Loading a hitch rack past 400 lb", "body": "Ford's towing guide prints a 400 lb maximum tongue load for the 4K package's receiver, and we found no separate figure for trucks without it. A loaded bike rack or cargo tray counts against it."},
  ],
  "verdict": {
   "thesis": "Check for the 4K package first; if it isn't there, fit the CURT 13504 and a CURT 56477 harness, and tow to 2,000 lb.",

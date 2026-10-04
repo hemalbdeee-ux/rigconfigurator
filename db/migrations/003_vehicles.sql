@@ -13,14 +13,14 @@ INSERT INTO vehicles (make_id, model_slug, model_name, gen_slug, gen_name, year_
 VALUES
 -- ===================== TRUCKS =====================
 ((SELECT id FROM makes WHERE slug='ford'),'f-150','F-150','2021-present','14th Gen (P702)',2021,NULL,'truck',
- '{66,78,96}','bare',NULL,'4',2,14000,'275/65R18','6x135',2,
+ '{67,79,98}','bare',NULL,'4',2,14000,'275/65R18','6x135',2,
  '{"bed_utility_track":"optional (XLT+)","tailgate_step":"optional","variants":["Lightning 2022+","Raptor","Tremor"],"bed_material":"aluminum","verify":["tow max is 3.5L EcoBoost Max Tow"]}',
  'Three bed lengths (5.5 / 6.5 / 8 ft). Check for the optional bed utility track before buying rail-clamp covers; Lightning shares the 5.5 ft bed.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'f-150','F-150','2015-2020','13th Gen (P552)',2015,2020,'truck',
- '{66,78,96}','bare',NULL,'4',2,13200,'275/65R18','6x135',2,
+ '{67,79,98}','bare',NULL,'4',2,13200,'275/65R18','6x135',2,
  '{"bed_utility_track":"optional","bed_material":"aluminum","variants":["Raptor 2017+"]}',
- 'Aluminum-bed generation with 5.5 / 6.5 / 8 ft beds. Most 2015–2020 tonneau and bed-rack fitments carry over to 2021+ 5.5 and 6.5 ft beds but always match the year range on the listing.'),
+ 'Aluminum-bed generation with 5.5 / 6.5 / 8 ft beds (67.1 / 78.9 / 97.6 in at the rail). Some liners, soft covers and racks are listed for both 2015–2020 and 2021+ trucks, but BAK, Retrax and Gator hard covers use separate 2021+ part numbers, so match the year range and part number on the listing.'),
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'silverado-1500','Silverado 1500','2019-present','4th Gen (T1)',2019,NULL,'truck',
  '{70,79,98}','bare',NULL,'4',2,13300,'275/60R20','6x139.7',2,
@@ -38,7 +38,7 @@ VALUES
  'Two beds: 5''7" and 6''4". RamBox trucks need RamBox-specific covers and racks. Do not confuse with the Ram 1500 Classic (DS) sold alongside — different bed rails.'),
 
 ((SELECT id FROM makes WHERE slug='toyota'),'tacoma','Tacoma','2016-2023','3rd Gen (N300)',2016,2023,'truck',
- '{61,74}','bare',NULL,'3',2,6800,'265/70R16','6x139.7',2,
+ '{61,74}','bare',NULL,'4',2,6800,'265/70R16','6x139.7',2,
  '{"bed_rail_system":"factory deck rails with cleats","bed_material":"composite (SMC)","bed_names":{"61":"5ft short","74":"6ft long"},"variants":["TRD Pro","Trail Edition"]}',
  'Composite bed with factory deck-rail system — most bed racks clamp to those rails. 5 ft and 6 ft beds; the 6 ft is Access Cab / some Double Cab.'),
 
@@ -69,13 +69,13 @@ VALUES
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'colorado','Colorado','2023-present','3rd Gen',2023,NULL,'truck',
  '{62}','bare',NULL,'4',2,7700,'265/70R17','6x120',2,
- '{"bed_names":{"62":"5ft 2in"},"tailgate":"optional storage tailgate","variants":["Trail Boss","ZR2","ZR2 Bison"],"fit_note":"confirm 2023+ fit on multi-generation cover listings"}',
- 'One 5''2" bed on all 2023+ cabs. Many sellers list 2015–2026 on one cover SKU; buy 2023+-specific listings or confirm with the seller.'),
+ '{"bed_names":{"62":"5ft 2in"},"tailgate":"StowFlex storage tailgate (standard on 2023 ZR2, optional on other trims)","variants":["Trail Boss","ZR2","ZR2 Bison"],"fit_note":"confirm 2023+ fit on multi-generation cover listings"}',
+ 'Crew Cab only, with one 5''2" bed (61.7 in) on every 2023+ truck. Many sellers list 2015–2026 on one cover SKU; buy 2023+-specific listings or confirm with the seller.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'maverick','Maverick','2022-present','1st Gen',2022,NULL,'truck',
  '{54}','bare',NULL,'3',2,4000,'225/65R17','5x108',2,
- '{"bed_names":{"54":"4.5 ft FLEXBED"},"hitch":"2 in receiver with 4K Tow Package; else 1.25 in Class I","flexbed_slots":true,"hybrid":"standard 2.5L hybrid"}',
- 'Compact 4.5 ft FLEXBED with slots for DIY dividers. Receiver is 2 in only with the 4K Tow Package — otherwise Class I.'),
+ '{"bed_names":{"54":"4.5 ft FLEXBED"},"hitch":"factory 2 in Class III receiver with the 4K Tow Package; no factory receiver confirmed without it","flexbed_slots":true,"hybrid":"standard 2.5L hybrid"}',
+ 'Compact 4.5 ft FLEXBED with slots for DIY dividers. The factory 2 in receiver comes with the 4K Tow Package; on other trucks, look under the bumper before buying a hitch. Rated 2,000 lb, or 4,000 lb on AWD trucks with the package.'),
 
 ((SELECT id FROM makes WHERE slug='nissan'),'frontier','Frontier','2022-present','3rd Gen (D41)',2022,NULL,'truck',
  '{60,73}','bare',NULL,'3',2,6720,'265/70R17','6x114.3',2,
@@ -101,7 +101,7 @@ VALUES
 ((SELECT id FROM makes WHERE slug='ford'),'bronco','Bronco','2021-present','6th Gen (U725)',2021,NULL,'suv',
  '{}','removable',NULL,'2',2,3500,'285/70R17','6x139.7',2,
  '{"doors":["2-door","4-door"],"roof":"removable hardtop / soft top; hardtop has factory rail mounting points on some trims","spare":"tailgate-mounted","variants":["Raptor","Badlands","Sasquatch pkg (35 in tires)"]}',
- 'Removable hardtop/soft top; roof racks mount to hardtop rails or exo-racks. Tailgate spare affects bike racks.'),
+ 'Removable hardtop or soft top; roof racks bolt to the hardtop''s factory attachment points or rain gutters, and a soft top needs a bridging rack. Most models tow up to 3,500 lb and the Raptor 4,500 lb. Tailgate spare affects bike racks.'),
 
 ((SELECT id FROM makes WHERE slug='toyota'),'rav4','RAV4','2019-present','5th Gen (XA50)',2019,2025,'suv',
  '{}','raised-rails',165,'2',1.25,3500,'225/65R17','5x114.3',2,

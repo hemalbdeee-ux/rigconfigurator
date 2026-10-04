@@ -55,7 +55,7 @@ ARTICLE = {
   "head": ["Variable", "Versions", "What it means"],
   "rows": [
    ["Cab", "Access Cab, Double Cab", "All picks are Double Cab; Access Cab rears differ"],
-   ["Transmission", "Automatic or 6-speed manual", "3W, YHTAUTO, Husky 93941 and TRD Pro are automatic; manual needs a manual-specific front"],
+   ["Transmission", "Automatic or manual (6-speed; 5-speed on 2016–2017 four-cylinders)", "3W, YHTAUTO, Husky 93941 and TRD Pro are automatic; manual needs a manual-specific front"],
    ["Front floor (automatic)", "2016–2017 vs 2018–2023", "Husky sells separate front liners for each range"],
    ["Bed", "5 ft or 6 ft", "Doesn't affect cab liners; matters for bed mats"],
    ["2024+", "New generation", "Not compatible"],
@@ -63,7 +63,7 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Transmission and pedals",
-   "body": "The 3rd-gen Tacoma was sold with a six-speed automatic or a six-speed manual, and the manual stayed available on many trims into 2023. The manual's floor around the clutch pedal and shifter base is different enough that liner makers cut separate front pieces. 3W, YHTAUTO, Husky's 93941 and Toyota's TRD Pro liners are all listed for automatics. Husky sells a 2018–2024 manual front pair (13981) for trucks with the shifter. Putting an automatic liner in a manual risks the clutch pedal catching the liner edge, which is exactly the failure a custom liner exists to prevent."},
+   "body": "The 3rd-gen Tacoma was sold with a six-speed automatic or a manual: a six-speed with the V6 and, per Wikipedia, a five-speed with the four-cylinder for 2016–2017. The six-speed manual stayed available on many trims into 2023. The manual's floor around the clutch pedal and shifter base is different enough that liner makers cut separate front pieces. 3W, YHTAUTO, Husky's 93941 and Toyota's TRD Pro liners are all listed for automatics. Husky sells a 2018–2024 manual front pair (13981) for trucks with the shifter. Putting an automatic liner in a manual risks the clutch pedal catching the liner edge, which is exactly the failure a custom liner exists to prevent."},
   {"h": "Model year inside the generation",
    "body": "Husky's catalog splits the automatic front liner between 2016–2017 and 2018–2023 trucks, which suggests the front floor or retention points changed. The rear floor didn't. Several budget listings cover 2016–2023 with one part. That can be fine, but look at listing photos of the driver side hooks and the edge by the console, and ask the seller if you have a 2016 or 2017. The TRD Pro liners and 3W's set list the whole 2016–2023 span; Husky's full 93941 set lists 2018–2023."},
   {"h": "Liner or heavy rubber mat",
@@ -149,6 +149,7 @@ ARTICLE = {
   "thesis": "Buy Husky's WeatherBeater 93941 for a 2018–2023 automatic Double Cab, Toyota's TRD Pro liners for the factory look, and TOUGHPRO rubber for grip in the cold.",
   "body": "The 3rd-gen Tacoma has more liner variants than its size suggests: automatic or manual, 2016–2017 or 2018+, Access or Double Cab. Once you match those, Husky's WeatherBeater is the best-documented set with a lifetime crack warranty, Toyota's liners are the dealer choice, TOUGHPRO covers the budget rubber route, and TuxMat is the premium coverage pick.\n\nWith the cab protected, many owners look outside next: a tonneau cover for the bed and a bed rack for overlanding gear. If you've moved to a 2024–2026 Tacoma, nothing here carries over; see our page for the new generation."},
  "sources": [
+  ["Toyota Tacoma: third-generation transmissions by model year (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Tacoma"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky Liners WeatherBeater 93941 listing", "https://www.amazon.com/dp/B0F66H89GG"],
   ["Husky Liners 13981 manual front listing", "https://www.amazon.com/dp/B079FN9488"],

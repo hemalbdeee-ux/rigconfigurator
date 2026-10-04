@@ -24,6 +24,9 @@ Disagreements stated on the page: vehicle data beds (66/78/96 in) vs the guides'
 the vehicle data note that "most" tonneau and bed rack fitments carry over to 2021+ vs the tonneau guide's finding
 that 2021+ hard covers usually do not fit; Rough Country's 2015–2026 range for the 10406 vs the Amazon title's
 2015–2023; Tyger's 2015–2020 range on the 5.5 ft T3 vs 2015–2026 on the 6.5 ft T3.
+Source fixes 2026-10-04: 003_vehicles.sql now stores the beds as 67/79/98 in (rounded rail lengths, not the nominal
+66/78/96) and its carry-over note now says hard covers split at 2021, so the page no longer reports those two as
+disagreements.
 """
 
 KIND = "upgrades"
@@ -193,9 +196,7 @@ ARTICLE = {
            "doesn't tell you the bed. Wikipedia and our tonneau guide agree that the SuperCrew came with the 5.5 or "
            "6.5 ft box, the SuperCab and Regular Cab with the 6.5 or 8 ft box, and every 2017–2020 Raptor with the "
            "5.5 ft box, the SuperCab Raptor included.\n\n"
-           "Our own records don't match on the inches. The vehicle data stores the beds as 66, 78 and 96 in, which "
-           "is the name of each box in feet turned into inches. Both bed guides give 67.1, 78.9 and 97.6 in at the "
-           "rail, and retailers print 5'7\", 6'7\" and 8'2\". Use the rail figures. Measure inside the bed at the "
+           "The 5.5, 6.5 and 8 ft names are nominal. Both bed guides give 67.1, 78.9 and 97.6 in at the rail, our vehicle data rounds those to 67, 79 and 98 in, and retailers print 5'7\", 6'7\" and 8'2\". Measure inside the bed at the "
            "rail, from the bulkhead to the inside of the closed tailgate.",
    "table": {"caption": "2015–2020 F-150 cab and bed combinations",
              "head": ["Cab / bed", "Covers and racks", "Floor liners", "Notes"],
@@ -213,10 +214,7 @@ ARTICLE = {
            "pickup box structure and the font design. That fits what the listings show: floor liners cut for the cab "
            "and racks that bolt into the stake pockets often span both generations.\n\n"
            "Not everything interchanges. BAK, Retrax and Gator sell their hard covers under separate "
-           "part numbers on each side of 2021. We could not confirm why. Our own "
-           "records disagree here too. The vehicle data note says most 2015–2020 tonneau and bed rack fitments carry "
-           "over to 2021+ beds, while our tonneau guide says a 2021+ hard cover usually does not fit this truck. Go "
-           "by the part number. Owners of the newer truck should use the 2021–2026 F-150 page.",
+           "part numbers on each side of 2021. We could not confirm why. Our tonneau guide's finding is that a 2021+ hard cover usually does not fit this truck, so go by the part number. Owners of the newer truck should use the 2021–2026 F-150 page.",
    "table": {"caption": "Year ranges the makers and listings give for the parts in our 2015–2020 F-150 guides",
              "head": ["Part", "Listed years", "Moves to a 2021+ truck?"],
              "rows": [

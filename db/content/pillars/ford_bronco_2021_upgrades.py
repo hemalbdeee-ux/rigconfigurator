@@ -23,6 +23,8 @@ Baja's steel-bumper fog pocket kit suits a Raptor's bumper; 2-door fit of the br
 give no door count; Rough Country's rack weight; how the soft top folds under DV8's RRBR-01; and 2026 fit of
 listings whose titles stop at 2024 or 2025. No Bronco guide exists for running boards, cargo boxes or bike racks;
 none are ranked.
+Source fixes 2026-10-04: the vehicle data summary now gives the Raptor's 4,500 lb and describes roof rack mounting as
+the roof guide does; the roof guide's Bronco Sport trim-name tip was removed.
 """
 
 KIND = "upgrades"
@@ -212,8 +214,7 @@ ARTICLE = {
            "Ford's accessory page for its own kit, MB3Z19D520K, gives a 2 in receiver and no class or rating. An "
            "etrailer expert answer puts the factory hitch at 3,500 lb with 350 lb of tongue weight; we could not "
            "confirm that from Ford. Read the label on the hitch itself.\n\n"
-           "**The rating.** Our vehicle data lists a single maximum of **3,500 lb** and no separate Raptor figure. "
-           "Ford's page and Wikipedia put the Raptor at **4,500 lb**. Our hitch guide also found 3,460 lb on some 2.7L "
+           "**The rating.** Our vehicle data lists a maximum of **3,500 lb** for most models. Ford's page and Wikipedia put the Raptor at **4,500 lb**. Our hitch guide also found 3,460 lb on some 2.7L "
            "builds and 3,080 lb for a 2024 Everglades. The maximum varies by engine, trim, package and model year, "
            "and the lower of vehicle and hitch applies. Tongue weight differs most: 675 lb on the Draw-Tite, 350 lb "
            "on the CURT and Rough Country.\n\n"

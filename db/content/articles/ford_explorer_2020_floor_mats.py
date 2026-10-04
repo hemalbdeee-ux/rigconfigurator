@@ -151,7 +151,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy Husky's 99321 for the best-documented front and second-row liners, Husky's 6-piece for every zone, and 3W or LASFIT for three rows of TPE on a 6-passenger Explorer.",
-  "body": "The 6th-gen Explorer is fit by its second row. Once you know captain's chairs or bench, and console or walkway, the choice is easy. Husky has the strongest warranty and covers every zone. 3W names the Hybrid and covers three rows, LASFIT adds a cold rating, DrCarNow is the budget three-row pick and KUST covers the front two rows for the least money.\n\nAfter the floors, most Explorer owners add a roof rack on the factory rails and a trailer hitch; check whether your Explorer has the modular steel bumper option before ordering a hitch."},
+  "body": "The 6th-gen Explorer is fit by its second row. Once you know captain's chairs or bench, and console or walkway, the choice is easy. Husky has the strongest warranty and covers every zone. 3W names the Hybrid and covers three rows, LASFIT adds a cold rating, DrCarNow is the budget three-row pick and KUST covers the front two rows for the least money.\n\nAfter the floors, most Explorer owners add a roof rack on the factory rails and a trailer hitch; look under the rear bumper for a factory receiver before ordering a hitch."},
  "sources": [
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky Liners 99321 Explorer listing", "https://www.amazon.com/dp/B07ZG9HW9G"],

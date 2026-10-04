@@ -172,12 +172,12 @@ ARTICLE = {
 
 # Product list for this page. (asin, name, brand, band, cond, note)
 FITS = [
- ("B07VRF2J2Q","Putco Venture TEC Rack, Ford F-150 2015-2027 5'7\" Bed","Putco","$2,000–$2,400",{"bed_length_in":66},"5.5 ft bed incl. Raptor and Lightning; 1,000/600/300 lb."),
- ("B0CNS9P8RQ","RealTruck GoRack Overland Truck Rack 9250101, 2015-2024 Ford F-150 5.5' Bed","RealTruck","$1,000–$1,150",{"bed_length_in":66},"Listing ends at 2024; confirm 2025-2026 with seller."),
- ("B0C2S5HDM8","Putco Venture TEC Quick Rack, Ford F-150 2021-2025 5'7\" Bed","Putco","$1,000–$1,150",{"bed_length_in":66},"Roll-up covers OK; remove to open hard folders. Confirm 2026."),
- ("B0C7D1PDYD","Rough Country Aluminum Bed Rack 10406, 2015-2023 Ford F-150","Rough Country","$450–$550",{"bed_length_in":66},"5'7\" bed only; Rough Country lists through 2026 — confirm on listing."),
+ ("B07VRF2J2Q","Putco Venture TEC Rack, Ford F-150 2015-2027 5'7\" Bed","Putco","$2,000–$2,400",{"bed_length_in":67},"5.5 ft bed incl. Raptor and Lightning; 1,000/600/300 lb."),
+ ("B0CNS9P8RQ","RealTruck GoRack Overland Truck Rack 9250101, 2015-2024 Ford F-150 5.5' Bed","RealTruck","$1,000–$1,150",{"bed_length_in":67},"Listing ends at 2024; confirm 2025-2026 with seller."),
+ ("B0C2S5HDM8","Putco Venture TEC Quick Rack, Ford F-150 2021-2025 5'7\" Bed","Putco","$1,000–$1,150",{"bed_length_in":67},"Roll-up covers OK; remove to open hard folders. Confirm 2026."),
+ ("B0C7D1PDYD","Rough Country Aluminum Bed Rack 10406, 2015-2023 Ford F-150","Rough Country","$450–$550",{"bed_length_in":67},"5'7\" bed only; Rough Country lists through 2026 — confirm on listing."),
  ("B07MDSP8T8","Yakima OverHaul HD Adjustable Truck Bed Rack (towers only)","Yakima","$1,100–$1,250",{},"Universal clamp towers; confirm F-150 track kit and crossbar length in Yakima's fit lookup."),
  ("B07MRHDLS4","Yakima OutPost HD Fixed Mid Height Truck Bed Rack (towers only)","Yakima","$750–$850",{},"Universal clamp towers; confirm F-150 track kit and crossbar length in Yakima's fit lookup."),
- ("B0C2S78YNB","Putco Venture TEC Quick Rack, Ford F-150 2021-2025 6'7\" Bed","Putco","$1,000–$1,200",{"bed_length_in":78},"6.5 ft bed version; confirm 2026."),
- ("B0DC13ST7Y","Rough Country Aluminum Bed Rack, Ford F-150 2015-2024, Half Height","Rough Country","$450–$550",{"bed_length_in":66},"Half-height configuration; 5'7\" bed — confirm 2025-2026."),
+ ("B0C2S78YNB","Putco Venture TEC Quick Rack, Ford F-150 2021-2025 6'7\" Bed","Putco","$1,000–$1,200",{"bed_length_in":79},"6.5 ft bed version; confirm 2026."),
+ ("B0DC13ST7Y","Rough Country Aluminum Bed Rack, Ford F-150 2015-2024, Half Height","Rough Country","$450–$550",{"bed_length_in":67},"Half-height configuration; 5'7\" bed — confirm 2025-2026."),
 ]

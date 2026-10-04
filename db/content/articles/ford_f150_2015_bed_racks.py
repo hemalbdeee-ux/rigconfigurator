@@ -171,12 +171,12 @@ ARTICLE = {
 
 # Product list for this page. (asin, name, brand, band, cond, note)
 FITS = [
- ("B07VRF2J2Q","Putco Venture TEC Rack, Ford F-150 2015-2027 5'7\" Bed","Putco","$2,000–$2,400",{"bed_length_in":66},"5.5 ft bed incl. 2017-2020 Raptor; 1,000/600/300 lb."),
- ("B0CNS9P8RQ","RealTruck GoRack Overland Truck Rack 9250101, 2015-2024 Ford F-150 5.5' Bed","RealTruck","$1,000–$1,150",{"bed_length_in":66},"5.5 ft bed; 1,000 lb static / 600 lb dynamic."),
- ("B0C7D1PDYD","Rough Country Aluminum Bed Rack 10406, 2015-2023 Ford F-150","Rough Country","$450–$550",{"bed_length_in":66},"5'7\" bed only; 750 lb static / 400 lb dynamic."),
- ("B0C2SCFWHH","Putco Venture TEC Quick Rack, Ford F-150 2015-2020 6'7\" Bed","Putco","$1,000–$1,200",{"bed_length_in":78},"6.5 ft bed; remove to open hard-folding covers."),
+ ("B07VRF2J2Q","Putco Venture TEC Rack, Ford F-150 2015-2027 5'7\" Bed","Putco","$2,000–$2,400",{"bed_length_in":67},"5.5 ft bed incl. 2017-2020 Raptor; 1,000/600/300 lb."),
+ ("B0CNS9P8RQ","RealTruck GoRack Overland Truck Rack 9250101, 2015-2024 Ford F-150 5.5' Bed","RealTruck","$1,000–$1,150",{"bed_length_in":67},"5.5 ft bed; 1,000 lb static / 600 lb dynamic."),
+ ("B0C7D1PDYD","Rough Country Aluminum Bed Rack 10406, 2015-2023 Ford F-150","Rough Country","$450–$550",{"bed_length_in":67},"5'7\" bed only; 750 lb static / 400 lb dynamic."),
+ ("B0C2SCFWHH","Putco Venture TEC Quick Rack, Ford F-150 2015-2020 6'7\" Bed","Putco","$1,000–$1,200",{"bed_length_in":79},"6.5 ft bed; remove to open hard-folding covers."),
  ("B07MDSP8T8","Yakima OverHaul HD Adjustable Truck Bed Rack (towers only)","Yakima","$1,100–$1,250",{},"Universal clamp towers; confirm F-150 track kit and crossbar length in Yakima's fit lookup."),
  ("B07MRHDLS4","Yakima OutPost HD Fixed Mid Height Truck Bed Rack (towers only)","Yakima","$750–$850",{},"Universal clamp towers; confirm F-150 track kit and crossbar length in Yakima's fit lookup."),
- ("B0DC13ST7Y","Rough Country Aluminum Bed Rack, Ford F-150 2015-2024, Half Height","Rough Country","$450–$550",{"bed_length_in":66},"Half-height configuration; 5'7\" bed."),
+ ("B0DC13ST7Y","Rough Country Aluminum Bed Rack, Ford F-150 2015-2024, Half Height","Rough Country","$450–$550",{"bed_length_in":67},"Half-height configuration; 5'7\" bed."),
  ("B08L3KT9XJ","Hooke Road Overland Bed Rack, 2009-2021 Ford F-150 & Raptor","Hooke Road","Check listing",{},"Budget rack; load rating and bed length not verified — confirm on listing."),
 ]

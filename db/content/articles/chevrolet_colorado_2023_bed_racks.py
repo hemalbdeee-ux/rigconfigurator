@@ -145,13 +145,13 @@ ARTICLE = {
  ],
  "avoid": [
   {"h": "Buying a 2015–2022 rack", "body": "The 2023 bed is new. A \"2015–2025\" title needs the seller's confirmation, and a 2015–2022 part won't fit."},
-  {"h": "Forgetting the sport bar", "body": "Trail Boss and many ZR2s have a bar at the front of the bed where headache racks and front uprights go."},
+  {"h": "Forgetting the sport bar", "body": "Trail Boss trucks, and some ZR2 and Z71 trucks, have a bar at the front of the bed where headache racks and front uprights go."},
   {"h": "A tent on a 220 lb rack", "body": "The Thule Xsporter Pro Low is for boats and bikes. Tents need a rack rated for the tent, gear and occupants."},
   {"h": "A cover-less budget rack on a covered bed", "body": "Some budget racks say they're not for trucks with bed covers. Read the title before you buy both."},
  ],
  "verdict": {
   "thesis": "Yakima's OverHaul HD is the best tent rack for the 2023+ Colorado, the OutPost HD is the value pick, and the BackRack is the only brand-name rack here listed for the new truck by name.",
-  "body": "The 2023 Colorado is still new enough that most rack listings either don't name it or span both generations, so confirmation is part of every purchase. Yakima's HD towers clamp to the rail, publish real on-road and off-road ratings, and can usually be set behind a Trail Boss or ZR2 sport bar. The BackRack is the headache rack for work trucks without a sport bar, the Thule Xsporter Pro Low suits boats and bikes, and the YZONA and Hooke Road racks cover budget builds on an uncovered bed.\n\nIf you want the bed covered as well, our Colorado tonneau cover guide lists railed covers that take crossbars. With up to 7,700 lb of towing capacity, a proper trailer hitch is the other early upgrade, and laser-fit floor liners keep trail mud off the carpet.",
+  "body": "The 2023 Colorado is still new enough that most rack listings either don't name it or span both generations, so confirmation is part of every purchase. Yakima's HD towers clamp to the rail, publish real on-road and off-road ratings, and can usually be set behind a Trail Boss or ZR2 sport bar. The BackRack is the headache rack for work trucks without a sport bar, the Thule Xsporter Pro Low suits boats and bikes, and the YZONA and Hooke Road racks cover budget builds on an uncovered bed.\n\nIf you want the bed covered as well, our Colorado tonneau cover guide lists railed covers that take crossbars. The 7,700 lb maximum tow rating comes with Chevrolet's trailering package, which the 2023 brochure lists with a trailer hitch included, so look under the bumper before buying one. Laser-fit floor liners keep trail mud off the carpet.",
  },
  "sources": [
   ["Yakima OverHaul HD towers (Yakima)", "https://yakima.com/products/overhaul-hd"],

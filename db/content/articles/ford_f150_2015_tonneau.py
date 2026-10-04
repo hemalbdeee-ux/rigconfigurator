@@ -26,7 +26,7 @@ FAQ = [
   "Only on hard covers with a published rating, and only spread flat: 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4 and 300 lb for the Gator EFX. Rough Country doesn't publish a load figure for its low-profile cover, so treat it as a lid. A knee or the corner of a toolbox is a point load and can dent panels that are fine under snow."),
  ("My cover leaks at the tailgate corners. Is that normal?",
   "Some seepage at the rear corners is common on folding and retractable covers. Rack Attack notes that Retrax covers can let a little water in around the tailgate in heavy rain even with drain tubes, and F150Forum has a whole thread on fixing MX4 leaks. Start by re-centering the cover so the tailgate seal touches evenly, check that the tailgate itself is adjusted, and route any drain tubes the cover came with."),
- ("Is a retractable cover worth $2,000 on an older F-150?",
+ ("Is a retractable cover worth about $2,150 on an older F-150?",
   "Only if you open the bed many times a day. The RetraxPRO MX locks at any position, carries 500 lb and has a limited lifetime warranty, but RealTruck lists the 80373 at $2,149.99, and the canister takes roughly 10–11 in at the front of the bed. On a 2015–2020 truck that may be worth less than the cover, a $549 Gator EFX or $1,050 MX4 is easier to justify."),
  ("Can I keep a bed rack with a tonneau cover?",
   "A standard folding cover leaves no place to mount most racks. Retrax sells an XR version of the PRO with T-slot rails for this generation (T-80373), which lets you add crossbars over the cover. Rough Country says its low-profile cover works with bed racks but not with OEM cargo systems. Decide on the rack before you buy the cover."),
@@ -165,14 +165,14 @@ ARTICLE = {
 
 # Product list for this page. (asin, name, brand, band, cond, note)
 FITS = [
- ("B072145V7R","BAKFlip MX4 Hard Folding Tonneau Cover 448329, 2015-2020 F-150 5' 7\" Bed (67.1 in)","BAK","$1,000–$1,200",{"bed_length_in":66},"5-year warranty; 400 lb rating. Also fits 2017-2020 Raptor."),
- ("B07Y28ZYSN","Gator EFX Hard Tri-Fold Tonneau Cover, 2015-2020 F-150 (incl. Raptor), 5'7\" Bed","Gator","$520–$600",{"bed_length_in":66},"300 lb rating; confirm part GC24019 on the listing."),
- ("B00SNMNK1I","RetraxPRO MX Retractable Tonneau Cover 80373, 2015-2020 F-150 SuperCrew & SuperCab 5' 7\" Bed","Retrax","$1,900–$2,200",{"bed_length_in":66},"Canister uses ~10-11 in of bed."),
- ("B00ONO665M","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 597701, 2015-2026 F-150, 5.5 ft","TruXedo","$480–$540",{"bed_length_in":66},"Also fits 2021+ F-150 with the 5.5 ft bed."),
- ("B019NUGLGE","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3F1041, 2015-2020 F-150 Styleside 5.5 ft","Tyger Auto","$220–$250",{"bed_length_in":66},"Over-rail bedliners need small holes cut."),
- ("B0D2J5JJMM","Rough Country Hard Tri-Fold Low-Profile Aluminum Tonneau Cover, 2015-2020 F-150, 5'7\" Bed (67.1 in)","Rough Country","$650–$750",{"bed_length_in":66},"No published load rating; confirm part number on listing."),
- ("B01EXKUFVQ","RetraxPRO MX Retractable Tonneau Cover 80374, 2015-2020 F-150 6' 7\" Bed (78.9 in)","Retrax","$1,900–$2,300",{"bed_length_in":78},"6.5 ft version of the RetraxPRO MX."),
- ("B019NUGMKE","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3F1042, 2015-2026 F-150 6.5 ft (79 in)","Tyger Auto","$220–$270",{"bed_length_in":78},"6.5 ft version of the Tyger T3."),
- ("B01M03LZMJ","UnderCover Ultra Flex Hard Folding Tonneau Cover UX22020, 2015-2020 F-150 6' 7\" Bed (78.9 in)","UnderCover","$1,000–$1,250",{"bed_length_in":78},"6.5 ft hard folding alternative to the MX4; confirm price on listing."),
- ("B013USXPFA","Gator ETX Soft Roll-Up Tonneau Cover 53317, 2015-2020 F-150 8' 2\" Bed (97.6 in)","Gator","$250–$400",{"bed_length_in":96},"8 ft bed option; confirm price on listing."),
+ ("B072145V7R","BAKFlip MX4 Hard Folding Tonneau Cover 448329, 2015-2020 F-150 5' 7\" Bed (67.1 in)","BAK","$1,000–$1,200",{"bed_length_in":67},"5-year warranty; 400 lb rating. Also fits 2017-2020 Raptor."),
+ ("B07Y28ZYSN","Gator EFX Hard Tri-Fold Tonneau Cover, 2015-2020 F-150 (incl. Raptor), 5'7\" Bed","Gator","$520–$600",{"bed_length_in":67},"300 lb rating; confirm part GC24019 on the listing."),
+ ("B00SNMNK1I","RetraxPRO MX Retractable Tonneau Cover 80373, 2015-2020 F-150 SuperCrew & SuperCab 5' 7\" Bed","Retrax","$1,900–$2,200",{"bed_length_in":67},"Canister uses ~10-11 in of bed."),
+ ("B00ONO665M","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 597701, 2015-2026 F-150, 5.5 ft","TruXedo","$480–$540",{"bed_length_in":67},"Also fits 2021+ F-150 with the 5.5 ft bed."),
+ ("B019NUGLGE","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3F1041, 2015-2020 F-150 Styleside 5.5 ft","Tyger Auto","$220–$250",{"bed_length_in":67},"Over-rail bedliners need small holes cut."),
+ ("B0D2J5JJMM","Rough Country Hard Tri-Fold Low-Profile Aluminum Tonneau Cover, 2015-2020 F-150, 5'7\" Bed (67.1 in)","Rough Country","$650–$750",{"bed_length_in":67},"No published load rating; confirm part number on listing."),
+ ("B01EXKUFVQ","RetraxPRO MX Retractable Tonneau Cover 80374, 2015-2020 F-150 6' 7\" Bed (78.9 in)","Retrax","$1,900–$2,300",{"bed_length_in":79},"6.5 ft version of the RetraxPRO MX."),
+ ("B019NUGMKE","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3F1042, 2015-2026 F-150 6.5 ft (79 in)","Tyger Auto","$220–$270",{"bed_length_in":79},"6.5 ft version of the Tyger T3."),
+ ("B01M03LZMJ","UnderCover Ultra Flex Hard Folding Tonneau Cover UX22020, 2015-2020 F-150 6' 7\" Bed (78.9 in)","UnderCover","$1,000–$1,250",{"bed_length_in":79},"6.5 ft hard folding alternative to the MX4; confirm price on listing."),
+ ("B013USXPFA","Gator ETX Soft Roll-Up Tonneau Cover 53317, 2015-2020 F-150 8' 2\" Bed (97.6 in)","Gator","$250–$400",{"bed_length_in":98},"8 ft bed option; confirm price on listing."),
 ]

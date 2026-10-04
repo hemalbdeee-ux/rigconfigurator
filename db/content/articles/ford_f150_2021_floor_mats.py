@@ -158,11 +158,11 @@ ARTICLE = {
 
 FITS = [
  ("B07QG3X6NH","Husky Liners WeatherBeater 94041, 2015-2026 F-150 SuperCrew & 2022-2026 Lightning, carpet, without fold-flat storage","Husky Liners","$150–$220",{"cab":"SuperCrew","fold_flat_storage":False},"Made in USA; not for fold-flat rear storage."),
- ("B0CJSG1TP9","Husky Liners WeatherBeater 94121 liners + 16008 bed mat, 2021-2024 F-150 SuperCrew with fold-flat storage, 5.5 ft bed","Husky Liners","$250–$340",{"cab":"SuperCrew","fold_flat_storage":True,"bed_length_in":66},"Fold-flat trucks; confirm 2025-2026 with seller."),
+ ("B0CJSG1TP9","Husky Liners WeatherBeater 94121 liners + 16008 bed mat, 2021-2024 F-150 SuperCrew with fold-flat storage, 5.5 ft bed","Husky Liners","$250–$340",{"cab":"SuperCrew","fold_flat_storage":True,"bed_length_in":67},"Fold-flat trucks; confirm 2025-2026 with seller."),
  ("B0896RQ7VT","LASFIT TPE Floor Liners 1st & 2nd row, 2015-2026 F-150 SuperCrew & 2022-2025 Lightning (rear without fold-flat storage)","LASFIT","$120–$160",{"cab":"SuperCrew","fold_flat_storage":False},"Not for rear fold-flat under-seat storage."),
  ("B0DCVH5QF5","Mixsuper TPE Floor Liners 2-row, 2015-2025 F-150 SuperCrew incl. Lightning (fits rear bench with under-seat storage)","Mixsuper","$110–$150",{"cab":"SuperCrew","fold_flat_storage":True},"Fits rear under-seat storage; confirm storage type with seller."),
  ("B0D7HZSBRH","KARPAL Custom-Fit TPE Front Floor Liners, 2015-2025 F-150 SuperCrew / SuperCab incl. Lightning","KARPAL","$70–$100",{},"Front row only."),
- ("B0CJS6JK72","Husky Liners WeatherBeater 94121 liners + 16009 bed mat, 2021-2024 F-150 SuperCrew with fold-flat storage, 6.5 ft bed","Husky Liners","$250–$340",{"cab":"SuperCrew","fold_flat_storage":True,"bed_length_in":78},"6.5 ft bed version; confirm 2025-2026 with seller."),
+ ("B0CJS6JK72","Husky Liners WeatherBeater 94121 liners + 16009 bed mat, 2021-2024 F-150 SuperCrew with fold-flat storage, 6.5 ft bed","Husky Liners","$250–$340",{"cab":"SuperCrew","fold_flat_storage":True,"bed_length_in":79},"6.5 ft bed version; confirm 2025-2026 with seller."),
  ("B01LWZBCUD","Husky Liners WeatherBeater 14401 2nd Row, 2021-2026 F-150 SuperCrew with fold-flat under-seat storage","Husky Liners","$80–$120",{"cab":"SuperCrew","fold_flat_storage":True},"2nd row only; pair with a front set."),
  ("B00RPGWE9C","Husky Liners WeatherBeater 18361 Front Row, 2015-2025 F-150 SuperCrew & SuperCab incl. Lightning","Husky Liners","$90–$130",{},"Front row only."),
  ("B0CWRY7BVD","Weize TPE Floor Liners Front & 2nd row, 2015-2025 F-150 SuperCrew & Lightning (not rear fold-flat storage)","Weize","$100–$140",{"cab":"SuperCrew","fold_flat_storage":False},"Not for rear fold-flat storage."),

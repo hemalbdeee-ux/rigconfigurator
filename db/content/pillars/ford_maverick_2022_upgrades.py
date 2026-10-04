@@ -30,6 +30,9 @@ the bed's 12V circuit; 2026 fit on listings that end at 2024 or 2025; prices, he
 racks (EAG, IIIREENO, OBNAUX); Yakima OutPost HD fit on the Maverick; weights of the hard covers; whether the
 hybrid was the standard powertrain in every model year (stated as "standard" by the vehicle data and Wikipedia
 without a year split). Ford's 2026 towing guide, cited in the hitch guide's method, was not opened for this page.
+Source fixes 2026-10-04: the Class I receiver claim was removed from 003_vehicles.sql and the tonneau guide, and the
+hitch guide's 400 lb tongue-load wording now ties the figure to the 4K receiver. Contradictions (1) and (2) above are
+therefore no longer stated on the page; both points are worded as not confirmed.
 """
 
 KIND = "upgrades"
@@ -54,10 +57,7 @@ FAQ = [
   "the EcoBoost. A hitch bolts to either truck, but CURT's 56477 wiring harness excludes 2022–2024 hybrids."),
  ("Does my Maverick already have a trailer hitch?",
   "Look under the rear bumper. A square 2 in receiver tube with a 4-/7-pin connector means the truck almost "
-  "certainly has the 4K Tow Package, and you need only a ball mount. Our own pages disagree about the other "
-  "trucks. Our vehicle data lists a 1.25 in Class I receiver without the package, and our tonneau guide repeats "
-  "the Class I claim. Our hitch guide and the Ford towing guide we read describe a receiver only with the "
-  "package. We could not confirm the Class I receiver, so check your truck before ordering a trailer hitch."),
+  "certainly has the 4K Tow Package, and you need only a ball mount. Other trucks are less clear. Our hitch guide and the Ford towing guide we read describe a factory receiver only with the package, and we could not confirm one on trucks without it. Check your own truck before ordering a trailer hitch, because a bolt-on hitch is wasted money if a receiver is already there."),
  ("Can a Maverick Hybrid tow 4,000 lb, and can I add the 4K Tow Package later?",
   "Only a 2025 or later hybrid with AWD and the factory 4K Tow Package is rated at 4,000 lb. Ford's 2025 towing "
   "guide lists the front-drive hybrid at 2,000 lb with or without the package, and every "
@@ -117,8 +117,7 @@ ARTICLE = {
            "how much of its fit is confirmed for this truck. Price bands are "
            "the prices listed on those guides' picks, checked in September 2026, and "
            "are approximate. Vehicle facts come from our vehicle data, the guides' sources, Wikipedia, "
-           "Ford's 2025 towing guide, Jalopnik and a Ford dealer's bed page. Where we couldn't confirm a factory detail, or where our own pages disagree, "
-           "the text says so. Running boards, roof racks and light bars have no Maverick guide here, so "
+           "Ford's 2025 towing guide, Jalopnik and a Ford dealer's bed page. Where we couldn't confirm a factory detail, the text says so. Running boards, roof racks and light bars have no Maverick guide here, so "
            "they are not ranked.",
  "takeaways": [
   "**Hybrid or EcoBoost decides the floor liners.** The hybrid's battery changes the rear floor, so Husky sells the 95401 for hybrids and the 95051 for the EcoBoost.",
@@ -225,16 +224,11 @@ ARTICLE = {
            "53Q. Jalopnik describes the hitch as Class III with a 2 in receiver and puts the package at about "
            "$745 for 2026 on AWD XL, XLT and Lariat trucks. If that receiver is under your bumper, skip the "
            "hitch.\n\n"
-           "**What the other trucks have.** Here our own pages disagree. Our vehicle data says "
-           "Mavericks without the package have a 1.25 in Class I receiver, and our tonneau guide repeats the Class I claim. Our hitch guide describes no factory "
-           "receiver on those trucks, and the Ford guide we read lists one only with 53Q. We could not confirm a "
-           "Class I receiver, so don't assume one.\n\n"
+           "**What the other trucks have.** Our hitch guide describes no factory receiver on trucks without the package, and the Ford guide we read lists one only with 53Q. We could not confirm any factory receiver on those trucks, so don't assume one. Look before you order.\n\n"
            "**What a hitch cannot do.** Ford rates every Maverick at 2,000 lb and AWD trucks with the package at "
            "4,000 lb. The lower of truck and hitch rating wins, so a 4,500 lb Draw-Tite 76557 on a truck without "
            "the package is still a 2,000 lb setup.\n\n"
-           "**Tongue weight.** Our hitch guide applies Ford's 400 lb maximum tongue load to hitch racks on every "
-           "Maverick. In the 2025 guide we read, that 400 lb is printed beside the 4,000 lb capacity of the "
-           "factory receiver, and we found no separate figure for 2,000 lb trucks. On a 2,000 lb build, check "
+           "**Tongue weight.** In the 2025 Ford guide we read, a 400 lb maximum tongue load is printed beside the 4,000 lb capacity of the factory receiver, and we found no separate figure for 2,000 lb trucks. Our hitch guide treats 400 lb as the ceiling for a hitch rack on any Maverick. On a 2,000 lb build, check "
            "the owner's manual before loading a hitch rack near 400 lb."},
   {"h": "One bed, 54.4 in: FLEXBED features, and what the listings say about sharing the rails",
    "body": "Every 2022–2026 Maverick has one cab and one bed. Our guides give the FLEXBED as 54.4 in long, 53.3 in "
@@ -310,8 +304,7 @@ ARTICLE = {
           "harness.\n\n"
           "The bed rack sits last because few owners need one, most Maverick-specific racks publish little beyond "
           "a title, and payload leaves less room than the load figures suggest. The rack decision still has to be "
-          "made before the cover is paid for. Where our sources disagree, on the receiver fitted to trucks without "
-          "the package and on tongue weight for 2,000 lb trucks, your own truck and its owner's manual settle it.",
+          "made before the cover is paid for. Where we could not confirm a detail, namely any factory receiver on trucks without the package and the tongue weight limit on 2,000 lb trucks, your own truck and its owner's manual settle it.",
  },
  "sources": [
   ["Ford Maverick (2022): platform, powertrains, AWD by year, 2025 refresh, FLEXBED slots and 12V circuit (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Maverick_(2022)"],
