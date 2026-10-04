@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six all-weather mat sets for the Model Y, from 3D MAXpider's Kagu to 11-piece kits that cover every surface. The fit decision is generational: pre-refresh 2020–2024 cars and the 2025+ Juniper take different sets, and the 7-seat and Standard versions add their own exclusions.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these mats ourselves. We ranked them on the fit each listing states for the Model Y (generation, seating, trim), on the pieces included, on published maker or retailer specs and on coverage in listing photos. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Pre-refresh or Juniper first.** Sets are split, and several listings exclude one or the other.",

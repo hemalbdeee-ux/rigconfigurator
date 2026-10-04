@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "One generation, two roofs. The first-gen Telluride's standard trims have low rails that take flush-rail feet, while the 2023+ X-Line and X-Pro get raised, bridge-type rails with a gap underneath. Here are six Telluride-named crossbar sets split by rail type, including BRIGHTLINES' flush-rail and X-Line/X-Pro sets, plus the Thule, Yakima and Malone systems etrailer lists for each.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. Picks were chosen on the rail type and trims each seller lists for the 2020–2025 Telluride, and brand-name systems on the fit and specs etrailer publishes for the 2021 and 2023 Telluride. Kia's 2023 press kit is the source for the X-Line rail design, and Kia's 2024 owner's manual for the 220 lb roof rack load. Brand-name prices were checked at etrailer in September 2026. Amazon prices move daily, so the button shows the live price; bands for generic bars are a guide only.",
  "takeaways": [
   "**Check the rail, not the year.** X-Line and X-Pro (2023+) have raised, bridge-type rails. The LX, S, EX, SX and SX-P have low rails that take flush-rail feet.",

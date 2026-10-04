@@ -2,6 +2,7 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every rating below
 comes from the maker/retailer/Toyota pages listed in SOURCES (checked 2026-09-24).
 Source fixes 2026-10-04: Toyota PK960-42K10 now stated as a 2 in receiver tube with class not clearly stated (Toyota parts page); tow figures tied to the 2024 model year and Toyota Vallejo; Tow Prep receiver size marked unconfirmed; TRD Off-Road years set to 2020-2024; Prime years and 2025 Plug-in Hybrid name aligned; tongue weight claim limited to hitches with published ratings.
+Text fixes 2026-10-04 (round 2): the Class III label on PK960-42R10 is now attributed to the one Toyota dealer catalog page we opened (North Park Toyota: titled Class III, replaces PK960-42K10, no receiver size or rating printed) instead of to several catalogs; Toyota's own page for PK960-42R10 could not be opened and the text says so; PK960-42K10 wording rechecked against Toyota's parts page and left as is.
 """
 
 KEY = ("toyota", "rav4", "2019-present", "hitches")
@@ -36,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six fit-checked picks for the 2019–2025 RAV4, RAV4 Hybrid and RAV4 Prime: two 2 in Class III hitches, Toyota's factory accessory, a 1.25 in Class II, a hitch-and-harness bundle, and the plug-in harness. For each one we list ratings, fitment by powertrain and install notes, and how each compares with the RAV4's 1,500–3,500 lb tow ratings.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published ratings (gross trailer weight, tongue weight, weight-distribution compatibility), on the RAV4, Hybrid and Prime fitment each maker lists, and on install notes from etrailer and Toyota's accessory page. Tow ratings come from a Toyota dealer's 2024 towing page (Toyota Vallejo); trim changes come from Wikipedia's RAV4 page and Toyota's 2024 RAV4 release. Prices were checked at etrailer or the maker's store in September 2026 where available. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Your RAV4's rating is the ceiling.** Gas LE through Limited: 1,500 lb. Adventure and TRD Off-Road with Tow Prep: 3,500 lb. Hybrid: 1,750 lb. Prime: 2,500 lb. Those are Toyota dealer figures for 2024; your owner's manual has the figure for your year.",
@@ -107,7 +108,7 @@ ARTICLE = {
   {"asin": "B07XSJSBG8", "role": "Best OEM", "price": "Dealer price varies",
    "pros": ["Toyota Genuine part; dealer can install it", "2 in receiver tube", "Engineered for the RAV4's maximum tow rating", "Hitch cover included", "Covered by Toyota's parts warranty"],
    "cons": ["Not offered for Limited with Advanced Technology Package or Prime XSE with Premium package", "May require disabling or removing the kick sensor", "No trailer or tongue weight figure on Toyota's page, and no clear class"],
-   "body": "If you want the hitch your dealer would install, PK960-42K10 is Toyota's accessory for the 2019-and-up RAV4. Toyota's parts page lists a 2 in receiver tube, says the hitch is engineered to help accommodate the RAV4's maximum tow rating, and includes a hitch cover. One line of the page's description calls it Class II, but the class field in its spec table is not filled in and the page gives no trailer or tongue weight figure, so treat the class as unconfirmed. It is covered by Toyota's parts warranty, which matters to owners who want every accessory on the same paperwork as the vehicle. Several dealer parts catalogs now show a PK960-42R10 labeled Class III for the RAV4. Ask your parts counter which number currently ships.\n\nTwo restrictions from Toyota's page matter. The hitch is not available for Limited grades with the Advanced Technology Package or for the RAV4 Prime XSE with the Premium package. And installing it may require disabling or removing the kick sensor for the hands-free liftgate. If you have one of those trims or rely on the kick feature, an aftermarket hitch is the better route.",
+   "body": "If you want the hitch your dealer would install, PK960-42K10 is Toyota's accessory for the 2019-and-up RAV4. Toyota's parts page lists a 2 in receiver tube, says the hitch is engineered to help accommodate the RAV4's maximum tow rating, and includes a hitch cover. One line of the page's description calls it Class II, but the class field in its spec table is not filled in and the page gives no trailer or tongue weight figure, so treat the class as unconfirmed. It is covered by Toyota's parts warranty, which matters to owners who want every accessory on the same paperwork as the vehicle. We could not open a Toyota parts page for PK960-42R10. A Toyota dealer's parts catalog (North Park Toyota) titles it a Class III tow hitch receiver and shows it replacing PK960-42K10, but the page prints no receiver size or weight rating. Ask your parts counter which number currently ships and what it is rated for.\n\nTwo restrictions from Toyota's page matter. The hitch is not available for Limited grades with the Advanced Technology Package or for the RAV4 Prime XSE with the Premium package. And installing it may require disabling or removing the kick sensor for the hands-free liftgate. If you have one of those trims or rely on the kick feature, an aftermarket hitch is the better route.",
    "who": "Owners who want a Toyota Genuine part, installed and warrantied by the dealer.",
    "specs": [["Class / receiver", "2 in tube (per Toyota); class not clearly stated"], ["Part #", "PK960-42K10 (check PK960-42R10)"], ["Fits", "2019+ RAV4; not Limited w/ Adv. Tech or Prime XSE Premium"], ["Rating", "Built to the RAV4's max tow rating"], ["Includes", "Hitch cover"], ["Install note", "May need kick sensor disabled/removed"], ["Warranty", "Toyota parts warranty"]]},
   {"asin": "B0876WF3N9", "role": "Best 1.25 in", "price": "$150–$220",
@@ -156,6 +157,7 @@ ARTICLE = {
  "sources": [
   ["B&W BW47BR RAV4 hitch (etrailer)", "https://www.etrailer.com/Trailer-Hitch/B-and-W/BW47BR.html"],
   ["Toyota hitch receiver PK960-42K10 (Toyota Auto Parts)", "https://autoparts.toyota.com/products/product/hitch-receiver-pk96042k10"],
+  ["Toyota tow hitch receiver PK960-42R10, dealer catalog entry (North Park Toyota)", "https://parts.northparktoyota.com/oem-parts/toyota-tow-hitch-receiver-class-iii-pk96042r10"],
   ["Reese 06192 Class II hitch (Reese)", "https://www.reeseprod.com/product/06192_class-ii-trailer-hitch"],
   ["Draw-Tite 76634 Class III hitch (Draw-Tite)", "https://www.draw-tite.com/product/76634_class-iii-trailer-hitch"],
   ["CURT 56434 custom wiring harness (CURT)", "https://www.curtmfg.com/part/56434"],

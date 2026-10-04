@@ -1,12 +1,13 @@
 """Long-form article — Best Floor Mats & Liners for 2010–2024 Toyota 4Runner (5th gen, N280).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
 Source fixes 2026-10-04: the sliding cargo deck now carries Toyota's 440 lb figure (2017 and 2020 releases, added to sources) and is no longer tied to the Limited; "Trail Edition" corrected to the Trail grade, renamed TRD Off-Road for 2017; third row attributed to Toyota (SR5 and Limited); the dek's $60 cargo mat now matches the $50–$80 band in FITS; the Wikipedia source now points to the Toyota 4Runner article, because the (fifth_generation) URL could not be opened.
+Text fixes 2026-10-04 (round 2): the guide has five pick cards, so the TITLE, META and dek now say 5 / Five in place of 6 / Six; the dek places the MERXENG cargo mat in the product list, where it sits, not among the picks.
 """
 
 KEY = ("toyota", "4runner", "2010-2024", "floor-mats")
 
-TITLE = "Best Floor Liners for 2010–2024 Toyota 4Runner: 6 Picks for Cabin and Cargo, 5-Seat vs 7-Seat"
-META = ("Six 5th-gen 4Runner floor and cargo liner picks, from Husky WeatherBeater and TuxMat to Toyota TRD Pro, with "
+TITLE = "Best Floor Liners for 2010–2024 Toyota 4Runner: 5 Picks for Cabin and Cargo, 5-Seat vs 7-Seat"
+META = ("Five 5th-gen 4Runner floor and cargo liner picks, from Husky WeatherBeater and TuxMat to Toyota TRD Pro, with "
         "the 2013 split, third-row and sliding cargo deck notes.")
 
 FAQ = [
@@ -33,9 +34,9 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six picks for the 5th-generation 4Runner's cabin and cargo area, from Husky WeatherBeater and TuxMat to Toyota's TRD Pro liners and a cargo mat at about $50–$80. Most sets start at 2013, and the cargo floor splits three ways, so check your year and your cargo area before ordering.",
+ "dek": "Five picks for the 5th-generation 4Runner's cabin and cargo area, from Husky WeatherBeater and TuxMat to Toyota's TRD Pro liners, plus a MERXENG cargo mat at about $50–$80 in the product list. Most sets start at 2013, and the cargo floor splits three ways, so check your year and your cargo area before ordering.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2010–2024 4Runner (year range, seating, cargo floor), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and TuxMat claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Most sets start at 2013.** Husky and TuxMat list 2013–2024; 2010–2012 owners should confirm.",

@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six rooftop boxes from Yakima, Thule, Rhino-Rack and SportRack matched to the sixth-generation 4Runner, from a 38.6 lb dual-side box to an 18 cu ft Thule Motion 3 XL. For each one we list volume, length, box weight and crossbar spread, and what those numbers mean for the 165 lb dynamic roof figure GearJunkie reports, the factory crossbars, the Trailhunter's platform and the rear hatch.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, front clearance, warranty), on etrailer's spread and mounting figures, on 4Runner6G.com owner threads about factory crossbars and roof load, on GearJunkie's first-drive review for the roof figure, and on The Rack Shop's Thule kit for this truck. Rack and platform facts come from our 2025–2026 4Runner roof rack guide. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**165 lb dynamic is the working figure.** It comes from GearJunkie's first-drive review, along with 770 lb static. We could not confirm it from Toyota, so check your owner's manual. Bars, box and gear all count while driving.",

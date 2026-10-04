@@ -43,6 +43,7 @@ Force 3 L; the SportRack Vista XL's weight. All Tesla manual quotes were read th
 page, not copied from the rendered page. No Model 3 guide exists for bike racks, seat covers or dash cams; none
 are ranked.
 Source fixes 2026-10-04: aligned with the corrected guides and the proposed vehicle-data row (no hitch class, tow and roof figures carried as Tesla Tow Package and Tesla Shop rack facts): dropped the two statements about what the site's vehicle data stores for roof load; reworded how to tell a Highland (listings say 2024 or later; Wikipedia order date, rear touchscreen, stalk returned on US cars for 2026; door-jamb build date and the listing's fit notes); changed the Highland Performance liner cell to "fit not confirmed"; META "150 lb roof" became "150 lb rack".
+Text fixes 2026-10-04 (round 2): dek and one takeaway no longer say the roof takes a rack at fixed points "only" (the roof rack guide documents a door-frame clip system from etrailer's listing); they now state the roof has fixed mounting points and no rails.
 """
 
 KIND = "upgrades"
@@ -115,7 +116,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Four upgrades for the first-generation Model 3, in the order most owners should buy them. On this sedan the "
         "order is shaped by a 2024 refresh that split liners, roof bars and hitches into separate parts, by a glass "
-        "roof that takes a rack only at fixed points with the bars about 28 in apart, and by what Tesla's own manual "
+        "roof with fixed mounting points and bars about 28 in apart, and by what Tesla's own manual "
         "says about towing and hitch carriers.",
  "author": "jake-morrison",
  "reviewed": "2026-10-04",
@@ -128,7 +129,7 @@ ARTICLE = {
            "fueleconomy.gov's and describe gas vehicles. Where we couldn't confirm a detail, the text says so.",
  "takeaways": [
   "**Name the car before the part.** Makers split liners, roof bars and hitches at the 2024 Highland refresh.",
-  "**The glass roof takes a rack at fixed points only.** Tesla rates its Model 3 Roof Rack at 150 lb, which covers the bars, the carrier and the cargo.",
+  "**The glass roof has fixed mounting points and no rails.** Tesla rates its Model 3 Roof Rack at 150 lb, which covers the bars, the carrier and the cargo.",
   "**Tesla's bars sit about 28 in apart.** A cargo box needs a spread range that includes 28 in, and a long box overhangs the trunk lid.",
   "**Tesla ties towing and carriers to its own package.** It lists one only for 2024 and later Rear-Wheel Drive and All-Wheel Drive cars, and its manual says not to fit a carrier without it.",
   "**Aftermarket hitches are sold anyway.** We could not confirm how Tesla service treats them, so ask Tesla before buying one.",

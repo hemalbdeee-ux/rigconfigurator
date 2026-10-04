@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule and SportRack matched to the 6th-generation Outback's long roof, from the 30 lb DeepSpace 10 to the 18 cu ft Thule Motion 3 XL. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the retractable factory crossbars, the Wilderness rails and the roof load limit.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule and SportRack: volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on etrailer's spread figures for the Thule and SportRack boxes, on how those specs fit the Outback's retractable crossbars, Wilderness rails and rear gate, and on the roof figures in Subaru's 2022, 2023 and 2025 Outback trim comparison sheets. Prices were checked on the makers' stores in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Know your rails.** Every 2020–2025 Outback trim except the Wilderness has raised rails with retractable crossbars built in; the Wilderness has its own ladder-type rails with no built-in crossbars, so it needs a set.",

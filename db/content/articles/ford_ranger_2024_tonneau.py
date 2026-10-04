@@ -1,6 +1,7 @@
 """Long-form article — Best Tonneau Covers for 2024–2026 Ford Ranger (new generation, incl. Raptor).
 Mirrors the approved pilot ford_f150_2021_tonneau.py. No invented hands-on testing: every spec below comes
 from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+Text fixes 2026-10-04: rack FAQ and the racks look_for section now say to pick the cover and the rack together as a pair (was "choose the rack first" and "a folding cover leaves nowhere to mount one"), with Rough Country's tri-fold named as the documented exception; the SuperCrew-only statements are attributed to MotorWeek's launch report (source added); the RetraxPRO XR pick says "no folding cover on this page".
 """
 
 KEY = ("ford", "ranger", "2024-present", "tonneau-covers")
@@ -19,15 +20,15 @@ FAQ = [
  ("Do these covers fit the Ranger Raptor?",
   "Some do. RealTruck lists the BAKFlip MX4 448342, UnderCover Ultra Flex UX22033, RetraxPRO XR T-80338 and TruXedo Lo Pro 531701 for the Ranger Raptor. Rough Country says its low-profile hard cover does not fit the Raptor because of differences in bed design, and Tyger's T3 page doesn't list the Raptor. Look for Raptor in the listing title before you buy."),
  ("What is the Ranger's cargo management system and does it affect covers?",
-  "It is Ford's optional rail system (part R1WZ9955200A, per a Ranger6G owner) that mounts along the bed sides. Retrax says the RetraxPRO XR and RetraxONE MX are not compatible with it, and Rough Country says its cover doesn't work with OEM cargo systems. One Ranger6G owner fitted an UnderCover Ultra Flex (UX22033) alongside it with no interference, and advised installing the rails first and the cover last."),
+  "It is Ford's optional rail system (part R1WZ9955200A, per a Ranger6G owner) that mounts along the bed sides. RealTruck's listings for the RetraxPRO XR and RetraxONE MX say they are not compatible with the bed cargo management system, and Rough Country says its cover doesn't work with OEM cargo systems. One Ranger6G owner fitted an UnderCover Ultra Flex (UX22033) alongside it with no interference, and advised installing the rails first and the cover last."),
  ("How long is the 2024 Ranger bed?",
-  "Ford dealer specs give an inside length of 59.6 in, a maximum width of 62.4 in and 48.2 in between the wheel wells, with 43.5 cu ft of cargo volume. Cover makers list it variously as 5 ft, 5'1\" or 60 in. In the US the 2024+ Ranger is sold as a SuperCrew with this one bed length, so there is no 6 ft option to worry about."),
+  "Ford dealer specs give an inside length of 59.6 in, a maximum width of 62.4 in and 48.2 in between the wheel wells, with 43.5 cu ft of cargo volume. Cover makers list it variously as 5 ft, 5'1\" or 60 in. MotorWeek's launch report says the 2024 Ranger is only available as a SuperCrew with a 5 ft bed, so there is no 6 ft option to worry about."),
  ("Hard or soft cover — which is better on the new Ranger?",
   "Hard covers such as the MX4, Ultra Flex, RetraxPRO XR and Rough Country lock under a locked tailgate, and the first three carry 400–500 lb spread evenly. Soft covers like the Lo Pro and Tyger T3 cost $239 to $490, open fast and weigh less, but a knife gets through vinyl. On a truck that often sits at trailheads or in town, hard is usually worth the money."),
  ("Can I put weight on top of the cover?",
   "Only on hard covers with a published rating, and only spread flat: 500 lb for the RetraxPRO XR, 400 lb for the BAKFlip MX4 and UnderCover Ultra Flex. Rough Country doesn't publish a figure for its low-profile cover, and soft covers carry nothing. A point load such as a knee or a toolbox corner can dent a panel that is fine under snow."),
  ("Can I run a bed rack with a tonneau cover on the 2024 Ranger?",
-  "Yes, with the right cover. The RetraxPRO XR has T-slot rails along the full bed for crossbars, racks and tents over the cover. Rough Country says its low-profile cover is compatible with bed racks, and a Ranger6G thread covers adding a rack while keeping a roll-up cover. Most folding covers leave nowhere to mount a rack, so choose the rack first."),
+  "Yes, with the right cover. The RetraxPRO XR has T-slot rails along the full bed for crossbars, racks and tents over the cover. Rough Country says its low-profile cover is compatible with bed racks, and a Ranger6G thread covers adding a rack while keeping a roll-up cover. Most folding covers leave no rail for a rack. Pick the cover and the rack together, as a pair that both makers confirm, because either one can rule the other out."),
  ("Are BAKFlip MX4 covers reliable on the new Ranger?",
   "Owner reports are mixed. On Ranger6G, one 2025 Ranger Raptor owner couldn't get the MX4's latches to snap under the rail and was offered a replacement, and another had seal failures handled under warranty, while several others reported easy installs and no issues. One owner who switched went to an UnderCover ArmorFlex and was happy with it. The 5-year warranty is the safety net; keep your proof of purchase and register it."),
 ]
@@ -35,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six covers for the new-generation 2024–2026 Ranger's 5 ft bed, from a $239 soft tri-fold to a $2,100 rack-ready retractable. For each one we list load rating, warranty, install time, Raptor fit and whether it works with Ford's bed cargo rails, plus what changed on the 2026 bed.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment each maker lists for the 2024+ Ranger and Ranger Raptor, and on what owners report on the Ranger6G forum. Prices were checked at RealTruck, Rough Country and Tyger Auto in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**New truck, new bed, new part numbers.** The 2024 Ranger's bed is about 59.6 in long and 48.2 in between the wheel wells. 2019–2023 Ranger covers are sold as different parts and shouldn't be cross-shopped.",
@@ -55,7 +56,7 @@ ARTICLE = {
   "caption": "2024–2026 Ranger bed vs the 2019–2023 truck",
   "head": ["Truck", "Inside bed length", "Between wheel wells", "Notes"],
   "rows": [
-   ["2024–2025 Ranger (XL, XLT, Lariat)", "59.6 in (sold as 5 ft / 5'1\" / 60 in)", "48.2 in", "SuperCrew only in the US. Use 2024+ part numbers."],
+   ["2024–2025 Ranger (XL, XLT, Lariat)", "59.6 in (sold as 5 ft / 5'1\" / 60 in)", "48.2 in", "SuperCrew with a 5 ft bed only, per MotorWeek's launch report. Use 2024+ part numbers."],
    ["2024–2025 Ranger Raptor", "Same 5 ft bed", "48.2 in", "Most branded covers list it; Rough Country excludes it."],
    ["2026 Ranger", "5 ft", "48.2 in", "Owner reports thinner bed rail caps. BAK lists MX4 448352 for 2026."],
    ["2019–2023 Ranger (previous gen)", "61 in (5 ft) / 72.7 in (6 ft)", "44.8 in", "Different covers; see the 2019–2023 Ranger guide."],
@@ -67,11 +68,11 @@ ARTICLE = {
   {"h": "Model year matters inside the generation",
    "body": "A Ranger6G owner who moved a cover from his 2025 to a new 2026 found the 2026 bed rail caps thinner, about half an inch by his measurement, with the old cover's rails floating above them. RealTruck posted in a separate thread that the 2026 caps are slightly different and makers adjusted their mounts, and one member said only early builds were affected. BAK now lists a separate MX4 part, 448352, for the 2026 Ranger. Read the year range in the listing title, and on a 2026 truck prefer a part that names 2026."},
   {"h": "Raptor and cargo management rails",
-   "body": "Two options change which covers fit. The Raptor has the 5 ft bed, and BAK, UnderCover, Retrax and TruXedo list it, but Rough Country says its low-profile cover doesn't fit Raptor beds because of design differences. Ford also offers a cargo management rail system along the bed sides. Retrax says the RetraxPRO XR and RetraxONE MX are not compatible with it, and Rough Country says its cover doesn't fit OEM cargo systems. One Ranger6G owner fitted an UnderCover Ultra Flex beside the rails without interference."},
+   "body": "Two options change which covers fit. The Raptor has the 5 ft bed, and BAK, UnderCover, Retrax and TruXedo list it, but Rough Country says its low-profile cover doesn't fit Raptor beds because of design differences. Ford also offers a cargo management rail system along the bed sides. RealTruck's listings for the RetraxPRO XR and RetraxONE MX say they are not compatible with the bed cargo management system, and Rough Country says its cover doesn't fit OEM cargo systems. One Ranger6G owner fitted an UnderCover Ultra Flex beside the rails without interference."},
   {"h": "Load rating and what 'hard' really means",
    "body": "The published distributed-load rating is the fairest way to compare hard covers. The RetraxPRO XR's aluminum slats are rated for 500 lb, and the BAKFlip MX4 and UnderCover Ultra Flex, both aluminum over a polymer core, for 400 lb. Rough Country doesn't publish a number for its aluminum tri-fold, so treat it as a lockable lid. Soft vinyl covers carry no rating. If you want to lay camp gear on top or leave snow on the truck, buy a cover with a number on it."},
   {"h": "Racks, tents and the canister",
-   "body": "The new Ranger is popular for overlanding, so think about a rack before you buy a cover. A folding cover leaves nowhere to mount one. The RetraxPRO XR adds T-slot rails for crossbars, racks and tents over the cover, and Rough Country says its low-profile tri-fold works with bed racks. A retractable's canister takes roughly 10–11 in at the front of the bed, a real share of a 5 ft box, although flat items slide underneath. A roll-up keeps the bed nearly clear."},
+   "body": "If you want a rack, pick it and the cover together. Most folding covers leave no rail for a rack. The exception on this page is Rough Country's low-profile tri-fold, which Rough Country says is compatible with bed racks. The RetraxPRO XR adds T-slot rails for crossbars, racks and tents over the cover. A retractable's canister takes roughly 10–11 in at the front of the bed, a real share of a 5 ft box, although flat items slide underneath. A roll-up keeps the bed nearly clear."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -111,7 +112,7 @@ ARTICLE = {
   {"asin": "B0DJGVMJJS", "role": "Best retractable", "price": "$2,100",
    "pros": ["500 lb rating, the highest here", "Full-length T-slot rails for racks, crossbars and tents", "Locks at any position (TraxLatch)", "Opens independently of the tailgate", "Limited lifetime warranty"],
    "cons": ["Most expensive cover here", "Not compatible with Ford's cargo management system", "Canister takes about 10–11 in of a 5 ft bed", "Roller repairs mean pulling the canister"],
-   "body": "For a Ranger that goes camping, the RetraxPRO XR solves a problem no folding cover can: it carries a rack. Integrated T-slot rails run the full length of the bed, so crossbars, bike mounts or a rooftop-tent rack bolt on over the closed cover. The cover itself is Retrax's top model, with double-wall aluminum slats rated for 500 lb evenly distributed, CoreTrax sealed rollers, and a key-lockable TraxLatch that holds it open at any position. It works regardless of the tailgate. RealTruck lists part T-80338 for the 2024–2025 Ranger and Ranger Raptor at $2,099.99 (list $2,399.99), with a limited lifetime warranty and a no-drill, four-clamp install under an hour.\n\nThere are two catches. Retrax says it is not compatible with Ford's bed cargo management system, so it's out if you have those rails. And the canister takes roughly 10–11 in at the front of the bed, per Rack Attack's Retrax guide, which also notes a little water can get past the tailgate gap in heavy rain and that roller repairs mean unbolting the canister. The Amazon title reads 24–25 Ranger; 2026 owners should confirm fit.",
+   "body": "For a Ranger that goes camping, the RetraxPRO XR does what no folding cover on this page does: it carries a rack on its own rails. Integrated T-slot rails run the full length of the bed, so crossbars, bike mounts or a rooftop-tent rack bolt on over the closed cover. The cover itself is Retrax's top model, with double-wall aluminum slats rated for 500 lb evenly distributed, CoreTrax sealed rollers, and a key-lockable TraxLatch that holds it open at any position. It works regardless of the tailgate. RealTruck lists part T-80338 for the 2024–2025 Ranger and Ranger Raptor at $2,099.99 (list $2,399.99), with a limited lifetime warranty and a no-drill, four-clamp install under an hour.\n\nThere are two catches. RealTruck's listing says it is not compatible with the bed cargo management system, so it's out if you have Ford's cargo rails. And the canister takes roughly 10–11 in at the front of the bed, per Rack Attack's Retrax guide, which also notes a little water can get past the tailgate gap in heavy rain and that roller repairs mean unbolting the canister. The Amazon title reads 24–25 Ranger; 2026 owners should confirm fit.",
    "who": "Overlanders and daily users who want a lockable, fully opening bed with a rack on top.",
    "specs": [["Type", "Retractable (manual), rack-ready"], ["Part #", "T-80338"], ["Fits", "2024–2025 Ranger & Ranger Raptor, 5 ft"], ["Material", "Double-wall aluminum slats"], ["Load rating", "500 lb distributed"], ["Rails", "Full-length T-slot"], ["Lock", "Key-lockable TraxLatch, infinite positions"], ["Install", "<60 min, 4 clamps, no drill"], ["Warranty", "Limited lifetime (original buyer)"]]},
   {"asin": "B0D4R2FC8H", "role": "Best soft roll-up", "price": "$490",
@@ -155,12 +156,14 @@ ARTICLE = {
   ["BAKFlip MX4 448342 (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448342/"],
   ["UnderCover Ultra Flex UX22033 (RealTruck)", "https://realtruck.com/p/undercover-ultra-flex-tonneau-cover/udc-ux22033/"],
   ["RetraxPRO XR T-80338 (RealTruck)", "https://realtruck.com/p/retraxpro-xr-tonneau-cover/rtx-t-80338/"],
+  ["RetraxONE MX 60338: cargo management note, 200 lb rating, one-year warranty (RealTruck)", "https://realtruck.com/p/retraxone-mx-tonneau-cover/rtx-60338/"],
   ["TruXedo Lo Pro 531701 (RealTruck)", "https://realtruck.com/p/truxedo-lo-pro-tonneau-cover/trx-531701/"],
   ["Rough Country Hard Low Profile Bed Cover 47220520B", "https://www.roughcountry.com/product/ford-low-profile-tonneau-cover-47220520b"],
   ["Tyger T3 TG-BC3F1205 (Tyger Auto)", "https://www.tygerauto.com/tg-bc3f1205/tyger-t3-soft-tri-fold-fit-2024-2025-ford-ranger-5-bed.html"],
   ["2024 Ford Ranger bed dimensions (Sutton Ford)", "https://www.suttonford.com/ford-research/2024-ford-ranger-bed-size/"],
   ["PSA: 2026 bed rail caps thinner than 2025 (Ranger6G)", "https://www.ranger6g.com/forum/threads/psa-bed-rail-caps-on-26-are-thinner-than-25-tonneau-covers-will-not-fit.27250/"],
   ["Tonneau cover with Ranger's cargo management system (Ranger6G)", "https://www.ranger6g.com/forum/threads/tonneau-cover-with-rangers-cargo-management-system.21110/"],
+  ["2024 Ford Ranger launch: SuperCrew with 5 ft bed only (MotorWeek)", "https://motorweek.org/this_just_in/all-new-2024-ford-ranger-debuts-stateside-with-better-looks-more-power-and-first-ever-raptor"],
  ],
 }
 

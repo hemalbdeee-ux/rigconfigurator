@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The fourth-generation Pilot tows 5,000 lb with all-wheel drive and 3,500 lb with two-wheel drive. The TrailSport comes with a Class III hitch from the factory; every other trim needs Honda's dealer-installed accessory or an aftermarket receiver. Here are five 2 in hitches listed for the 2023–2026 Pilot, with ratings, the full-size spare exclusion and the hands-free tailgate catch.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. Picks were chosen on the ratings and fitment Draw-Tite and CURT publish for the 2023–2026 Pilot, and on Amazon listing titles that name the fourth-generation Pilot. Tow ratings and TrailSport equipment come from Honda's 2023 Pilot press kit and Honda Info Center. Prices were checked in September 2026 where a price was published; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**TrailSport owners are done.** Honda fits an integrated Class III hitch as standard on the TrailSport, and on no other trim.",

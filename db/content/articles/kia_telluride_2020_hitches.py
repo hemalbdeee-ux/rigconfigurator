@@ -40,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The first-generation Telluride tows 5,000 lb, and the X-Pro (2023–2025) is listed at 5,500 lb, but the brand-name hitches for it are rated at 5,000 lb. That makes the Telluride one of the few SUVs where the hitch can be the tighter limit. Here are five 2 in hitches for 2020–2025, the Kia OEM option, and the wiring change between 2022 and 2023.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. Picks were chosen on the ratings and fitment CURT and Draw-Tite publish for the 2020–2025 Telluride, harness fitment from CURT, and Amazon listing titles that name the Telluride. Tow ratings come from Kia's 2023 press kit, a Kia dealer page and a reference page; owner reports come from threads we read on KiaTelluride.org and TellurideForum. Pages checked September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**The hitch can be the limit.** CURT 13420 and Draw-Tite 76420 are rated 5,000 lb GTW. That matches most Tellurides, but the X-Pro (2023–2025) is listed at 5,500 lb.",

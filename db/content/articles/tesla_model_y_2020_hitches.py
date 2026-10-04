@@ -40,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Tesla's $1,300 factory tow package against six aftermarket hitches for the 2020–2026 Model Y, sorted by build year, with the 3,500 lb tow limit, the 160 lb bike-rack limit, and the Juniper fit changes most lists skip.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published ratings (class, gross trailer weight, tongue weight), on the Model Y build years each maker or listing names, and on install details from CURT, Stealth Hitches and etrailer. The vehicle's limits come from Tesla's Model Y owner's manual and the Tesla Shop. We reopened the manual on October 4, 2026 for its wording on accessory carriers, warranty and Trailer Mode, and we report that wording without having confirmed how Tesla service applies it. Prices were checked at Tesla, etrailer and the makers in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Tesla's limits cap every hitch.** The manual gives 3,500 lb towing, 350 lb tongue weight and 160 lb vertical load for bike racks. A hitch rated 525 lb tongue weight doesn't change that.",

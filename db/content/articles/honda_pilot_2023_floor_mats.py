@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six floor liner options for the 4th-generation Pilot, from Smartliner's three rows plus cargo to Husky's made-in-USA second and third-row pieces. The Pilot's removable second-row middle seat is the quirk to plan around: the walkway it leaves needs covering too.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2023–2026 Pilot (rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**New generation in 2023.** 2016–2022 liners don't fit.",

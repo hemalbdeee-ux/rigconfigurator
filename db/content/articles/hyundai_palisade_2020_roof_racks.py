@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The first-generation Palisade's side rails sit tight to the roof, so the rack world treats it as a flush-rail SUV. Here are six crossbar sets listed for the 2020–2025 Palisade, from a $700 Thule Evo system down to lockable bars around $100, with load ratings, crossbar spread and the fit mistakes that send bars back.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. Picks were chosen on the fitment each maker or seller lists for the 2020–2025 Palisade, on published specs (load rating, fit kit, bar length, warranty), and on what etrailer's fit experts and reviewers report for this SUV. The roof rails load capacity comes from Hyundai's 2020, 2023 and 2024 Palisade specification sheets. Thule system prices were checked at etrailer and The Rack Shop in September 2026. Amazon prices move daily, so the button shows the live price; where we give a band for a generic bar, treat it as a guide.",
  "takeaways": [
   "**The Palisade has flush side rails, not raised ones.** Thule fits it with Evo Flush Rail feet and kit 6008, and etrailer's Palisade list has no raised-rail towers. Raised-rail clamps that wrap under the rail won't grip.",

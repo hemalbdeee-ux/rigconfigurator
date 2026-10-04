@@ -5,6 +5,7 @@ db/migrations/003_vehicles.sql, the Tesla Shop and the Model 3 roof-rack page's 
 Boxes are universal; the Model 3-specific part is the glass roof with fixed points, Tesla's 150 lb rating,
 the short 28 in crossbar spread, trunk-lid clearance and range.
 Source fixes 2026-10-04: reworded 150 lb as the Tesla Shop's load rating for Tesla's own rack (495 lb static load limit) and stated that the owner's manual prints no roof load (TITLE "150 lb Roof" became "150 lb Rack", FAQ, method, takeaways, fit_table, look_for, verdict); added the manual's wording on Tesla-approved roof racks with "we could not confirm whether Tesla approves any aftermarket bars" (FAQ, takeaways, install, verdict); replaced the hitch-carrier FAQ and the verdict's hitch sentence with Tesla's manual caution on accessory carriers and removed "1.25 in" (most hitches in the hitch guide are 2 in); attributed the Highland dates (Tesstudio and TESEVO build splits, Wikipedia order date) and pointed readers to the door-jamb build date.
+Text fixes 2026-10-04 (round 2): fit_table cell "Fixed points only" became "Fixed mounting points", so it no longer rules out the door-frame clip system the roof rack guide documents from etrailer's listing; reviewed date updated.
 """
 
 KEY = ("tesla", "model-3", "2017-present", "cargo-boxes")
@@ -39,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six rooftop boxes from Thule, Yakima, INNO, Rhino-Rack and SportRack matched to the Model 3's glass roof, fixed mounting points and short 28 in crossbar spread. For each one we list volume, length, height, weight and spread range, and what those numbers mean for Tesla's 150 lb rating, trunk-lid clearance and range, on 2017–2023 cars and the 2024 Highland.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Thule, Yakima, Rhino-Rack and SportRack product pages, and etrailer's listing for the INNO box): volume, exterior dimensions, box weight, load rating, crossbar spread and warranty. We then matched those numbers to the 150 lb load rating the Tesla Shop gives Tesla's own Model 3 Roof Rack, the 28 in factory crossbar spread cited by etrailer's experts, the sedan's trunk lid and the range cost published by fueleconomy.gov. We reopened Tesla's Model 3 owner's manual and the Tesla Shop on October 4, 2026 for the wording on roof racks, roof load and accessory carriers. Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Bars first, on fixed points.** The Model 3 has a glass roof and no rails. Bars bolt into fixed points under the trim; Tesla's rack fits all Model 3, and aftermarket bars split 2017–2023 and Highland. Tesla's manual says to use 'only roof rack systems that have been approved by Tesla'. We could not confirm whether Tesla approves any aftermarket bars, so ask Tesla.",
@@ -62,7 +63,7 @@ ARTICLE = {
    ["Original Model 3", "Builds to Oct 2023 (2023.10), per Tesstudio and TESEVO", "Tesla rack, or aftermarket bars listed 2017–2023", "Spread about 28 in (etrailer, factory rack); 150 lb rack rating (Tesla Shop)"],
    ["Highland refresh", "Builds from Nov 2023 (2023.11), per Tesstudio; North American orders from January 10, 2024, per Wikipedia", "Tesla rack, or bars listed for Highland / 2024+", "Same boxes; confirm the bars' spread and check the door-jamb build date"],
    ["All Model 3, Tesla rack", "2017–2026", "Tesla Model 3 Roof Rack ($400, 150 lb load rating, 495 lb static load limit)", "T-slots for cargo box hardware"],
-   ["All Model 3", "Glass roof, no opening panel", "Fixed points only; no rail or gutter clamps", "No sunroof path; watch garage height and trunk lid"],
+   ["All Model 3", "Glass roof, no opening panel", "Fixed mounting points; no rail or gutter clamps", "No sunroof path; watch garage height and trunk lid"],
   ],
  },
  "look_for": [

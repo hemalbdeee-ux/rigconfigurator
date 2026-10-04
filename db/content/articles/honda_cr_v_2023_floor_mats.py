@@ -41,7 +41,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven floor and cargo liner picks for the 6th-generation CR-V, from Husky's made-in-USA WeatherBeater to $80 TPE. The cabin fits gas and hybrid alike on most sets; the cargo area is where you need to check powertrain and the upper or lower deck position.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2023–2026 CR-V (gas, hybrid, cargo deck position), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky claims come from its own site, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Cabin liners usually cover gas and hybrid.** Check the title anyway.",

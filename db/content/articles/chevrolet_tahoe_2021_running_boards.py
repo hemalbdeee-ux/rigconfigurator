@@ -47,7 +47,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five side steps listed for the 5th-generation Tahoe, from $150 fixed boards to Rough Country's power-deployable steps with LED lights. The fit trap is length: Tahoe and Yukon boards don't fit the Suburban or Yukon XL.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these steps ourselves. We ranked them on the fitment each listing states for the 2021–2026 Tahoe (and Yukon), on the features and materials stated in listings, and on type (fixed or power). Brand-name documentation for Tahoe boards is thinner than for pickups, so we say where a spec is from the listing. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Tahoe and Yukon share boards.** Suburban and Yukon XL don't.",

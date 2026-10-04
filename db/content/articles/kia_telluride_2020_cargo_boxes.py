@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule and SportRack matched to the first-generation Telluride's long roof, from a 30 lb compact box to a 21 cu ft Thule Motion 3 XXL. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the flush rails, the X-Line and X-Pro raised rails, and the gap between the roof's 220 lb figure and common 165 lb crossbar ratings.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule and SportRack: volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on etrailer's spread figures for the Thule and SportRack boxes, on how those specs fit the Telluride's rails, crossbar spread and liftgate, and on the roof rack load printed in Kia's 2024 owner's manual and the bar ratings on the retailer pages listed below. Prices were checked on the makers' stores and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Two rail types.** The standard trims (LX through SX-P) have flush rails; the 2023–2025 X-Line and X-Pro have raised rails. Crossbars differ, and the box goes on the bars.",

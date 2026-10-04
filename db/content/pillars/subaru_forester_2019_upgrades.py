@@ -29,11 +29,15 @@ Not verified, and worded as such in the text: Subaru's roof figures for model ye
 2019 sheet prints none as we read it); a static figure for the standard rails from any source but the 2022 release;
 whether the 2019–2021 rails differ in shape from the 2022–2024 rails; what differs physically on the Wilderness
 rails; whether the Base trim's optional rails match the other trims' rails; the vehicle tongue weight limit for
-2019–2021 (150 lb in the hitch guide, read by us only on the 2022–2024 hitch page); whether any Forester ships
-with a factory-fitted receiver; whether the 2025 Wilderness kept the 2019–2024 body; why Subaru's liner accessory is
+2019–2021 (the L101SSJ001 dealer page prints 176 lb, the 2022–2024 hitch page 150 lb); whether any Forester ships
+with a factory-fitted receiver; whether Subaru itself documents the 2025 Wilderness as the 2019–2024 body (Wikipedia
+says only the Wilderness was offered for 2025; the dealer hitch page agrees); why Subaru's liner accessory is
 not offered on the Wilderness; 2025–2026 fit of crossbar and hitch listings titled past 2024; the Wsays hitch's
 ratings and Wilderness fit; crossbar weights; the SportRack Vista XL's weight; crossbar spread for the Thule boxes.
 No Forester guide exists for running boards, lighting or bike racks; none are ranked.
+Text fixes 2026-10-04: kept consistent with the four guides' text fixes: floor liner fit stated as one listing fit
+for 2019–2024 (not one floor for every trim); 2019–2021 tongue weight shown as not confirmed (176 lb on the
+L101SSJ001 dealer page, 150 lb on the 2022–2024 page); 2025 Wilderness attributed to Wikipedia and the dealer listing.
 """
 
 KIND = "upgrades"
@@ -46,8 +50,8 @@ META = ("Four 2019–2024 Forester upgrades in buying order: floor liners, roof 
 
 FAQ = [
  ("What should I upgrade first on a 2019–2024 Subaru Forester?",
-  "Floor liners, then crossbars. Liners cost the least, about $80–$170 in the floor liner guide, and one floor "
-  "serves every 2019–2024 trim. A roof rack is second: the Amazon crossbar sets for the raised rails run about "
+  "Floor liners, then crossbars. Liners cost the least, about $80–$170 in the floor liner guide, and the listings "
+  "cover 2019–2024 as one fit. A roof rack is second: the Amazon crossbar sets for the raised rails run about "
   "$80–$170, and Subaru's sheets give the standard roof 176 lb against 150 lb of tongue weight at the hitch. A "
   "trailer hitch is third at about $120–$280 from the aftermarket, mainly for a bike rack. The cargo box is last "
   "because it costs the most and needs the bars first."),
@@ -63,11 +67,11 @@ FAQ = [
   "guide lists a Forester configuration with no rails or crossbars. Without rails, none of the clamp-on crossbars "
   "in the roof rack guide will mount, and the guide's route is a door-jamb clamp system from Thule or Yakima."),
  ("Does the Forester Wilderness need different parts?",
-  "For the roof, yes. The Wilderness was sold with this body for 2022–2024, and the crossbar listings in the roof "
+  "For the roof, yes. The Wilderness was sold with this body for 2022–2024, and for 2025 per Wikipedia, and the crossbar listings in the roof "
   "rack guide say \"except Wilderness\" or \"not Wilderness\". The guide found no Amazon set titled for it and "
   "points to a Thule or Yakima system entered in the fit guide as Wilderness. Subaru rates its rails at 220 lb "
   "dynamic and 800 lb static and the trim at 3,000 lb of towing. Aftermarket floor liners titled 2019–2024 carry "
-  "no trim exclusion."),
+  "no trim exclusion, but Subaru's sheets don't offer its own liners on this trim, so confirm the fit."),
  ("How much can a 2019–2024 Forester tow, and does an aftermarket trailer hitch raise it?",
   "A hitch never raises it. Subaru's 2019 trim comparison sheet lists 1,500 lb for every trim, and the 2022 and "
   "2024 sheets list 1,500 lb for every trim except the Wilderness, which is rated at 3,000 lb. A Subaru dealer "
@@ -90,7 +94,7 @@ FAQ = [
   "and 800 lb. Subaru's catalog says its SOA367010 aero crossbars do not support rooftop tents, so use a rated "
   "aftermarket system. We could not confirm the static figure for 2019–2021 cars, so check the owner's manual."),
  ("Will 2019–2024 Forester parts fit a 2025 Forester, and do 2014–2018 parts fit mine?",
-  "Treat floor liners and crossbars as no. The 2025 Forester is a new generation, and Husky sells a separate liner "
+  "Treat floor liners and crossbars as no. The 2025 Forester is a new generation, except the Wilderness per Wikipedia, and Husky sells a separate liner "
   "set, 95381, for 2025–2026. Hitches are the grey area: Draw-Tite, CURT and Reese list their Forester hitches for "
   "2019–2026, so confirm with the maker's fit checker. Going back, 2014–2018 liners don't fit, but some clamp-on "
   "crossbars are titled 2014–2024 because they grip raised rails."),
@@ -121,13 +125,13 @@ ARTICLE = {
   "**The roof figure is Subaru's, not the bar's.** Its 2022 and 2024 sheets print 176 lb for standard rails, and 220 lb dynamic and 800 lb static for the Wilderness.",
   "**The hitch is for bikes and a small trailer.** Subaru lists 1,500 lb, or 3,000 lb for the Wilderness, and a dealer listing gives 150 lb and 300 lb of tongue weight.",
   "**Choose 2 in for bike racks.** Many larger platform racks are sold only in 2 in.",
-  "**Read the years on every listing.** The 2025 Forester is a new generation, yet some titles run to 2025 or 2026.",
+  "**Read the years on every listing.** The 2025 Forester is a new generation, except the Wilderness per Wikipedia, yet some titles run to 2025 or 2026.",
  ],
  "priority": [
   {"category": "floor-mats",
-   "h": "1. Floor liners first: one floor for six model years, and the lowest price on the page",
+   "h": "1. Floor liners first: one fit for six model years, and the lowest price on the page",
    "why": "Floor liners lead on the Forester because they cost the least and their fit is the simplest of the "
-          "four. The floor liner guide found one cabin floor across 2019–2024, Wilderness included, so the only "
+          "four. The liner listings in the floor liner guide cover 2019–2024 as one fit, so the main "
           "check is the year range in the title. Husky sells a separate 95381 set for the 2025 Forester. Prices in "
           "the guide run about $80–$120 for Subaru's J501SSJ030 set of four, about $90–$130 for IKABEVEM's set "
           "with a cargo liner, about $100–$140 for LASFIT's or 3W's TPE sets and about $130–$170 for Husky's "
@@ -242,9 +246,9 @@ ARTICLE = {
            "every trim. The 2022 and 2024 sheets list 1,500 lb on every trim except the Wilderness, at "
            "**3,000 lb**. The 2024 sheet notes that trailer brakes may be needed.\n\n"
            "**Tongue weight.** This is the limit for a bike rack or cargo carrier. A Subaru dealer listing for the "
-           "2022–2024 factory hitch gives 150 lb for non-Wilderness trims and 300 lb for the Wilderness. The hitch "
-           "guide applies 150 lb to 2019–2021 cars as well. We did not read a Subaru page for those years, so "
-           "check the owner's manual.\n\n"
+           "2022–2024 factory hitch gives 150 lb for non-Wilderness trims and 300 lb for the Wilderness. The dealer "
+           "page for the 2019–2021 kit, L101SSJ001, prints 176 lb. We could not confirm which figure Subaru "
+           "applies to a 2019–2021 car, so check the owner's manual and plan on 150 lb until you have.\n\n"
            "**1.25 in or 2 in.** Every aftermarket hitch with published ratings in the guide is rated at 3,500 lb, "
            "so receiver size is the real choice. The guide notes that many larger platform bike "
            "racks are sold only in 2 in. The 1.25 in Draw-Tite 36671 and Reese 06191 weigh 27.5 lb, against 34 lb "
@@ -255,10 +259,10 @@ ARTICLE = {
    "table": {"caption": "2019–2024 Forester towing by version (Subaru's figures; your owner's manual is the authority)",
              "head": ["Version", "Max tow", "Max tongue weight", "Subaru's accessory hitch"],
              "rows": [
-              ["2019–2021, every trim", "1,500 lb (2019 sheet)", "150 lb per the hitch guide; confirm in the manual", "L101SSJ001, 1-1/4 in, listed as Class One"],
+              ["2019–2021, every trim", "1,500 lb (2019 sheet)", "Not confirmed: the dealer page for L101SSJ001 prints 176 lb; use the owner's manual", "L101SSJ001, 1-1/4 in, listed as Class One"],
               ["2022–2024 Base, Premium, Sport, Limited, Touring", "1,500 lb", "150 lb", "L101SSJ005, 2 in; harness and hitch plug included, ball mount separate"],
               ["2022–2024 Wilderness", "3,000 lb", "300 lb", "L101SSJ005, 2 in"],
-              ["2025 Wilderness", "3,000 lb per the dealer listing", "300 lb per the dealer listing", "A dealer lists L101SSJ005 for this 2025 trim only"],
+              ["2025 Wilderness (older body per Wikipedia)", "3,000 lb per the dealer listing", "300 lb per the dealer listing", "A dealer lists L101SSJ005 for this 2025 trim only"],
              ]}},
   {"h": "Model years: the 2022 refresh, the 2014–2018 Forester and the 2025 Forester",
    "body": "This site's vehicle data and all four guides treat 2019–2024 as one generation. Four kinds of listing "
@@ -275,9 +279,10 @@ ARTICLE = {
            "2019–2025. Hitch makers are the exception, since Draw-Tite, CURT and Reese list their "
            "Forester hitches for 2019–2026.\n\n"
            "**The 2025 Wilderness.** A Subaru dealer lists the 2022–2024 factory hitch for the 2025 Forester "
-           "Wilderness and no other 2025 trim, and Wikipedia dates the new-generation Wilderness to the 2026 model "
-           "year. That suggests the 2025 Wilderness kept the older body. We could not confirm it from Subaru, so "
-           "2025 Wilderness owners should check every part by VIN."},
+           "Wilderness and no other 2025 trim. Wikipedia says the outgoing Forester ended after the 2024 model "
+           "year except for the Wilderness, which was offered for 2025, and that the redesigned Wilderness went on "
+           "sale as a 2026 model. So treat a 2025 Wilderness as the older body. We could not confirm it from "
+           "Subaru, so 2025 Wilderness owners should check every part by VIN."},
   {"h": "Roof or hitch: where the weight goes, what isn't ranked and the order to fit things",
    "body": "The Forester is a two-row SUV with no bed, so cargo that won't fit inside goes on the roof or behind "
            "the bumper. On standard trims Subaru's numbers are close: 176 lb on the roof against 150 lb on the "
@@ -308,7 +313,7 @@ ARTICLE = {
   "thesis": "On the 2019–2024 Forester, buy floor liners by generation first, crossbars by rail type second, a 2 in trailer hitch planned around 150 lb of tongue weight third, and a cargo box last, once the bars and the 176 lb roof math are settled.",
   "body": "The fifth-generation Forester is easy to accessorize once four facts are written down: model year, "
           "whether the roof has rails, Wilderness or not, and whether a receiver is already fitted. Floor liners "
-          "need only the year, since every trim shares one floor, and they cost the least. A roof rack needs the "
+          "need the year first, since the listings cover 2019–2024 as one fit, and they cost the least. A roof rack needs the "
           "rail answer. On standard raised rails an Amazon set costs about $80–$170, and Subaru's 2022 and 2024 "
           "sheets give that roof 176 lb, which is why it goes ahead of the trailer hitch. On a Base with no rails, "
           "swap the two.\n\n"

@@ -40,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six picks for the sixth-generation CR-V: five rooftop boxes from Thule, Rhino-Rack, INNO, Yakima and SportRack, from a 68.9 in Pulse 2 M to an 81 in SkyBox 16, plus a set of crossbars listed for the CR-V. For each box we list volume, length, weight and crossbar spread, and what those numbers mean for a bare roof (gas trims), roof rails (hybrid trims, or Honda's accessory rails) and the compact liftgate.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Thule, Rhino-Rack, Yakima and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, ski length, front clearance), on etrailer's figures for the INNO and SportRack boxes and its CR-V roof-type guide, on Honda accessory-rail parts listings, on Honda's 2023 and 2026 specification tables (we did not read the 2024 or 2025 tables), and on how those specs fit the CR-V's roof (bare on gas trims, black roof rails on hybrid trims) and liftgate. Prices were checked on the makers' stores, REI and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Gas trims have a bare roof; hybrids have rails.** Honda's 2023 and 2026 tables list black roof rails on the hybrid trims only. A bare roof needs a door-clamp crossbar kit listed for the 2023+ CR-V, or Honda's accessory rails plus flush-rail bars; a roof with rails needs a kit made for them. Racks for the 2017–2022 CR-V don't carry over.",

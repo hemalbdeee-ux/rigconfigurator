@@ -2,6 +2,7 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: specs come from the
 manufacturer pages in SOURCES (checked 2026-09-24); tow ratings from dealer/reference towing guides.
 Source fixes 2026-10-04: Draw-Tite 76595 class and weight-distribution wording now follow Draw-Tite's page (Class 4 in title and description, Class III and WD not compatible in its spec table); factory receiver tied to the Trailer-Tow Package (one dealer towing guide, singular); V8 worded by body and year per Wikipedia and the dealer guide; Wikipedia V6 remark removed; 2026 fascia note and 2.0L Hurricane 4 Turbo row added from Jeep's 2026 pages.
+Text fixes 2026-10-04 (round 2): the CURT 13525 install wording now follows CURT's own install sheet (rear bumper cover and factory bumper beam removed, no trimming or drilling step listed, rated Difficult, no install time given) in place of "rear quarter panels and bumper covering", which is not on CURT's product page or install sheet; CURT's note that the 13525 is not compatible with vertical-hanging bike racks added to the pick; install sheet added to sources.
 """
 
 KEY = ("jeep", "grand-cherokee", "2022-present", "hitches")
@@ -24,7 +25,7 @@ FAQ = [
  ("Will these hitches fit the Grand Cherokee 4xe?",
   "The Draw-Tite 76595 lists the 2022–2026 Grand Cherokee with no trim exclusion. CURT's 13525 excludes the two-row Trailhawk. Since the Trailhawk and 4xe overlap, 4xe Trailhawk owners should use the Draw-Tite or Mopar part and confirm fit with the seller. Tow ratings on the 4xe are lower than the V8: 6,000 lb on Trailhawk and higher trims, 3,500 lb on base 4xe trims per a dealer towing guide."),
  ("Do I have to remove the rear fascia to install a hitch?",
-  "Partly, for the concealed designs. CURT says the 13525 requires removal of rear quarter panels and the bumper covering because the main body sits hidden behind the fascia. Draw-Tite quotes 90 minutes for the 76595 with no drilling. Plan on a couple of hours, plastic trim tools, and a helper to hold the 41–42 lb hitch while you start the bolts. Jeep says the 2026 refresh brought new fascias. Draw-Tite and CURT both list the 2026 model for these hitches; ask the seller of any hitch whose listing stops at 2024 or 2025."),
+  "Yes, on the CURT. CURT's install sheet for the 13525 has you remove the rear bumper cover and the factory rear bumper beam, then bolt the hitch's side plates into the ends of the frame rails. The sheet lists no trimming or drilling step, rates the job Difficult and gives no install time. CURT's product page only describes the main body as concealed. Draw-Tite quotes 90 minutes for the 76595 with no drilling. Plan on a couple of hours, plastic trim tools, and a helper to hold the 41–42 lb hitch while you start the bolts. Jeep says the 2026 refresh brought new fascias. Draw-Tite and CURT both list the 2026 model for these hitches; ask the seller of any hitch whose listing stops at 2024 or 2025."),
  ("What wiring do I need to tow with a Grand Cherokee?",
   "A 4-way flat connector covers lights on small trailers. For a camper or boat with electric brakes you need a 7-way connector and a brake controller. A dealer towing guide says the available Trailer-Tow Package includes both 4- and 7-pin wiring. If you are adding a hitch to a vehicle without the package, add the harness to the same order."),
  ("Is a 7,500 lb hitch overkill on a Grand Cherokee?",
@@ -36,14 +37,14 @@ FAQ = [
 ARTICLE = {
  "dek": "Five receivers for the WL Grand Cherokee and Grand Cherokee L, from budget Class 3 units to Jeep's own Mopar part. We compare each hitch's rating with the Jeep's (6,200 lb V6, 7,200 lb V8 where it was offered, 6,000 lb 4xe) and flag the Trailhawk, L and 2022 WK traps.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published specs (gross trailer and tongue weight, weight-distribution ratings, weight, finish, install time, warranty) and on the fitment each maker lists for the 2022–2026 Grand Cherokee and 2021–2026 Grand Cherokee L. Tow ratings come from Jeep's 2026 capability page, a Jeep dealer towing guide and Wikipedia; confirm yours in the owner's manual. Amazon prices move daily, so the button shows the live price, and we give price bands where the maker doesn't publish a price.",
  "takeaways": [
   "**Tow ratings differ by powertrain.** Jeep lists 6,200 lb for the V6 and the 2026 2.0L turbo. A dealer towing guide lists 7,200 lb for the V8 where it was offered and 6,000 lb for the 4xe on Trailhawk and up, with base 4xe trims at 3,500 lb.",
   "**One aftermarket hitch fits both the two-row and the L.** The Draw-Tite 76595 and CURT 13525 list the 2022–2026 Grand Cherokee and 2021–2026 Grand Cherokee L.",
   "**The CURT excludes the two-row Trailhawk.** Trailhawk owners should buy the Draw-Tite or the Mopar part.",
   "**A 2022 \"Grand Cherokee WK\" is the old body.** 2011–2021 hitches fit it; they don't fit the WL.",
-  "**Concealed hitches mean fascia work.** CURT's install requires removing rear quarter panels and the bumper covering; Draw-Tite quotes 90 minutes.",
+  "**Concealed hitches mean fascia work.** CURT's install sheet has the rear bumper cover and the factory bumper beam come off; Draw-Tite quotes 90 minutes.",
  ],
  "top_picks": [
   {"asin": "B0B6JHB6W3", "role": "Best overall", "why": "7,500 lb / 1,125 lb, fits two-row and L, no drilling"},
@@ -72,7 +73,7 @@ ARTICLE = {
   {"h": "Trailhawk, the L and the Mopar split",
    "body": "The aftermarket hitches are sold as one part for the two-row and the L. CURT's 13525 excludes the two-row Trailhawk but fits every Grand Cherokee L trim. Wikipedia notes the Trailhawk was never offered on the L, so the exclusion only affects two-row owners. Draw-Tite lists the 76595 for both with no trim exclusion. Mopar goes the other way and splits by body: 82219040AA for the two-row and 82219041AA for the L. Order the Mopar part that matches your row count. The L is the one with a third row and the longer body behind it."},
   {"h": "Concealed design means fascia work",
-   "body": "WL hitches are concealed: the crossbar sits behind the rear fascia and only the receiver shows. That looks factory, but it makes the install longer than on a body-on-frame Jeep. CURT says the 13525 requires removal of the rear quarter panels and the bumper covering, and both brand-name hitches weigh 41–42 lb. Draw-Tite quotes 90 minutes for the 76595 with no drilling. If you are not comfortable removing fascia clips, a shop install is a reasonable add-on to the price. Keep track of the fascia clips as they come out, because a missing one lets the fascia rattle. Jeep describes the 2026 refresh as bringing new fascias, without saying whether the rear one changed. Draw-Tite and CURT list the 2026 model for these part numbers, so confirm 2026 fit with the seller of any hitch whose listing stops earlier."},
+   "body": "WL hitches are concealed: the crossbar sits behind the rear fascia and only the receiver shows. That looks factory, but it makes the install longer than on a body-on-frame Jeep. CURT's install sheet for the 13525 has the rear bumper cover and the factory bumper beam removed, lists no trimming or drilling step, and rates the job Difficult. Both brand-name hitches weigh 41–42 lb. Draw-Tite quotes 90 minutes for the 76595 with no drilling. If you are not comfortable removing fascia clips, a shop install is a reasonable add-on to the price. Keep track of the fascia clips as they come out, because a missing one lets the fascia rattle. Jeep describes the 2026 refresh as bringing new fascias, without saying whether the rear one changed. Draw-Tite and CURT list the 2026 model for these part numbers, so confirm 2026 fit with the seller of any hitch whose listing stops earlier."},
   {"h": "Wiring, and the factory tow package",
    "body": "A dealer towing guide describes the available Trailer-Tow Package as including a Class IV hitch receiver and 4- and 7-pin wiring. Only a Grand Cherokee built with that package has a factory receiver. The Amazon listing for Mopar's replacement receiver calls it a Class III, 2 in part that is the same as production, so read the label on yours rather than trusting a class number. If your vehicle has no receiver, it probably has no trailer wiring at the rear either. Add a vehicle-specific harness to the order: 4-way for lights on small trailers, 7-way plus a brake controller for campers and boats with electric brakes. Route the plug clear of the exhaust and keep it capped when not in use."},
  ],
@@ -93,7 +94,7 @@ ARTICLE = {
   "rows": [
    ["OEM Mopar receiver", "$300–$500 band", "Class III, 2 in, same as production (per listing); no GTW/TW published", "Dealer or DIY; fascia work", "Factory match, lease vehicles"],
    ["Draw-Tite concealed", "$250–$340 band", "7,500 lb / 1,125 lb", "90 min, no drill", "Two-row and L; no trim exclusion listed"],
-   ["CURT concealed", "$220–$300 band", "7,500 lb / 750 lb", "Quarter panels and bumper cover off", "Non-Trailhawk two-row, all L"],
+   ["CURT concealed", "$220–$300 band", "7,500 lb / 750 lb", "Bumper cover and bumper beam off (CURT install sheet)", "Non-Trailhawk two-row, all L"],
    ["Budget Class 3", "$130–$190 band", "Listing figures", "Bolt-on, fascia work", "Bike racks, light trailers"],
   ],
  },
@@ -106,10 +107,10 @@ ARTICLE = {
    "specs": [["Class", "4 in page title; III in spec table (Draw-Tite)"], ["Receiver", "2 in"], ["GTW / TW", "7,500 lb / 1,125 lb"], ["WD rating", "7,500 lb / 1,125 lb in description; spec table says not compatible, confirm"], ["Fits", "2022–2026 Grand Cherokee, 2021–2026 Grand Cherokee L"], ["Weight", "42 lb"], ["Finish", "Black powder coat over e-coat"], ["Install", "90 min, no drilling"], ["Warranty", "Limited lifetime"]]},
   {"asin": "B07NWF6VBS", "role": "Best CURT option", "price": "$220–$300",
    "pros": ["7,500 lb GTW / 750 lb TW", "Weight-distribution rated to 7,500 lb / 750 lb", "Fits all Grand Cherokee L trims", "Powder coat over rust-resistant A-coat, inside and out", "Open-back receiver for easy cleaning"],
-   "cons": ["Excludes the two-row Trailhawk", "Rear quarter panels and bumper covering must come off", "750 lb TW is lower than the Draw-Tite's 1,125 lb"],
-   "body": "CURT's 13525 is the other brand-name concealed hitch for the WL, and for most non-Trailhawk owners it does the same job as the Draw-Tite. It is a Class 3 with a 2 in receiver, rated 7,500 lb gross trailer weight and 750 lb tongue weight, with the same figures under weight distribution, so it also covers the V8's 7,200 lb rating. CURT co-cures the carbon steel in a liquid A-coat inside and out under gloss black powder coat, uses an open-back receiver that is easy to clean, and weighs 41 lb.\n\nThe fitment note matters. CURT lists it for the 2022–2026 Grand Cherokee and Grand Cherokee L, excluding the Trailhawk on the two-row and fitting every L trim. If you drive a two-row Trailhawk, choose the Draw-Tite or the Mopar part. CURT's page also warns that the concealed design requires removing the rear quarter panels and bumper covering, which adds time compared with a bolt-up behind a bumper. The warranty is limited lifetime, with one year on the finish and parts. The 750 lb tongue rating is ample for towing but below the Draw-Tite's 1,125 lb if you run a heavy rack.",
+   "cons": ["Excludes the two-row Trailhawk", "Rear bumper cover and factory bumper beam must come off (CURT install sheet)", "750 lb TW is lower than the Draw-Tite's 1,125 lb"],
+   "body": "CURT's 13525 is the other brand-name concealed hitch for the WL, and for most non-Trailhawk owners it does the same job as the Draw-Tite. It is a Class 3 with a 2 in receiver, rated 7,500 lb gross trailer weight and 750 lb tongue weight, with the same figures under weight distribution, so it also covers the V8's 7,200 lb rating. CURT co-cures the carbon steel in a liquid A-coat inside and out under gloss black powder coat, uses an open-back receiver that is easy to clean, and weighs 41 lb.\n\nThe fitment note matters. CURT lists it for the 2022–2026 Grand Cherokee and Grand Cherokee L, excluding the Trailhawk on the two-row and fitting every L trim. If you drive a two-row Trailhawk, choose the Draw-Tite or the Mopar part. CURT's install sheet has you remove the rear bumper cover and the factory rear bumper beam, lists no trimming or drilling step, and rates the job Difficult with no install time given. CURT's page also says the hitch is not compatible with bike racks that hang bicycles vertically. The warranty is limited lifetime, with one year on the finish and parts. The 750 lb tongue rating is ample for towing but below the Draw-Tite's 1,125 lb if you run a heavy rack.",
    "who": "Non-Trailhawk two-row owners and every Grand Cherokee L owner who wants a brand-name 7,500 lb hitch.",
-   "specs": [["Class", "3"], ["Part #", "CURT 13525"], ["Receiver", "2 in, open back"], ["GTW / TW", "7,500 lb / 750 lb"], ["WD rating", "7,500 lb / 750 lb"], ["Fits", "2022–2026 Grand Cherokee (not Trailhawk), all Grand Cherokee L"], ["Weight", "41 lb"], ["Install", "Remove rear quarter panels and bumper covering"], ["Warranty", "Limited lifetime (1-year finish, 1-year parts)"]]},
+   "specs": [["Class", "3"], ["Part #", "CURT 13525"], ["Receiver", "2 in, open back"], ["GTW / TW", "7,500 lb / 750 lb"], ["WD rating", "7,500 lb / 750 lb"], ["Fits", "2022–2026 Grand Cherokee (not Trailhawk), all Grand Cherokee L"], ["Weight", "41 lb"], ["Install", "Bumper cover and bumper beam off; no trimming or drilling step listed; rated Difficult (CURT install sheet)"], ["Warranty", "Limited lifetime (1-year finish, 1-year parts)"]]},
   {"asin": "B0BQ3S635H", "role": "Best OEM", "price": "$300–$500",
    "pros": ["Genuine Mopar receiver for the two-row WL", "Described on the listing as the same as production", "2 in receiver takes standard ball mounts and racks", "Keeps a lease or warranty-conscious vehicle all-OEM", "Separate L part (82219041AA) avoids mix-ups"],
    "cons": ["Two-row only; the L needs 82219041AA", "No GTW/TW figures in the listing; follow the Jeep's rating", "Wiring kit sold separately"],
@@ -131,7 +132,7 @@ ARTICLE = {
  ],
  "install": [
   "Confirm the vehicle is a WL (or a 2021+ L), not a 2022 Grand Cherokee WK, and check under the rear fascia for an existing receiver.",
-  "Remove the rear fascia fasteners and trim the instructions call for; CURT specifies the rear quarter panels and bumper covering for the 13525.",
+  "Remove the rear fascia fasteners and trim the instructions call for; CURT's sheet for the 13525 has the bumper cover and the factory bumper beam come off.",
   "Lift the 41–42 lb hitch into position with a helper or floor jack, start every bolt by hand, and fit spacers in the order shown.",
   "Torque all bolts to the maker's values, then refit the fascia and check that the receiver sits centered in its opening.",
   "Install a vehicle-specific 4-way or 7-way harness and, for braked trailers, a brake controller.",
@@ -150,6 +151,7 @@ ARTICLE = {
  "sources": [
   ["Draw-Tite 76595 Class 4 Trailer Hitch; spec table lists Hitch Class III (Draw-Tite)", "https://www.draw-tite.com/product/76595_class-iv-trailer-hitch"],
   ["CURT 13525 Class 3 Trailer Hitch (CURT)", "https://www.curtmfg.com/part/13525"],
+  ["CURT 13525 installation sheet: bumper cover and bumper beam removal, difficulty level (CURT)", "https://assets.curtmfg.com/masterlibrary/13525/installsheet/13525_INS.pdf"],
   ["Mopar 82219040AA Hitch Receiver, two-row WL (Amazon)", "https://www.amazon.com/Mopar-82219040AA-Receiver-Cherokee-Models/dp/B0BQ3S635H"],
   ["Mopar 82219041AA Hitch Receiver, Grand Cherokee L (Amazon)", "https://www.amazon.com/Mopar-82219041AA-Receiver-Cherokee-Models/dp/B0BQ3P1F9T"],
   ["Draw-Tite 75699 for 2011–2021 and 2022 Grand Cherokee WK (Amazon)", "https://www.amazon.com/DRAW-TITE-75699-Draw-Tite-Max-Frame/dp/B004R3AR72"],

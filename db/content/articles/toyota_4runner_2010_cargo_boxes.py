@@ -5,17 +5,18 @@ db/migrations/003_vehicles.sql, the 5th-gen 4Runner roof-rack article and the re
 (checked 2026-09-27). Boxes are universal; the 4Runner-specific part is the 120 lb roof figure, factory
 crossbars vs baskets and platforms, crossbar spread and hatch clearance.
 Source fixes 2026-10-04: the hitch FAQ now follows Toyota's 2017, 2019 and 2020 releases (receiver and wiring harness standard on all grades, 5,000 lb towing, 500 lb tongue weight, no hitch class named) in place of "Class III receiver on tow-package trucks"; the 120 lb roof figure is attributed to a reader comment on Trail4Runner citing a 2016 SR5 owner's manual and marked as not confirmed from a Toyota document; etrailer's 24–42 in spread is tied to the Yakima SkyBox 12 it was given for; TRD Pro and special-edition roof wording follows Toyota's 2019, 2020 and 2021 releases, which are added to sources with the 2017 release.
+Text fixes 2026-10-04 (round 2): one search found no Toyota owner's manual wording for the roof load, so the TITLE, META, dek and verdict no longer state 120 lb as the roof's limit (TITLE now says "a Low Roof Limit", META "roof load math to check in your manual"); the 120 lb math stays and is labeled as the reader-cited figure; a Toyota dealer parts page for the Genuine Toyota cross bar kit PT278-89170 (132 lb evenly distributed across both bars, see owner's manual) is added as a bar rating, not a roof limit, and added to sources; "more gear than the roof can legally carry" reworded.
 """
 
 KEY = ("toyota", "4runner", "2010-2024", "cargo-boxes")
 
-TITLE = "Best Rooftop Cargo Boxes for 2010–2024 Toyota 4Runner: 6 Light Boxes for a 120 lb Roof"
-META = ("Six Thule, Rhino-Rack, INNO, Yakima and SportRack cargo boxes for the 5th-gen 4Runner: 120 lb roof math, "
-        "factory crossbars, TRD Pro baskets and hatch gap.")
+TITLE = "Best Rooftop Cargo Boxes for 2010–2024 Toyota 4Runner: 6 Light Boxes for a Low Roof Limit"
+META = ("Six Thule, Rhino-Rack, INNO, Yakima and SportRack cargo boxes for the 5th-gen 4Runner: roof load math to check "
+        "in your manual, factory crossbars and hatch gap.")
 
 FAQ = [
  ("What is the roof weight limit for a 2010–2024 4Runner with a cargo box?",
-  "A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual, and that is the figure in our fitment data. We could not confirm it from a Toyota document, and the comment doesn't say whether it is the limit for the factory rails or for the roof itself. This guide treats it as a driving (dynamic) limit that covers everything above the roof: crossbars or platform, the box and the gear inside. A 36 lb Thule Pulse L leaves about 84 lb before you count the bars, so plan for roughly 60 to 75 lb of gear in practice. Check your own year's manual, because figures can differ."),
+  "A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual, and that is the figure in our fitment data. We could not confirm it from a Toyota document, and the comment doesn't say whether it is the limit for the factory rails or for the roof itself. A Toyota dealer's parts page for the Genuine Toyota roof cross bar kit for the 4Runner (PT278-89170) says the bars support a maximum of 132 lb with the weight spread evenly across both bars, and tells buyers to see the owner's manual for weight limits. That page lists no model years, and 132 lb is a rating for the bars, not for the roof. This guide does its math with the lower 120 lb figure and treats it as a driving (dynamic) limit that covers everything above the roof: crossbars or platform, the box and the gear inside. A 36 lb Thule Pulse L leaves about 84 lb before you count the bars, so plan for roughly 60 to 75 lb of gear in practice. Check your own year's manual, because figures can differ."),
  ("Can I mount a cargo box on the 4Runner's factory crossbars?",
   "Usually, yes. Most SR5, TRD Off-Road, TRD Sport, Limited and Nightshade trucks came with raised rails and factory crossbars. In an etrailer answer about a 2015 4Runner Limited, the expert says the Yakima SkyBox 12 fits the factory bars as long as they are no larger than 3-1/2 in wide by 1-11/16 in tall and are spread between 24 and 42 in. Those figures belong to the SkyBox 12, which is not a pick here, so check your chosen box's own clamp size and spread range the same way."),
  ("How far forward does a box need to sit to clear the 4Runner hatch?",
@@ -23,9 +24,9 @@ FAQ = [
  ("Will a roof box fit a TRD Pro with the factory basket?",
   "Not directly in most cases. Toyota's 2019, 2020 and 2021 releases put a TRD roof rack on the TRD Pro only, and the 2021 release lists Yakima cargo baskets on the Trail and Venture Special Editions. Box clamps are designed to wrap around crossbars of a set size, not basket tubing. Either fit crossbars or a platform that uses the factory mounting points, or ask the box maker whether its clamps are approved for your basket before loading it."),
  ("Can I put a cargo box on a Front Runner or Rough Country platform?",
-  "Yes, as long as the box's clamps can wrap the platform slats or crossbars, but the weight math gets tight. A Front Runner Slimline II 3/4 kit installs at about 59 lb. Add a 36 lb Pulse L and you have used about 95 lb of a 120 lb roof limit before any gear goes in. On a platform, a light box and soft gear are the only way to stay inside the manual's figure."),
+  "Yes, as long as the box's clamps can wrap the platform slats or crossbars, but the weight math gets tight. A Front Runner Slimline II 3/4 kit installs at about 59 lb. Add a 36 lb Pulse L and you have used about 95 lb of the reader-cited 120 lb figure before any gear goes in. On a platform, a light box and soft gear are the only way to stay inside the manual's figure."),
  ("What size cargo box is best for a 5th-gen 4Runner?",
-  "Size by weight, not volume. The roof limit is low for a truck this size, so a light 14 to 16 cu ft box is the sweet spot. The Thule Pulse L gives 16 cu ft at 36 lb, the Rhino-Rack MasterFit 440L gives 15.5 cu ft at 38.6 lb, and the Pulse M gives 14 cu ft at 34 lb. Big 18 to 21 cu ft boxes hold far more gear than the roof can legally carry."),
+  "Size by weight, not volume. The 120 lb roof figure this guide works from is low for a truck this size, so a light 14 to 16 cu ft box is the sweet spot. The Thule Pulse L gives 16 cu ft at 36 lb, the Rhino-Rack MasterFit 440L gives 15.5 cu ft at 38.6 lb, and the Pulse M gives 14 cu ft at 34 lb. Big 18 to 21 cu ft boxes hold far more gear than that figure allows."),
  ("Do 2010–2024 4Runner crossbars and boxes carry over to the 2025–2026 4Runner?",
   "The box does; the bars don't. Boxes clamp to crossbars, so any box here moves to a new truck. The 2025–2026 4Runner has a new roof and rail geometry, and makers sell separate rack parts for it, so crossbars and platforms from the 2010–2024 4Runner won't fit. Our 2025–2026 4Runner cargo box guide covers the new truck's figures."),
  ("Will a cargo box fit in my garage on a 4Runner?",
@@ -33,13 +34,13 @@ FAQ = [
  ("Does a roof box block the 4Runner's roll-down rear window?",
   "No. The power rear window drops into the tailgate, so it isn't affected by the box. The concern is the hatch itself when you swing it open, because the top of the gate moves up and back toward the rear of the roof. Keep the box forward, open the gate slowly the first time, and check the gap at the box's tail."),
  ("Is a roof box or a hitch cargo carrier better on a 5th-gen 4Runner?",
-  "For heavy gear, the hitch. Toyota's 2017, 2019 and 2020 releases list an integrated tow-hitch receiver and wiring harness as standard on all grades, with a 5,000 lb maximum tow rating and a 500 lb maximum tongue weight, so a hitch carrier can take coolers, fuel and recovery gear that would blow through the 120 lb roof limit. Look under the rear bumper to confirm the receiver is there, and check the carrier's own rating and your owner's manual before loading it. A roof box is better for light, bulky, dry-storage items like sleeping bags and jackets. Many owners use both: soft gear up top, heavy items on the hitch."),
+  "For heavy gear, the hitch. Toyota's 2017, 2019 and 2020 releases list an integrated tow-hitch receiver and wiring harness as standard on all grades, with a 5,000 lb maximum tow rating and a 500 lb maximum tongue weight, so a hitch carrier can take coolers, fuel and recovery gear that would blow through the 120 lb roof figure used in this guide. Look under the rear bumper to confirm the receiver is there, and check the carrier's own rating and your owner's manual before loading it. A roof box is better for light, bulky, dry-storage items like sleeping bags and jackets. Many owners use both: soft gear up top, heavy items on the hitch."),
 ]
 
 ARTICLE = {
- "dek": "Six rooftop boxes from Thule, Rhino-Rack, INNO, Yakima and SportRack, ranked for the 5th-generation 4Runner's real constraint: a roof figure of 120 lb that has to cover the bars, the box and the gear. For each one we list volume, length, box weight, load rating and crossbar spread, and what those numbers mean for factory crossbars, TRD Pro baskets, platform racks and the rear hatch.",
+ "dek": "Six rooftop boxes from Thule, Rhino-Rack, INNO, Yakima and SportRack, ranked for the 5th-generation 4Runner's real constraint: a low roof load figure that has to cover the bars, the box and the gear. We use 120 lb, which a reader cites from a 2016 SR5 owner's manual and we could not confirm with Toyota. For each one we list volume, length, box weight, load rating and crossbar spread, and what those numbers mean for factory crossbars, TRD Pro baskets, platform racks and the rear hatch.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Thule, Rhino-Rack, INNO, Yakima and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, opening, warranty), on etrailer's listings and its expert answer about 4Runner factory crossbars, and on how those numbers fit the 120 lb roof figure that a reader comment on Trail4Runner cites from a 2016 SR5 owner's manual. Rack weights and roof types come from our 5th-gen 4Runner roof rack guide. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Weight is the whole story.** A Trail4Runner reader comment cites 120 lb from a 2016 SR5 manual; confirm yours. Bars, box and gear all count, so a 36–39 lb box beats a 50–57 lb one on this truck.",
@@ -56,7 +57,7 @@ ARTICLE = {
   {"asin": "B00BCLL8C0", "role": "Best budget", "why": "SportRack Vista XL: 18 cu ft in 63 in for $449.95; confirm its weight"},
  ],
  "fit_table": {
-  "caption": "2010–2024 4Runner roof setups (what the box mounts to)",
+  "caption": "2010–2024 4Runner roof setups (what the box mounts to; weight notes use the reader-cited 120 lb figure)",
   "head": ["Roof as delivered", "Typical trucks", "Box mounting", "Weight notes"],
   "rows": [
    ["Raised rails with factory crossbars", "Most SR5, TRD Off-Road, TRD Sport, Limited, Nightshade", "Clamp directly to the factory bars; etrailer: bars up to 3-1/2 × 1-11/16 in, 24–42 in spread for the Yakima SkyBox 12", "Lightest setup; most of the 120 lb goes to box and gear"],
@@ -66,8 +67,8 @@ ARTICLE = {
   ],
  },
  "look_for": [
-  {"h": "The 120 lb roof figure comes first",
-   "body": "The 5th-gen 4Runner looks like a truck that could carry anything on its roof, but the number in the manual is modest. A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual, and that is the value in our fitment data. We could not confirm it from a Toyota document. We treat it as a driving limit that includes the crossbars, the box and everything inside. That turns box weight into the most important spec on this page. The Thule Pulse M (34 lb), Pulse L (36 lb) and Rhino-Rack MasterFit 440L (38.6 lb) leave roughly 80 lb before bars, while a 51 to 57 lb premium box leaves closer to 65. Check your own year's manual and plan around the lower figure."},
+  {"h": "The roof load figure comes first",
+   "body": "The 5th-gen 4Runner looks like a truck that could carry anything on its roof, but the roof figure we could find is modest. A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual, and that is the value in our fitment data. We could not confirm it from a Toyota document. A Toyota dealer's parts page for the Genuine Toyota roof cross bar kit for the 4Runner (PT278-89170) says the bars support a maximum of 132 lb with the weight spread evenly across both bars, and tells buyers to see the owner's manual for weight limits. That page lists no model years, and 132 lb is a rating for the bars, not for the roof. We use the lower 120 lb figure and treat it as a driving limit that includes the crossbars, the box and everything inside. That turns box weight into the most important spec on this page. The Thule Pulse M (34 lb), Pulse L (36 lb) and Rhino-Rack MasterFit 440L (38.6 lb) leave roughly 80 lb before bars, while a 51 to 57 lb premium box leaves closer to 65. Check your own year's manual and plan around the lower figure."},
   {"h": "Factory crossbars, baskets and platforms",
    "body": "Look at the roof before you shop. Most trucks have raised rails with factory crossbars, and an etrailer expert answer for a 2015 4Runner Limited says the Yakima SkyBox 12 fits those bars if they are no larger than 3-1/2 in wide and 1-11/16 in tall and are spread 24 to 42 in apart. TRD Pro trucks with the TRD roof rack (new for 2019) and the Trail and Venture Special Editions carry a factory rack or basket, and box clamps are made for crossbars, not basket tubing. On a Front Runner or Rough Country platform, the box can clamp to the slats or bars if its clamp opening fits, but the platform's weight eats into the 120 lb before the box goes on."},
   {"h": "Crossbar spread vs the box's mounting range",
@@ -80,7 +81,7 @@ ARTICLE = {
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
   "rows": [
-   ["Box weight", "Under 40 lb (Pulse M 34 lb, Pulse L 36 lb, MasterFit 38.6 lb)", "50 lb+ boxes that leave little of the 120 lb roof figure for gear"],
+   ["Box weight", "Under 40 lb (Pulse M 34 lb, Pulse L 36 lb, MasterFit 38.6 lb)", "50 lb+ boxes that leave little of the reader-cited 120 lb roof figure for gear"],
    ["Load rating", "A published figure (110 lb Pulse and Wedge, 165 lb MasterFit, 100 lb DeepSpace)", "Using the box rating as the roof limit; the lower figure wins"],
    ["Crossbar spread", "A range that covers your factory bars (most start at 24 in or less)", "32 in-minimum boxes without measuring your bars"],
    ["Length", "76 in or less for the most hatch margin", "Long ski boxes without measuring front bar to hatch seam"],
@@ -105,7 +106,7 @@ ARTICLE = {
   {"asin": "B009NN4ZDS", "role": "Best overall", "price": "$786.47 at etrailer (sale)",
    "pros": ["16 cu ft at 36 lb, the best volume-to-weight ratio here", "Published 110 lb load rating", "23-5/8 to 34-3/8 in spread suits most factory bars", "76 in long, leaving hatch margin", "Limited lifetime warranty and Thule One-Key lock"],
    "cons": ["Opens from the passenger side only", "Priced near premium dual-side boxes", "16-1/2 in tall, so measure the garage"],
-   "body": "On a truck with a 120 lb roof figure, the Thule Pulse L makes the most of every pound. etrailer lists it at 16 cu ft with exterior dimensions of 76 x 33 x 16-1/2 in, a box weight of 36 lb and a maximum load of 110 lb. That is a full-size box for about 11 lb less than a Yakima SkyBox 16 and about 21 lb less than a CBX 16, and those pounds go straight to gear on a 4Runner. Its 23-5/8 to 34-3/8 in crossbar spread and clamps that take bars up to 3-5/16 x 1-1/2 in suit round, square, aero and factory bars. It locks with Thule's SecureLock and One-Key cylinder, carries a limited lifetime warranty, and etrailer had it at $786.47 on sale.\n\nOn the 4Runner, the numbers work out like this: 120 lb minus a 36 lb box leaves 84 lb, and the factory crossbars come off that too, so plan on roughly 60 to 75 lb of gear. That suits sleeping bags, jackets and duffels for a family weekend. The 76 in length is short enough to sit forward of the hatch on most setups, but measure front bar to hatch seam. The main trade-off is access: the lid opens from the passenger side only, so on a tall truck parked on a busy street you load from the curb side and nowhere else.",
+   "body": "On a truck with a roof figure as low as the reader-cited 120 lb, the Thule Pulse L makes the most of every pound. etrailer lists it at 16 cu ft with exterior dimensions of 76 x 33 x 16-1/2 in, a box weight of 36 lb and a maximum load of 110 lb. That is a full-size box for about 11 lb less than a Yakima SkyBox 16 and about 21 lb less than a CBX 16, and those pounds go straight to gear on a 4Runner. Its 23-5/8 to 34-3/8 in crossbar spread and clamps that take bars up to 3-5/16 x 1-1/2 in suit round, square, aero and factory bars. It locks with Thule's SecureLock and One-Key cylinder, carries a limited lifetime warranty, and etrailer had it at $786.47 on sale.\n\nOn the 4Runner, using that 120 lb figure, the numbers work out like this: 120 lb minus a 36 lb box leaves 84 lb, and the factory crossbars come off that too, so plan on roughly 60 to 75 lb of gear. That suits sleeping bags, jackets and duffels for a family weekend. The 76 in length is short enough to sit forward of the hatch on most setups, but measure front bar to hatch seam. The main trade-off is access: the lid opens from the passenger side only, so on a tall truck parked on a busy street you load from the curb side and nowhere else.",
    "who": "5th-gen owners who want a full 16 cu ft while keeping the most of the 120 lb roof figure for gear.",
    "specs": [["Volume", "16 cu ft"], ["Exterior", "76 × 33 × 16.5 in"], ["Box weight", "36 lb"], ["Max load", "110 lb"], ["Crossbar spread", "23-5/8 to 34-3/8 in"], ["Max bar size", "3-5/16 × 1-1/2 in"], ["Opening", "Passenger side"], ["Warranty", "Limited lifetime"]]},
   {"asin": "B07B4P7WYX", "role": "Best dual-side", "price": "Rhino-Rack doesn't list a price; check the listing",
@@ -148,14 +149,14 @@ ARTICLE = {
   "Lock the box, rock it from each corner, and re-check the clamps after the first drive and after any trail miles.",
  ],
  "avoid": [
-  {"h": "Treating the box rating as the roof rating", "body": "The Pulse L is rated for 110 lb and the MasterFit for 165 lb, but the roof figure of 120 lb covers bars, box and gear together. The lower number always applies."},
+  {"h": "Treating the box rating as the roof rating", "body": "The Pulse L is rated for 110 lb and the MasterFit for 165 lb, but the reader-cited roof figure of 120 lb covers bars, box and gear together. The lower number always applies."},
   {"h": "Clamping to a TRD Pro basket", "body": "Box clamps are made to wrap crossbars of a set size. Fit bars or a platform, or get the box maker's approval before clamping to basket tubing."},
   {"h": "A box on a platform with a full load", "body": "A 59 lb 3/4 platform plus a 36 lb box uses about 95 lb of 120 lb. On a platform, carry soft, light gear only."},
   {"h": "Skipping the hatch measurement", "body": "Measure from the center of the front bar to the hatch seam and compare with the box maker's figure, such as etrailer's 57 in for the SkyBox 12."},
  ],
  "verdict": {
-  "thesis": "Keep the box light: the Thule Pulse L is the best all-round box for a 120 lb roof, the Rhino-Rack MasterFit 440L if you want dual-side opening, the INNO Wedge 660 for garages, and the SportRack Vista XL on a budget.",
-  "body": "On the 2010–2024 4Runner, the roof figure decides more than the badge. At 36 lb with 16 cu ft, the Pulse L leaves the most gear allowance of any full-size box here, and the MasterFit 440L adds dual-side opening for only 2.6 lb more. The Wedge 660 is the low-profile choice at 11 in tall, the DeepSpace 10 is the lightest box if your bars spread 32 in, the SkyBox 16 gives Yakima's dual-side 16 cu ft at a sale price, and the Vista XL is the budget box once you confirm its weight. Most trucks can clamp any of them to the factory crossbars; TRD Pro basket trucks need bars or a platform first.\n\nIf you still need bars or want a platform, our 4Runner roof rack guide lists fit-checked options, and a trailer hitch with a hitch cargo carrier is the place for heavy coolers and fuel. Owners of the 2025–2026 4Runner should use the separate guide, because 5th-gen bars don't fit the new roof.",
+  "thesis": "Keep the box light: the Thule Pulse L is the best all-round box for a low roof limit, the Rhino-Rack MasterFit 440L if you want dual-side opening, the INNO Wedge 660 for garages, and the SportRack Vista XL on a budget.",
+  "body": "On the 2010–2024 4Runner, the roof figure decides more than the badge. We work from a reader-cited 120 lb and could not confirm Toyota's own number, so read your owner's manual before loading. At 36 lb with 16 cu ft, the Pulse L leaves the most gear allowance of any full-size box here, and the MasterFit 440L adds dual-side opening for only 2.6 lb more. The Wedge 660 is the low-profile choice at 11 in tall, the DeepSpace 10 is the lightest box if your bars spread 32 in, the SkyBox 16 gives Yakima's dual-side 16 cu ft at a sale price, and the Vista XL is the budget box once you confirm its weight. Most trucks can clamp any of them to the factory crossbars; TRD Pro basket trucks need bars or a platform first.\n\nIf you still need bars or want a platform, our 4Runner roof rack guide lists fit-checked options, and a trailer hitch with a hitch cargo carrier is the place for heavy coolers and fuel. Owners of the 2025–2026 4Runner should use the separate guide, because 5th-gen bars don't fit the new roof.",
  },
  "sources": [
   ["Thule Pulse L TH615 specs (etrailer)", "https://www.etrailer.com/Roof-Box/Thule/TH615.html"],
@@ -167,6 +168,7 @@ ARTICLE = {
   ["SportRack Vista XL (SportRack) and mounting positions (etrailer)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
   ["Yakima SkyBox 12 on 2015 4Runner Limited factory crossbars, expert answer (etrailer)", "https://www.etrailer.com/question-239020.html"],
   ["Top 5th Gen 4Runner Roof Racks; the 120 lb figure is in a reader comment citing a 2016 SR5 owner's manual (Trail4Runner)", "https://trail4runner.com/2017/12/04/5th-gen-4runner-roof-racks/"],
+  ["Genuine Toyota Roof Cross Bar Kit PT278-89170 for the 4Runner: 132 lb maximum evenly distributed across both bars, see owner's manual (North Park Toyota parts)", "https://parts.northparktoyota.com/oem-parts/toyota-roof-cross-bar-kit-pt27889170"],
   ["2017 Toyota 4Runner: tow-hitch receiver and wiring harness standard on all grades, 5,000 lb towing, 500 lb tongue weight (Toyota Newsroom)", "https://pressroom.toyota.com/2017-toyota-4runner-everday-suv-explore-where-when-you-want/"],
   ["2019 Toyota 4Runner: receiver standard on all grades; new TRD roof rack on the TRD Pro only (Toyota Newsroom)", "https://pressroom.toyota.com/2019-toyota-4runner-strengthens-legacy-35-year/"],
   ["2020 Toyota 4Runner: receiver standard on all models; TRD roof rack exclusive to the TRD Pro (Toyota Newsroom)", "https://pressroom.toyota.com/the-adventurer-toyota-4runner-gains-new-safety-and-multimedia-tech-for-2020/"],
@@ -182,6 +184,6 @@ FITS = [
  ("B06VX9L59C","INNO BRM660BK Wedge Cargo Box - 11 Cubic FT (Gloss Black)","INNO","$850–$1,000",{},"Universal box, 11 in tall; confirm hatch gap (80 in long)."),
  ("B09HC2LWX8","Yakima DeepSpace 10 Hard Shell Cargo Box, 10 cu ft (100 lb max)","Yakima","$550–$700",{},"Needs 32-46 in spread; confirm your factory bars reach 32 in."),
  ("B001PUZXGK","Yakima SkyBox 16 Carbonite Rooftop Cargo Box, 16 cu ft (81 in long)","Yakima","$550–$750",{},"Universal box; confirm hatch gap and 24-34.5 in spread."),
- ("B00BCLL8C0","SportRack Vista XL Rear Opening Cargo Box, 18 cu ft, Black","SportRack","$400–$500",{},"Fixed mounting positions; confirm box weight against the 120 lb roof figure."),
+ ("B00BCLL8C0","SportRack Vista XL Rear Opening Cargo Box, 18 cu ft, Black","SportRack","$400–$500",{},"Fixed mounting positions; confirm box weight against the roof load figure in your owner manual."),
  ("B009NN4SBM","Thule 614 Pulse Cargo Box, Medium, Black (14 cu ft, 34 lb)","Thule","$650–$850",{},"Smaller Pulse; confirm 23-5/8 to 33-3/8 in spread."),
 ]

@@ -41,7 +41,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner sets listed for the 6th-generation Explorer, from Husky's made-in-USA WeatherBeater to $80 rubber. The second row decides fit: captain's chairs or bench, with or without a console between the chairs.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2026 Explorer (seating, console, hybrid, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Second row decides fit.** Captain's chairs (6-passenger) or bench (7-passenger); console or open walkway.",

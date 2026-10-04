@@ -40,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven picks for the fourth-generation Pilot: six rooftop boxes from Yakima, Thule, Rhino-Rack, INNO and SportRack, from a 13 cu ft low-profile box to a 21 cu ft Thule Motion 3 XXL, plus a set of crossbars for railed trims. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the Pilot's rails, its 165 lb roof figure and its liftgate.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, ski length, warranty), on etrailer's figures for the Thule, INNO and SportRack boxes, on how those specs fit the Pilot's rails, roof figure and liftgate, and on Honda's own feature pages for which trims have rails. Prices were checked on the makers' stores and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Check your trim first.** Honda lists roof rails as standard on the Sport, TrailSport, Touring and Elite. The LX and EX-L have a bare roof and need a clamp-style crossbar kit.",

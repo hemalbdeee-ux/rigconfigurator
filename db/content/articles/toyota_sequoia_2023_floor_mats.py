@@ -1,5 +1,8 @@
 """Long-form article — Best Floor Mats & Liners for 2023–2026 Toyota Sequoia (3rd gen, XK80).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Text fixes 2026-10-04: second-row seating by grade now follows Toyota's 2023 reveal and 2025 release (captain's chairs
+standard on TRD Pro, on Platinum and 1794 Edition, bench or captain's chairs on Limited; SR5 and Capstone not stated);
+removed the unsourced TRD Pro and Capstone seating lines; verdict no longer assumes every Sequoia has factory rails.
 """
 
 KEY = ("toyota", "sequoia", "2023-present", "floor-mats")
@@ -14,13 +17,13 @@ FAQ = [
  ("Is every 2023+ Sequoia a hybrid?",
   "Yes. The 3rd-gen Sequoia uses the i-FORCE MAX hybrid powertrain as standard. That means you don't need to filter listings for gas versus hybrid the way you do on a Tundra or 4Runner; any Sequoia listing is for the hybrid."),
  ("What's the difference between 7- and 8-passenger liners?",
-  "The second row. Seven-passenger Sequoias have two captain's chairs, with or without a center console; eight-passenger have a bench. Cartist's set is for 7-passenger without a center console. Smartliner asks you to confirm 7 vs 8. Check your second row before ordering."),
+  "The second row. Seven-passenger Sequoias have two captain's chairs, with or without a center console; eight-passenger have a bench. Cartist's set is for 7-passenger without a center console. Smartliner asks you to confirm 7 vs 8. As we read Toyota's 2025 release, the Platinum, 1794 Edition and TRD Pro have second-row captain's chairs and the Limited offers a bench or captain's chairs; it does not state the SR5 or Capstone layout. Check your second row before ordering."),
  ("Does the sliding third row affect liners?",
   "The Sequoia's third row slides fore and aft to trade legroom for cargo space. The third-row liner sits on the floor in front of the seat, and the cargo area behind it changes size. After installing, slide the third row through its range to make sure it doesn't catch the liner edge."),
  ("Why does Husky's front pair list 2024–2026 but not 2023?",
   "The listing we found for Husky's 18571 names 2024–2026 Sequoia. The Sequoia's generation started with the 2023 model year, and the floor is the same generation. We can't confirm why 2023 isn't in the title; ask Husky or the seller before ordering for a 2023."),
  ("Do these liners fit the TRD Pro and Capstone?",
-  "Trims change seats and finishes, not the floor. The second-row layout matters; the badge doesn't. The Capstone commonly has captain's chairs; the TRD Pro can be ordered either way depending on year."),
+  "The second-row layout decides fit, not the badge. Toyota's releases for the 2023 and 2025 model years list second-row captain's chairs as standard on the TRD Pro, so start with a seven-passenger set there. The Toyota releases we read do not state the Capstone's second-row layout, so count the seats: two separate seats are captain's chairs, and one wide seat is a bench. Then look for a center console between the chairs, because the second-row liner is cut for one or the other."),
  ("How should the driver liner sit?",
   "Flat on the carpet, hooked onto Toyota's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
  ("How do I clean three-row liners?",
@@ -40,7 +43,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner options for the 3rd-generation Sequoia, from Smartliner's three-row set to Husky's made-in-USA front and third-row pieces. Every Sequoia is a hybrid, so the fit questions are the second-row layout and, for Husky's front pair, the model year.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2023–2026 Sequoia (seating, console, rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Smartliner and Husky claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Every Sequoia is a hybrid.** No gas/hybrid split to worry about.",
@@ -61,14 +64,14 @@ ARTICLE = {
   "head": ["Variable", "Versions", "Liner note"],
   "rows": [
    ["Powertrain", "i-FORCE MAX hybrid (standard)", "Every listing is hybrid-compatible by default"],
-   ["Second row", "Captain's chairs (with/without console) or bench", "Cartist: 7-pass no console; Smartliner: confirm"],
+   ["Second row", "Captain's chairs (with/without console) or bench. Toyota: captain's chairs on Platinum, 1794 Edition and TRD Pro; bench or captain's chairs on Limited; SR5 and Capstone not stated", "Count the seats. Cartist: 7-pass no console; Smartliner: confirm"],
    ["Front row", "Shared with Tundra", "Husky 18571 lists 2024–2026 Sequoia; confirm 2023"],
    ["Third row", "Sliding", "Slide through range after install"],
   ],
  },
  "look_for": [
   {"h": "Second-row layout",
-   "body": "The Sequoia offers a second-row bench for eight passengers or captain's chairs for seven, and the captain's chairs may have a center console or an open walkway. The second-row liner is shaped for one of those. Cartist's set is for 7-passenger without a center console. Smartliner's listing asks you to confirm 7 vs 8 passenger. HAFIDI and Auxko list the Sequoia broadly. Look at your second row, and compare listing photos of the second-row piece before ordering."},
+   "body": "The Sequoia offers a second-row bench for eight passengers or captain's chairs for seven, and the captain's chairs may have a center console or an open walkway. Toyota's 2025 release lists captain's chairs on the Platinum, 1794 Edition and TRD Pro and a choice of bench or captain's chairs on the Limited. It does not state the SR5 or Capstone layout, so count the seats. The second-row liner is shaped for one of those layouts. Cartist's set is for 7-passenger without a center console. Smartliner's listing asks you to confirm 7 vs 8 passenger. HAFIDI and Auxko list the Sequoia broadly. Look at your second row, and compare listing photos of the second-row piece before ordering."},
   {"h": "Front-row sharing with the Tundra",
    "body": "The Sequoia is built on the same TNGA-F platform as the Tundra, and the front footwells are shared. Husky lists its WeatherBeater 18571 front pair for 2022–2026 Tundra CrewMax and Double Cab and 2024–2026 Sequoia. That's a well-documented front liner for the Sequoia, but its title doesn't include 2023, so confirm with Husky for a 2023. The rear rows are Sequoia-specific; never use Tundra rear liners."},
   {"h": "The sliding third row and cargo area",
@@ -154,7 +157,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy Smartliner's three-row set for warranty-backed coverage, Husky's 18571 and 14281 for US-made front and third-row liners, and HAFIDI for three rows on a budget.",
-  "body": "The 3rd-gen Sequoia is simpler to fit than it looks: every one is a hybrid, so the question is the second-row layout. Smartliner covers three rows with a limited lifetime warranty. Husky's front pair and third-row piece bring US manufacturing and tall walls. HAFIDI, Cartist and Auxko cover the budget end, with Cartist cut for the no-console seven-passenger layout.\n\nAfter the floors, most Sequoia owners add running boards for the tall step-in and a roof rack on the factory rails."},
+  "body": "The 3rd-gen Sequoia is simpler to fit than it looks: every one is a hybrid, so the question is the second-row layout. Smartliner covers three rows with a limited lifetime warranty. Husky's front pair and third-row piece bring US manufacturing and tall walls. HAFIDI, Cartist and Auxko cover the budget end, with Cartist cut for the no-console seven-passenger layout.\n\nAfter the floors, running boards help with the tall step-in. Before you buy a roof rack or cargo box, check which side rails, if any, are on your roof."},
  "sources": [
   ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
@@ -162,6 +165,8 @@ ARTICLE = {
   ["Husky Liners 14281 Sequoia 3rd row listing", "https://www.amazon.com/dp/B0CF66XZ1S"],
   ["Cartist Sequoia 7-passenger listing", "https://www.amazon.com/dp/B0CY84JQPK"],
   ["Toyota Sequoia, third generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Sequoia"],
+  ["2025 Sequoia Adds 1794 Grade and More: second-row seating by grade (Toyota Newsroom)", "https://pressroom.toyota.com/2025-sequoia-adds-1794-grade-and-more/"],
+  ["Standing Tall: All-New 2023 Sequoia, January 2022 reveal: second-row seating by grade (Toyota Newsroom)", "https://pressroom.toyota.com/standing-tall-all-new-2023-sequoia-full-size-suv-is-ready-to-make-its-mark/"],
  ],
 }
 

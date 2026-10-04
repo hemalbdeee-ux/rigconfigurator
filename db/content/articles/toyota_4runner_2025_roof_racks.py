@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five roof racks built for the sixth-generation 4Runner, from $100 clamp-on crossbars for the factory rails to the $1,559 Sherpa Capitol. For each one we list load ratings, deck size, mounting and warranty, and we explain why no 2010–2024 rack carries over.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, deck size, weight, fairing, warranty), on the fitment each maker or seller lists for the 2025–2026 4Runner, and on what owners report on the 4Runner6G.com forum. Prices were checked at the manufacturer or a specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**5th-gen racks don't fit.** The 2025 4Runner has a new roof and rail geometry. Rough Country (88201 vs 88205) and Front Runner (KSTF003T vs KSTF004T) sell separate parts for each generation.",

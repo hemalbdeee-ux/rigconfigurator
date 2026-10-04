@@ -35,7 +35,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The WL Grand Cherokee has flush side rails, and many rack systems bolt into them at fixed points, which sets your crossbar spread for you. Here are five Grand Cherokee and Grand Cherokee L crossbar sets from Amazon, including BRIGHTLINES' bolt-in bars, plus the Thule, Yakima and Rhino-Rack systems etrailer lists, and the 2021 model-year mix-up that sends bars back.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. Picks were chosen on the fitment each seller lists for the WL Grand Cherokee and Grand Cherokee L, and brand-name systems on the fit, specs and prices etrailer publishes for the 2023 Grand Cherokee, checked in September 2026. Amazon prices move daily, so the button shows the live price; bands for generic bars are a guide only.",
  "takeaways": [
   "**Flush rails, often with fixed mounting points.** etrailer's 2023 Grand Cherokee list is almost all flush-rail systems, and Yakima and Rhino-Rack mount at fixed points in the rails.",

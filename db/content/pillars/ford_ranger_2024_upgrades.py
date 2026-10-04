@@ -24,11 +24,15 @@ Not verified, and worded as such in the text: an explicit "SuperCrew only" state
 MotorWeek); whether any XL, XLT or Lariat build has the Trailer Tow Package without the option; the receiver opening
 size (2 in is the vehicle data only); the hitch class for model years 2024 and 2025 (Class IV was read in the 2026
 guide only; the 2025 guide was not opened); which trim carries Ford's "carpet floor covering" line (the floor liner
-guide read it under the XLT, one of our two reads of the page put it under the Lariat) and the XL's floor covering;
+guide read it under the XLT, one of our two earlier reads of the page put it under the Lariat, and a third read on
+2026-10-04 that asked model by model put it under the XLT with nothing stated for the XL, Lariat or Raptor) and the
+XL's floor covering;
 Raptor cab floor fit for any liner; whether Yakima's towers mount over the Rough
 Country cover or on the RetraxPRO XR's T-slot rails (the guides document the cover side and the rack side separately,
 not the pair); Putco, JOYTUTUS and OBNAUX fit on the 2024 bed; 2026 fit of every cover titled 2024–2025; weights of
 the hard covers; how Ford's cargo management rails take Yakima's or Putco's hardware.
+Text fixes 2026-10-04: the cover-and-rack FAQ now carries RealTruck's note that the RetraxPRO XR is not compatible with
+the bed cargo management system, to match the edited bed rack guide.
 """
 
 KIND = "upgrades"
@@ -60,7 +64,8 @@ FAQ = [
   "its year range again before ordering."),
  ("Can I run a tonneau cover and a bed rack together on a 2024–2026 Ranger?",
   "Yes, if you choose them as a pair. The RetraxPRO XR, part T-80338 at about $2,100, has full-length T-slot rails "
-  "for crossbars and racks over the closed cover. Yakima says select covers need its Tonneau Kit 1 under the "
+  "for crossbars and racks over the closed cover, but RealTruck lists it as not compatible with the bed cargo "
+  "management system, so it is out on a truck with Ford's cargo rails. Yakima says select covers need its Tonneau Kit 1 under the "
   "OutPost HD and OverHaul HD towers. Rough Country says its hard tri-fold is compatible with bed racks, without "
   "naming one. Most folding covers leave nowhere to mount a rack, and budget clamp racks rarely mention covers, so "
   "ask the rack maker before buying both."),
@@ -91,7 +96,7 @@ FAQ = [
   "can pair LASFIT liners with the BAKFlip MX4 for about $1,239–$1,280. Both rack pairings need confirming with "
   "Yakima."),
  ("My Ranger has Ford's bed cargo management rails. What changes?",
-  "The cover and the rack both change. Retrax says the RetraxPRO XR is not compatible with the system, and Rough "
+  "The cover and the rack both change. RealTruck lists the RetraxPRO XR as not compatible with the system, and Rough "
   "Country says its cover doesn't work with OEM cargo systems. One Ranger6G owner fitted an UnderCover Ultra Flex, "
   "UX22033 at about $1,200, beside the rails with no interference, and advised installing the rails first and the "
   "cover last. For a rack, an owner notes the slots are wider than standard aftermarket T-slot hardware and that "

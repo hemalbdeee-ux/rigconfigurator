@@ -42,7 +42,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven picks for the fifth-generation Tahoe: six rooftop boxes from Yakima, Thule, Rhino-Rack and SportRack, from a 63 in budget box to two 21 cu ft giants, plus crossbars listed for the Tahoe. For each box we list volume, length, weight, height and crossbar spread, and what they mean on a 76 in tall SUV with flush rails, where loading height and garage clearance matter as much as volume.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, ski length, front clearance), on etrailer's figures for the Thule and SportRack boxes and its Tahoe roof guide, on The Rack Shop's Tahoe crossbar kits, and on vehicle dimensions from Cars.com, KBB and Wikipedia. Prices were checked on the makers' stores and retailers in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Flush rails, not raised.** etrailer and The Rack Shop list the 2021+ Tahoe with flush rails; the Z71 takes its own Thule fit kit. Buy flush-rail feet listed for your trim.",

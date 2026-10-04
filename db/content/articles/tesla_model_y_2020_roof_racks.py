@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five roof racks for the Model Y's glass roof, from about $150 aftermarket bars to Tesla's own $500 rack. For each one we list the load rating, which body it fits (2020–2024 or the 2025 Juniper refresh), how the towers lock, and what a rack or box costs you in range.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, materials, locks, weight), on the fitment each maker or listing states for the Model Y and the 2025 Juniper refresh, and on fit answers from etrailer's product experts. Prices were checked at the Tesla Shop and maker stores in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**The Model Y has no rails.** Every rack bolts into four hidden fixed mounting points under the roof trim, so it has to be a Model Y-specific kit.",

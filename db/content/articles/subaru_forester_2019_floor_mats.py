@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2019–2024 Subaru Forester (5th gen, SK).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Text fixes 2026-10-04: Wilderness liner fit no longer asserted (Subaru's 2022 and 2024 trim sheets list the All-Weather Floor Liners accessory as Not Available on the Wilderness; reason not confirmed; dealer check by VIN); "one floor for every trim" and shared cargo floor reworded to what the listings show; 2025 Wilderness note per Wikipedia; roof rail sentence in the verdict corrected (rails optional on Base).
 """
 
 KEY = ("subaru", "forester", "2019-2024", "floor-mats")
@@ -10,11 +11,11 @@ META = ("Five 5th-gen Forester floor liner sets from Husky, Subaru, LASFIT, 3W a
 
 FAQ = [
  ("Do 2019–2024 Forester liners fit a 2025 Forester?",
-  "No. The 2025 Forester is a new generation. Husky sells the 95381 set for 2025–2026 Foresters, separate from the 95891 it sells for 2019–2024. Subaru's own liners also change part numbers between generations. Buy liners that name your model year range."),
+  "Not the redesigned 2025 Forester, which is a new generation. Husky sells the 95381 set for 2025–2026 Foresters, separate from the 95891 it sells for 2019–2024. The 2025 Wilderness is the exception. Wikipedia says the outgoing Forester ended after the 2024 model year except for the Wilderness, which was offered for 2025, and that the redesigned Wilderness went on sale as a 2026 model. We could not confirm liner fit for a 2025 Wilderness, so have a dealer or the seller check it by VIN. Buy liners that name your model year range."),
  ("Does the Forester Wilderness need different liners?",
-  "The Wilderness (2022–2024) is a trim of the 5th-gen Forester with its own styling, suspension and water-repellent upholstery, but it shares the cabin floor. Liners listed for 2019–2024 Forester fit it unless the listing says otherwise. Its cargo area also matches the other trims."),
+  "We could not confirm it either way. The Wilderness (2022–2024) is a trim of the 5th-gen Forester, and the aftermarket sets on this page are titled for the 2019–2024 Forester with no trim exclusion in the titles we recorded. But Subaru's 2022 and 2024 trim comparison sheets list its own All-Weather Floor Liners accessory as Not Available on the Wilderness, and we could not confirm why. Have a dealer check the Subaru part against your VIN. For an aftermarket set, confirm on the listing that it names the Wilderness."),
  ("Are Subaru's own all-weather liners worth it?",
-  "Subaru's J501SSJ030 liners are a dealer part designed for the 5th-gen Forester, sold as a set of four. They fit the retention hooks exactly and cost less than Husky. What they don't advertise is Husky's lifetime crack warranty or made-in-USA production. For many owners, a dealer part at $80–$120 is the sensible default."),
+  "Subaru's J501SSJ030 liners are a dealer part designed for the 5th-gen Forester, sold as a set of four. They fit the retention hooks exactly and cost less than Husky. Subaru's 2022 and 2024 trim sheets don't offer the accessory on the Wilderness, so Wilderness owners should have a dealer check the part by VIN. What they don't advertise is Husky's lifetime crack warranty or made-in-USA production. For many owners, a dealer part at $80–$120 is the sensible default."),
  ("Do Forester liners fit the Crosstrek or Impreza?",
   "No. They share Subaru's Global Platform, but the cabins and floors differ. Buy liners that name the Forester and your years."),
  ("Should I get a cargo liner for my Forester?",
@@ -30,7 +31,7 @@ FAQ = [
  ("How much do Forester liners cost?",
   "On this page, budget TPE sets run about $90–$140, Subaru's liners about $80–$120 and Husky's WeatherBeater about $130–$170. Amazon prices move daily, so check the live price."),
  ("Is the Forester's cargo area the same on every 5th-gen trim?",
-  "The cargo floor is shared across 2019–2024 trims, including the Wilderness, though some trims add accessories like a cargo tray or net. A cargo liner cut for the 5th-gen Forester fits all of them. If you have an aftermarket drawer or subwoofer in the cargo area, measure before ordering, since a molded cargo liner needs a clear floor."),
+  "We could not confirm that the cargo floor is identical on every trim. Cargo liners listed for the 2019–2024 Forester are sold as one fit, so start there and confirm your trim on the listing, especially on a Wilderness. If you have an aftermarket drawer or subwoofer in the cargo area, measure before ordering, since a molded cargo liner needs a clear floor."),
  ("Do liners help with resale value?",
   "They help keep the carpet in the condition buyers and dealers notice first. A stained or salt-damaged driver footwell is one of the quickest ways a car looks used hard. Liners that come out easily and get cleaned often keep the carpet underneath close to new, which is worth more at trade-in than most of the price difference between liner brands."),
  ("Do I need a separate liner for the rear center hump?",
@@ -40,11 +41,11 @@ FAQ = [
 ARTICLE = {
  "dek": "Five liner sets listed for the 5th-generation Forester, from Husky's made-in-USA WeatherBeater and Subaru's dealer liners to TPE kits with a cargo liner. It's one of the simplest vehicles to fit, so the choice is about walls, warranty and whether you need the cargo area covered.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2019–2024 Forester, on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**One floor for 2019–2024.** Every trim, including Wilderness, shares it.",
-  "**2025 is a new generation.** Husky sells a separate 95381 set for 2025–2026.",
+  "**One fit for 2019–2024.** The liner listings here cover all six model years. Wilderness owners should confirm the trim, because Subaru doesn't offer its own liners on it.",
+  "**2025 is a new generation.** Husky sells a separate 95381 set for 2025–2026. The 2025 Wilderness is the exception per Wikipedia, so confirm it by VIN.",
   "**Husky WeatherBeater is the documented pick.** Made in the USA with a lifetime crack warranty.",
   "**Subaru's own liners are the value OEM choice.** Dealer part J501SSJ030.",
   "**Cover the cargo area if you carry a dog.** IKABEVEM's kit includes it.",
@@ -60,14 +61,15 @@ ARTICLE = {
   "caption": "Forester floor liners by generation",
   "head": ["Generation", "Years", "Liner note"],
   "rows": [
-   ["5th gen (SK)", "2019–2024 (incl. Wilderness 2022–2024)", "All picks on this page"],
-   ["6th gen", "2025+", "Not compatible; Husky 95381 for 2025–2026"],
+   ["5th gen (SK)", "2019–2024", "All picks on this page"],
+   ["5th gen Wilderness", "2022–2024; also 2025 per Wikipedia", "Subaru's sheets don't offer its All-Weather Floor Liners on this trim; confirm any set by VIN or on the listing"],
+   ["6th gen", "2025+ (not the 2025 Wilderness, per Wikipedia)", "Not compatible; Husky 95381 for 2025–2026"],
    ["4th gen (SJ)", "2014–2018", "Not compatible"],
   ],
  },
  "look_for": [
   {"h": "The right generation",
-   "body": "The Forester is easy to fit within a generation and easy to get wrong across one. The 5th gen ran from 2019 to 2024, and the floor didn't change across those years, including the Wilderness trim added for 2022. The 2025 Forester is a new generation with its own liners; Husky sells the 95381 set for 2025–2026 separately from the 95891 for 2019–2024. If you're shopping used parts or a listing's year range spans generations, check the part number against your year."},
+   "body": "The Forester is easy to fit within a generation and easy to get wrong across one. The 5th gen ran from 2019 to 2024, and the liner listings here cover those years as one fit. The Wilderness trim, added for 2022, is the one to double-check: Subaru's 2022 and 2024 sheets list its own All-Weather Floor Liners as Not Available on that trim, and we could not confirm why. The redesigned 2025 Forester is a new generation with its own liners; Husky sells the 95381 set for 2025–2026 separately from the 95891 for 2019–2024. If you're shopping used parts or a listing's year range spans generations, check the part number against your year."},
   {"h": "Walls and winter use",
    "body": "Foresters are popular in snow country, and snowmelt is what floor liners are for. A liner with a raised wall holds the slush until you dump it; a flat mat lets it run onto the carpet. Husky's WeatherBeater uses a firm ProGard material that keeps its walls upright. LASFIT's TPE is softer and rated from −13°F to 167°F, so it stays flexible in cold weather. Subaru's own liners have moderate walls. For a ski car, pick walls and a cold-weather rating over looks."},
   {"h": "Cargo area for dogs and gear",
@@ -109,9 +111,9 @@ ARTICLE = {
   {"asin": "B07JCDW4LC", "role": "Best factory option", "price": "$80–$120",
    "pros": ["Genuine Subaru part J501SSJ030", "Set of 4 (front and rear)", "Designed with the 5th-gen floor", "Lower price than Husky", "Dealer-supported"],
    "cons": ["No published lifetime warranty on the listing", "Walls lower than Husky's", "Cargo liner sold separately"],
-   "body": "Subaru's genuine all-weather floor liners, J501SSJ030, are sold as a set of four for the 2019–2024 Forester. They're designed with the car, so fit at the retention hooks and footwell edges is dependable, and they cost less than Husky's set.\n\nThat makes them the sensible default for many owners. The trade-offs are wall height and paperwork: Subaru's liners don't match Husky's firm, tall walls, and the listing doesn't advertise a lifetime crack warranty. For a Forester that sees normal commuting and the occasional snowy weekend, that's usually fine.\n\nA Subaru dealer can confirm the part for your VIN and sells a matching cargo tray, which gives you a factory-look interior end to end. Genuine Subaru liners also tend to hold value when you sell the car, because buyers recognize the factory part. If a single piece wears out, the dealer can order it individually, which isn't always possible with aftermarket sets.",
+   "body": "Subaru's genuine all-weather floor liners, J501SSJ030, are sold as a set of four for the 2019–2024 Forester. One caveat: Subaru's 2022 and 2024 trim comparison sheets list the All-Weather Floor Liners accessory as Not Available on the Wilderness. We could not confirm why, so Wilderness owners should have a dealer check the part against the VIN before buying. They're designed with the car, so fit at the retention hooks and footwell edges is dependable, and they cost less than Husky's set.\n\nThat makes them the sensible default for many owners. The trade-offs are wall height and paperwork: Subaru's liners don't match Husky's firm, tall walls, and the listing doesn't advertise a lifetime crack warranty. For a Forester that sees normal commuting and the occasional snowy weekend, that's usually fine.\n\nA Subaru dealer can confirm the part for your VIN and sells a matching cargo tray, which gives you a factory-look interior end to end. Genuine Subaru liners also tend to hold value when you sell the car, because buyers recognize the factory part. If a single piece wears out, the dealer can order it individually, which isn't always possible with aftermarket sets.",
    "who": "Owners who want a factory fit at a fair price.",
-   "specs": [["Part #", "Subaru J501SSJ030"], ["Pieces", "4"], ["Fits", "2019–2024 Forester"], ["Type", "All-weather liner"], ["Price band", "$80–$120"]]},
+   "specs": [["Part #", "Subaru J501SSJ030"], ["Pieces", "4"], ["Fits", "2019–2024 Forester"], ["Wilderness", "Not offered on Subaru's 2022 and 2024 sheets; dealer check by VIN"], ["Type", "All-weather liner"], ["Price band", "$80–$120"]]},
   {"asin": "B08M9422VV", "role": "Best TPE", "price": "$100–$140",
    "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "3D laser-scanned", "Full cabin set", "45-day returns on LASFIT's store"],
    "cons": ["Warranty length not stated", "Lower walls than Husky's", "Cargo sold separately"],
@@ -140,14 +142,14 @@ ARTICLE = {
   "Press the pedals to the floor before driving.",
  ],
  "avoid": [
-  {"h": "2025+ liners", "body": "The new Forester has a different floor."},
+  {"h": "2025+ liners", "body": "The redesigned 2025 Forester takes its own liner sets, such as Husky's 95381."},
   {"h": "Crosstrek or Impreza liners", "body": "Shared platform, different floors."},
   {"h": "Flat mats in snow country", "body": "Snowmelt needs walls."},
   {"h": "Stacking mats", "body": "Remove the factory mat first."},
  ],
  "verdict": {
   "thesis": "Buy Husky's WeatherBeater 95891 for a snow-country Forester, Subaru's J501SSJ030 for a factory fit at a fair price, and IKABEVEM if you want the cargo area covered too.",
-  "body": "The 5th-gen Forester is simple to fit: one floor for six model years and every trim. Husky has the strongest warranty and walls, Subaru's liners are the value OEM choice, LASFIT is the cold-weather TPE pick, IKABEVEM covers the cargo area and 3W is the budget option.\n\nAfter the floors, most Forester owners add a roof rack for skis or a cargo box, and a trailer hitch for a bike rack. The Forester's factory rails make crossbars straightforward.\n\nIf you're choosing between two sets and can't decide, let your climate pick. In a snow state, walls and a crack warranty matter most, which points to Husky. In a mild climate, fit and price matter most, which points to Subaru's liners or a TPE set. Either way, the cargo area deserves attention if a dog rides back there, because that carpet is harder to clean than the footwells and takes the most abuse over the years you'll own the car."},
+  "body": "The 5th-gen Forester is simple to fit: the listings here cover six model years as one fit, and the Wilderness is the one trim to confirm. Husky has the strongest warranty and walls, Subaru's liners are the value OEM choice, LASFIT is the cold-weather TPE pick, IKABEVEM covers the cargo area and 3W is the budget option.\n\nAfter the floors, most Forester owners add a roof rack for skis or a cargo box, and a trailer hitch for a bike rack. Raised roof rails, which Subaru lists as standard on Premium and up and optional on the Base, make crossbars straightforward.\n\nIf you're choosing between two sets and can't decide, let your climate pick. In a snow state, walls and a crack warranty matter most, which points to Husky. In a mild climate, fit and price matter most, which points to Subaru's liners or a TPE set. Either way, the cargo area deserves attention if a dog rides back there, because that carpet is harder to clean than the footwells and takes the most abuse over the years you'll own the car."},
  "sources": [
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky Liners 95891 Forester listing", "https://www.amazon.com/dp/B07N7YX7WH"],
@@ -155,6 +157,8 @@ ARTICLE = {
   ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
   ["3W / Zhejiang Zhenya company page", "https://www.3wmat.com/"],
   ["Subaru Forester, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Forester"],
+  ["2022 Forester trim comparison: All-Weather Floor Liners by trim, roof rails (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2022/FOR"],
+  ["2024 Forester trim comparison: All-Weather Floor Liners by trim, roof rails (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2024/FOR"],
  ],
 }
 

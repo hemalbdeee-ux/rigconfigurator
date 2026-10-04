@@ -2,8 +2,9 @@
 Mirrors the approved RAV4 / Outback cargo-box pages. No invented hands-on testing: box specs come from the Yakima,
 Thule, Rhino-Rack and SportRack product pages and etrailer (INNO) listed in sources; vehicle facts come from
 db/migrations/003_vehicles.sql and the Forester roof-rack page's references (checked 2026-09-27).
-Boxes are universal; the Forester-specific part is raised rails vs Wilderness ladder rails, the 176 lb driving
+Boxes are universal; the Forester-specific part is raised rails vs Wilderness rails, the 176 lb driving
 limit, crossbar spread and liftgate clearance.
+Text fixes 2026-10-04: Base trim rails are optional per Subaru's 2019, 2022 and 2024 trim sheets (bare-roof check added); "ladder-type" no longer described as Wilderness-only (Subaru's 2 Sept 2021 release uses it for the refreshed 2022 rails too); 176 lb / 700 lb attributed to Subaru's 2022 and 2024 sheets and 2022 release, with 2019-2021 owners sent to the owner's manual; hitch FAQ reworded (no factory receiver confirmed; Subaru accessory hitch L101SSJ001 / L101SSJ005) and "in our data" removed; 2025 Wilderness note per Wikipedia.
 """
 
 KEY = ("subaru", "forester", "2019-2024", "cargo-boxes")
@@ -16,19 +17,19 @@ FAQ = [
  ("What size cargo box fits a 2019–2024 Subaru Forester?",
   "Most Forester owners are best served by 11 to 16 cu ft. The Forester is a compact SUV, so length matters as much as volume. The Thule Pulse 2 M is 68.9 in long, the SportRack Vista XL 63 in, the Rhino-Rack MasterFit 440 76 in and the Thule Force 3 L 76.8 in. The Yakima GrandTour 16 is 79 in and the CBX 16 is 83 in. Shorter boxes leave more room for the open liftgate, so start from length and then pick the volume you need."),
  ("How much weight can I carry in a roof box on a Forester?",
-  "The standard SK Forester's rails are rated at 176 lb while driving, per the Wilderness launch coverage cited on our Forester roof rack page. That figure covers the crossbars, the box and the cargo together. A 31 lb Thule Pulse 2 M on bars that weigh around 15 lb leaves roughly 130 lb for gear; a 57 lb Yakima CBX 16 leaves about 100 lb. Check the owner's manual for your car and plan around the lower number if sources disagree."),
+  "Subaru's 2022 and 2024 trim comparison sheets print a 176 lb maximum capacity for the standard roof rails, and Subaru's release on the refreshed 2022 Forester calls it the dynamic (driving) capacity. That figure covers the crossbars, the box and the cargo together. A 31 lb Thule Pulse 2 M on bars that weigh around 15 lb leaves roughly 130 lb for gear; a 57 lb Yakima CBX 16 leaves about 100 lb. The 2019 sheet prints no capacity, so 2019–2021 owners should take the figure from the owner's manual."),
  ("Is the Forester Wilderness roof better for a cargo box?",
-  "It has more margin. The 2022–2024 Wilderness uses ladder-type rails rated at 220 lb dynamic and 800 lb static, against 176 lb and 700 lb on the standard car. The box itself fits either way, because boxes clamp to crossbars. The difference is the bars: standard-rail crossbars are often titled \"not Wilderness,\" so buy bars listed for the Wilderness rail first and then choose the box."),
+  "It has more margin. Subaru rates the 2022–2024 Wilderness rails at 220 lb dynamic and 800 lb static, against the 176 lb and 700 lb its 2022 release gives the standard rails. The box itself fits either way, because boxes clamp to crossbars. The difference is the bars: standard-rail crossbars are often titled \"not Wilderness,\" so buy bars listed for the Wilderness rail first and then choose the box."),
  ("Will a roof box hit the Forester's liftgate?",
   "A long box can. The liftgate swings up toward the rear of the roof, and a box that hangs past the rear crossbar sits in its path. Slide the box as far forward as the windshield and antenna allow, then open the liftgate slowly the first time and watch the gap. Thule publishes a front-clearance figure for its boxes (more than 44 13/16 in for the Pulse 2 M and more than 50 5/8 in for the Force 3 L) to use with its hatch clearance guidance."),
  ("Do I need crossbars before I buy a cargo box for my Forester?",
-  "Yes. Every SK Forester we cover has raised side rails, but a box needs crossbars to clamp to. Buy a set titled for the Forester's raised rails, or a Wilderness-specific set on that trim, and check the bars' spread range against the box. Our 2019–2024 Forester roof rack page lists fit-checked bars, including Subaru's own aero set and lockable aftermarket sets."),
+  "Yes. A box clamps to crossbars, and clamp-on crossbars need rails. Subaru lists raised side rails as standard on Premium, Sport, Limited and Touring and optional on the Base, so look at a Base roof first: with no rails, you need a door-jamb clamp system from Thule or Yakima instead. Otherwise buy a set titled for the Forester's raised rails, or a Wilderness-specific set on that trim, and check the bars' spread range against the box. Our 2019–2024 Forester roof rack page lists fit-checked bars, including Subaru's own aero set and lockable aftermarket sets."),
  ("How far apart should the crossbars be for a roof box?",
   "Inside the box's published range. Yakima lists 24–36 in for the GrandTour 16 and 24–35.5 in for the CBX 16. etrailer lists 24–39 in for the INNO Wedge 660, and Rhino-Rack gives 620–930 mm (about 24.4–36.6 in) for the MasterFit 440. Because Forester bars clamp to the raised rails, you set the spread yourself; just keep the rear bar ahead of where the rail curves down toward the liftgate."),
  ("Can I open the moonroof with a cargo box on the Forester?",
   "Don't count on it. etrailer attaches a note to the Thule systems it fits to the Forester saying it is not recommended to open, vent or retract the sun, moon or glass roof while the product is installed. A box sits even closer to the glass than bare bars. Keep the front of the box clear of the panel's path and leave the moonroof closed while the box is on."),
  ("Can I fit a cargo box and a bike on a Forester at the same time?",
-  "Only with a narrow box and careful weight math. Most full-width boxes here are 32–38 in wide and take most of the crossbar length. Even when a bike mount fits beside the box, the bike, the mount, the box and the bars all count against the 176 lb driving limit. If you carry bikes often, a hitch-mounted bike rack keeps that weight off the roof; the standard Forester has a 1.25 in hitch and a 1,500 lb tow rating in our data."),
+  "Only with a narrow box and careful weight math. Most full-width boxes here are 32–38 in wide and take most of the crossbar length. Even when a bike mount fits beside the box, the bike, the mount, the box and the bars all count against the 176 lb driving limit. If you carry bikes often, a hitch-mounted bike rack keeps that weight off the roof. We could not confirm that any Forester leaves the factory with a receiver, so look under the rear bumper. Subaru's accessory hitch is 1-1/4 in for 2019–2021 (L101SSJ001) and 2 in for 2022–2024 (L101SSJ005), and Subaru rates the standard Forester at 1,500 lb of towing."),
  ("Will a Forester roof box fit in my garage?",
   "Measure your door opening and add the height of the bars and box. The INNO Wedge 660 is only 11 in tall, the lowest box here, and the Yakima CBX 16 is 15 in. The Thule Force 3 L is 16.8 in, the Rhino-Rack MasterFit 440 17 in, the GrandTour 16 18 in and the SportRack Vista XL 19 in. Put a note on the dash or garage remote the first few weeks, because forgetting the box is the most common way to damage one."),
  ("Does a roof box hurt the Forester's fuel economy?",
@@ -38,11 +39,11 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule, INNO, Rhino-Rack and SportRack matched to the 5th-generation Forester's raised rails, from the 31 lb Thule Pulse 2 M to the rugged Yakima CBX 16. For each one we list volume, length, height, weight and crossbar spread, and what those numbers mean for the Forester's 176 lb driving limit, the Wilderness rails and the liftgate.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
- "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack product pages, and etrailer's listing for the INNO box): volume, exterior dimensions, box weight, load rating, crossbar spread, ski length and warranty. We then matched those numbers to the Forester's raised rails, its 176 lb dynamic roof rating (220 lb on the Wilderness), the liftgate and garage clearance. Vehicle facts come from our fitment data and the references on our Forester roof rack page. Prices were checked on the makers' and retailers' pages in September 2026; Amazon prices move daily, so the button shows the live price.",
+ "reviewed": "2026-10-04",
+ "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack product pages, and etrailer's listing for the INNO box): volume, exterior dimensions, box weight, load rating, crossbar spread, ski length and warranty. We then matched those numbers to the Forester's raised rails, the 176 lb dynamic roof rating Subaru publishes for the standard 2022–2024 rails (220 lb on the Wilderness), the liftgate and garage clearance. Vehicle facts come from Subaru's 2019, 2022 and 2024 trim comparison sheets, Subaru's release on the refreshed 2022 Forester and the references on our Forester roof rack page. Prices were checked on the makers' and retailers' pages in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Crossbars come first.** Every SK Forester has raised rails, but the box clamps to crossbars. The 2022–2024 Wilderness uses ladder-type rails, and many standard bars are titled \"not Wilderness.\"",
-  "**Do the 176 lb math.** The standard Forester roof is rated at 176 lb while driving; bars, box and gear all count. A 31 lb Pulse 2 M leaves far more for gear than a 57 lb CBX 16.",
+  "**Crossbars come first.** The box clamps to crossbars, and those need rails. Subaru lists raised rails as standard on Premium, Sport, Limited and Touring and optional on the Base, so check a Base for a bare roof. The 2022–2024 Wilderness has its own rails, and many standard bars are titled \"not Wilderness.\"",
+  "**Do the 176 lb math.** Subaru's 2022 and 2024 sheets rate the standard rails at 176 lb; bars, box and gear all count. A 31 lb Pulse 2 M leaves far more for gear than a 57 lb CBX 16. For 2019–2021, confirm the figure in the owner's manual.",
   "**Shorter is safer at the liftgate.** The boxes here run from 63 in (Vista XL) and 68.9 in (Pulse 2 M) to 83 in (CBX 16). Mount forward and open the liftgate slowly the first time.",
   "**Match the spread.** You set the spread on clamp-on raised-rail bars, but it must sit inside the box's range, such as 24–36 in for the GrandTour 16 or 24–39 in for the INNO Wedge 660.",
   "**Leave the moonroof shut.** etrailer notes it is not recommended to open the sun or moon roof with a Thule rack installed on the Forester, and a box sits closer still.",
@@ -58,17 +59,18 @@ ARTICLE = {
   "caption": "2019–2024 Forester roof setups (what you need before any box goes on)",
   "head": ["Roof", "Trims / years", "Driving / parked limit", "Box notes"],
   "rows": [
-   ["Raised side rails", "Base, Premium, Sport, Limited, Touring, 2019–2024", "176 lb / 700 lb", "Clamp-on bars titled for Forester raised rails; set spread to the box's range"],
-   ["Wilderness ladder-type rails", "Wilderness, 2022–2024", "220 lb / 800 lb", "Bars listed for the Wilderness; more load margin for heavier boxes"],
+   ["Raised side rails", "Standard on Premium, Sport, Limited, Touring, 2019–2024; optional on Base (Subaru)", "176 lb / 700 lb (Subaru: 2022 and 2024 sheets, 2022 release); 2019–2021: see owner's manual", "Clamp-on bars titled for Forester raised rails; set spread to the box's range"],
+   ["No rails", "Base without the optional rails", "See owner's manual", "Clamp-on bars won't mount; fit a door-jamb clamp system from Thule or Yakima first"],
+   ["Wilderness rails", "Wilderness, 2022–2024", "220 lb / 800 lb (Subaru)", "Bars listed for the Wilderness; more load margin for heavier boxes"],
    ["Moonroof cars", "Trims with the sunroof option", "Same as above", "Keep the box clear of the glass path; leave it closed while the box is on"],
-   ["6th-gen Forester", "2025+ (new generation)", "See the 2025 manual", "Same boxes, but buy bars listed for the new car"],
+   ["6th-gen Forester", "2025+ (new generation; the 2025 Wilderness is the older body per Wikipedia)", "See the owner's manual", "Same boxes, but buy bars listed for your year and trim"],
   ],
  },
  "look_for": [
   {"h": "Box length vs the Forester liftgate",
    "body": "The Forester has a compact SUV roof and a liftgate that swings up toward its back edge, so length is the first number to check. The boxes here run from 63 in (SportRack Vista XL) and 68.9 in (Thule Pulse 2 M) through 76 in (Rhino-Rack MasterFit 440), 76.8 in (Thule Force 3 L) and 79 in (GrandTour 16) to 80 in (INNO Wedge 660) and 83 in (Yakima CBX 16). Mount any of them as far forward as the windshield allows, then open the liftgate slowly and watch the gap. Thule's front-clearance figures (more than 44 13/16 in for the Pulse 2 M) are a useful cross-check against its hatch guidance."},
   {"h": "Roof load after crossbars: 176 lb, or 220 lb on the Wilderness",
-   "body": "The standard Forester's rails are rated at 176 lb while driving, and the 2022–2024 Wilderness at 220 lb. Those figures cover everything above the rails. The boxes here weigh 31 lb (Pulse 2 M) to 57 lb (CBX 16); SportRack doesn't publish the Vista XL's weight. Add your crossbars' listed weight and a standard Forester usually has about 100–130 lb left for gear. That suits sleeping bags, duffels and skis. A box's own rating, such as 165 lb for the Thule boxes, doesn't raise the car's limit, so load to the lower figure."},
+   "body": "Subaru's 2022 and 2024 sheets rate the standard rails at 176 lb and the 2022–2024 Wilderness rails at 220 lb while driving. The 2019 sheet prints no figure, so 2019–2021 owners should confirm it in the owner's manual. Those figures cover everything above the rails. The boxes here weigh 31 lb (Pulse 2 M) to 57 lb (CBX 16); SportRack doesn't publish the Vista XL's weight. Add your crossbars' listed weight and a standard Forester usually has about 100–130 lb left for gear. That suits sleeping bags, duffels and skis. A box's own rating, such as 165 lb for the Thule boxes, doesn't raise the car's limit, so load to the lower figure."},
   {"h": "Crossbar spread on clamp-on raised-rail bars",
    "body": "Forester crossbars clamp to the raised rails and slide along them, so you choose the spread. It still has to fall inside the box's range: 24–36 in for the GrandTour 16, 24–35.5 in for the CBX 16, 24–39 in for the INNO Wedge 660 (per etrailer) and about 24.4–36.6 in for the MasterFit 440 (Rhino-Rack's 620–930 mm). The SportRack Vista XL mounts at fixed positions of 25-7/8, 27-7/8 or 29-7/8 in, per etrailer. Keep the rear bar ahead of the point where the rail curves down, and mark the rail with tape once you find the right spacing."},
   {"h": "Height, garages and the moonroof",
@@ -145,7 +147,7 @@ ARTICLE = {
    "specs": [["Volume", "18 cu ft"], ["Exterior", "63 × 38 × 19 in"], ["Opening", "Rear"], ["Mounting positions", "25-7/8, 27-7/8 or 29-7/8 in (etrailer)"], ["Hardware", "Tool-free; lock included"], ["Material", "UV-resistant ABS"], ["Box weight / max load", "Not published; confirm"], ["Price", "$449.95 (SportRack)"]]},
  ],
  "install": [
-  "Fit crossbars listed for your roof: raised-rail bars on standard trims, or a Wilderness-listed set on the 2022–2024 Wilderness. Torque them to the maker's spec.",
+  "Check the roof first, because a Base may have no rails. Then fit crossbars listed for your roof: raised-rail bars on cars with raised rails, or a Wilderness-listed set on the 2022–2024 Wilderness. Torque them to the maker's spec.",
   "Set the spread inside the box's range (24–36 in GrandTour 16, 24–35.5 in CBX 16, 24–39 in Wedge 660, about 24.4–36.6 in MasterFit 440) or on one of the Vista XL's fixed positions, keeping the rear bar ahead of the rail's downward curve.",
   "With a helper, set the box on the bars, center it side to side and slide it as far forward as the windshield and antenna allow, keeping it clear of the moonroof's path.",
   "Fit the clamps loosely, open the liftgate slowly and check the gap at the tail, then tighten the clamps to the box maker's spec (Thule's PowerClick clamps show a torque indicator).",
@@ -153,7 +155,7 @@ ARTICLE = {
   "Load heavy items low and between the bars, keep bars + box + gear under 176 lb (220 lb Wilderness), and leave the moonroof closed.",
  ],
  "avoid": [
-  {"h": "Standard-rail bars on a Wilderness", "body": "Many Forester crossbars are titled \"not Wilderness\" because the 2022–2024 Wilderness uses ladder-type rails. Buy bars for your rail first; the box clamps to those."},
+  {"h": "Standard-rail bars on a Wilderness", "body": "Many Forester crossbars are titled \"not Wilderness\" because the 2022–2024 Wilderness has its own rails. Buy bars for your rail first; the box clamps to those."},
   {"h": "Loading to the box's rating", "body": "The Thule boxes are rated at 165 lb, but the standard Forester roof carries 176 lb including bars and box. After a 40–57 lb box and the bars, about 100–130 lb is left for gear."},
   {"h": "A long box without testing the liftgate", "body": "The CBX 16 is 83 in long and the Wedge 660 80 in. Mount them forward and open the liftgate slowly once, or pick the 63 in Vista XL or 68.9 in Pulse 2 M."},
   {"h": "Opening the moonroof under a box", "body": "etrailer notes it is not recommended to open, vent or retract the sun or moon roof with a Thule system installed on the Forester. Keep it closed while the box is on."},
@@ -174,6 +176,13 @@ ARTICLE = {
   ["SportRack Vista XL mounting positions (etrailer)", "https://www.etrailer.com/question-156482.html"],
   ["2022 Forester roof rack systems and moonroof note (etrailer)", "https://www.etrailer.com/roof-2022_Subaru_Forester.htm"],
   ["2022 Forester Wilderness first look: roof ratings (Our Auto Expert)", "https://www.ourautoexpert.com/2022-subaru-forester-wilderness-first-look/"],
+  ["2019 Forester trim comparison: roof rails by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2019/FOR"],
+  ["2022 Forester trim comparison: roof rails and capacity, towing by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2022/FOR"],
+  ["2024 Forester trim comparison: roof rails and capacity, towing by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2024/FOR"],
+  ["Subaru announces pricing on refreshed 2022 Forester: roof rail design and load limits (Subaru U.S. Media Center)", "https://media.subaru.com/pressrelease/1789/1/subaru-announces-pricing-refreshed-2022-forester-suv"],
+  ["Subaru L101SSJ005 trailer hitch, 2022–2024 (Subaru Parts Pros)", "https://www.subarupartspros.com/sku/l101ssj005.html"],
+  ["Subaru L101SSJ001 trailer hitch, 2019–2021 (Subaru Parts Pros)", "https://www.subarupartspros.com/sku/l101ssj001.html"],
+  ["Subaru Forester generations (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Forester"],
   ["Cargo box fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
  ],
 }

@@ -34,6 +34,7 @@ the guide's "battery under the second-row seat"; SportRack Vista XL weight and l
 No Highlander guide exists for running boards or lighting; neither is ranked. Amazon URLs in the guides' source
 lists are not repeated here.
 Source fixes 2026-10-04 (round 2): "Toyota Canada" corrected to Toyota Customs, the parts department of a Toyota dealer in Edmonton, Canada (toyotacustoms.com is not Toyota Canada); AHG's 75 kg worded as the genuine-crossbar figure; Hybrid battery line now cites Toyota's 2025 release and no longer says it changes the second-row floor; a flush-versus-raised rail check added, to match the four guides.
+Text fixes 2026-10-04 (round 3): "clamp-on" removed for the budget Amazon crossbar sets (the roof rack guide could not confirm how their feet attach); XSE line now cites Toyota's 2021 XSE release ("the first-ever twin-tip exhaust on a Highlander") and no longer says "its own rear fascia"; Reese 84439 no longer called Class IV (Reese's page could not be reopened; the Amazon title names no class); V6 towing now cites Toyota's 2021 release (5,000 lb with the available towing package) in place of "commonly listed".
 """
 
 KIND = "upgrades"
@@ -48,7 +49,7 @@ FAQ = [
  ("What should I upgrade first on a 2020–2026 Toyota Highlander?",
   "Floor liners, then crossbars. Liners cost the least, about $110–$160 for a two-row or three-row set in the "
   "floor liner guide, and they need two facts from you: captain's chairs or a bench in the second row, and gas "
-  "or Hybrid. Crossbars are second at about $80–$140 for clamp-on sets, provided the roof has side rails. A "
+  "or Hybrid. Crossbars are second at about $80–$140 for the budget Amazon sets, provided the roof has side rails. A "
   "trailer hitch is third, at about $244–$257 for a brand-name receiver. A cargo box is last because it costs "
   "the most and needs the bars first."),
  ("Do Grand Highlander parts fit the regular Highlander?",
@@ -71,7 +72,7 @@ FAQ = [
  ("How much weight can the Highlander's roof carry with crossbars and a cargo box?",
   "Plan around 165 lb for bars, box and gear together. That is the evenly distributed figure a Canadian Toyota dealer's parts store lists "
   "for Toyota's Highlander crossbars, and the rating etrailer and The Rack Shop give for Thule and Yakima "
-  "systems. Two clamp-on sets print 220 and 260 lb, which are sellers' bar "
+  "systems. Two Amazon sets print 220 and 260 lb, which are sellers' bar "
   "ratings. The guides found no separate roof figure published for this generation, so the owner's manual "
   "decides. On 165 lb bars a 47 lb Yakima SkyBox 16 leaves 118 lb before the bars' own weight."),
  ("Does the Highlander come with a trailer hitch from the factory?",
@@ -81,8 +82,8 @@ FAQ = [
   "2 in opening and read the window sticker. If one is there, you need a ball mount or a rack, not a trailer hitch."),
  ("How much can a 2020–2026 Highlander tow, and does a 6,000 lb hitch raise it?",
   "No hitch raises it. Toyota's 2025 release says the 2.4L turbo models can tow up to 5,000 lb and all Hybrid "
-  "models up to 3,500 lb, and the site's vehicle data lists 5,000 lb as the maximum. The 2020–2022 V6 is also "
-  "commonly listed at 5,000 lb; we did not confirm that from a Toyota document, so read the owner's manual. The "
+  "models up to 3,500 lb, and the site's vehicle data lists 5,000 lb as the maximum. For the V6, Toyota's 2021 "
+  "release ties 5,000 lb to the available towing package, so read the owner's manual. The "
   "lower of hitch and vehicle applies. A 6,000 lb CURT 13460 on a Hybrid is still a 3,500 lb setup."),
  ("Did the 2023 switch from the V6 to the turbo four change which accessories fit?",
   "Not in any of the four guides. Wikipedia says the 2.4L turbocharged four-cylinder replaced the 3.5L V6 for "
@@ -107,7 +108,7 @@ ARTICLE = {
            "purchase depends on another (a cargo box needs crossbars first). Price bands are the prices on those "
            "guides' picks, checked in September 2026, and are approximate. Vehicle facts come from the site's "
            "vehicle data, the guides' sources, Wikipedia's Highlander page, Toyota's 2025 Highlander release "
-           "and Toyota's parts site. Where we couldn't confirm a factory detail, the text says so.",
+           "and Toyota's parts site, plus Toyota's 2021 XSE release. Where we couldn't confirm a factory detail, the text says so.",
  "takeaways": [
   "**Count the second-row seats and read the badge.** Captain's chairs or a bench, and gas or Hybrid, decide the floor liner set; MAXPRO and LASFIT exclude the Hybrid.",
   "**It isn't a Grand Highlander.** That is a larger vehicle sold from the 2024 model year, with its own liners, crossbars and hitches.",
@@ -133,8 +134,8 @@ ARTICLE = {
    "h": "2. Roof rack second: cheap crossbars, provided the roof has rails",
    "why": "A roof rack ranks second because crossbars are cheap and nothing else goes on the roof without them. The site's vehicle data records flush side rails on most trims. The Amazon "
           "listings in the roof rack guide name the XLE, XSE, Limited and Platinum, gas and Hybrid; none names "
-          "the L or LE, and etrailer also lists naked-roof systems for the 2023 Highlander. Bars attach three "
-          "ways. Clamp-on sets grip the rail: about $80–$120 for Richeer's or HEKA's, about $90–$130 for "
+          "the L or LE, and etrailer also lists naked-roof systems for the 2023 Highlander. Bars come three "
+          "ways. Four budget Amazon sets are sold for the factory rails, and the roof rack guide could not confirm how their feet attach: about $80–$120 for Richeer's or HEKA's, about $90–$130 for "
           "Snailfly's and about $100–$140 for the lockable set. Bolt-in bars use the rail's preset points: "
           "about $130–$170 for BRIGHTLINES' and about $300–$450 for Toyota's PT767-48200. Thule and Yakima "
           "fixed-point systems run about $695–$705 on etrailer. The trade-off is proof: the cheapest sets "
@@ -147,7 +148,7 @@ ARTICLE = {
           "accessory, so a dealer may have fitted one. If there is none, the grade decides the part. CURT lists "
           "its 13460 for 2020–2026 Highlanders excluding the XSE, at 6,000 lb with 900 lb of tongue weight, "
           "about $257. B&W's RH670220BW is listed for XSE and non-XSE models at 5,000 lb and 750 lb, about "
-          "$244. Reese's Class IV 84439 kit with wiring runs about $300–$400 and excludes 2020–2023 models with "
+          "$244. Reese's 84439 kit with wiring runs about $300–$400 and excludes 2020–2023 models with "
           "twin-tip exhaust. A budget TLAPS receiver runs about $140–$200, with ratings to confirm on the "
           "listing. etrailer says every 2023 Highlander hitch it sells needs the underbody panel trimmed or "
           "removed and fits with the 18 in spare only. If you tow or carry bikes most weeks, move this slot up "
@@ -170,7 +171,7 @@ ARTICLE = {
   "head": ["Upgrade", "Budget", "Mid", "Premium"],
   "rows": [
    ["Floor liners", "About $110–$150 (LASFIT front and second row; 8-seat gas only)", "About $120–$160 (TGBROS or MAXPRO three-row set; MAXPRO is not for the Hybrid)", "About $320–$450 (Husky X-act Contour kit at about $220–$300 plus Husky 25791 cargo liner at about $100–$150)"],
-   ["Roof rack", "About $80–$120 (Richeer clamp-on bars, 220 lb listed)", "About $90–$130 (Snailfly clamp-on bars, listed for 2020–2026)", "About $705 (Thule WingBar Evo fixed-point system on etrailer, 165 lb)"],
+   ["Roof rack", "About $80–$120 (Richeer side-rail bars, 220 lb listed)", "About $90–$130 (Snailfly side-rail bars, listed for 2020–2026)", "About $705 (Thule WingBar Evo fixed-point system on etrailer, 165 lb)"],
    ["Trailer hitch", "About $140–$200 (TLAPS Class 3 receiver; ratings on the listing)", "About $244 (B&W RH670220BW, lists the XSE) or $257 (CURT 13460, not the XSE)", "About $284–$327 (the B&W or CURT plus Tekonsha's 118827 harness at about $40–$70)"],
    ["Cargo box", "About $450 (SportRack Vista XL; set the bars to one of its three positions)", "About $599 (Yakima SkyBox 16 Carbonite, sale price; regular $749)", "About $786 (Thule Pulse L, sale price) to $1,250 (Thule Motion 3 XXL, box alone)"],
    ["Total", "About $780–$920", "About $1,053–$1,146", "About $2,095–$2,732"],
@@ -207,7 +208,7 @@ ARTICLE = {
            "listing says raised side rails and BRIGHTLINES' says flush side rails, so compare the mount in the "
            "listing photos with your own rail. A flush rail has no gap under it; a raised rail does.\n\n"
            "**Three ways to mount bars.**\n\n"
-           "- **Clamp-on sets** grip the rail and cost about $80–$140. Measure the spread you end up with.\n"
+           "- **Budget Amazon sets** are sold for the factory side rails and cost about $80–$140. The roof rack guide could not confirm how their feet attach, so check the listing photos, and measure the spread you end up with.\n"
            "- **Bolt-in bars** use the rails' preset points: Toyota's PT767-48200 and BRIGHTLINES' "
            "replacement. They sit at fixed positions, and the guides publish no spread for either, so measure "
            "center to center before choosing a box. Toyota's US parts page lists the XLE, Limited and Platinum "
@@ -237,18 +238,18 @@ ARTICLE = {
            "the 2.4L turbo models can tow up to 5,000 lb and all Hybrid models up to **3,500 lb**. Your figure is in the owner's "
            "manual.\n\n"
            "**The engine change.** Wikipedia says the 2.4L turbocharged four-cylinder replaced the 3.5L V6 for "
-           "the 2023 model year. The hitch guide notes that the 2020–2022 V6 is commonly listed at 5,000 lb as "
-           "well. We did not confirm that from a Toyota document.\n\n"
+           "the 2023 model year. Toyota's 2021 release says the available towing package enables a 5,000-pound towing capacity on V6 models. "
+           "We did not find a figure for a V6 without that package.\n\n"
            "**The receiver.** The vehicle data records Class III with a 2 in receiver. Toyota's parts site "
            "sells a Tow Hitch Receiver, PT228-48174, as an accessory with a 12-month warranty. As we read that "
            "page, it gives no model years, class or rating. We could not confirm that any grade leaves the "
            "factory with a receiver, so look under the bumper.\n\n"
            "**What a bolt-on hitch changes.** It adds a receiver, not rating. The lower of hitch and vehicle "
            "applies. CURT's Class 3 13460 is rated at 6,000 lb with 900 lb of tongue weight, B&W's RH670220BW "
-           "at 5,000 lb and 750 lb, and Reese's Class IV 84439 at 6,000 lb and 900 lb. We could not confirm "
+           "at 5,000 lb and 750 lb, and Reese's 84439 at 6,000 lb and 900 lb, as read on Reese's page on September 24, 2026. We could not confirm "
            "the Highlander's own tongue weight limit, or whether Toyota allows weight distribution; both are "
            "owner's manual questions.\n\n"
-           "**The XSE.** Added for 2021, it has its own rear fascia and twin-tip exhaust. CURT excludes it, "
+           "**The XSE.** Added for 2021, it has what Toyota's release calls \"the first-ever twin-tip exhaust on a Highlander\". CURT excludes it, "
            "Reese excludes 2020–2023 twin-tip models, and etrailer lists the B&W for it.\n\n"
            "**The spare.** etrailer's notes for every 2023 Highlander hitch it sells say the hitch fits with "
            "the 18 in spare only. Toyota's 2025 release puts the XSE, Limited and Platinum on 20 in wheels. We "
@@ -309,7 +310,7 @@ ARTICLE = {
   "body": "The fourth-generation Highlander is easy to accessorize once five facts are written down: captain's "
           "chairs or a bench, gas or Hybrid, rails or a bare roof, XSE or not, and Highlander or Grand "
           "Highlander. Floor liners need the first two and cost the least, so they go first. A roof rack is "
-          "second because clamp-on bars cost about $80–$140 and everything that rides on the roof depends on "
+          "second because the budget Amazon bars cost about $80–$140 and everything that rides on the roof depends on "
           "them.\n\n"
           "The trailer hitch sits third. It has the most work in it, and it gives heavy gear and bikes a place "
           "the 165 lb roof can't. The cargo box is last because it is the biggest spend and has to suit the "
@@ -328,7 +329,8 @@ ARTICLE = {
   ["2023 Highlander hitch comparison and install notes (etrailer)", "https://www.etrailer.com/hitch-2023_Toyota_Highlander.htm"],
   ["CURT 13460 Class 3 hitch, Highlander (CURT)", "https://www.curtmfg.com/part/13460"],
   ["B&W BW62PR Highlander hitch (etrailer)", "https://www.etrailer.com/Trailer-Hitch/B-and-W/BW62PR.html"],
-  ["Reese 84439 Class IV hitch (Reese)", "https://www.reeseprod.com/product/84439_class-iii-trailer-hitch"],
+  ["Reese 84439 hitch (Reese; read 2026-09-24 for the hitch guide)", "https://www.reeseprod.com/product/84439_class-iii-trailer-hitch"],
+  ["Toyota Highlander adds XSE grade for 2021: twin-tip exhaust, V6 towing package (Toyota USA Newsroom)", "https://pressroom.toyota.com/toyota-highlander-adds-xse-grade-toyota-safety-sense-2-5-for-2021/"],
   ["Tekonsha T-One 118827 harness (Tekonsha)", "https://www.tekonsha.com/product/118827_t-one-connector-assembly-with-upgraded-circuit-protected-modulite-hd-module"],
   ["Husky Liners: WeatherBeater vs X-act Contour, origin and warranty (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Cargo box and rear carrier fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],

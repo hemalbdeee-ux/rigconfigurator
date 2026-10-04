@@ -25,6 +25,7 @@ and other makers' Hybrid and Prime years; ratings of the Rigid Hitch and the CUR
 Vista XL's weight; crossbar spread for the Force 3 L and SkyBox NX Skinny; whether RAV4 rails allow a 32 in spread;
 and any 2026 fit. No RAV4 guide exists for running boards or lighting; neither is ranked.
 Source fixes 2026-10-04: aligned with the corrected guides and the proposed vehicle data (factory receiver no longer treated as 1.25 in; Toyota accessory hitch is a 2 in tube): tow figures tied to the 2024 model year, 2025 ratings marked unconfirmed, rail profile and shared-roof claims reduced to what listings say, Prime range attributed to Toyota.
+Text fixes 2026-10-04 (round 2): battery under the rear seat claim replaced with Toyota's 2021 RAV4 Prime release (battery mounted under the floor; Hybrid location not confirmed); 165 lb is no longer stated as the roof limit, it is named as the vehicle data number, not confirmed from Toyota, and the box math is worded as an example on that figure.
 """
 
 KIND = "upgrades"
@@ -64,9 +65,10 @@ FAQ = [
   "$212 with 675 lb of tongue weight. Reese's 1.25 in 06192 is about $150–$220 with 350 lb and isn't rated for "
   "weight distribution. Toyota's parts page lists its own PK960-42K10 hitch with a 2 in receiver tube."),
  ("How much weight can a RAV4 roof carry with crossbars and a cargo box?",
-  "The vehicle data on this site lists 165 lb for the 2019–2025 RAV4. RAV4Resource gives 176.4 lb (80 kg) for "
-  "2019–2024 models and points to the Cargo and Luggage section of the owner's manual. Plan around the lower figure. "
-  "The limit covers crossbars, box and gear together. A 47 lb SkyBox 16 leaves 118 lb "
+  "We could not confirm a roof load figure from a Toyota document, so read your owner's manual. The vehicle data "
+  "on this site lists 165 lb for the 2019–2025 RAV4, which we could not trace to Toyota. RAV4Resource gives 176.4 lb (80 kg) for "
+  "2019–2024 models and points to the Cargo and Luggage section of the owner's manual. "
+  "The limit covers crossbars, box and gear together. On the 165 lb figure, a 47 lb SkyBox 16 leaves 118 lb "
   "before the bars are counted. A 260 lb rating on a crossbar listing describes the bar, not the roof."),
  ("My RAV4 LE has no roof rails. What are my options?",
   "The vehicle data lists the LE with a bare roof, so look at yours first. With no rails, none of the clamp-on "
@@ -108,16 +110,16 @@ ARTICLE = {
   "**Read the liftgate badge first.** Gas, Hybrid and Prime don't always share floor liners: Husky's and AOMSAZTO's sets are for gas models only.",
   "**Look at the roof before the listing.** Standard raised rails, Adventure and TRD Off-Road rails, flush rails and a bare roof each take different crossbars.",
   "**The tow rating belongs to the version, not the hitch.** Dealer figures for 2024 give 1,500 lb gas, 1,750 lb Hybrid, 2,500 lb Prime and 3,500 lb Adventure and TRD Off-Road.",
-  "**The roof carries about 165 lb, bars and box included.** One reference lists 176.4 lb for 2019–2024, so read the owner's manual.",
+  "**The roof limit is modest, and bars and box count toward it.** The vehicle data lists 165 lb and RAV4Resource lists 176.4 lb for 2019–2024. We could not confirm either from Toyota, so read the owner's manual.",
   "**Buy 2019–2025 parts only.** 2013–2018 liners and hitches don't fit, and the 2026 RAV4 is a new generation.",
  ],
  "priority": [
   {"category": "floor-mats",
    "h": "1. Floor liners first: the lowest price, and one look at the badge",
    "why": "Floor liners lead on the RAV4 because every version can use them, they cost the least and the fit check "
-          "is one look at the liftgate badge. The floor liner guide says the Hybrid and Prime carry a battery under "
-          "the rear seat, and some makers cut the rear and cargo pieces differently for them. Husky goes further: "
-          "its WeatherBeater 95501 set and 13231 front pair are both listed as not fitting hybrid models, and "
+          "is one look at the liftgate badge. Toyota says the Prime's larger battery is mounted under the floor, and "
+          "some liner listings exclude the hybrid. Husky's "
+          "WeatherBeater 95501 set and 13231 front pair are both listed as not fitting hybrid models, and "
           "AOMSAZTO's set is gas only. The generic 3D set names gas, Hybrid and Prime, Powerty says all models, and "
           "WeatherTech asks you to confirm Hybrid or Prime. Prices run about $70–$110 for AOMSAZTO, about $80–$120 "
           "for Powerty, about $90–$130 for the generic 3D set, about $100–$140 for a floor-and-cargo set that lists "
@@ -136,7 +138,7 @@ ARTICLE = {
           "about $90–$130 with a 260 lb bar rating, names every trim it excludes. FLYCLE's is about $80–$120, "
           "VEVOR's 160 lb set about $60–$90 and titled 2020–2023 only, and ROKIOTOEX's set for the Adventure and "
           "TRD rails about $100–$150. The trade-off is the roof itself: the vehicle data lists 165 lb, bars "
-          "included, and no bar rating raises that. On a bare-roof LE the cheapest route in the guide is a Thule "
+          "included, a figure we could not confirm from Toyota, and no bar rating raises the roof's limit. On a bare-roof LE the cheapest route in the guide is a Thule "
           "clamp kit at about $605, so LE owners should move the trailer hitch up to second.",
    "skip_if": "Your Woodland Edition already has the cross bars Toyota's 2024 release lists as standard, or nothing you carry has to go on the roof."},
   {"category": "hitches",
@@ -144,7 +146,7 @@ ARTICLE = {
    "why": "A trailer hitch ranks third. It costs more than crossbars and takes more work, since cargo-area trim "
           "panels come off and the hands-free liftgate sensor may need adjusting. In return it carries what the "
           "roof can't: the published tongue weight ratings in the hitch guide run from 350 lb to 675 lb, against "
-          "165 lb for the roof. The guide's first pick is B&W's RH670118BW, a Class III hitch with a 2 in receiver rated "
+          "165 lb for the roof in the vehicle data. The guide's first pick is B&W's RH670118BW, a Class III hitch with a 2 in receiver rated "
           "4,500 lb and 675 lb, at about $212 from etrailer. Reese's 06192 is the 1.25 in Class II option at about "
           "$150–$220, rated 3,500 lb and 350 lb. CURT's 56434 plug-in harness adds about $50–$80. Two facts decide "
           "the purchase: listing coverage by powertrain and year, and the version's own tow rating. Dealer figures for 2024 "
@@ -180,8 +182,9 @@ ARTICLE = {
  "sections": [
   {"h": "Gas, Hybrid or Prime: what the badge changes and what it leaves alone",
    "body": "The badge on the liftgate changes three things on this list and leaves one alone.\n\n"
-           "**Floor and cargo liners.** The floor liner guide says the Hybrid and Prime carry a battery under the "
-           "rear seat, and that some makers cut the rear and cargo liners differently for them. Husky's exclusions "
+           "**Floor and cargo liners.** Toyota says the Prime's larger lithium-ion battery is mounted under the floor. "
+           "We could not confirm the Hybrid's battery location from Toyota, and the listings don't say what "
+           "differs, but several sets exclude the hybrid. Husky's exclusions "
            "reach the front row too. Its 25501 cargo liner, about $90–$140, names no powertrain in its title, so confirm it with the "
            "maker.\n\n"
            "**The hitch.** The body is shared, but the listings name powertrains year by year. B&W lists its "
@@ -224,10 +227,11 @@ ARTICLE = {
              ]}},
   {"h": "Roof or hitch: where the weight should go on a compact SUV",
    "body": "The RAV4 has two places to carry what won't fit inside, and their limits differ.\n\n"
-           "**The roof.** The vehicle data on this site lists a roof load of **165 lb** for this generation. "
+           "**The roof.** We could not confirm a roof load figure from a Toyota document. The vehicle data on this "
+           "site lists **165 lb** for this generation, which we could not trace to Toyota. "
            "RAV4Resource lists 176.4 lb (80 kg) for 2019–2024 models and says the figure is in the owner's manual "
-           "under Cargo and Luggage. We did not read a Toyota manual for this page, so plan on the lower number. "
-           "Starting from 165 lb, the makers' box weights leave this much before the "
+           "under Cargo and Luggage, so read yours. "
+           "As an example, starting from 165 lb, the makers' box weights leave this much before the "
            "crossbars' own weight comes off:\n\n"
            "- **Yakima DeepSpace 10, 30.2 lb:** 134.8 lb, but Yakima limits the box to 100 lb of cargo.\n"
            "- **Thule Force 3 L and Yakima SkyBox NX Skinny, 43 lb each:** 122 lb.\n"
@@ -235,7 +239,7 @@ ARTICLE = {
            "- **Yakima GrandTour 16, 51.5 lb:** 113.5 lb.\n"
            "- **SportRack Vista XL:** weight not published.\n\n"
            "The crossbar titles in the roof rack guide give no bar weights, so read the listing. The cargo box "
-           "guide's working figure is roughly 100–120 lb for gear, which suits duffels and skis, not a cooler "
+           "guide's examples leave roughly 100–120 lb for gear, which suits duffels and skis, not a cooler "
            "full of ice.\n\n"
            "**The hitch.** Tongue weight ratings in the hitch guide run from 350 lb on Reese's 06192 to 675 lb on "
            "B&W's RH670118BW. A bike rack or a cargo carrier is tongue weight, not trailer weight, so even a "
@@ -284,7 +288,7 @@ ARTICLE = {
  "avoid": [
   {"h": "A gas-only liner set on a Hybrid or Prime", "body": "Husky's 95501 and 13231 and AOMSAZTO's set exclude the hybrid. Buy a set that names your powertrain."},
   {"h": "Standard-rail crossbars on an Adventure, TRD Off-Road or LE", "body": "Standard-rail listings exclude the Adventure and TRD Off-Road, and the LE's bare roof has nothing to clamp to. Read the title's exclusions against your badge and your roof."},
-  {"h": "Loading or towing to the part's rating", "body": "A 260 lb crossbar doesn't change a 165 lb roof, and a 4,500 lb hitch doesn't change a 1,500 lb RAV4. The lower number wins."},
+  {"h": "Loading or towing to the part's rating", "body": "A 260 lb crossbar doesn't change the roof limit in the owner's manual, and a 4,500 lb hitch doesn't change a 1,500 lb RAV4. The lower number wins."},
   {"h": "Parts from the generation before or after", "body": "2013–2018 liners and hitches don't fit, and the 2026 RAV4 has its own parts, such as CURT's 13652 hitch. Only the cargo box moves between generations."},
  ],
  "verdict": {
@@ -295,7 +299,7 @@ ARTICLE = {
           "second. On standard raised rails it costs about $60–$130, which puts it ahead of the trailer hitch. On "
           "a bare-roof LE it costs about $605 or more, so LE owners should swap the two.\n\n"
           "The hitch is third because it takes more work and brings the kick sensor into play, but it is where "
-          "heavy loads belong on a roof that carries about 165 lb. The cargo box is last because it costs the most "
+          "heavy loads belong, since the roof figures we found are 165 lb and 176.4 lb. The cargo box is last because it costs the most "
           "and depends on the bars, the roof limit and the liftgate.",
  },
  "sources": [
@@ -315,5 +319,6 @@ ARTICLE = {
   ["Thule Force 3 L (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-force-3-l-_-645750"],
   ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
   ["2025 Toyota RAV4 Plug-in Hybrid: name and EV-only range estimate (Toyota Newsroom)", "https://pressroom.toyota.com/vehicle/2025-toyota-rav4-plug-in-hybrid/"],
+  ["2021 Toyota RAV4 Prime release: battery mounted under the floor (Toyota Newsroom)", "https://pressroom.toyota.com/2021-toyota-rav4-prime-primed-and-ready-for-electrified-traction/"],
  ],
 }

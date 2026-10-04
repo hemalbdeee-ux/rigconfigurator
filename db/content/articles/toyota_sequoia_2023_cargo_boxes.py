@@ -6,17 +6,21 @@ db/migrations/003_vehicles.sql, etrailer's 2023 Sequoia roof page (lists BOTH ra
 (75 in tall, 208 in long), Wikipedia (trims, towing) and owner threads on ToyotaSequoia.net (checked 2026-09-28).
 Not verified: a Toyota-published roof load figure and the OEM PT767-0C660 crossbar rating/spread — readers are sent
 to the owner's manual.
+Text fixes 2026-10-04: removed the reference to a Sequoia roof rack page (none exists); rail-type wording now follows
+etrailer's 2023 page as re-read (two types, no grades named) and notes that Rack Warehouse's raised-rail page covers
+2001-2025 without splitting generations; tow figure now Toyota's (2025 release, 9,520 lb; January 2022 reveal 9,000 lb);
+Toyota accessory bars no longer described as fitting either rail type without a dealer check; META "rails by trim" fixed.
 """
 
 KEY = ("toyota", "sequoia", "2023-present", "cargo-boxes")
 
 TITLE = "Best Rooftop Cargo Boxes for 2023–2026 Toyota Sequoia: 7 Picks for a 75-Inch-Tall Hybrid SUV"
-META = ("Six Yakima, Thule, Rhino-Rack, INNO and SportRack boxes plus Toyota crossbars for the 3rd-gen Sequoia: rails "
-        "by trim, TRD Pro rack, weight and garage height.")
+META = ("Six Yakima, Thule, Rhino-Rack, INNO and SportRack boxes plus Toyota crossbars for the 3rd-gen Sequoia: rail "
+        "type, TRD Pro rack, weight and garage height.")
 
 FAQ = [
  ("Does the 2023–2026 Sequoia have raised rails or flush rails?",
-  "Check your own roof. Our vehicle data lists raised side rails, and Rack Warehouse sells Yakima's raised-rail TimberLine FX kit for the Sequoia, but etrailer lists two roof types for the 2023 Sequoia: factory raised rails and flush-mounted rails, both running front to back. If you can slide your fingers under the rail between its end mounts, it's a raised rail and strap-style towers fit. If the rail sits tight to the roof, buy flush-rail feet listed for the Sequoia."),
+  "Check your own roof. etrailer lists two roof types for the 2023 Sequoia: factory installed raised rails and flush mounted rails, both running front to back. It does not say which grades have which, and the Toyota releases we read do not describe the roof rails, so we could not confirm rail type by grade. Rack Warehouse sells Yakima's raised-rail TimberLine FX kit for the Sequoia, but its page covers 2001–2025 models without separating this generation. If you can slide your fingers under the rail between its end mounts, it's a raised rail and strap-style towers fit. If the rail sits tight to the roof with no gap, it's a flush rail, so buy flush-rail feet listed for the Sequoia."),
  ("What is the roof load limit on a 2023–2026 Sequoia?",
   "We couldn't confirm a Toyota-published roof figure for this generation, so read the roof-load section of your owner's manual before you load a box. The figures we did find are lower than many owners expect: Rave Offroad lists the TRD Pro factory roof rack at 132 lb evenly distributed, and a budget crossbar listing for the 2023–2026 Sequoia claims 165 lb. Use the lowest of the manual, crossbar and box ratings, and count bars, box and cargo against it."),
  ("Do the Toyota factory crossbars work with a cargo box?",
@@ -34,16 +38,16 @@ FAQ = [
  ("How much does a roof box hurt the i-FORCE MAX hybrid's fuel economy?",
   "fueleconomy.gov estimates that a rooftop cargo box can cut fuel economy by 2 to 8 percent in city driving, 6 to 17 percent on the highway and 10 to 25 percent at interstate speeds of 65 to 75 mph. Every 3rd-gen Sequoia is a hybrid, but a box's drag hurts most at highway speed, where the hybrid system helps least. A low box like the INNO Wedge 660 adds the least frontal area. Take the box off between trips."),
  ("Should I use a roof box or a hitch cargo carrier on a Sequoia?",
-  "Our fitment data lists a Class IV hitch with a 2 in receiver, and Wikipedia gives a 9,300 to 9,520 lb tow rating depending on trim, so a hitch cargo carrier is easy to add and keeps coolers, bins and water low and reachable. An owner on ToyotaSequoia.net notes that you need to switch off rear obstacle detection with a hitch carrier fitted. The roof box is better for soft, bulky gear you load once per trip, and it keeps the liftgate and camera clear."),
+  "Toyota's release for the 2025 model year gives a maximum towing capacity of up to 9,520 lb (its January 2022 reveal said up to 9,000 lb), and our fitment data lists a Class IV hitch with a 2 in receiver. If your Sequoia has that receiver, a hitch cargo carrier is easy to add and keeps coolers, bins and water low and reachable. An owner on ToyotaSequoia.net notes that you need to switch off rear obstacle detection with a hitch carrier fitted. The roof box is better for soft, bulky gear you load once per trip, and it keeps the liftgate and camera clear."),
 ]
 
 ARTICLE = {
  "dek": "Seven picks for the third-generation Sequoia: six rooftop boxes from Yakima, Thule, Rhino-Rack, INNO and SportRack, from an 11 in low-profile box to a 21 cu ft giant, plus Toyota's own crossbars. For each box we list volume, length, weight, height and crossbar spread, and what they mean on a 75 in tall hybrid SUV where rail type varies, the TRD Pro rack is rated at 132 lb, and garage clearance runs out fast.",
  "author": "jake-morrison",
- "reviewed": "2026-09-28",
- "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack, INNO and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, warranty), on etrailer's figures for the Thule, INNO and SportRack boxes, on etrailer's and Rack Warehouse's Sequoia roof fit data, on Rave Offroad's TRD Pro rack listing, on vehicle dimensions from Cars.com and Wikipedia, and on owner reports we read on ToyotaSequoia.net. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "reviewed": "2026-10-04",
+ "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack, INNO and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, warranty), on etrailer's figures for the Thule, INNO and SportRack boxes, on etrailer's and Rack Warehouse's Sequoia roof fit data, on Rave Offroad's TRD Pro rack listing, on vehicle dimensions from Cars.com and Wikipedia, on Toyota's newsroom releases for the tow figure, and on owner reports we read on ToyotaSequoia.net. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Check your rail type.** Our data lists raised rails, but etrailer lists both raised and flush rails for the 2023 Sequoia. Look before you buy feet.",
+  "**Check your rail type.** etrailer lists both raised and flush rails for the 2023 Sequoia and does not say which grades have which. Look before you buy feet.",
   "**Toyota's roof figure isn't published where we could find it.** The TRD Pro factory rack is listed at 132 lb evenly distributed; confirm your number in the owner's manual.",
   "**75 in tall means no standard garage.** Even the 11 in INNO Wedge 660 puts the top at 86 in before the bars.",
   "**The long roof takes a long box.** At 208 in overall, the Sequoia fits a 91 in box ahead of the liftgate. Weight, not length, is the limit.",
@@ -60,8 +64,8 @@ ARTICLE = {
   "caption": "2023–2026 Sequoia roof setups (what the box mounts to)",
   "head": ["Roof", "Trims", "Crossbar notes", "Box notes"],
   "rows": [
-   ["Raised side rails (our data; etrailer, Rack Warehouse)", "Most trims; confirm on your roof", "Toyota PT767-0C660, Yakima TimberLine FX ($599.90 at Rack Warehouse), budget bars", "Bars set inside the box's spread range"],
-   ["Flush rails (also listed by etrailer for 2023)", "Confirm by looking under the rail", "Flush-rail feet listed for the Sequoia", "Same boxes"],
+   ["Raised side rails (listed by etrailer for 2023)", "Not stated by grade; a gap under the rail", "Yakima TimberLine FX ($599.90 at Rack Warehouse), budget bars; Toyota PT767-0C660 (dealer to confirm rail match)", "Bars set inside the box's spread range"],
+   ["Flush rails (also listed by etrailer for 2023)", "Not stated by grade; no gap under the rail", "Flush-rail feet listed for the Sequoia", "Same boxes"],
    ["TRD Pro factory roof rack", "TRD Pro option (Rave Offroad)", "67.5 in basket in the rails, 132 lb evenly distributed", "Confirm clamp fit on the rack tubes"],
    ["All trims: SR5, Limited, Platinum, 1794 Edition, TRD Pro, Capstone", "Hybrid i-FORCE MAX", "Roof figure: owner's manual", "Bars + box + gear under the lowest figure"],
    ["Height", "75 in (Cars.com, 2023)", "Bars add height", "Box adds 11–19 in; no standard 7 ft garage"],
@@ -69,7 +73,7 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Rail type varies, so look before buying feet",
-   "body": "Our vehicle data lists raised side rails on the third-gen Sequoia, and Rack Warehouse sells Yakima's raised-rail TimberLine FX kit for it at $599.90. etrailer, though, lists two roof types for the 2023 Sequoia: factory raised rails and flush-mounted rails, both running front to back. That is the first thing to settle. Slide your fingers under the rail between its end mounts: if there's a gap, strap-style raised-rail towers clamp on; if the rail sits tight to the roof, you need flush-rail feet. Toyota's PT767-0C660 accessory bars are made for the Sequoia's rails and skip the guesswork. Every box here clamps to the bars once they're on."},
+   "body": "etrailer lists two roof types for the 2023 Sequoia: factory installed raised rails and flush mounted rails, both running front to back. It does not say which grades have which, and the Toyota releases we read do not describe the roof rails. Rack Warehouse sells Yakima's raised-rail TimberLine FX kit for the Sequoia at $599.90, on a page that covers 2001–2025 models without separating this generation. So the rail type is the first thing to settle. Slide your fingers under the rail between its end mounts: if there's a gap, strap-style raised-rail towers clamp on; if the rail sits tight to the roof, you need flush-rail feet. Toyota's PT767-0C660 accessory bars are sold for the 2023-on Sequoia; ask the dealer to confirm they suit the rails on your vehicle. Every box here clamps to the bars once they're on."},
   {"h": "A roof figure you have to confirm",
    "body": "We couldn't open a Toyota page that states the Sequoia's roof load, so the owner's manual is the authority; read its roof-load section before loading a box. The figures we did find are modest for a vehicle this size. Rave Offroad lists the TRD Pro factory roof rack at 132 lb evenly distributed, and a budget crossbar listing for the 2023–2026 Sequoia claims 165 lb. The boxes here weigh 38.6 lb (MasterFit 440L) to 57.2 lb (Motion 3 XXL). Against 132 lb, a 47 lb SkyBox 16 plus bars leaves well under 85 lb for gear. Use the lowest number you find."},
   {"h": "Loading height on a 75 in roof",
@@ -142,7 +146,7 @@ ARTICLE = {
   {"asin": "B0C26KKRF3", "role": "Factory crossbars", "price": "Confirm on listing",
    "pros": ["Genuine Toyota part PT767-0C660 for the 2023-on Sequoia", "Low-profile design with caps over the mounting screws, per owners", "Owners report running Thule boxes on them", "Needed before any box goes on", "Easy to remove, per an owner report"],
    "cons": ["Load rating not on any page we could open; confirm with a dealer", "Adjustment range not published; confirm against your box's spread", "Adds wind noise, per an owner report"],
-   "body": "Every box here needs crossbars, and Toyota's own PT767-0C660 set is the most direct fit. Dealer parts catalogs list it as roof rack cross bars for the 2023-on Sequoia, and owners on ToyotaSequoia.net describe a low-profile bar that attaches to the side rails, with plastic caps hiding the screws; one owner says removal is just prying off the caps with a plastic tool. Another owner reports a Thule cargo box on top of the factory bars, and one early buyer says he bought the factory bars because aftermarket kits weren't out yet.\n\nWhat we couldn't find is a published load rating or adjustment range for these bars; the dealer pages we tried would not load. Ask your dealer for both, confirm the roof figure in your owner's manual, and use the lowest number. If you'd rather use a brand-name system, Rack Warehouse sells Yakima's TimberLine FX raised-rail kit for the Sequoia at $599.90, and budget bars listed for the 2023–2026 Sequoia claim 165 lb. Owners also report extra wind noise from bars alone and a garage door catching the bar, so take them off between trips if you can.",
+   "body": "Every box here needs crossbars, and Toyota's own PT767-0C660 set is the most direct fit. Dealer parts catalogs list it as roof rack cross bars for the 2023-on Sequoia, and owners on ToyotaSequoia.net describe a low-profile bar that attaches to the side rails, with plastic caps hiding the screws; one owner says removal is just prying off the caps with a plastic tool. Another owner reports a Thule cargo box on top of the factory bars, and one early buyer says he bought the factory bars because aftermarket kits weren't out yet.\n\nWhat we couldn't find is a published load rating or adjustment range for these bars; the dealer pages we tried would not load. Ask your dealer for both, confirm the roof figure in your owner's manual, and use the lowest number. If you'd rather use a brand-name system, Rack Warehouse sells Yakima's TimberLine FX kit for Sequoias with raised rails at $599.90, and budget bars listed for the 2023–2026 Sequoia claim 165 lb. Owners also report extra wind noise from bars alone and a garage door catching the bar, so take them off between trips if you can.",
    "who": "Owners who want Toyota's own bars under a box and will confirm the rating with a dealer.",
    "specs": [["Part number", "PT767-0C660"], ["Fits", "2023-on Sequoia with side rails (dealer listings)"], ["Mounting", "Clamps to factory side rails; caps cover screws"], ["Load rating", "Not published where we looked; confirm"], ["Spread", "Not published; confirm"], ["Alternative", "Yakima TimberLine FX, $599.90 (Rack Warehouse)"]]},
  ],
@@ -155,14 +159,14 @@ ARTICLE = {
   "Lock the box, rock it from each corner, re-check the clamps after the first drive, and put a garage reminder on the dash.",
  ],
  "avoid": [
-  {"h": "Buying feet before checking the rails", "body": "etrailer lists both raised and flush rails for the 2023 Sequoia. Look under the rail, or use Toyota's accessory bars."},
+  {"h": "Buying feet before checking the rails", "body": "etrailer lists both raised and flush rails for the 2023 Sequoia. Look under the rail, and have a dealer confirm Toyota's accessory bars against your roof."},
   {"h": "Assuming a big SUV has a big roof rating", "body": "The TRD Pro factory rack is listed at 132 lb evenly distributed. Confirm your figure in the manual and count bars, box and gear."},
   {"h": "Driving into a 7 ft garage with the box on", "body": "A 75 in Sequoia plus an 11–19 in box is 86 to 94 in before bars. Measure and leave yourself a reminder."},
   {"h": "Tundra or 2008–2022 Sequoia bars", "body": "The 3rd-gen Sequoia has its own roof. Buy bars that name 2023 or later Sequoia."},
  ],
  "verdict": {
   "thesis": "Fit crossbars matched to your rail type, confirm the roof figure in your manual, then choose the Yakima SkyBox 16 for most Sequoia families, the INNO Wedge 660 if height is tight, or the Rhino-Rack MasterFit 440L if weight is.",
-  "body": "On the third-gen Sequoia the roof has room for any box, but three things set the rules: rails that etrailer lists as raised or flush depending on the vehicle, a roof figure you have to confirm (the TRD Pro rack is listed at only 132 lb), and a 75 in body that puts any box past a standard garage door. The SkyBox 16 balances those best with 16 cu ft, a 15 in profile and dual-side loading. The Wedge 660 is the lowest box for tall doors and hybrid highway mileage, the MasterFit 440L leaves the most weight for gear, the Motion 3 XXL uses the long roof if you pack light, the GrandTour 16 suits tall, bulky gear, and the Vista XL is the budget pick if you have a ladder.\n\nStart with the bars; our Sequoia roof rack page lists fit-checked sets. Running boards make the side reach to the box easier on a roof this high, and for heavy gear the Sequoia's Class IV trailer hitch takes a hitch cargo carrier. If you're shopping the previous 2008–2022 Sequoia, its roof and rails differ, so buy bars for that generation.",
+  "body": "On the third-gen Sequoia the roof has room for any box, but three things set the rules: rails that etrailer lists as raised or flush depending on the vehicle, a roof figure you have to confirm (the TRD Pro rack is listed at only 132 lb), and a 75 in body that puts any box past a standard garage door. The SkyBox 16 balances those best with 16 cu ft, a 15 in profile and dual-side loading. The Wedge 660 is the lowest box for tall doors and hybrid highway mileage, the MasterFit 440L leaves the most weight for gear, the Motion 3 XXL uses the long roof if you pack light, the GrandTour 16 suits tall, bulky gear, and the Vista XL is the budget pick if you have a ladder.\n\nStart with the bars: Toyota's PT767-0C660 set or feet matched to your rail type. Running boards make the side reach to the box easier on a roof this high, and for heavy gear a hitch cargo carrier suits the Class IV, 2 in receiver our data lists, if your Sequoia has one. If you're shopping the previous 2008–2022 Sequoia, its roof and rails differ, so buy bars for that generation.",
  },
  "sources": [
   ["2023 Toyota Sequoia roof types: raised and flush rails (etrailer)", "https://www.etrailer.com/roof-2023_toyota_sequoia.htm"],
@@ -172,7 +176,9 @@ ARTICLE = {
   ["Owner thread: 2023 cross bars (ToyotaSequoia.net)", "https://www.toyotasequoia.net/threads/cross-bars.71/"],
   ["Owner thread: 2023 roof rack or cargo box (ToyotaSequoia.net)", "https://www.toyotasequoia.net/threads/2023-roof-rack-or-cargo-box.121/"],
   ["2023 Toyota Sequoia specs, 75 in height and 208 in length (Cars.com)", "https://www.cars.com/research/toyota-sequoia-2023/specs/"],
-  ["Toyota Sequoia third generation: trims, i-FORCE MAX, towing (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Sequoia"],
+  ["Toyota Sequoia third generation: trims, i-FORCE MAX (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Sequoia"],
+  ["2025 Sequoia Adds 1794 Grade and More: 9,520-pound maximum towing capacity; no roof rail details (Toyota Newsroom)", "https://pressroom.toyota.com/2025-sequoia-adds-1794-grade-and-more/"],
+  ["Standing Tall: All-New 2023 Sequoia, January 2022 reveal: up to 9,000 lb; no roof rail details (Toyota Newsroom)", "https://pressroom.toyota.com/standing-tall-all-new-2023-sequoia-full-size-suv-is-ready-to-make-its-mark/"],
   ["Yakima SkyBox 16 Carbonite (Yakima)", "https://yakima.com/collections/roof-boxes/products/skybox-16-carbonite-2014-2023"],
   ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],
   ["INNO Wedge 660 specs (etrailer)", "https://www.etrailer.com/Roof-Box/INNO/INBRM660BK.html"],

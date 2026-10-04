@@ -2,8 +2,9 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py) and the floor liner guides in this folder.
 No invented hands-on testing. Fit facts come from Amazon listing titles (FITS); specs and prices come from the
 maker and retailer pages in sources, read 2026-10-04. Vehicle facts: ford.com Ranger page and Wikipedia.
-Not verified, and worded that way in the text: an explicit "SuperCrew only" statement, the XL floor covering,
+Not verified, and worded that way in the text: an explicit "SuperCrew only" statement from Ford, the XL floor covering,
 Raptor floor fit, the row and part number behind the Husky ASIN, and all 3D MAXpider specs (maker site blocked).
+Text fixes 2026-10-04: "one cab" statements are now attributed to MotorWeek's launch report (source added); the WeatherTech FAQ says its site has a year, make and model lookup that we did not run for the Ranger (source added). Unchanged after a third per-model read of Ford's page: the carpet floor covering line sits under the XLT. Unchanged: the Husky row and part number hedge (Husky's site search did not show fitment for 13791 or 14791).
 """
 
 KEY = ("ford", "ranger", "2024-present", "floor-mats")
@@ -16,7 +17,7 @@ FAQ = [
  ("Do 2019–2023 Ranger floor liners fit a 2024–2026 Ranger?",
   "Treat them as different parts. The 2024 Ranger is a new generation, and Wikipedia notes it was engineered for the American market from the start, unlike the truck it replaced. We did not find a source that compares the two floors, so we can't say what changed in inches. What we can say is that liner listings split at 2024. Smartliner sells one set titled 2019–2023 and a separate one for 2024–2026, and LASFIT and 3W have their own listings for the new truck too. One oddity: Tractor Supply titles a Husky front pair for the old truck as 2019–2024. Ask Husky before you read that as proof of carry-over."),
  ("Is the 2024–2026 Ranger sold as a SuperCab?",
-  "Not that we could find. Ford's Ranger page, which showed the 2026 model when we read it, lists the SuperCrew, a four-door cab, and the XL, XLT, Lariat and Raptor. It does not say in so many words that the SuperCrew is the only cab. Every liner listing we found for 2024 and later names the SuperCrew, or 'Double Cab' in TuxMat's wording, and none names a SuperCab. The 2019–2023 truck did come as a SuperCab, which is why older listings mention it. If a listing mentions the SuperCab, it was most likely written for the previous generation, so read the year range again before you order."),
+  "No, according to MotorWeek's report of the 2024 launch, which says the truck is only available as a SuperCrew with a 5 ft bed. Ford's Ranger page, which showed the 2026 model when we read it, lists the SuperCrew, a four-door cab, and the XL, XLT, Lariat and Raptor. It does not say in so many words that the SuperCrew is the only cab. Every liner listing we found for 2024 and later names the SuperCrew, or 'Double Cab' in TuxMat's wording, and none names a SuperCab. The 2019–2023 truck did come as a SuperCab, which is why older listings mention it. If a listing mentions the SuperCab, it was most likely written for the previous generation, so read the year range again before you order."),
  ("Why do some Ranger liners say carpeted floors only?",
   "Because the makers cut them for a carpeted floor and say so. LASFIT sells its set as 'Fit Carpet Floor Only', Smartliner's second-row Amazon title says 'Only Fits with Carpeted Flooring', and a Michelin mat listing for this truck says 'Carpet Floor'. Ford's Ranger page lists a carpet floor covering with carpet floor mats on the XLT. We could not read the floor covering for the XL on that page, so we won't guess which trims differ. Lift a factory mat and look. If you see vinyl or rubber flooring, ask the seller for a set made for that floor before you buy any liner on this page."),
  ("Do these liners fit the Ranger Raptor?",
@@ -24,7 +25,7 @@ FAQ = [
  ("Will a liner titled 2024–2025 fit a 2026 Ranger?",
   "Probably, but confirm it. We found no source describing a cab floor change for 2026, and several makers already list the year: LASFIT, Husky, 3D MAXpider's full set and Smartliner's own page all read 2024–2026. Smartliner's Amazon titles still stop at 2025, and so does NIKALAIKA's budget set. A title that stops at 2025 may simply be older than the 2026 truck. It may also mean nobody has checked. Ask the seller in writing and keep the reply, so a return is simple if the fit is off. If you'd rather not ask, buy a listing that names 2026."),
  ("Why isn't WeatherTech on this list?",
-  "Because of our own rule, not because of the product. We only list a liner when its Amazon title names the 2024, 2025 or 2026 Ranger. The WeatherTech listings we found are titled 'Ford Ranger' or 'Ford Ranger, Ranger Raptor' with a part number and no model year, and listings for the older truck are titled the same way. We could not tell the generations apart from the titles, and we don't guess. If you want WeatherTech, use the vehicle selector on WeatherTech's own site to get the part numbers for your year, then match those numbers on the listing."),
+  "Because of our own rule, not because of the product. We only list a liner when its Amazon title names the 2024, 2025 or 2026 Ranger. The WeatherTech listings we found are titled 'Ford Ranger' or 'Ford Ranger, Ranger Raptor' with a part number and no model year, and listings for the older truck are titled the same way. We could not tell the generations apart from the titles, and we don't guess. If you want WeatherTech, its own site has a year, make and model lookup. We did not run the Ranger through it. If it returns part numbers for your year, match those numbers on the listing."),
  ("Do XL, XLT and Lariat trucks take the same liners?",
   "The listings don't separate them. No title on this page names a trim, and every one fits by cab and year. Two things can still differ between trucks. The first is the floor covering: several sets are for carpeted floors only, so check yours. The second is the Raptor, which no pick names. There is no transmission split to worry about. Ford's page lists a 10-speed automatic on every model, and Wikipedia says all North American Rangers use it, so there is no clutch-pedal version of the front liner."),
  ("Will the rear liner get in the way of the under-seat storage?",
@@ -43,7 +44,7 @@ ARTICLE = {
  "takeaways": [
   "**Buy by the year in the title.** The 2024 Ranger is a new generation, and makers sell separate 2024+ liners. Skip anything titled 2019–2023.",
   "**Check your floor covering.** LASFIT's set and Smartliner's second-row listing are for carpeted floors only.",
-  "**One cab, one transmission.** Ford's page shows the SuperCrew and a 10-speed automatic on every model, so there is no SuperCab rear or clutch version to match.",
+  "**One cab, one transmission.** MotorWeek's launch report says the 2024 Ranger is only available as a SuperCrew, and Ford's page shows a 10-speed automatic on every model, so there is no SuperCab rear or clutch version to match.",
   "**The Raptor is not named.** No pick title mentions it. Ask the seller before ordering for a Raptor.",
   "**Know what is in the box.** LASFIT, TuxMat and 3D MAXpider sell full sets. Smartliner sells by row. Husky's title is cut off, so confirm the row.",
  ],
@@ -59,7 +60,7 @@ ARTICLE = {
   "head": ["Variable", "What we found", "Liner note"],
   "rows": [
    ["Generation", "New for 2024; the fifth generation in North America", "Use listings titled 2024 or later"],
-   ["Cab", "SuperCrew on Ford's Ranger page", "Every pick is SuperCrew; TuxMat calls it Double Cab"],
+   ["Cab", "SuperCrew on Ford's Ranger page; SuperCrew only, per MotorWeek's launch report", "Every pick is SuperCrew; TuxMat calls it Double Cab"],
    ["Trims", "XL, XLT, Lariat, Raptor", "No pick title names a trim; the Raptor is not named either"],
    ["Floor covering", "Ford lists a carpet floor covering on the XLT; XL not read", "LASFIT and Smartliner's second row say carpet only"],
    ["Transmission", "10-speed automatic on every model", "No clutch-pedal version of the front liner"],
@@ -73,7 +74,7 @@ ARTICLE = {
   {"h": "Carpet or vinyl floor",
    "body": "This is the fit note most buyers miss. LASFIT names its set 'Fit Carpet Floor Only'. Smartliner's second-row Amazon title says 'Only Fits with Carpeted Flooring'. A Michelin mat for the same truck says 'Carpet Floor' in its title. That wording suggests some trucks have a different floor. Ford's Ranger page lists a carpet floor covering with carpet floor mats on the XLT. We could not read the XL's floor covering there, so we won't say which trims have vinyl. Check your own truck: lift the factory mat and look at what is underneath. On a vinyl or rubber floor, ask the seller for a set cut for it, because edges and anchor points designed for carpet may not sit right."},
   {"h": "SuperCrew, Raptor and trim",
-   "body": "Cab choice is easy on this generation. Ford's Ranger page shows the SuperCrew, and every 2024+ liner listing we found names the SuperCrew or, in TuxMat's case, the Double Cab. We found no SuperCab listing for the new truck. The transmission is a 10-speed automatic on every model, so the driver's footwell has no clutch version. Trim is less settled. Ford lists the XL, XLT, Lariat and Raptor. None of the pick titles names a trim, which usually means one cut for all. But no title names the Raptor either, and we found no statement that its floor matches the other trims. Raptor owners should get a yes from the seller in writing before ordering."},
+   "body": "Cab choice is easy on this generation. MotorWeek's launch report says the 2024 Ranger is only available as a SuperCrew. Ford's Ranger page shows the SuperCrew, and every 2024+ liner listing we found names the SuperCrew or, in TuxMat's case, the Double Cab. We found no SuperCab listing for the new truck. The transmission is a 10-speed automatic on every model, so the driver's footwell has no clutch version. Trim is less settled. Ford lists the XL, XLT, Lariat and Raptor. None of the pick titles names a trim, which usually means one cut for all. But no title names the Raptor either, and we found no statement that its floor matches the other trims. Raptor owners should get a yes from the seller in writing before ordering."},
   {"h": "What is in the box",
    "body": "Ranger liners are sold three ways, and the titles don't always make it obvious. LASFIT, TuxMat and 3D MAXpider sell full sets: LASFIT's title says front and rear row, three pieces, TuxMat's says first and second rows, and 3D MAXpider's says full set. Smartliner sells the first row, the second row or both on its own site, and as separate first-row and second-row listings on Amazon. Husky's title was cut off in our search, so the row is something to confirm. 3D MAXpider also has a front-row listing, titled 2025–2026. Before you compare prices, make sure you are comparing the same rows. A single-row part at $90 is not cheaper than a full set at $139."},
   {"h": "Material, edges and warranty",
@@ -150,7 +151,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy LASFIT for a one-box set that names all three model years, Smartliner if you want a lifetime warranty or only one row, and Husky if US-made matters to you, once you have confirmed the row.",
-  "body": "The 2024–2026 Ranger is simple in one way and tricky in another. There is one cab and one transmission, so every maker is cutting for the same footwells. The traps are in the fine print: the year in the title, carpet versus vinyl floors, and whether a listing is one row or two. LASFIT has the cleanest paper trail, with a maker page and an Amazon title that agree on 2024–2026 and a price we could read. Smartliner adds a limited lifetime warranty and lets you buy by row. Husky's WeatherBeater is the US-made choice once you have confirmed the row. TuxMat is for owners who want the sidewalls covered, and 3D MAXpider's Kagu full set is there for buyers who want that brand, with specs to check on the listing.\n\nOnce the cab is protected, most owners turn to the bed. A tonneau cover keeps the 5 ft bed dry, and a bed rack carries a tent or bikes above it. Both have their own fit rules on this generation. If you're still driving the older truck, our 2019–2023 Ranger guide lists liners for its SuperCrew and SuperCab. The vehicle hub lists every fit-checked accessory for your Ranger.",
+  "body": "The 2024–2026 Ranger is simple in one way and tricky in another. MotorWeek's launch report gives it one cab, the SuperCrew, and Ford's page lists one transmission, so every maker is cutting for the same footwells. The traps are in the fine print: the year in the title, carpet versus vinyl floors, and whether a listing is one row or two. LASFIT has the cleanest paper trail, with a maker page and an Amazon title that agree on 2024–2026 and a price we could read. Smartliner adds a limited lifetime warranty and lets you buy by row. Husky's WeatherBeater is the US-made choice once you have confirmed the row. TuxMat is for owners who want the sidewalls covered, and 3D MAXpider's Kagu full set is there for buyers who want that brand, with specs to check on the listing.\n\nOnce the cab is protected, most owners turn to the bed. A tonneau cover keeps the 5 ft bed dry, and a bed rack carries a tent or bikes above it. Both have their own fit rules on this generation. If you're still driving the older truck, our 2019–2023 Ranger guide lists liners for its SuperCrew and SuperCab. The vehicle hub lists every fit-checked accessory for your Ranger.",
  },
  "sources": [
   ["LASFIT floor mats: material, temperature rating, returns (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
@@ -160,6 +161,8 @@ ARTICLE = {
   ["Husky Liners WeatherBeater Floor Liners 14791 (Rack Attack)", "https://rackattack.com/floor-mats-liners/husky-liners-weatherbeater-floor-liners-14791"],
   ["TuxMat: coverage, laser scanning, warranty and guarantee (TuxMat)", "https://www.tuxmat.com/"],
   ["Ford Ranger: models, cab, transmission, floor covering (Ford)", "https://www.ford.com/trucks/ranger/"],
+  ["2024 Ford Ranger launch: SuperCrew with 5 ft bed only (MotorWeek)", "https://motorweek.org/this_just_in/all-new-2024-ford-ranger-debuts-stateside-with-better-looks-more-power-and-first-ever-raptor"],
+  ["WeatherTech: year, make and model lookup (WeatherTech)", "https://www.weathertech.com/"],
   ["Ford Ranger (P703), North American version (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Ranger_(P703)"],
   ["Ford Ranger (Americas), fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)"],
  ],

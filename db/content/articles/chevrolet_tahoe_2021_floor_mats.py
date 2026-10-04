@@ -42,7 +42,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner options for the 5th-generation Tahoe, from Husky's made-in-USA WeatherBeater to TOUGHPRO's heavy rubber sets. On this SUV, the second-row seat is the fit decision: a bench or captain's chairs changes both the second- and third-row liners.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2021–2026 Tahoe (second-row seating, rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky claims come from its own site, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Bench or captain's chairs.** It changes the second- and third-row liners.",
@@ -175,7 +175,7 @@ FITS = [
  ("B08VFDFCNQ","TOUGHPRO 3-Row Floor Mat Set (made in USA), 2021-2025 Tahoe with 2nd-row buckets","TOUGHPRO","$110–$150",{"rows":3,"second_row":"bucket"},"2nd-row bucket seating."),
  ("B09SNYCX4M","Mixsuper 3-Row Floor Liners, 2021-2026 Tahoe / Yukon / Escalade with 2nd-row buckets (not bench)","Mixsuper","$130–$170",{"rows":3,"second_row":"bucket"},"Not for 2nd-row bench."),
  ("B097BKX5JQ","Husky Liners WeatherBeater 28291 Cargo Liner, 2021-2026 Tahoe, Yukon, Escalade (over folded 3rd row)","Husky Liners","$120–$170",{"rows":3},"Standard length only."),
- ("B09N1F5ZF4","Husky Liners WeatherBeater 14241 3rd Row, 2021-2026 Yukon, Tahoe, Escalade with 2nd-row bench","Husky Liners","$60–$100",{"rows":3,"second_row":"bench"},"Bench trucks only."),
+ ("B09N1F5ZF4","Husky Liners WeatherBeater 14241 3rd Row, 2021-2026 Yukon, Tahoe, Escalade with 2nd-row bench","Husky Liners","$60–$100",{"rows":3,"second_row":"bench"},"Bench seating only."),
  ("B08VFG593Y","TOUGHPRO Floor Mats + 3rd Row + Cargo, 2021-2026 Tahoe 2nd-row buckets (made in USA)","TOUGHPRO","$140–$190",{"rows":3,"second_row":"bucket"},"Bucket seating with cargo."),
  ("B0DG53L1MG","JSLYF All-Weather TPE Floor Mats full set, 2021-2024 Tahoe","JSLYF","$120–$160",{"rows":3},"Listed to 2024; confirm 2025 with seller."),
 ]

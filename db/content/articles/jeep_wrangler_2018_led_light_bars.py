@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five JL light setups, from a $399 A-pillar pod kit to a 50 in windshield bar and a factory-point bumper kit. Light bars are universal, so we focus on what is specific to the JL: the mount, the wiring, the 392 and 4xe exclusions, and the covers and aux-light rules that decide when you can switch them on.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these lights ourselves. We ranked them on published specs (lumens, watts, sealing, harness, warranty), on the fitment each maker, retailer or Amazon listing gives for the 2018–2026 Wrangler JL and its trims, and on state lighting summaries from KC HiLiTES and CJ Pony Parts. Prices were checked at the maker, RealTruck or other Jeep retailers in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Buy the mount, not just the bar.** Bars are universal. What has to match your JL is the bracket: windshield, A-pillar, hood/cowl, bumper or grille.",
@@ -166,16 +166,16 @@ ARTICLE = {
 FITS = [
  ("B0CCXF7N84","Baja Designs LP6 Pro LED Bumper Light Kit, Wrangler JL 2018-22 / Gladiator 2020-22 with OEM steel bumper (toggle harness)","Baja Designs","$1,100–$1,250",{"mount":"bumper","bumper":"steel"},"Steel bumper only; plastic-bumper kit sold separately."),
  ("B082448531","KC HiLiTES 91336 Gravity LED Pro6 50 in Light Bar, windshield mount, Jeep Wrangler 2018-20","KC HiLiTES","Check listing",{"mount":"windshield"},"Retailers exclude 4xe / Rubicon 392; discontinued at some retailers — confirm stock and trim."),
- ("B07G1CSP2M","Baja Designs Squadron Sport LED A-Pillar Light Kit, Wrangler JL 2018-22 / Gladiator 2020-22 (Spot)","Baja Designs","$380–$450",{"mount":"a-pillar"},"Mojave/392 need longer M6 x 80 mm bolts; confirm Squadron version on listing."),
+ ("B07G1CSP2M","Baja Designs Squadron Sport LED A-Pillar Light Kit, Wrangler JL 2018-22 / Gladiator 2020-22 (Spot)","Baja Designs","$380–$450",{"mount":"a-pillar"},"392 and Gladiator Mojave need longer M6 x 80 mm bolts; confirm Squadron version on listing."),
  ("B0B2LTBF3T","Hawkley 50-52 in A-Pillar Windshield Light Bar Brackets + 2x 4 in spot lights, 2018-2026 JL/JLU & 2019-2026 Gladiator (not 4xe / Mojave)","Hawkley","$80–$120",{"mount":"windshield"},"Not for 4xe or Mojave."),
  ("B08Q3C9FLB","Nilight Windshield Frame Mounting Bracket for 52 in LED Light Bar, 2018-2023 Wrangler JL/JLU","Nilight","$30–$60",{"mount":"windshield","year_to":2023},"Listed to 2023; confirm 2024+ and trim."),
  ("B0CCXJV973","Baja Designs LP6 Pro Bumper LED Light Kit, Wrangler JL 2018-22 / Gladiator 2020-22 with OEM plastic bumper","Baja Designs","$1,100–$1,250",{"mount":"bumper","bumper":"plastic"},"Plastic-bumper version of #1."),
- ("B0BW4WD653","KC HiLiTES 7328 50 in Light Bar Overhead Bracket Set, Jeep 392 / Mojave","KC HiLiTES","Check listing",{"mount":"windshield","trim":"392"},"Brackets only; for 392 / Mojave."),
+ ("B0BW4WD653","KC HiLiTES 7328 50 in Light Bar Overhead Bracket Set, Jeep 392 / Mojave","KC HiLiTES","Check listing",{"mount":"windshield","trim":"392"},"Brackets only; for the 392 and the Gladiator Mojave."),
  ("B0BW4X3L1F","KC HiLiTES 7331 50 in Light Bar Overhead Bracket Set, Jeep 4xe","KC HiLiTES","Check listing",{"mount":"windshield","4xe":True},"Brackets only; for 4xe."),
  ("B085JYY4FY","KC HiLiTES 7327 Windshield Mount Bracket Kit, 50 in Light Bar, Wrangler JL 2018-19","KC HiLiTES","Check listing",{"mount":"windshield","year_to":2019},"Listed for 2018-19; confirm later years."),
  ("B07K4VKKV1","Rigid Industries 41665 Jeep JL Adapt Hood Mount","Rigid","Check listing",{"mount":"hood"},"For Rigid Adapt bar; confirm bar size and model year with seller."),
  ("B07QHNYFYW","Diode Dynamics Hood Mount LED Light Bar Brackets, 2018-2025 Wrangler JL","Diode Dynamics","$70–$100",{"mount":"hood"},"Brand-name hood cowl brackets for 20 in bars."),
- ("B0BMTXQZLT","Hawkley 50/52 in A-Pillar Light Bar Mounting Brackets, 2018-2026 Wrangler JL/JLU & Gladiator JT","Hawkley","$50–$80",{"mount":"windshield"},"Brackets only; confirm 4xe / Mojave fit."),
+ ("B0BMTXQZLT","Hawkley 50/52 in A-Pillar Light Bar Mounting Brackets, 2018-2026 Wrangler JL/JLU & Gladiator JT","Hawkley","$50–$80",{"mount":"windshield"},"Brackets only; confirm 4xe fit (Mojave is a Gladiator trim)."),
  ("B07M5K9LMX","AUXMART 52 in Windshield Light Bar Brackets with A-pillar mounts, 2018-2022 JL / Gladiator (not Mojave)","AUXMART","$50–$80",{"mount":"windshield","year_to":2022},"Listed to 2022; confirm later years."),
  ("B083NGH9CW","Auto Dynasty 52 in Windshield LED Light Bar Steel Brackets, 2018-2020 JL","Auto Dynasty","$40–$70",{"mount":"windshield","year_to":2020},"2018-2020 only."),
  ("B07VCLXVVZ","Mopar OEM Bumper Mount Light Bracket, Wrangler JL","Mopar","$60–$100",{"mount":"bumper"},"Factory bumper bracket for cube/bar lights."),

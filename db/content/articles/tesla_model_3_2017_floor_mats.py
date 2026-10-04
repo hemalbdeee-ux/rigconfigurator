@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five all-weather mat sets for the Highland Model 3. 3D MAXpider's Kagu set covers the cabin only, and its frunk liner is sold separately. The other four add cargo pieces: BRYOUS's title names front and rear cargo liners, SUPER LINER's names seatback, cargo and trunk pieces, and 3W's and FemboMAX's name cargo liners. The main fit trap is the refresh: 2017–2023 sets and 2024+ Highland sets aren't the same.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these mats ourselves. We ranked them on the fit each listing states for the Model 3 Highland (2024+), on the pieces included, on published maker or retailer specs (construction, backing) and on coverage in listing photos. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Highland needs Highland mats.** 2017–2023 sets are sold separately.",

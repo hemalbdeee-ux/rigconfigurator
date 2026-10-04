@@ -31,6 +31,7 @@ TRD Pro, the guides say "some TRD Pro years and special editions"; vehicle data 
 the 120 lb figure to Trail4Runner, where it is a reader comment; the three guides cite three different Wikipedia
 URLs, and only the (N280) one was opened.
 Source fixes 2026-10-04: TRD Pro roof statements now follow Toyota's 2019, 2020 and 2021 releases (TRD roof rack new for 2019 and exclusive to the TRD Pro; Yakima baskets on the Trail and Venture Special Editions in the 2021 release; 2022–2024 not confirmed); the 120 lb FAQ names the Trail4Runner reader comment; etrailer's 24–42 in spread and 57 in hatch figure are tied to the Yakima SkyBox 12; the Cali Raised roof kit maker-page price is given as about $525–$545 by option; the Squadron Sport street-use line now says the retailer page makes no SAE or DOT claim; the guide-level conflicts listed above were corrected in the four guides the same day.
+Text fixes 2026-10-04 (round 2): the dek, the roof takeaway and the cargo box heading no longer state 120 lb as the roof's limit; they name it as the reader-cited figure, matching the retitled cargo box guide. META now says "a low roof load" in place of "a 120 lb roof".
 """
 
 KIND = "upgrades"
@@ -39,7 +40,7 @@ CATEGORIES = ["floor-mats", "roof-racks", "cargo-boxes", "led-light-bars"]
 
 TITLE = "2010–2024 Toyota 4Runner Upgrades, Ranked: 4 Mods in Order, With Model-Year and Roof Load Fit Traps"
 META = ("Four 2010–2024 4Runner upgrades in buying order: floor liners, roof rack, cargo box and light bar, with "
-        "2013 and 2014 year splits, a 120 lb roof and TRD Pro notes.")
+        "2013 and 2014 year splits, a low roof load and TRD Pro notes.")
 
 FAQ = [
  ("What should I upgrade first on a 2010–2024 4Runner?",
@@ -103,7 +104,7 @@ ARTICLE = {
  "dek": "Four upgrades for the fifth-generation 4Runner, in buying order. The generation ended with the 2024 model "
         "year, so most owners are fitting parts to a used SUV that someone else specified. Fit turns on a few facts: "
         "the model year, five seats or seven, the cargo floor, what the roof carries from the factory, and a roof "
-        "figure of 120 lb that has to cover the bars, the box and the gear.",
+        "figure of 120 lb, cited by a reader from an owner's manual, that has to cover the bars, the box and the gear.",
  "author": "jake-morrison",
  "reviewed": "2026-10-04",
  "method": "We did not install any of these parts ourselves. The order comes from our four fit-checked 2010–2024 "
@@ -117,7 +118,7 @@ ARTICLE = {
   "**Read the model year first.** Most cabin liner sets start at 2013, hidden grille light brackets start at 2014, and the 2020–2024 radar limits a grille mount to one bar.",
   "**Count the seats and look at the cargo floor.** A standard floor, a sliding deck and a third row each take a different cargo liner.",
   "**Look up before buying anything for the roof.** Most trims have raised rails with crossbars. The TRD Pro got a TRD roof rack for 2019, and the Trail and Venture Special Editions carry a Yakima basket.",
-  "**The roof figure is 120 lb, and everything counts.** Bars or platform, box and gear share it. Confirm the figure in your owner's manual.",
+  "**The roof figure we use is 120 lb, and everything counts.** It comes from a reader comment, not a Toyota document. Bars or platform, box and gear share it. Confirm the figure in your owner's manual.",
   "**Look under the bumper before shopping for a hitch.** Toyota's 2013, 2017 and 2020 releases list a tow-hitch receiver and wiring harness as standard.",
  ],
  "priority": [
@@ -147,9 +148,9 @@ ARTICLE = {
           "lb.",
    "skip_if": "Raised rails and factory crossbars are already on the roof and all you want up there is a box, bikes or skis."},
   {"category": "cargo-boxes",
-   "h": "3. Cargo box third: buy by weight, because the roof figure is 120 lb",
+   "h": "3. Cargo box third: buy by weight, because the roof figure is low",
    "why": "A cargo box ranks third because it needs crossbars under it. The box itself is universal. What is specific "
-          "here is the 120 lb roof figure, which has to cover the bars, the box and the gear. The cargo box guide "
+          "here is the reader-cited 120 lb roof figure, which has to cover the bars, the box and the gear. The cargo box guide "
           "therefore ranks by box weight: 36 lb for Thule's 16 cu ft Pulse L, 38.6 lb for Rhino-Rack's MasterFit "
           "440L, 30.2 lb for Yakima's DeepSpace 10, 42 lb for the 11 in tall INNO Wedge 660 and 47 lb for Yakima's "
           "SkyBox 16 Carbonite. Prices in the guide run about $450 for SportRack's Vista XL, whose weight isn't "

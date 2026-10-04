@@ -1,6 +1,7 @@
 """Long-form article — Best Floor Mats & Liners for 2019–2023 Ford Ranger (P375).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
 Source fixes 2026-10-04: Tremor FAQ now says SuperCrew 4x4 XLT/Lariat from model year 2021 and treats FX4 separately; Husky front plus rear corrected to $150–$230 (13411 $90–$130 plus 14411 $60–$100); title and dek say $80 TPE, not $70; OMAC saving corrected to $70–$110; three sources added.
+Text fixes 2026-10-04: the two mentions of Husky parts 13791 and 14791 for the 2024+ truck now read "Husky sells separate 2024+ parts; confirm part number and row on the listing" (row and years of each part could not be confirmed).
 """
 
 KEY = ("ford", "ranger", "2019-2023", "floor-mats")
@@ -11,7 +12,7 @@ META = ("Six floor liner options for the 2019–2023 Ranger SuperCrew and SuperC
 
 FAQ = [
  ("Do 2019–2023 Ranger liners fit a 2024 Ranger?",
-  "No. The 2024 Ranger is a new generation with a new cab, and Husky sells separate parts for it (13791 front and 14791 rear for the 2024+ SuperCrew). One exception: Husky's 13411 front pair is listed for 2019–2024 SuperCrew and SuperCab, which suggests some overlap at the front for the 2024 model year. Treat that as a specific listing claim, not a rule, and buy 2024+ liners for a 2024 or later truck."),
+  "No. The 2024 Ranger is a new generation with a new cab, and Husky sells separate 2024+ parts; confirm part number and row on the listing. One exception: Husky's 13411 front pair is listed for 2019–2024 SuperCrew and SuperCab, which suggests some overlap at the front for the 2024 model year. Treat that as a specific listing claim, not a rule, and buy 2024+ liners for a 2024 or later truck."),
  ("What's the difference between the Ranger SuperCab and SuperCrew?",
   "The SuperCrew has four full-size doors and a real rear bench. The SuperCab has small rear-hinged doors and a short rear area with jump seats. The rear floor lengths are completely different. Husky's 13411 front pair fits both, but its 14411 rear piece is SuperCrew only and its 93801 set is SuperCab only. Budget brands on this page are SuperCrew only."),
  ("Does the 2019 Ranger take the same liners as 2020–2023?",
@@ -37,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner options listed for the 2019–2023 Ranger, from Husky WeatherBeater front and rear pieces to budget TPE sets from about $80. The fit rules are short on this truck: SuperCrew or SuperCab, and don't mix in 2024+ listings.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2019–2023 Ranger (cab, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Cab decides the rear.** SuperCrew and SuperCab rear floors are different; budget sets here are SuperCrew only.",
@@ -66,7 +67,7 @@ ARTICLE = {
   {"h": "SuperCrew or SuperCab",
    "body": "The 2019–2023 Ranger was sold in the US as a SuperCab with small rear-hinged doors or a SuperCrew with four full doors. The front footwells are shared, which is why Husky's 13411 front pair lists both. The rear floors are not. The SuperCrew has a full rear footwell in front of a proper bench; the SuperCab has a short area behind the front seats. Every budget set on this page is SuperCrew only. SuperCab owners should look at Husky's 93801 full set or pair the 13411 front with a SuperCab-specific rear such as Husky's 14421. Count your doors before you shop, and read the title for the cab name."},
   {"h": "Generation boundaries",
-   "body": "This Ranger ran from 2019 to 2023 in the US, and the 2024 model is a new generation. Husky splits its catalog accordingly, with separate 2024+ SuperCrew front (13791) and rear (14791) pieces. Within 2019–2023, the cab didn't change, so a listing covering 2019–2023 is a clean fit. LASFIT's title starts at 2020; for a 2019, confirm with the seller. Don't buy a set that lists '2019–2025' without checking which generations it actually covers."},
+   "body": "This Ranger ran from 2019 to 2023 in the US, and the 2024 model is a new generation. Husky sells separate 2024+ parts; confirm part number and row on the listing. Within 2019–2023, the cab didn't change, so a listing covering 2019–2023 is a clean fit. LASFIT's title starts at 2020; for a 2019, confirm with the seller. Don't buy a set that lists '2019–2025' without checking which generations it actually covers."},
   {"h": "Walls and retention",
    "body": "The Ranger is a mid-size truck with a relatively small footwell, so a liner with high walls holds a useful amount of slush before it overflows. Look for a lip that runs up the sill and the side of the console, and hook holes for Ford's driver-side retention posts. After installing, heel-test the driver liner toward the pedals and press both pedals to the floor. Every set here claims a Ranger-specific cut."},
   {"h": "Material and warranty",

@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five 2 in hitches for the sixth-generation CR-V against Honda's own $412 accessory hitch, with the 1,500 lb gas and 1,000 lb hybrid limits, hybrid fit, fascia trimming and the hands-free liftgate problem most lists skip.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published ratings (class, receiver, gross trailer weight, tongue weight), on the CR-V years and powertrains each maker or listing names, and on install notes from CURT and etrailer's product experts. Tow limits, hybrid trims and the hands-free tailgate trim come from Honda's 2023 and 2026 specification tables and its CR-V spec page; the accessory hitch details come from a Honda parts dealer. Prices were checked at etrailer and the dealer in September 2026, and etrailer's CURT 13397 price again on October 4, 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Honda's limits rule:** 1,500 lb for the gas CR-V and 1,000 lb for the hybrid. A 3,500 lb hitch doesn't raise them.",

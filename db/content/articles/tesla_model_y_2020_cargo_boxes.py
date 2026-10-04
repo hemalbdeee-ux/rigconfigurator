@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule, INNO, Rhino-Rack and SportRack matched to the Model Y's glass roof, fixed-point bars and wide 35.5 in factory spread. For each one we list volume, length, height, weight and spread range, and what those numbers mean for Tesla's 165 lb rating, the power liftgate and range, on 2020–2024 cars and the 2025 Juniper.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, Rhino-Rack and SportRack product pages, and etrailer's listing for the INNO box): volume, exterior dimensions, box weight, load rating, crossbar spread and warranty. We then matched them to the Model Y's 165 lb rack rating from the Tesla Shop, the roughly 35.5 in factory spread from an etrailer Q&A, etrailer's clamp-fit answer for Tesla bars, the liftgate guidance in Tesla's owner's manual and the range data on fueleconomy.gov. Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Bars first, on fixed points.** The Model Y has a glass roof with four hidden mounting points. Tesla's rack fits all Model Y except the Model Y L; aftermarket bars split 2020–2024 and Juniper.",

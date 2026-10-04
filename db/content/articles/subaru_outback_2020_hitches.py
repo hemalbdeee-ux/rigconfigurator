@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five 2 in receiver hitches that fit the 6th-generation Outback, from a budget Class 3 to Subaru's own factory kit. We list hitch ratings, weight and install time, and explain why the engine under the hood, not the hitch, decides whether you can tow 2,700 or 3,500 lb.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published specs (class, gross trailer and tongue weight ratings, product weight, finish, warranty, install time), on the fitment each maker lists for the 2020–2025 Outback, and on Subaru's own accessory documentation for tow ratings and trim notes. Specs were read on the CURT, Draw-Tite and Subaru dealer parts pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**The engine sets the limit.** Subaru lists 2,700 lb (270 lb tongue weight) for the 2.5-liter Outback and 3,500 lb (350 lb) for the 2.4-liter turbo in XT trims and the Wilderness. A stronger hitch doesn't raise either number.",

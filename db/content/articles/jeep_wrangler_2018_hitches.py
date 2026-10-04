@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five bolt-on receivers for the JL Wrangler, from about $120 for a budget receiver to $275–$312 for the factory Mopar part. We list each hitch's rating, then set it against the Jeep's own tow limit, which differs by door count, powertrain and model year.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published specs (class, gross trailer and tongue weight ratings, receiver length, finish, warranty), on the fitment each maker lists for the 2018–2026 Wrangler JL, and on what JL owners report on JLwranglerforums. Tow ratings come from Jeep's 2018 and 2024 press material where Jeep states a figure, and otherwise from dealer and reference towing guides. Confirm yours in your owner's manual. Prices were checked at etrailer and Quadratec in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**The Jeep's rating, not the hitch's, sets your limit.** Dealer guides list 2,000 lb for 2018–2023 2-doors and 3,500 lb for 2018–2023 4-doors, the 4xe and the 392. From 2024, Jeep confirms 5,000 lb only for 4-door Rubicon 2.0L and 3.6L automatics on 33 in tires. For any other 2024-on Wrangler, use the towing chart in the owner's manual.",

@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule, Rhino-Rack, SportRack and Rightline Gear matched to the WL Grand Cherokee and Grand Cherokee L, from a 38.6 lb Rhino-Rack MasterFit to the 18 cu ft Thule Motion 3 XL and a $140 soft bag. For each we list volume, size, box weight and crossbar spread, and what those numbers mean for flush rails with fixed mounting points, a 24.5 in spread on the Rhino-Rack Vortex and 165 lb bars.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on published specs from Yakima, Thule, Rhino-Rack and SportRack, etrailer's figures for the Thule Motion 3 spread and the SportRack Vista XL mounting positions, and RealTruck's Rightline Gear listing: volume, exterior size, box weight, cargo rating, crossbar spread, ski length and warranty. We checked those numbers against the WL Grand Cherokee's flush rails, the fixed 24.5 in spread etrailer lists for the Rhino-Rack Vortex, the 165 lb rating of brand-name Grand Cherokee systems and 47 in Thule bars, plus etrailer's sunroof and hatch-clearance guidance. Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Flush rails, often fixed points.** The Yakima SkyLine and Rhino-Rack Vortex mount at fixed points in the WL's rails, so the bar spread isn't yours to choose.",

@@ -40,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Hyundai's 2023 spec sheet lists pre-wiring and a heavy-duty transmission oil cooler as trailering equipment on the first-generation Palisade, and none of the Hyundai sheets we read lists a hitch, so the main thing missing for towing is the receiver. Here are five hitches for 2020–2025, from CURT's concealed Class III to a Stealth hidden receiver, plus the parts that changed with the 2023 facelift and the 1,650 lb unbraked limit that decides when your trailer needs brakes.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. Picks were chosen on the ratings and fitment CURT and Draw-Tite publish for the 2020–2025 Palisade, on Stealth Hitches' conversion kit pages, and on Amazon listing titles that name the Palisade. Palisade towing figures come from Hyundai's 2020, 2023 and 2024 Palisade spec sheets, and the trailering equipment line from the 2023 sheet. Pages checked September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Cooling and pre-wiring are on the 2023 sheet.** Hyundai's 2023 spec sheet lists both as equipment included for trailering. We did not find that line in the 2020 or 2024 sheets. You add the hitch and a harness for your year.",

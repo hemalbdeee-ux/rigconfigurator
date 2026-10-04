@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six floor and cargo liner sets listed for the new 6th-generation 4Runner, from Husky WeatherBeater and Toyota's own liners to TripleAliners' full kits. Three questions decide fit: gas or hybrid, five seats or seven, and how much of the cargo area you want covered.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2025–2026 4Runner (powertrain, seating, coverage), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**New generation.** 2010–2024 liners don't fit.",

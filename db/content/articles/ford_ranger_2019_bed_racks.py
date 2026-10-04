@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six racks for the 2019–2023 Ranger, from a budget clamp rack with light bars to ZROADZ's 1,500 lb Access rack. For each one we list the height, the static and dynamic ratings, how it mounts, and whether a tonneau cover can stay, for both the 5 ft SuperCrew bed and the 6 ft SuperCab bed.",
  "author": "jake-morrison",
- "reviewed": "2026-09-26",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. We ranked them on published specs (static, on-road and off-road ratings, height, material, weight, warranty), on the fitment the maker or Amazon listing gives for the 2019–2023 Ranger, and on what owners report on the Ranger5G forum about rack heights and tonneau pairings. Universal clamp towers and multi-generation budget listings carry a confirm note. Prices were checked at ZROADZ, AmericanTrucks, RealTruck and Yakima in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**The cab sets the bed.** SuperCrew has the 5 ft bed (about 61 in); SuperCab has the 6 ft bed (about 72.7 in). Most one-piece racks are 5 ft parts.",

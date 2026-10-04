@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner sets listed for the JL Wrangler, from Husky WeatherBeater to budget TPE at about $90–$130, plus floor-and-cargo kits. Three things decide fit: 2-door or Unlimited, gas or 4xe, and whether there's a subwoofer in the cargo area.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2018–2026 JL (doors, 4xe, subwoofer), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**4xe changes the rear floor.** 3W, LASFIT and Falafa exclude the plug-in hybrid.",

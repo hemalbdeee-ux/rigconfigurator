@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The 6th-gen 4Runner is still early in its aftermarket life, so this is a short list done honestly: five kits and brackets whose Amazon listings name the 2025+ truck, from Baja's fog pocket pods to hood-hinge ditch lights, plus what the TRD Pro and Trailhunter already have, wiring, amp draw and the road-use rules that decide when you can switch them on.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not install these lights ourselves. We ranked them on published specs (lumens, watts, sealing, harness, warranty), on the fitment each maker, retailer or Amazon listing gives for the 2025–2026 4Runner and its trims, and on Toyota's own launch release for factory lighting. Prices were checked at the maker or a Toyota specialist retailer in September 2026. The 6th-gen market is thin, so we list fewer picks rather than pad the page with universal bars that name no 4Runner; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**5th-gen parts don't carry over.** The 2025 4Runner is on TNGA-F with a new front, hood and roof; buy parts that name 2025 or 2026.",

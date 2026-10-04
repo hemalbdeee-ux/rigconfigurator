@@ -37,7 +37,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six three-row liner options for the 4th-generation Highlander, from Husky's made-in-USA liners to a $50 third-row add-on. Two layout questions decide fit: captain's chairs or bench in the second row, and gas or hybrid.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2026 Highlander (seating, hybrid, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky, LASFIT and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Hybrid changes the second row.** MAXPRO and LASFIT exclude the Highlander Hybrid.",

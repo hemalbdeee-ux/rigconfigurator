@@ -4,6 +4,7 @@ from the manufacturer/retailer pages listed in sources (checked 2026-09-24). Bed
 cargo management notes match ford_ranger_2024_tonneau.py and db/migrations/003_vehicles.sql.
 Few brand-name racks carry "2024+ Ranger" in their Amazon titles, so the branded picks are universal clamp
 systems or cross-generation listings and every one is marked "confirm" for the new bed.
+Text fixes 2026-10-04: cover-and-rack advice now says to pick the two together as a pair (was "choose it first"); every place that recommends the RetraxPRO XR now carries RealTruck's note that it is not compatible with the bed cargo management system (source added); the OEM rail system mount is attributed to RealTruck's Putco page, not to Putco.
 """
 
 KEY = ("ford", "ranger", "2024-present", "bed-racks")
@@ -22,7 +23,7 @@ FAQ = [
  ("Do bed racks work with Ford's cargo management rails?",
   "Some do and some don't. Ford's accessory rails are aluminum T-slot style tracks, but a Ranger6G owner notes the slots are wider than standard aftermarket T-slot hardware, and that the rails can interfere with racks that clamp to the bed rails. Yakima says tracked beds need its Track Kit 1 or 2. If your truck has the rails, confirm the exact kit with Yakima or the seller before buying any rack."),
  ("Can I use a tonneau cover and a bed rack together on the new Ranger?",
-  "Yes, if you match them. The RetraxPRO XR (T-80338) for the 2024–2025 Ranger has T-slot rails, and one Ranger6G owner runs a mid-height truss rack on Retrax XR mounts over it. Yakima sells a Tonneau Kit 1 for select covers. A Ranger6G thread also covers a 10 in rail system from American Adventure Lab built to work with roll-up covers. Budget clamp racks rarely say anything about covers, so ask."),
+  "Yes, if you pick the cover and the rack together, as a pair that both makers confirm. Either one can rule the other out. The RetraxPRO XR (T-80338) for the 2024–2025 Ranger has T-slot rails, and one Ranger6G owner runs a mid-height truss rack on Retrax XR mounts over it. RealTruck's listing says the XR is not compatible with the bed cargo management system, so skip it on a truck with Ford's cargo rails. Yakima sells a Tonneau Kit 1 for select covers. A Ranger6G thread also covers a 10 in rail system from American Adventure Lab built to work with roll-up covers. Budget clamp racks rarely say anything about covers, so ask."),
  ("What is the difference between static and dynamic load ratings?",
   "Dynamic is what the rack carries while the truck is moving, when bumps and braking multiply the load. Static is what it holds parked, which matters for people sleeping in a rooftop tent. Putco rates the Venture TEC at 1,000 lb static, 600 lb dynamic and 300 lb off-road. Yakima rates the OverHaul HD and OutPost HD at 500 lb on-road and 300 lb off-road. Keep tent and gear under the moving figure."),
  ("Which rack height suits a Ranger rooftop tent?",
@@ -38,14 +39,14 @@ FAQ = [
 ARTICLE = {
  "dek": "Six racks for the new Ranger's 5 ft bed, from a budget clamp-on rack with light bars to Putco's 1,000 lb no-drill Venture TEC. For each one we list height, load ratings and how it mounts, plus what the plastic bed rail caps and Ford's cargo management rails mean for fit.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. We ranked them on published specs (static and dynamic load ratings, height, material, warranty), on the fitment the maker or Amazon listing gives, and on what 2024+ Ranger owners report on the Ranger6G forum about rail caps, cargo rails and tonneau pairings. Few brand-name racks name the 2024+ Ranger in their listing titles yet, so every pick here carries a confirm note for the new bed. Prices were checked at the maker, RealTruck or Yakima in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**New bed, new fit.** The 2024 Ranger's bed is about 59.6 in long and 48.2 in between the wheel wells. Listings that span 2019–2025 need confirming.",
   "**The rail caps are plastic.** Ranger6G owners report caps breaking under rack weight and use spacer kits and nut plates to reach the steel bed structure.",
   "**Ford's cargo rails change the mount.** Their slots are wider than standard T-slot hardware, and Yakima says tracked beds need Track Kit 1 or 2.",
   "**Read both load ratings.** Putco rates the Venture TEC at 1,000 lb static and 600 lb dynamic; Yakima's towers are 500 lb on-road and 300 lb off-road.",
-  "**Pick the cover and rack together.** A T-slot cover like the RetraxPRO XR lets a rack sit on top; most budget racks don't mention covers at all.",
+  "**Pick the cover and rack together.** A T-slot cover like the RetraxPRO XR lets a rack sit on top, but RealTruck lists the XR as not compatible with the bed cargo management system. Most budget racks don't mention covers at all.",
  ],
  "top_picks": [
   {"asin": "B07YYC8KYR", "role": "Best overall", "why": "1,000 lb static / 600 lb dynamic, no-drill install, tent mounting kit included"},
@@ -71,11 +72,11 @@ ARTICLE = {
   {"h": "The plastic bed rail caps",
    "body": "The 2024 Ranger's bed rails wear plastic caps, and that matters more than any spec on a rack listing. On Ranger6G, owners report the caps can break under a rack's weight. The common fix is a spacer kit and under-rail nut plates, such as those from American Adventure Lab, that let the rack bolt through to the steel structure. Owners add that trucks built before about mid-September 2024 may also need J-braces. Another owner found the 2026 caps thinner than the 2025 ones. Any rack that clamps only to the cap should be treated with suspicion for a tent load."},
   {"h": "Ford's cargo management rails",
-   "body": "Ford sells aluminum cargo management rails for the new Ranger. A Ranger6G owner describes them as T-slot style, but with slots wider than standard aftermarket T-slot hardware, and reports they can get in the way of racks that clamp to the bed rails. The same thread puts the rails at about $400 MSRP. If your truck has them, the rack has to either use them or clear them. Yakima says tracked beds need Track Kit 1 or Track Kit 2 for its HD towers. Putco says the Venture TEC can mount to an OEM rail system. Confirm which hardware matches Ford's slot size before ordering."},
+   "body": "Ford sells aluminum cargo management rails for the new Ranger. A Ranger6G owner describes them as T-slot style, but with slots wider than standard aftermarket T-slot hardware, and reports they can get in the way of racks that clamp to the bed rails. The same thread puts the rails at about $400 MSRP. If your truck has them, the rack has to either use them or clear them. Yakima says tracked beds need Track Kit 1 or Track Kit 2 for its HD towers. RealTruck's page says the Putco Venture TEC can mount with OEM hardware on a rail system inside the bed, without naming Ford's rails. Confirm which hardware matches Ford's slot size before ordering."},
   {"h": "Static vs dynamic load ratings",
    "body": "A rack for a tent should publish two numbers. Dynamic is the most it should carry while moving, when bumps and braking multiply the load. Static is the parked figure, which matters when people are sleeping up top. RealTruck lists the Putco Venture TEC at 1,000 lb static, 600 lb dynamic and 300 lb off-road. Yakima gives both HD towers 500 lb on-road and 300 lb off-road. Thule quotes 220 lb for the Xsporter Pro Low. The budget racks give a single number in the title. On a midsize truck, payload is often the tighter limit, so add up the rack, the tent and the passengers before loading."},
   {"h": "Rack height and tonneau plans",
-   "body": "Low racks like the Thule Xsporter Pro Low stay below the cab for boats and bikes. Yakima's OutPost HD sits at a fixed 13 in, and the OverHaul HD adjusts from 19 to 30 in. On Ranger6G, one owner set a rack at 18 in, flush with the roofline, for a tent. If you also want a tonneau cover, choose it first. The RetraxPRO XR for the 2024–2025 Ranger has T-slot rails, and one owner runs a truss rack on Retrax XR mounts over it. Yakima's Tonneau Kit 1 fits select covers. Most budget racks don't mention covers, so ask before you buy."},
+   "body": "Low racks like the Thule Xsporter Pro Low stay below the cab for boats and bikes. Yakima's OutPost HD sits at a fixed 13 in, and the OverHaul HD adjusts from 19 to 30 in. On Ranger6G, one owner set a rack at 18 in, flush with the roofline, for a tent. If you also want a tonneau cover, pick the cover and the rack together, as a pair that both makers confirm, because either one can rule the other out. The RetraxPRO XR for the 2024–2025 Ranger has T-slot rails, and one owner runs a truss rack on Retrax XR mounts over it. RealTruck lists the XR as not compatible with the bed cargo management system, so it is out on a truck with Ford's cargo rails. Yakima's Tonneau Kit 1 fits select covers. Most budget racks don't mention covers, so ask before you buy."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -139,7 +140,7 @@ ARTICLE = {
  ],
  "install": [
   "Confirm the rack's 2024+ fit with the seller and measure the bed at the rail (about 59.6 in) and between the wheel wells (about 48.2 in).",
-  "If you plan a tonneau cover, fit it first, ideally a T-slot cover such as the RetraxPRO XR, and buy the rack's matching tonneau kit.",
+  "If you plan a tonneau cover, fit it first and buy the rack's matching tonneau kit. A T-slot cover such as the RetraxPRO XR suits a rack, but RealTruck lists the XR as not compatible with the bed cargo management system, so it is not for a truck with Ford's cargo rails.",
   "Remove or slide Ford cargo management rail hardware out of the way, or fit the track kit the rack maker specifies (Yakima Track Kit 1 or 2).",
   "Install spacers and under-rail nut plates where the rack feet land so the load goes to the steel bed structure, not the plastic caps. Owners add J-braces on early 2024 builds.",
   "Square and center the rack, then tighten every clamp and bolt evenly to the maker's torque before fitting crossbars and tent hardware.",
@@ -153,13 +154,14 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Confirm the 2024 bed and protect the rail caps first, then pick: the Putco Venture TEC for the strongest tent rack, Yakima's OutPost HD for brand-name value, and the OverHaul HD if your loads change.",
-  "body": "The 2024 Ranger is still new enough that few brand-name racks carry it in their listing titles, so fit confirmation is part of every purchase. The Putco Venture TEC has the best published ratings and a no-drill install, if Putco confirms the 2024 part. Yakima's OutPost HD and OverHaul HD are proven clamp platforms with track and tonneau kits, and they move to your next truck. The Thule Xsporter Pro Low suits boats and bikes, and the JOYTUTUS and OBNAUX racks cover light loads on a budget. Whatever you buy, get the load onto the steel bed structure rather than the plastic caps.\n\nIf you want the bed covered under the rack, our 2024 Ranger tonneau cover guide covers the RetraxPRO XR and its T-slot rails. Owners of the previous 2019–2023 Ranger should shop that truck's racks separately. The vehicle hub lists every fit-checked accessory for your Ranger.",
+  "body": "The 2024 Ranger is still new enough that few brand-name racks carry it in their listing titles, so fit confirmation is part of every purchase. The Putco Venture TEC has the best published ratings and a no-drill install, if Putco confirms the 2024 part. Yakima's OutPost HD and OverHaul HD are proven clamp platforms with track and tonneau kits, and they move to your next truck. The Thule Xsporter Pro Low suits boats and bikes, and the JOYTUTUS and OBNAUX racks cover light loads on a budget. Whatever you buy, get the load onto the steel bed structure rather than the plastic caps.\n\nIf you want the bed covered under the rack, our 2024 Ranger tonneau cover guide covers the RetraxPRO XR and its T-slot rails, along with RealTruck's note that the XR is not compatible with the bed cargo management system. Owners of the previous 2019–2023 Ranger should shop that truck's racks separately. The vehicle hub lists every fit-checked accessory for your Ranger.",
  },
  "sources": [
   ["Putco Venture TEC Rack (RealTruck)", "https://realtruck.com/p/putco-venture-tec-rack/"],
   ["Yakima OutPost HD towers (Yakima)", "https://yakima.com/products/outpost-hd"],
   ["Yakima OverHaul HD towers (Yakima)", "https://yakima.com/products/overhaul-hd"],
   ["Thule Xsporter Pro Low Truck Rack (RealTruck)", "https://realtruck.com/p/thule-xsporter-pro-low-truck-rack/"],
+  ["RetraxPRO XR T-80338: T-slot rails, cargo management note (RealTruck)", "https://realtruck.com/p/retraxpro-xr-tonneau-cover/rtx-t-80338/"],
   ["2024 Ford Ranger bed dimensions (Sutton Ford)", "https://www.suttonford.com/ford-research/2024-ford-ranger-bed-size/"],
   ["Mounting an overland rack to the bed rails (Ranger6G)", "https://www.ranger6g.com/forum/threads/mounting-an-overland-rack-to-the-bed-rails.31470/"],
   ["6th Gen XLT bed rack options (Ranger6G)", "https://www.ranger6g.com/forum/threads/6th-gen-xlt-bed-rack-options.14462/"],

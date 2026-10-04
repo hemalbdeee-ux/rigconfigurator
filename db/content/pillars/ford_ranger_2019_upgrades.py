@@ -25,6 +25,8 @@ most trims" replaced with the optional Trailer Tow Package and a check under the
 XLT/Lariat from model year 2021 (Equipment World report of Ford's reveal); Husky front plus rear corrected to $150–$230
 and the premium totals to $3,089–$3,169 and $2,100–$2,180; ZROADZ and Gator EFX year rows restated; folding-cover
 wording aligned with the guides; three sources added.
+Text fixes 2026-10-04: the two mentions of Husky parts 13791 and 14791 for the 2024+ truck now read "Husky sells separate
+2024+ parts; confirm part number and row on the listing" (row and years of each part could not be confirmed).
 """
 
 KIND = "upgrades"
@@ -203,7 +205,7 @@ ARTICLE = {
              "rows": [
               ["SuperCrew, 5 ft bed (listed as 5'1\" or 61 in)", "Husky 13411 front plus 14411 rear, or a 3W, LASFIT, OMAC or MAXPRO full set", "Most choice: BAKFlip MX4 448332, Gator EFX GC24022, RetraxPRO MX 80335, Lo Pro 531001, Tyger T3 TG-BC3F1066, UnderCover SE UC2186", "Every rack in our guide. Putco's and ZROADZ's are made for this bed"],
               ["SuperCab, 6 ft bed (listed as 6'1\" or 72.7 in)", "Husky 93801 full set, or 13411 front with the 14421 rear", "6 ft parts: RetraxPRO MX 80336, Lo Pro 531101, Gator EFX GC24023, UnderCover SE UC2196", "Yakima OutPost HD or OverHaul HD towers. Ask budget sellers whether the rack covers the 6 ft bed"],
-              ["2024–2026 Ranger, SuperCrew, 5 ft bed (about 59.6 in)", "Separate Husky parts: 13791 front and 14791 rear", "Separate parts, such as BAKFlip MX4 448342, Lo Pro 531701 and Tyger T3 TG-BC3F1205", "A different bed. Confirm any rack listed for both generations"],
+              ["2024–2026 Ranger, SuperCrew, 5 ft bed (about 59.6 in)", "Husky sells separate 2024+ parts; confirm part number and row on the listing", "Separate parts, such as BAKFlip MX4 448342, Lo Pro 531701 and Tyger T3 TG-BC3F1205", "A different bed. Confirm any rack listed for both generations"],
              ]}},
   {"h": "Year ranges that cross the line between 2023 and 2024",
    "body": "On the Ranger the year line that matters sits between 2023 and 2024. The 2024 truck has a new cab and a bed our guides list at about "
@@ -220,7 +222,7 @@ ARTICLE = {
               ["TruXedo Lo Pro", "531001 for 2019–2023; 531701 for 2024+", "Order 531001, or 531101 for the 6 ft bed"],
               ["Tyger T3", "TG-BC3F1066 for 2019–2023; TG-BC3F1205 for 2024+", "Order TG-BC3F1066; that part is 5 ft only"],
               ["Gator EFX GC24022", "RealTruck's fit line reads 2019–2023, 5'1\" bed; one Amazon title reads 2019–2025", "Fine on a 2019–2023 truck. For a 2024, go by RealTruck's fit line, not the Amazon title"],
-              ["Husky WeatherBeater 13411 front pair", "Listed for 2019–2024, both cabs; Husky sells 13791 and 14791 for the 2024+ SuperCrew", "Fine on a 2019–2023 truck. Treat 2024 as that listing's claim"],
+              ["Husky WeatherBeater 13411 front pair", "Listed for 2019–2024, both cabs; Husky sells separate 2024+ parts (confirm part number and row on the listing)", "Fine on a 2019–2023 truck. Treat 2024 as that listing's claim"],
               ["LASFIT full set", "Title starts at 2020", "Ask the seller about a 2019"],
               ["ZROADZ Z835201", "ZROADZ's page title reads 2019–2026, its web address reads 2019–2023 and its fitment list names XL, XLT and Lariat for 2019–2023; the Amazon title reads 2019–2021", "Confirm a 2022 or 2023 truck with ZROADZ or the seller"],
               ["Putco Venture TEC", "Listing reads Ford Ranger 2019–2025, 5'1\" bed", "Fits the SuperCrew bed. Ask Putco before moving it to a 2024"],

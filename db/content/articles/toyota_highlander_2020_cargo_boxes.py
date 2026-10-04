@@ -5,6 +5,7 @@ Highlander roof-rack article and the references in SOURCES (checked 2026-09-27).
 Highlander-specific part is flush rails with fixed points, the 165 lb bar rating, a 31 in maximum spread on
 one Thule kit, bare-roof trims and hatch clearance.
 Source fixes 2026-10-04 (round 2): 165 lb now reads as a crossbar rating with no Toyota roof figure confirmed and the owner's manual as the authority; "Toyota Canada" corrected to Toyota Customs (parts department of Toyota Northwest Edmonton) and AHG's line worded as what it is (the genuine-crossbar figure for 2020-2023, no Toyota document cited); "Our fitment data lists a Class III hitch and a 5,000 lb tow rating" and other factory-hitch lines reworded (no factory receiver confirmed, Toyota sells accessory receiver PT228-48174); Hybrid line no longer says it shares the roof; flush-rail check and a Wikipedia model-year sentence added; etrailer roof page, Toyota parts page and Wikipedia added to sources.
+Text fixes 2026-10-04 (round 3): "clamp-on bars" for the budget Amazon crossbar sets changed to "Amazon side-rail bars" in the fit table and the spread section, because the roof rack guide could not confirm how those sets attach to the Highlander's flush rails.
 """
 
 KEY = ("toyota", "highlander", "2020-present", "cargo-boxes")
@@ -39,7 +40,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six rooftop boxes from Yakima, Thule, INNO and SportRack matched to the fourth-generation Highlander, from an 11 in low-profile box to the 21 cu ft Thule Motion 3 XXL. For each one we list volume, length, weight and crossbar spread, and what those numbers mean for the flush rails, the 165 lb bar rating, a 31 in maximum spread on one Thule kit, and the liftgate.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, INNO and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, warranty), on etrailer's figures for the Thule, INNO and SportRack boxes, on The Rack Shop's Thule kit for the 2020–2026 Highlander (165 lb, 31 in maximum spread), and on the crossbar ratings in our Highlander roof rack guide. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Plan around 165 lb.** That is the rating listed for Toyota's crossbars and for The Rack Shop's Thule kit. It is a bar rating, not a Toyota roof figure, so check the owner's manual. Bars, box and gear all count.",
@@ -59,7 +60,7 @@ ARTICLE = {
   "caption": "2020–2026 Highlander roof setups (what the box mounts to)",
   "head": ["Roof", "Trims", "Crossbar notes", "Box notes"],
   "rows": [
-   ["Factory side rails (flush, fixed points per etrailer)", "XLE, XSE, Limited, Platinum, gas and Hybrid (per listings)", "Toyota PT767-48200 (165 lb), Thule Fixpoint kit (165 lb, 31 in max spread), clamp-on bars", "All six boxes here fit a 31 in spread"],
+   ["Factory side rails (flush, fixed points per etrailer)", "XLE, XSE, Limited, Platinum, gas and Hybrid (per listings)", "Toyota PT767-48200 (165 lb), Thule Fixpoint kit (165 lb, 31 in max spread), Amazon side-rail bars", "All six boxes here fit a 31 in spread"],
    ["Bare roof", "Some Highlanders, possibly L or LE (confirm)", "Naked-roof systems only", "Box goes on once bars are fitted"],
    ["2020–2022 V6 / 2023+ turbo", "All", "Same bars (etrailer lists the same Thule kit)", "Same boxes"],
    ["Grand Highlander (2024+)", "Different vehicle", "Its own bars", "Box carries over; bars do not"],
@@ -69,7 +70,7 @@ ARTICLE = {
   {"h": "The 165 lb bar rating is your limit",
    "body": "We could not confirm a separate roof figure for the 4th-gen Highlander from a Toyota document, so the bar ratings set the working limit. Toyota Customs, a Canadian Toyota dealer's parts store, lists 75 kg (165 lb), evenly distributed, for Toyota's crossbars, AHG Auto Service gives the same 75 kg for the genuine bars on 2020–2023 models, and The Rack Shop's Thule kit is rated at 165 lb. That number covers the bars, the box and everything in it. The boxes here weigh 36 lb (Pulse L) to 57.2 lb (Motion 3 XXL), leaving about 108 to 129 lb before the bars. In practice that means roughly 90 to 115 lb of gear. The owner's manual is the authority, so check it and use the lowest figure you find."},
   {"h": "Crossbar spread on flush rails",
-   "body": "etrailer classes the Highlander's rails as flush rails with fixed mounting points, which limits where the bars can sit. The Rack Shop lists a maximum crossbar spread of 31 in for its Thule Fixpoint kit on the 2020–2026 Highlander. That fits the SkyBox 16 (24 to 34.5 in), the CBX 16 (24 to 35.5 in), the Pulse L (23-5/8 to 34-3/8 in), the Wedge 660 (24 to 39 in), the Motion 3 XXL (21-13/16 to 36-9/16 in, per etrailer) and all three Vista XL positions (up to 29-7/8 in). It rules out the Yakima DeepSpace 10, which needs at least 32 in. Clamp-on bars have their own ranges, so measure yours."},
+   "body": "etrailer classes the Highlander's rails as flush rails with fixed mounting points, which limits where the bars can sit. The Rack Shop lists a maximum crossbar spread of 31 in for its Thule Fixpoint kit on the 2020–2026 Highlander. That fits the SkyBox 16 (24 to 34.5 in), the CBX 16 (24 to 35.5 in), the Pulse L (23-5/8 to 34-3/8 in), the Wedge 660 (24 to 39 in), the Motion 3 XXL (21-13/16 to 36-9/16 in, per etrailer) and all three Vista XL positions (up to 29-7/8 in). It rules out the Yakima DeepSpace 10, which needs at least 32 in. The budget Amazon side-rail bars have their own ranges, so measure yours."},
   {"h": "Rails, bare roofs and the right bars",
    "body": "The crossbar listings for this generation name the XLE, XSE, Limited and Platinum, including Hybrid versions, as having factory side rails. Those rails sit flush on the roof, with no gap underneath. We couldn't confirm the rails on every L and LE, and etrailer lists naked-roof systems for the 2023 Highlander alongside rail-mounted ones, which suggests some leave the factory bare. Per Wikipedia, the L was dropped for 2024 and the LE for 2026, and a fifth-generation Highlander was unveiled on February 10, 2026, with sales set to start in late 2026. Look at your roof before shopping. If it has rails, pick bars listed for the 2020–2026 Highlander, not the Grand Highlander. If it is bare, you need a clamp-style naked-roof system first. Every box here fits either kind of bar once it is on."},
   {"h": "Box length and the liftgate",

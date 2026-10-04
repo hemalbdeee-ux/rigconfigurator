@@ -35,6 +35,11 @@ rocker or roof fit; 2025–2026 fit of listings whose titles stop at 2024 or 202
 The pages cited only through the guides (etrailer, Rack Warehouse, Rave Offroad, Cars.com, ToyotaSequoia.net,
 RealTruck, Husky, Smartliner) were not re-opened for this page; their facts are as recorded in the guides.
 No Sequoia guide exists for roof racks or trailer hitches; neither is ranked.
+Text fixes 2026-10-04 (after the guide corrections of the same day): rail wording now follows etrailer's 2023 page as
+re-read (factory installed raised rails and flush mounted rails, no grades named) and no longer leans on our stored
+roof type; Rack Warehouse's raised-rail page covers 2001-2025 without splitting generations; "aftermarket boards
+replace factory ones" removed (unsourced) in favor of Go Rhino's fit list for its Sequoia RB30 drop-step kit
+6964397320T (2023-2024 SR5, Limited, Platinum, TRD Pro; Capstone not listed), opened 2026-10-04.
 """
 
 KIND = "upgrades"
@@ -68,14 +73,16 @@ FAQ = [
  ("Does my Sequoia already have running boards or power steps from the factory?",
   "It may. Toyota's releases for the 2023 and 2025 model years list power running boards as standard on the "
   "Capstone. As we read them, they do not say what the other grades carry, and we could not confirm a list by grade "
-  "and year, so check the rocker under the doors on your own Sequoia before you shop. The running board guide notes "
-  "that some trims come with factory boards and that aftermarket boards replace them; the two do not bolt on side "
-  "by side."),
+  "and year, so check the rocker under the doors on your own Sequoia before you shop. A catalog fit list for a Go Rhino "
+  "Sequoia RB30 drop-step kit names the 2023–2024 SR5, Limited, Platinum and TRD Pro but not the Capstone, so "
+  "ask the seller before buying boards for a Sequoia that already has them."),
  ("Does the 2023–2026 Sequoia have raised or flush roof rails, and do I need crossbars for a cargo box?",
-  "You need crossbars for any cargo box, and the rail type decides which ones. Our vehicle data lists raised side "
-  "rails. etrailer lists two roof types for the 2023 Sequoia: factory raised rails and flush-mounted rails. We could not confirm rails by grade. "
+  "You need crossbars for any cargo box, and the rail type decides which ones. etrailer lists two roof types for "
+  "the 2023 Sequoia: factory installed raised rails and flush mounted rails. It names no grades, and Toyota's "
+  "releases do not describe the roof rails, so we could not confirm rails by grade. "
   "Slide your fingers under the rail between its end mounts. A gap means raised rails. No gap means flush rails and "
-  "flush-rail feet. Toyota's accessory cross bars, part PT767-0C660, are sold for the 2023-on Sequoia's rails."),
+  "flush-rail feet. Toyota's accessory cross bars, part PT767-0C660, are sold for the 2023-on Sequoia's rails; "
+  "ask a dealer to confirm they suit yours."),
  ("What is the roof weight limit on a 2023–2026 Sequoia?",
   "Toyota's figure is in the roof-load section of the owner's manual. No page we could open states it, and our "
   "vehicle data holds none, so read the manual before loading a box. Rave Offroad lists the TRD Pro factory roof "
@@ -126,7 +133,7 @@ ARTICLE = {
  "takeaways": [
   "**Seven seats or eight.** A bench, captain's chairs with a console and captain's chairs with a walkway each take a different floor liner.",
   "**A Sequoia is not a Tundra.** Husky's front liner pair is the only shared part; rear liners, running boards and crossbars must name the Sequoia.",
-  "**Check for factory boards.** Toyota lists power running boards as standard on the Capstone, and aftermarket boards replace factory ones.",
+  "**Check for factory boards.** Toyota lists power running boards as standard on the Capstone. We could not confirm the other grades, so look under the doors.",
   "**Check the rails and the manual before a cargo box.** etrailer lists both raised and flush rails for the 2023 Sequoia, and we could not confirm Toyota's roof load figure.",
   "**Every one is a hybrid, and every one is tall.** No gas version to filter out, and a 75 in body puts any box past a 7 ft garage door.",
  ],
@@ -150,8 +157,8 @@ ARTICLE = {
    "h": "2. Running boards second: a tall step-in, unless the factory already fitted boards",
    "why": "Running boards take the middle slot. The Sequoia sits high, so a step helps on every trip, yet part of "
           "the fleet leaves the factory with boards already fitted. Toyota's releases list power running boards as "
-          "standard on the Capstone, and the running board guide says aftermarket boards replace factory ones, so "
-          "check the rocker first. Two more facts decide fit. The part must name the Sequoia, since Tundra CrewMax boards don't suit the SUV's "
+          "standard on the Capstone, and a catalog fit list for a Go Rhino Sequoia kit names the SR5, Limited, Platinum and "
+          "TRD Pro but not the Capstone, so check the rocker first. Two more facts decide fit. The part must name the Sequoia, since Tundra CrewMax boards don't suit the SUV's "
           "body and doors. And it must start at 2023, because the 2008–2022 body and rocker are different. Prices "
           "run about $150–$220 for POFENZE's carbon-steel boards, about $180–$260 for an OE-style two-piece set, "
           "about $430–$550 for Go Rhino's RB30 Slim, about $450–$600 for the RB30 or RB20, about $600–$750 for the "
@@ -210,13 +217,15 @@ ARTICLE = {
   {"h": "What the factory may already have fitted: power running boards, side rails and a TRD Pro rack",
    "body": "**Running boards.** Toyota's releases for the 2023 and 2025 model years describe the Capstone with "
            "standard power running boards. As we read them, they do not mention boards on the SR5, Limited, "
-           "Platinum, 1794 Edition or TRD Pro, and we could not confirm a list by grade and year. The running board "
-           "guide says only that some trims come with factory boards and that an aftermarket set replaces them. So "
-           "look under the doors. If boards are there and working, skip slot two. We could not confirm that every "
-           "grade uses the same rocker mounting points, so ask the seller if your Sequoia left the factory with "
-           "boards.\n\n"
-           "**Side rails.** Our vehicle data lists raised side rails. etrailer lists raised rails and flush-mounted "
-           "rails for the 2023 Sequoia, and the Toyota releases we read do not describe roof rails by grade.\n\n"
+           "Platinum, 1794 Edition or TRD Pro, and we could not confirm a list by grade and year. So "
+           "look under the doors. If boards are there and working, skip slot two. A catalog fit list for the Go Rhino "
+           "Sequoia RB30 drop-step kit names the 2023–2024 SR5, Limited, Platinum and TRD Pro under one part "
+           "number and does not list the Capstone. We could not confirm that every grade uses the same rocker "
+           "mounting points, so ask the seller if your Sequoia left the factory with boards.\n\n"
+           "**Side rails.** etrailer lists two roof types for the 2023 Sequoia, factory installed raised rails and "
+           "flush mounted rails, and names no grades. The Toyota releases we read do not describe roof rails. "
+           "Rack Warehouse sells raised-rail kits for the Sequoia on pages that cover 2001–2025 models without "
+           "separating this generation. So check your own roof, as described in the next section.\n\n"
            "**The TRD Pro rack.** Rave Offroad describes the TRD Pro roof rack as a factory part that secures into "
            "the roof rails, 67.5 in long and about 48 to 51 in wide, with a 132 lb evenly distributed limit. We "
            "could not confirm from Toyota that every TRD Pro carries it. If yours does, a box's clamps have to wrap "
@@ -285,7 +294,7 @@ ARTICLE = {
  "avoid": [
   {"h": "Tundra or 2008–2022 Sequoia parts", "body": "Only Husky's 18571 front liner pair is shared with the Tundra. Rear liners, running boards and crossbars must name the 2023 or later Sequoia."},
   {"h": "A liner set that doesn't state the second row", "body": "A bench, a console and a walkway each need their own second-row piece. Ask before buying a set whose title names no layout."},
-  {"h": "New boards for a Sequoia that already has them", "body": "Toyota lists power running boards as standard on the Capstone, and aftermarket boards replace factory ones. On budget power steps, confirm the wiring kit and warranty first."},
+  {"h": "New boards for a Sequoia that already has them", "body": "Toyota lists power running boards as standard on the Capstone, so look under the doors first. On budget power steps, confirm the wiring kit and warranty first."},
   {"h": "A big box on a roof figure you haven't read", "body": "The TRD Pro factory rack is listed at 132 lb evenly distributed, and we could not confirm Toyota's figure for the roof. A 75 in Sequoia with any box in the guide stands 86 in or taller before the bars."},
  ],
  "verdict": {
@@ -315,6 +324,7 @@ ARTICLE = {
   ["Owner thread: 2023 cross bars (ToyotaSequoia.net)", "https://www.toyotasequoia.net/threads/cross-bars.71/"],
   ["Owner thread: 2023 roof rack or cargo box (ToyotaSequoia.net)", "https://www.toyotasequoia.net/threads/2023-roof-rack-or-cargo-box.121/"],
   ["Go Rhino RB30 running boards (RealTruck)", "https://realtruck.com/p/go-rhino-rb30-running-boards/"],
+  ["Go Rhino RB30 running boards with drop steps 6964397320T: 2023-2024 Sequoia fit list by grade (parts catalog page)", "https://gor.webshopmanager.com/i-30508347-rb30-running-boards-with-brackets-2-pairs-drop-steps-kit.html"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
  ],

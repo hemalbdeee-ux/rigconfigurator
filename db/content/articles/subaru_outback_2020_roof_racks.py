@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The 6th-generation Outback came with two different roofs: retractable crossbars built into the standard rails, and a fixed ladder rack on the 2022–2025 Wilderness. They take different crossbars. Here are six sets split by rail type, with the load limits, spread and noise notes that decide which one you need.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these crossbars ourselves. We matched each set to the Outback rail type named in its Amazon listing title, then checked vehicle facts against Subaru's 2022, 2023 and 2025 Outback trim comparison sheets, Subaru's Wilderness press release, Wikipedia and the etrailer and Rack Shop fit guides. Where the only spec source is the Amazon listing, we say so. Owner comments come from SubaruOutback.org threads. Prices were checked in September 2026 where a retailer published one; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Check your rail first.** Standard 2020–2025 Outbacks have raised rails with retractable crossbars built in; the 2022–2025 Wilderness has a fixed ladder rail with no built-in crossbars. Bars for one don't fit the other.",

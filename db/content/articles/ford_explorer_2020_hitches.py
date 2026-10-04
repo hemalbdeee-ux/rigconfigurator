@@ -44,7 +44,7 @@ FAQ = [
 ARTICLE = {
  "dek": "With Ford's tow package, the sixth-generation Explorer is rated at 5,300 lb (2.3L) or 5,600 lb (3.0L) for 2020–2024 and 5,000 lb for 2025–2026, but plenty of 2020–2024 Explorers left the factory without a receiver. Here are five bolt-on 2 in hitches with their GTW and tongue ratings, the fascia and kick-sensor notes you need before you start, and why the lower of the hitch and vehicle ratings is the one that counts.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. Picks were chosen on the ratings and fitment CURT and Draw-Tite publish for the 2020–2026 Explorer, on etrailer's installation notes for the CURT hitch, and on Amazon listing titles that name the Explorer. Tow ratings come from Ford's towing guides and Explorer pages, opened in October 2026, and from Ford dealer research pages and reference sites listed in the sources, checked in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Check for a factory receiver first.** 2020–2024 Explorers only got one with the Trailer Tow Package, which was optional on most trims. Ford lists the Class III package as standard for 2025 and 2026.",

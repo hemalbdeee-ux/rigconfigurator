@@ -1,5 +1,10 @@
 """Long-form article — Best Running Boards & Side Steps for 2023–2026 Toyota Sequoia (3rd gen).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from RealTruck pages in sources (checked 2026-09-24).
+Text fixes 2026-10-04: factory boards now named (Capstone, standard power running boards, per Toyota's 2023 reveal and
+2025 release; other grades not confirmed); "trims share the rocker mounting points" replaced with what Go Rhino's fit
+list for its Sequoia RB30 drop-step kit 6964397320T says (SR5, Limited, Platinum, TRD Pro; no Capstone); removed the
+unsourced "cheaper than factory power steps" comparison and the claim that aftermarket boards replace factory ones;
+verdict no longer assumes factory rails; RB30 Slim and RB20 bedliner FITS notes now say confirm 2025-2026.
 """
 
 KEY = ("toyota", "sequoia", "2023-present", "running-boards")
@@ -20,11 +25,11 @@ FAQ = [
  ("Are drop steps useful on a Sequoia?",
   "Yes, for families. The Sequoia is tall, and drop steps put a lower step at each door. Go Rhino sells an RB20 kit with two pairs of drop steps. They reduce side clearance, so they suit road use."),
  ("Are power running boards worth it on a Sequoia?",
-  "They give a low step when the door opens and tuck away for clearance and a clean look. The budget kit on this page needs wiring and has thin documentation; confirm the install kit and warranty with the seller. If your Sequoia has factory steps, aftermarket kits replace them."),
+  "They give a low step when the door opens and tuck away for clearance and a clean look. The budget kit on this page needs wiring and has thin documentation; confirm the install kit and warranty with the seller. Toyota lists power running boards as standard on the Capstone, so look under the doors before you buy a kit."),
  ("Do I need to drill?",
   "Not for the Go Rhino kits: RealTruck lists the RB20 and RB30 as bolt-on with no drilling and vehicle-specific brackets."),
  ("Do these fit the TRD Pro and Capstone?",
-  "Trims share the rocker mounting points. Some trims come with factory running boards, which aftermarket boards replace. Off-road TRD Pro owners may prefer rock sliders."),
+  "The listings we read do not split by grade, and we could not confirm that the mounting points are the same on every grade. A parts catalog page for a sibling Go Rhino kit, the Sequoia RB30 with drop steps (6964397320T), lists the 2023–2024 SR5, Limited, Platinum and TRD Pro under one part number and says the step mounts to factory mounting points along the lower rocker panel. It does not list the Capstone, which Toyota's 2023 and 2025 releases describe with standard power running boards, or the 1794 Edition, which Toyota added for 2025. We could not confirm factory boards on other grades. Capstone and 1794 Edition owners should ask the seller. Off-road TRD Pro owners may prefer rock sliders."),
  ("How much weight can the boards hold?",
   "RealTruck lists the Go Rhino RB30 at 600 lb per side. Other listings may not state a rating; ask the seller."),
  ("Can I install them myself?",
@@ -32,7 +37,7 @@ FAQ = [
  ("Is the bedliner finish better than textured black?",
   "Both sit over galvanized steel on the Go Rhino boards. The bedliner coating resists chips better; the textured black looks more finished. RealTruck lists the same warranty terms for both."),
  ("Do Sequoia running boards interfere with the roof rack or tow hitch?",
-  "No. Running boards bolt to the rocker between the wheel wells; roof racks mount on the roof rails and hitches on the rear frame. Some owners use a wide board to step up and reach the roof rack, which is another reason to choose a board with a published load rating."),
+  "No. Running boards bolt to the rocker between the wheel wells; roof racks mount on the roof and hitches on the rear frame. A wide board also gives you a place to stand when you reach for the roof, which is another reason to choose a board with a published load rating."),
  ("Will boards rattle over time?",
   "A properly torqued board shouldn't. Rattles usually come from brackets that loosened as they settled. Recheck bolt torque after the first week and again after a few hundred miles, especially after gravel roads."),
  ("Should I pick RB30 or RB30 Slim for a TRD Pro?",
@@ -42,7 +47,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven side steps listed for the 3rd-gen Sequoia, from Go Rhino's galvanized RB20 and RB30 boards to drop steps and power-deployable steps. The Sequoia is tall and heavy, so step width and load rating matter more than on most SUVs.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these steps ourselves. We ranked them on the fitment each listing states for the 2023–2026 Sequoia, on published retailer specs (step width, material, finish, warranty, load rating, drilling) and on listing details. Go Rhino specs come from RealTruck's product pages, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Sequoia-specific kits.** Tundra boards don't fit.",
@@ -64,7 +69,7 @@ ARTICLE = {
   "rows": [
    ["Vehicle", "Sequoia vs Tundra", "Sequoia-specific kits only"],
    ["Generation", "2008–2022 vs 2023+", "All picks 2023+"],
-   ["Factory steps", "Some trims", "Aftermarket replaces them"],
+   ["Factory steps", "Capstone: standard power running boards (Toyota); other grades not confirmed", "Look under the doors; ask the seller before fitting a kit"],
    ["Years", "2023–2024 vs 2025–2026", "Confirm Go Rhino for 2025+"],
   ],
  },
@@ -135,9 +140,9 @@ ARTICLE = {
    "who": "Budget buyers, including 2025–2026 owners.",
    "specs": [["Brand", "POFENZE"], ["Material", "Carbon steel"], ["Step", "Wide (per listing)"], ["Fits", "2023–2026 Sequoia"], ["Price band", "$150–$220"]]},
   {"asin": "B0F5H7M2PV", "role": "Budget power steps", "price": "$700–$1,000",
-   "pros": ["Deployable electric steps", "Lists 2023–2026 Sequoia", "Low step when doors open", "Tucks away for clearance", "Cheaper than factory power steps"],
+   "pros": ["Deployable electric steps", "Lists 2023–2026 Sequoia", "Low step when doors open", "Tucks away for clearance", "The only power-step listing on this page"],
    "cons": ["Wiring required; confirm install kit", "Generic brand", "No published warranty"],
-   "body": "These deployable electric running boards are listed for the 2023–2026 Sequoia. They drop to a low step when a door opens and tuck under the rocker when it closes.\n\nPower steps solve the Sequoia's height without a permanent loss of clearance. The risk with budget kits is wiring and support: confirm with the seller that a vehicle-specific install kit and instructions are included, and ask about warranty. Motors are the parts most likely to need service, especially in salt and snow.\n\nFor owners comfortable with wiring, or willing to pay a shop, it's a way to get power steps for less.",
+   "body": "These deployable electric running boards are listed for the 2023–2026 Sequoia. They drop to a low step when a door opens and tuck under the rocker when it closes.\n\nPower steps solve the Sequoia's height without a permanent loss of clearance. The risk with budget kits is wiring and support: confirm with the seller that a vehicle-specific install kit and instructions are included, and ask about warranty. Motors are the parts most likely to need service, especially in salt and snow.\n\nFor owners comfortable with wiring, or willing to pay a shop, it's a way to add power steps to a Sequoia that did not come with them.",
    "who": "Owners who want power steps and will confirm the install kit.",
    "specs": [["Type", "Deployable electric steps"], ["Fits", "2023–2026 Sequoia"], ["Wiring", "Required; confirm kit"], ["Warranty", "Confirm with seller"], ["Price band", "$700–$1,000"]]},
   {"asin": "B0DF6KZP3X", "role": "OE-style alternative", "price": "$180–$260",
@@ -148,7 +153,7 @@ ARTICLE = {
    "specs": [["Type", "2-piece OE-style boards"], ["Includes", "Brackets"], ["Fits", "2023–2025 Sequoia"], ["Price band", "$180–$260"]]},
  ],
  "install": [
-  "Confirm a 2023+ Sequoia and remove any factory running boards.",
+  "Confirm a 2023+ Sequoia. If factory running boards are fitted (Toyota lists them on the Capstone), ask the seller before removing them.",
   "Locate the rocker mounting points; remove plugs if present.",
   "Bolt brackets on hand-tight (and motors, for power steps).",
   "With a helper, mount the boards and start every bolt.",
@@ -163,7 +168,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy Go Rhino's RB30 for a 600 lb-rated, snow-shedding board, the RB20 drop-step kit for families with small kids, and POFENZE for a wide step on a budget.",
-  "body": "The Sequoia's height makes steps more useful than on most SUVs. Go Rhino's RB20 and RB30 boards are the best documented, with galvanized steel and a lifetime structural warranty; the RB30 adds a load rating and snow-shedding slots, and the drop-step kit lowers the first step. POFENZE and the OE-style set cover the budget end, and power steps give a low step with full clearance if you confirm the install kit.\n\nSteps also keep mud off the sill and floor liners. A roof rack on the factory rails is the other common Sequoia upgrade."},
+  "body": "The Sequoia's height makes steps more useful than on most SUVs. Go Rhino's RB20 and RB30 boards are the best documented, with galvanized steel and a lifetime structural warranty; the RB30 adds a load rating and snow-shedding slots, and the drop-step kit lowers the first step. POFENZE and the OE-style set cover the budget end, and power steps give a low step with full clearance if you confirm the install kit.\n\nSteps also keep mud off the sill and floor liners. If a roof rack or cargo box is next, check which side rails, if any, are on your roof first."},
  "sources": [
   ["Go Rhino RB30 running boards (RealTruck)", "https://realtruck.com/p/go-rhino-rb30-running-boards/"],
   ["Go Rhino RB20 running boards (RealTruck)", "https://realtruck.com/p/go-rhino-rb20-running-boards/"],
@@ -171,6 +176,9 @@ ARTICLE = {
   ["Go Rhino RB20 + drop steps Sequoia listing", "https://www.amazon.com/dp/B0CNV8Q8KC"],
   ["POFENZE Sequoia running boards listing", "https://www.amazon.com/dp/B0G6Z9PMB7"],
   ["Toyota Sequoia (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Sequoia"],
+  ["Go Rhino RB30 running boards with drop steps 6964397320T: 2023-2024 Sequoia fit list by grade (parts catalog page)", "https://gor.webshopmanager.com/i-30508347-rb30-running-boards-with-brackets-2-pairs-drop-steps-kit.html"],
+  ["2025 Sequoia Adds 1794 Grade and More: Capstone standard power running boards (Toyota Newsroom)", "https://pressroom.toyota.com/2025-sequoia-adds-1794-grade-and-more/"],
+  ["Standing Tall: All-New 2023 Sequoia, January 2022 reveal: Capstone standard power running boards (Toyota Newsroom)", "https://pressroom.toyota.com/standing-tall-all-new-2023-sequoia-full-size-suv-is-ready-to-make-its-mark/"],
  ],
 }
 
@@ -178,10 +186,10 @@ FITS = [
  ("B0CNV82MKV","Go Rhino RB30 Running Boards & Brackets 69643973PC, 2023-2024 Toyota Sequoia","Go Rhino","$450–$600",{},"600 lb/side; confirm 2025-2026."),
  ("B0CNV7WMCH","Go Rhino RB20 Running Boards & Brackets 69443973PC, 2023-2024 Toyota Sequoia","Go Rhino","$450–$600",{},"Confirm 2025-2026."),
  ("B0CNV8Q8KC","Go Rhino RB20 Running Boards + 2 Pair Drop Steps Bedliner 6944397320T, 2023-2024 Sequoia","Go Rhino","$600–$750",{},"Drop steps; confirm 2025-2026."),
- ("B0CNV82N53","Go Rhino RB30 Slim Running Boards 69643973SPC, 2023-2024 Toyota Sequoia","Go Rhino","$430–$550",{},"Slim."),
+ ("B0CNV82N53","Go Rhino RB30 Slim Running Boards 69643973SPC, 2023-2024 Toyota Sequoia","Go Rhino","$430–$550",{},"Slim; confirm 2025-2026."),
  ("B0G6Z9PMB7","POFENZE Running Boards, 2023-2026 Sequoia","POFENZE","$150–$220",{},"Carbon steel, wide step."),
  ("B0F5H7M2PV","Deployable Electric Power Running Boards, 2023-2026 Sequoia","Generic","$700–$1,000",{},"Power steps; confirm install kit with seller."),
  ("B0DF6KZP3X","2-Pc Running Boards with brackets, 2023-2025 Sequoia","Generic","$180–$260",{},"OE-style."),
- ("B0CNV7L6FN","Go Rhino RB20 Running Boards Bedliner 69443973T, 2023-2024 Toyota Sequoia","Go Rhino","$450–$600",{},"Bedliner finish."),
+ ("B0CNV7L6FN","Go Rhino RB20 Running Boards Bedliner 69443973T, 2023-2024 Toyota Sequoia","Go Rhino","$450–$600",{},"Bedliner finish; confirm 2025-2026."),
  ("B0G6YH3VXJ","2-Step Running Boards, 2023-2026 Sequoia","Generic","$150–$220",{},"Budget."),
 ]

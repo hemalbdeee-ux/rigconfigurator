@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six roof racks for the fifth-generation 4Runner, from clamp-on crossbars at about $90–$130 for the factory rails to $700–$1,300 platforms that bolt to the roof's factory mounting points. For each one we list load rating, size, fairing and install details, plus rooftop tent notes.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, tray size, weight, fairing, warranty), on the fitment each maker or seller lists for the 2010–2024 4Runner, and on what 4Runner owners and the Trail4Runner rack roundup report. Prices were checked at the manufacturer or specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Look at your roof first.** Most 5th-gen 4Runners have factory raised side rails, many with crossbars. TRD Pro trucks with the TRD roof rack (new for 2019) and the Trail and Venture Special Editions carry a factory rack or basket. Clamp-on crossbars need raised rails.",

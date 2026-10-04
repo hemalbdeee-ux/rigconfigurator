@@ -36,7 +36,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six covers that fit the US-market 2019–2023 Ranger's 5 ft SuperCrew and 6 ft SuperCab beds, from a $223 soft tri-fold to a $1,950 retractable. Each pick lists load rating, warranty and install time, plus the tailgate-gap and 2024 part-number details owners run into.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment each maker lists for the 2019–2023 Ranger, and on what owners report on the Ranger5G forum. Prices were checked at RealTruck and Tyger Auto in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Two beds, tied to cab.** The SuperCrew has the 5 ft bed (61 in); the SuperCab has the 6 ft bed (72.7 in). Cover makers list them as 5'1\" and 6'1\".",

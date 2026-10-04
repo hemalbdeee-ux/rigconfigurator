@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six three-row liner options for the first-generation Palisade, from WeatherTech's full set to $100 heavy rubber. The second row decides fit, and 2026 is a hard cutoff: the redesigned Palisade takes different liners.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2025 Palisade (seating, rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. WeatherTech, Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**2026 is a new Palisade.** Husky sells 96381 for it; nothing here fits.",

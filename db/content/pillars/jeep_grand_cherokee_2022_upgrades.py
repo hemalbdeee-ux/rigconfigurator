@@ -33,6 +33,7 @@ chairs; fit of concealed hitches behind the 2026 fascia beyond the makers' own 2
 hitches; and 2025–2026 fit of listings whose titles stop at 2024 or 2025. No Grand Cherokee guide exists for
 running boards or lighting; neither is ranked. Amazon URLs in the guides' source lists are not repeated here.
 Source fixes 2026-10-04: tow table V8 row now says Wikipedia's 2023 remark is about the two-row, matching the corrected hitch guide.
+Text fixes 2026-10-04 (round 2): the CURT 13525 install line now follows CURT's install sheet (rear bumper cover and bumper beam removed) in place of "rear quarter panels and bumper covering"; install sheet added to sources.
 """
 
 KIND = "upgrades"
@@ -159,7 +160,7 @@ ARTICLE = {
    "why": "A trailer hitch ranks third because a Grand Cherokee ordered with the tow package already has one, "
           "and fitting one is the biggest job on this page. Look under the rear fascia for a square 2 in opening "
           "first. If there is no receiver, the aftermarket parts are concealed designs: the crossbar hides "
-          "behind the fascia, and CURT says its 13525 needs the rear quarter panels and bumper covering removed. "
+          "behind the fascia, and CURT's install sheet for its 13525 has the rear bumper cover and bumper beam removed. "
           "Draw-Tite's 76595 and CURT's 13525 list the 2022–2026 Grand Cherokee and the 2021–2026 Grand Cherokee "
           "L, both at 7,500 lb, with 1,125 lb of tongue weight on the Draw-Tite and 750 lb on the CURT. CURT "
           "excludes the two-row Trailhawk. Mopar splits by body: 82219040AA for the two-row and 82219041AA for "
@@ -311,6 +312,7 @@ ARTICLE = {
   ["Jeep Grand Cherokee towing capacity by engine and year, Trailer-Tow Package (San Antonio Dodge Chrysler Jeep Ram)", "https://www.sanantoniododgechryslerjeepram.com/jeep-grand-cherokee-towing-capacity/"],
   ["Draw-Tite 76595 Trailer Hitch (Draw-Tite)", "https://www.draw-tite.com/product/76595_class-iv-trailer-hitch"],
   ["CURT 13525 Class 3 Trailer Hitch (CURT)", "https://www.curtmfg.com/part/13525"],
+  ["CURT 13525 installation sheet: bumper cover and bumper beam removal (CURT)", "https://assets.curtmfg.com/masterlibrary/13525/installsheet/13525_INS.pdf"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["2023 Jeep Grand Cherokee roof rack systems by rail type (etrailer)", "https://www.etrailer.com/roof-2023_Jeep_Grand%20Cherokee.htm"],
   ["Rhino-Rack Vortex, 2023 Grand Cherokee, fixed spread and sunroof note (etrailer)", "https://www.etrailer.com/Roof-Rack/Jeep/Grand%20Cherokee/2023/RR34FR66GR.html"],

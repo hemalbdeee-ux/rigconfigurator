@@ -4,13 +4,14 @@ bed length, and Tesla's US rating (Tesla Shop + owner's manual) caps every hitch
 testing: specs come from the Tesla Shop, Tesla owner's manual, CURT, Stealth Hitches and etrailer pages in
 sources (checked 2026-09-24).
 Source fixes 2026-10-04: added what Tesla's owner's manual says about accessory carriers, towing and warranty (new FAQ, plus FAQ, takeaways, fit_table, look_for, look_table, types_table, picks, install, new avoid item, verdict); stated that Tesla's 2,200/1,650 lb, 200 lb tongue and 121 lb carrier figures are for a car with Tesla's own Tow Package (2024+ Rear-Wheel Drive and All-Wheel Drive, not the Performance) and that Tesla gives no figure for an aftermarket hitch; added "we could not confirm" on how Tesla service treats an aftermarket hitch and on Trailer Mode with an aftermarket harness; removed wording that presented an aftermarket hitch as the default or a sensible choice for bikes or towing; attributed the Highland date and the European tow bar to Wikipedia and pointed readers to the door-jamb build date; attributed the 4-pin connector to the Tesla Shop.
+Text fixes 2026-10-04 (round 2): TITLE and META no longer promise hitches "for bike racks": they now say the six picks are aftermarket receivers, that Tesla's manual says not to fit a carrier without its Tow Package, and that 121 lb is the carrier limit of that package (Tesla's Towing and Accessories page, reopened); dek now says "aftermarket hitches"; reviewed date updated.
 """
 
 KEY = ("tesla", "model-3", "2017-present", "hitches")
 
-TITLE = "Best Hitches for 2017–2026 Tesla Model 3: 6 Picks for Bike Racks, Highland vs Pre-Highland"
-META = ("Six Model 3 hitches for bike racks, hidden or bolt-on, matched to 2017–2023 and 2024+ Highland cars, "
-        "plus Tesla's $1,300 tow package and 121 lb rack limit.")
+TITLE = "Best Hitches for 2017–2026 Tesla Model 3: 6 Aftermarket Receiver Picks, Highland vs Pre-Highland"
+META = ("Six aftermarket Model 3 receivers for 2017–2023 and 2024+ Highland cars. Tesla's manual says not to "
+        "fit a carrier without its Tow Package (121 lb carrier limit).")
 
 FAQ = [
  ("Can a Tesla Model 3 tow in the US?",
@@ -38,9 +39,9 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six hitches for the 2017–2026 Model 3, hidden and bolt-on, sorted by pre-Highland (2017–2023) and Highland (2024+) fit, with Tesla's $1,300 US tow package, its 2,200 lb rating, the 121 lb carrier figure that goes with it, and what Tesla's manual says about fitting a carrier to a car without that package.",
+ "dek": "Six aftermarket hitches for the 2017–2026 Model 3, hidden and bolt-on, sorted by pre-Highland (2017–2023) and Highland (2024+) fit, with Tesla's $1,300 US tow package, its 2,200 lb rating, the 121 lb carrier figure that goes with it, and what Tesla's manual says about fitting a carrier to a car without that package.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these hitches ourselves. We ranked them on published ratings (class, receiver, gross trailer weight, tongue weight), on the Model 3 years each maker or listing names, and on install details from CURT, Stealth Hitches and etrailer. Tesla's US tow status and limits come from the Tesla Shop and Tesla's Model 3 owner's manuals. We reopened those pages on October 4, 2026 for the wording on accessory carriers, towing and warranty, and we report that wording without having confirmed how Tesla service applies it. Prices were checked at Tesla, Stealth and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Tesla sells a Tow Package only for 2024+ Rear-Wheel Drive and All-Wheel Drive cars:** $1,300, rated up to 2,200 lb, not compatible with the Performance. The Vehicle Loading page in both the 2017–2023 manual and the current one says: 'Do not use Model 3 for towing purposes.'",

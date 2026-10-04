@@ -43,7 +43,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six floor liner sets listed for the 6th-generation Outback, from Husky's made-in-USA WeatherBeater and Subaru's heavy-gauge mats to $80 TPE. Most also fit the 2020–2025 Legacy, and every trim including the Wilderness shares one floor.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2025 Outback (and Legacy), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky claims come from its own site, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**One floor for 2020–2025.** Every Outback trim, Wilderness and XT included.",

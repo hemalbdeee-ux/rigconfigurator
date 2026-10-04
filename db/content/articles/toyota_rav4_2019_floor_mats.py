@@ -1,6 +1,7 @@
 """Long-form article — Best Floor Mats & Liners for 2019–2025 Toyota RAV4 (5th gen, XA50).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
 Source fixes 2026-10-04: Prime row now notes the 2025 Plug-in Hybrid name (Wikipedia, Toyota); gas-only takeaway narrowed to Husky 95501 (the 25501 cargo liner is not gas only); TRD Off-Road / Woodland answer now rests on the listings and the Toyota 2024 grade list instead of an unsourced floor claim.
+Text fixes 2026-10-04 (round 2): removed the unsourced claim that the Hybrid and Prime carry a battery under the rear seat; the Prime's battery location now follows Toyota's 2021 RAV4 Prime release (mounted under the floor), the Hybrid's location is marked unconfirmed, and floor and cargo differences are worded as what the listings state (gas only, not hybrid, or powertrain named) instead of as fact; unsourced adjustable deck board remark removed.
 """
 
 KEY = ("toyota", "rav4", "2019-present", "floor-mats")
@@ -11,9 +12,9 @@ META = ("Six 5th-gen RAV4 floor liner sets from WeatherTech, Husky, Powerty, AOM
 
 FAQ = [
  ("Do RAV4 Hybrid and Prime take different liners than the gas RAV4?",
-  "Sometimes. The RAV4 Hybrid and Prime (plug-in) have a battery under the rear seat, and some makers cut their rear liner differently. AOMSAZTO's set on this page is gas only. The generic 3D liners list gas, Hybrid and Prime, and Powerty lists all models. WeatherTech asks you to confirm hybrid or Prime on the listing. Match the powertrain before ordering."),
+  "Sometimes. Toyota says the RAV4 Prime's larger lithium-ion battery is mounted under the floor. We could not confirm from Toyota where the Hybrid's battery sits or how either floor differs from the gas car's, but some listings exclude the hybrid. AOMSAZTO's set on this page is gas only. The generic 3D liners list gas, Hybrid and Prime, and Powerty lists all models. WeatherTech asks you to confirm hybrid or Prime on the listing. Match the powertrain before ordering."),
  ("Is the cargo area different on the hybrid?",
-  "Cargo liners are where powertrain differences show up most often, because the cargo floor height and underfloor layout can differ between gas, Hybrid and Prime models. The floor-and-cargo set on this page lists the hybrid. If you buy a cargo liner separately, check the powertrain in its title."),
+  "It may be, so check the listing. Toyota says the RAV4 Prime's battery is mounted under the floor. We could not confirm from Toyota whether the cargo floor differs between gas, Hybrid and Prime models, and the listings don't say. The floor-and-cargo set on this page lists the hybrid. If you buy a cargo liner separately, check the powertrain in its title."),
  ("Will 2019–2025 RAV4 liners fit a 2026 RAV4?",
   "Treat the 2026 RAV4 as a new generation and buy liners that name it. Liner makers split generations when the floor changes, and a new-generation RAV4 is very likely to need new parts. Confirm with the maker before ordering."),
  ("Do 2013–2018 RAV4 liners fit a 2019?",
@@ -39,12 +40,12 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six liner sets listed for the 5th-generation RAV4, from WeatherTech's laser-measured FloorLiners to $70 TPE. The fit question is the powertrain: gas, Hybrid or Prime, because the battery under the rear seat and the cargo floor can differ.",
+ "dek": "Six liner sets listed for the 5th-generation RAV4, from WeatherTech's laser-measured FloorLiners to $70 TPE. The fit question is the powertrain: gas, Hybrid or Prime, because some sets are gas only and others name the Hybrid and Prime.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2019–2025 RAV4 (powertrain, rows, cargo), on published maker specs (material, origin, warranty) and on coverage in listing photos. WeatherTech claims come from its own site, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Powertrain matters.** Gas, Hybrid and Prime can take different rear and cargo liners.",
+  "**Powertrain matters.** Some liner sets are gas only, and others name the Hybrid and Prime.",
   "**Husky's 95501 set and AOMSAZTO are gas only.** Powerty and the generic 3D set list all powertrains.",
   "**2019 was a new platform.** 2013–2018 liners don't fit.",
   "**Treat 2026 as a new generation.** Buy liners that name it.",
@@ -69,9 +70,9 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Gas, Hybrid or Prime",
-   "body": "The 5th-gen RAV4 comes as a gas model, a Hybrid and, from 2021, the Prime plug-in hybrid, which Toyota renamed the RAV4 Plug-in Hybrid for 2025. The Hybrid and Prime carry a battery under the rear seat, and some makers cut the rear floor liner and cargo liner differently for them. AOMSAZTO's set is gas only. The generic 3D custom-fit set names gas, Hybrid and Prime. Powerty says all models. WeatherTech asks you to confirm hybrid or Prime. Look at the badge on the liftgate before you shop."},
+   "body": "The 5th-gen RAV4 comes as a gas model, a Hybrid and, from 2021, the Prime plug-in hybrid, which Toyota renamed the RAV4 Plug-in Hybrid for 2025. Toyota says the Prime's larger lithium-ion battery is mounted under the floor. We could not confirm the Hybrid's battery location from Toyota, and the listings don't say what differs, but several exclude the hybrid. AOMSAZTO's set is gas only. The generic 3D custom-fit set names gas, Hybrid and Prime. Powerty says all models. WeatherTech asks you to confirm hybrid or Prime. Look at the badge on the liftgate before you shop."},
   {"h": "Cargo area coverage",
-   "body": "The RAV4's cargo area is carpeted and gets groceries, sports gear and dogs. A cargo liner with a raised edge keeps spills from soaking in. The cargo floor is also where powertrain differences show up, so choose a cargo liner that names your powertrain. The floor-and-cargo set on this page lists the hybrid."},
+   "body": "The RAV4's cargo area is carpeted and gets groceries, sports gear and dogs. A cargo liner with a raised edge keeps spills from soaking in. We could not confirm whether the cargo floor differs by powertrain, so choose a cargo liner that names yours. The floor-and-cargo set on this page lists the hybrid."},
   {"h": "Generation boundaries",
    "body": "The 2019 RAV4 moved to the TNGA-K platform, so 2013–2018 liners don't fit. The 5th generation runs through 2025, and a new-generation RAV4 follows. Buy liners whose year range matches your vehicle. If a listing spans generations, check the part number with the maker."},
   {"h": "Warranty and material",
@@ -110,7 +111,7 @@ ARTICLE = {
   {"asin": "B08F4M6QPY", "role": "Best for every powertrain", "price": "$90–$130",
    "pros": ["Lists gas, Hybrid and Prime", "Front and 2nd row", "3D molded shape", "Raised edges", "Budget price"],
    "cons": ["Generic brand", "No published warranty", "Cargo not included"],
-   "body": "These 3D custom-fit liners are listed for 2019–2025 RAV4 gas, Hybrid and Prime, front and second row. Covering all three powertrains in one listing is the most useful thing about it, especially for Prime owners, who have fewer choices.\n\nIt's a generic brand, so warranty and material grade are unknowns. The 3D molding follows the footwell shape and the raised edges keep water in the tray.\n\nFor a Hybrid or Prime owner who wants a proper liner without WeatherTech's price, it's the pick. Add a cargo liner for your powertrain. Check the listing photos for the driver-side retention holes and the shape of the rear piece over the center hump. On a Prime, where options are fewest, it's worth sending the seller your VIN to confirm before ordering, since the Prime's rear floor and cargo area are the most likely to differ.",
+   "body": "These 3D custom-fit liners are listed for 2019–2025 RAV4 gas, Hybrid and Prime, front and second row. Covering all three powertrains in one listing is the most useful thing about it, especially for Prime owners, who have fewer choices.\n\nIt's a generic brand, so warranty and material grade are unknowns. The 3D molding follows the footwell shape and the raised edges keep water in the tray.\n\nFor a Hybrid or Prime owner who wants a proper liner without WeatherTech's price, it's the pick. Add a cargo liner for your powertrain. Check the listing photos for the driver-side retention holes and the shape of the rear piece over the center hump. On a Prime, where options are fewest, it's worth sending the seller your VIN to confirm before ordering, since Toyota says the Prime's battery is mounted under the floor.",
    "who": "Hybrid and Prime owners who want a budget liner.",
    "specs": [["Rows", "Front + 2nd"], ["Fits", "2019–2025 RAV4 gas, Hybrid, Prime"], ["Material", "3D TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$90–$130"]]},
   {"asin": "B07WT1MHY3", "role": "Best budget all models", "price": "$80–$120",
@@ -122,7 +123,7 @@ ARTICLE = {
   {"asin": "B0FGXYQG99", "role": "Best with cargo", "price": "$100–$140",
    "pros": ["Floor mats plus cargo liner", "Lists hybrid", "One order for cabin and cargo", "Covers 2019–2025", "Raised edges"],
    "cons": ["Generic brand", "No published warranty", "Confirm Prime"],
-   "body": "This set covers the floor and cargo area of the 2019–2025 RAV4 and lists the hybrid. For families who haul, getting the cargo liner in the same order is the value.\n\nThe cargo floor is where powertrain differences matter most, so the hybrid mention is useful. For a Prime, confirm with the seller.\n\nIt's a generic brand with little documentation, so treat it as a price-driven buy. A cargo liner is especially useful if you fold the rear seats often, because it keeps the load floor clean when sliding in bikes or boxes. If the kit's cargo piece has a seatback extension, even better.",
+   "body": "This set covers the floor and cargo area of the 2019–2025 RAV4 and lists the hybrid. For families who haul, getting the cargo liner in the same order is the value.\n\nWe could not confirm whether the cargo floor differs by powertrain, so the hybrid mention is useful. For a Prime, confirm with the seller.\n\nIt's a generic brand with little documentation, so treat it as a price-driven buy. A cargo liner is especially useful if you fold the rear seats often, because it keeps the load floor clean when sliding in bikes or boxes. If the kit's cargo piece has a seatback extension, even better.",
    "who": "Families who want cabin and cargo covered.",
    "specs": [["Includes", "Floor mats + cargo liner"], ["Fits", "2019–2025 RAV4 incl. hybrid"], ["Material", "All-weather (per listing)"], ["Warranty", "Confirm with seller"], ["Price band", "$100–$140"]]},
   {"asin": "B09J8M9MR4", "role": "Best budget gas", "price": "$70–$110",
@@ -132,7 +133,7 @@ ARTICLE = {
    "who": "Gas RAV4 owners on a budget.",
    "specs": [["Rows", "Front + 2nd"], ["Fits", "2019–2025 RAV4, gas only"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$70–$110"]]},
   {"asin": "B07PGL1FS9", "role": "Best made in USA (gas)", "price": "$130–$180", "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs", "Front and 2nd row, 3 pieces", "Clear 'will not fit hybrid' note"], "cons": ["Gas models only", "Firm feel", "Cargo liner sold separately"], "body": "Husky's WeatherBeater 95501 is a three-piece front and second-row set listed for 2019–2025 RAV4, and its title says plainly that it will not fit hybrid models. Husky's separate front-row pair for the RAV4 (13231) carries the same hybrid exclusion, which tells you Husky found a difference even in the front footwell between gas and hybrid cars, not just the rear.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks. For a gas RAV4 in snow country, the tall, firm walls and crack warranty make it the strongest documented option after WeatherTech, usually for less money.\n\nPair it with Husky's 25501 cargo liner, listed for the 2019–2025 RAV4, if you haul. Hybrid and Prime owners should skip this set.", "who": "Gas RAV4 owners who want US-made liners with a crack warranty.", "specs": [["Part #", "Husky 95501"], ["Pieces", "3"], ["Fits", "2019–2025 RAV4, gas only (not hybrid)"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
-  {"asin": "B000CMKD62", "role": "Best cargo liner", "price": "$90–$140", "pros": ["Molded cargo liner with walls", "Lists 2019–2025 RAV4", "Made in the USA", "Lifetime warranty against cracks and breaks", "Pairs with any floor set"], "cons": ["Cargo only", "Confirm Hybrid/Prime cargo floor", "Firm material"], "body": "Husky's WeatherBeater 25501 is a one-piece cargo liner listed for the 2019–2025 RAV4. The cargo area is where most RAV4 families make their messes: groceries, sports bags, wet dogs and beach gear. A molded liner with walls keeps spills off the carpet.\n\nThe listing doesn't state a powertrain in its short title. Because RAV4 cargo floors can differ between gas, Hybrid and Prime models, and because some RAV4s have an adjustable deck board, confirm the fit with Husky's tool or the seller before ordering.\n\nIt carries WeatherBeater's credentials: laser-measured, made in the USA and a lifetime warranty against cracks and breaks. Pair it with Husky's 95501 on a gas car, or with the generic 3D set on a hybrid.", "who": "Owners who haul gear, dogs or groceries.", "specs": [["Part #", "Husky 25501"], ["Area", "Cargo"], ["Fits", "2019–2025 RAV4 (confirm powertrain)"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]}
+  {"asin": "B000CMKD62", "role": "Best cargo liner", "price": "$90–$140", "pros": ["Molded cargo liner with walls", "Lists 2019–2025 RAV4", "Made in the USA", "Lifetime warranty against cracks and breaks", "Pairs with any floor set"], "cons": ["Cargo only", "Confirm Hybrid/Prime cargo floor", "Firm material"], "body": "Husky's WeatherBeater 25501 is a one-piece cargo liner listed for the 2019–2025 RAV4. The cargo area is where most RAV4 families make their messes: groceries, sports bags, wet dogs and beach gear. A molded liner with walls keeps spills off the carpet.\n\nThe listing doesn't state a powertrain in its short title. We could not confirm whether the cargo floor differs between gas, Hybrid and Prime models, so confirm the fit with Husky's tool or the seller before ordering. Toyota says the Prime's battery is mounted under the floor, so Prime and Plug-in Hybrid owners in particular should ask.\n\nIt carries WeatherBeater's credentials: laser-measured, made in the USA and a lifetime warranty against cracks and breaks. Pair it with Husky's 95501 on a gas car, or with the generic 3D set on a hybrid.", "who": "Owners who haul gear, dogs or groceries.", "specs": [["Part #", "Husky 25501"], ["Area", "Cargo"], ["Fits", "2019–2025 RAV4 (confirm powertrain)"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]}
  ],
  "install": [
   "Confirm powertrain (gas, Hybrid or Prime) and that your RAV4 is a 2019–2025 model.",
@@ -143,7 +144,7 @@ ARTICLE = {
   "Press the pedals to the floor before driving.",
  ],
  "avoid": [
-  {"h": "Gas-only sets on a Hybrid or Prime", "body": "The rear and cargo floors can differ."},
+  {"h": "Gas-only sets on a Hybrid or Prime", "body": "AOMSAZTO's set and Husky's 95501 are listed as not fitting the hybrid."},
   {"h": "2013–2018 or next-gen liners", "body": "Different floors."},
   {"h": "Ignoring the cargo area", "body": "Spills soak into the carpet fast."},
   {"h": "Stacking mats", "body": "Remove the factory mat first."},
@@ -162,6 +163,7 @@ ARTICLE = {
   ["Toyota RAV4, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_RAV4_(XA50)"],
   ["2024 Toyota RAV4 release: gas and hybrid grade lists (Toyota Newsroom)", "https://pressroom.toyota.com/?generate_pdf=87387"],
   ["2025 Toyota RAV4 Plug-in Hybrid: new name for the Prime (Toyota Newsroom)", "https://pressroom.toyota.com/vehicle/2025-toyota-rav4-plug-in-hybrid/"],
+  ["2021 Toyota RAV4 Prime release: battery mounted under the floor (Toyota Newsroom)", "https://pressroom.toyota.com/2021-toyota-rav4-prime-primed-and-ready-for-electrified-traction/"],
  ],
 }
 

@@ -43,7 +43,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six liner sets for the two-row WL Grand Cherokee, from Husky's made-in-USA WeatherBeater to budget TPE kits with cargo liners. Three look-alikes cause wrong orders here: the 2022 carryover WK, the three-row Grand Cherokee L, and the 4xe plug-in.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2022–2026 Grand Cherokee WL (body, 4xe, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky claims come from its own site, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**WL, not WK2 or 2022 WK.** A carryover 2022 WK was sold alongside the new WL.",

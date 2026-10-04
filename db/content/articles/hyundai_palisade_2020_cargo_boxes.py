@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule, Rhino-Rack, INNO and Rightline Gear matched to the first-generation Palisade's flush rails, from a 30.2 lb 10 cu ft box to the 21 cu ft Thule Motion 3 XXL and a $140 soft bag. For each we list volume, size, box weight and crossbar spread, and what those numbers mean for the Palisade's roughly 32 in bar spread, its 165 lb or 220 lb bars, Hyundai's 220 lb roof rails figure and a hatch with about 71 in of clearance.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on published specs from Yakima, Thule and Rhino-Rack, etrailer's figures for the INNO Wedge 660 and the Thule Motion 3 spread, and RealTruck's Rightline Gear listing: volume, exterior size, box weight, cargo rating, crossbar spread, ski length and warranty. We checked those numbers against the Palisade's flush rails, the 165 lb Thule system, the 220 lb roof rails load capacity on Hyundai's 2020, 2023 and 2024 specification sheets, the 220 lb figure owners quote from Hyundai's accessory crossbar guide, and etrailer's Palisade answer on crossbar spread (about 32 in) and hatch clearance (about 71 in). Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Flush-rail crossbars first.** The Palisade's rails are flush, so buy bars made for them (Thule kit 6008, Hyundai accessory bars or a flush-rail Amazon set). Every box here clamps to any of them.",

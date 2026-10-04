@@ -39,7 +39,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Six 5th-gen 4Runner lighting setups, from a $65 hidden grille bracket to a 52 in curved roof bar and Baja fog pocket pods. Bars are mostly universal, so we focus on what is specific to the 4Runner: the mount, the 2014 facelift split, the 2020+ radar in the grille, wiring and the road-use rules that decide when you can switch them on.",
  "author": "jake-morrison",
- "reviewed": "2026-09-26",
+ "reviewed": "2026-10-04",
  "method": "We did not install these lights ourselves. We ranked them on published specs (lumens, watts, sealing, harness, warranty), on the fitment each maker, retailer or Amazon listing gives for the 2010–2024 4Runner and its model-year splits, and on the 5th-gen history in Wikipedia's generation page. Prices were checked at the maker or a 4Runner specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Buy the mount, then the bar.** The bar is usually universal. What must match is the bracket: lower grille, fog pocket, hood hinge or roof.",

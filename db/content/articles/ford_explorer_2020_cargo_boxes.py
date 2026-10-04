@@ -42,7 +42,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Seven rooftop boxes from Yakima, Thule, INNO, SportRack and Rightline Gear matched to the sixth-generation Explorer's raised rails, from an 11 in tall low-profile box to an 18 cu ft Thule Motion 3 XL and a $140 soft bag. For each we list volume, length, height, box weight and crossbar spread, and what those numbers mean for 165 lb bars, the panoramic roof and the power liftgate.",
  "author": "jake-morrison",
- "reviewed": "2026-09-27",
+ "reviewed": "2026-10-04",
  "method": "We did not mount these boxes ourselves. We ranked them on published specs from Yakima and Thule, etrailer's figures for the INNO Wedge 660, the Thule Pulse and the Thule Motion 3 spread, SportRack's own page, and RealTruck's Rightline Gear listing: volume, exterior size, box weight, cargo rating, crossbar spread, ski length and warranty. We then checked those numbers against the Explorer's raised rails, the 165 lb rating of brand-name Explorer bar systems, etrailer's Explorer cargo box and panoramic-roof answers, and the liftgate. Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Crossbars first.** The Explorer's raised rails have a gap underneath, so any raised-rail bar that names it clamps on without a fit kit. Check that your roof has them: Ford lists a Slick Roof Conversion that deletes the rails on some trims. Every box here mounts to those bars.",

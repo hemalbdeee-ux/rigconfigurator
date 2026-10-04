@@ -43,7 +43,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Five three-row liner options for the first-generation Telluride, model years 2020–2025, from WeatherTech's full set to TOUGHPRO's made-in-USA rubber. The second row decides fit: captain's chairs with a console, captain's chairs without one, or a bench.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2025 Telluride (seating, console, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. WeatherTech, Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Second row decides fit.** Captain's chairs with or without a console, or a bench.",

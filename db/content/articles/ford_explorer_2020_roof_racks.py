@@ -38,7 +38,7 @@ FAQ = [
 ARTICLE = {
  "dek": "The sixth-generation Explorer has raised side rails with a gap underneath, the easiest roof type to fit. Here are five Explorer-named crossbar sets from $80-ish to about $150, plus the Thule, Yakima and Malone systems etrailer lists, trim notes for the ST, Timberline and 2025 facelift, and the flush-bar wording that confuses buyers.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
+ "reviewed": "2026-10-04",
  "method": "We did not install these racks ourselves. Picks were chosen on the fitment each seller lists for the 2020–2026 Explorer, and brand-name systems on the fit, specs and prices etrailer publishes for the 2020, 2023 and 2025 Explorer, checked in September 2026. etrailer's expert answers are the source for the ST notes. Amazon prices move daily, so the button shows the live price; bands for generic bars are a guide only.",
  "takeaways": [
   "**Raised rails, with a gap underneath.** etrailer's 2020, 2023 and 2025 Explorer lists are built on raised-rail systems. This is the simplest rack fit there is: no vehicle-specific fit kit. Look at your own roof first; Ford lists a rail-delete option on some trims.",
