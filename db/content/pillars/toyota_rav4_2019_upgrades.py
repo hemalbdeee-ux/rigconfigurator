@@ -24,6 +24,7 @@ Hybrid; the vehicle's tongue weight limit; what exactly differs in the hybrid fl
 and other makers' Hybrid and Prime years; ratings of the Rigid Hitch and the CURT bundle; crossbar weights; the
 Vista XL's weight; crossbar spread for the Force 3 L and SkyBox NX Skinny; whether RAV4 rails allow a 32 in spread;
 and any 2026 fit. No RAV4 guide exists for running boards or lighting; neither is ranked.
+Source fixes 2026-10-04: aligned with the corrected guides and the proposed vehicle data (factory receiver no longer treated as 1.25 in; Toyota accessory hitch is a 2 in tube): tow figures tied to the 2024 model year, 2025 ratings marked unconfirmed, rail profile and shared-roof claims reduced to what listings say, Prime range attributed to Toyota.
 """
 
 KIND = "upgrades"
@@ -42,18 +43,17 @@ FAQ = [
   "$150–$220, and the cargo box is last because it costs the most. On an LE with a bare roof, move the hitch up to "
   "second."),
  ("Do the RAV4 Hybrid and Prime need different parts than the gas RAV4?",
-  "For the floor and the hitch, sometimes. For the roof, no. Husky's 95501 set and 13231 front pair are listed as "
+  "For the floor and the hitch, sometimes. For the roof, listings go by rail instead. Husky's 95501 set and 13231 front pair are listed as "
   "not fitting hybrid models, and AOMSAZTO's set is gas only, while the generic 3D set names gas, Hybrid and Prime. "
   "Hitch makers list powertrains by year: B&W's RH670118BW covers the 2023–2025 Hybrid and the Prime through 2024. "
-  "Crossbars and boxes go by rail type, because the Hybrid and Prime share the roof with the gas RAV4 of the same "
-  "grade."),
+  "Crossbar listings go by rail type and trim, not powertrain, and a box clamps to whichever bars fit."),
  ("How much can my RAV4 tow, and does an aftermarket trailer hitch raise it?",
-  "A hitch never raises it. The hitch guide uses Toyota dealer figures, and the Toyota Vallejo page for the 2024 "
-  "model matches them: 1,500 lb for the gas LE, XLE, XLE Premium and Limited, 3,500 lb for the Adventure and TRD "
+  "A hitch never raises it. The hitch guide uses a Toyota dealer's figures for the 2024 model year, from Toyota "
+  "Vallejo: 1,500 lb for the gas LE, XLE, XLE Premium and Limited, 3,500 lb for the Adventure and TRD "
   "Off-Road, 1,750 lb for every Hybrid and 2,500 lb for the Prime. We could not confirm other model years or the "
   "2025 Plug-in Hybrid, so read the owner's manual."),
  ("Does my RAV4 Adventure or TRD Off-Road already have a hitch receiver?",
-  "Probably. Both trims had Toyota's Tow Prep Package as standard, and the Toyota Vallejo towing page describes them "
+  "Probably. Both trims had Toyota's Tow Prep Package as standard, and the Toyota Vallejo 2024 towing page describes them "
   "as having built-in trailer hitch receivers and wiring harnesses. Look under the rear bumper. "
   "If a receiver is there, you need only a ball mount or a rack that matches the opening. We could not "
   "confirm from Toyota whether that receiver is 1.25 in or 2 in, so measure it. Wikipedia says both trims were "
@@ -107,7 +107,7 @@ ARTICLE = {
  "takeaways": [
   "**Read the liftgate badge first.** Gas, Hybrid and Prime don't always share floor liners: Husky's and AOMSAZTO's sets are for gas models only.",
   "**Look at the roof before the listing.** Standard raised rails, Adventure and TRD Off-Road rails, flush rails and a bare roof each take different crossbars.",
-  "**The tow rating belongs to the version, not the hitch.** Dealer figures give 1,500 lb gas, 1,750 lb Hybrid, 2,500 lb Prime and 3,500 lb Adventure and TRD Off-Road.",
+  "**The tow rating belongs to the version, not the hitch.** Dealer figures for 2024 give 1,500 lb gas, 1,750 lb Hybrid, 2,500 lb Prime and 3,500 lb Adventure and TRD Off-Road.",
   "**The roof carries about 165 lb, bars and box included.** One reference lists 176.4 lb for 2019–2024, so read the owner's manual.",
   "**Buy 2019–2025 parts only.** 2013–2018 liners and hitches don't fit, and the 2026 RAV4 is a new generation.",
  ],
@@ -131,8 +131,8 @@ ARTICLE = {
    "why": "A roof rack ranks second because on most RAV4s it is the cheapest way to add carrying room, and the "
           "cargo box in slot four can't go on without it. Crossbars for the standard raised rails run about "
           "$60–$130 in the roof rack guide and clamp on without drilling. Fit goes by rail, not by year or "
-          "powertrain. The guide and the vehicle data put standard raised rails on the XLE and up, a different "
-          "rail profile on the Adventure and TRD Off-Road, and a bare roof on the LE. Autekcomma's lockable set, "
+          "powertrain. The guide and the vehicle data put standard raised rails on the XLE and up, separately "
+          "listed rails on the Adventure and TRD Off-Road, and a bare roof on the LE. Autekcomma's lockable set, "
           "about $90–$130 with a 260 lb bar rating, names every trim it excludes. FLYCLE's is about $80–$120, "
           "VEVOR's 160 lb set about $60–$90 and titled 2020–2023 only, and ROKIOTOEX's set for the Adventure and "
           "TRD rails about $100–$150. The trade-off is the roof itself: the vehicle data lists 165 lb, bars "
@@ -147,7 +147,7 @@ ARTICLE = {
           "165 lb for the roof. The guide's first pick is B&W's RH670118BW, a Class III hitch with a 2 in receiver rated "
           "4,500 lb and 675 lb, at about $212 from etrailer. Reese's 06192 is the 1.25 in Class II option at about "
           "$150–$220, rated 3,500 lb and 350 lb. CURT's 56434 plug-in harness adds about $50–$80. Two facts decide "
-          "the purchase: listing coverage by powertrain and year, and the version's own tow rating. Dealer figures "
+          "the purchase: listing coverage by powertrain and year, and the version's own tow rating. Dealer figures for 2024 "
           "give 1,500 lb for the gas LE through Limited, 1,750 lb for the Hybrid, 2,500 lb for the Prime and 3,500 "
           "lb for the Adventure and TRD Off-Road, which had the Tow Prep Package as standard. No hitch raises "
           "those numbers.",
@@ -163,7 +163,7 @@ ARTICLE = {
           "DeepSpace 10 is about $649, 60 in and 30.2 lb, but needs a 32–46 in spread. The GrandTour 16 is about "
           "$709, 79 in and 51.5 lb. Thule's Force 3 L is about $880, 76.8 in and 43 lb. The trade-offs are roof "
           "load and drag: the guide puts the room left for gear at roughly 100–120 lb, and says drag cuts into "
-          "the Prime's EPA-rated 42-mile electric range.",
+          "the Prime's electric range, which Toyota estimates at 42 miles for the 2025 Plug-in Hybrid.",
    "skip_if": "Your heavy items are coolers and bins, which the guide sends to a hitch carrier."},
  ],
  "tier_table": {
@@ -189,21 +189,21 @@ ARTICLE = {
            "hybrid. CURT's 56434 harness covers the 2019–2025 RAV4 and Prime in all styles. If your powertrain and "
            "year aren't named, ask the seller.\n\n"
            "**The tow rating.** The figures below are Toyota dealer figures for the 2024 model year.\n\n"
-           "**The roof.** The Hybrid and Prime share the roof with the gas RAV4 of the same grade, so crossbars "
-           "and a cargo box go by rail type alone.",
+           "**The roof.** Crossbar listings go by rail type and trim, not powertrain, and a cargo box clamps to "
+           "whichever bars fit.",
    "table": {"caption": "2019–2025 RAV4 by version: liners, hitch listings and tow rating",
              "head": ["Version", "Floor and cargo liners", "Hitch listings", "Max trailer (dealer figures)"],
              "rows": [
               ["Gas LE, XLE, XLE Premium, Limited", "Every set in the guide, including the gas-only Husky 95501 and AOMSAZTO", "Most name the 2019–2025 RAV4; Rigid Hitch's R3-0523 is titled 2019–2024", "1,500 lb"],
-              ["Gas Adventure, TRD Off-Road (through 2024)", "Same gas sets; trim doesn't change the floor", "Tow Prep standard, with a receiver and harness per a Toyota dealer", "3,500 lb"],
+              ["Gas Adventure, TRD Off-Road (through 2024)", "Same gas sets; the liner listings split by powertrain, not trim", "Tow Prep standard, with a receiver and harness per a Toyota dealer", "3,500 lb"],
               ["Hybrid, every grade, Woodland Edition included", "Generic 3D set, Powerty or the floor-and-cargo set; not Husky 95501 or AOMSAZTO", "B&W lists the 2023–2025 Hybrid; confirm 2019–2022", "1,750 lb"],
               ["Prime (2021–2024)", "The generic 3D set names the Prime; confirm any other", "B&W through 2024, Draw-Tite 2021–2023, Reese 2024 only, CURT's bundle 2021–2024", "2,500 lb"],
               ["2025 Plug-in Hybrid (the renamed Prime)", "Listings may use either name; confirm", "B&W lists the 2025 plug-in hybrid", "Check the owner's manual"],
              ]}},
   {"h": "Which roof is overhead: rails decide the crossbars, and crossbars decide the box",
    "body": "The RAV4's roof changes by trim. The vehicle data on this site lists raised rails as standard on the "
-           "XLE and up and a bare roof on the LE. The roof rack guide adds a different rail profile on the Adventure and TRD "
-           "Off-Road. The etrailer fit guide for the 2021 RAV4 shows three configurations: raised rails, flush "
+           "XLE and up and a bare roof on the LE. The roof rack guide adds that crossbar listings treat the Adventure and TRD "
+           "Off-Road rails as a separate fit. The etrailer fit guide for the 2021 RAV4 shows three configurations: raised rails, flush "
            "mounted rails and no rails. It doesn't say which trims have which, and we could not confirm a "
            "trim-by-trim list from Toyota. Go by what you can see. A gap under the rail means raised rails, no "
            "gap means flush rails, and no rail means a clamp kit.\n\n"
@@ -253,7 +253,7 @@ ARTICLE = {
            "- **2020 to 2023.** Wikipedia lists the TRD Off-Road as added for 2020 and the hybrid Woodland Edition "
            "for 2023. The guides date the Prime from the 2021 model year.\n"
            "- **2025.** Wikipedia says the Adventure and TRD Off-Road were discontinued and the Prime was renamed "
-           "Plug-in Hybrid. The hitch guide reads a 2025 gas RAV4 as a 1,500 lb vehicle.\n"
+           "Plug-in Hybrid. We could not confirm 2025 tow ratings from Toyota, so check the owner's manual.\n"
            "- **2026.** A new sixth generation, revealed on 20–21 May 2025 per Wikipedia. CURT sells a separate "
            "hitch, 13652, for 2026–2027.\n\n"
            "Inside the generation, the liner and crossbar listings in the guides mostly run 2019–2025 as one "
@@ -283,7 +283,7 @@ ARTICLE = {
  ],
  "avoid": [
   {"h": "A gas-only liner set on a Hybrid or Prime", "body": "Husky's 95501 and 13231 and AOMSAZTO's set exclude the hybrid. Buy a set that names your powertrain."},
-  {"h": "Standard-rail crossbars on an Adventure, TRD Off-Road or LE", "body": "The Adventure and TRD rails have a different profile, and the LE's bare roof has nothing to clamp to. Read the title's exclusions against your badge and your roof."},
+  {"h": "Standard-rail crossbars on an Adventure, TRD Off-Road or LE", "body": "Standard-rail listings exclude the Adventure and TRD Off-Road, and the LE's bare roof has nothing to clamp to. Read the title's exclusions against your badge and your roof."},
   {"h": "Loading or towing to the part's rating", "body": "A 260 lb crossbar doesn't change a 165 lb roof, and a 4,500 lb hitch doesn't change a 1,500 lb RAV4. The lower number wins."},
   {"h": "Parts from the generation before or after", "body": "2013–2018 liners and hitches don't fit, and the 2026 RAV4 has its own parts, such as CURT's 13652 hitch. Only the cargo box moves between generations."},
  ],
@@ -314,5 +314,6 @@ ARTICLE = {
   ["Yakima DeepSpace 10 (Yakima)", "https://yakima.com/collections/roof-boxes/products/deepspace-10"],
   ["Thule Force 3 L (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-force-3-l-_-645750"],
   ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
+  ["2025 Toyota RAV4 Plug-in Hybrid: name and EV-only range estimate (Toyota Newsroom)", "https://pressroom.toyota.com/vehicle/2025-toyota-rav4-plug-in-hybrid/"],
  ],
 }

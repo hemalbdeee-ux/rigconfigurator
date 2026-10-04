@@ -1,12 +1,13 @@
 """Long-form article — Best Roof Racks for 2010–2024 Toyota 4Runner (5th gen, N280).
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every spec below comes
 from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+Source fixes 2026-10-04: crossbar price text now matches the InTimesAuto and ERKUL pick prices (about $90–$130, about $90–$150 for both); the 120 lb roof figure is attributed to a reader comment on Trail4Runner citing a 2016 SR5 owner's manual, not to the article, and is no longer described as the factory-rail limit; TRD Pro and special-edition roof wording now follows Toyota's 2019, 2020 and 2021 releases, which are added to sources.
 """
 
 KEY = ("toyota", "4runner", "2010-2024", "roof-racks")
 
 TITLE = "Best Roof Racks for 2010–2024 Toyota 4Runner: 6 Fit-Checked Platforms and Crossbars"
-META = ("Six roof racks for the 5th-gen 4Runner, from $100 crossbars for the factory rails to Front Runner and "
+META = ("Six roof racks for the 5th-gen 4Runner, from crossbars at about $90–$130 to Front Runner and "
         "Rough Country platforms, with load ratings, fairings and tent notes.")
 
 FAQ = [
@@ -15,7 +16,7 @@ FAQ = [
  ("Do 2010–2024 4Runner roof racks fit the 2025–2026 4Runner?",
   "No. The sixth-generation 4Runner has a new roof and new rail geometry, and makers sell separate parts for it. Rough Country's 5th-gen platform is 88201 while the 2025–2026 version is 88205, and Front Runner's Slimsport is KSTF003T for the 5th gen but KSTF004T for the 6th gen. Buy the part number listed for your model year. Our 2025–2026 4Runner roof rack guide covers the new truck."),
  ("How much weight can a 5th-gen 4Runner roof carry?",
-  "Use the figure in your owner's manual. Trail4Runner quotes a 120 lb limit from the 2016 manual for the factory rails. That number is the vehicle's dynamic limit while driving, and it includes the rack itself. Aftermarket racks carry higher ratings of their own, such as Rough Country's 300 lb dynamic and 600 lb static, but the lower of the vehicle's and the rack's rating is the one that applies on the road."),
+  "Use the figure in your owner's manual. The only number we found is 120 lb, in a reader comment on Trail4Runner's rack roundup that cites a 2016 SR5 owner's manual. The comment doesn't say whether that is the limit for the factory rails or for the roof itself, and we could not confirm it from a Toyota document. This guide treats it as the limit while driving, rack included. Aftermarket racks carry higher ratings of their own, such as Rough Country's 300 lb dynamic and 600 lb static, but the lower of the vehicle's and the rack's rating is the one that applies on the road."),
  ("Can I put crossbars on the factory side rails?",
   "Yes, on trims with raised factory rails. Clamp-on bars such as the InTimesAuto and ERKUL sets are sold specifically for 2010–2024 4Runners with factory raised side rails, and the listings say they won't fit trucks without them. Many trims already came with factory crossbars, so aftermarket bars are mostly bought for a higher rating, a lock, or a wider usable length."),
  ("Do I have to remove the factory rails to install a platform rack?",
@@ -27,19 +28,19 @@ FAQ = [
  ("Which roof rack is the quietest on a 4Runner?",
   "Racks with a full front fairing are quieter than bare crossbars or open baskets. The Front Runner Slimsport comes with a full fairing and rubber edge trim as standard, and the Slimline II full kit includes a wind deflector. Trail4Runner notes that basket-style racks and racks without fairings tend to add wind noise, and that Prinsu's 1x2 crossbars can rattle."),
  ("Is a platform rack worth it over crossbars?",
-  "Only if you carry bulky or awkward gear often. A platform gives a flat, T-slotted deck for recovery boards, fuel cans, cases and a rooftop tent, and accepts light bars and side-mount brackets. Crossbars cost $100–$150 on the factory rails, weigh less and suit bike, ski and kayak mounts or a cargo box. Many 4Runner owners start with crossbars and move to a platform later."),
+  "Only if you carry bulky or awkward gear often. A platform gives a flat, T-slotted deck for recovery boards, fuel cans, cases and a rooftop tent, and accepts light bars and side-mount brackets. Crossbars cost about $90–$150 on the factory rails, weigh less and suit bike, ski and kayak mounts or a cargo box. Many 4Runner owners start with crossbars and move to a platform later."),
  ("What about the TRD Pro and special editions?",
-  "Our fitment data shows the TRD Pro using a factory basket-style rack in place of the standard raised rails on some years, and several special editions shipped with a cargo basket. Crossbars made for raised rails won't clamp to a basket. Look at your roof before buying: if it has a basket, either use it as-is or swap to a platform that uses the factory mounting points."),
+  "Toyota's 2019 release introduced a TRD roof rack found only on the TRD Pro, and its 2020 and 2021 releases repeat that the rack is exclusive to that grade. The 2021 release also lists a Yakima LoadWarrior cargo basket on the Trail Special Edition and a Yakima MegaWarrior basket on the Venture Special Edition. We could not confirm the roof on 2022–2024 TRD Pro trucks from a Toyota release. Crossbars made for raised rails won't clamp to a rack or basket. Look at your roof before buying: if it has one, either use it as-is or swap to a platform that uses the factory mounting points."),
 ]
 
 ARTICLE = {
- "dek": "Six roof racks for the fifth-generation 4Runner, from $100 clamp-on crossbars for the factory rails to $700–$1,300 platforms that bolt to the roof's factory mounting points. For each one we list load rating, size, fairing and install details, plus rooftop tent notes.",
+ "dek": "Six roof racks for the fifth-generation 4Runner, from clamp-on crossbars at about $90–$130 for the factory rails to $700–$1,300 platforms that bolt to the roof's factory mounting points. For each one we list load rating, size, fairing and install details, plus rooftop tent notes.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, tray size, weight, fairing, warranty), on the fitment each maker or seller lists for the 2010–2024 4Runner, and on what 4Runner owners and the Trail4Runner rack roundup report. Prices were checked at the manufacturer or specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Look at your roof first.** Most 5th-gen 4Runners have factory raised side rails, many with crossbars; some TRD Pro and special-edition trucks have a basket instead. Clamp-on crossbars need raised rails.",
-  "**The vehicle's roof limit is lower than most rack ratings.** Trail4Runner quotes 120 lb from the 2016 owner's manual. The rack's own weight counts against it while driving.",
+  "**Look at your roof first.** Most 5th-gen 4Runners have factory raised side rails, many with crossbars. TRD Pro trucks with the TRD roof rack (new for 2019) and the Trail and Venture Special Editions carry a factory rack or basket. Clamp-on crossbars need raised rails.",
+  "**The vehicle's roof limit is lower than most rack ratings.** A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual; confirm the figure in yours. The rack's own weight counts against it while driving.",
   "**Platforms bolt to factory mounting points, no drilling.** Front Runner and Rough Country kits use the existing points, which usually means the factory rails come off.",
   "**A 3/4 platform is the 4Runner sweet spot.** It clears the rear hatch and, on the Front Runner 3/4 kit, the sunroof, and it weighs about 59 lb against about 91 lb for the full kit.",
   "**5th-gen racks do not fit the 2025–2026 4Runner.** Rough Country (88201 vs 88205) and Front Runner (KSTF003T vs KSTF004T) sell separate parts.",
@@ -49,7 +50,7 @@ ARTICLE = {
   {"asin": "B0F7V4ZHL4", "role": "Best value platform", "why": "Full-length 46.25 x 91 in aluminum deck, 300 lb dynamic / 600 lb static, about $700"},
   {"asin": "B0B18BKJWD", "role": "Quietest platform", "why": "Front Runner Slimsport with a full fairing and rubber edge trim as standard"},
   {"asin": "B01M5FQXC4", "role": "Best modular platform", "why": "Rhino-Rack Pioneer tray on a vehicle-specific backbone, with a big accessory range"},
-  {"asin": "B0DNPW2W6P", "role": "Best budget crossbars", "why": "260 lb-rated clamp-on bars for the factory raised rails, about $100"},
+  {"asin": "B0DNPW2W6P", "role": "Best budget crossbars", "why": "260 lb-rated clamp-on bars for the factory raised rails, about $90–$130"},
  ],
  "fit_table": {
   "caption": "2010–2024 4Runner roof setups (the rack must match the roof, not the trim name)",
@@ -57,15 +58,15 @@ ARTICLE = {
   "rows": [
    ["Raised side rails with factory crossbars", "Most SR5, TRD Off-Road, TRD Sport, Limited and Nightshade trucks", "Clamp-on crossbars, or a platform on the factory mounting points", "Factory bars are fine for light loads; aftermarket bars add a lock or a higher rating."],
    ["Raised side rails, no crossbars", "Trucks where the bars were removed or lost", "Clamp-on crossbars sold for raised rails", "Measure the rail gap and confirm the listing names 2010–2024."],
-   ["Factory basket / cargo rack", "Some TRD Pro years and special editions", "Keep the basket, or swap to a platform", "Rail-clamp crossbars won't grip a basket."],
+   ["Factory basket / cargo rack", "TRD Pro (TRD roof rack, new for 2019 per Toyota); Trail and Venture Special Editions (Yakima basket)", "Keep the basket, or swap to a platform", "Rail-clamp crossbars won't grip a basket."],
    ["Rails removed / bare mounting points", "Trucks set up for a platform", "Platforms that use the factory points (Front Runner, Rough Country, Rhino-Rack backbone)", "Reseal the points if you ever go back to stock."],
   ],
  },
  "look_for": [
   {"h": "Roof type — it outranks brand",
-   "body": "Roof racks for the 5th-gen 4Runner split into two families: crossbars that clamp to the factory raised rails, and platforms that bolt to the roof's factory mounting points. The bar listings here say plainly that they fit only trucks with factory raised side rails. Some TRD Pro years and special editions came with a cargo basket rather than plain rails, and rail-clamp bars won't grip it. Before you compare brands, walk around the truck and note whether you have raised rails, factory crossbars, a basket, or bare points. That one check rules out half the listings you'll see."},
+   "body": "Roof racks for the 5th-gen 4Runner split into two families: crossbars that clamp to the factory raised rails, and platforms that bolt to the roof's factory mounting points. The bar listings here say plainly that they fit only trucks with factory raised side rails. Toyota's 2019 release put a TRD roof rack on the TRD Pro only, and its 2021 release lists Yakima cargo baskets on the Trail and Venture Special Editions. Rail-clamp bars won't grip a rack or basket. Before you compare brands, walk around the truck and note whether you have raised rails, factory crossbars, a basket, or bare points. That one check rules out half the listings you'll see."},
   {"h": "Vehicle roof limit versus rack rating",
-   "body": "Every rack has its own rating, but the roof has a lower one. Trail4Runner quotes 120 lb from the 2016 owner's manual for the factory rails. That limit is dynamic, meaning while driving, and the rack's own weight counts against it. A 59 lb Front Runner 3/4 kit leaves roughly 60 lb for cargo under that figure; a 91 lb full kit leaves less. Rough Country rates its 88201 at 300 lb dynamic and 600 lb static, but on the road the lower number is the one that applies. Read your own manual, because figures can differ by year."},
+   "body": "Every rack has its own rating, but the roof has a lower one. A reader comment on Trail4Runner cites 120 lb from a 2016 SR5 owner's manual, and we could not confirm it from a Toyota document. We treat it as a dynamic limit, meaning while driving, and the rack's own weight counts against it. A 59 lb Front Runner 3/4 kit leaves roughly 60 lb for cargo under that figure; a 91 lb full kit leaves less. Rough Country rates its 88201 at 300 lb dynamic and 600 lb static, but on the road the lower number is the one that applies. Read your own manual, because figures can differ by year."},
   {"h": "3/4 or full-length platform",
    "body": "The 4Runner's roof is long, and a full platform covers all of it. Front Runner's full Slimline II tray is 85.3 in long and installs at about 91 lb; the 3/4 tray is 61.4 in long and about 59 lb. The shorter tray leaves the rear of the roof clear so the hatch and anything on it stay accessible, and Off Road Tents lists the 3/4 kit as sunroof compatible. Choose full length for a rooftop tent plus gear, or for long items like a canoe. Choose 3/4 for lighter everyday loads and less weight up high."},
   {"h": "Fairings and wind noise",
@@ -88,7 +89,7 @@ ARTICLE = {
   "caption": "Roof rack types compared on the 5th-gen 4Runner",
   "head": ["Type", "Price on this page", "Mounts to", "Rack weight", "Best for"],
   "rows": [
-   ["Clamp-on crossbars", "~$100–$150", "Factory raised rails", "Light", "Bikes, skis, kayaks, a cargo box"],
+   ["Clamp-on crossbars", "About $90–$130 (InTimesAuto); $100–$150 (ERKUL)", "Factory raised rails", "Light", "Bikes, skis, kayaks, a cargo box"],
    ["Value full-length platform", "~$700 (Rough Country)", "Factory mounting points", "Not published", "Tents and bulky gear on a budget"],
    ["Low-profile platform with fairing", "~$1,049 (Slimsport)", "Factory mounting points", "Not published", "Daily drivers that want less noise"],
    ["3/4 platform", "~$1,199 (Slimline II 3/4)", "Factory mounting points", "~59 lb", "Everyday gear, sunroof trucks"],
@@ -149,7 +150,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Check your roof first, then pick: the Front Runner Slimline II 3/4 if you want the best platform, the Rough Country 88201 if you want full length for about $700, and clamp-on crossbars if you only carry bikes, boards or a box.",
-  "body": "On a 5th-gen 4Runner, the roof limit in the owner's manual is the number that shapes everything else. A light 3/4 platform like the Front Runner leaves the most of that limit for cargo and keeps the hatch and sunroof clear. The Rough Country gives a full-length deck with published dynamic and static ratings for well under Front Runner prices. The Slimsport is the quiet choice for a daily driver, and Rhino-Rack suits owners who want its accessories. If all you carry is bikes or skis, $100–$150 of crossbars on the factory rails is enough.\n\nIf your platform is really for storage, a cargo box on crossbars keeps gear dry and locked, and a trailer hitch with a cargo carrier takes weight off the roof entirely. Owners of the 2025–2026 4Runner should use our separate guide, because none of these platforms carry over.",
+  "body": "On a 5th-gen 4Runner, the roof limit in the owner's manual is the number that shapes everything else. A light 3/4 platform like the Front Runner leaves the most of that limit for cargo and keeps the hatch and sunroof clear. The Rough Country gives a full-length deck with published dynamic and static ratings for well under Front Runner prices. The Slimsport is the quiet choice for a daily driver, and Rhino-Rack suits owners who want its accessories. If all you carry is bikes or skis, about $90–$150 of crossbars on the factory rails is enough.\n\nIf your platform is really for storage, a cargo box on crossbars keeps gear dry and locked, and a trailer hitch with a cargo carrier takes weight off the roof entirely. Owners of the 2025–2026 4Runner should use our separate guide, because none of these platforms carry over.",
  },
  "sources": [
   ["Front Runner Slimline II 3/4 kit KRTF050T (4Runner Lifestyle)", "https://www.4runnerlifestyle.com/products/front-runner-4runner-2010-present-3-4-slimeline-ii-roof-rack-kit"],
@@ -159,7 +160,10 @@ ARTICLE = {
   ["Front Runner Slimsport KSTF003T (Dometic)", "https://www.dometic.com/en-us/product/toyota-4runner-roofrack-slimsport-kstf003t"],
   ["Rough Country roof rack 88201, 2010–2024 4Runner", "https://www.roughcountry.com/product/toyota-4runner-roof-rack-88201"],
   ["5th Gen 4Runner roof rack collection (Off Road Tents)", "https://offroadtents.com/collections/5th-gen-4runner-roof-rack"],
-  ["Top 5th Gen 4Runner Roof Racks (Trail4Runner)", "https://trail4runner.com/2017/12/04/5th-gen-4runner-roof-racks/"],
+  ["Top 5th Gen 4Runner Roof Racks; the 120 lb figure is in a reader comment citing a 2016 SR5 owner's manual (Trail4Runner)", "https://trail4runner.com/2017/12/04/5th-gen-4runner-roof-racks/"],
+  ["2019 Toyota 4Runner: new TRD roof rack on the TRD Pro only (Toyota Newsroom)", "https://pressroom.toyota.com/2019-toyota-4runner-strengthens-legacy-35-year/"],
+  ["2020 Toyota 4Runner: TRD roof rack exclusive to the TRD Pro (Toyota Newsroom)", "https://pressroom.toyota.com/the-adventurer-toyota-4runner-gains-new-safety-and-multimedia-tech-for-2020/"],
+  ["2021 Toyota 4Runner: Yakima cargo baskets on the Trail and Venture Special Editions (Toyota Newsroom, PDF view)", "https://pressroom.toyota.com/?generate_pdf=64905"],
   ["Toyota 4Runner generations (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
  ],
 }

@@ -2,6 +2,7 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: fit data and specs come from the
 etrailer/Rack Warehouse pages in SOURCES (checked 2026-09-24); Amazon picks are identified by listing title.
 Angle: flush rails with fixed mounting points, fixed crossbar spread, rail-finish kit variants, L vs two-row, 2021 WK2 trap.
+Source fixes 2026-10-04: Wonderdriver copy slip (trucks) fixed; 2026 note now cites Jeep's 2026 FAQ (refresh named grille, fascias and headlamps, not the roof); 4xe row years limited to 2022–2025 because Jeep's 2026 pages do not mention a 4xe.
 """
 
 KEY = ("jeep", "grand-cherokee", "2022-present", "roof-racks")
@@ -56,7 +57,7 @@ ARTICLE = {
   "rows": [
    ["Grand Cherokee (WL)", "2022–2026", "2", "Flush side rails on railed trims", "etrailer data in this guide is for this body; Thule bars 47 in"],
    ["Grand Cherokee L (WL)", "2021–2026", "3", "Flush side rails", "Longer roof; Amazon picks cover it; check brand kits separately"],
-   ["Grand Cherokee 4xe", "2022–2026", "2", "Same body as gas two-row", "No separate listing needed; Trailhawk is 4xe-only from 2023"],
+   ["Grand Cherokee 4xe", "2022–2025; 2026 not confirmed", "2", "Same body as gas two-row", "No separate listing needed; Trailhawk is 4xe-only from 2023; Jeep's 2026 pages don't mention a 4xe"],
    ["Grand Cherokee (WK2)", "2021 two-row", "2", "Previous generation", "Not covered; etrailer fit uses a Thule Podium foot and kit THKIT3142"],
   ],
  },
@@ -99,7 +100,7 @@ ARTICLE = {
   {"asin": "B0C3BVJBJB", "role": "Best overall value", "price": "$100–$150",
    "pros": ["Names both the 2021–2026 Grand Cherokee L and the Grand Cherokee", "Runs through 2026, the newest coverage of the picks", "300 lb printed rating", "Heavy-duty build per the listing", "One listing for two-row and three-row owners"],
    "cons": ["Title range starts at 2021, which for the two-row means the old WK2; buy it for a 2022+ two-row or a 2021+ L", "300 lb is the seller's figure", "Warranty and noise details thin"],
-   "body": "Wonderdriver's set is the easiest recommendation because it covers the most trucks: the title names the Grand Cherokee L and the Grand Cherokee from 2021 through 2026. Printed at 300 lb, it is also one of the two stiffest-rated bars here. For a family that swaps a cargo box, bikes and skis through the year, a heavy-duty clamp-on bar that slides along the flush rail is the flexible choice, because you can set whatever crossbar spread the carrier needs.\n\nRead the year range carefully. \"2021\" is correct for the L, which was WL from launch, but a 2021 two-row Grand Cherokee is the previous WK2 generation with a different roof. Buy this set for a 2022–2026 two-row, a 4xe or any 2021–2026 L. As with every high printed rating, the Grand Cherokee's roof limit in the owner's manual is the real ceiling, and brand-name systems on etrailer are rated at 165 lb.",
+   "body": "Wonderdriver's set is the easiest recommendation because its title covers the widest range: the Grand Cherokee L and the Grand Cherokee from 2021 through 2026. Printed at 300 lb, it also shares the highest printed rating here. For a family that swaps a cargo box, bikes and skis through the year, a heavy-duty clamp-on bar that slides along the flush rail is the flexible choice, because you can set whatever crossbar spread the carrier needs.\n\nRead the year range carefully. \"2021\" is correct for the L, which was WL from launch, but a 2021 two-row Grand Cherokee is the previous WK2 generation with a different roof. Buy this set for a 2022–2026 two-row, a 4xe or any 2021–2026 L. As with every high printed rating, the Grand Cherokee's roof limit in the owner's manual is the real ceiling, and brand-name systems on etrailer are rated at 165 lb.",
    "who": "Two-row (2022+) and L (2021+) owners who want one set of adjustable, heavy-duty bars that covers 2026 too.",
    "specs": [["Type", "Clamp-on crossbars, flush rails"], ["Fits", "2021–2026 Grand Cherokee L, Grand Cherokee (per listing)"], ["Load rating", "300 lb (printed by seller)"], ["Build", "Heavy duty (per listing)"], ["Spread", "Adjustable along the rail"], ["Warranty", "See listing"]]},
   {"asin": "B0DJY2P54T", "role": "Best for wind noise", "price": "$100–$150",
@@ -117,7 +118,7 @@ ARTICLE = {
   {"asin": "B0D3TBG2NW", "role": "Best lockable", "price": "$90–$130",
    "pros": ["Anti-theft lock named in the title", "Names the WL two-row and the L", "220 lb printed rating", "FLYCLE also sells vehicle-specific bars for other SUVs, so parts and support exist", "Low price for locking bars"],
    "cons": ["Listed through 2025; confirm 2026", "Lower printed rating than the two 300 lb sets", "Warranty detail thin"],
-   "body": "FLYCLE's set is the one to buy if the Grand Cherokee sleeps outside and you want the bars locked to the rails. The title calls out an anti-theft lock and names the 2022–2025 Grand Cherokee WL and the 2021–2025 Grand Cherokee L, so the years are right for both bodies. The printed rating is 220 lb, which is still above the 165 lb brand-name systems carry.\n\nThe listing stops at 2025. The WL roof didn't change for 2026 in any fit data we saw, but ask the seller before ordering for a 2026. Locks deter casual theft; they don't stop someone with tools and time. Thule and Yakima sell lock cores separately for their systems, so the FLYCLE set is the cheapest way here to get locks in the box.",
+   "body": "FLYCLE's set is the one to buy if the Grand Cherokee sleeps outside and you want the bars locked to the rails. The title calls out an anti-theft lock and names the 2022–2025 Grand Cherokee WL and the 2021–2025 Grand Cherokee L, so the years are right for both bodies. The printed rating is 220 lb, which is still above the 165 lb brand-name systems carry.\n\nThe listing stops at 2025. Jeep describes the 2026 refresh as a new grille, new fascias and redesigned headlamps and doesn't mention the roof, but ask the seller before ordering for a 2026. Locks deter casual theft; they don't stop someone with tools and time. Thule and Yakima sell lock cores separately for their systems, so the FLYCLE set is the cheapest way here to get locks in the box.",
    "who": "Owners who park outside and want lockable bars that name both the two-row and the L.",
    "specs": [["Type", "Clamp-on crossbars, flush rails"], ["Fits", "2022–2025 Grand Cherokee WL, 2021–2025 Grand Cherokee L (per listing)"], ["Load rating", "220 lb (printed by seller)"], ["Locks", "Anti-theft lock included"], ["2026", "Confirm with seller"], ["Warranty", "See listing"]]},
   {"asin": "B0CW1GPQD1", "role": "Budget flush-rail pick", "price": "$100–$140",
@@ -153,6 +154,8 @@ ARTICLE = {
   ["Thule Evo Flush Rail rack for Grand Cherokee (Rack Warehouse)", "https://www.rackwarehouse.com/products/thule-evo-flush-rail-rack/vehicle/jeep/grand-cherokee/"],
   ["BRIGHTLINES crossbars for 2021–2026 Grand Cherokee L and 2022+ Grand Cherokee (ASG Auto Sports on eBay)", "https://www.ebay.com/itm/313982105709"],
   ["Jeep Grand Cherokee (WL): model years, L, 4xe, trims (Wikipedia)", "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WL)"],
+  ["2026 Jeep Grand Cherokee FAQ: 2026 refresh (Jeep)", "https://www.jeep.com/grand-cherokee/faq.html"],
+  ["2026 Jeep Grand Cherokee capability: engines listed for 2026 (Jeep)", "https://www.jeep.com/grand-cherokee/capability.html"],
  ],
 }
 

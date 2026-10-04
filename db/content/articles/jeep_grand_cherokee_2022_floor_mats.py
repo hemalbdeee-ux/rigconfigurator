@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2022–2026 Jeep Grand Cherokee (WL, 2-row).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: removed the unsourced claims that the 4xe battery placement changes the floor; the text now says only that Husky's 95411 listing excludes the 4xe and that the reason is not confirmed.
 """
 
 KEY = ("jeep", "grand-cherokee", "2022-present", "floor-mats")
@@ -14,7 +15,7 @@ FAQ = [
  ("Do Grand Cherokee L liners fit the two-row WL?",
   "No. The Grand Cherokee L is the longer three-row version (2021+) with a different rear floor and third row. Several listings here say 'not L' in the title. Husky sells separate parts for the L, such as its 99181 set. Buy two-row WL listings for the regular Grand Cherokee."),
  ("Why does Husky's set exclude the 4xe?",
-  "Husky's WeatherBeater 95411 is listed for 2022–2025 Grand Cherokee excluding the 4xe plug-in hybrid. The 4xe's battery placement affects the floor. The 3W set and several budget sets on this page list the 4xe. If you have a 4xe, choose one of those."),
+  "Husky's WeatherBeater 95411 is listed for 2022–2025 Grand Cherokee excluding the 4xe plug-in hybrid. The listing doesn't say why, and we could not confirm what differs in the 4xe's floor. The 3W set and several budget sets on this page list the 4xe. If you have a 4xe, choose one of those."),
  ("Do Trailhawk and Summit need different liners?",
   "No. Trims change suspension, seats and trim, not the floor. Powertrain (4xe or gas) and body (WL, L or WK) are what matter."),
  ("Is 3W's set with cargo liner worth it?",
@@ -47,7 +48,7 @@ ARTICLE = {
  "takeaways": [
   "**WL, not WK2 or 2022 WK.** A carryover 2022 WK was sold alongside the new WL.",
   "**Not the L.** The three-row Grand Cherokee L takes different liners.",
-  "**4xe changes the fit.** Husky 95411 excludes it; 3W and budget sets list it.",
+  "**4xe changes which set to buy.** Husky 95411 excludes it; 3W and budget sets list it.",
   "**3W covers cabin and cargo.** Including the 4xe.",
   "**Husky is the documented pick for gas models.** Made in the USA, lifetime crack warranty.",
  ],
@@ -75,7 +76,7 @@ ARTICLE = {
   {"h": "Not the Grand Cherokee L",
    "body": "The Grand Cherokee L is the three-row version, launched for 2021, with a longer body, a different second row and a third row. Its floor liners are different from the two-row WL's. The 3W set and several budget sets here say 'not L' or '5-seat only'. Husky sells L-specific sets, such as the 99181 for L models with second-row buckets. Count your rows before ordering."},
   {"h": "4xe or gas",
-   "body": "The Grand Cherokee 4xe plug-in hybrid changes the floor enough that Husky excludes it from its 95411 set. 3W's set, the generic 5-seat sets and the floor-and-cargo set list the 4xe. If you have a 4xe, check for the charge port on the driver-side front fender and buy a listing that names it."},
+   "body": "Husky excludes the Grand Cherokee 4xe plug-in hybrid from its 95411 set. Husky's listing doesn't give the reason, and we could not confirm what differs in the floor. 3W's set, the generic 5-seat sets and the floor-and-cargo set list the 4xe. If you have a 4xe, check for the charge port on the driver-side front fender and buy a listing that names it."},
   {"h": "Warranty and material",
    "body": "Husky says WeatherBeater is laser-measured, designed and made in the USA from ProGard, anchored by StayPut nibs and covered by a lifetime warranty against cracks and breaks. 3W's maker is a TPE mat manufacturer in Taizhou, China. Flymotor and the generic sets sell TPE with raised edges and don't publish comparable warranty terms we could check."},
   {"h": "Retention and pedal clearance",

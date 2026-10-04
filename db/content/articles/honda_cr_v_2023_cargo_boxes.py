@@ -4,6 +4,7 @@ Rhino-Rack, Yakima, SportRack and etrailer pages fetched 2026-09-27; vehicle fac
 (bare roof, hybrid shares fit, 1.25 in hitch) plus etrailer's CR-V roof-type listing and Honda accessory-rail parts pages.
 Boxes are universal; the CR-V-specific part is the bare roof (clamp kits) vs Honda's accessory rails (165 lb total),
 fixed clamp spread, and a compact roof in front of the liftgate.
+Source fixes 2026-10-04: roof statements now follow Honda's 2023 and 2026 specification tables (black roof rails standard on the hybrid trims, none on LX, EX and EX-L), so the hybrid FAQ, takeaways, fit_table and look_for no longer say hybrids share the bare-roof setup; the hitch-carrier FAQ and verdict no longer call the CR-V hitch 1.25 in (the aftermarket hitches in the hitch guide are 2 in; Honda rates towing at 1,500 lb gas and 1,000 lb hybrid); the reference to a CR-V roof rack page that does not exist was removed.
 """
 
 KEY = ("honda", "cr-v", "2023-present", "cargo-boxes")
@@ -14,7 +15,7 @@ META = ("Five Thule, Rhino-Rack, INNO, Yakima and SportRack boxes plus bare-roof
 
 FAQ = [
  ("Does the 2023–2026 Honda CR-V have roof rails?",
-  "Not from the factory on most CR-Vs. Our fitment data lists the sixth-generation CR-V with a bare roof, and etrailer's fit guide splits the 2023 CR-V into two roof types: no rails or crossbars, and flush rails that run front to back. The rails are a Honda accessory (part 08L02-3A0-100, listed for 2023–2027) that some owners and dealers add. Look at your roof: a smooth roof needs a clamp kit, and rails need a flush-rail kit."),
+  "It depends on the trim. Honda's 2023 and 2026 specifications list black roof rails as standard on the hybrid trims (Sport, TrailSport, Sport-L and Sport Touring) and none on the gas LX, EX and EX-L. We did not read Honda's 2024 or 2025 tables. etrailer's fit guide splits the 2023 CR-V into two roof types: no rails or crossbars, and flush rails that run front to back. Honda also sells accessory rails (part 08L02-3A0-100, listed for 2023–2027) for a CR-V without them. Look at your roof: a smooth roof needs a clamp kit, and rails need a flush-rail kit."),
  ("How much weight can a CR-V roof box carry?",
   "Honda's accessory roof rails are marked 165 lb total capacity, and that total covers the crossbars, the box and everything inside it. On a bare roof, use the lower of your owner's manual figure and the clamp kit's rating. The boxes on this page weigh 31 lb (Thule Pulse 2 M) to 47 lb (SkyBox 16), so after a set of bars a CR-V typically has roughly 100 to 120 lb left for gear. Soft bags, yes; a full cooler, no."),
  ("What crossbars do I need for a bare-roof CR-V?",
@@ -24,7 +25,7 @@ FAQ = [
  ("Will a roof box hit the CR-V liftgate?",
   "A long box mounted too far back can. Mount the box as far forward as the windshield allows, then open the liftgate slowly the first time and watch the gap at the tail of the box. Thule publishes a front-clearance figure for each box, more than 44 13/16 in for the Pulse 2 M, so you can measure your CR-V before buying. If your trim has a power liftgate with a height setting, a lower opening height adds margin."),
  ("Does a roof box fit the CR-V Hybrid?",
-  "Yes. Our fitment data notes that the Sport, Sport-L and Sport Touring hybrids share the roof fit with the gas CR-V, so the same crossbars and boxes apply. The trade-off is efficiency: any roof box adds drag, which shows up as lower mpg on a gas or hybrid CR-V. Take the box off between trips if you don't need it."),
+  "Yes. A box clamps to crossbars, so every box here fits once the bars are on. The bars are what differ: Honda's 2023 and 2026 specifications list black roof rails on the hybrid trims, so a hybrid takes a kit made for rails, not the door-clamp kit a bare-roof gas CR-V needs. Look at your roof and confirm the kit in the maker's fit guide. The trade-off is efficiency: any roof box adds drag, which shows up as lower mpg on a gas or hybrid CR-V. Take the box off between trips if you don't need it."),
  ("Can I use the cheaper budget boxes with a door-clamp kit?",
   "Check the spread before you buy. Clamp kits on a bare roof sit at fixed points on the door openings, so the distance between the bars is set by the kit, not by you. Boxes with a wide range, such as the Rhino-Rack MasterFit 440L (620–930 mm, about 24.4 to 36.6 in) or the Yakima SkyBox 16 (24–34.5 in), are easier to match. The SportRack Vista XL mounts only at 25-7/8, 27-7/8 or 29-7/8 in, so confirm your kit lands on one of those."),
  ("Are the Honda accessory roof rails worth adding?",
@@ -32,7 +33,7 @@ FAQ = [
  ("Can I carry skis in a roof box on a CR-V?",
   "Yes, if the box is long enough. Yakima rates the SkyBox 16 for skis and boards up to 185 cm, while the short Thule Pulse 2 M takes skis up to 155 cm. Longer skis mean a longer box, and on a compact roof that's exactly where liftgate clearance gets tight, so measure before you choose a ski box."),
  ("Is a roof box or a hitch cargo carrier better on a CR-V?",
-  "Our fitment data lists a 1.25 in receiver and a 1,500 lb tow rating on the sixth-gen CR-V, which limits hitch carriers to lighter, smaller platforms. A roof box keeps the rear camera and liftgate clear, locks, and keeps gear dry, but it costs roof weight and mpg. For soft bags and skis, go roof; for a small cooler or bins, a 1.25 in hitch carrier within its tongue-weight limit works."),
+  "Honda rates the sixth-gen CR-V at 1,500 lb of towing on gas trims and 1,000 lb on hybrids, and we could not confirm that any CR-V ships with a receiver, so a hitch carrier usually means adding a hitch first. The aftermarket hitches in the CR-V hitch guide have a 2 in receiver. A roof box keeps the rear camera and liftgate clear, locks, and keeps gear dry, but it costs roof weight and mpg. For soft bags and skis, go roof; for a small cooler or bins, a hitch carrier within the tongue-weight limit in your owner's manual works."),
 ]
 
 ARTICLE = {
@@ -41,11 +42,11 @@ ARTICLE = {
  "reviewed": "2026-09-27",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Thule, Rhino-Rack, Yakima and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, ski length, front clearance), on etrailer's figures for the INNO and SportRack boxes and its CR-V roof-type guide, on Honda accessory-rail parts listings, and on how those specs fit the CR-V's bare roof and liftgate. Prices were checked on the makers' stores, REI and etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Most CR-Vs have a bare roof.** You need a door-clamp crossbar kit listed for the 2023+ CR-V, or Honda's accessory rails plus flush-rail bars. Racks for the 2017–2022 CR-V don't carry over.",
+  "**Gas trims have a bare roof; hybrids have rails.** Honda's 2023 and 2026 tables list black roof rails on the hybrid trims only. A bare roof needs a door-clamp crossbar kit listed for the 2023+ CR-V, or Honda's accessory rails plus flush-rail bars; a roof with rails needs a kit made for them. Racks for the 2017–2022 CR-V don't carry over.",
   "**Clamp kits fix the spread.** Bars on a bare roof sit where the kit puts them, so pick a box with a wide spread range. The SportRack Vista XL's fixed positions need checking.",
   "**Short boxes suit the short roof.** The Thule Pulse 2 M is 68.9 in and the Vista XL 63 in; an 81 in SkyBox 16 needs a careful liftgate check.",
   "**165 lb total on Honda's rails.** The rails are marked 165 lb total capacity. Bars, box and gear all count, so a 31–47 lb box leaves roughly 100–120 lb for cargo.",
-  "**Hybrid shares the fit.** Sport, Sport-L and Sport Touring hybrids use the same roof setups as the gas CR-V.",
+  "**Hybrids take the same boxes, not always the same bars.** Sport, TrailSport, Sport-L and Sport Touring hybrids have black roof rails in Honda's 2023 and 2026 tables, so check the roof before buying bars.",
  ],
  "top_picks": [
   {"asin": "B0G8C5LHQ5", "role": "Best overall", "why": "Thule Pulse 2 M: 68.9 in, 31 lb, 165 lb rating, 14 cu ft"},
@@ -58,16 +59,16 @@ ARTICLE = {
   "caption": "2023–2026 CR-V roof setups (what you need before any box goes on)",
   "head": ["Roof", "How to tell", "Crossbars needed", "Box notes"],
   "rows": [
-   ["Bare roof (most CR-Vs)", "Smooth roof, no rails", "Door-clamp kit listed for 2023+ CR-V (Yakima BaseLine, Thule WingBar Evo, INNO, budget bars)", "Fixed spread; pick a box with a wide range"],
+   ["Bare roof (gas LX, EX and EX-L in Honda's 2023 and 2026 tables)", "Smooth roof, no rails", "Door-clamp kit listed for 2023+ CR-V (Yakima BaseLine, Thule WingBar Evo, INNO, budget bars)", "Fixed spread; pick a box with a wide range"],
    ["Honda accessory rails (08L02-3A0-100)", "Low-profile rails front to back", "Flush-rail kit (Yakima SightLine, Thule WingBar Evo flush) or Honda crossbars", "Bars slide to suit the box"],
-   ["Gas and Hybrid", "Sport, Sport-L, Sport Touring hybrids", "Same as gas CR-V", "Same boxes"],
+   ["Hybrid trims", "Sport, TrailSport, Sport-L, Sport Touring: black roof rails in Honda's 2023 and 2026 tables", "A kit made for rails; confirm the rail profile in the maker's fit guide", "Same boxes"],
    ["2017–2022 CR-V racks", "Previous generation", "Do not fit the 2023+", "Boxes carry over; bars don't"],
    ["All 2023–2026", "Honda rails marked 165 lb total", "Weigh the bars", "Bars + box + gear under the lower of manual and kit ratings"],
   ],
  },
  "look_for": [
   {"h": "Bare roof or Honda accessory rails",
-   "body": "The sixth-gen CR-V comes with a bare roof in our fitment data, and etrailer's fit guide splits the 2023 CR-V into two roof types: no rails at all, or flush rails that run front to back. Those rails are Honda's accessory rails, part 08L02-3A0-100, listed for 2023–2027. On a bare roof you need a kit whose feet clamp into the door openings, such as the Yakima BaseLine, Thule WingBar Evo or INNO kits etrailer lists. With the rails fitted, a flush-rail kit or Honda's own crossbars go on instead. Every box here clamps to either once bars are on. Racks for the 2017–2022 CR-V don't carry over."},
+   "body": "Honda's 2023 and 2026 specifications list no roof rails on the gas LX, EX and EX-L and black roof rails on the hybrid trims, and etrailer's fit guide splits the 2023 CR-V into two roof types: no rails at all, or flush rails that run front to back. Honda also sells accessory rails, part 08L02-3A0-100, listed for 2023–2027. On a bare roof you need a kit whose feet clamp into the door openings, such as the Yakima BaseLine, Thule WingBar Evo or INNO kits etrailer lists. With the rails fitted, a flush-rail kit or Honda's own crossbars go on instead. Every box here clamps to either once bars are on. Racks for the 2017–2022 CR-V don't carry over."},
   {"h": "The 165 lb total and the box's own weight",
    "body": "Honda marks its accessory roof rails at 165 lb total capacity, which covers everything above them: crossbars, box and gear. On a bare roof, the working limit is the lower of your owner's manual figure and the clamp kit's rating, so check both. Budget bar listings often quote 220 lb or more, but those are bar claims, not the roof's limit. The boxes here weigh 31 lb (Thule Pulse 2 M), 38.6 lb (MasterFit 440L), 44 lb (INNO Wedge Plus) and 47 lb (SkyBox 16). After the bars, a CR-V has roughly 100 to 120 lb left for cargo."},
   {"h": "Fixed spread on door-clamp kits",
@@ -133,7 +134,7 @@ ARTICLE = {
   {"asin": "B0CRR2R73W", "role": "Budget crossbars", "price": "Confirm on listing",
    "pros": ["Listing names the 2023–2026 CR-V EX, LX and EX-L", "Aluminum bars with anti-theft locks", "Far cheaper than a Yakima or Thule clamp kit", "Needed before any box goes on", "Black finish to match the roof"],
    "cons": ["The 330 lb figure in the title is a bar claim, not the roof limit", "No maker spec sheet for spread or bar weight; confirm", "Confirm it's the bare-roof version for your car"],
-   "body": "A box needs crossbars, and on most CR-Vs that means a kit for a bare roof. The Wonderdriver bars are the budget option: the listing names the 2023–2026 CR-V EX, LX and EX-L, and describes heavy-duty aluminum bars with anti-theft locks. For a brand-name kit, etrailer lists the Yakima BaseLine with JetStream bars at $694.80, the Thule WingBar Evo at $704.85 and a steel INNO Square Bar kit at $468.34 for the bare-roof 2023 CR-V, and flush-rail versions for CR-Vs with Honda's accessory rails.\n\nTreat the listing's numbers with care. The 330 lb figure in the title is what the seller claims for the bars; the roof's limit is what counts, and Honda marks its accessory rails at 165 lb total. Use the lower of your owner's manual figure and the bar rating, and count the bars, box and gear against it. There is no maker spec sheet, so confirm the bar weight, the bar length and the spread the feet produce on your CR-V before choosing a box, and confirm on the listing that it's the version for your roof.",
+   "body": "A box needs crossbars, and on a gas CR-V that means a kit for a bare roof. The Wonderdriver bars are the budget option: the listing names the 2023–2026 CR-V EX, LX and EX-L, and describes heavy-duty aluminum bars with anti-theft locks. For a brand-name kit, etrailer lists the Yakima BaseLine with JetStream bars at $694.80, the Thule WingBar Evo at $704.85 and a steel INNO Square Bar kit at $468.34 for the bare-roof 2023 CR-V, and flush-rail versions for CR-Vs with Honda's accessory rails.\n\nTreat the listing's numbers with care. The 330 lb figure in the title is what the seller claims for the bars; the roof's limit is what counts, and Honda marks its accessory rails at 165 lb total. Use the lower of your owner's manual figure and the bar rating, and count the bars, box and gear against it. There is no maker spec sheet, so confirm the bar weight, the bar length and the spread the feet produce on your CR-V before choosing a box, and confirm on the listing that it's the version for your roof.",
    "who": "Bare-roof CR-V owners who need bars first and want to spend less than a Yakima or Thule kit.",
    "specs": [["Fits (per listing)", "2023–2026 CR-V EX, LX, EX-L"], ["Material", "Aluminum"], ["Lock", "Anti-theft"], ["Listed load", "330 lb (bar claim)"], ["Honda rail rating", "165 lb total (accessory rails)"], ["Spread / bar weight", "Not published; confirm"]]},
  ],
@@ -153,9 +154,11 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Fit a crossbar kit for your CR-V's roof, then choose the Thule Pulse 2 M for the shortest, lightest box, the Rhino-Rack MasterFit 440L for more space, or the SportRack Vista XL on a budget.",
-  "body": "On the sixth-gen CR-V, the roof sets the rules: most cars have a bare roof that takes a door-clamp kit with a fixed spread, and Honda's accessory rails are marked 165 lb total. The Thule Pulse 2 M fits that best, with 14 cu ft in a 68.9 in shell at 31 lb. The Rhino-Rack MasterFit 440L adds space and has one of the widest spread ranges here, which suits fixed clamp kits. The SportRack Vista XL gives 18 cu ft for $449.95 if your bars land on one of its three positions, the SkyBox 16 is the ski box if you mount it well forward, and the INNO Wedge Plus is the low-drag option for a hybrid that keeps its box on.\n\nStart with the bars; our CR-V roof rack page lists clamp kits for the bare roof and flush-rail kits for Honda's accessory rails. For a cooler or bins, the CR-V's 1.25 in trailer hitch takes a small hitch cargo carrier within its tongue-weight limit. The vehicle hub lists every fit-checked accessory for your CR-V.",
+  "body": "On the sixth-gen CR-V, the roof sets the rules: gas trims have a bare roof that takes a door-clamp kit with a fixed spread, hybrid trims have rails in Honda's tables, and Honda's accessory rails are marked 165 lb total. The Thule Pulse 2 M fits that best, with 14 cu ft in a 68.9 in shell at 31 lb. The Rhino-Rack MasterFit 440L adds space and has one of the widest spread ranges here, which suits fixed clamp kits. The SportRack Vista XL gives 18 cu ft for $449.95 if your bars land on one of its three positions, the SkyBox 16 is the ski box if you mount it well forward, and the INNO Wedge Plus is the low-drag option for a hybrid that keeps its box on.\n\nStart with the bars: a clamp kit for a bare roof or a kit made for rails, confirmed in the maker's fit guide. For a cooler or bins, a trailer hitch takes a small hitch cargo carrier within the tongue-weight limit in your owner's manual. The vehicle hub lists every fit-checked accessory for your CR-V.",
  },
  "sources": [
+  ["2026 Honda CR-V Specifications & Features: roof rails and towing by trim (Honda Newsroom)", "https://hondanews.com/en-US/honda-automobiles/releases/release-2ecca7d29f72bf212c56033cca000993-2026-honda-cr-v-specifications-features-updated"],
+  ["2023 Honda CR-V Specifications & Features: roof rails and towing by trim (Honda Newsroom)", "https://hondanews.com/en-US/honda-automobiles/releases/release-74895511bca6e7abc42504d7581990ac-2023-honda-cr-v-specifications-features"],
   ["2023 Honda CR-V roof types and crossbar kits (etrailer)", "https://www.etrailer.com/roof-2023_honda_cr-v.htm"],
   ["Honda CR-V accessory roof rails 08L02-3A0-100, 165 lb total (Bernardi Parts)", "https://www.bernardiparts.com/Products/Honda-Roof-Rails-(CRV-2023-2026)__08L02-3A0-100.aspx"],
   ["Thule Pulse 2 M (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-pulse-2-m-_-610250"],

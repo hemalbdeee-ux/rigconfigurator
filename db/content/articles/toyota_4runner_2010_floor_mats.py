@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2010–2024 Toyota 4Runner (5th gen, N280).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: the sliding cargo deck now carries Toyota's 440 lb figure (2017 and 2020 releases, added to sources) and is no longer tied to the Limited; "Trail Edition" corrected to the Trail grade, renamed TRD Off-Road for 2017; third row attributed to Toyota (SR5 and Limited); the dek's $60 cargo mat now matches the $50–$80 band in FITS; the Wikipedia source now points to the Toyota 4Runner article, because the (fifth_generation) URL could not be opened.
 """
 
 KEY = ("toyota", "4runner", "2010-2024", "floor-mats")
@@ -12,7 +13,7 @@ FAQ = [
  ("Why do many 4Runner liners start at 2013 instead of 2010?",
   "Husky's WeatherBeater 99571 and TuxMat's set are both listed for 2013–2024, not 2010–2024. The 5th gen launched for 2010, and liner makers treat the early trucks separately, likely because of a change to the floor or retention hooks. We can't confirm the exact reason from the listings. If you have a 2010–2012, buy a set that names your year or confirm with the seller."),
  ("What is the sliding cargo deck and why does it matter?",
-  "Some 4Runners, especially Limited trims, have a sliding rear cargo deck that pulls out over the bumper and holds up to a stated load. It changes the cargo floor, so cargo liners are cut differently. Husky's 25722 cargo liner is for trucks with the standard cargo area and without the third row or sliding deck. The budget floor-plus-cargo set on this page also excludes the sliding deck."),
+  "Some 4Runners have a sliding rear cargo deck. Toyota's 2017 and 2020 releases describe it as an available pull-out cargo deck that can carry up to 440 lb. It changes the cargo floor, so cargo liners are cut differently. Husky's 25722 cargo liner is for trucks with the standard cargo area and without the third row or sliding deck. The budget floor-plus-cargo set on this page also excludes the sliding deck."),
  ("Do third-row 4Runners need different liners?",
   "The first and second row liners are the same, but the cargo liner differs, because the third-row seat folds into the cargo floor. Husky sells the 25741 cargo liner for trucks with the third-row option. Some sets also list '5-seat' only, like TuxMat and the budget set here, so a 7-seat owner should check before ordering a full kit."),
  ("Do 4Runner liners fit the Lexus GX460?",
@@ -27,12 +28,12 @@ FAQ = [
   "Flat on the carpet, hooked onto Toyota's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
  ("How do I clean liners after trail use?",
   "Pull them, knock off dried mud, then rinse and scrub with mild soap. Let them dry before reinstalling. Skip silicone protectants. For sand, shake and vacuum; sand trapped under a liner abrades the carpet."),
- ("Do TRD Pro and Trail Edition 4Runners take different liners?",
-  "No. TRD Pro, TRD Off-Road, Trail, SR5 and Limited share the cabin floor within a model-year range. What changes is the cargo floor: Limited trucks more often have the sliding cargo deck, and SR5 and Limited could be ordered with the third row. Buy cabin liners by year and cargo liners by cargo floor type, not by trim name."),
+ ("Do TRD Pro and Trail 4Runners take different liners?",
+  "No. TRD Pro, TRD Off-Road, Trail, SR5 and Limited share the cabin floor within a model-year range. Trail was Toyota's grade name until the 2017 model year, when the Trail and Trail Premium became the TRD Off-Road and TRD Off-Road Premium. What changes is the cargo floor: the pull-out cargo deck was an available option, and Toyota's releases list the third row as available on SR5 and Limited. Buy cabin liners by year and cargo liners by cargo floor type, not by trim name."),
 ]
 
 ARTICLE = {
- "dek": "Six picks for the 5th-generation 4Runner's cabin and cargo area, from Husky WeatherBeater and TuxMat to Toyota's TRD Pro liners and a $60 cargo mat. Most sets start at 2013, and the cargo floor splits three ways, so check your year and your cargo area before ordering.",
+ "dek": "Six picks for the 5th-generation 4Runner's cabin and cargo area, from Husky WeatherBeater and TuxMat to Toyota's TRD Pro liners and a cargo mat at about $50–$80. Most sets start at 2013, and the cargo floor splits three ways, so check your year and your cargo area before ordering.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2010–2024 4Runner (year range, seating, cargo floor), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and TuxMat claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
@@ -151,7 +152,9 @@ ARTICLE = {
   ["Husky Liners 25722 cargo liner listing", "https://www.amazon.com/dp/B003G0QJWE"],
   ["Husky Liners 25741 third-row cargo liner listing", "https://www.amazon.com/dp/B003R8D60I"],
   ["TuxMat home page (TuxMat)", "https://tuxmat.com/"],
-  ["Toyota 4Runner, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner_(fifth_generation)"],
+  ["Toyota 4Runner, fifth generation section (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
+  ["2017 Toyota 4Runner: pull-out cargo deck up to 440 lb, third row on SR5 and Limited, Trail renamed TRD Off-Road (Toyota Newsroom)", "https://pressroom.toyota.com/2017-toyota-4runner-everday-suv-explore-where-when-you-want/"],
+  ["2020 Toyota 4Runner: pull-out cargo deck up to 440 lb, third row on SR5 and Limited (Toyota Newsroom)", "https://pressroom.toyota.com/the-adventurer-toyota-4runner-gains-new-safety-and-multimedia-tech-for-2020/"],
  ],
 }
 

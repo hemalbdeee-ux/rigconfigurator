@@ -32,6 +32,7 @@ chairs; fit of concealed hitches behind the 2026 fascia beyond the makers' own 2
 2026 cabin; Thule Force 3 L crossbar spread; SportRack Vista XL weight and load rating; ratings of the budget
 hitches; and 2025–2026 fit of listings whose titles stop at 2024 or 2025. No Grand Cherokee guide exists for
 running boards or lighting; neither is ranked. Amazon URLs in the guides' source lists are not repeated here.
+Source fixes 2026-10-04: tow table V8 row now says Wikipedia's 2023 remark is about the two-row, matching the corrected hitch guide.
 """
 
 KIND = "upgrades"
@@ -245,7 +246,7 @@ ARTICLE = {
              "rows": [
               ["3.6L V6", "6,200 lb", "Our vehicle data (this generation), the dealer guide (2025), Stellantis' fact sheet (2025), Jeep's page (2026)"],
               ["2.0L Hurricane 4 Turbo (2026)", "6,200 lb", "Jeep's capability page (2026)"],
-              ["5.7L V8, where offered", "7,200 lb", "The dealer guide (2024 and earlier); Wikipedia lists 7,200 lb and says 2023 models no longer offered the V8"],
+              ["5.7L V8, where offered", "7,200 lb", "The dealer guide (2024 and earlier); Wikipedia lists 7,200 lb and says 2023 two-row models no longer offered the V8"],
               ["4xe, Trailhawk and higher trims", "6,000 lb", "The dealer guide (2025); Wikipedia gives 6,000 lb for the 4xe"],
               ["4xe, base trims", "3,500 lb", "The dealer guide (2025) only"],
              ]}},

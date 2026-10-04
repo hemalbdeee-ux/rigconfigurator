@@ -60,12 +60,18 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
   const ready = cats.filter(c => published.has(c.slug) && byCat(c.slug).length > 0);
   const planned = cats.filter(c => !ready.includes(c));
 
+  // Optional attrs.hitch_fact / tow_fact / roof_fact replace the generated fact text for vehicles where it would mislead.
+  const fact = (key: string, fallback: string | null): string | null => {
+    const o = v.attrs?.[key];
+    if (typeof o !== "string") return fallback;
+    return o.charAt(0).toUpperCase() + o.slice(1);
+  };
   const facts: [string, string | null][] = [
     ["Generation", v.gen_name], ["Years", v.year_to ? yearsLabel(v) : `${v.year_from}–present (current generation)`], ["Body", v.body_style.toUpperCase()],
     ["Bed lengths", v.bed_lengths_in?.length ? v.bed_lengths_in.map(b => `${b} in (${(b / 12).toFixed(1)} ft)`).join(", ") : null],
-    ["Roof type", v.roof_type], ["Roof load", v.roof_load_lb ? `${v.roof_load_lb} lb dynamic` : null],
-    ["Hitch class", v.hitch_class && v.hitch_class !== "none" ? `Class ${v.hitch_class} (${v.receiver_in} in receiver)` : "No factory receiver"],
-    ["Tow rating", v.tow_rating_lb ? `${v.tow_rating_lb.toLocaleString()} lb (max, tow package)` : null],
+    ["Roof type", fact("roof_type_fact", v.roof_type)], ["Roof load", fact("roof_fact", v.roof_load_lb ? `${v.roof_load_lb} lb dynamic` : null)],
+    ["Hitch", fact("hitch_fact", v.hitch_class && v.hitch_class !== "none" ? `Class ${v.hitch_class} (${v.receiver_in} in receiver)` : "No factory receiver")],
+    ["Tow rating", fact("tow_fact", v.tow_rating_lb ? `${v.tow_rating_lb.toLocaleString()} lb (max, tow package)` : null)],
     ["Tire size", v.tire_size], ["Bolt pattern", v.bolt_pattern], ["Seating rows", String(v.rows_seating)],
   ];
   const checks = checkBeforeBuying(v);

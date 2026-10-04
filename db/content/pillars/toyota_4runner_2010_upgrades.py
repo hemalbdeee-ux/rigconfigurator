@@ -30,6 +30,7 @@ releases call the receiver and wiring harness standard; vehicle data says the ba
 TRD Pro, the guides say "some TRD Pro years and special editions"; vehicle data and the roof and cargo guides credit
 the 120 lb figure to Trail4Runner, where it is a reader comment; the three guides cite three different Wikipedia
 URLs, and only the (N280) one was opened.
+Source fixes 2026-10-04: TRD Pro roof statements now follow Toyota's 2019, 2020 and 2021 releases (TRD roof rack new for 2019 and exclusive to the TRD Pro; Yakima baskets on the Trail and Venture Special Editions in the 2021 release; 2022–2024 not confirmed); the 120 lb FAQ names the Trail4Runner reader comment; etrailer's 24–42 in spread and 57 in hatch figure are tied to the Yakima SkyBox 12; the Cali Raised roof kit maker-page price is given as about $525–$545 by option; the Squadron Sport street-use line now says the retailer page makes no SAE or DOT claim; the guide-level conflicts listed above were corrected in the four guides the same day.
 """
 
 KIND = "upgrades"
@@ -53,7 +54,7 @@ FAQ = [
   "year, so look under the rear bumper. If a receiver is there, an aftermarket trailer hitch adds nothing, and no "
   "hitch raises Toyota's rating."),
  ("How much weight can a 5th-gen 4Runner roof carry with a cargo box?",
-  "Our vehicle data lists 120 lb. The figure is quoted on Trail4Runner from the owner's manual of a 2016 SR5, and we "
+  "Our vehicle data lists 120 lb. A reader comment on Trail4Runner cites it from the owner's manual of a 2016 SR5, and we "
   "could not confirm it from a Toyota document, so read the manual for your own year. The guides treat it as a "
   "driving limit that covers the crossbars or platform, the box and the gear inside. A 36 lb Thule Pulse L leaves 84 "
   "lb before the bars, which the cargo box guide turns into roughly 60 to 75 lb of gear."),
@@ -74,9 +75,9 @@ FAQ = [
   "Runner's Slimsport is KSTF003T against KSTF004T. Husky sells a separate 96531 liner set for the 2025 model. A "
   "cargo box does move across, because it clamps to crossbars. For lights, our guide says very little carries over."),
  ("Does a 4Runner TRD Pro need different parts?",
-  "On the roof and possibly at the grille. Our roof rack guide records a factory basket-style rack in place of the "
-  "raised rails on some TRD Pro years, and Toyota's 2020 release calls the TRD roof rack exclusive to that grade. "
-  "Clamp-on crossbars won't grip a basket, and box clamps aren't made for basket tubing. Our lighting guide notes a "
+  "On the roof and possibly at the grille. Toyota's 2019 release introduced a TRD roof rack found only on the TRD "
+  "Pro, and its 2020 and 2021 releases call the rack exclusive to that grade. We could not confirm 2022–2024. "
+  "Clamp-on crossbars won't grip a rack or basket, and box clamps aren't made for basket tubing. Our lighting guide notes a "
   "unique TRD Pro grille and doesn't record whether Cali Raised's hidden grille brackets suit it, so ask. The cabin "
   "floor is shared with the other trims."),
  ("My 4Runner has the third row or the sliding cargo deck. What changes?",
@@ -88,7 +89,7 @@ FAQ = [
   "Usually only off-road, and it depends on your state. Our lighting guide says many states treat light bars and "
   "auxiliary lights with off-road beams as equipment that must be switched off on public roads, and that some also "
   "require an opaque cover or limit how many auxiliary lamps you run and how high they sit. Replacement fog lights "
-  "are the easiest to keep street-friendly, though the Squadron Sport kit is an off-road light. This is not legal "
+  "are the easiest to keep street-friendly, though the retailer page for the Squadron Sport kit makes no SAE or DOT claim. This is not legal "
   "advice. Check your own state's vehicle code."),
  ("How much does it cost to add all four upgrades to a 4Runner?",
   "From the prices on our four guides' picks, a budget build runs about $715–$795: a floor-plus-cargo liner kit, "
@@ -115,7 +116,7 @@ ARTICLE = {
  "takeaways": [
   "**Read the model year first.** Most cabin liner sets start at 2013, hidden grille light brackets start at 2014, and the 2020–2024 radar limits a grille mount to one bar.",
   "**Count the seats and look at the cargo floor.** A standard floor, a sliding deck and a third row each take a different cargo liner.",
-  "**Look up before buying anything for the roof.** Most trims have raised rails with crossbars. Some TRD Pro years and special editions have a basket instead.",
+  "**Look up before buying anything for the roof.** Most trims have raised rails with crossbars. The TRD Pro got a TRD roof rack for 2019, and the Trail and Venture Special Editions carry a Yakima basket.",
   "**The roof figure is 120 lb, and everything counts.** Bars or platform, box and gear share it. Confirm the figure in your owner's manual.",
   "**Look under the bumper before shopping for a hitch.** Toyota's 2013, 2017 and 2020 releases list a tow-hitch receiver and wiring harness as standard.",
  ],
@@ -135,8 +136,8 @@ ARTICLE = {
   {"category": "roof-racks",
    "h": "2. Roof rack second: look up before you spend anything",
    "why": "The roof ranks second because it is the base for the cargo box in slot three, and because the first step "
-          "costs nothing. Our roof rack guide finds raised side rails with factory crossbars on most trims and a "
-          "factory basket on some TRD Pro years and special editions. If the rails are there and the bars are gone, "
+          "costs nothing. Our roof rack guide finds raised side rails with factory crossbars on most trims, a TRD roof "
+          "rack on the TRD Pro from 2019 and a Yakima basket on the Trail and Venture Special Editions. If the rails are there and the bars are gone, "
           "clamp-on crossbars cost about $90–$130 from InTimesAuto or about $100–$150 from ERKUL with locks. Both are "
           "listed for raised rails only. A platform is the bigger step. It bolts to the roof's factory mounting "
           "points with no drilling, and the factory rails usually come off. Prices run about $700 for Rough Country's "
@@ -167,7 +168,7 @@ ARTICLE = {
           "guide run about $65 for Cali Raised's grille brackets alone, from about $270 for Diode Dynamics' ditch "
           "light kit, from about $346 for Cali Raised's grille kit with a bar, and about $437 for Baja Designs' "
           "Squadron Sport fog pocket kit, which plugs into the factory fog switch. Cali Raised's 52 in roof kit is "
-          "priced on the listing; its own page showed about $545. A roof bar gives the most reach and the most glare. "
+          "priced on the listing; its own page showed about $525–$545 by option. A roof bar gives the most reach and the most glare. "
           "Check your state's rules before switching any of these on.",
    "skip_if": "You don't drive unlit trails or dirt roads at night, where an off-road light is allowed to be on."},
  ],
@@ -224,14 +225,15 @@ ARTICLE = {
            "could not confirm it from a Toyota document, and it may differ by year, so read your own manual. The "
            "guides treat it as a driving limit that covers everything above the roof.\n\n"
            "Start with what the roof has. Our roof rack guide finds raised side rails with factory crossbars on most "
-           "SR5, TRD Off-Road, TRD Sport, Limited and Nightshade models, and a basket-style rack on some TRD Pro "
-           "years and special editions. Toyota's 2020 release calls the TRD roof rack exclusive to the TRD Pro. We "
-           "could not confirm which years have it, so look. Clamp-on crossbars need raised rails, and box clamps are "
+           "SR5, TRD Off-Road, TRD Sport, Limited and Nightshade models. Toyota's 2019 release calls the TRD roof rack "
+           "new and found only on the TRD Pro, and its 2020 and 2021 releases call it exclusive to that grade. The "
+           "2021 release adds Yakima cargo baskets on the Trail and Venture Special Editions. We could not confirm "
+           "the TRD Pro roof for 2022–2024, so look. Clamp-on crossbars need raised rails, and box clamps are "
            "made for crossbars, not basket tubing.\n\n"
-           "Factory bars usually take a box. An etrailer expert answer about a 2015 Limited says a Yakima box fits "
+           "Factory bars usually take a box. An etrailer expert answer about a 2015 Limited says the Yakima SkyBox 12 fits "
            "bars no larger than 3-1/2 in wide by 1-11/16 in tall, spread 24 to 42 in. Each box has its own range, "
            "such as 23-5/8 to 34-3/8 in on the Pulse L and 32 to 46 in on the DeepSpace 10. The same expert gives 57 "
-           "in from the center of the front crossbar to the hatch seam for a Yakima SkyBox 12, so measure both before "
+           "in from the center of the front crossbar to the hatch seam for that SkyBox 12, so measure both before "
            "ordering.",
    "table": {"caption": "What is left of a 120 lb roof figure, using the weights published in our guides",
              "head": ["On the roof", "Published weight", "Left of 120 lb"],
@@ -257,7 +259,7 @@ ARTICLE = {
            "- **Trail and TRD Off-Road.** These are one grade under two names. Toyota's 2017 release says the Trail "
            "and Trail Premium became the TRD Off-Road and TRD Off-Road Premium that year.\n"
            "- **TRD Pro.** Our lighting guide dates it to 2015–2024 and notes its own grille, updated for the radar "
-           "in 2020. Look for the basket rack on the roof, and ask Cali Raised whether its hidden grille brackets "
+           "in 2020. Look for the TRD roof rack on 2019 and later models, and ask Cali Raised whether its hidden grille brackets "
            "suit that grille.\n\n"
            "Our floor liner guide's rule covers all of it: buy cabin liners by model year and cargo liners by cargo "
            "floor, not by trim name."},
@@ -305,6 +307,8 @@ ARTICLE = {
   ["2013 Toyota 4Runner: towing, hitch receiver, sliding rear cargo deck, third row, roof rack (Toyota Newsroom)", "https://pressroom.toyota.com/2013-toyota-4runner-true-suv-capaability/"],
   ["2017 Toyota 4Runner: towing and tongue weight, receiver on all grades, TRD Off-Road name (Toyota Newsroom)", "https://pressroom.toyota.com/2017-toyota-4runner-everday-suv-explore-where-when-you-want/"],
   ["2020 Toyota 4Runner: Toyota Safety Sense P on all grades, towing, TRD Pro roof rack (Toyota Newsroom)", "https://pressroom.toyota.com/the-adventurer-toyota-4runner-gains-new-safety-and-multimedia-tech-for-2020/"],
+  ["2019 Toyota 4Runner: new TRD roof rack on the TRD Pro only (Toyota Newsroom)", "https://pressroom.toyota.com/2019-toyota-4runner-strengthens-legacy-35-year/"],
+  ["2021 Toyota 4Runner: Yakima cargo baskets on the Trail and Venture Special Editions (Toyota Newsroom, PDF view)", "https://pressroom.toyota.com/?generate_pdf=64905"],
   ["Top 5th Gen 4Runner Roof Racks, with the 120 lb owner's manual figure in a reader comment (Trail4Runner)", "https://trail4runner.com/2017/12/04/5th-gen-4runner-roof-racks/"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["TuxMat home page (TuxMat)", "https://tuxmat.com/"],
@@ -315,6 +319,7 @@ ARTICLE = {
   ["Cargo box on 2015 4Runner Limited factory crossbars (etrailer expert answer)", "https://www.etrailer.com/question-239020.html"],
   ["Yakima DeepSpace 10 (Yakima)", "https://yakima.com/collections/roof-boxes/products/deepspace-10"],
   ["32 in Hidden Grille LED Light Bar Brackets Kit, 2014–2024 4Runner (Cali Raised LED)", "https://caliraisedled.com/products/32-hidden-grille-led-light-bar-brackets-kit-for-2014-2024-toyota-4runner"],
+  ["52 in Curved LED Light Bar Roof Brackets Kit, 2003–2024 4Runner (Cali Raised LED)", "https://caliraisedled.com/products/52-curved-led-light-bar-roof-brackets-kit-for-2003-2024-toyota-4runner"],
   ["Baja Designs Squadron Sport Fog Pocket Kit, 4Runner 2010–2024 (4Runner Lifestyle)", "https://www.4runnerlifestyle.com/products/baja-designs-squadron-r-2-0-sport-fog-pocket-light-kit-for-4runner-2010-2024"],
  ],
 }

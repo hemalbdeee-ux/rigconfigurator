@@ -3,6 +3,7 @@ Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on tes
 our vehicle data, Wikipedia and the etrailer fit guide; product facts come from the Amazon listing titles recorded
 in FITS (carried over from fitments_v2) plus the retailer pages in SOURCES (checked 2026-09-24).
 Note: the DB gen slug is "2019-present", but the XA50 ended with MY2025 (6th gen XA60 is MY2026).
+Source fixes 2026-10-04: Adventure / TRD Off-Road / Woodland rail wording limited to what the listings and Toyota say (no unconfirmed rail profile claim); TRD Off-Road years set to 2020-2024; roof load attributed (165 lb working figure, 176.4 lb from RAV4Resource, owner manual is the authority); Hybrid and Prime shared-roof claim replaced with what the titles say; Woodland factory cross bars noted from Toyota.
 """
 
 KEY = ("toyota", "rav4", "2019-present", "roof-racks")
@@ -13,17 +14,17 @@ META = ("Five crossbars for the 5th-gen RAV4, split by rail: standard raised rai
 
 FAQ = [
  ("Which crossbars fit my RAV4 — how do I tell my rail type?",
-  "Look at the roof and the badge. XLE and up (including the Hybrid and Prime versions) carry the standard raised rails, which is what most crossbar listings mean by \"2019–2025 RAV4.\" The Adventure and TRD Off-Road use a different, more rugged rail, and the Autekcomma listing lumps the Woodland in with them. Our vehicle data lists the LE with a bare roof. Match the listing's exclusions to your badge: several bars here say \"not Adventure / TRD Off-Road\" in the title."),
+  "Look at the roof and the badge. Our vehicle data puts standard raised rails on XLE and up, which is what most crossbar listings mean by \"2019–2025 RAV4.\" Listings treat the Adventure and TRD Off-Road rails as a separate fit, and the Autekcomma title excludes the Woodland as well. Our vehicle data lists the LE with a bare roof. Match the listing's exclusions to your badge: several bars here say \"not Adventure / TRD Off-Road\" in the title."),
  ("Do regular RAV4 crossbars fit the Adventure or TRD Off-Road?",
-  "Not the ones sold for standard rails. The Autekcomma, FLYCLE and VEVOR titles all exclude the Adventure and TRD Off-Road, and the Autekcomma also excludes the Woodland and LE. Those trims use a different rail profile, so clamps sized for the standard rail may not close properly. The ROKIOTOEX set is the one here sold specifically for the Adventure and TRD rails."),
+  "Not the ones sold for standard rails. The Autekcomma, FLYCLE and VEVOR titles all exclude the Adventure and TRD Off-Road, and the Autekcomma also excludes the Woodland and LE. The listings don't say what differs, and we could not confirm the rail profile from Toyota, but three sellers exclude those trims, so don't count on a standard-rail clamp fitting. The ROKIOTOEX set is the one here sold specifically for the Adventure and TRD rails."),
  ("What can I put on a RAV4 LE with no rails?",
   "None of the clamp-on bars on this page, because they need raised rails. A bare-roof LE needs a door-jamb clamp system. etrailer lists Thule WingBar Evo for the 2021 RAV4's naked roof at $704.85 and SquareBar Evo at $604.85. The other route is fitting factory-style side rails first, then buying raised-rail bars; ask a Toyota dealer about that. The clamp kits are the simpler route."),
  ("What is the RAV4's roof load limit?",
-  "Our vehicle data lists 165 lb for the 5th-gen RAV4, and some references quote 80 kg (176 lb). Use the figure in your owner's manual and plan around the lower number. That limit covers the crossbars, the accessory and the cargo together while driving. A 260 lb or 160 lb rating on a crossbar listing describes the bar, not what the RAV4's roof can carry."),
+  "RAV4Resource lists 176.4 lb (80 kg) for 2019–2024 models and says the figure is in the owner's manual under Cargo and Luggage. We could not confirm that from a Toyota document, so this page plans around a lower working figure of 165 lb. Your owner's manual is the authority. That limit covers the crossbars, the accessory and the cargo together while driving. A 260 lb or 160 lb rating on a crossbar listing describes the bar, not what the RAV4's roof can carry."),
  ("Can a RAV4 carry a rooftop tent?",
   "Owners fit light tents, but the RAV4 gives you less margin than a truck or a Wilderness Subaru. The tent and bars have to stay under the driving limit, around 165 lb in our data, and Toyota doesn't publish a headline static rating for the rails that we could confirm. Ask the tent maker whether it approves the RAV4, use a strong bar such as the 260 lb Autekcomma, and check your owner's manual before committing."),
  ("Do these crossbars fit the RAV4 Hybrid and Prime?",
-  "Yes, when the trim matches. The Hybrid and Prime (renamed Plug-in Hybrid for 2025) share the body and roof with the gas RAV4 of the same grade. What decides fit is the rail: standard raised rails on XLE, XSE and Limited grades, or the Adventure-style rail on the TRD Off-Road and Woodland. Buy the bars for your rail, not your powertrain."),
+  "Yes, when the rail matches. The crossbar titles here go by rail and trim, not powertrain. None excludes the Hybrid or Prime (renamed Plug-in Hybrid for 2025). What they exclude are the LE, Adventure, TRD Off-Road and, on the Autekcomma, the Woodland. The Woodland Edition is a hybrid-only grade, and Toyota's 2024 release gives it high profile black roof rails with standard cross bars. Buy the bars for your rail, not your powertrain, and ask the seller if your grade isn't named."),
  ("Do 2019–2025 RAV4 crossbars fit a 2026 RAV4?",
   "Don't assume so. The 2026 RAV4 is an all-new sixth generation, revealed in May 2025. Some Amazon listings stretch their year range as models change, so a bar that says \"2019–2026\" may or may not have been checked on the new roof. For a 2026, buy bars that name the 2026 and confirm the rail type with the seller."),
  ("How far apart should RAV4 crossbars be?",
@@ -35,14 +36,14 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "The 5th-generation RAV4 has three roofs: standard raised rails on XLE and up, a different rail on the Adventure, TRD Off-Road and Woodland, and a bare roof on the LE. Here are five crossbar sets matched to the first two, what the LE needs instead, and the load, spread and noise details that decide which set you buy.",
+ "dek": "Crossbar listings split the 5th-generation RAV4 into three roofs: standard raised rails on XLE and up, the Adventure and TRD Off-Road rails that standard-rail listings exclude (one also excludes the Woodland), and a bare roof on the LE. Here are five crossbar sets matched to the first two, what the LE needs instead, and the load, spread and noise details that decide which set you buy.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these crossbars ourselves. We matched each set to the RAV4 rail type named in its Amazon listing title and checked the vehicle facts against our vehicle data, Wikipedia and the etrailer fit guide. Where the only spec source is the Amazon listing, we say so. Retailer prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Rail type decides fit, not year.** Standard raised rails (XLE and up), Adventure/TRD Off-Road rails, and the LE's bare roof each need different crossbars.",
   "**Read the exclusions.** Most budget listings say \"not Adventure / TRD Off-Road\"; one also excludes the LE and Woodland. The ROKIOTOEX set is for the Adventure/TRD rails.",
-  "**The roof limit is modest.** Our data lists 165 lb, including the bars. A 260 lb bar rating doesn't change that.",
+  "**The roof limit is modest.** This page plans around 165 lb, including the bars. RAV4Resource lists 176.4 lb for 2019–2024, and the owner's manual is the authority. A 260 lb bar rating doesn't change that.",
   "**The LE needs a clamp kit.** etrailer prices Thule's naked-roof WingBar Evo for the RAV4 at $704.85.",
   "**2026 is a new generation.** Buy 2026-named bars for a 2026 RAV4.",
  ],
@@ -58,7 +59,7 @@ ARTICLE = {
   "head": ["Roof type", "Trims", "Crossbars on this page", "Notes"],
   "rows": [
    ["Standard raised rails", "XLE, XLE Premium, Limited, XSE (gas, Hybrid, Prime)", "Autekcomma, FLYCLE, VEVOR, generic aluminum", "Most common; titles exclude Adventure/TRD"],
-   ["Adventure-style raised rails", "Adventure (2019–2024), TRD Off-Road; Autekcomma groups Woodland here", "ROKIOTOEX", "Different profile; Adventure and TRD Off-Road dropped for 2025"],
+   ["Adventure / TRD Off-Road raised rails", "Adventure (2019–2024), TRD Off-Road (2020–2024); the Autekcomma title also excludes the Woodland (Hybrid, from 2023)", "ROKIOTOEX", "Listed separately from standard rails; both trims discontinued for 2025 (Wikipedia)"],
    ["Flush rails", "Listed by etrailer for some 2021 RAV4s", "None; use a Thule/Yakima flush-rail kit", "Rails sit tight to the roof with no gap underneath"],
    ["Bare roof", "LE (per our vehicle data)", "None; use a clamp kit", "Thule WingBar Evo naked-roof kit $704.85 at etrailer"],
    ["6th-gen roof", "2026+ (new generation)", "None", "Buy 2026-named parts"],
@@ -66,9 +67,9 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Three roof types, three kinds of bars",
-   "body": "The RAV4 is the trickiest of the popular compact SUVs for crossbars because Toyota fitted different roofs by trim. Standard raised rails on the XLE and up are what most listings are built for. The Adventure and TRD Off-Road use a different rail, and the Autekcomma listing groups the Woodland with them. Our vehicle data lists the LE with a bare roof. etrailer's fit guide also shows a flush-rail configuration for some 2021 RAV4s. Before you shop, look at your roof: a gap under the rail means raised rails; no gap means flush rails; no rail means a clamp kit."},
+   "body": "The RAV4 is the trickiest of the popular compact SUVs for crossbars because Toyota fitted different roofs by trim. Standard raised rails on the XLE and up are what most listings are built for. Listings treat the Adventure and TRD Off-Road rails as a separate fit, and the Autekcomma title also excludes the Woodland. Our vehicle data lists the LE with a bare roof. etrailer's fit guide also shows a flush-rail configuration for some 2021 RAV4s. Before you shop, look at your roof: a gap under the rail means raised rails; no gap means flush rails; no rail means a clamp kit."},
   {"h": "Load limit, including the bars",
-   "body": "Our vehicle data lists a 165 lb roof limit for the 5th-gen RAV4, and some references quote 176 lb (80 kg). Use your owner's manual and plan around the lower figure. That number covers everything above the rails while driving: crossbars, the mount or box, and the cargo. Crossbar listings quote their own ratings, from 160 lb on the VEVOR to 260 lb on the Autekcomma. Those numbers describe bar strength, not what the RAV4 can carry. A stronger bar flexes less; it doesn't lift the roof's limit."},
+   "body": "This page plans around a 165 lb roof limit for the 5th-gen RAV4. RAV4Resource lists 176.4 lb (80 kg) for 2019–2024 models, citing the owner's manual, which we could not confirm from a Toyota document. Your owner's manual is the authority. That number covers everything above the rails while driving: crossbars, the mount or box, and the cargo. Crossbar listings quote their own ratings, from 160 lb on the VEVOR to 260 lb on the Autekcomma. Those numbers describe bar strength, not what the RAV4 can carry. A stronger bar flexes less; it doesn't lift the roof's limit."},
   {"h": "Crossbar spread and the liftgate",
    "body": "Clamp-on bars slide along the raised rail, so you choose the spread. Each box, tent or platform publishes a minimum and maximum spread, and a set of bars is only useful if the rails let you reach it. On the RAV4 the rear limit is set by the rail curving down and by the liftgate, which swings up toward the back of the roof. Set the rear bar forward enough that the open liftgate clears it and anything on it. Measure and mark the spread with tape so you can put the bars back in the same place."},
   {"h": "Noise and the flush-mount option",
@@ -108,13 +109,13 @@ ARTICLE = {
   {"asin": "B07WGHX1K5", "role": "Best for Adventure / TRD Off-Road", "price": "$100–$150",
    "pros": ["Titled for the Adventure and TRD Off-Road factory raised rails", "The only set here for those trims", "Clamp-on, no drilling", "Covers 2019–2024, the full Adventure run", "Lets Adventure owners use standard crossbar accessories"],
    "cons": ["Not for standard rails", "Woodland isn't named in the title; confirm with the seller", "Load rating and locks not in the title"],
-   "body": "The Adventure and TRD Off-Road are the RAV4s most likely to carry gear on the roof, and they're the ones most budget crossbars skip. ROKIOTOEX's set is titled for the 2019–2024 RAV4 Adventure and TRD factory raised rails, which covers the full run of both trims; Toyota dropped the Adventure and TRD Off-Road for 2025. Because the rail profile differs from the standard rail, a set built for it is the safer choice over trying a standard-rail bar and hoping the clamp closes.\n\nThe title doesn't give a bar rating or mention locks, so check both on the listing. The Adventure's 3,500 lb tow rating in our data doesn't change the roof limit either; plan around the same roughly 165 lb driving figure until your owner's manual says otherwise. Woodland owners should confirm fit with the seller: the Autekcomma listing groups the Woodland with the Adventure and TRD rails, but this title doesn't name it.",
+   "body": "The Adventure and TRD Off-Road are the RAV4s most likely to carry gear on the roof, and they're the ones most budget crossbars skip. ROKIOTOEX's set is titled for the 2019–2024 RAV4 Adventure and TRD factory raised rails, which covers the full run of both trims: Wikipedia's RAV4 page says the TRD Off-Road was added for 2020 and both trims were discontinued for 2025. Because standard-rail listings exclude these trims, a set titled for their rails is the safer choice over trying a standard-rail bar and hoping the clamp closes.\n\nThe title doesn't give a bar rating or mention locks, so check both on the listing. The Adventure's 3,500 lb tow rating in our data doesn't change the roof limit either; plan around the same roughly 165 lb driving figure until your owner's manual says otherwise. Woodland owners should confirm fit with the seller: the Autekcomma title excludes the Woodland along with the Adventure and TRD Off-Road, but this title doesn't name it. Toyota's 2024 release lists standard cross bars on the Woodland Edition, so check the roof before buying any.",
    "who": "Adventure and TRD Off-Road owners who need bars made for their rail.",
    "specs": [["Type", "Clamp-on crossbars"], ["Fits", "2019–2024 RAV4 Adventure / TRD Off-Road factory rails"], ["Not for", "Standard raised rails, LE"], ["Woodland", "Confirm with seller"], ["Bar rating", "See listing"], ["Vehicle limit", "About 165 lb (our data; confirm in manual)"], ["Drilling", "None"]]},
   {"asin": "B08LG42HL8", "role": "Best value lockable", "price": "$80–$120",
    "pros": ["Lockable", "Titled for 2019–2025 RAV4", "Excludes Adventure and TRD Off-Road in the title", "Lower price band than the Autekcomma", "Clamp-on, no drilling"],
    "cons": ["Title doesn't mention the LE or Woodland; check your roof", "Load rating not in the title", "Specs and warranty from the listing only"],
-   "body": "FLYCLE's lockable set covers the same standard raised rails as the Autekcomma, usually for a little less. The title names the 2019–2025 RAV4 and excludes the Adventure and TRD Off-Road, so XLE, XLE Premium, XSE and Limited owners are covered. The lock cores mean a thief can't take the bars, and whatever is clamped to them, off with a hex key, which matters for bikes left on the roof at a trailhead.\n\nThe title is less thorough than the Autekcomma's. It doesn't mention the bare-roof LE, which can't take any raised-rail bar, or the Woodland, which the Autekcomma listing groups with the Adventure rails. If you have either, choose a different set. It also doesn't state a bar rating, so read the listing, and keep your total roof load, including about the weight of the bars themselves, under the RAV4's limit.",
+   "body": "FLYCLE's lockable set covers the same standard raised rails as the Autekcomma, usually for a little less. The title names the 2019–2025 RAV4 and excludes the Adventure and TRD Off-Road, so XLE, XLE Premium, XSE and Limited owners are covered. The lock cores mean a thief can't take the bars, and whatever is clamped to them, off with a hex key, which matters for bikes left on the roof at a trailhead.\n\nThe title is less thorough than the Autekcomma's. It doesn't mention the bare-roof LE, which can't take any raised-rail bar, or the Woodland, which the Autekcomma title excludes. If you have either, choose a different set. It also doesn't state a bar rating, so read the listing, and keep your total roof load, including about the weight of the bars themselves, under the RAV4's limit.",
    "who": "Standard-rail RAV4 owners who want locks at a slightly lower price.",
    "specs": [["Type", "Lockable clamp-on crossbars"], ["Fits", "2019–2025 RAV4 standard raised rails"], ["Not for", "Adventure, TRD Off-Road (and LE, which has no rails)"], ["Lock", "Yes"], ["Bar rating", "See listing"], ["Vehicle limit", "About 165 lb (our data; confirm in manual)"], ["Drilling", "None"]]},
   {"asin": "B0CGRJFWDV", "role": "Budget lockable", "price": "$60–$90",
@@ -126,7 +127,7 @@ ARTICLE = {
   {"asin": "B0GDYBR15P", "role": "Cheapest no-drill set", "price": "$70–$110",
    "pros": ["Titled for 2019–2025 RAV4", "Aluminum", "No drilling", "Covers the full generation", "Simple clamp-on design"],
    "cons": ["Title doesn't name the rail type or trims; confirm with the seller", "No locks mentioned", "No bar rating in the title"],
-   "body": "This unbranded aluminum set is titled for the 2019–2025 RAV4 and described as no-drill, which covers the full generation. It's the most basic set here: no locks mentioned, no bar rating in the title, and no brand behind it. That makes it a set for light, occasional loads such as a soft cargo bag or a pair of skis in winter, where the price matters more than the rating.\n\nThe title doesn't say which rail it's built for. Because the Adventure and TRD Off-Road rails differ from the standard rail, and the LE has no rails at all, confirm your trim with the seller before ordering. If your car sits at trailheads or on the street, spend the extra on one of the lockable sets. Whatever you carry, keep the total under the RAV4's roof limit, which our data puts at about 165 lb including the bars.",
+   "body": "This unbranded aluminum set is titled for the 2019–2025 RAV4 and described as no-drill, which covers the full generation. It's the most basic set here: no locks mentioned, no bar rating in the title, and no brand behind it. That makes it a set for light, occasional loads such as a soft cargo bag or a pair of skis in winter, where the price matters more than the rating.\n\nThe title doesn't say which rail it's built for. Because other listings exclude the Adventure and TRD Off-Road, and the LE has no rails at all, confirm your trim with the seller before ordering. If your car sits at trailheads or on the street, spend the extra on one of the lockable sets. Whatever you carry, keep the total under the RAV4's roof limit, which our data puts at about 165 lb including the bars.",
    "who": "Owners who need bars a few times a year and want the lowest-cost RAV4-titled set.",
    "specs": [["Type", "Clamp-on aluminum crossbars"], ["Fits", "2019–2025 RAV4 (rail type: confirm)"], ["Lock", "Not listed in title"], ["Bar rating", "Not listed in title"], ["Vehicle limit", "About 165 lb (our data; confirm in manual)"], ["Drilling", "None"]]},
  ],
@@ -139,7 +140,7 @@ ARTICLE = {
   "Lock the clamps, drive a short loop, re-tighten, and check again before long trips.",
  ],
  "avoid": [
-  {"h": "Standard-rail bars on an Adventure or TRD Off-Road", "body": "The rail profile differs, and the titles that exclude those trims mean it. Buy the Adventure/TRD set or a fit-guide kit."},
+  {"h": "Standard-rail bars on an Adventure or TRD Off-Road", "body": "Three standard-rail titles here exclude those trims. Buy the Adventure/TRD set or a fit-guide kit."},
   {"h": "Any raised-rail bar on an LE", "body": "The LE's bare roof has nothing to clamp to. It needs a door-jamb clamp kit such as Thule's naked-roof WingBar Evo."},
   {"h": "Loading to the bar rating", "body": "A 260 lb bar on a roughly 165 lb roof still leaves you with the roof's limit, and the bars count toward it."},
   {"h": "2019–2025 bars on a 2026 RAV4", "body": "The 2026 is a new generation. Buy bars that name it and confirm the rail."},
@@ -156,6 +157,8 @@ ARTICLE = {
   ["ROKIOTOEX Adventure / TRD cross bars listing title (Amazon)", "https://www.amazon.com/dp/B07WGHX1K5"],
   ["VEVOR 160 lb Lockable Cross Bars listing title (Amazon)", "https://www.amazon.com/dp/B0CGRJFWDV"],
   ["Crossbars, wind noise and fuel economy (Autoblog)", "https://www.autoblog.com/2020/10/15/subaru-outback-roof-rack-driveway-test/"],
+  ["RAV4 roof rack weight limit by model year (RAV4Resource)", "https://rav4resource.com/toyota-rav4-roof-rack-weight-limit/"],
+  ["2024 Toyota RAV4 release: grades, Woodland Edition roof rails and cross bars (Toyota Newsroom)", "https://pressroom.toyota.com/?generate_pdf=87387"],
  ],
 }
 

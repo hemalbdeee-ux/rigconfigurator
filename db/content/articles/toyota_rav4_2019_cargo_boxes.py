@@ -2,6 +2,7 @@
 Mirrors the approved F-150 tonneau pilot. No invented hands-on testing: box specs come from Yakima's own
 product pages plus Thule, SportRack and etrailer, and vehicle facts from db/migrations/003_vehicles.sql plus the references in SOURCES
 (checked 2026-09-24). Boxes are universal; the RAV4-specific part is rails, roof load and hatch clearance.
+Source fixes 2026-10-04: hitch FAQ no longer says the factory hitch is 1.25 in (Toyota parts page lists a 2 in receiver tube; Tow Prep receiver size unconfirmed); roof load attributed (165 lb working figure, 176.4 lb from RAV4Resource, owner manual is the authority); Adventure / TRD Off-Road / Woodland rail wording limited to what listings say, with years; Hybrid and Prime shared-roof claim replaced; Prime range attributed to Toyota.
 """
 
 KEY = ("toyota", "rav4", "2019-present", "cargo-boxes")
@@ -16,13 +17,13 @@ FAQ = [
  ("Will a roof box hit the RAV4 liftgate when it opens?",
   "It can. The liftgate swings up and back toward the rear of the roof, and a long box mounted too far back sits in its path. Slide the box as far forward as the front crossbar and windshield allow, then open the hatch slowly the first time and watch the gap. If it touches, move the box forward, pick a shorter box, or lower the power liftgate's opening height if your trim has one."),
  ("How much weight can I put in a cargo box on a RAV4?",
-  "Start from the roof limit, not the box. Our fitment data lists 165 lb for the 5th-gen RAV4, and some references quote 80 kg (176 lb); use the figure in your owner's manual and plan around the lower number. Subtract the crossbars and the box itself. With a 47 lb SkyBox 16 and bars that weigh, say, 12 lb, that leaves about 106 lb for gear. The DeepSpace 10 also has its own 100 lb cargo limit."),
+  "Start from the roof limit, not the box. RAV4Resource lists 176.4 lb (80 kg) for 2019–2024 models and says the figure is in the owner's manual under Cargo and Luggage. We could not confirm that from a Toyota document, and it gives nothing for 2025, so this page plans around a lower working figure of 165 lb. Your owner's manual is the authority. Subtract the crossbars and the box itself. With a 47 lb SkyBox 16 and bars that weigh, say, 12 lb, that leaves about 106 lb for gear. The DeepSpace 10 also has its own 100 lb cargo limit."),
  ("Can I put a cargo box on a RAV4 LE?",
   "Yes, but not directly. Our fitment data shows the LE with a bare roof, no rails. You need a bare-roof crossbar kit, one that clamps into the door openings, before any box can go on. Raised-rail crossbars made for the XLE and up won't mount on an LE."),
  ("Do I need different crossbars for a RAV4 Adventure or TRD Off-Road?",
-  "Often, yes. Several crossbar listings for this generation exclude the Adventure, TRD Off-Road and Woodland because their factory rails have a different profile, and at least one kit is sold only for those trims. The box doesn't care which bars you use, but the bars must be listed for your trim. See the RAV4 roof rack page for fit-checked bars."),
+  "Often, yes. Several crossbar listings for this generation exclude the Adventure and TRD Off-Road, one also excludes the Woodland, and at least one kit is titled only for the Adventure and TRD Off-Road factory rails. The listings don't say what differs, and we could not confirm the rail profile from Toyota. The box doesn't care which bars you use, but the bars must be listed for your trim. See the RAV4 roof rack page for fit-checked bars."),
  ("Does a roof box work on the RAV4 Hybrid and RAV4 Prime?",
-  "Yes. The Hybrid and Prime share the roof and rails with the gas RAV4 of the same trim, so the same crossbars and boxes apply. The trade-off is efficiency: a roof box adds drag, and on the Prime that shows up as fewer miles from its EPA-rated 42-mile electric range. Take the box off between trips if you commute on battery."),
+  "Yes. A box clamps to crossbars, so the powertrain doesn't change which box fits. Crossbar listings for this generation go by rail type and trim, not powertrain, so match the bars to the rails on your Hybrid or Prime. The trade-off is efficiency: a roof box adds drag, and on the Prime that shows up as fewer electric miles. Toyota estimates 42 miles of EV-only range for the 2025 Plug-in Hybrid, the renamed Prime. Take the box off between trips if you commute on battery."),
  ("Will a 2019–2025 RAV4 cargo box fit the 2026 RAV4?",
   "The box itself will, because boxes clamp to crossbars, not to the car. What changes is the crossbar kit. The 2026 RAV4 is an all-new sixth generation, so buy crossbars listed for that model and then re-check hatch clearance and the new roof load figure in its manual."),
  ("How far apart should the crossbars be for these boxes?",
@@ -30,7 +31,7 @@ FAQ = [
  ("Can I carry skis in a roof box on a RAV4?",
   "Yes, if the box is long enough. Yakima rates the SkyBox 16 and GrandTour 16 for skis and boards up to 185 cm and the SkyBox NX Skinny for 195 cm. The Thule Force 3 L takes skis up to 175 cm. The DeepSpace 10, at 60 in long, isn't a ski box. Longer skis mean a longer box, which is exactly where RAV4 hatch clearance gets tight."),
  ("Is a roof box or a hitch cargo carrier better on a RAV4?",
-  "A roof box keeps the rear clear, locks, and keeps gear dry, but it costs roof load and fuel economy. A hitch carrier carries heavier items low, but the RAV4's factory hitch is 1.25 in on many builds and it blocks the liftgate unless it tilts. If you mostly carry soft bags and skis, go roof. For coolers and heavy bins, a hitch carrier suits the RAV4 better."),
+  "A roof box keeps the rear clear, locks, and keeps gear dry, but it costs roof load and fuel economy. A hitch carrier carries heavier items low, but it blocks the liftgate unless it tilts, and it needs a receiver. Toyota's parts page lists its accessory hitch, PK960-42K10, with a 2 in receiver tube. A Toyota dealer page says only the 2024 Adventure and TRD Off-Road come with a receiver, as part of the Tow Prep Package. We could not confirm that receiver's size, so measure it before buying a carrier. If you mostly carry soft bags and skis, go roof. For coolers and heavy bins, a hitch carrier suits the RAV4 better."),
 ]
 
 ARTICLE = {
@@ -39,11 +40,11 @@ ARTICLE = {
  "reviewed": "2026-09-24",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule and SportRack: volume, exterior dimensions, box weight, crossbar spread, ski length, warranty), on etrailer's mounting figures for the SportRack box, on how those specs fit the RAV4's roof, rails and liftgate, and on the roof load figures in our fitment data and the references below. Prices were checked on the makers' stores in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Crossbars come first.** XLE and up have raised rails; the LE has a bare roof. Adventure, TRD Off-Road and Woodland rails often need their own bar kit. The box clamps to whichever bars you fit.",
+  "**Crossbars come first.** XLE and up have raised rails; the LE has a bare roof. Many crossbar listings exclude the Adventure and TRD Off-Road, and one also excludes the Woodland, so those trims need bars that name them. The box clamps to whichever bars you fit.",
   "**Length beats volume on a RAV4.** The Thule Force 3 L is 76.8 in and the GrandTour 16 is 79 in; the SportRack Vista XL fits 18 cu ft into 63 in. On a compact roof, the shorter box is the safer bet for liftgate clearance.",
-  "**Do the roof load math.** Our data lists 165 lb for the roof; some references say 176 lb. Subtract bars and a 30–52 lb box and roughly 100–120 lb is left for gear.",
+  "**Do the roof load math.** This page plans around 165 lb for the roof. RAV4Resource lists 176.4 lb for 2019–2024, citing the owner's manual, which is the authority. Subtract bars and a 30–52 lb box and roughly 100–120 lb is left for gear.",
   "**Check crossbar spread.** Each box has a min/max bar spread (24–36 in for the Yakima 16s, 32–46 in for the DeepSpace 10) or, on the SportRack Vista XL, fixed mounting positions.",
-  "**Prime owners pay in range.** A box adds drag, which eats into the 42-mile EPA electric range. Take it off when you don't need it.",
+  "**Prime owners pay in range.** A box adds drag, which eats into electric range (Toyota estimates 42 miles for the 2025 Plug-in Hybrid, the renamed Prime). Take it off when you don't need it.",
  ],
  "top_picks": [
   {"asin": "B083KP48XC", "role": "Best overall", "why": "16 cu ft in 79 in, the shortest Yakima 16, dual-side opening, 24–36 in spread"},
@@ -57,22 +58,22 @@ ARTICLE = {
   "head": ["Trim", "Roof", "Crossbars needed", "Box notes"],
   "rows": [
    ["LE", "Bare roof (no rails)", "Bare-roof clamp kit", "Any box here, once bars are on; check spread range of the kit"],
-   ["XLE, XLE Premium, XSE, Limited (gas, Hybrid, Prime)", "Raised side rails", "Raised-rail crossbars listed for standard rails", "Most common setup; Hybrid and Prime share the roof"],
-   ["Adventure, TRD Off-Road, Woodland", "Raised rails, different profile", "Bars listed for these trims (many generic kits exclude them)", "Same boxes; confirm bars before ordering"],
-   ["All 5th-gen trims", "Roof load 165 lb in our data (some sources: 176 lb / 80 kg)", "Weigh the bars", "Bars + box + gear must stay under the manual's figure"],
+   ["XLE, XLE Premium, XSE, Limited (gas, Hybrid, Prime)", "Raised side rails", "Raised-rail crossbars listed for standard rails", "Most common setup; crossbar listings go by rail, not powertrain"],
+   ["Adventure (2019–2024), TRD Off-Road (2020–2024), Woodland Edition (Hybrid, from 2023)", "Raised rails that many crossbar listings exclude", "Bars listed for your trim", "Same boxes; confirm bars before ordering. Toyota lists standard cross bars on the 2024 Woodland Edition"],
+   ["All 5th-gen trims", "Roof load: 165 lb working figure (RAV4Resource: 176.4 lb / 80 kg for 2019–2024)", "Weigh the bars", "Bars + box + gear must stay under the manual's figure"],
   ],
  },
  "look_for": [
   {"h": "Box length vs the RAV4 liftgate",
    "body": "The RAV4 has a compact roof, and its liftgate swings up toward the back edge of it. That makes box length the first number to check, ahead of volume. The boxes here run from 60 in (DeepSpace 10) and 63 in (SportRack Vista XL) through 76.8 in (Thule Force 3 L), 79 in (GrandTour 16) and 81 in (SkyBox 16) to 84 in (SkyBox NX Skinny). Mount any box as far forward as the windshield allows, then open the liftgate slowly and watch the gap. If you need 16 cu ft, the Force 3 L's 76.8 in and the GrandTour's 79 in leave the most room at the back. Long ski boxes are the ones that end up touching the hatch."},
   {"h": "Roof load after crossbars",
-   "body": "The roof limit covers everything above the rails: crossbars, the box, and whatever is inside. Our fitment data lists 165 lb for the 5th-gen RAV4, and some references quote 176 lb (80 kg). Your owner's manual has the figure that applies, and planning around the lower number keeps you safe either way. The boxes here weigh 30.2 lb (DeepSpace 10) to 51.5 lb (GrandTour 16); SportRack doesn't publish the Vista XL's weight. Add your crossbars' listed weight, and a RAV4 typically has about 100 lb left for gear. That suits sleeping bags, soft duffels and skis, not a cooler full of ice."},
+   "body": "The roof limit covers everything above the rails: crossbars, the box, and whatever is inside. This page plans around 165 lb for the 5th-gen RAV4. RAV4Resource lists 176.4 lb (80 kg) for 2019–2024 models and cites the owner's manual; we could not confirm that from a Toyota document. Your owner's manual is the authority, and planning around the lower number leaves a margin either way. The boxes here weigh 30.2 lb (DeepSpace 10) to 51.5 lb (GrandTour 16); SportRack doesn't publish the Vista XL's weight. Add your crossbars' listed weight, and a RAV4 typically has about 100 lb left for gear. That suits sleeping bags, soft duffels and skis, not a cooler full of ice."},
   {"h": "Crossbar spread and the bars you already have",
    "body": "Every box lists a minimum and maximum distance between the crossbars. Yakima gives 24–34.5 in for the SkyBox 16, 24–36 in for the GrandTour 16 and 32–46 in for the DeepSpace 10. On a RAV4 the bars sit on the factory rails or, on the LE, on door-jamb clamps, and each kit has its own positions. Check that your bars can be set inside the box's range before ordering. The DeepSpace's 32 in minimum is the one most likely to need a wide bar setup, and the SportRack Vista XL mounts only at 25-7/8, 27-7/8 or 29-7/8 in, per etrailer."},
   {"h": "Width, and whether you want a bike up there too",
    "body": "A full-width box is 33–38 in wide (Force 3 L 33.3 in, Vista XL 38 in) and takes most of a RAV4's crossbar length. If you also want a roof bike mount or a kayak carrier, look at a narrow box. The SkyBox NX Skinny is 26.5 in wide and Yakima says it leaves crossbar space for other gear. Keep in mind that a box plus a bike still counts against the same roof limit, so the combined weight has to fit the numbers above."},
   {"h": "Aerodynamics, noise and the RAV4 Prime",
-   "body": "Any roof box adds drag. On a gas or Hybrid RAV4 that shows up as a lower mpg figure. On the Prime it also cuts into the EPA-rated 42 miles of electric range. Yakima's boxes here have tapered noses, and mounting a box level and centered keeps wind noise down. The simplest fix is also the cheapest: the SkyBox and GrandTour mount with quick-release hardware and Yakima quotes about a 10-minute install, so take the box off between trips."},
+   "body": "Any roof box adds drag. On a gas or Hybrid RAV4 that shows up as a lower mpg figure. On the Prime it also cuts into electric range, which Toyota estimates at 42 miles for the 2025 Plug-in Hybrid. Yakima's boxes here have tapered noses, and mounting a box level and centered keeps wind noise down. The simplest fix is also the cheapest: the SkyBox and GrandTour mount with quick-release hardware and Yakima quotes about a 10-minute install, so take the box off between trips."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -136,7 +137,7 @@ ARTICLE = {
    "specs": [["Volume", "18 cu ft"], ["Exterior", "63 × 38 × 19 in"], ["Opening", "Rear"], ["Mounting positions", "25-7/8, 27-7/8 or 29-7/8 in (etrailer)"], ["Hardware", "Tool-free; lock included"], ["Material", "UV-resistant ABS"], ["Box weight / max load", "Not published; confirm"], ["Price", "$449.95 (SportRack)"]]},
  ],
  "install": [
-  "Fit crossbars listed for your trim first: raised-rail bars on XLE and up, the Adventure/TRD/Woodland kit on those trims, or a bare-roof clamp kit on the LE. Torque them to the maker's spec.",
+  "Fit crossbars listed for your trim first: raised-rail bars on XLE and up, bars that name the Adventure, TRD Off-Road or Woodland on those trims, or a bare-roof clamp kit on the LE. Torque them to the maker's spec.",
   "Set the bar spread inside the box's range (for example 24–36 in for the GrandTour 16, 32–46 in for the DeepSpace 10, or one of the Vista XL's fixed positions), keeping the front bar clear of the sunroof opening if you have one.",
   "Lift the box on with a helper, center it side to side, and slide it as far forward as the windshield and antenna allow.",
   "Attach the mounting clamps loosely, open the liftgate slowly and check the gap at the back of the box, then tighten the clamps to the box maker's instructions.",
@@ -144,7 +145,7 @@ ARTICLE = {
   "Load heavy items in the middle between the bars, keep the total under the roof limit minus bars and box, and remember the added height at garages and drive-thrus.",
  ],
  "avoid": [
-  {"h": "Ordering the box before the crossbars", "body": "The LE has no rails, and the Adventure, TRD Off-Road and Woodland rails often need their own bars. Sort out the crossbars first; the box goes on those."},
+  {"h": "Ordering the box before the crossbars", "body": "The LE has no rails, and many crossbar listings exclude the Adventure, TRD Off-Road or Woodland. Sort out the crossbars first; the box goes on those."},
   {"h": "A long ski box without measuring the hatch", "body": "A long ski box can reach back into the liftgate's path on the RAV4's short roof. Measure, or choose a box around 80 in or less, such as the 76.8 in Force 3 L or the 63 in Vista XL."},
   {"h": "Using the box's volume as your weight limit", "body": "Sixteen cubic feet of gear can easily weigh more than the roughly 100 lb the RAV4 roof has left after bars and box. Pack light and put heavy items inside the car."},
   {"h": "Leaving the box on all year on a Prime", "body": "Drag cuts mpg on every RAV4 and electric range on the Prime. With a 10-minute quick-release install, take it off between trips."},
@@ -161,8 +162,12 @@ ARTICLE = {
   ["Thule Force 3 L (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-force-3-l-_-645750"],
   ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
   ["SportRack Vista XL mounting positions on a RAV4 (etrailer)", "https://www.etrailer.com/question-156482.html"],
-  ["Toyota RAV4 (XA50) — trims, Hybrid, Prime range, 2026 successor", "https://en.wikipedia.org/wiki/Toyota_RAV4_(XA50)"],
+  ["Toyota RAV4 (XA50): trims by model year, Prime renaming, 2026 successor (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_RAV4_(XA50)"],
   ["RAV4 roof rack weight limit by model year (RAV4Resource)", "https://rav4resource.com/toyota-rav4-roof-rack-weight-limit/"],
+  ["Toyota hitch receiver PK960-42K10: 2 in receiver tube (Toyota Auto Parts)", "https://autoparts.toyota.com/products/product/hitch-receiver-pk96042k10"],
+  ["2024 Toyota RAV4 towing capacity and Tow Prep by trim (Toyota Vallejo)", "https://www.toyotavallejo.com/blogs/5095/2024-toyota-rav4-towing-capacity"],
+  ["2024 Toyota RAV4 release: grades, Woodland Edition roof rails and cross bars (Toyota Newsroom)", "https://pressroom.toyota.com/?generate_pdf=87387"],
+  ["2025 Toyota RAV4 Plug-in Hybrid: name and EV-only range estimate (Toyota Newsroom)", "https://pressroom.toyota.com/vehicle/2025-toyota-rav4-plug-in-hybrid/"],
  ],
 }
 
