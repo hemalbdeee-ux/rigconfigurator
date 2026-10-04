@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for Tesla Model 3 Highland (2024–2026).
 Page key covers 2017+; product picks are Highland-specific (2024+). No invented hands-on testing (checked 2026-09-24).
+Source fixes 2026-10-04: said which picks include frunk and trunk pieces (3D MAXpider is cabin only; the others by what their titles name) in the dek, FAQ, takeaways, types_table, SUPER LINER pick and verdict; attributed the Highland start to the listings (2024 or later) and Wikipedia (North American orders January 10, 2024; 8 in rear touchscreen; stalk returned on US cars for 2026) and pointed readers to the door-jamb build date; replaced "Highland Performance 2025+" and "same cabin" with Wikipedia's production date and "fit not confirmed; ask the seller"; added Tesla's manual wording on accessory carriers and Tesla-approved roof racks to the verdict; removed "fit well" from the Tesla mats FAQ.
 """
 
 KEY = ("tesla", "model-3", "2017-present", "floor-mats")
@@ -12,37 +13,37 @@ FAQ = [
  ("Do 2017–2023 Model 3 mats fit the 2024 Highland?",
   "Don't assume so. The Highland refresh changed the interior and trunk trim enough that mat makers sell separate sets. Every set on this page is listed for 2024 and later Highland cars; SUPER LINER, BRYOUS, FemboMAX and 3W all say 2024–2025 or 2024–2026, and 3D MAXpider sells separate Highland part numbers. If you have a 2017–2023 car, buy a set that names those years."),
  ("How do I know if my Model 3 is a Highland?",
-  "Highland cars (2024 model year onward in the US) have slimmer headlights, no turn-signal stalk on most versions, ambient lighting strips and a rear-seat touchscreen. The model year on your registration is the quickest check: 2024 or later US Model 3s are Highland. Late-2023 production varies by market, so if your car is a 2023, check the rear screen."),
+  "Start with the listings: every mat set on this page says 2024 or later. Wikipedia says the refreshed Model 3 was made available for order in North America on January 10, 2024, and describes it with new headlights, customizable interior accent lighting, an 8 in touchscreen for rear-seat passengers and, at launch, no turn-signal or gear-selector stalks. It also says the turn-signal stalk returned on US cars for the 2026 model year, so the rear screen is the steadier check. If your car was built near the changeover, go by the build date on the door-jamb label and the listing's fit notes, and ask the seller if those don't settle it."),
  ("What do all the pieces in an 8-piece set cover?",
   "Typically the driver and passenger footwells, a one-piece rear floor, the frunk tub, the main trunk floor, the lower trunk well and one or two seatback or bumper pieces. SUPER LINER's 8-piece set lists floor, seatback, cargo and trunk. Piece counts vary, so check the listing's diagram against what you actually want covered."),
  ("Is 3D MAXpider better than cheaper Tesla mat brands?",
   "3D MAXpider's Kagu line uses a three-layer construction with a carbon-fiber-textured top and a patented underside that grips the carpet, according to retailer descriptions. It also sells Highland-specific pieces individually, so you can buy only the rows you need. The budget brands often bundle more pieces for less money but publish fewer specs. For a daily driver in a wet climate, either route works; for the best-documented fit, choose 3D MAXpider."),
  ("Why do Tesla mats need a frunk liner?",
-  "The frunk is a hard plastic tub in front, and it collects water, groceries and road grit. A liner protects the tub from scratches and makes cleanup easy. Most Tesla sets on this page include a frunk piece; 3D MAXpider sells its Highland frunk liner separately."),
+  "The frunk is a hard plastic tub in front, and it collects water, groceries and road grit. A liner protects the tub from scratches and makes cleanup easy. On this page, the 3D MAXpider full set is cabin only, and its Highland frunk liner is sold separately. BRYOUS's title names front and rear cargo liners, SUPER LINER's names cargo and trunk pieces, FemboMAX's names cargo liners and 3W's names one cargo liner. Titles don't always say which piece is the frunk, so check each listing's diagram."),
  ("Will mats rattle or slide in a Model 3?",
   "A car-specific set with retention hooks or grip backing shouldn't slide. The Model 3's floor is flat, and a mat without grip can creep forward. Hook the driver mat to the retention points if the set supports them, and check pedal clearance after installing."),
  ("TPE or XPE for a Model 3?",
   "TPE is denser and holds its shape and edges better; XPE is foam, lighter and softer. Most sets here are TPE or TPE-like. In an EV, weight hardly matters, so choose on durability and wall height."),
  ("Do these mats fit the Model 3 Performance?",
-  "The Highland Performance model shares the cabin floor and trunk shape with other Highland Model 3s, so Highland mats generally fit. Some listings don't name it; confirm with the seller if your trunk has any Performance-specific trim."),
+  "We could not confirm it. Some listings don't name the Performance, and none of the pages we read says whether its floor or trunk trim differs from other Highland cars. Wikipedia lists the refreshed Performance in production from April 2024. Ask the seller before you order, and compare your footwells and trunk with the listing's photos."),
  ("How do I clean them?",
   "Pull them out, rinse and scrub with mild soap. Dry them before reinstalling, especially the trunk well liner, where trapped water can sit. Skip silicone protectants, which make the surface slippery."),
  ("Should I also protect the seatbacks?",
   "If you fold the rear seats to carry bikes, boxes or a dog, yes. Several sets include seatback pieces. They protect the carpeted backs of the rear seats from scratches and dirt when the seats are down."),
  ("Does Tesla sell its own all-weather mats?",
-  "Tesla sells all-weather interior liners through its own shop for its vehicles. They're designed for the car and fit well, but they aren't sold through the Amazon listings this page covers, and availability varies by model year. If you prefer factory parts, check Tesla's shop for Highland-specific liners and compare the pieces included with the kits here."),
+  "Tesla sells all-weather interior liners through its own shop for its vehicles. They're designed for the car, but they aren't sold through the Amazon listings this page covers, and availability varies by model year. If you prefer factory parts, check Tesla's shop for Highland-specific liners and compare the pieces included with the kits here."),
  ("Can I use Model Y mats in a Model 3?",
   "No. The two share many parts, but the Model Y is taller with a different floor, trunk and frunk shape. Buy a set that names the Model 3 Highland. Even within the Model 3, the Highland refresh changed enough that pre-refresh sets aren't a safe substitute."),
 ]
 
 ARTICLE = {
- "dek": "Five all-weather mat sets for the Highland Model 3, from 3D MAXpider's Kagu pieces to eight-piece kits that cover the cabin, frunk, trunk and trunk well. The only real fit trap is the refresh: 2017–2023 sets and 2024+ Highland sets aren't the same.",
+ "dek": "Five all-weather mat sets for the Highland Model 3. 3D MAXpider's Kagu set covers the cabin only, and its frunk liner is sold separately. The other four add cargo pieces: BRYOUS's title names front and rear cargo liners, SUPER LINER's names seatback, cargo and trunk pieces, and 3W's and FemboMAX's name cargo liners. The main fit trap is the refresh: 2017–2023 sets and 2024+ Highland sets aren't the same.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these mats ourselves. We ranked them on the fit each listing states for the Model 3 Highland (2024+), on the pieces included, on published maker or retailer specs (construction, backing) and on coverage in listing photos. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Highland needs Highland mats.** 2017–2023 sets are sold separately.",
-  "**Count the pieces.** Kits range from six to eight pieces; frunk, trunk and trunk well are what differ.",
+  "**Count the pieces.** Kits range from six to eight pieces; frunk, trunk and trunk well are what differ. The 3D MAXpider set is cabin only, BRYOUS names front and rear cargo liners, and the others need a look at the listing's diagram.",
   "**3D MAXpider sells pieces individually.** Buy only the rows you need.",
   "**Seatback pieces matter if you fold the seats.** SUPER LINER includes them.",
   "**Flat floors mean grip matters.** Look for retention points or a grippy backing.",
@@ -59,13 +60,13 @@ ARTICLE = {
   "head": ["Car", "Years (US)", "Mat note"],
   "rows": [
    ["Model 3 (pre-refresh)", "2017–2023", "Use sets that name 2017–2023; not covered by picks here"],
-   ["Model 3 Highland", "2024–2026", "All picks on this page"],
-   ["Highland Performance", "2025+", "Same cabin; confirm trunk trim with seller"],
+   ["Model 3 Highland", "2024–2026 per the listings; North American orders from January 10, 2024 (Wikipedia)", "All picks on this page"],
+   ["Highland Performance", "In production from April 2024 (Wikipedia); US model year not confirmed", "Fit not confirmed; ask the seller"],
   ],
  },
  "look_for": [
   {"h": "Highland or pre-refresh",
-   "body": "The Model 3 changed enough in the 2024 Highland refresh that mat makers treat it as a separate fit. The trunk and cabin trim details differ, and every set on this page says 2024 or later in its title. If your car is a 2017–2023 Model 3, don't buy these; look for listings that name those years. The easiest check is the model year on your registration. If you have a late-2023 car, look for the rear-seat touchscreen, which is a Highland feature."},
+   "body": "Mat makers treat the Highland refresh as a separate fit, and every set on this page says 2024 or later in its title. Wikipedia says North American orders for the refreshed car opened on January 10, 2024. If your car is a 2017–2023 Model 3, don't buy these; look for listings that name those years. Start with the model year on your registration, then check the build date on the door-jamb label and the listing's fit notes. Wikipedia lists an 8 in touchscreen for rear-seat passengers among the refresh's changes, so a rear screen is a sign you have a Highland."},
   {"h": "Which zones you want covered",
    "body": "A Model 3 has more places to protect than most cars: the front footwells, the rear floor, the frunk tub, the main trunk floor and the lower trunk well under it, plus the seatbacks when folded. Kits vary: SUPER LINER's 8-piece covers floor, seatback, cargo and trunk; BRYOUS covers floor mats plus front and rear cargo liners; FemboMAX offers a 6-piece set. 3D MAXpider sells Highland pieces individually, so you can buy the full cabin set now and the frunk liner later. Decide which zones get dirty for you before comparing piece counts."},
   {"h": "Grip on a flat floor",
@@ -91,7 +92,7 @@ ARTICLE = {
   "head": ["Type", "Example", "Pieces", "Price band", "Best for"],
   "rows": [
    ["Premium 3-layer mats", "3D MAXpider Kagu", "Cabin set (frunk/trunk separate)", "$150–$230", "Best-documented fit"],
-   ["8-piece all-weather kit", "SUPER LINER, BRYOUS", "Cabin, frunk, trunk, seatback", "$110–$180", "Full coverage"],
+   ["8-piece all-weather kit", "SUPER LINER, BRYOUS", "Cabin plus cargo pieces; seatbacks on SUPER LINER, front and rear cargo liners on BRYOUS", "$110–$180", "Full coverage"],
    ["Full set + cargo", "3W", "Cabin + cargo", "$130–$170", "TPE value"],
    ["6-piece kit", "FemboMAX", "Cabin + cargo liners", "$100–$140", "Budget coverage"],
   ],
@@ -104,9 +105,9 @@ ARTICLE = {
    "who": "Owners who want the best-documented Highland fit and a cabin-matching look.",
    "specs": [["Line", "3D MAXpider Kagu"], ["Fits", "2024–2026 Model 3 Highland"], ["Pieces", "Full cabin set (R1 + R2)"], ["Construction", "3-layer, carbon-fiber texture (retailer)"], ["Backing", "Patented grip underside (retailer)"], ["Add-ons", "Frunk liner, individual rows"]]},
   {"asin": "B0BV222V54", "role": "Best full coverage", "price": "$130–$180",
-   "pros": ["8 pieces: floor, seatback, cargo and trunk", "Highland-specific", "Covers seatbacks for folded-seat hauling", "One order for the whole car", "All-weather material"],
+   "pros": ["8 pieces: floor, seatback, cargo and trunk", "Highland-specific", "Covers seatbacks for folded-seat hauling", "One order for cabin, seatbacks and cargo areas", "All-weather material"],
    "cons": ["Little maker documentation", "No published warranty", "Highland only"],
-   "body": "SUPER LINER's 8-piece set is listed for the 2024–2026 Model 3 Highland and covers the floor, seatbacks, cargo areas and trunk. It's the most complete kit here, and the seatback pieces are the standout: if you fold the rear seats to carry bikes, boxes or a dog, they protect the carpeted seatbacks that other kits leave bare.\n\nThe brand publishes little beyond the listing, so material grade and warranty are unknowns. The value is coverage per dollar. For about the price of 3D MAXpider's cabin set alone, you get every zone in the car covered.\n\nCheck the listing's diagram to confirm the frunk and lower trunk well are included in your version, since piece names vary between listings. Seat the driver mat carefully on the flat floor and check pedal clearance before driving.",
+   "body": "SUPER LINER's 8-piece set is listed for the 2024–2026 Model 3 Highland and covers the floor, seatbacks, cargo areas and trunk. By its title it's the most complete kit here, and the seatback pieces are the standout: if you fold the rear seats to carry bikes, boxes or a dog, they protect the carpeted seatbacks that other kits leave bare.\n\nThe brand publishes little beyond the listing, so material grade and warranty are unknowns. The value is coverage per dollar. For about the price of 3D MAXpider's cabin set alone, you get the floor, seatback, cargo and trunk pieces the title names.\n\nCheck the listing's diagram to confirm the frunk and lower trunk well are included in your version, since piece names vary between listings. Seat the driver mat carefully on the flat floor and check pedal clearance before driving.",
    "who": "Owners who fold the rear seats and want every zone covered.",
    "specs": [["Pieces", "8"], ["Covers", "Floor, seatback, cargo, trunk"], ["Fits", "2024–2026 Model 3 Highland"], ["Material", "All-weather (per listing)"], ["Price band", "$130–$180"]]},
   {"asin": "B0GL7W2L94", "role": "Best TPE value", "price": "$130–$170",
@@ -129,7 +130,7 @@ ARTICLE = {
    "specs": [["Pieces", "6"], ["Covers", "Floor + cargo liners"], ["Fits", "2024–2026 Model 3 Highland"], ["Material", "TPE"], ["Price band", "$100–$140"]]},
  ],
  "install": [
-  "Confirm your car is a 2024+ Highland (model year or rear-seat screen).",
+  "Confirm your car is a 2024+ Highland (model year, door-jamb build date or rear-seat screen).",
   "Remove any factory or old mats and vacuum the cabin, frunk and trunk.",
   "Seat the driver mat, using any retention points, and heel-test it toward the pedals.",
   "Fit the passenger and rear mats; the rear should run across the flat floor.",
@@ -143,8 +144,8 @@ ARTICLE = {
   {"h": "Stacking mats", "body": "Remove old mats before fitting new ones."},
  ],
  "verdict": {
-  "thesis": "Buy 3D MAXpider's Kagu set for the best-documented Highland fit, SUPER LINER's 8-piece for full coverage including seatbacks, and BRYOUS if you want frunk and trunk covered for the least money.",
-  "body": "The Highland Model 3 has more zones to protect than most cars, and the kits differ mainly in which ones they include. 3D MAXpider has the best construction details and sells pieces individually. SUPER LINER covers everything including seatbacks. 3W, BRYOUS and FemboMAX give you cabin and cargo coverage at lower prices.\n\nAfter the mats, many Model 3 owners add a roof rack on the glass-roof fixed points for bikes or a cargo box, and a trailer hitch for a hitch bike rack."},
+  "thesis": "Buy 3D MAXpider's Kagu set for the best-documented Highland fit, SUPER LINER's 8-piece for full coverage including seatbacks, and BRYOUS if you want front and rear cargo liners for the least money.",
+  "body": "The Highland Model 3 has more zones to protect than most cars, and the kits differ mainly in which ones they include. 3D MAXpider has the best construction details and sells pieces individually. SUPER LINER's title names floor, seatback, cargo and trunk pieces. 3W, BRYOUS and FemboMAX give you cabin and cargo coverage at lower prices.\n\nAfter the mats, the next upgrades are a roof rack on the glass-roof fixed points for bikes or a cargo box, and on some cars a trailer hitch for a hitch bike rack. Tesla's owner's manual says: 'Do not attempt to install an accessory carrier on Model 3 that is not equipped with the towing package.' The Tesla Shop lists that package only for Rear-Wheel Drive and All-Wheel Drive cars produced in 2024 or later, and we could not confirm how Tesla service treats a car with an aftermarket hitch, so ask Tesla before fitting one. The manual also says to use 'only roof rack systems that have been approved by Tesla'."},
  "sources": [
   ["3D Maxpider Kagu floor liners (AutoAccessoriesGarage)", "https://www.autoaccessoriesgarage.com/Floor-Mats-Liners/3D-Maxpider-Kagu-Floor-Liners"],
   ["3D MAXpider Kagu Model 3 Highland listing", "https://www.amazon.com/dp/B0CY3QD5BG"],
@@ -152,6 +153,9 @@ ARTICLE = {
   ["SUPER LINER Model 3 Highland 8-piece listing", "https://www.amazon.com/dp/B0BV222V54"],
   ["3W / Zhejiang Zhenya company page", "https://www.3wmat.com/"],
   ["Tesla Model 3 (Wikipedia)", "https://en.wikipedia.org/wiki/Tesla_Model_3"],
+  ["Model 3 Owner's Manual: Towing and Accessories (Tesla)", "https://www.tesla.com/ownersmanual/model3/en_us/GUID-BD9A38D5-4410-45A3-8337-BDF7342750F3.html"],
+  ["Model 3 Owner's Manual: Vehicle Loading, roof racks (Tesla)", "https://www.tesla.com/ownersmanual/model3/en_us/GUID-877ACE2D-B62F-4596-A6AD-A74F7905741C.html"],
+  ["Model 3 Tow Package (Tesla Shop)", "https://shop.tesla.com/product/model-3-tow-package"],
  ],
 }
 

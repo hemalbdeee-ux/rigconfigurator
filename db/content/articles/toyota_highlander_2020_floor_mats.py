@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2020–2026 Toyota Highlander (4th gen, XU70).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04 (round 2): "raised rails" in the verdict corrected to flush factory side rails (etrailer); "truck(s)" replaced with Highlander/models (it is an SUV); "TNGA-K" corrected to GA-K (Wikipedia); Hybrid battery line now cites Toyota's 2025 release ("installed under the second-row seats") and no longer says it changes the floor, which we could not confirm; Wikipedia model-year sentence added; Toyota release and etrailer roof page added to sources.
 """
 
 KEY = ("toyota", "highlander", "2020-present", "floor-mats")
@@ -10,9 +11,9 @@ META = ("Six 4th-gen Highlander floor liner sets from Husky, TGBROS, MAXPRO, LAS
 
 FAQ = [
  ("Why do some Highlander liners exclude the hybrid?",
-  "The Highlander Hybrid places its battery under the second-row seat, which changes the second-row floor and under-seat area. MAXPRO and LASFIT list their sets as not for the hybrid. The generic 7-seat set on this page names the hybrid, and Husky's WeatherBeater pieces are listed for the Highlander without a hybrid exclusion in their titles. Look for 'Hybrid' on the tailgate badge and buy accordingly."),
+  "Toyota says the Highlander Hybrid's battery pack is installed under the second-row seats. We could not confirm how much that changes the floor, but MAXPRO and LASFIT list their sets as not for the hybrid. The generic 7-seat set on this page names the hybrid, and Husky's WeatherBeater pieces are listed for the Highlander without a hybrid exclusion in their titles. Look for 'Hybrid' on the tailgate badge and buy accordingly."),
  ("What's the difference between 7-seat and 8-seat Highlander liners?",
-  "The second row. Seven-seat Highlanders have two captain's chairs with a walkway between them; eight-seat trucks have a three-person bench. The second-row liner is shaped differently. LASFIT's set is for 8-seat (bench) gas models; the budget carpet-style set is for 7-seat captain's chairs; TGBROS lists both bench and buckets with a console."),
+  "The second row. Seven-seat Highlanders have two captain's chairs with a walkway between them; eight-seat models have a three-person bench. The second-row liner is shaped differently. LASFIT's set is for 8-seat (bench) gas models; the budget carpet-style set is for 7-seat captain's chairs; TGBROS lists both bench and buckets with a console."),
  ("Do Highlander liners fit the Grand Highlander?",
   "No. The Grand Highlander (2024+) is a larger, separate model with its own floor. Buy liners that name it specifically."),
  ("Do I need a third-row liner?",
@@ -20,9 +21,9 @@ FAQ = [
  ("What does Husky's Highlander cargo liner cover?",
   "Husky's 25791 cargo liner is listed for 2020–2026 Highlander, running to the back of the second row and folding up and down with the third row. That means it protects the cargo floor and the back of the folded third row in one piece."),
  ("Are 2014–2019 Highlander liners compatible?",
-  "No. The 2020 Highlander moved to the TNGA-K platform with a new floor. Husky's 99601 set, for example, is for 2014–2019 and excludes the hybrid. Buy 2020+ listings."),
+  "No. The 2020 Highlander is a new generation built on the GA-K platform, per Wikipedia, and liner makers list it separately. Husky's 99601 set, for example, is for 2014–2019 and excludes the hybrid. Buy 2020+ listings. Wikipedia also says the L was dropped for 2024 and the LE for 2026, and that a fifth-generation Highlander was unveiled on February 10, 2026, with sales set to start in late 2026, so check any listing against your model year."),
  ("Will liners fit around the second-row captain's chair console?",
-  "Some 7-seat Highlanders have a second-row center console between the captain's chairs, others have an open walkway. TGBROS lists buckets with a console. If your truck has an open walkway, a liner that bridges it covers more carpet. Check listing photos against your layout."),
+  "Some 7-seat Highlanders have a second-row center console between the captain's chairs, others have an open walkway. TGBROS lists buckets with a console. If your Highlander has an open walkway, a liner that bridges it covers more carpet. Check listing photos against your layout."),
  ("How should the driver liner sit?",
   "Flat on the carpet, hooked onto Toyota's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test it toward the pedals."),
  ("How do I clean three-row liners?",
@@ -65,9 +66,9 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Captain's chairs or bench",
-   "body": "The 4th-gen Highlander comes with a second-row bench for eight seats or two captain's chairs for seven. The second-row floor liner has to match, because captain's chairs leave a walkway to the third row that a bench doesn't, and some 7-seat trucks put a small console between the chairs. LASFIT lists its set for 8-seat trucks; the budget carpet-style set is for 7-seat captain's chairs; TGBROS says its 3-row set covers the bench or buckets with a console. Count your second-row seats before you shop."},
+   "body": "The 4th-gen Highlander comes with a second-row bench for eight seats or two captain's chairs for seven. The second-row floor liner has to match, because captain's chairs leave a walkway to the third row that a bench doesn't, and some 7-seat Highlanders put a small console between the chairs. LASFIT lists its set for 8-seat models; the budget carpet-style set is for 7-seat captain's chairs; TGBROS says its 3-row set covers the bench or buckets with a console. Count your second-row seats before you shop."},
   {"h": "Gas or Hybrid",
-   "body": "The Highlander Hybrid puts its battery under the second-row seat, and that affects the second-row floor area. MAXPRO and LASFIT exclude the hybrid in their titles. The budget 7-seat set names it. Husky's pieces don't carry a hybrid exclusion in the titles we found, but confirm with Husky's fit tool. If there's a Hybrid badge on the liftgate, filter every listing for it before comparing prices."},
+   "body": "Toyota says the Highlander Hybrid's battery pack is installed under the second-row seats. We could not confirm what that changes in the floor, but MAXPRO and LASFIT exclude the hybrid in their titles. The budget 7-seat set names it. Husky's pieces don't carry a hybrid exclusion in the titles we found, but confirm with Husky's fit tool. If there's a Hybrid badge on the liftgate, filter every listing for it before comparing prices."},
   {"h": "How many rows to cover",
    "body": "A three-row SUV has four floor zones: front, second row, third row and cargo. Kits vary widely in how many they include. Husky's X-act Contour 4-piece covers front, second and third rows. TGBROS and MAXPRO sell 3-row sets. LASFIT's set covers front and second row. Smartliner sells a third-row-only liner, and Husky's 25791 cargo liner covers the cargo floor and folds with the third row. Decide which zones actually get dirty in your family before paying for all four."},
   {"h": "Material, feel and warranty",
@@ -119,7 +120,7 @@ ARTICLE = {
   {"asin": "B0BXLGWKGW", "role": "Best for 8-seat", "price": "$110–$150",
    "pros": ["GRS-certified recycled TPE", "Rated −13°F to 167°F", "Cut for the 8-seat bench layout", "3D laser-scanned", "Lists 2020–2026"],
    "cons": ["Not for hybrid", "Front and second row only", "8-seat only"],
-   "body": "LASFIT's liners are listed for 2020–2026 Highlander 8-seat models with the second-row bench, gas only. LASFIT says they're 3D laser-scanned and made from GRS-certified recycled TPE, rated from −13°F to 167°F.\n\nIt covers the front and second rows, which is where most of the mud lands. Pair it with Smartliner's third-row liner if the third row sees regular use. The narrow fit description (8-seat, gas) is a strength: if it matches your truck, the fit is well defined. LASFIT's 45-day return window on its own store gives you time to check. Before ordering, check the liftgate badge for Hybrid and count the second-row seats; if you have captain's chairs, this is the wrong set.",
+   "body": "LASFIT's liners are listed for 2020–2026 Highlander 8-seat models with the second-row bench, gas only. LASFIT says they're 3D laser-scanned and made from GRS-certified recycled TPE, rated from −13°F to 167°F.\n\nIt covers the front and second rows, which is where most of the mud lands. Pair it with Smartliner's third-row liner if the third row sees regular use. The narrow fit description (8-seat, gas) is a strength: if it matches your Highlander, the fit is well defined. LASFIT's 45-day return window on its own store gives you time to check. Before ordering, check the liftgate badge for Hybrid and count the second-row seats; if you have captain's chairs, this is the wrong set.",
    "who": "8-seat gas Highlander owners.",
    "specs": [["Rows", "Front + 2nd"], ["Fits", "2020–2026 Highlander 8-seat (bench), not hybrid"], ["Material", "Recycled TPE (GRS)"], ["Temp range", "−13°F to 167°F"], ["Add", "Smartliner 3rd row"]]},
   {"asin": "B088C2THJV", "role": "Best third-row add-on", "price": "$40–$70",
@@ -144,21 +145,23 @@ ARTICLE = {
   "Press the pedals to the floor before driving.",
  ],
  "avoid": [
-  {"h": "Gas-only sets in a hybrid", "body": "The hybrid battery sits under the second row."},
+  {"h": "Gas-only sets in a hybrid", "body": "Toyota puts the hybrid battery under the second-row seats, and MAXPRO and LASFIT list their sets as not for the hybrid."},
   {"h": "Wrong second-row layout", "body": "Captain's chairs and bench take different liners."},
   {"h": "Grand Highlander or 2014–2019 listings", "body": "Different floors."},
   {"h": "Stacking mats", "body": "Remove the factory mat first."},
  ],
  "verdict": {
   "thesis": "Buy Husky's X-act Contour 4-piece for a US-made three-row kit, TGBROS or MAXPRO for three rows on a budget, and add Smartliner's third-row piece to any two-row set.",
-  "body": "The 4th-gen Highlander needs two answers before any liner purchase: captain's chairs or bench, and gas or hybrid. Husky's X-act Contour kit is the best-documented three-row option, TGBROS and MAXPRO cover three rows for much less, LASFIT is the 8-seat TPE pick, and Smartliner and Husky's cargo liner fill in the back.\n\nWith the floors covered, many Highlander owners add a roof rack for bikes or a cargo box, and a trailer hitch for a bike rack. The Highlander's raised rails make crossbars straightforward."},
+  "body": "The 4th-gen Highlander needs two answers before any liner purchase: captain's chairs or bench, and gas or hybrid. Husky's X-act Contour kit is the best-documented three-row option, TGBROS and MAXPRO cover three rows for much less, LASFIT is the 8-seat TPE pick, and Smartliner and Husky's cargo liner fill in the back.\n\nWith the floors covered, many Highlander owners add a roof rack for bikes or a cargo box, and a trailer hitch for a bike rack. Railed trims have flush factory side rails, per etrailer, and some roofs may be bare, so look at yours before ordering crossbars."},
  "sources": [
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky X-act Contour Highlander 4-pc listing", "https://www.amazon.com/dp/B0D45ZF7JF"],
   ["Husky Liners 25791 cargo liner listing", "https://www.amazon.com/dp/B092546NV6"],
   ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
   ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
-  ["Toyota Highlander, fourth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Highlander"],
+  ["Toyota Highlander, fourth generation, GA-K platform, grades and fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Highlander"],
+  ["2025 Toyota Highlander release: hybrid battery under the second-row seats (Toyota USA Newsroom)", "https://pressroom.toyota.com/celebrate-the-best-of-toyota-highlander-with-limited-25th-edition-hybrid/"],
+  ["2023 Toyota Highlander roof rack systems by roof type (etrailer)", "https://www.etrailer.com/roof-2023_Toyota_Highlander.htm"],
  ],
 }
 

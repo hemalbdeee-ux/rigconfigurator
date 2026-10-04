@@ -3,7 +3,7 @@ Hub page: ranks the three published Pilot category guides and links to them. No 
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields or price
 text in those guides (the Yakima TimberLine crossbar kit at The Rack Shop, $503.90 on sale, from the cargo box
 guide); vehicle facts from db/migrations/003_vehicles.sql (SUV, roof_type raised-rails, roof load 165 lb and rails-by-trim attrs corrected to Honda's Info Center in the same commit,
-hitch class 3 with a 2 in receiver, 5,000 lb, three rows, "5,000 lb AWD; 3,500 lb FWD", TrailSport variant), the
+hitch class 3 with a 2 in receiver, 5,000 lb, three rows, "5,000 lb AWD; 3,500 lb 2WD (Honda)", TrailSport variant), the
 three guides and their sources, and six pages opened for this page on 2026-10-04: Honda Info Center's 2023 towing
 page (3,500 lb 2WD, 5,000 lb AWD, TrailSport standard integrated Class III trailer hitch, premium unleaded
 recommended above 3,500 lb, towing accessories installed at dealerships), Honda Info Center's 2023 roof rails page
@@ -29,6 +29,7 @@ the budget crossbars; a specific bare-roof clamp kit, its price and rating; Spor
 rating; Rhino-Rack MasterFit 440L price; Honda's dealer hitch part number and price; whether Honda's height figure
 includes the roof rails; hands-free tailgate trims after 2023; and 2026 fit of listings whose titles stop at 2025.
 No Pilot guide exists for roof racks, running boards or lighting; none is ranked.
+Source fixes 2026-10-04 (round 2): kept consistent with the corrected guides. "Front-wheel" in the dek reworded to two-wheel drive (Honda says 2WD); the two statements that the floor liner guide treats the cabin floor as the same across trims now say what its listings show (years, no trim or layout named) and that one floor pan could not be confirmed from Honda; the claim that Honda mounts the TrailSport hitch behind the full-size spare was removed (not in the Honda pages read); roof rails on Honda's 2026 page narrowed to TrailSport and Touring, because two fresh readings of that page did not show rails on the Sport.
 """
 
 KIND = "upgrades"
@@ -72,7 +73,7 @@ FAQ = [
   "Honda's tongue weight limit for the Pilot from the Honda pages we read, so take that number from the owner's "
   "manual."),
  ("Which floor liners fit a Pilot with the removable middle seat or captain's chairs?",
-  "The floor liner guide treats the cabin floor as the same across trims, so the question is coverage. With the "
+  "The listings in the floor liner guide name the Pilot by model year, not by trim or seating layout, so the question is coverage. With the "
   "stowable middle seat out, third-row passengers walk across the center of the second-row floor, so choose a "
   "second-row piece that runs the full width. Honda lists captain's chairs on the TrailSport and, in its 2024 "
   "specification sheet, on a seven-passenger EX-L. No listing recorded in the guide names a bench or captain's "
@@ -98,7 +99,7 @@ FAQ = [
 ARTICLE = {
  "dek": "Three upgrades for the fourth-generation Pilot, in the order most owners should buy them. Fit on this "
         "three-row SUV turns on a short list of facts: a listing that starts at 2023, what the second row looks "
-        "like, whether the roof has rails, front-wheel or all-wheel drive, and whether a receiver is already under "
+        "like, whether the roof has rails, two-wheel or all-wheel drive, and whether a receiver is already under "
         "the rear bumper.",
  "author": "jake-morrison",
  "reviewed": "2026-10-04",
@@ -172,8 +173,9 @@ ARTICLE = {
            "cargo floor, so the same Pilot seats eight with it in place or seven with a walkway. Honda's 2024 "
            "specification sheet lists seven seats with captain's chairs on the TrailSport and on a "
            "seven-passenger EX-L. Don't go by the badge. Open the rear door and look.\n\n"
-           "The floor liner guide treats the cabin floor as the same across trims, and says the removable seat "
-           "changes how the second-row floor is used, not its shape. With the seat out, third-row passengers walk "
+           "The listings in the floor liner guide name the Pilot by model year and do not name a trim or a "
+           "second-row layout. We could not confirm from a Honda document that every trim shares one floor pan. "
+           "With the seat out, third-row passengers walk "
            "across the middle of that floor, so check the listing photos for a second-row piece that runs the "
            "full width.\n\n"
            "Captain's chairs are the open question. None of the listings recorded in the guide names a bench or "
@@ -192,8 +194,8 @@ ARTICLE = {
            "here.\n\n"
            "**The rails.** Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and "
            "Elite for 2023 and 2024. The LX and EX-L come without them. As we read Honda's 2026 page, it lists "
-           "roof rails on the Sport, TrailSport and Touring and not on the EX-L; we could not read every other "
-           "trim reliably. For a Black Edition, a Touring Blackout or any 2025 or 2026 Pilot, look at the roof. "
+           "roof rails on the TrailSport and Touring and not on the EX-L; we could not read the other "
+           "trims reliably. For a Black Edition, a Touring Blackout or any 2025 or 2026 Pilot, look at the roof. "
            "Rails that run front to back take a raised-rail crossbar kit. A smooth roof takes a clamp kit that "
            "hooks into the door openings.\n\n"
            "**The crossbars.** The guide names three raised-rail "
@@ -220,8 +222,7 @@ ARTICLE = {
   {"h": "Towing: who already has a receiver, the rating by drivetrain and tongue weight",
    "body": "**The receiver.** This site's vehicle data records a Class III hitch with a 2 in receiver for this "
            "generation. That describes the TrailSport: Honda's Info Center says it comes standard with an "
-           "integrated Class III trailer hitch, and the hitch guide notes that Honda mounts it behind the "
-           "full-size spare. For other trims, Honda's Info Center says towing accessories are available for "
+           "integrated Class III trailer hitch. For other trims, Honda's Info Center says towing accessories are available for "
            "installation at dealerships, so a used Pilot may or may not have a receiver.\n\n"
            "**The rating.** Honda rates the Pilot at **5,000 lb with all-wheel drive and 3,500 lb with two-wheel "
            "drive**, and the vehicle data matches. Honda recommends premium unleaded fuel when towing more than "

@@ -5,6 +5,7 @@ plus Honda Info Center (rails by trim, 165 lb roof figure) and The Rack Shop. Bo
 part is which trims have rails (Sport, TrailSport, Touring, Elite) vs bare-roof LX/EX-L, the 165 lb roof figure,
 crossbar spread and liftgate clearance. Note: 003_vehicles.sql says rails only on TrailSport/Elite; Honda lists four trims.
 Source fixes 2026-10-04: box weight range corrected to 38.6–57.2 lb (no box here weighs 31 lb); the reference to a Pilot roof rack page that does not exist was replaced with what to buy for railed and bare-roof trims.
+Source fixes 2026-10-04 (round 2): the hitch carrier FAQ and the verdict no longer imply every Pilot has a 2 in receiver (Honda Info Center: integrated Class III trailer hitch standard on the TrailSport, towing accessories dealer-installed otherwise); FWD reworded to two-wheel drive (Honda says 2WD) with the 3,500 and 5,000 lb figures attributed to Honda; the last FAQ reference to a Pilot roof rack page (none exists) was replaced; trim rows now carry model years (Black Edition from 2025 per Wikipedia, Touring Blackout on Honda's 2026 page); Honda towing page, Honda Pilot page and Wikipedia added to sources. The note above about 003_vehicles.sql is out of date: the vehicle row now matches Honda (rails on Sport, TrailSport, Touring, Elite).
 """
 
 KEY = ("honda", "pilot", "2023-present", "cargo-boxes")
@@ -15,7 +16,7 @@ META = ("Seven Yakima, Thule, Rhino-Rack, INNO and SportRack boxes for the 4th-g
 
 FAQ = [
  ("Which 2023–2026 Honda Pilot trims have roof rails?",
-  "Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and Elite for both the 2023 and 2024 Pilot. The LX and EX-L come without rails, so they need a bare-roof crossbar kit that clamps into the door openings before any box can go on. If you have a Black Edition or a later model year, look at the roof: rails that run front to back mean a raised-rail kit, and a smooth roof means a clamp kit. Crossbar listings for this generation often split exactly this way."),
+  "Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and Elite for both the 2023 and 2024 Pilot. The LX and EX-L come without rails, so they need a bare-roof crossbar kit that clamps into the door openings before any box can go on. The Info Center pages we read cover 2023 and 2024 only. If you have a 2025 or 2026 Pilot, including the Black Edition (added for 2025, per Wikipedia) or the Touring Blackout (on Honda's 2026 page), look at the roof: rails that run front to back mean a raised-rail kit, and a smooth roof means a clamp kit. Crossbar listings for this generation often split exactly this way."),
  ("What is the roof weight limit on a 2023–2026 Pilot?",
   "Honda says up to 165 lb of cargo can be carried on the roof rails using accessory crossbars. Treat that as the budget for everything above the rails: crossbars, the box itself and the gear inside. The boxes on this page weigh 38.6 to 57.2 lb, so after a set of bars you usually have roughly 90 to 120 lb for gear. Your owner's manual has the figure for your exact Pilot, and it wins over any crossbar listing that quotes a higher number."),
  ("What size cargo box fits a Honda Pilot?",
@@ -25,7 +26,7 @@ FAQ = [
  ("Can I put a cargo box on a Pilot LX or EX-L?",
   "Yes, once crossbars are on. The LX and EX-L have no factory rails, so raised-rail bars (such as kits listed for the Sport, TrailSport, Touring and Elite) will not mount. You need a bare-roof kit whose feet clamp into the door openings and that is listed for the 2023–2026 Pilot without rails. Check that kit's weight rating and crossbar spread before choosing a box, because clamp kits often have limited spread."),
  ("Do I need Honda's own crossbars for a cargo box?",
-  "No. Honda sells accessory crossbars for this Pilot (part 08L04-T90-100), and aftermarket kits from Yakima, Thule and budget brands fit the raised rails too. The Rack Shop lists a Yakima TimberLine kit for the railed 2023–2025 Pilot with a 165 lb rating. A box clamps to any of them, so pick bars on fit, rating, spread and noise. Our Pilot roof rack page lists fit-checked bars."),
+  "No. Honda sells accessory crossbars for this Pilot (part 08L04-T90-100), and aftermarket kits from Yakima, Thule and budget brands fit the raised rails too. The Rack Shop lists a Yakima TimberLine kit for the railed 2023–2025 Pilot with a 165 lb rating. A box clamps to any of them, so pick bars on fit, rating, spread and noise. Buy bars whose listing names your trim, or a bare-roof clamp kit for the LX and EX-L."),
  ("How far apart should the crossbars be for these boxes?",
   "Each box publishes its own range. Yakima lists 24–36 in for the GrandTour 16 and 24–35.5 in for the CBX 16. Rhino-Rack gives 620–930 mm (about 24.4–36.6 in) for the MasterFit 440L, etrailer gives 21-13/16 to 36-9/16 in for the Thule Motion 3, and the SportRack Vista XL mounts only at 25-7/8, 27-7/8 or 29-7/8 in. Set your bars inside the range before you lift the box on."),
  ("Can I carry a cargo box and bikes on a Pilot roof?",
@@ -33,7 +34,7 @@ FAQ = [
  ("Will a roof box fit in my garage with a Pilot?",
   "Measure before the first trip home. The boxes on this page add 13-3/4 in (INNO Wedge Plus), 15 in (CBX 16), about 17 to 18 in (MasterFit 440L, GrandTour 16, Motion 3 XXL) or 19 in (SportRack Vista XL) on top of the crossbars. Measure the Pilot with bars fitted, add the box height, and compare it with your garage door opening. The TrailSport's lifted suspension adds a little height too."),
  ("Is a roof box or a hitch cargo carrier better on a Pilot?",
-  "Our fitment data lists a 2 in receiver on the 4th-gen Pilot with a 5,000 lb tow rating on AWD models and 3,500 lb on FWD, so a hitch carrier is a real option for heavy items like coolers and bins. A roof box is better for soft, bulky gear, locks, keeps the rear camera clear and leaves the liftgate usable. Many three-row families use both: the box for bags, the hitch carrier for heavy things."),
+  "It depends on whether your Pilot has a receiver. Honda's Info Center says only the TrailSport comes standard with an integrated Class III trailer hitch; on other trims, towing accessories are installed at dealerships, so look under the rear bumper. Honda rates the Pilot to tow 5,000 lb with all-wheel drive and 3,500 lb with two-wheel drive. With a receiver fitted, a hitch carrier is a real option for heavy items like coolers and bins. A roof box is better for soft, bulky gear, locks, keeps the rear camera clear and leaves the liftgate usable. Many three-row families use both: the box for bags, the hitch carrier for heavy things."),
 ]
 
 ARTICLE = {
@@ -61,7 +62,7 @@ ARTICLE = {
   "rows": [
    ["Sport, TrailSport, Touring, Elite", "Raised side rails (standard, per Honda)", "Raised-rail bars listed for these trims (Honda 08L04-T90-100, Yakima TimberLine kit, budget bars)", "Every box here, once bars are set inside its spread range"],
    ["LX, EX-L", "Bare roof, no rails", "Bare-roof clamp kit listed for the Pilot without rails", "Check the clamp kit's spread and rating before choosing a box"],
-   ["Black Edition and later years", "Check your roof", "Rails front to back = raised-rail kit; smooth roof = clamp kit", "Same boxes"],
+   ["2025–2026 trims, incl. Black Edition (2025 on, per Wikipedia) and Touring Blackout (Honda's 2026 page)", "Check your roof", "Rails front to back = raised-rail kit; smooth roof = clamp kit", "Same boxes"],
    ["All 2023–2026", "Honda: up to 165 lb on the rails with accessory crossbars", "Weigh the bars", "Bars + box + gear under 165 lb or your manual's figure"],
   ],
  },
@@ -160,13 +161,16 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Get the right crossbars for your trim, then choose the Yakima GrandTour 16 for most Pilot families, the Rhino-Rack MasterFit 440L if weight matters most, or the SportRack Vista XL on a budget.",
-  "body": "On the fourth-gen Pilot, the roof sets two rules: Sport and up have rails while the LX and EX-L don't, and Honda's 165 lb figure covers bars, box and gear together. The GrandTour 16 fits those rules best for most families, with 16 cu ft in a 79 in shell and a 24–36 in spread that suits most bar kits. The Rhino-Rack MasterFit 440L gives nearly the same space at 38.6 lb, leaving the most weight for gear. The CBX 16 and INNO Wedge Plus are the low-profile choices for tight garages, the Thule Motion 3 XXL is the big box for a full crew packed light, and the SportRack Vista XL gives 18 cu ft for $449.95 if rear loading is acceptable.\n\nStart with the bars: a raised-rail kit for the railed trims or a door-frame clamp kit for the bare-roof LX and EX-L, confirmed in the maker's fit guide. For heavy gear, the Pilot's 2 in trailer hitch takes a hitch cargo carrier, and a set of all-weather floor liners protects the cabin from the wet gear that comes out of the box. The vehicle hub lists every fit-checked accessory for your Pilot.",
+  "body": "On the fourth-gen Pilot, the roof sets two rules: Sport and up have rails while the LX and EX-L don't, and Honda's 165 lb figure covers bars, box and gear together. The GrandTour 16 fits those rules best for most families, with 16 cu ft in a 79 in shell and a 24–36 in spread that suits most bar kits. The Rhino-Rack MasterFit 440L gives nearly the same space at 38.6 lb, leaving the most weight for gear. The CBX 16 and INNO Wedge Plus are the low-profile choices for tight garages, the Thule Motion 3 XXL is the big box for a full crew packed light, and the SportRack Vista XL gives 18 cu ft for $449.95 if rear loading is acceptable.\n\nStart with the bars: a raised-rail kit for the railed trims or a door-frame clamp kit for the bare-roof LX and EX-L, confirmed in the maker's fit guide. For heavy gear, a hitch cargo carrier is the other route. Honda fits a trailer hitch at the factory to the TrailSport only, so other trims need a dealer-installed or aftermarket receiver first. A set of all-weather floor liners protects the cabin from the wet gear that comes out of the box. The vehicle hub lists every fit-checked accessory for your Pilot.",
  },
  "sources": [
   ["2023 Pilot roof rails, trims and 165 lb figure (Honda Info Center)", "https://www.hondainfocenter.com/2023/Pilot/Feature-Guide/Exterior-Features/Roof-Rails/"],
   ["2024 Pilot roof rails (Honda Info Center)", "https://www.hondainfocenter.com/2024/Pilot/Feature-Guide/Exterior-Features/Roof-Rails/"],
   ["Yakima TimberLine rack for 2023–2025 Pilot with raised rails (The Rack Shop)", "https://therackshop.com/2023-2025-honda-pilot-w-raised-rails-yakima-crossbar-complete-roof-rack/"],
   ["Honda Pilot cross bars 08L04-T90-100 (Honda Automotive Parts)", "https://www.hondaautomotiveparts.com/oem-parts/honda-cross-bars-8l04t90100"],
+  ["2023 Pilot towing capacity and TrailSport trailer hitch (Honda Info Center)", "https://www.hondainfocenter.com/2023/Pilot/Feature-Guide/Engine-Chassis-Features/Towing-Capacity/"],
+  ["Honda Pilot, 2026 model shown: trims incl. Touring Blackout (Honda)", "https://automobiles.honda.com/pilot"],
+  ["Honda Pilot, fourth generation: trims by year (Wikipedia)", "https://en.wikipedia.org/wiki/Honda_Pilot"],
   ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],
   ["Yakima CBX 16 (Yakima)", "https://yakima.com/products/cbx-16"],
   ["Rhino-Rack MasterFit Roof Box 440L (Rhino-Rack)", "https://www.rhinorack.com/en-us/products/roof-racks/roof-boxes/roof-boxes/masterfit-roof-box-440l-black-_rmft440"],

@@ -23,7 +23,7 @@ liftgate, Hybrid XLE seating and 2026 all-wheel drive are left out; GA-K appears
 out and is not cited. The hitch guide's dealer towing page (Beaver Toyota) was not reopened and is not cited here;
 Toyota's own 2025 release carries the same 5,000 lb and 3,500 lb figures.
 Not verified, and worded as such in the text: the Highlander's roof load limit from any Toyota US document (165 lb
-is Toyota Canada's crossbar rating plus rack makers' ratings); which grades and years have roof rails, and whether
+is a Canadian Toyota dealer's crossbar listing plus rack makers' ratings); which grades and years have roof rails, and whether
 any L or LE is bare; the spread of Toyota's and BRIGHTLINES' bolt-in bars and of the clamp-on sets; second-row seating by grade for every
 year; whether any grade ships with a factory receiver, and the class and rating of Toyota's accessory receiver; the
 2020–2022 V6 tow rating from a Toyota document (the hitch guide says "commonly listed at 5,000 lb"); whether
@@ -33,6 +33,7 @@ the guide's "battery under the second-row seat"; SportRack Vista XL weight and l
 2025–2026 fit of listings whose titles stop at 2024 or 2025; and any fit on the fifth-generation Highlander.
 No Highlander guide exists for running boards or lighting; neither is ranked. Amazon URLs in the guides' source
 lists are not repeated here.
+Source fixes 2026-10-04 (round 2): "Toyota Canada" corrected to Toyota Customs, the parts department of a Toyota dealer in Edmonton, Canada (toyotacustoms.com is not Toyota Canada); AHG's 75 kg worded as the genuine-crossbar figure; Hybrid battery line now cites Toyota's 2025 release and no longer says it changes the second-row floor; a flush-versus-raised rail check added, to match the four guides.
 """
 
 KIND = "upgrades"
@@ -68,7 +69,7 @@ FAQ = [
   "racks for the 2023 Highlander, which suggests some left the factory bare. On a bare roof, rail bars have nothing to hold. You need a door-frame system such "
   "as Yakima's BaseLine, which etrailer lists at about $605–$774."),
  ("How much weight can the Highlander's roof carry with crossbars and a cargo box?",
-  "Plan around 165 lb for bars, box and gear together. That is the evenly distributed figure Toyota Canada lists "
+  "Plan around 165 lb for bars, box and gear together. That is the evenly distributed figure a Canadian Toyota dealer's parts store lists "
   "for Toyota's Highlander crossbars, and the rating etrailer and The Rack Shop give for Thule and Yakima "
   "systems. Two clamp-on sets print 220 and 260 lb, which are sellers' bar "
   "ratings. The guides found no separate roof figure published for this generation, so the owner's manual "
@@ -111,7 +112,7 @@ ARTICLE = {
   "**Count the second-row seats and read the badge.** Captain's chairs or a bench, and gas or Hybrid, decide the floor liner set; MAXPRO and LASFIT exclude the Hybrid.",
   "**It isn't a Grand Highlander.** That is a larger vehicle sold from the 2024 model year, with its own liners, crossbars and hitches.",
   "**Look at the roof before buying bars.** Listings name the XLE, XSE, Limited and Platinum as railed; none names the L or LE.",
-  "**Plan the roof around 165 lb.** That is Toyota Canada's crossbar rating, and it covers bars, cargo box and gear together.",
+  "**Plan the roof around 165 lb.** That is the rating listed for Toyota's crossbars, and it covers bars, cargo box and gear together.",
   "**No hitch raises the tow rating.** Toyota lists up to 5,000 lb for 2.4L turbo models and 3,500 lb for the Hybrid, and CURT's 13460 excludes the XSE.",
  ],
  "priority": [
@@ -183,8 +184,8 @@ ARTICLE = {
            "the LE has seating for eight, the Hybrid Platinum has second-row captain's chairs, and on some "
            "grades seven seats are standard with a bench optional. We could not map seating to every grade and "
            "year, so open the rear door and count.\n\n"
-           "**Powertrain.** The guide says the Highlander Hybrid's battery sits under the second-row seat, "
-           "which changes the second-row floor. That is why two sets in the table are gas only. Wikipedia says "
+           "**Powertrain.** Toyota's 2025 release says the Hybrid's battery is installed under the second-row seats. "
+           "We could not confirm what that changes in the floor, but two sets in the table are listed as gas only. Wikipedia says "
            "the Hybrid is available on every grade except the L and XSE, so look for the badge on the "
            "liftgate.\n\n"
            "**Rows.** The cabin has four zones: front, second row, third row and cargo. A two-row set plus "
@@ -204,7 +205,7 @@ ARTICLE = {
    "body": "**The rails.** The site's vehicle data records flush side rails on most trims and holds no roof "
            "load figure. etrailer classes the rails as flush-mounted with fixed mounting points. Richeer's "
            "listing says raised side rails and BRIGHTLINES' says flush side rails, so compare the mount in the "
-           "listing photos with your own rail.\n\n"
+           "listing photos with your own rail. A flush rail has no gap under it; a raised rail does.\n\n"
            "**Three ways to mount bars.**\n\n"
            "- **Clamp-on sets** grip the rail and cost about $80–$140. Measure the spread you end up with.\n"
            "- **Bolt-in bars** use the rails' preset points: Toyota's PT767-48200 and BRIGHTLINES' "
@@ -213,9 +214,9 @@ ARTICLE = {
            "only; have a dealer check an XSE or a Hybrid by VIN.\n"
            "- **Fixed-point systems** from Thule and Yakima cost about $695–$705 on etrailer. The Rack Shop "
            "lists a 31 in maximum spread for its Thule Fixpoint kit.\n\n"
-           "**The limit.** Toyota Canada lists 75 kg (165 lb), evenly distributed, for Toyota's crossbars. "
+           "**The limit.** Toyota Customs, a Canadian Toyota dealer's parts store, lists 75 kg (165 lb), evenly distributed, for Toyota's crossbars. "
            "etrailer rates the Thule WingBar Evo and Yakima SkyLine systems at 165 lb, and AHG Auto Service "
-           "quotes 75 kg for 2020–2023 models. BRIGHTLINES lists 154 lb. The 220 lb and 260 lb on two Amazon "
+           "gives the same 75 kg for the genuine bars on 2020–2023 models. BRIGHTLINES lists 154 lb. The 220 lb and 260 lb on two Amazon "
            "sets are sellers' bar ratings. The guides found no separate roof figure for this generation, so "
            "use the lowest number and check the owner's manual.\n\n"
            "**Liftgate.** A long box set too far back meets the liftgate. Thule gives a front-clearance figure "
@@ -300,7 +301,7 @@ ARTICLE = {
  "avoid": [
   {"h": "A listing that says Grand Highlander, or both", "body": "The Grand Highlander is a larger vehicle with its own liners, crossbars and hitches. Only a cargo box and Tekonsha's 118827 harness are listed across both."},
   {"h": "A gas-only or wrong-layout liner set", "body": "MAXPRO and LASFIT exclude the Hybrid, LASFIT is cut for the 8-seat bench, and the generic carpet-style set is for 7-seat captain's chairs."},
-  {"h": "Loading the roof to the printed bar rating", "body": "A 260 lb bar doesn't change the roof. Toyota Canada, Thule and Yakima figures are 165 lb, and bars, box and gear all count against it."},
+  {"h": "Loading the roof to the printed bar rating", "body": "A 260 lb bar doesn't change the roof. The figures listed for Toyota's, Thule's and Yakima's bars are 165 lb, and bars, box and gear all count against it."},
   {"h": "A hitch bought without reading the exclusion line", "body": "CURT's 13460 excludes the XSE and Reese's 84439 excludes 2020–2023 twin-tip exhaust. A 6,000 lb hitch on a 3,500 lb Hybrid still tows 3,500 lb."},
  ],
  "verdict": {
@@ -320,10 +321,10 @@ ARTICLE = {
   ["2025 Toyota Highlander release: 5,000 lb turbo and 3,500 lb Hybrid towing, seating, grades (Toyota USA Newsroom)", "https://pressroom.toyota.com/celebrate-the-best-of-toyota-highlander-with-limited-25th-edition-hybrid/"],
   ["Toyota Tow Hitch Receiver PT228-48174 (Toyota Parts)", "https://autoparts.toyota.com/products/product/tow-hitch-receiver-pt22848174"],
   ["Toyota Roof Rack Cross Bars PT767-48200 (Toyota Parts)", "https://autoparts.toyota.com/products/product/roof-rack-cross-bars-xle-limited-platinum-pt76748200"],
-  ["Roof Rack Cross Bars 2020–2025 Highlander/Hybrid, 165 lb rating (Toyota Customs, Canada)", "https://toyotacustoms.com/products/roof-rack-cross-bars"],
+  ["Roof Rack Cross Bars 2020–2025 Highlander/Hybrid, 165 lb rating (Toyota Customs, parts department of Toyota Northwest Edmonton, Canada)", "https://toyotacustoms.com/products/roof-rack-cross-bars"],
   ["2023 Toyota Highlander roof rack systems by roof type (etrailer)", "https://www.etrailer.com/roof-2023_Toyota_Highlander.htm"],
   ["Thule crossbar kit for 2020–2026 Highlander flush rails, 165 lb / 31 in spread (The Rack Shop)", "https://therackshop.com/2020-2025-toyota-highlander-w-flush-rails-thule-crossbar-complete-roof-rack/"],
-  ["Highlander roof rack weight limits by generation (AHG Auto Service)", "https://www.ahgautoservice.com/what-is-the-weight-limit-for-the-roof-rack-on-a-toyota-highlander/"],
+  ["Highlander crossbar and roof rack weight limits by generation (AHG Auto Service, Australia)", "https://www.ahgautoservice.com/what-is-the-weight-limit-for-the-roof-rack-on-a-toyota-highlander/"],
   ["2023 Highlander hitch comparison and install notes (etrailer)", "https://www.etrailer.com/hitch-2023_Toyota_Highlander.htm"],
   ["CURT 13460 Class 3 hitch, Highlander (CURT)", "https://www.curtmfg.com/part/13460"],
   ["B&W BW62PR Highlander hitch (etrailer)", "https://www.etrailer.com/Trailer-Hitch/B-and-W/BW62PR.html"],

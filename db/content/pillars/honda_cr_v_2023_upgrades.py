@@ -33,6 +33,7 @@ every clamp kit; clamp kit prices for 2024-2026 cars (etrailer's figures are for
 crossbar kits; the Vista XL's weight; crossbar spread for the Pulse 2 M and Wedge Plus; Honda's tow figures for 2024
 and 2025 from a Honda table; and 2027 fit of any part. No CR-V guide exists for roof racks, running boards, bike racks
 or lighting; none are ranked.
+Source fixes 2026-10-04 (round 2): the TrailSport FAQ no longer says the floor liner guide calls the cabin floor shared; it now matches that guide's wording (listings split by model year and powertrain, not by trim). The stored hitch_class is now 3 with a 2 in receiver, which describes the aftermarket hitches as this page already words them; the dealer's Class I wording is still used for Honda's hitch.
 """
 
 KIND = "upgrades"
@@ -79,7 +80,7 @@ FAQ = [
  ("Does the 2026 CR-V TrailSport need different parts?",
   "Treat it as a hybrid with all-wheel drive. Honda's May 2025 release describes the TrailSport Hybrid as a new "
   "2026 trim with the two-motor hybrid system, standard all-wheel drive and a power tailgate. Honda's 2026 table "
-  "lists it at 1,000 lb of towing, with black roof rails. The floor liner guide says it shares the cabin floor, so "
+  "lists it at 1,000 lb of towing, with black roof rails. The listings in the floor liner guide split by model year and powertrain, not by trim, so "
   "match gas or hybrid for the cargo liner. Some listings stop at "
   "2025, including AutoBeeDen's hitch and Autocessking's liners, so confirm 2026 with the seller."),
  ("Will a trailer hitch stop the CR-V's hands-free tailgate from working?",

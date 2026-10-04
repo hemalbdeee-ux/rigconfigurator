@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2020–2025 Hyundai Palisade (1st gen, LX2).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04 (round 2): Telluride wording changed from "share a platform" to "related" (Wikipedia's Palisade page lists the Telluride as related; no platform statement was confirmed there). Nothing else changed.
 """
 
 KEY = ("hyundai", "palisade", "2020-2025", "floor-mats")
@@ -14,7 +15,7 @@ FAQ = [
  ("What's the difference between 7-seat and 8-seat Palisade liners?",
   "The second row. Seven-seat Palisades have two captain's chairs; eight-seat Palisades have a bench. TOUGHPRO's set is for buckets. RILLEC lists both 7 and 8 seat, and Megiteller lists bench and bucket layouts. Check the second-row piece against your vehicle."),
  ("Do Telluride liners fit the Palisade?",
-  "Don't assume so. The two share a platform, but most makers sell separate sets because the cabins differ. Buy liners that name the Palisade."),
+  "Don't assume so. The two are related vehicles, but most makers sell separate sets because the cabins differ. Buy liners that name the Palisade."),
  ("Did the 2023 facelift change the floor?",
   "The 2023 refresh changed styling and interior details, but most listings here run 2020–2025, which indicates the floor carried over. Husky's 95711 title stops at 2024, so confirm a 2025 with Husky."),
  ("Is Husky's cargo liner worth adding?",
@@ -147,7 +148,7 @@ ARTICLE = {
  "avoid": [
   {"h": "2026 liners on a 1st-gen", "body": "The redesigned Palisade has a different floor."},
   {"h": "Wrong second-row layout", "body": "Captain's chairs and bench take different pieces."},
-  {"h": "Telluride listings", "body": "Shared platform, different cabin."},
+  {"h": "Telluride listings", "body": "Related vehicle, different cabin."},
   {"h": "Stacking mats", "body": "Remove the factory mat first."},
  ],
  "verdict": {

@@ -3,8 +3,8 @@ Hub page: ranks the four published Telluride category guides and links to them. 
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields or price
 text in those guides (etrailer prices for the Thule, Yakima and Malone crossbar systems in the roof rack guide, the
 harness bands in the hitch guide's FITS); vehicle facts from db/migrations/003_vehicles.sql (SUV, year_to 2025,
-flush-rails, no stored roof load figure, hitch class 3 with a 2 in receiver, 5,000 lb, three rows, rails attr "flush
-side rails on LX/S/EX/SX/SX-P; raised rails with a gap on X-Line/X-Pro (2023+)", fit_note "Kia skipped the 2026
+flush-rails, roof_load_lb 220, hitch class 3 with a 2 in receiver, 5,000 lb, three rows, rails attr "flush
+side rails on LX/S/EX/SX/SX-P; raised, bridge-type rails with a gap on X-Line/X-Pro (2023+)", fit_note "Kia skipped the 2026
 model year; the next generation is the 2027 Telluride"), the four guides and their sources, and eight pages opened
 for this page on 2026-10-04: Wikipedia's Kia Telluride page (2026 model year entirely skipped; second generation
 revealed online on November 10, 2025, deliveries from early 2026 for the 2027 model year; production from February
@@ -23,8 +23,8 @@ the feet can be rated lower than the roof) and Kia of Cerritos' towing page (X-P
 2025, other trims 5,000 lb; 2022 maximum 5,000 lb). That dealer page also describes the hitch as an accessory and
 lists tow mode and self-leveling rear suspension as standard on X-Line and X-Pro trims for 2024; both were read as
 a summary, not a quote, and are not printed on this page.
-Model-year span: three of the four guides are titled 2020–2025 and the floor liner guide is titled 2020–2026; this
-page uses 2020–2025, which matches the vehicle data and Wikipedia.
+Model-year span: all four guides are titled 2020–2025 (the floor liner guide was corrected from 2020–2026 on
+2026-10-04); this page uses 2020–2025, which matches the vehicle data and Wikipedia.
 Manual caveat: the owner's manual pages we opened sit under Kia's "ON" directory (index title
 "ONa_STD_PE_NA_enus_24MY") and do not print the model name; the floor liner guide's docstring gives ON as the
 Telluride's code and the 220 lb figure matches the etrailer owner quote. The text calls it Kia's 2024 owner's manual
@@ -35,6 +35,7 @@ with a receiver; ratings of Kia's genuine hitch; seating by trim for years other
 models have a console; 2025 fit of listings titled to 2023 or 2024; which trims the WeiSen 2023–2025 harness fits
 beyond LX and S; SportRack Vista XL weight and load rating; fit of any first-generation part on the 2027 Telluride.
 No Telluride guide exists for running boards, lighting or bike racks; none are ranked.
+Source fixes 2026-10-04 (round 2): docstring updated for the corrected vehicle row (roof_load_lb 220, rails attr) and the floor liner guide's corrected 2020–2025 title; "the figure covers bars, box and cargo" reworded, because the manual page says only "the maximum weight that can be loaded onto the roof rack"; the 29.5 in spread worded as etrailer's install, with "measure your own bars"; "X-Line and X-Pro trims share the cabin floor" reworded to what the floor liner guide's listings show.
 """
 
 KIND = "upgrades"
@@ -212,7 +213,7 @@ ARTICLE = {
            "lowest one applies.\n\n"
            "**The roof figure.** The roof rack page of Kia's 2024 owner's manual prints **220 lb (100 kg), evenly "
            "distributed**, and a 2020 Telluride owner quoted the same figure to etrailer. We read the 2024 manual "
-           "only, so check the page in yours. The figure covers bars, box and cargo together.\n\n"
+           "only, so check the page in yours. Count bars, box and cargo against it.\n\n"
            "**The bar rating.** The Thule, Yakima and Malone systems on etrailer's Telluride list are rated at "
            "**165 lb**. etrailer's expert explains the gap: the roof may be rated for 220 lb, but the feet that "
            "attach the bars can be rated for less, and that becomes the limit for the whole system. Amazon sets "
@@ -223,10 +224,11 @@ ARTICLE = {
            "- **Yakima GrandTour 16:** 51.5 lb, leaving 113.5 lb.\n"
            "- **Thule Motion 3 XXL:** 57.2 lb, leaving 107.8 lb, well under the 165 lb Thule rates the box for.\n"
            "- **SportRack Vista XL:** weight and load rating not published; ask the seller.\n\n"
-           "**Spread.** etrailer lists about 29.5 in center to center for Thule's WingBar Evo flush-rail system on "
-           "a 2023 Telluride, and The Rack Shop lists a 27.5 in maximum for its Thule flush-rail setup. The SkyBox "
-           "16 (24–34.5 in), GrandTour 16 (24–36 in) and Motion 3 XXL (21-13/16 to 36-9/16 in, per etrailer) fit "
-           "either. The Vista XL mounts at 25-7/8, 27-7/8 or 29-7/8 in. The DeepSpace 10 needs 32–46 in.\n\n"
+           "**Spread.** etrailer's install of Thule's WingBar Evo flush-rail system on a 2023 Telluride shows "
+           "about 29.5 in center to center, and The Rack Shop lists a 27.5 in maximum for its Thule flush-rail "
+           "setup. The SkyBox 16 (24–34.5 in), GrandTour 16 (24–36 in) and Motion 3 XXL (21-13/16 to 36-9/16 in, "
+           "per etrailer) fit either. The Vista XL mounts at 25-7/8, 27-7/8 or 29-7/8 in. The DeepSpace 10 needs "
+           "32–46 in. Measure your own bars center to center.\n\n"
            "**Liftgate and sunroof.** The Motion 3 XXL is 91.3 in long. Mount any box forward and open the "
            "liftgate slowly the first time. Kia's manual says not to operate the sunroof with cargo on the roof "
            "rack."},
@@ -271,8 +273,8 @@ ARTICLE = {
            "table covers 2023 only and doesn't say which seven-seat models have a console, so open the rear door "
            "and look.\n\n"
            "Then decide how many zones to cover. WeatherTech's and TOUGHPRO's sets cover three rows, Smartliner's "
-           "adds a cargo liner behind the third row, and Husky's 95691 stops at the second row. X-Line and X-Pro "
-           "trims share the cabin floor, so they take the same liners."},
+           "adds a cargo liner behind the third row, and Husky's 95691 stops at the second row. No liner listing "
+           "in the guide separates the X-Line or X-Pro, so buy by seating layout on those trims too."},
   {"h": "Model years: the 2023 refresh, the skipped 2026 and the redesigned 2027 Telluride",
    "body": "All four guides treat the first generation as one body from 2020 through 2025. Three kinds of listing "
            "blur that.\n\n"
@@ -291,7 +293,7 @@ ARTICLE = {
  ],
  "avoid": [
   {"h": "Crossbars bought by year instead of by rail", "body": "A 2023 EX and a 2023 X-Line need different bars. Look for a gap under the rail, then match the trim names in the listing."},
-  {"h": "Loading the roof to 220 lb, or to a 300 lb bar rating", "body": "Kia's manual figure covers bars, box and cargo together, and brand-name Telluride bar systems are rated at 165 lb. The lowest number applies."},
+  {"h": "Loading the roof to 220 lb, or to a 300 lb bar rating", "body": "Count bars, box and cargo against Kia's manual figure, and brand-name Telluride bar systems are rated at 165 lb. The lowest number applies."},
   {"h": "A 2020–2022 harness on a 2023–2025 Telluride", "body": "CURT's 56420 lists 2020–2022 only. And a hitch doesn't add rating: an X-Pro with a 5,000 lb hitch is a 5,000 lb setup."},
   {"h": "Palisade liners and 2027 listings", "body": "Palisade liners are cut for a different cabin, and the 2027 Telluride is a new generation. Buy parts that name the 2020–2025 Telluride."},
  ],

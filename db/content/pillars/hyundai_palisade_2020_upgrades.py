@@ -35,6 +35,7 @@ for factory crossbars); the SkyBox NX Skinny's spread; the MasterFit 440's price
 Telluride interchange beyond what each maker lists; and 2026 Palisade fit of any part. The Palisade Forums thread
 cited by the cargo box guide (220 lb from Hyundai's accessory crossbar guide) was not opened for this page and is
 not used or cited here. No Palisade guide exists for other categories; none are ranked.
+Source fixes 2026-10-04 (round 2): no page text changed. The notes above are superseded in three places: the roof rack and cargo box guides now cite Hyundai's 220 lb roof rails load capacity themselves; 003_vehicles.sql now stores roof_load_lb 220; and the Palisade Forums thread was opened in round 2 (owners quote "Never exceed crossbars load limit of 220 LBS / 100 KG" from Hyundai's accessory crossbar installation guide).
 """
 
 KIND = "upgrades"

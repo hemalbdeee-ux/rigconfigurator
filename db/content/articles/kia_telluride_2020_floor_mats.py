@@ -1,12 +1,13 @@
-"""Long-form article — Best Floor Mats & Liners for 2020–2026 Kia Telluride (1st gen, ON).
+"""Long-form article — Best Floor Mats & Liners for 2020–2025 Kia Telluride (1st gen, ON).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04 (round 2): model-year span corrected from 2020–2026 to 2020–2025 in TITLE, META, dek, method, FAQ, fit_table, types_table, picks and verdict (Wikipedia: 2026 model year skipped, second generation revealed November 10, 2025 for the 2027 model year; Kia's 2027 press kit: longer wheelbase and body); "confirm 2026" removed from the Husky, Smartliner and SUPER LINER picks; X-Line and X-Pro dated to the 2023 model year (Kia 2023 press kit) and the "same floor" claim reworded to what the listings show; no listing title that runs to 2026 was found for these five sets, so none is quoted.
 """
 
 KEY = ("kia", "telluride", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2026 Kia Telluride: 5 Three-Row Picks From WeatherTech to TOUGHPRO"
-META = ("Five Telluride floor liner sets from WeatherTech, Husky, Smartliner, TOUGHPRO and SUPER LINER, matched to "
-        "7- vs 8-seat layouts and the second-row console.")
+TITLE = "Best Floor Liners for 2020–2025 Kia Telluride: 5 Three-Row Picks From WeatherTech to TOUGHPRO"
+META = ("Five 2020–2025 Telluride floor liner sets from WeatherTech, Husky, Smartliner, TOUGHPRO and SUPER LINER, "
+        "matched to 7- vs 8-seat layouts and the second-row console.")
 
 FAQ = [
  ("Do 7-seat and 8-seat Tellurides take the same liners?",
@@ -14,7 +15,7 @@ FAQ = [
  ("Do Palisade liners fit the Telluride?",
   "Don't assume so. The Telluride and Palisade share a platform, and some front-row parts overlap, but most makers sell separate sets because the cabins differ. Buy liners that name the Telluride."),
  ("Did the 2023 facelift change the Telluride's floor?",
-  "The 2023 refresh changed styling, the dash screens and added the X-Pro trims, but the listings here span 2020 to 2025 or 2026, which indicates the floor carried over. A few stop at 2024 or 2025; confirm later years with the seller."),
+  "The 2023 refresh changed styling and the dash screens and added the X-Line and X-Pro trims. The dated listings here run from 2020 to 2024 or 2025, across the refresh, which indicates the floor carried over. SUPER LINER's title stops at 2024, so confirm a 2025 with the seller. Kia built no 2026 Telluride, so 2025 is the last model year to check."),
  ("Is WeatherTech's full set worth the price?",
   "It covers all three rows in one order with WeatherTech's laser-measured fit and lifetime limited warranty, according to WeatherTech. It's the most expensive option here. If the third row rarely gets used, Husky's front and second-row set plus a third-row add-on can cost less."),
  ("What about the Telluride's second-row console?",
@@ -24,11 +25,11 @@ FAQ = [
  ("How should the driver liner sit?",
   "Flat on the carpet, hooked onto Kia's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
  ("Do X-Line and X-Pro trims need different liners?",
-  "No. X-Line and X-Pro change ground clearance, tires and styling, not the cabin floor. Seating layout is what matters."),
+  "No listing here separates them. Kia added the X-Line and X-Pro for the 2023 model year, and its 2023 press kit lists higher ground clearance, raised roof rails, their own wheels and all-terrain tires on the X-Pro. Nothing we read there mentions a different cabin floor. Seating layout is what matters."),
  ("How do I clean three-row liners?",
   "Pull each row, shake them out, rinse and scrub with mild soap, and dry before reinstalling. Skip silicone protectants."),
- ("Will these fit a next-generation Telluride?",
-  "Liners on this page are for the first-generation Telluride. If Kia releases a redesigned Telluride, buy liners that name that generation; a new platform or cabin usually means new liners."),
+ ("Will these fit the 2027 Telluride, and is there a 2026?",
+  "Assume they won't. Liners on this page are for the first-generation Telluride, model years 2020–2025. Kia skipped the 2026 model year, and the second generation was revealed on November 10, 2025 for the 2027 model year, according to Wikipedia. Kia's 2027 press kit gives it a 116.9 in wheelbase, 2.7 in longer than before, so don't assume the floor is the same. Buy liners that name 2027. If a first-generation listing's title runs to 2026, it names a model year Kia did not build; treat it as a 2020–2025 part and confirm with the seller."),
  ("Can I mix liner brands row by row?",
   "Yes. Each row is a separate piece, and nothing requires them to match. A common approach is Husky's front and second-row liners for their walls and warranty, plus a cheaper third-row piece and a cargo liner from another brand. Make sure every piece names the Telluride and your second-row layout, and check that the edges don't overlap awkwardly at the seat rails."),
  ("How much do Telluride floor liners cost?",
@@ -40,10 +41,10 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Five three-row liner options for the first-generation Telluride, from WeatherTech's full set to TOUGHPRO's made-in-USA rubber. The second row decides fit: captain's chairs with a console, captain's chairs without one, or a bench.",
+ "dek": "Five three-row liner options for the first-generation Telluride, model years 2020–2025, from WeatherTech's full set to TOUGHPRO's made-in-USA rubber. The second row decides fit: captain's chairs with a console, captain's chairs without one, or a bench.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
- "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2026 Telluride (seating, console, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. WeatherTech, Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2020–2025 Telluride (seating, console, rows covered), on published maker specs (material, origin, warranty) and on coverage in listing photos. WeatherTech, Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Second row decides fit.** Captain's chairs with or without a console, or a bench.",
   "**WeatherTech covers all three rows.** Laser-measured, lifetime limited warranty.",
@@ -59,13 +60,14 @@ ARTICLE = {
   {"asin": "B0B1ZLL74S", "role": "Best for no-console buckets", "why": "SUPER LINER 3-row for captain's chairs without console"},
  ],
  "fit_table": {
-  "caption": "2020–2026 Telluride: second-row layouts",
+  "caption": "2020–2025 Telluride: second-row layouts",
   "head": ["Layout", "Seats", "Liner note"],
   "rows": [
    ["Captain's chairs, open walkway", "7", "SUPER LINER (no console); confirm others"],
    ["Captain's chairs with console", "7", "Confirm with seller; WeatherTech fit tool"],
    ["Second-row bench", "8", "Confirm second-row piece"],
-   ["Facelift", "2023+", "Floor carried over; check year ranges"],
+   ["2023 refresh", "2023–2025", "Dated listings run 2020 to 2024 or 2025; check the years"],
+   ["Model years", "2020–2025", "Kia built no 2026 model; the 2027 is a new generation"],
   ],
  },
  "look_for": [
@@ -92,7 +94,7 @@ ARTICLE = {
   ],
  },
  "types_table": {
-  "caption": "Floor protection for the 2020–2026 Telluride",
+  "caption": "Floor protection for the 2020–2025 Telluride",
   "head": ["Type", "Example", "Coverage", "Walls", "Price band", "Best for"],
   "rows": [
    ["Laser-measured full set", "WeatherTech", "3 rows", "High", "$280–$360", "Full coverage, one brand"],
@@ -111,14 +113,14 @@ ARTICLE = {
    "specs": [["Brand", "WeatherTech"], ["Rows", "1st–3rd"], ["Fits", "Kia Telluride (confirm seating)"], ["Fit method", "Laser-measured"], ["Warranty", "Lifetime limited"], ["Price band", "$280–$360"]]},
   {"asin": "B081W2SH36", "role": "Best made in USA", "price": "$130–$170",
    "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs", "Front and 2nd row, 3 pieces", "Lists 2020–2025"],
-   "cons": ["No third row or cargo", "Title stops at 2025; confirm 2026", "Confirm second-row layout"],
-   "body": "Husky's WeatherBeater 95691 covers the front and second row of the 2020–2025 Telluride. Husky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks.\n\nThe front and second row get the most traffic in a family SUV, so this set protects the zones that matter most for less than half of WeatherTech's full set. The firm walls hold snowmelt well.\n\nAdd a third-row liner (Smartliner and TOUGHPRO both include one in their sets, and Husky sells separate third-row parts). Confirm your second-row layout and a 2026 model year with Husky's fit tool before ordering. Husky's StayPut nibs grip the Telluride's carpet firmly, and the one-piece second-row liner covers the whole rear floor on bench-seat vehicles. On captain's-chair vehicles, check how Husky's second-row piece treats the walkway or console area, because that's where the layouts differ.",
+   "cons": ["No third row or cargo", "Title runs 2020–2025; not for the 2027 Telluride", "Confirm second-row layout"],
+   "body": "Husky's WeatherBeater 95691 covers the front and second row of the 2020–2025 Telluride. Husky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks.\n\nThe front and second row get the most traffic in a family SUV, so this set protects the zones that matter most for less than half of WeatherTech's full set. The firm walls hold snowmelt well.\n\nAdd a third-row liner (Smartliner and TOUGHPRO both include one in their sets, and Husky sells separate third-row parts). Confirm your second-row layout with Husky's fit tool before ordering. The title's 2020–2025 range is the whole first generation, since Kia built no 2026 Telluride. Husky's StayPut nibs grip the Telluride's carpet firmly, and the one-piece second-row liner covers the whole rear floor on bench-seat vehicles. On captain's-chair vehicles, check how Husky's second-row piece treats the walkway or console area, because that's where the layouts differ.",
    "who": "Owners who want US-made liners where the mud lands.",
    "specs": [["Part #", "Husky 95691"], ["Pieces", "3"], ["Fits", "2020–2025 Telluride, front + 2nd row"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
   {"asin": "B08258HJGQ", "role": "Best with cargo", "price": "$180–$230",
    "pros": ["Three rows plus cargo liner", "One-piece, 100% recyclable TPE", "Limited lifetime warranty", "No PVC, latex or BPA", "Covers transmission tunnel and under-seat areas, per Smartliner"],
-   "cons": ["Title stops at 2025", "Confirm second-row layout", "Walls lower than Husky's"],
-   "body": "Smartliner's Telluride set covers all three rows plus a cargo liner behind the third row, for 2020–2025. Smartliner says its liners are molded from one piece of heavy-duty, 100% recyclable TPE, free of PVC, latex and BPA, and covered by a limited lifetime warranty; the company is based in Apopka, Florida.\n\nFor families who haul sports gear or groceries, the cargo liner is what sets it apart from WeatherTech's set at a lower price. You get four zones covered with a written lifetime warranty.\n\nConfirm your second-row layout and a 2026 model year with the seller before ordering. The cargo liner sits behind the upright third row. If you often fold the third row flat for luggage, remember that the folded seatbacks aren't covered; a separate seatback cover or a blanket protects them.",
+   "cons": ["Not listed for the 2027 Telluride", "Confirm second-row layout", "Walls lower than Husky's"],
+   "body": "Smartliner's Telluride set covers all three rows plus a cargo liner behind the third row, for 2020–2025. Smartliner says its liners are molded from one piece of heavy-duty, 100% recyclable TPE, free of PVC, latex and BPA, and covered by a limited lifetime warranty; the company is based in Apopka, Florida.\n\nFor families who haul sports gear or groceries, the cargo liner is what sets it apart from WeatherTech's set at a lower price. You get four zones covered with a written lifetime warranty.\n\nConfirm your second-row layout with the seller before ordering. The 2020–2025 range in the title covers every first-generation model year; Kia built no 2026 Telluride. The cargo liner sits behind the upright third row. If you often fold the third row flat for luggage, remember that the folded seatbacks aren't covered; a separate seatback cover or a blanket protects them.",
    "who": "Families who want every zone covered with a warranty.",
    "specs": [["Covers", "3 rows + cargo"], ["Fits", "2020–2025 Telluride"], ["Material", "One-piece TPE"], ["Warranty", "Limited lifetime"], ["Company", "Apopka, Florida"]]},
   {"asin": "B07RN1362T", "role": "Best rubber", "price": "$110–$150",
@@ -130,9 +132,9 @@ ARTICLE = {
   {"asin": "B0B1ZLL74S", "role": "Best for no-console buckets", "price": "$130–$170",
    "pros": ["Cut for captain's chairs without a console", "3-row liner set", "TPE with raised edges", "Covers the walkway to the third row", "Mid-range price"],
    "cons": ["Only for no-console buckets", "Title stops at 2024", "No published warranty"],
-   "body": "SUPER LINER's 3-row set is listed for 2020–2024 Telluride with second-row buckets and no center console. That's a narrow fit, and if it's yours, the second-row piece bridges the walkway where third-row passengers step through.\n\nIt's a TPE liner with raised edges. SUPER LINER doesn't publish warranty terms we could check, and the title stops at 2024, so confirm a 2025 or 2026 with the seller.\n\nFor a seven-seat Telluride with the open walkway, it's a precise fit at a fair price. Look at the listing photos of the second-row piece and compare them with your walkway before ordering. If your Telluride has a console between the chairs, this isn't the set; ask WeatherTech or Husky for a console-specific piece.",
+   "body": "SUPER LINER's 3-row set is listed for 2020–2024 Telluride with second-row buckets and no center console. That's a narrow fit, and if it's yours, the second-row piece bridges the walkway where third-row passengers step through.\n\nIt's a TPE liner with raised edges. SUPER LINER doesn't publish warranty terms we could check, and the title stops at 2024, so confirm a 2025 with the seller.\n\nFor a seven-seat Telluride with the open walkway, it's a precise fit at a fair price. Look at the listing photos of the second-row piece and compare them with your walkway before ordering. If your Telluride has a console between the chairs, this isn't the set; ask WeatherTech or Husky for a console-specific piece.",
    "who": "Seven-seat owners with an open walkway between the captain's chairs.",
-   "specs": [["Rows", "3"], ["Fits", "2020–2024 Telluride, 2nd-row buckets without console"], ["Material", "TPE"], ["2025+", "Confirm with seller"], ["Price band", "$130–$170"]]},
+   "specs": [["Rows", "3"], ["Fits", "2020–2024 Telluride, 2nd-row buckets without console"], ["Material", "TPE"], ["2025", "Confirm with seller"], ["Price band", "$130–$170"]]},
  ],
  "install": [
   "Check your second row: bench, captain's chairs with console, or without.",
@@ -150,14 +152,16 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy WeatherTech's full set for three rows from one brand, Husky's 95691 for US-made front and second-row liners, and Smartliner if you want the cargo area covered too.",
-  "body": "The Telluride is fit by its second row. Once you know bench, captain's chairs with a console, or without, the choice is straightforward. WeatherTech covers three rows with a lifetime limited warranty, Husky is the US-made choice for the busiest rows, Smartliner adds a cargo liner, TOUGHPRO is the rubber budget pick and SUPER LINER fits the no-console layout precisely.\n\nAfter the floors, most Telluride owners add a trailer hitch for a bike rack or small trailer, and a roof rack on the factory rails. Whichever liners you choose, check the driver side every few weeks; it's the piece that wears first and the one that matters for safety."},
+  "body": "The Telluride is fit by its second row. Once you know bench, captain's chairs with a console, or without, the choice is straightforward. WeatherTech covers three rows with a lifetime limited warranty, Husky is the US-made choice for the busiest rows, Smartliner adds a cargo liner, TOUGHPRO is the rubber budget pick and SUPER LINER fits the no-console layout precisely. All five are first-generation parts for 2020–2025. Kia built no 2026 Telluride, and the 2027 is a new generation that needs liners naming it.\n\nAfter the floors, most Telluride owners add a trailer hitch for a bike rack or small trailer, and a roof rack on the factory rails. Whichever liners you choose, check the driver side every few weeks; it's the piece that wears first and the one that matters for safety."},
  "sources": [
   ["WeatherTech FloorLiner HP buying guide (WeatherTech)", "https://www.weathertech.com/blog/product-spotlight/new-weathertech-floorliner-hp.html"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky Liners 95691 Telluride listing", "https://www.amazon.com/dp/B081W2SH36"],
   ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
   ["TOUGHPRO Telluride listing", "https://www.amazon.com/dp/B07RN1362T"],
-  ["Kia Telluride (Wikipedia)", "https://en.wikipedia.org/wiki/Kia_Telluride"],
+  ["Kia Telluride: 2026 model year skipped, second generation revealed November 10, 2025 for 2027 (Wikipedia)", "https://en.wikipedia.org/wiki/Kia_Telluride"],
+  ["2023 Kia Telluride press kit: new X-Line and X-Pro trims (Kia Media)", "https://www.kiamedia.com/us/en/models/telluride/2023"],
+  ["2027 Kia Telluride press kit: wheelbase and length increase (Kia Media)", "https://www.kiamedia.com/us/en/models/telluride/2027"],
  ],
 }
 

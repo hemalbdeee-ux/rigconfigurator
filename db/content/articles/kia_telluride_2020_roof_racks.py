@@ -2,6 +2,7 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: fit data and specs come from
 Kia, Thule/Yakima/Malone via etrailer and the retailer pages in SOURCES (checked 2026-09-24); Amazon picks by listing title.
 Angle: two different rail designs on one generation (standard low rails vs X-Line/X-Pro raised bridge rails).
+Source fixes 2026-10-04 (round 2): roof rack load now stated as 220 lb (100 kg) evenly distributed from Kia's 2024 owner's manual (only that year read) beside the 165 lb brand-name bar rating; sunroof advice changed to match that manual (no sunroof operation with cargo on the rack) and "sunroof compatible" reworded to what etrailer's page shows; the 29.5 in spread worded as etrailer's install of the Thule Evo Flush Rail / kit 186095 system, with The Rack Shop's 27.5 in maximum for the same feet and kit beside it; X-Line and X-Pro dated to the 2023 model year in the first FAQ.
 """
 
 KEY = ("kia", "telluride", "2020-present", "roof-racks")
@@ -12,7 +13,7 @@ META = ("Six crossbar sets for the first-gen Telluride, split by rail: flush rai
 
 FAQ = [
  ("Does my Telluride have flush or raised roof rails?",
-  "It depends on the trim, not the year. Kia lists raised, bridge-type roof rails as an X-Line feature, and the X-Pro shares them; those rails stand off the roof with a gap you can put your hand through. The other trims (LX, S, EX, SX, SX-P) have lower rails that sit close to the roof, and Thule fits them with its Evo Flush Rail foot and a Telluride fit kit. Look along the rail from the side: daylight under it means raised, none means flush."),
+  "It depends on the trim. Kia added the X-Line and X-Pro for the 2023 model year and lists raised, bridge-type roof rails as an X-Line feature, and the X-Pro shares them; those rails stand off the roof with a gap you can put your hand through. The other trims (LX, S, EX, SX, SX-P) have lower rails that sit close to the roof, and Thule fits them with its Evo Flush Rail foot and a Telluride fit kit. Look along the rail from the side: daylight under it means raised, none means flush."),
  ("Do X-Line crossbars fit a standard Telluride?",
   "No, and the reverse is also true. X-Line and X-Pro bars use clamps or towers that wrap around a raised rail, so they need the gap under the rail. Standard-trim bars grip a low rail from the side. Amazon sellers split them into separate listings for that reason: the Snailfly standard-trim set excludes the X-Line and X-Pro, and the Tuyoung and Snailfly X sets are listed for the X-Line and X-Pro only."),
  ("Will 2020–2025 Telluride crossbars fit the 2027 Telluride?",
@@ -20,13 +21,13 @@ FAQ = [
  ("Is the Palisade rack the same as the Telluride's?",
   "No. The two SUVs share a platform, but not roof rack parts. Thule uses different fit kits: kit 6008 for the Palisade and kit 6095 (etrailer TH77JV) for the Telluride's flush rails, and the bar lengths differ too (50 in on the Palisade system, 53 in on the Telluride). Buy bars listed for the Telluride."),
  ("How much weight can a Telluride roof rack carry?",
-  "Two limits apply. The rack's rating is 165 lb for the Thule, Yakima and Malone systems on etrailer's Telluride list; Amazon sets print 165 lb (Snailfly X-Line) to 300 lb (Tuyoung). The Telluride's own roof limit is in the owner's manual and it covers the bars, carrier and cargo together. Whichever number is lower is your limit. A higher bar rating means less flex under a box, not a stronger roof."),
+  "Two limits apply, and the lower one is yours. The roof rack page of Kia's 2024 owner's manual prints \"220 lbs. (100 kg) EVENLY DISTRIBUTED\" as the most that can be loaded onto the roof rack. We read the 2024 manual only, so the owner's manual for your model year is the authority. The rack's rating is 165 lb for the Thule, Yakima and Malone systems on etrailer's Telluride list; Amazon sets print 165 lb (Snailfly X-Line) to 300 lb (Tuyoung). To stay on the safe side, count the bars, carrier and cargo together. A higher bar rating means less flex under a box, not a stronger roof."),
  ("Are raised-rail racks cheaper than flush-rail racks?",
   "On etrailer's 2023 Telluride list, yes. The Thule WingBar Evo system is $544.90 for raised rails and $704.85 for flush rails, because the flush version needs a vehicle-specific fit kit. The cheapest brand-name raised-rail set on the list is Malone's AirFlow2 at about $246–$261, and Yakima's TimberLine for raised rails is $544.90. X-Line and X-Pro owners get the cheaper and simpler fit."),
  ("Can I open the sunroof with crossbars on?",
-  "etrailer's page for the Thule WingBar Evo flush-rail system on the 2023 Telluride lists about 3.25 in from the roof to the bottom of the bar and calls it sunroof compatible. The risk is the load, not the bar: a cargo box's front edge or a bike's fork mount can sit over the opening. Load the rack, then open the glass once while parked to check."),
+  "etrailer's page for the Thule WingBar Evo flush-rail system on the 2023 Telluride shows about 3.25 in from the roof to the bottom of the bar, and its install video mentions leaving clearance for the sunroof. The risk is the load, not the bar: a cargo box's front edge or a bike's fork mount can sit over the opening. Kia's 2024 owner's manual says not to place cargo where it could interfere with sunroof operation, and not to operate the sunroof while cargo is on the roof rack. Check clearance with bare bars, and keep the glass closed once the rack is loaded."),
  ("What crossbar spread does the Telluride allow?",
-  "etrailer lists about 29.5 in center to center for the Thule WingBar Evo flush-rail system on the 2023 Telluride, and says the bars adjust along the rails. Clamp-on Amazon bars also slide. Most cargo boxes list a minimum and maximum spread, so check yours against the position you plan to use, and keep the front bar clear of the sunroof."),
+  "It depends on the kit and where you set it. In etrailer's install of the Thule WingBar Evo flush-rail system (Evo Flush Rail feet, fit kit 186095) on a 2023 Telluride, the bars sit about 29.5 in apart center to center, and etrailer says the bars adjust along the rails. The Rack Shop lists a 27.5 in maximum bar spread for its Thule rack with the same feet and fit kit. Plan around the smaller figure, then measure your own bars center to center. Clamp-on Amazon bars also slide. Most cargo boxes list a minimum and maximum spread, so check yours against the position you plan to use, and keep the front bar clear of the sunroof."),
  ("Do Kia's accessory crossbars work on every trim?",
   "If your dealer offers Kia accessory crossbars, ask which rail they are for. We could not verify a Kia part number and trim list for this guide, so they are not a pick. Because the X-Line and X-Pro rails are a different design, a crossbar for the standard rails is not automatically right for them, and the reverse."),
  ("Should I buy a Thule or Yakima system instead of Amazon bars?",
@@ -37,7 +38,7 @@ ARTICLE = {
  "dek": "One generation, two roofs. The first-gen Telluride's standard trims have low rails that take flush-rail feet, while the 2023+ X-Line and X-Pro get raised, bridge-type rails with a gap underneath. Here are six Telluride-named crossbar sets split by rail type, including BRIGHTLINES' flush-rail and X-Line/X-Pro sets, plus the Thule, Yakima and Malone systems etrailer lists for each.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
- "method": "We did not install these racks ourselves. Picks were chosen on the rail type and trims each seller lists for the 2020–2025 Telluride, and brand-name systems on the fit and specs etrailer publishes for the 2021 and 2023 Telluride. Kia's 2023 press kit is the source for the X-Line rail design. Brand-name prices were checked at etrailer in September 2026. Amazon prices move daily, so the button shows the live price; bands for generic bars are a guide only.",
+ "method": "We did not install these racks ourselves. Picks were chosen on the rail type and trims each seller lists for the 2020–2025 Telluride, and brand-name systems on the fit and specs etrailer publishes for the 2021 and 2023 Telluride. Kia's 2023 press kit is the source for the X-Line rail design, and Kia's 2024 owner's manual for the 220 lb roof rack load. Brand-name prices were checked at etrailer in September 2026. Amazon prices move daily, so the button shows the live price; bands for generic bars are a guide only.",
  "takeaways": [
   "**Check the rail, not the year.** X-Line and X-Pro (2023+) have raised, bridge-type rails. The LX, S, EX, SX and SX-P have low rails that take flush-rail feet.",
   "**Bars are not interchangeable between the two.** Amazon sellers sell separate standard-trim and X-Line/X-Pro listings, and so do Thule and Yakima.",
@@ -70,9 +71,9 @@ ARTICLE = {
   {"h": "Model years: first generation only",
    "body": "The first-generation Telluride ran from 2020 to 2025. Kia skipped the 2026 model year and launched the second generation as a 2027 model, revealed in November 2025. All the bars here are listed through 2025, and the X-Line and X-Pro sets start at 2023 because those trims did. A listing for 2027 is for a different roof. Some older Telluride listings start at 2019; that is a production-date habit, not a separate US model."},
   {"h": "Rating, and the limit above it",
-   "body": "Brand-name systems on etrailer's Telluride list are rated at 165 lb: Thule WingBar Evo, Yakima TimberLine and Malone AirFlow2. Amazon sets print 165 lb (Snailfly X-Line) and 300 lb (Tuyoung X-Line). The rating is for the bars. The Telluride's owner's manual gives the roof's own limit, which covers bars, carrier and cargo. The lower number wins. If you plan a heavy load, like a full box of camping gear, pick bars with room to spare and weigh the loaded box."},
+   "body": "Brand-name systems on etrailer's Telluride list are rated at 165 lb: Thule WingBar Evo, Yakima TimberLine and Malone AirFlow2. Amazon sets print 165 lb (Snailfly X-Line) and 300 lb (Tuyoung X-Line). The rating is for the bars. The roof rack page of Kia's 2024 owner's manual prints 220 lb (100 kg), evenly distributed, as the most that can be loaded onto the roof rack. We read the 2024 manual only, so the manual for your year is the authority. The lower number wins. If you plan a heavy load, like a full box of camping gear, pick bars with room to spare and weigh the loaded box."},
   {"h": "Bar length, spread and noise",
-   "body": "etrailer's Telluride systems use 53 in Thule WingBar Evo bars on both rail types and 58–65 in bars for Malone and 60 in Yakima JetStream bars on raised rails. Longer bars leave room for two bikes plus a box but stick out more and hum more. The Thule flush-rail system gives about 29.5 in of spread and roughly 3.25 in of roof clearance on a 2023. Aero bars with rubber channel strips are the quiet option; square or round bars whistle more."},
+   "body": "etrailer's Telluride systems use 53 in Thule WingBar Evo bars on both rail types and 58–65 in bars for Malone and 60 in Yakima JetStream bars on raised rails. Longer bars leave room for two bikes plus a box but stick out more and hum more. In etrailer's install of the Thule flush-rail system on a 2023, the bars sit about 29.5 in apart center to center with roughly 3.25 in of roof clearance. The Rack Shop lists a 27.5 in maximum bar spread for its Thule flush-rail rack, so measure your own bars before you match a box. Aero bars with rubber channel strips are the quiet option; square or round bars whistle more."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -107,7 +108,7 @@ ARTICLE = {
   {"asin": "B0CZZWTQNH", "role": "Best for X-Line / X-Pro", "price": "$100–$140",
    "pros": ["Listed only for the 2023–2025 X-Line and X-Pro raised rails", "300 lb printed rating", "Aluminum bars", "Wraps the raised bridge rail, the easiest rail type to clamp", "Much cheaper than the $544.90 Thule raised-rail system"],
    "cons": ["300 lb is the seller's figure; the roof limit still applies", "Won't fit standard trims", "Warranty detail is thin"],
-   "body": "The X-Line and X-Pro's raised bridge rails are the easy case for any rack: the clamp wraps around the rail through the gap underneath, with no vehicle-specific fit kit. Tuyoung's set is listed for the 2023–2025 X-Line and X-Pro only, with a 300 lb printed rating, the highest of the six picks. That rating gives headroom when a loaded cargo box sits on a rough trail road, such as a gravel road to a trailhead.\n\nKeep the rating in context. It describes the bars. The Telluride's roof limit in the owner's manual caps everything on the roof, and the brand-name raised-rail systems on etrailer's list are rated at 165 lb. If you want a warrantied option, etrailer lists the Thule WingBar Evo for raised rails at $544.90, the Yakima TimberLine with 60 in JetStream bars at $544.90, and Malone's AirFlow2 at $245.60–$260.95, all rated at 165 lb.",
+   "body": "The X-Line and X-Pro's raised bridge rails are the easy case for any rack: the clamp wraps around the rail through the gap underneath, with no vehicle-specific fit kit. Tuyoung's set is listed for the 2023–2025 X-Line and X-Pro only, with a 300 lb printed rating, the highest of the six picks. That rating gives headroom when a loaded cargo box sits on a rough trail road, such as a gravel road to a trailhead.\n\nKeep the rating in context. It describes the bars. The 220 lb roof rack load printed in Kia's 2024 owner's manual still applies, and the brand-name raised-rail systems on etrailer's list are rated at 165 lb. If you want a warrantied option, etrailer lists the Thule WingBar Evo for raised rails at $544.90, the Yakima TimberLine with 60 in JetStream bars at $544.90, and Malone's AirFlow2 at $245.60–$260.95, all rated at 165 lb.",
    "who": "X-Line and X-Pro owners who want the stiffest-rated bars that name their trim.",
    "specs": [["Type", "Clamp-on crossbars, raised rails"], ["Fits", "2023–2025 Telluride X-Line, X-Pro (per listing)"], ["Load rating", "300 lb (printed by seller)"], ["Material", "Aluminum"], ["Not for", "Standard low-rail trims"], ["Brand-name alternative", "Malone AirFlow2 from $245.60, 165 lb"]]},
   {"asin": "B09Z78MHLN", "role": "Best branded flush-rail set", "price": "$130–$170",
@@ -137,17 +138,17 @@ ARTICLE = {
  ],
  "install": [
   "Identify your rail. A gap under the rail (X-Line, X-Pro) means raised-rail clamps; a rail tight to the roof means flush-rail or side-clamp bars.",
-  "Clean the rails, then mark the bar positions with tape. etrailer lists about 29.5 in of spread for the Thule flush system on a 2023; match your carrier's range.",
+  "Clean the rails, then mark the bar positions with tape. etrailer's install of the Thule flush system on a 2023 shows about 29.5 in center to center, and The Rack Shop lists a 27.5 in maximum for its Thule flush-rail rack; measure yours and match your carrier's range.",
   "Place the bars with the aero edge forward and the ends even on both sides, so the bar sits square across the roof.",
   "Tighten the clamps side to side in steps. Use the maker's torque value or tool if one is supplied.",
-  "Open the sunroof and the liftgate with the bars in place to check clearance, then load the carrier and check again while parked.",
+  "Open the sunroof and the liftgate with the bare bars in place to check clearance. Once the carrier is loaded, check the liftgate again while parked and leave the sunroof closed; Kia's 2024 owner's manual says not to operate it with cargo on the roof rack.",
   "Lock the bars and recheck the clamps after the first week and after every long trip with a load.",
  ],
  "avoid": [
   {"h": "Buying by year alone", "body": "A 2023 EX and a 2023 X-Line need different bars. Choose by the rail you see, then match the trim names in the listing."},
   {"h": "Palisade bars on a Telluride", "body": "The twins share a platform but not rack parts. Thule uses kit 6008 on the Palisade and kit 6095 on the Telluride."},
   {"h": "First-gen bars on a 2027", "body": "Kia skipped 2026 and launched a new generation for 2027. Buy a listing that names 2027."},
-  {"h": "Stacking a heavy load up to the bar rating", "body": "A 300 lb bar rating doesn't change the Telluride's roof limit in the owner's manual. Weigh the loaded box and add the bars."},
+  {"h": "Stacking a heavy load up to the bar rating", "body": "A 300 lb bar rating doesn't change the 220 lb roof rack load printed in Kia's 2024 owner's manual. Weigh the loaded box and add the bars."},
  ],
  "verdict": {
   "thesis": "Look at your rail first: Snailfly's or BRIGHTLINES' flush-rail set for the LX-to-SX-P, Tuyoung, Snailfly or BRIGHTLINES' X-Line set for the X-Line and X-Pro, and a Thule or Yakima system from etrailer if the bars will work hard for years.",
@@ -162,6 +163,8 @@ ARTICLE = {
   ["Telluride Thule fit Q&A (etrailer)", "https://www.etrailer.com/answers.aspx?AnswerModel=Telluride&Manufacturer=Thule&Filter=fit&AnswerMake=Kia"],
   ["2023 Kia Telluride press kit: X-Line raised bridge-type rails (Kia Media)", "https://www.kiamedia.com/us/en/models/telluride/2023"],
   ["Kia Telluride generations (Wikipedia)", "https://en.wikipedia.org/wiki/Kia_Telluride"],
+  ["Kia 2024 owner's manual, roof rack: 220 lbs. (100 kg) evenly distributed; sunroof cautions (Kia)", "https://ownersmanual.kia.com/full_webhelp/ON/2024/en_US/topics/t00305.html"],
+  ["Thule flush-rail rack for the Telluride, 165 lb / 27.5 in maximum bar spread (The Rack Shop)", "https://therackshop.com/2020-2025-kia-telluride-5dr-w-flush-rails-thule-crossbar-complete-roof-rack/"],
   ["BRIGHTLINES flush-rail crossbars, 2020–2025 Telluride (ASG Auto Sports)", "https://www.asgautosports.com/products/brightlines-anti-theft-crossbars-roof-racks-compatible-with-2020-2025-kia-telluride-for-kayak-luggage-ski-bike-carrier"],
   ["BRIGHTLINES X-Line / X-Pro crossbars, 2023 Telluride (ASG Auto Sports)", "https://www.asgautosports.com/products/brightlines-heavy-duty-anti-theft-premium-aluminum-black-roof-bars-roof-rack-crossbars-compatible-with-2023-kia-telluride-x-line-x-pro-models-with-raised-roof-side-rails"],
  ],

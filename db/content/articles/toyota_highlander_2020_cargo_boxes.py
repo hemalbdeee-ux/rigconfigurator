@@ -4,6 +4,7 @@ Thule, INNO and SportRack pages plus etrailer, and vehicle facts from db/migrati
 Highlander roof-rack article and the references in SOURCES (checked 2026-09-27). Boxes are universal; the
 Highlander-specific part is flush rails with fixed points, the 165 lb bar rating, a 31 in maximum spread on
 one Thule kit, bare-roof trims and hatch clearance.
+Source fixes 2026-10-04 (round 2): 165 lb now reads as a crossbar rating with no Toyota roof figure confirmed and the owner's manual as the authority; "Toyota Canada" corrected to Toyota Customs (parts department of Toyota Northwest Edmonton) and AHG's line worded as what it is (the genuine-crossbar figure for 2020-2023, no Toyota document cited); "Our fitment data lists a Class III hitch and a 5,000 lb tow rating" and other factory-hitch lines reworded (no factory receiver confirmed, Toyota sells accessory receiver PT228-48174); Hybrid line no longer says it shares the roof; flush-rail check and a Wikipedia model-year sentence added; etrailer roof page, Toyota parts page and Wikipedia added to sources.
 """
 
 KEY = ("toyota", "highlander", "2020-present", "cargo-boxes")
@@ -14,7 +15,7 @@ META = ("Six Yakima, Thule, INNO and SportRack cargo boxes for the 4th-gen Highl
 
 FAQ = [
  ("What is the roof load limit for a cargo box on a 2020–2026 Highlander?",
-  "Plan around 165 lb. Toyota Canada lists 75 kg (165 lb), evenly distributed, for its Highlander crossbars, AHG Auto Service quotes the same 75 kg for 2020–2023 models, and The Rack Shop's Thule kit for this Highlander is rated at 165 lb. That figure covers the bars, the box and the gear. We found no separate published roof figure, so check your owner's manual and use the lowest number you find."),
+  "Plan around 165 lb. That is a crossbar rating, not a Toyota roof figure. Toyota Customs, the parts department of a Toyota dealer in Edmonton, Canada, lists 75 kg (165 lb), evenly distributed, for Toyota's Highlander crossbars. AHG Auto Service gives the same 75 kg for the genuine bars on 2020–2023 models, and The Rack Shop's Thule kit for this Highlander is rated at 165 lb. That figure covers the bars, the box and the gear. We could not confirm a separate roof figure from a Toyota document, so the owner's manual is the authority. Use the lowest number you find."),
  ("How far apart can crossbars sit on a Highlander's factory rails?",
   "That depends on the bar system. etrailer classes the 4th-gen rails as flush rails with fixed mounting points, and The Rack Shop lists a maximum crossbar spread of 31 in for its Thule Fixpoint setup on the 2020–2026 Highlander. Every box here mounts inside that: the SkyBox 16 needs 24 to 34.5 in and the Thule Pulse L 23-5/8 to 34-3/8 in. The Yakima DeepSpace 10, which needs at least 32 in, does not."),
  ("What size cargo box fits a Highlander?",
@@ -24,15 +25,15 @@ FAQ = [
  ("Does my Highlander have roof rails for a cargo box?",
   "The crossbar listings for this generation name the XLE, XSE, Limited and Platinum, gas and Hybrid, as having factory side rails. We couldn't confirm the rails on every L and LE, and etrailer lists naked-roof systems for the 2023 Highlander, which suggests some leave the factory bare. On a bare roof you need a clamp-style naked-roof system before any box can go on."),
  ("Does a cargo box fit the Highlander Hybrid?",
-  "Yes. The Hybrid shares the roof and rails with the gas Highlander of the same trim, so the same bars and boxes apply. The trade-off is efficiency: fueleconomy.gov says a rooftop cargo box can cut fuel economy by 10 to 25 percent at 65 to 75 mph, which takes a bite out of the Hybrid's main advantage. Take the box off between trips."),
+  "Yes. A box clamps to the crossbars, not to the car, and none of the crossbar listings in our Highlander roof rack guide excludes the Hybrid. The trade-off is efficiency: fueleconomy.gov says a rooftop cargo box can cut fuel economy by 10 to 25 percent at 65 to 75 mph, which takes a bite out of the Hybrid's main advantage. Take the box off between trips."),
  ("Is the Grand Highlander the same for cargo boxes?",
   "The box can move between them, because boxes clamp to crossbars. The bars cannot. The Grand Highlander is a larger 2024-on vehicle with its own body and roof, so buy crossbars that name the 2020–2026 Highlander, then check the Grand Highlander's own spread and roof figures if you ever move the box over."),
  ("Can I carry a cargo box and bikes on a Highlander roof?",
-  "Only with a narrow box and careful weight math. The boxes here are 33 to 38 in wide, and The Rack Shop's Thule kit uses 50 in bars, so a full-width box leaves little room for a bike mount. A box, a bike mount and a bike also share the same 165 lb rating. With a Class III hitch and 5,000 lb tow rating, a hitch bike rack is usually the better way to carry bikes alongside a roof box."),
+  "Only with a narrow box and careful weight math. The boxes here are 33 to 38 in wide, and The Rack Shop's Thule kit uses 50 in bars, so a full-width box leaves little room for a bike mount. A box, a bike mount and a bike also share the same 165 lb rating. A hitch bike rack on a 2 in receiver, dealer-fitted or added, is usually the better way to carry bikes alongside a roof box."),
  ("Will a cargo box fit in my garage on a Highlander?",
   "Measure first. The boxes here add 11 in (INNO Wedge 660), 15 in (SkyBox 16, CBX 16), 16-1/2 in (Pulse L), about 17-1/2 in (Motion 3 XXL) or 19 in (SportRack Vista XL) on top of the bars. Measure the Highlander with bars fitted, add the box height, and compare with the garage door opening. If it's close, the Wedge 660 is the one to choose."),
  ("Should I use a roof box or a hitch cargo carrier on a Highlander?",
-  "Our fitment data lists a Class III hitch and a 5,000 lb tow rating, so a hitch carrier suits heavy items like coolers, bins and water. fueleconomy.gov also says rear-mounted carriers cost 1 to 5 percent on the highway versus up to 25 percent for a roof box at speed. A roof box is better for light, bulky gear, locks it away, and leaves the rear camera and liftgate clear."),
+  "A hitch carrier suits heavy items like coolers, bins and water, but it needs a receiver. We could not confirm that any grade ships with one. Toyota sells a Tow Hitch Receiver, PT228-48174, as an accessory, so look under the rear bumper; if nothing is there, an aftermarket trailer hitch adds a 2 in receiver. fueleconomy.gov also says rear-mounted carriers cost 1 to 5 percent on the highway versus up to 25 percent for a roof box at speed. A roof box is better for light, bulky gear, locks it away, and leaves the rear camera and liftgate clear."),
 ]
 
 ARTICLE = {
@@ -41,7 +42,7 @@ ARTICLE = {
  "reviewed": "2026-09-27",
  "method": "We did not mount these boxes ourselves. We ranked them on the makers' published specs (Yakima, Thule, INNO and SportRack: volume, exterior dimensions, box weight, load rating, crossbar spread, warranty), on etrailer's figures for the Thule, INNO and SportRack boxes, on The Rack Shop's Thule kit for the 2020–2026 Highlander (165 lb, 31 in maximum spread), and on the crossbar ratings in our Highlander roof rack guide. Prices were checked on maker and retailer pages in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Plan around 165 lb.** Toyota's crossbars and The Rack Shop's Thule kit are rated at 165 lb, and AHG quotes 75 kg for 2020–2023. Bars, box and gear all count.",
+  "**Plan around 165 lb.** That is the rating listed for Toyota's crossbars and for The Rack Shop's Thule kit. It is a bar rating, not a Toyota roof figure, so check the owner's manual. Bars, box and gear all count.",
   "**Check the 31 in spread limit.** One Thule Fixpoint kit for this Highlander tops out at 31 in. Every box here fits; the Yakima DeepSpace 10 (32 in minimum) does not.",
   "**Rails first.** XLE, XSE, Limited and Platinum have factory side rails per crossbar listings; some Highlanders appear to leave the factory bare.",
   "**Bigger isn't free.** The 21 cu ft Motion 3 XXL weighs 57.2 lb and leaves about 108 lb of the 165 lb rating before the bars.",
@@ -66,11 +67,11 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "The 165 lb bar rating is your limit",
-   "body": "We found no separate published roof figure for the 4th-gen Highlander, so the bar ratings set the working limit. Toyota Canada lists 75 kg (165 lb), evenly distributed, for Toyota's crossbars, AHG Auto Service quotes the same 75 kg for 2020–2023 models, and The Rack Shop's Thule kit is rated at 165 lb. That number covers the bars, the box and everything in it. The boxes here weigh 36 lb (Pulse L) to 57.2 lb (Motion 3 XXL), leaving about 108 to 129 lb before the bars. In practice that means roughly 90 to 115 lb of gear. Check your manual, and use the lowest figure you find."},
+   "body": "We could not confirm a separate roof figure for the 4th-gen Highlander from a Toyota document, so the bar ratings set the working limit. Toyota Customs, a Canadian Toyota dealer's parts store, lists 75 kg (165 lb), evenly distributed, for Toyota's crossbars, AHG Auto Service gives the same 75 kg for the genuine bars on 2020–2023 models, and The Rack Shop's Thule kit is rated at 165 lb. That number covers the bars, the box and everything in it. The boxes here weigh 36 lb (Pulse L) to 57.2 lb (Motion 3 XXL), leaving about 108 to 129 lb before the bars. In practice that means roughly 90 to 115 lb of gear. The owner's manual is the authority, so check it and use the lowest figure you find."},
   {"h": "Crossbar spread on flush rails",
    "body": "etrailer classes the Highlander's rails as flush rails with fixed mounting points, which limits where the bars can sit. The Rack Shop lists a maximum crossbar spread of 31 in for its Thule Fixpoint kit on the 2020–2026 Highlander. That fits the SkyBox 16 (24 to 34.5 in), the CBX 16 (24 to 35.5 in), the Pulse L (23-5/8 to 34-3/8 in), the Wedge 660 (24 to 39 in), the Motion 3 XXL (21-13/16 to 36-9/16 in, per etrailer) and all three Vista XL positions (up to 29-7/8 in). It rules out the Yakima DeepSpace 10, which needs at least 32 in. Clamp-on bars have their own ranges, so measure yours."},
   {"h": "Rails, bare roofs and the right bars",
-   "body": "The crossbar listings for this generation name the XLE, XSE, Limited and Platinum, including Hybrid versions, as having factory side rails. We couldn't confirm the rails on every L and LE, and etrailer lists naked-roof systems for the 2023 Highlander alongside rail-mounted ones, which suggests some leave the factory bare. Look at your roof before shopping. If it has rails, pick bars listed for the 2020–2026 Highlander, not the Grand Highlander. If it is bare, you need a clamp-style naked-roof system first. Every box here fits either kind of bar once it is on."},
+   "body": "The crossbar listings for this generation name the XLE, XSE, Limited and Platinum, including Hybrid versions, as having factory side rails. Those rails sit flush on the roof, with no gap underneath. We couldn't confirm the rails on every L and LE, and etrailer lists naked-roof systems for the 2023 Highlander alongside rail-mounted ones, which suggests some leave the factory bare. Per Wikipedia, the L was dropped for 2024 and the LE for 2026, and a fifth-generation Highlander was unveiled on February 10, 2026, with sales set to start in late 2026. Look at your roof before shopping. If it has rails, pick bars listed for the 2020–2026 Highlander, not the Grand Highlander. If it is bare, you need a clamp-style naked-roof system first. Every box here fits either kind of bar once it is on."},
   {"h": "Box length and the liftgate",
    "body": "The Highlander's liftgate swings up toward the back of the roof, and a long box mounted too far back can meet it. The boxes here run from 63 in (Vista XL) and 76 in (Pulse L) to 80 in (Wedge 660), 81 in (SkyBox 16), 83 in (CBX 16) and about 91.7 in (Motion 3 XXL). Thule gives a front-clearance figure of more than 54 13/16 in for the Motion 3 XXL; measure from the center of your front bar to the hatch seam and compare. With fixed-point rails you can't always move the bars, so the box has to slide forward on them instead."},
   {"h": "Height, fuel and the Hybrid",
@@ -154,7 +155,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "The Yakima SkyBox 16 is the best all-round box for the 2020–2026 Highlander, the Thule Pulse L the lightest 16, the Motion 3 XXL the biggest, and the SportRack Vista XL the budget pick. All fit a 31 in maximum bar spread.",
-  "body": "On the fourth-gen Highlander, the bars set the rules: 165 lb on Toyota's own crossbars and the Thule Fixpoint kit, and a 31 in maximum spread on that kit. The SkyBox 16 fits those limits with 16 cu ft, a 15 in profile and a sale price. The Pulse L saves 11 lb for gear, the Motion 3 XXL holds a full crew's soft bags if you pack light, the CBX 16 suits boxy gear, the Wedge 660 is the low-profile choice for garages and fuel, and the Vista XL is the budget box once you confirm its weight.\n\nIf you still need bars, our Highlander roof rack guide lists fit-checked sets by trim and rail type. For heavy items, the Class III trailer hitch takes a hitch cargo carrier or bike rack, and all-weather floor liners protect all three rows from what comes back from the trip.",
+  "body": "On the fourth-gen Highlander, the bars set the rules: 165 lb on Toyota's own crossbars and the Thule Fixpoint kit, and a 31 in maximum spread on that kit. The SkyBox 16 fits those limits with 16 cu ft, a 15 in profile and a sale price. The Pulse L saves 11 lb for gear, the Motion 3 XXL holds a full crew's soft bags if you pack light, the CBX 16 suits boxy gear, the Wedge 660 is the low-profile choice for garages and fuel, and the Vista XL is the budget box once you confirm its weight.\n\nIf you still need bars, our Highlander roof rack guide lists fit-checked sets by trim and rail type. For heavy items, a Class III trailer hitch, dealer-fitted or added, takes a hitch cargo carrier or bike rack, and all-weather floor liners protect all three rows from what comes back from the trip.",
  },
  "sources": [
   ["Yakima SkyBox 16 Carbonite (Yakima)", "https://yakima.com/collections/roof-boxes/products/skybox-16-carbonite-2014-2023"],
@@ -166,8 +167,11 @@ ARTICLE = {
   ["SportRack Vista XL (SportRack)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
   ["SportRack Vista XL mounting positions (etrailer)", "https://www.etrailer.com/question-156482.html"],
   ["Thule crossbar kit for 2020–2026 Highlander flush rails, 165 lb / 31 in spread (The Rack Shop)", "https://therackshop.com/2020-2025-toyota-highlander-w-flush-rails-thule-crossbar-complete-roof-rack/"],
-  ["Highlander roof rack weight limits by generation (AHG Auto Service)", "https://www.ahgautoservice.com/what-is-the-weight-limit-for-the-roof-rack-on-a-toyota-highlander/"],
-  ["Roof Rack Cross Bars 2020–2025 Highlander, 165 lb rating (Toyota Customs, Canada)", "https://toyotacustoms.com/products/roof-rack-cross-bars"],
+  ["Highlander crossbar and roof rack weight limits by generation (AHG Auto Service, Australia)", "https://www.ahgautoservice.com/what-is-the-weight-limit-for-the-roof-rack-on-a-toyota-highlander/"],
+  ["Roof Rack Cross Bars 2020–2025 Highlander, 165 lb rating (Toyota Customs, parts department of Toyota Northwest Edmonton, Canada)", "https://toyotacustoms.com/products/roof-rack-cross-bars"],
+  ["2023 Toyota Highlander roof rack systems by roof type (etrailer)", "https://www.etrailer.com/roof-2023_Toyota_Highlander.htm"],
+  ["Toyota Tow Hitch Receiver PT228-48174 (Toyota Parts)", "https://autoparts.toyota.com/products/product/tow-hitch-receiver-pt22848174"],
+  ["Toyota Highlander, fourth and fifth generations (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_Highlander"],
   ["Cargo box fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
  ],
 }

@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2023–2026 Honda Pilot (4th gen).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04 (round 2): second-row layouts are now named by trim and year from Honda (2023 press kit: removable middle seat on Touring and Elite, TrailSport with captain's chairs and all-season floor mats; 2024 specifications: 8 seats on LX, Sport, EX-L, Touring, Elite, 7 seats with captain's chairs on TrailSport and EX-L 7P; 2026 Pilot page: stowable center seat and captain's chairs as we read it) in place of "many" Pilots; the fit_table now includes the LX (2023–2024), Black Edition (2025 on, per Wikipedia) and Touring Blackout (2026 page) and a TrailSport row; the "same floor" claim and "Trim changes suspension and trim, not the floor pan" were replaced with what the listing titles show (years, no trim or layout named) plus a note that we could not confirm one floor pan from Honda; buyers with captain's chairs are told to ask the seller; TrailSport "rubber mats, standard on some model years" corrected to all-season floor mats standard per the press kit; three Honda sources added.
 """
 
 KEY = ("honda", "pilot", "2023-present", "floor-mats")
@@ -12,9 +13,9 @@ FAQ = [
  ("Do 2016–2022 Pilot liners fit the 2023 Pilot?",
   "No. The 2023 Pilot is a new generation with a new floor. Husky's catalog shows the split: its 18411 front liners are for 2016–2022 Pilot and 2019–2025 Passport, while its 12821 second-row and 14821 third-row liners are for 2023+. Buy liners that name 2023 or later."),
  ("What is the Pilot's removable second-row middle seat?",
-  "On many 2023+ Pilots, the second-row middle seat can be removed and stored under the cargo floor, turning an eight-seat bench into seven seats with a walkway. That changes how the second-row floor is used, not its shape. Pick a second-row liner that covers the full width, so the walkway area is protected when the seat is out."),
+  "Honda's 2023 press kit describes a removable second-row middle seat on the Touring and Elite that stores under the rear cargo floor, turning an eight-seat bench into seven seats with a walkway. As we read Honda's 2026 Pilot page, a stowable 2nd-row center seat is listed on the EX-L, Touring, Touring Blackout, Elite and Black Edition. With the seat out, third-row passengers walk across the middle of the second-row floor, so pick a second-row liner that covers the full width. The TrailSport has captain's chairs instead, and so does the seven-passenger EX-L in Honda's 2024 specifications. No listing on this page names a second-row layout, so with captain's chairs, ask the seller."),
  ("Do TrailSport trims need different liners?",
-  "The TrailSport shares the cabin floor. Its rubberized all-season floor mats are standard on some model years, and some owners keep them; liners cut for the Pilot fit the same floor. Trim changes suspension and trim, not the floor pan."),
+  "Not according to the listings. The listing titles recorded on this page name the Pilot by model year and do not name or exclude a trim. We could not confirm from a Honda document that every trim shares one floor pan. Two TrailSport details are worth checking. Honda's 2023 press kit says the TrailSport comes with all-season floor mats with the TrailSport logo as standard, so look at what you already have before buying, and take those mats out before fitting liners. The TrailSport also has second-row captain's chairs. No listing here names a second-row layout, so ask the seller how the second-row piece fits around them."),
  ("Does Husky make front liners for the 2023 Pilot?",
   "In the listings we found, Husky offers the 2023+ Pilot's second row (WeatherBeater 12821 and X-act Contour 50931) and third row (14821), but its front-row Pilot listing (18411) is for 2016–2022. Check Husky's fit tool for a current 2023+ front piece, or pair Husky's rear pieces with a front pair from another brand."),
  ("Do Pilot liners fit the Honda Passport?",
@@ -40,7 +41,7 @@ ARTICLE = {
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2023–2026 Pilot (rows covered, years), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and Smartliner claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**New generation in 2023.** 2016–2022 liners don't fit.",
-  "**Plan for the removable middle seat.** A full-width second-row liner covers the walkway.",
+  "**Know your second row.** Honda lists a removable middle seat on the Touring and Elite (2023), and a full-width second-row liner covers the walkway. With captain's chairs (TrailSport, seven-passenger EX-L), ask the seller.",
   "**Smartliner covers everything.** Three rows plus cargo, lifetime warranty.",
   "**Husky covers the rear rows.** 12821 or 50931 second row, 14821 third row.",
   "**Budget three-row sets are plentiful.** MAXPRO, Powerty, NIKALAIKA.",
@@ -53,18 +54,20 @@ ARTICLE = {
   {"asin": "B0CF68BMKG", "role": "Best made-in-USA rear", "why": "Husky X-act Contour 50931 second row, 2023–2026"},
  ],
  "fit_table": {
-  "caption": "2023–2026 Pilot: fit notes",
+  "caption": "2023–2026 Pilot: fit notes (seating per Honda's 2023 press kit, 2024 specifications and 2026 Pilot page; trim years per Wikipedia and Honda's 2026 page)",
   "head": ["Variable", "Versions", "Liner note"],
   "rows": [
    ["Generation", "2016–2022 vs 2023+", "Not compatible"],
-   ["Second row", "Bench with removable middle seat, or captain's chairs", "Full-width liner covers the walkway"],
-   ["Trim", "Sport, EX-L, TrailSport, Touring, Elite, Black Edition", "Same floor"],
+   ["Second row, 8 seats", "40/20/40 bench on LX, Sport, EX-L, Touring and Elite (Honda 2024 specifications). Removable middle seat on Touring and Elite (Honda 2023 press kit); stowable center seat on EX-L, Touring, Touring Blackout, Elite and Black Edition (Honda's 2026 page, as we read it)", "Full-width liner covers the walkway when the seat is out"],
+   ["Second row, 7 seats", "Captain's chairs on TrailSport (2023 press kit, 2024 specifications, 2026 page) and on the seven-passenger EX-L (2024 specifications)", "No listing here names a second-row layout; ask the seller"],
+   ["Trims by year", "LX (2023–2024), Sport, EX-L, TrailSport, Touring, Elite, Black Edition (2025 on), Touring Blackout (2026)", "Listings name years, not trims; we could not confirm from Honda that every trim shares one floor pan"],
+   ["TrailSport", "All-season floor mats standard (Honda 2023 press kit)", "Check what you already have; remove them before fitting liners"],
    ["Passport", "Separate two-row model", "Not compatible"],
   ],
  },
  "look_for": [
-  {"h": "The removable second-row middle seat",
-   "body": "Honda designed the 2023 Pilot's second-row middle seat to come out and store under the cargo floor on many trims, so the same vehicle can seat eight or seven with a walkway to the third row. That's convenient, but it changes where feet land: with the middle seat removed, third-row passengers walk across the center of the second-row floor. A full-width second-row liner covers that area whether the seat is in or out. Check listing photos to make sure the second-row piece runs across the whole floor rather than stopping at the seat bases."},
+  {"h": "The second row: removable middle seat or captain's chairs",
+   "body": "Honda's 2023 press kit describes a removable second-row middle seat on the Touring and Elite that stores under the rear cargo floor, so the same Pilot seats eight, or seven with a walkway to the third row. Honda's 2024 specifications list eight seats on the LX, Sport, EX-L, Touring and Elite, and seven seats with captain's chairs on the TrailSport and a seven-passenger EX-L. With the middle seat removed, third-row passengers walk across the center of the second-row floor. A full-width second-row liner covers that area whether the seat is in or out. Check listing photos to make sure the second-row piece runs across the whole floor rather than stopping at the seat bases. No listing on this page names a second-row layout, so if your Pilot has captain's chairs, ask the seller before ordering."},
   {"h": "Rows and cargo",
    "body": "A three-row Pilot has four zones: front, second row, third row and cargo. Smartliner covers all four. MAXPRO, Powerty and NIKALAIKA cover three rows. Weize's 5-piece adds cargo liners. Husky sells the second and third rows as single pieces. If you haul sports gear or a stroller, a cargo liner matters as much as any floor piece, because the Pilot's cargo floor also hides the storage well for the removable seat."},
   {"h": "Generation boundary",
@@ -72,7 +75,7 @@ ARTICLE = {
   {"h": "Warranty and material",
    "body": "Smartliner says its liners are molded from one piece of heavy-duty, 100% recyclable TPE, free of PVC, latex and BPA, with a limited lifetime warranty; the company is based in Apopka, Florida. Husky says its liners are laser-measured, made in the USA and covered by a lifetime warranty against cracks and breaks; X-act Contour is 22% more flexible and 10% softer than WeatherBeater. MAXPRO, Powerty, Weize and NIKALAIKA don't publish comparable terms we could check."},
   {"h": "Retention and pedal clearance",
-   "body": "Honda uses retention posts in the driver footwell. A Pilot-specific liner lines up with them. Seat the driver liner, heel-test it toward the pedals and press the brake and accelerator to the floor. Never lay a liner over the factory mat, including the TrailSport's rubber mats."},
+   "body": "Honda uses retention posts in the driver footwell. A Pilot-specific liner lines up with them. Seat the driver liner, heel-test it toward the pedals and press the brake and accelerator to the floor. Never lay a liner over the factory mat, including the all-season floor mats Honda fits to the TrailSport."},
  ],
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
@@ -136,7 +139,7 @@ ARTICLE = {
  ],
  "install": [
   "Confirm your Pilot is a 2023 or later model.",
-  "Remove the factory mats from every row and vacuum; take out the middle seat if you want to check walkway coverage.",
+  "Remove the factory mats from every row and vacuum; take out the removable middle seat, if your Pilot has one, to check walkway coverage.",
   "Hook the driver liner onto the retention posts and heel-test it toward the pedals.",
   "Fit the passenger and second-row liners; slide and fold the second row to check clearance.",
   "Fit the third-row and cargo liners; fold the third row up and down.",
@@ -150,7 +153,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy Smartliner's three rows plus cargo for complete coverage with a warranty, MAXPRO or Powerty for three rows on a budget, and Husky's rear pieces if you want US-made liners where the kids sit.",
-  "body": "The 4th-gen Pilot is simple to fit within its generation. The one design quirk is the removable second-row middle seat, so pick a second-row piece that covers the full width. Smartliner covers every zone with a lifetime warranty, MAXPRO and Powerty are the three-row value picks, Weize adds cargo, and Husky's X-act Contour and WeatherBeater pieces bring US manufacturing to the rear rows.\n\nAfter the floors, most Pilot owners add a trailer hitch for a bike rack or small trailer, and a roof rack for gear on longer trips."},
+  "body": "The 4th-gen Pilot is simple to fit within its generation. The one design quirk is the second row. Where the middle seat comes out, pick a second-row piece that covers the full width. With captain's chairs, on the TrailSport or a seven-passenger EX-L, ask the seller, because no listing here names a second-row layout. Smartliner covers every zone with a lifetime warranty, MAXPRO and Powerty are the three-row value picks, Weize adds cargo, and Husky's X-act Contour and WeatherBeater pieces bring US manufacturing to the rear rows.\n\nAfter the floors, most Pilot owners add a trailer hitch for a bike rack or small trailer, and a roof rack for gear on longer trips."},
  "sources": [
   ["SMARTLINER home page (SMARTLINER)", "https://www.smartliner-usa.com/"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
@@ -158,6 +161,9 @@ ARTICLE = {
   ["Husky WeatherBeater 14821 Pilot 3rd row listing", "https://www.amazon.com/dp/B0CF63YMF8"],
   ["Husky WeatherBeater 18411 (2016–2022 Pilot) listing", "https://www.amazon.com/dp/B0189ZN02C"],
   ["Honda Pilot, fourth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Honda_Pilot"],
+  ["2023 Honda Pilot Press Kit: removable middle seat, TrailSport captain's chairs and all-season floor mats (Honda)", "https://hondanews.com/en-US/honda-automobiles/releases/release-4e58b4e0fcd795affa5685a66a252ccf-2023-honda-pilot-press-kit"],
+  ["2024 Honda Pilot Specifications & Features: seating by trim (Honda)", "https://hondanews.com/en-US/honda-automobiles/releases/release-5003aaa39c009393f5d06d620f07211a-2024-honda-pilot-specifications-features"],
+  ["Honda Pilot, 2026 model shown: trims and second-row seating (Honda)", "https://automobiles.honda.com/pilot"],
  ],
 }
 

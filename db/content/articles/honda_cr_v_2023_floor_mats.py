@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2023–2026 Honda CR-V (6th gen).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04 (round 2): the trim FAQ now says the TrailSport is a 2026 hybrid with standard all-wheel drive and lists Sport-L as a hybrid (Honda), and no longer asserts a shared floor by trim beyond what the listings show; the price FAQ now matches the Husky picks ($130-$180 and $180-$240); the verdict no longer says every CR-V has roof rails; a 2027 not-checked sentence and the Honda sources were added.
 """
 
 KEY = ("honda", "cr-v", "2023-present", "floor-mats")
@@ -18,7 +19,7 @@ FAQ = [
  ("Why does Husky's 99411 list 2024–2026?",
   "The listing we found for Husky's WeatherBeater 99411 front and second-row set names 2024–2026, while its front pair (17281) and second-row piece (11491) list 2023 onward, and its 4-piece bundle with cargo lists 2023–2024. The 6th gen started with the 2023 model year. For a 2023, the separate front and second-row pieces or the bundle are the safer Husky orders."),
  ("Do these liners fit the CR-V Sport Touring and TrailSport?",
-  "Trim changes powertrain, wheels and trim, not the floor. The Sport and Sport Touring trims are hybrids; the TrailSport (2026) is a trim that also shares the cabin floor. Match gas or hybrid for cargo liners."),
+  "No listing on this page splits the cabin floor by trim. They split by model year and by gas or hybrid. The Sport, Sport-L and Sport Touring trims are hybrids, and so is the TrailSport, which Honda added for 2026 with standard all-wheel drive. For a TrailSport, buy a set that names 2026 and the hybrid. Match gas or hybrid for cargo liners."),
  ("Do CR-V liners fit the Acura RDX or Honda HR-V?",
   "No. Buy liners that name the CR-V and your years. Platform-sharing doesn't mean floor-sharing."),
  ("How should the driver liner sit?",
@@ -28,7 +29,7 @@ FAQ = [
  ("Should I get backrest mats?",
   "If you fold the rear seats to carry bikes or boxes, yes. TTX's set includes backrest mats that protect the carpeted seatbacks when folded."),
  ("How much do CR-V liners cost?",
-  "On this page, cabin-only TPE sets run about $80–$120, full sets with cargo about $100–$160, and Husky's WeatherBeater sets about $130–$220. Amazon prices move daily."),
+  "On this page, cabin-only TPE sets run about $80–$120, full sets with cargo about $100–$160, and Husky's WeatherBeater sets about $130–$180 for the 99411 cabin set and $180–$240 for the 4-piece bundle with cargo. Amazon prices move daily."),
  ("Is WeatherBeater worth it on a CR-V?",
   "In snow country, yes. Husky says WeatherBeater is laser-measured, made in the USA and backed by a lifetime warranty against cracks and breaks, with tall walls that hold snowmelt. In a mild climate, a TPE set with a cargo liner is often the better value."),
  ("Can I buy Husky's CR-V pieces separately?",
@@ -72,7 +73,7 @@ ARTICLE = {
   {"h": "Cargo: upper or lower deck",
    "body": "The CR-V's cargo area has an adjustable floor board on many trims, which can sit in an upper or lower position. Cargo liners are cut for one. Weize's and TTX's sets and Husky's 24411 cargo liner are listed for the upper position. Autocessking's kit is listed for the CR-V Hybrid's upper deck. Open the liftgate and check where your floor board sits before ordering. The hybrid's cargo floor can differ from the gas car's, so match powertrain for cargo liners especially."},
   {"h": "Generation and Husky's year ranges",
-   "body": "The 2023 CR-V is a new generation, so 2017–2022 liners don't fit. Within the generation, Husky's listings vary: the 99411 front and second-row set lists 2024–2026, its 17281 front and 11491 second-row pieces list 2023 onward, and its 4-piece bundle with cargo lists 2023–2024. For a 2023, choose the pieces or the bundle."},
+   "body": "The 2023 CR-V is a new generation, so 2017–2022 liners don't fit. Within the generation, Husky's listings vary: the 99411 front and second-row set lists 2024–2026, its 17281 front and 11491 second-row pieces list 2023 onward, and its 4-piece bundle with cargo lists 2023–2024. For a 2023, choose the pieces or the bundle. Honda's spec page now shows a 2027 CR-V. No listing on this page names 2027 and we did not check 2027 fit, so confirm with the seller."},
   {"h": "Warranty and material",
    "body": "Husky says WeatherBeater is laser-measured, designed and made in the USA from ProGard, anchored by StayPut nibs and covered by a lifetime warranty against cracks and breaks. HAFIDI, Sunsdrew, Weize, TTX and the generic kits sell TPE liners and don't publish comparable warranty terms we could check. For a CR-V kept many years in a snowy climate, the warranty is a reasonable tiebreaker."},
   {"h": "Retention and pedal clearance",
@@ -160,7 +161,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy Husky's WeatherBeater 99411 for a 2024–2026 CR-V, Husky's 4-piece bundle for a 2023–2024 with cargo, and HAFIDI or Weize for TPE on a budget.",
-  "body": "The 6th-gen CR-V's cabin is easy to fit; the cargo area takes a second look. Husky has the strongest warranty and walls, with year ranges that vary by part. HAFIDI covers the cabin for little money, Weize and the generic kit add cargo, TTX adds backrest mats and Autocessking is the hybrid cargo pick.\n\nAfter the floors, most CR-V owners add a trailer hitch for a bike rack and crossbars for the roof rails."},
+  "body": "The 6th-gen CR-V's cabin is easy to fit; the cargo area takes a second look. Husky has the strongest warranty and walls, with year ranges that vary by part. HAFIDI covers the cabin for little money, Weize and the generic kit add cargo, TTX adds backrest mats and Autocessking is the hybrid cargo pick.\n\nAfter the floors, common next steps are a trailer hitch for a bike rack and crossbars for the roof: a door-clamp kit on the bare-roof gas trims, or a kit made for the black roof rails that Honda's 2023 and 2026 tables list on hybrid trims."},
  "sources": [
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
   ["Husky Liners 99411 CR-V listing", "https://www.amazon.com/dp/B0C3XBN5BV"],
@@ -168,6 +169,10 @@ ARTICLE = {
   ["Husky Liners 24411 cargo liner listing", "https://www.amazon.com/dp/B0C3X9L4JD"],
   ["Husky Liners 99401 (2017–2022) listing", "https://www.amazon.com/dp/B06XPBJD8D"],
   ["Honda CR-V, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Honda_CR-V"],
+  ["2026 Honda CR-V Specifications & Features: gas and hybrid trims, roof rails (Honda Newsroom)", "https://hondanews.com/en-US/honda-automobiles/releases/release-2ecca7d29f72bf212c56033cca000993-2026-honda-cr-v-specifications-features-updated"],
+  ["2023 Honda CR-V Specifications & Features: gas and hybrid trims, roof rails (Honda Newsroom)", "https://hondanews.com/en-US/honda-automobiles/releases/release-74895511bca6e7abc42504d7581990ac-2023-honda-cr-v-specifications-features"],
+  ["2026 CR-V lineup and TrailSport Hybrid release, 20 May 2025 (Honda Newsroom)", "https://hondanews.com/en-US/honda-automobiles/releases/release-0d29cf91ab5515b985a1c286910cc6fb-rugged-electrified-and-refreshed-best-selling-honda-cr-v-gains-new-trailsport-hybrid-trim-and-more-standard-tech-as-2026-lineup-arriving-in-dealers-now"],
+  ["CR-V specs page, now showing the 2027 model (Honda)", "https://automobiles.honda.com/cr-v/specs-features-trim-comparison"],
  ],
 }
 
