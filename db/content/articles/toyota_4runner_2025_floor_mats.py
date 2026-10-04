@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2025–2026 Toyota 4Runner (6th gen, N500).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: model code N500 kept (Wikipedia; N410 appears nowhere on that page); hybrid grades now follow Toyota's launch release (standard on Platinum, TRD Pro, Trailhunter; available on TRD Off-Road, TRD Off-Road Premium, Limited); the second-row floor inference was removed and the battery location is cited to Wikipedia and GearJunkie; third-row wording cites GearJunkie and no longer assumes a 7-seat hybrid; Husky seating wording matches the recorded listing title.
 """
 
 KEY = ("toyota", "4runner", "2025-present", "floor-mats")
@@ -12,11 +13,11 @@ FAQ = [
  ("Do 5th-gen 4Runner liners fit the 2025 4Runner?",
   "No. The 2025 4Runner is a new generation on the TNGA-F platform, shared with the Tacoma, with a new cabin floor. Husky sells a separate 96531 set for it, distinct from the 99571 it sells for 2013–2024 trucks. Buy only listings that name 2025 or later."),
  ("Why do so many listings say 'not hybrid'?",
-  "The i-FORCE MAX hybrid adds a battery and changes the floor or under-seat area in the second row, so liner makers cut separate hybrid versions or exclude it. LASFIT, TripleAliners, Vantio and the budget 7-seat set on this page all exclude the hybrid. If your 4Runner is a TRD Pro, Trailhunter or Platinum, or any trim with the i-FORCE MAX badge, look for a set that names the hybrid or ask the seller. Toyota's own liner is the easiest route, since a dealer can confirm it by VIN."),
+  "The liner makers don't say why. Wikipedia says the hybrid uses the space beneath the load floor for its high-voltage battery, and GearJunkie's first-drive review puts the battery pack on the floor of the rear cargo area. We could not confirm any change to the cabin floor. LASFIT, TripleAliners, Vantio and the budget 7-seat set on this page all exclude the hybrid. Toyota's launch release makes the i-FORCE MAX standard on the Platinum, TRD Pro and Trailhunter and available on the TRD Off-Road, TRD Off-Road Premium and Limited. If yours has the i-FORCE MAX badge, look for a set that names the hybrid or ask the seller. Toyota's own liner is the easiest route, since a dealer can confirm it by VIN."),
  ("Which 2025 4Runners have a third row?",
-  "The third row is optional on some trims such as SR5 and Limited. Seven-seat trucks need a third-row liner and a cargo liner cut around the folded third row. The budget 7-seat set and NQOQN's set on this page list 7-seat trucks; Toyota says its liner is third-row compatible."),
+  "GearJunkie's first-drive review says the third row is available only on non-hybrid SR5 and Limited versions. The Toyota releases we opened don't say which grades offer it, so count your seats. Seven-seat trucks need a third-row liner and a cargo liner cut around the folded third row. The budget 7-seat set and NQOQN's set on this page list 7-seat trucks; Toyota says its liner is third-row compatible."),
  ("Does the TRD Pro or Trailhunter take the same liners?",
-  "Both are hybrid-only, so the hybrid rule applies. Their front floors match other 4Runners, but confirm the second-row piece. Toyota's genuine liner, confirmed by VIN, is the lowest-risk choice for these trims."),
+  "Both are hybrid-only per Toyota's launch release, so the hybrid rule applies. We could not confirm which liner pieces differ on a hybrid, so don't assume a gas-only set fits. Toyota's genuine liner, confirmed by VIN, is the lowest-risk choice for these trims."),
  ("Do 4Runner liners fit a Tacoma?",
   "No. The two share a platform, but the 4Runner's cabin, second row and cargo area are its own. Buy a set that names the 4Runner."),
  ("Is the full set with cargo and backrest mats worth it?",
@@ -58,16 +59,16 @@ ARTICLE = {
   "rows": [
    ["Powertrain", "i-FORCE 2.4T gas or i-FORCE MAX hybrid", "LASFIT, TripleAliners, Vantio: gas only. Toyota: confirm by VIN"],
    ["Seating", "5-seat or 7-seat (third row, select trims)", "7-seat: budget 3-row set or NQOQN"],
-   ["Hybrid-only trims", "TRD Pro, Trailhunter, Platinum", "Use a hybrid-listed or Toyota liner"],
+   ["Hybrid trims (per Toyota)", "Standard: Platinum, TRD Pro, Trailhunter. Available: TRD Off-Road, TRD Off-Road Premium, Limited", "Use a hybrid-listed or Toyota liner"],
    ["Coverage", "Cabin only, or cabin + cargo + seatbacks", "LASFIT full set, TripleAliners"],
    ["Previous gen", "2010–2024", "Not compatible"],
   ],
  },
  "look_for": [
   {"h": "Gas or i-FORCE MAX",
-   "body": "The 2025 4Runner offers the i-FORCE 2.4-liter turbo and the i-FORCE MAX hybrid, and the hybrid is standard on the TRD Pro, Trailhunter and Platinum. Several liner makers exclude the hybrid from their listings, which tells you the hybrid's second-row floor area differs. LASFIT, TripleAliners, Vantio and the budget 7-seat set all say 'not hybrid'. NQOQN's 7-seat set doesn't mention powertrain in its title. Toyota's own all-weather liner is the easiest way to be sure, because a dealer can check it against your VIN. Look for the i-FORCE MAX badge on the back of the truck if you're unsure which you have."},
+   "body": "The 2025 4Runner offers the i-FORCE 2.4-liter turbo and the i-FORCE MAX hybrid. Toyota's launch release makes the hybrid standard on the Platinum, TRD Pro and Trailhunter and available on the TRD Off-Road, TRD Off-Road Premium and Limited. Several liner makers exclude the hybrid from their listings and don't say why. Wikipedia says the hybrid's high-voltage battery uses the space beneath the load floor; we could not confirm any change to the cabin floor. LASFIT, TripleAliners, Vantio and the budget 7-seat set all say 'not hybrid'. NQOQN's 7-seat set doesn't mention powertrain in its title. Toyota's own all-weather liner is the easiest way to be sure, because a dealer can check it against your VIN. Look for the i-FORCE MAX badge on the back of the truck if you're unsure which you have."},
   {"h": "Five seats or seven",
-   "body": "The 6th-gen 4Runner offers a third row on some trims such as SR5 and Limited. With seven seats, you need a third-row liner and a cargo liner shaped around the folded third row, and the second-row piece may differ too. The budget 3-row set here is listed for 7-seat SR5 and Limited trucks (gas), and NQOQN's full kit lists 7-seat. Toyota says its liner is third-row compatible. Five-seat trucks have more choice: Husky, LASFIT, TripleAliners and Vantio all list 5-seat."},
+   "body": "The 6th-gen 4Runner offers a third row on some versions. GearJunkie's first-drive review says it is available only on non-hybrid SR5 and Limited trucks. With seven seats, you need a third-row liner and a cargo liner shaped around the folded third row, and the second-row piece may differ too. The budget 3-row set here is listed for 7-seat SR5 and Limited trucks (gas), and NQOQN's full kit lists 7-seat. Toyota says its liner is third-row compatible. Five-seat trucks have more choice: LASFIT, TripleAliners and Vantio all list 5-seat. Husky's 96531 title names the front and second rows but not the seating, so confirm with Husky."},
   {"h": "How much of the cargo area to cover",
    "body": "Liner sets for the new 4Runner come in three scopes. Husky's 96531 covers the front and second rows. LASFIT sells a cabin-only set and a full set with cargo and backrest mats. TripleAliners covers front, second row, cargo and seatbacks in one kit. If you fold the second row to haul bikes or camping gear, the backrest mats keep the seatbacks clean. If the cargo area mostly carries groceries, a cabin set plus a simple cargo mat is enough and costs less."},
   {"h": "Warranty and documentation",
@@ -125,7 +126,7 @@ ARTICLE = {
   {"asin": "B0F6V4NW6B", "role": "Best for 7-seat", "price": "$150–$200",
    "pros": ["3-row set plus cargo liner", "Lists 7-seat SR5 and Limited", "One kit for the whole interior", "Raised edges", "Rare 7-seat coverage"],
    "cons": ["Not for hybrid", "Generic brand", "No published warranty"],
-   "body": "This all-weather kit is listed for 2025–2026 4Runner 7-seat SR5 and Limited, gas only, and includes three rows plus a cargo liner. Seven-seat coverage is scarce this early in the generation, so it fills a gap.\n\nIt's a generic brand with little documentation. NQOQN's 7-seat kit with trunk and backrest pieces, in our product list, is an alternative that doesn't mention powertrain, so confirm hybrid fit with the seller. For a hybrid 7-seat, Toyota's liner is the safer route. Before ordering, confirm your third-row layout and that the cargo liner is cut for the folded third row rather than a flat 5-seat floor. Photos of the cargo piece in the listing should show the seat-mechanism shape.",
+   "body": "This all-weather kit is listed for 2025–2026 4Runner 7-seat SR5 and Limited, gas only, and includes three rows plus a cargo liner. Seven-seat coverage is scarce this early in the generation, so it fills a gap.\n\nIt's a generic brand with little documentation. NQOQN's 7-seat kit with trunk and backrest pieces, in our product list, is an alternative that doesn't mention powertrain, so confirm hybrid fit with the seller. GearJunkie reports the third row only on non-hybrid SR5 and Limited versions, so we could not confirm that a 7-seat hybrid exists. If yours is a hybrid, have a Toyota dealer check the liner against your VIN. Before ordering, confirm your third-row layout and that the cargo liner is cut for the folded third row rather than a flat 5-seat floor. Photos of the cargo piece in the listing should show the seat-mechanism shape.",
    "who": "Gas 7-seat owners who want all three rows and the cargo area covered.",
    "specs": [["Includes", "3 rows + cargo"], ["Fits", "2025–2026 4Runner 7-seat SR5/Limited, gas"], ["Material", "TPE (per listing)"], ["Warranty", "Confirm with seller"], ["Price band", "$150–$200"]]},
  ],
@@ -152,7 +153,10 @@ ARTICLE = {
   ["Husky Liners 99571 (2013–2024) listing", "https://www.amazon.com/dp/B00BB1UMEG"],
   ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
   ["Toyota genuine 4Runner liners listing", "https://www.amazon.com/dp/B0DV11JW53"],
-  ["Toyota 4Runner, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
+  ["Toyota 4Runner, sixth generation: model code, hybrid battery location (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
+  ["The All-New 2025 Toyota 4Runner: grades, i-FORCE MAX by grade, 6,000 lb towing, Trailhunter ARB roof rack (Toyota Newsroom)", "https://pressroom.toyota.com/the-all-new-2025-toyota-4runner-the-icon-that-inspires-exploration/"],
+  ["2025 Toyota 4Runner Refines Adventure Ready Heritage: available third row, Trailhunter equipment (Toyota Newsroom)", "https://pressroom.toyota.com/2025-toyota-4runner-refines-adventure-ready-heritage/"],
+  ["2025 Toyota 4Runner First Drive Review: roof load figures, hybrid battery location, third row (GearJunkie)", "https://gearjunkie.com/motors/2025-toyota-4runner-first-drive-review"],
  ],
 }
 

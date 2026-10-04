@@ -1,9 +1,10 @@
-"""Long-form article — Best LED Light Bars & Light Kits for 2025–2026 Toyota 4Runner (6th gen, N410, TNGA-F).
+"""Long-form article — Best LED Light Bars & Light Kits for 2025–2026 Toyota 4Runner (6th gen, N500, TNGA-F).
 Mirrors the approved pilot (ford_f150_2021_tonneau.py) and the 5th-gen 4Runner / Bronco light-bar pages. No invented
 hands-on testing: every spec comes from the maker/retailer pages listed in sources (checked 2026-09-27). The 6th-gen
 aftermarket is still thin: most 4Runner-specific lighting is fog-pocket replacements and hood-hinge ditch brackets,
 and the TRD Pro / Trailhunter grille bar kits we found are sold maker-direct, not on Amazon. Picks are limited to
 kits and brackets whose Amazon titles name the 2025+ 4Runner.
+Source fixes 2026-10-04: model code N410 changed to N500 (Wikipedia); the claim that other trims have no factory light bar was replaced with what Toyota's launch release names (TRD Pro and Trailhunter) and a statement that we could not confirm the other grades; the fog-pocket fit row no longer claims most other trims.
 """
 
 KEY = ("toyota", "4runner", "2025-present", "led-light-bars")
@@ -18,7 +19,7 @@ FAQ = [
  ("Do 2010–2024 4Runner light bar brackets fit the 2025 4Runner?",
   "No. The 2025 4Runner moved to Toyota's TNGA-F platform, shared with the Tacoma, Tundra, Land Cruiser and Sequoia, and the front end, hood and roof are all new. Cali Raised says its 2025+ ditch kit is not designed for 2024 or older models, and its 5th-gen grille and roof brackets are listed only to 2024. Buy parts whose listing names 2025 or 2026. Some 6th-gen parts are shared with the 2024+ Tacoma and 2022+ Tundra instead, which is why several listings name all three."),
  ("Does the 2025 4Runner come with a factory light bar?",
-  "Only certain trims. Toyota's launch release says the TRD Pro gets a 20 in LED light bar integrated into a heritage-inspired TOYOTA grille plus RIGID Industries LED fog lamps, and the Trailhunter gets RIGID color-selectable LED fog lamps, an ARB roof rack and a bronze TOYOTA grille with an integrated LED light bar. Toyota also lists LED head and fog lights on the SR5. Other trims have no factory bar, so an add-on bar needs its own brackets, harness and switch."),
+  "Only certain trims. Toyota's launch release says the TRD Pro gets a 20 in LED light bar integrated into a heritage-inspired TOYOTA grille plus RIGID Industries LED fog lamps, and the Trailhunter gets RIGID color-selectable LED fog lamps, an ARB roof rack and a bronze TOYOTA grille with an integrated LED light bar. Toyota also lists LED head and fog lights on the SR5. The release names a light bar on those two grades only, and we could not confirm whether any other grade has one, so look at your grille. Where there is no factory bar, an add-on bar needs its own brackets, harness and switch."),
  ("Why are there so few light bar kits for the 6th-gen 4Runner?",
   "Because the truck is new and the front end is new. The 2010–2024 4Runner ran 15 years and built up grille, fog-pocket, hood-hinge and roof kits from many brands. The 6th gen went on sale in late 2024, and makers have started with the easy mounts: fog pockets and hood-hinge ditch brackets. Grille bar kits so far target the TRD Pro and Trailhunter grille, and the ones we found sell maker-direct. Expect the list to grow; until then, buy only parts that name 2025 or 2026."),
  ("Are LED light bars and ditch lights legal on a 4Runner?",
@@ -61,7 +62,7 @@ ARTICLE = {
    ["TNGA-F platform, new front and hood", "All 2025–2026", "2010–2024 grille, ditch and roof brackets don't fit. Buy 2025+ listings."],
    ["Factory 20 in grille light bar + RIGID fogs", "TRD Pro (per Toyota)", "Already has a bar; Baja's S2 Sport fog kit is not for TRD Pro."],
    ["Grille light bar, RIGID color-selectable fogs, ARB roof rack", "Trailhunter (per Toyota)", "Fog-pocket kits are listed non-Trailhunter by retailers; roof lights mount to the ARB platform."],
-   ["LED fog lights in the bumper pockets", "SR5 and most other trims", "Baja S2 and Cali Raised fog kits replace them using the factory pockets and plugs."],
+   ["LED fog lights in the bumper pockets", "SR5 per Toyota; check other grades", "Baja S2 and Cali Raised fog kits replace them using the factory pockets and plugs."],
    ["Hood hinges", "All trims", "Ditch brackets for 2025+ (several also list 2024+ Tacoma)."],
    ["Toyota Safety Sense 3.0", "Standard on all 2025 trims", "Keep added lights and wiring clear of front sensors and cameras; check for dash warnings."],
   ],

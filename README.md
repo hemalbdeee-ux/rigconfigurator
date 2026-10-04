@@ -36,6 +36,23 @@ pipeline/                 Python: import_fitments.py (CSV→DB), refresh_prices.
 
 Update: push to GitHub → Docker Manager → project → **Rebuild/Update** (or `docker compose up -d --build` in Web console).
 
+## Auto-deploy (push → live within 5 minutes)
+
+`deploy/auto-deploy.sh` runs from cron on the VPS. Every 5 minutes it fetches `origin/main`; if there is a new commit it
+fast-forwards, runs `docker compose up -d --build` and `bash db/apply.sh`. Nothing is stored on GitHub: the repo is
+public, so the VPS only reads it.
+
+Install once (VPS console):
+
+```
+cd /docker/rigconfigurator && bash deploy/auto-deploy.sh --init && (crontab -l 2>/dev/null | grep -v 'deploy/auto-deploy.sh'; echo '*/5 * * * * bash /docker/rigconfigurator/deploy/auto-deploy.sh >> /var/log/rigconfigurator-deploy.log 2>&1') | crontab - && crontab -l | grep auto-deploy
+```
+
+- Check: `bash deploy/auto-deploy.sh --status` · Log: `tail -n 30 /var/log/rigconfigurator-deploy.log`
+- A commit whose deploy fails is tried once; fix the cause and run `bash deploy/auto-deploy.sh --force`, or push again.
+- Turn off: `crontab -l | grep -v 'deploy/auto-deploy.sh' | crontab -`
+
+
 ## Data v1 (32 vehicles · 30 money pages · 147 products)
 
 ```

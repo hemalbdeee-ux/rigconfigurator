@@ -1,5 +1,10 @@
 """Long-form article — Best Running Boards & Side Steps for 2021–2026 Chevy Tahoe (5th gen, T1XX).
 No invented hands-on testing: fit facts from listing titles in FITS (checked 2026-09-24).
+Source fixes 2026-10-04: factory assist steps now named by trim and attributed (GM Authority, Chevrolet, Edmunds),
+with LS, LT, RST and 2021–2024 stated as not confirmed; TAC pick no longer says the body didn't change (2025 refresh
+per Wikipedia, rocker fit across it not confirmed); HD Ridez body, FAQ, look_for and top pick now match the recorded
+title (not Yukon XL / Suburban); unsupported "trims share the rocker mounting points" reworded; "the truck" changed
+to "the Tahoe".
 """
 
 KEY = ("chevrolet", "tahoe", "2021-present", "running-boards")
@@ -10,19 +15,19 @@ META = ("Five 5th-gen Tahoe side steps from Rough Country, APS, HD Ridez and bud
 
 FAQ = [
  ("Do Tahoe running boards fit the Suburban or Yukon XL?",
-  "No. The Suburban and Yukon XL have a longer wheelbase and longer rear doors, so boards cut for the Tahoe and Yukon are too short. The APS and HD Ridez listings on this page say 'Exclude Yukon XL' in their titles. Buy boards that name your exact model."),
+  "No. The Suburban and Yukon XL have a longer wheelbase and longer rear doors, so boards cut for the Tahoe and Yukon are too short. The APS listings on this page say 'exclude Yukon XL' in their titles, and the HD Ridez title recorded here rules out both the Yukon XL and the Suburban. Buy boards that name your exact model."),
  ("Do Tahoe running boards fit the GMC Yukon?",
   "Yes, for the same years. The Tahoe and standard-length Yukon share the body and rocker. APS, HD Ridez and Rough Country list both."),
  ("What are power running boards?",
   "Electric steps that fold out when a door opens and tuck away when it closes, driven by motors. Rough Country's kit uses dual motors and adds LED step lights, according to its listing. They keep clearance when tucked and give a low step when deployed, but they need wiring and cost several times more than fixed boards."),
  ("Does my Tahoe already have power steps?",
-  "Higher trims offer factory power-retractable assist steps. If yours has them, aftermarket boards replace them. Check under the doors: power steps sit tucked under the rocker with a motor at each end."),
+  "It may. GM Authority's September 2026 report says factory power-retractable assist steps with perimeter lighting are an option on the Premier and part of the High Country Deluxe Package, and that black assist steps with a chrome accent strip are standard on those two trims. Edmunds' 2025 trim page also lists power-retractable side steps in the High Country Deluxe package. Chevrolet's current Tahoe page lists black tubular assist steps on the Z71. We could not confirm what the LS, LT and RST carry, or the step list for 2021–2024 models. Check under the doors: power steps sit tucked under the rocker. If yours has factory steps, aftermarket boards replace them."),
  ("Do 2015–2020 Tahoe boards fit the 2021+?",
   "No. The 2021 Tahoe is a new generation with a new body and rocker. Buy listings that name 2021 or later."),
  ("How hard is it to install power running boards?",
   "Harder than fixed boards. You mount brackets and motors, then connect wiring to power and door signals per the kit's instructions. Budget power-step listings vary in harness quality; confirm the wiring kit and instructions before buying, and consider professional installation if you're not comfortable with vehicle wiring."),
  ("Do these fit the Z71 and High Country?",
-  "Trims share the rocker mounting points. The Z71's off-road use makes a board's clearance loss more noticeable; power steps tuck away and keep clearance when closed."),
+  "No listing here excludes a trim in its title, but both trims are reported with factory steps: black tubular assist steps on the Z71, per Chevrolet's current Tahoe page, and black assist steps on the High Country, per GM Authority. Aftermarket boards replace those. We could not confirm that every trim shares the same rocker mounting points, so ask the seller if your Tahoe has factory steps. The Z71's off-road use makes a board's clearance loss more noticeable; power steps tuck away and keep clearance when closed."),
  ("How wide are these boards?",
   "HD Ridez lists 5 in. Rough Country's power boards are listed at 6 in. APS lists a black powder-coated running board style without a width in the short title; check the listing."),
  ("Can I install fixed boards myself?",
@@ -54,7 +59,7 @@ ARTICLE = {
  "top_picks": [
   {"asin": "B0DQ9QSQ1P", "role": "Best power steps", "why": "Rough Country 6 in electric retractable steps, dual motors, LED lights"},
   {"asin": "B0BGT5NTDW", "role": "Best fixed board", "why": "APS black powder-coated boards, Tahoe/Yukon 4-door, excludes Yukon XL"},
-  {"asin": "B09J4W1JRW", "role": "Best budget board", "why": "HD Ridez 5 in boards, Tahoe/Yukon, excludes XL"},
+  {"asin": "B09J4W1JRW", "role": "Best budget board", "why": "HD Ridez 5 in boards, Tahoe/Yukon, not Yukon XL or Suburban"},
   {"asin": "B0CF8GH8T9", "role": "Best OE-style", "why": "Aluminum side steps, 2021–2025 Tahoe"},
   {"asin": "B0F9F7SV4J", "role": "Budget power steps", "why": "Deployable electric steps, 2021–2025 Tahoe"},
  ],
@@ -64,17 +69,17 @@ ARTICLE = {
   "rows": [
    ["Length", "Tahoe/Yukon vs Suburban/Yukon XL", "All picks Tahoe/Yukon; XL excluded"],
    ["Generation", "2015–2020 vs 2021+", "All picks 2021+"],
-   ["Factory steps", "None, fixed or power", "Aftermarket replaces factory steps"],
+   ["Factory steps", "Standard on Premier and High Country (GM Authority); tubular on Z71 (Chevrolet); LS, LT, RST not confirmed", "Look under the doors; aftermarket replaces factory steps"],
    ["Type", "Fixed or power", "Power needs wiring"],
   ],
  },
  "look_for": [
   {"h": "Tahoe length, not Suburban",
-   "body": "GM's full-size SUVs share a platform, but the Suburban and Yukon XL have a longer wheelbase and longer rear doors. Running boards are cut to the length between the wheel wells, so a Tahoe board is too short for a Suburban. The APS and HD Ridez listings exclude the Yukon XL in their titles, and every pick here names the Tahoe. The standard Yukon shares the Tahoe's length and takes the same boards."},
+   "body": "GM's full-size SUVs share a platform, but the Suburban and Yukon XL have a longer wheelbase and longer rear doors. Running boards are cut to the length between the wheel wells, so a Tahoe board is too short for a Suburban. The APS listings exclude the Yukon XL in their titles, the HD Ridez title recorded here rules out the Yukon XL and the Suburban, and every pick here names the Tahoe. The standard Yukon shares the Tahoe's length and takes the same boards."},
   {"h": "Fixed or power",
    "body": "Fixed boards bolt to the rocker and stay put. They're cheap, simple and need no wiring, but they hang below the rocker all the time. Power steps fold out when a door opens and tuck under the rocker when it closes. Rough Country's kit uses dual motors and LED step lights, per its listing. Power steps keep clearance and look clean, but they cost several times more and need wiring. For a family Tahoe that sees mostly pavement, fixed boards are the value; for a High Country or Z71 owner who wants clearance and a low step, power steps are worth the money."},
   {"h": "Factory steps",
-   "body": "Higher trims offer factory power-retractable steps, and some trims have factory fixed boards. Aftermarket boards replace them rather than bolting alongside. If your Tahoe has factory power steps that stopped working, a new aftermarket power kit is an alternative to dealer replacement parts, but check the wiring connection with the seller."},
+   "body": "GM Authority reports black assist steps with a chrome accent strip as standard on the Premier and High Country, with power-retractable assist steps optional on the Premier and part of the High Country Deluxe Package. Chevrolet's current Tahoe page lists black tubular assist steps on the Z71. We could not confirm factory steps on the LS, LT or RST, or the list for 2021–2024 models, so look under the doors or check the window sticker. Aftermarket boards replace factory steps rather than bolting alongside. If your Tahoe has factory power steps that stopped working, a new aftermarket power kit is an alternative to dealer replacement parts, but check the wiring connection with the seller."},
   {"h": "Width and finish",
    "body": "HD Ridez lists a 5 in board; Rough Country's power steps are 6 in. APS lists a black powder-coated running-board style. The generic side steps are aluminum. Aluminum doesn't rust but can corrode in salt; powder-coated steel depends on the coating. Brand-name makers publish less for Tahoe boards than for pickups, so check each listing for load rating and warranty."},
   {"h": "Install",
@@ -118,13 +123,13 @@ ARTICLE = {
   {"asin": "B09J4W1JRW", "role": "Best budget board", "price": "$150–$220",
    "pros": ["5 in board", "Lists 2021–2025 Tahoe and Yukon 4-door", "Excludes Yukon XL/Suburban", "Low price", "No wiring"],
    "cons": ["No published warranty we could check", "Narrower step", "Confirm 2026"],
-   "body": "HD Ridez's 5 in running boards are listed for the 2021–2025 Chevy Tahoe and GMC Yukon 4-door, excluding the Yukon XL. They're the cheapest fixed board here.\n\nA 5 in step is enough for adults and older kids. HD Ridez doesn't publish warranty or load specs we could check.\n\nFor a Tahoe that needs a step and doesn't need a premium look, it's the value pick. Check the listing photos for a textured step surface and included brackets; on a budget board those two details matter more than the brand.",
+   "body": "HD Ridez's 5 in running boards are listed for the 2021–2025 Chevy Tahoe and GMC Yukon 4-door. The title recorded here rules out the Yukon XL and the Suburban. They're the cheapest fixed board here.\n\nA 5 in step is enough for adults and older kids. HD Ridez doesn't publish warranty or load specs we could check.\n\nFor a Tahoe that needs a step and doesn't need a premium look, it's the value pick. Check the listing photos for a textured step surface and included brackets; on a budget board those two details matter more than the brand.",
    "who": "Budget buyers.",
    "specs": [["Brand", "HD Ridez"], ["Step", "5 in"], ["Fits", "2021–2025 Tahoe & Yukon (not Yukon XL/Suburban)"], ["Warranty", "Confirm with seller"], ["Price band", "$150–$220"]]},
   {"asin": "B0CF8GH8T9", "role": "Best OE-style", "price": "$180–$260",
    "pros": ["Aluminum side steps", "OE-style look", "Lists 2021–2025 Tahoe", "No wiring", "Aluminum doesn't rust"],
    "cons": ["Generic brand", "Can corrode in heavy salt", "No published warranty"],
-   "body": "These aluminum side steps are listed for the 2021–2025 Tahoe in an OE-style design. For owners who want the truck to look factory-equipped, it's the closest budget match.\n\nAluminum is light and rust-free but can corrode in road salt over time; rinse it through winter. Documentation is thin.\n\nConfirm Yukon compatibility and 2026 with the seller if relevant. Look for a textured top in the listing photos; smooth aluminum is slippery in rain and snow.",
+   "body": "These aluminum side steps are listed for the 2021–2025 Tahoe in an OE-style design. For owners who want the Tahoe to look factory-equipped, it's the closest budget match.\n\nAluminum is light and rust-free but can corrode in road salt over time; rinse it through winter. Documentation is thin.\n\nConfirm Yukon compatibility and 2026 with the seller if relevant. Look for a textured top in the listing photos; smooth aluminum is slippery in rain and snow.",
    "who": "Owners who want a factory look on a budget.",
    "specs": [["Material", "Aluminum"], ["Style", "OE-style"], ["Fits", "2021–2025 Tahoe"], ["Warranty", "Confirm with seller"], ["Price band", "$180–$260"]]},
   {"asin": "B0F9F7SV4J", "role": "Budget power steps", "price": "$600–$900",
@@ -134,7 +139,7 @@ ARTICLE = {
    "who": "DIY-comfortable owners who want power steps for less.",
    "specs": [["Type", "Deployable electric steps"], ["Fits", "2021–2025 Tahoe"], ["Wiring", "Required; confirm harness"], ["Warranty", "Confirm with seller"], ["Price band", "$600–$900"]]},
   {"asin": "B0B8F4CR22", "role": "Best nerf bars (2026)", "price": "$180–$260", "pros": ["5 in nerf-bar steps", "Black powder coat", "Lists 2021–2026 Tahoe and Yukon 4-door", "Excludes Yukon XL", "Covers the newest year"], "cons": ["Narrower than a flat board", "Little maker documentation", "No published warranty we could check"], "body": "APS's 5 in nerf bars are listed for 2021–2026 Chevy Tahoe and GMC Yukon 4-door, excluding the Yukon XL, in black powder coat. It's the same brand as the fixed-board pick, in a tube-style step, and the listing covers 2026.\n\nNerf bars give a narrower step than a flat board, with a sportier look that suits RST and Z71 trims. They sit close to the body, so the clearance loss is small. APS doesn't publish load or warranty details on the listing summary we saw, so check the listing.\n\nFor a 2026 Tahoe, where some other listings stop at 2025, it's a safe fixed-step order. Remember to exclude the Suburban and Yukon XL: they need longer bars.", "who": "2026 owners and anyone who prefers a nerf-bar look.", "specs": [["Brand", "APS"], ["Type", "Nerf bar"], ["Step", "5 in"], ["Finish", "Black powder coat"], ["Fits", "2021–2026 Tahoe/Yukon 4-door (not Yukon XL)"], ["Price band", "$180–$260"]]},
-  {"asin": "B0923YJQSZ", "role": "Best aluminum nerf bar", "price": "$150–$220", "pros": ["5.5 in aluminum side bars", "Black finish", "Lists 2021–2023 Tahoe and Yukon", "Excludes Yukon XL", "Light and rust-free"], "cons": ["Title stops at 2023; confirm 2024+", "Aluminum can corrode in heavy salt", "No published warranty we could check"], "body": "TAC's 5.5 in aluminum side steps are listed for 2021–2023 Chevy Tahoe and GMC Yukon, excluding the Yukon XL. They're light, rust-free nerf bars with a black finish.\n\nTAC is a common budget brand for truck steps. The title stops at 2023, but the Tahoe's body didn't change through the generation, so a 2024 or 2025 may fit; confirm with the seller before ordering. Aluminum resists rust but can corrode in heavy road salt, so rinse it in winter.\n\nFor an earlier 5th-gen Tahoe, it's a light, inexpensive step.", "who": "2021–2023 owners who want a light aluminum step.", "specs": [["Brand", "TAC"], ["Step", "5.5 in"], ["Material", "Aluminum"], ["Fits", "2021–2023 Tahoe/Yukon (not Yukon XL)"], ["Price band", "$150–$220"]]}
+  {"asin": "B0923YJQSZ", "role": "Best aluminum nerf bar", "price": "$150–$220", "pros": ["5.5 in aluminum side bars", "Black finish", "Lists 2021–2023 Tahoe and Yukon", "Excludes Yukon XL", "Light and rust-free"], "cons": ["Title stops at 2023; confirm 2024+", "Aluminum can corrode in heavy salt", "No published warranty we could check"], "body": "TAC's 5.5 in aluminum side steps are listed for 2021–2023 Chevy Tahoe and GMC Yukon, excluding the Yukon XL. They're light, rust-free nerf bars with a black finish.\n\nTAC is a common budget brand for truck steps. The title stops at 2023. Wikipedia describes the 2025 refresh as new front and rear fascias and a revised interior, and we could not confirm that rocker fit is the same across it. Ask the seller before ordering for a 2024, and above all for a 2025 or later. Aluminum resists rust but can corrode in heavy road salt, so rinse it in winter.\n\nFor an earlier 5th-gen Tahoe, it's a light, inexpensive step.", "who": "2021–2023 owners who want a light aluminum step.", "specs": [["Brand", "TAC"], ["Step", "5.5 in"], ["Material", "Aluminum"], ["Fits", "2021–2023 Tahoe/Yukon (not Yukon XL)"], ["Price band", "$150–$220"]]}
  ],
  "install": [
   "Confirm a 2021+ Tahoe (or standard Yukon), not a Suburban or Yukon XL.",
@@ -158,7 +163,10 @@ ARTICLE = {
   ["APS Tahoe/Yukon running boards listing", "https://www.amazon.com/dp/B0BGT5NTDW"],
   ["HD Ridez Tahoe/Yukon running boards listing", "https://www.amazon.com/dp/B09J4W1JRW"],
   ["Deployable electric running boards (Tahoe) listing", "https://www.amazon.com/dp/B0F9F7SV4J"],
-  ["Chevrolet Tahoe (Wikipedia)", "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"],
+  ["Chevrolet Tahoe: fifth generation, 2025 facelift (Wikipedia)", "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"],
+  ["2027 Chevy Tahoe and Suburban lose these optional assist steps (GM Authority)", "https://gmauthority.com/blog/2026/09/2027-chevy-tahoe-and-suburban-lose-these-optional-assist-steps/"],
+  ["Chevrolet Tahoe: Z71 black tubular assist steps (Chevrolet)", "https://www.chevrolet.com/suvs/tahoe"],
+  ["2025 Chevrolet Tahoe trims: High Country Deluxe package (Edmunds)", "https://edmunds.com/chevrolet/tahoe/2025/trims"],
   ["GMC Yukon (Wikipedia)", "https://en.wikipedia.org/wiki/GMC_Yukon"],
  ],
 }

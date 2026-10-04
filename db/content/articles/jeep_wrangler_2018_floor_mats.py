@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2018–2026 Jeep Wrangler JL.
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: dek price corrected from "$80 TPE" to the cheapest pick's $90–$130 band (picks[].price).
 """
 
 KEY = ("jeep", "wrangler", "2018-present", "floor-mats")
@@ -34,7 +35,7 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six liner sets listed for the JL Wrangler, from Husky WeatherBeater to $80 TPE, plus floor-and-cargo kits. Three things decide fit: 2-door or Unlimited, gas or 4xe, and whether there's a subwoofer in the cargo area.",
+ "dek": "Six liner sets listed for the JL Wrangler, from Husky WeatherBeater to budget TPE at about $90–$130, plus floor-and-cargo kits. Three things decide fit: 2-door or Unlimited, gas or 4xe, and whether there's a subwoofer in the cargo area.",
  "author": "jake-morrison",
  "reviewed": "2026-09-24",
  "method": "We did not install these liners ourselves. We ranked them on the fit each listing states for the 2018–2026 JL (doors, 4xe, subwoofer), on published maker specs (material, origin, warranty) and on coverage in listing photos. Husky and LASFIT claims come from their own sites, read in September 2026. Amazon prices move daily, so the button shows the live price.",

@@ -1,5 +1,8 @@
 """Long-form article — Best Floor Mats & Liners for 2020–2026 Ford Explorer (6th gen, U625).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: Hybrid years changed from 2020–2022 to 2020–2023 for retail buyers (Ford Authority; Ford's 2023
+towing guide lists a 2023 hybrid), with the Police Interceptor Utility noted as keeping the hybrid; "trucks" changed to
+"Explorers"; two sources added.
 """
 
 KEY = ("ford", "explorer", "2020-present", "floor-mats")
@@ -14,11 +17,11 @@ FAQ = [
  ("Do 2011–2019 Explorer liners fit the 2020+ Explorer?",
   "No. The 2020 Explorer moved to a new rear-wheel-drive-based platform with a new cabin floor. Husky's catalog shows the split: 13761 front liners for 2015–2019 and 99321 for 2020–2026. Buy 2020+ listings."),
  ("Do these liners fit the Explorer Hybrid, ST and Timberline?",
-  "The Hybrid (2020–2022), ST and Timberline share the 6th-gen floor. 3W's listing names the hybrid; Husky's 99321 is listed for the 2020–2026 Explorer without trim exclusions. Confirm seating layout, which matters more than trim."),
+  "The Hybrid, ST and Timberline share the 6th-gen floor. Ford sold the Hybrid to retail buyers for 2020–2023; Ford Authority reported that the 2024 lineup dropped it, while the Police Interceptor Utility kept the hybrid powertrain. 3W's listing names the hybrid; Husky's 99321 is listed for the 2020–2026 Explorer without trim exclusions. Confirm seating layout, which matters more than trim."),
  ("What does Husky's 6-piece Explorer set include?",
   "Front, second and third row liners plus a cargo liner, for 2020–2025 Explorers with a second-row bench or buckets with a center console, according to its title. It's the most complete Husky option for this vehicle."),
  ("Does the 2025 refresh change the liners?",
-  "The 2025 Explorer got a refreshed interior with a new dash and console, but most listings here run through 2025 or 2026, which suggests the floor carried over. Confirm with the seller for 2025 and 2026 trucks, especially for the second-row piece around the console."),
+  "The 2025 Explorer got a refreshed interior with a new dash and console, but most listings here run through 2025 or 2026, which suggests the floor carried over. Confirm with the seller for 2025 and 2026 Explorers, especially for the second-row piece around the console."),
  ("Do I need a third-row liner?",
   "If the third row gets used, yes. It's carpeted and kids climb over it. Husky sells a third-row liner and cargo mat bundle that folds with the third row, and 3W and LASFIT include the third row in their 3-row sets."),
  ("Can I use Explorer liners in a Lincoln Aviator?",
@@ -44,7 +47,7 @@ ARTICLE = {
   "**Second row decides fit.** Captain's chairs (6-passenger) or bench (7-passenger); console or open walkway.",
   "**New platform in 2020.** 2011–2019 liners don't fit.",
   "**Husky covers every row.** 99321 front and second; 6-piece set adds third row and cargo.",
-  "**3W names the Hybrid.** Useful for 2020–2022 Hybrid owners.",
+  "**3W names the Hybrid.** Useful for 2020–2023 Hybrid owners.",
   "**Budget rubber skips the third row.** KUST is front and second only.",
  ],
  "top_picks": [
@@ -61,7 +64,7 @@ ARTICLE = {
    ["Captain's chairs, open walkway", "6", "3W, LASFIT, DrCarNow list 6-passenger; confirm walkway coverage"],
    ["Captain's chairs with console", "6", "Husky 6-piece lists buckets with console"],
    ["Second-row bench", "7", "Husky 6-piece and 99321; KUST asks you to check"],
-   ["Hybrid (2020–2022)", "6 or 7", "3W names hybrid"],
+   ["Hybrid (2020–2023)", "6 or 7", "3W names hybrid"],
   ],
  },
  "look_for": [
@@ -113,7 +116,7 @@ ARTICLE = {
   {"asin": "B09MQGKWHR", "role": "Best 3-row TPE", "price": "$150–$190",
    "pros": ["3-row liner set", "Lists 2020–2026 6-passenger", "Names the hybrid", "TPE from a TPE-mat specialist", "Covers the newest year"],
    "cons": ["6-passenger only", "No published warranty", "Cargo not included"],
-   "body": "3W's TPE 3-row liners are listed for 2020–2026 Explorer 6-passenger models, including the hybrid. That hybrid mention is useful for 2020–2022 Explorer Hybrid owners, since few listings address it directly.\n\n3W's maker, Zhejiang Zhenya in Taizhou, China, specializes in TPE mats but doesn't publish warranty terms. The value is three rows covered for roughly half the price of Husky's 6-piece kit.\n\nConfirm whether your captain's chairs have a console or an open walkway, and check the listing photos for the second-row piece shape before ordering. The third-row piece matters more than it looks: kids climbing into the back step on the third-row floor with every entry, and that carpet is hard to reach for cleaning. A molded TPE piece there comes out in one pull. Pair the set with a cargo liner if you carry sports gear or a stroller.",
+   "body": "3W's TPE 3-row liners are listed for 2020–2026 Explorer 6-passenger models, including the hybrid. That hybrid mention is useful for 2020–2023 Explorer Hybrid owners, since few listings address it directly.\n\n3W's maker, Zhejiang Zhenya in Taizhou, China, specializes in TPE mats but doesn't publish warranty terms. The value is three rows covered for roughly half the price of Husky's 6-piece kit.\n\nConfirm whether your captain's chairs have a console or an open walkway, and check the listing photos for the second-row piece shape before ordering. The third-row piece matters more than it looks: kids climbing into the back step on the third-row floor with every entry, and that carpet is hard to reach for cleaning. A molded TPE piece there comes out in one pull. Pair the set with a cargo liner if you carry sports gear or a stroller.",
    "who": "6-passenger owners, including Hybrid, who want three rows covered.",
    "specs": [["Rows", "3"], ["Fits", "2020–2026 Explorer 6-passenger incl. hybrid"], ["Material", "TPE"], ["Maker", "Zhejiang Zhenya (3W)"], ["Price band", "$150–$190"]]},
   {"asin": "B0CC4YY6XR", "role": "Best recycled TPE", "price": "$140–$180",
@@ -159,6 +162,8 @@ ARTICLE = {
   ["Husky Liners 3rd row + cargo bundle listing", "https://www.amazon.com/dp/B0C8XTPF5G"],
   ["LASFIT floor mats (LASFIT)", "https://www.lasfit.com/collections/floor-mats"],
   ["Ford Explorer, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Explorer_(sixth_generation)"],
+  ["2024 Ford Explorer drops 3.3L V6 hybrid powertrain (Ford Authority)", "https://fordauthority.com/2023/10/2024-ford-explorer-drops-3-3l-v6-hybrid-powertrain/"],
+  ["2023 Ford RV & Trailer Towing Guide: lists a 3.3L hybrid Explorer for 2023 (Ford)", "https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2023-Ford-RV-and-Trailer-Towing-Guide.pdf"],
  ],
 }
 

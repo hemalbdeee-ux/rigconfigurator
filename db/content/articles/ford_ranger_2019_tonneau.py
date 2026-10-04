@@ -1,6 +1,7 @@
 """Long-form article — Best Tonneau Covers for 2019–2023 Ford Ranger (US-market T6, 5 ft and 6 ft beds).
 Mirrors the approved pilot ford_f150_2021_tonneau.py. No invented hands-on testing: every spec below comes
 from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+Source fixes 2026-10-04: Tremor FAQ now states SuperCrew 4x4 XLT/Lariat from model year 2021; Tyger T3 fit line says SuperCrew bed, not any cab; Gator EFX GC24022 text says to trust RealTruck's 2019–2023 fit line over the 2019–2025 Amazon title for a 2024 truck; rack-and-cover wording aligned with the bed racks guide; FITS 6 ft conditions changed from bed_length_in 72 to 73 (72.7 in rounded); two sources added.
 """
 
 KEY = ("ford", "ranger", "2019-2023", "tonneau-covers")
@@ -13,11 +14,11 @@ FAQ = [
  ("What is the best tonneau cover for a 2019–2023 Ford Ranger?",
   "For most owners, the BAKFlip MX4 in part 448332 for the 5 ft (61 in) bed. It has aluminum panels with a polymer core, a 400 lb evenly distributed rating, auto-latching and a 5-year warranty, and RealTruck lists it at $1,099.99. If you want a lockable hard cover for half that, the Gator EFX (GC24022) is $549. If you open the bed all day, the RetraxPRO MX 80335 is the retractable to get."),
  ("Will a 2019–2023 Ranger tonneau cover fit a 2024 Ranger?",
-  "Don't count on it. The 2024 Ranger is a new truck with a slightly shorter, wider bed, and BAK, Retrax, TruXedo and Tyger all sell separate 2024+ part numbers (the BAKFlip MX4 goes from 448332 to 448342). RealTruck lists the Gator EFX GC24022 for 2019–2023 only, even though one Amazon title reads 2019–2025. Buy the part your model year is listed for, and see the 2024–2026 Ranger guide for the new truck."),
+  "Don't count on it. The 2024 Ranger is a new truck with a slightly shorter, wider bed, and BAK, Retrax, TruXedo and Tyger all sell separate 2024+ part numbers (the BAKFlip MX4 goes from 448332 to 448342). RealTruck lists the Gator EFX GC24022 for 2019–2023 only, even though one Amazon title reads 2019–2025. For a 2024 truck, go by RealTruck's fit line, not the Amazon title. Buy the part your model year is listed for, and see the 2024–2026 Ranger guide for the new truck."),
  ("Is my Ranger bed 5 ft or 6 ft?",
   "In the US, the 2019–2023 Ranger SuperCrew (four full doors) has the 5 ft bed, which cover makers list as 5'1\" or 61 in. The SuperCab (small rear-hinged doors) has the 6 ft bed, listed as 6'1\" or 72.7 in. If you're unsure, measure inside the bed at the rail from the bulkhead to the inside of the closed tailgate."),
  ("Do these covers fit the Ranger Tremor?",
-  "The covers here are listed by model year and bed length, not by trim, so a Tremor needs the same part as any other 2019–2023 Ranger with its bed length: 5'1\" on a SuperCrew. None of the makers we checked call the Tremor out by name, so if your truck has extra bed accessories, such as tie-down rails or a divider, confirm with the seller that the clamps clear them."),
+  "The covers here are listed by model year and bed length, not by trim. Ford offered the Tremor Off-Road Package from the 2021 model year on XLT and Lariat SuperCrew 4x4 trucks, so a Tremor has the 5'1\" bed and takes the same part as any other SuperCrew. None of the makers we checked call the Tremor out by name, so if your truck has extra bed accessories, such as tie-down rails or a divider, confirm with the seller that the clamps clear them."),
  ("Why do some Ranger covers leak at the tailgate?",
   "Ranger5G owners have pointed to gaps around the ends of the Ranger's tailgate that let water past a cover's corner seals, and one owner there reported his older BAKFlip G2 leaking at those corners. Another poster's view was that folding hard covers will all let in a little water. Center the cover carefully, make sure the tailgate seal touches along its width, and consider a one-piece cover like the UnderCover SE if a dry bed is the priority."),
  ("How long does a BAKFlip MX4 take to install on a Ranger?",
@@ -29,7 +30,7 @@ FAQ = [
  ("Is a retractable cover worth it on a 5 ft bed?",
   "It's a harder case than on a full-size truck. The RetraxPRO MX locks at any position and carries 500 lb, but Rack Attack puts the Retrax canister at roughly 10–11 in at the front of the bed, which is a bigger share of a 61 in box. RealTruck lists the 80335 at $1,949.99. Buy it only if full-bed access that locks in any position saves you time every day."),
  ("Can I run a bed rack with a tonneau cover on the Ranger?",
-  "Most folding covers leave nowhere to mount a rack. Retrax sells an XR version of the PRO for this Ranger (T-80335) with T-slot rails for crossbars and racks over the cover. If you plan on a rooftop tent or bike rack over the bed, choose the rack system first and the cover second."),
+  "Most folding covers leave no rail for a rack. Some owners report combinations that work: one Ranger5G owner runs a Diamondback bifold cover with Front Runner racks and a rooftop tent. Confirm the pairing with the rack maker before you buy. Retrax sells an XR version of the PRO for this Ranger (T-80335) with T-slot rails for crossbars and racks over the cover. If you plan on a rooftop tent or bike rack over the bed, choose the rack system first and the cover second."),
 ]
 
 ARTICLE = {
@@ -105,7 +106,7 @@ ARTICLE = {
   {"asin": "B07STF6BB9", "role": "Best value hard cover", "price": "$549",
    "pros": ["Multi-layer aluminum construction", "Automatic dual slam-latches with twice the latch points", "Flush seals and drain rails", "Free cargo retriever tool (valued at $70)", "Stake pockets stay accessible"],
    "cons": ["300 lb rating versus 400 lb for the MX4", "2-year warranty only", "About ⅔ of the bed is open when folded"],
-   "body": "The EFX is the cheapest cover here that locks, carries weight and is made by a brand with published specs. Gator builds it from multi-layer aluminum with a semi-gloss finish and uses automatic dual slam-latches, with what Gator describes as twice as many latch points as its earlier design. Flush-fitting seals and drain rails deal with water, and the stake pockets stay open for tie-downs. RealTruck lists part GC24022 at $549 (list $599), includes a cargo retriever tool it values at $70, and rates the install at under 30 minutes with no drilling.\n\nYou give up load rating and warranty against the MX4: 300 lb evenly distributed and a 2-year limited warranty with a 30-day exchange, compared with 400 lb and 5 years. Folded, it opens about two-thirds of the bed, so a dirt bike means taking it off. One fitment detail to watch: RealTruck lists GC24022 for the 2019–2023 Ranger 5'1\" bed and says it does not include 2024+, while the Amazon listing title reads 2019–2025. On a 2019–2023 truck either way it fits; on a 2024+ truck, confirm with the seller before buying.",
+   "body": "The EFX is the cheapest cover here that locks, carries weight and is made by a brand with published specs. Gator builds it from multi-layer aluminum with a semi-gloss finish and uses automatic dual slam-latches, with what Gator describes as twice as many latch points as its earlier design. Flush-fitting seals and drain rails deal with water, and the stake pockets stay open for tie-downs. RealTruck lists part GC24022 at $549 (list $599), includes a cargo retriever tool it values at $70, and rates the install at under 30 minutes with no drilling.\n\nYou give up load rating and warranty against the MX4: 300 lb evenly distributed and a 2-year limited warranty with a 30-day exchange, compared with 400 lb and 5 years. Folded, it opens about two-thirds of the bed, so a dirt bike means taking it off. One fitment detail to watch: RealTruck's fit line for GC24022 reads 2019–2023 Ford Ranger, 5'1\" bed, while the Amazon listing title reads 2019–2025. On a 2019–2023 truck the two agree. For a 2024 or newer truck, trust RealTruck's fit line over the Amazon title, and don't buy this part unless the seller confirms the fit in writing.",
    "who": "Buyers who want a lockable hard cover under $600 and don't need a 400 lb rating or a long warranty.",
    "specs": [["Type", "Hard tri-fold"], ["Part #", "GC24022 (5 ft) · GC24023 (6 ft)"], ["Fits", "2019–2023 Ranger, 5'1\" bed (RealTruck)"], ["Material", "Multi-layer aluminum"], ["Load rating", "300 lb distributed"], ["Latching", "Automatic dual slam-latches"], ["Install", "<30 min, no drill"], ["Warranty", "2 years + 30-day exchange"]]},
   {"asin": "B07NYT2TKW", "role": "Best retractable", "price": "$1,950",
@@ -123,9 +124,9 @@ ARTICLE = {
   {"asin": "B0BHH638DY", "role": "Best budget", "price": "$223",
    "pros": ["$223, the lowest price here", "24 oz marine-grade vinyl on aluminum frames", "Stainless steel clamps", "5–10 minute install (Tyger's figure)", "5-year warranty, longer than the Gator EFX's"],
    "cons": ["Vinyl gives little real security", "Over-rail bedliners need small holes cut", "5 ft bed only for this part"],
-   "body": "The T3 is the cheapest way to cover a Ranger bed with a brand that publishes its specs. Tyger uses heavy-duty 24 oz marine-grade vinyl on aircraft-grade aluminum frames with stainless steel clamps, and the crossbars come pre-assembled and fold up with the cover. It weighs 27.56 lb, light enough to lift off and stash in a garage. Tyger lists part TG-BC3F1066 at $223 for the 2019–2023 Ranger 5 ft (61 in) bed, for any cab with that bed, backed by a 5-year warranty for US customers, longer than you get with the Gator EFX at more than twice the price.\n\nTyger's own fitment note is the thing to check: if your Ranger has a bedliner that wraps over the rails, you'll need to cut small holes in it for the clamps. Under-rail and spray-in liners need nothing. Tyger quotes a 5–10 minute install. A tri-fold can also flip up against the cab or come off completely, which suits owners who only want the cover on in bad weather.",
+   "body": "The T3 is the cheapest way to cover a Ranger bed with a brand that publishes its specs. Tyger uses heavy-duty 24 oz marine-grade vinyl on aircraft-grade aluminum frames with stainless steel clamps, and the crossbars come pre-assembled and fold up with the cover. It weighs 27.56 lb, light enough to lift off and stash in a garage. Tyger lists part TG-BC3F1066 at $223 for the 2019–2023 Ranger 5 ft (61 in) bed, which is the SuperCrew bed, backed by a 5-year warranty for US customers, longer than you get with the Gator EFX at more than twice the price.\n\nTyger's own fitment note is the thing to check: if your Ranger has a bedliner that wraps over the rails, you'll need to cut small holes in it for the clamps. Under-rail and spray-in liners need nothing. Tyger quotes a 5–10 minute install. A tri-fold can also flip up against the cab or come off completely, which suits owners who only want the cover on in bad weather.",
    "who": "First-time cover buyers and anyone who wants the bed covered for under $250.",
-   "specs": [["Type", "Soft tri-fold"], ["Part #", "TG-BC3F1066 (5 ft)"], ["Fits", "2019–2023 Ranger, 5 ft (61 in), any cab"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "27.56 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "TG-BC3F1066 (5 ft)"], ["Fits", "2019–2023 Ranger, 5 ft (61 in) bed (SuperCrew)"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "27.56 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
   {"asin": "B088Q8YM6K", "role": "Best one-piece cover", "price": "$1,300",
    "pros": ["One-piece ABS lid has no fold joints to leak", "Double-bulb EPDM rubber seal", "Single center twist-lock operates dual latches", "Built-in removable LED light", "Textured black finish; assembled in Missouri"],
    "cons": ["About 58 lb, heavy to remove", "No load rating on RealTruck's page", "Full bed access only when propped open; tall loads need it off"],
@@ -145,7 +146,7 @@ ARTICLE = {
   {"h": "2024+ covers on a 2019–2023 truck (and the reverse)", "body": "The 2024 Ranger's bed is a different size and every major maker lists separate parts. Buy the 2019–2023 part number unless the maker lists your year on it."},
   {"h": "\"Fits 2019–2026 Ranger\" no-name listings", "body": "Branded makers don't sell one cover for both generations. A listing that claims to fit both deserves a question to the seller before you buy."},
   {"h": "Expecting a folding cover to be bone-dry", "body": "Ranger owners report water at the tailgate corners with folding covers. If a dry bed is the goal, set the seals carefully or choose a one-piece lid."},
-  {"h": "A folding cover when you want a bed rack", "body": "Most folding covers leave no mounting points. If a rack or rooftop tent is planned, look at the RetraxPRO XR (T-80335) or a rack designed to sit over a cover."},
+  {"h": "A folding cover when you want a bed rack", "body": "Most folding covers leave no rail for a rack. Some owners report combinations that work, so confirm with the rack maker. If a rack or rooftop tent is planned, look at the RetraxPRO XR (T-80335) or a rack designed to sit over a cover."},
  ],
  "verdict": {
   "thesis": "Match the bed to the cab, buy the 2019–2023 part number, then pick: the BAKFlip MX4 at $1,100, the Gator EFX at $549, or the RetraxPRO MX if you open the bed all day.",
@@ -161,6 +162,8 @@ ARTICLE = {
   ["Retrax ONE vs PRO, MX vs XR (Rack Attack)", "https://rackattack.com/retrax-tonneau-cover-review-one-pro-mx-xr-guide"],
   ["Ford Ranger (T6) — North American model (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Ranger_(T6)"],
   ["Non-leaking tonneau cover recommendations (Ranger5G)", "https://www.ranger5g.com/forum/threads/need-recommendations-for-non-leaking-tonneau-cover-avoid-bakflip-g2.3068/"],
+  ["Ford unveils 2021 Ranger Tremor: XLT and Lariat SuperCrew 4x4 (Equipment World)", "https://www.equipmentworld.com/trucks/pickups/article/15051976/ford-unveils-2021-ranger-tremor"],
+  ["Show me your tonneau cover bed rack combo (Ranger5G)", "https://www.ranger5g.com/forum/threads/show-me-your-tonneau-cover-bed-rack-combo.15304/page-2"],
  ],
 }
 
@@ -173,8 +176,8 @@ FITS = [
  ("B0BHH638DY","Tyger Auto T3 Soft Tri-Fold Tonneau Cover TG-BC3F1066, 2019-2023 Ranger 5' Bed","Tyger Auto","$210–$250",{"bed_length_in":61},"Over-rail bedliners need small holes cut."),
  ("B088Q8YM6K","UnderCover SE One-Piece Tonneau Cover UC2186, 2019-2023 Ranger 5' 1\" Bed (61 in)","UnderCover","$1,250–$1,400",{"bed_length_in":61},"No published load rating; about 58 lb."),
  ("B07NXVB15V","RetraxPRO XR Retractable Tonneau Cover T-80335 (T-slot rails), 2019-2023 Ranger 5' 1\" Bed","Retrax","$2,000–$2,400",{"bed_length_in":61},"Rack-ready rails; confirm price on listing."),
- ("B07NYS3MYK","RetraxPRO MX Retractable Tonneau Cover 80336, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","Retrax","$1,950–$2,300",{"bed_length_in":72},"SuperCab 6 ft version; confirm price on listing."),
- ("B07N97MB8F","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 531101, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","TruXedo","$500–$600",{"bed_length_in":72},"SuperCab 6 ft version; confirm price on listing."),
- ("B07SSD1DGZ","Gator EFX Hard Tri-Fold Tonneau Cover GC24023, Ford Ranger 6' 1\" Bed (72.7 in)","Gator","$520–$650",{"bed_length_in":72},"SuperCab 6 ft version; confirm price on listing."),
- ("B088Q9NRFT","UnderCover SE One-Piece Tonneau Cover UC2196, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","UnderCover","$1,250–$1,500",{"bed_length_in":72},"SuperCab 6 ft version; confirm price on listing."),
+ ("B07NYS3MYK","RetraxPRO MX Retractable Tonneau Cover 80336, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","Retrax","$1,950–$2,300",{"bed_length_in":73},"SuperCab 6 ft version; confirm price on listing."),
+ ("B07N97MB8F","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 531101, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","TruXedo","$500–$600",{"bed_length_in":73},"SuperCab 6 ft version; confirm price on listing."),
+ ("B07SSD1DGZ","Gator EFX Hard Tri-Fold Tonneau Cover GC24023, Ford Ranger 6' 1\" Bed (72.7 in)","Gator","$520–$650",{"bed_length_in":73},"SuperCab 6 ft version; confirm price on listing."),
+ ("B088Q9NRFT","UnderCover SE One-Piece Tonneau Cover UC2196, 2019-2023 Ranger 6' 1\" Bed (72.7 in)","UnderCover","$1,250–$1,500",{"bed_length_in":73},"SuperCab 6 ft version; confirm price on listing."),
 ]

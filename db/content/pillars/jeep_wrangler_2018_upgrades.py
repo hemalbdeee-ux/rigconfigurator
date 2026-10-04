@@ -2,8 +2,8 @@
 Hub page: ranks the three published Wrangler JL category guides and links to them. No product picks or ASINs here
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields;
 vehicle facts from db/migrations/003_vehicles.sql (SUV, 2-door and 4-door Unlimited, removable hardtop / soft top /
-Sky One-Touch, tailgate spare, factory Class II 2 in receiver on the tow package, 2,000 / 3,500 / 5,000 lb by year
-and door count, 4xe and 392 at 3,500 lb), the three guides and their sources, and six pages opened for this page on
+Sky One-Touch, tailgate spare, factory Class II 2 in receiver on the tow package, 2,000 / 3,500 / 5,000 lb by year,
+door count and trim, 4xe and 392 at 3,500 lb), the three guides and their sources, and six pages opened for this page on
 2026-10-04: Wikipedia's JL page (96.8 / 118.4 in wheelbases, removable roof and doors, JL production from November
 2017 with the JK built until April 27, 2018, 4xe released in 2021, Rubicon 392 from the 2021 model year, EcoDiesel
 from 2020 and dropped for 2024, 2024 grille with Sport and Sport S keeping the earlier one, Gladiator based on the
@@ -17,13 +17,14 @@ Unlimited Rubicon figure; one 2024 Rubicon built with a Class II receiver), and 
 "2,000 – 3,500 lbs", 4-door up to 5,000 lb with the automatic, undated). Stellantis' Middle East copy of the 2024
 release was also opened and is not cited.
 Not verified, and worded as such in the text: any 2-door rating above 2,000 lb and any non-Rubicon 4-door rating
-above 3,500 lb from a Jeep page (dealer guides and our vehicle data list 3,500 lb for 2024-on 2-doors and 5,000 lb
-for properly equipped 2024-on 4-doors); the rating of a Rubicon on 35 in tires; whether 2025 and 2026 carry the
+above 3,500 lb from a Jeep page (dealer guides list 3,500 lb for 2024-on 2-doors and 5,000 lb for properly equipped
+2024-on 4-doors; our vehicle data did too until the 2026-10-04 source fix); the rating of a Rubicon on 35 in tires; whether 2025 and 2026 carry the
 2024 figures; which trims and years ship with a factory receiver outside the 2024 release, and what class Jeep fits
 to 5,000 lb Rubicons; where the floor drain plugs sit and whether any liner leaves an opening for them; 4xe fit of
 Husky's 93921 and OEDRO's set; EcoDiesel fit of the hitches other than CURT's; 392 exhaust clearance; which trims
 have a steel or plastic front bumper or auxiliary switches outside the 2024 release; and 2026 fit of listings whose
 titles stop at 2025 or earlier. No JL guide exists for roof racks, running boards or bike racks; none are ranked.
+Source fixes 2026-10-04: factory-hitch FAQ and section now say to read the receiver label against the owner's-manual rating (a 3,500 lb Class II caps a Jeep rated higher) and name Rubicon and Rubicon X from Jeep's 2024 press kit; "ordered with" changed to "built with"; 33 in tires added to the 5,000 lb takeaway; unconfirmed 2024-on rows point to the owner's manual chart and "ceilings" became "unconfirmed", to match the corrected hitch guide and proposed vehicle data.
 """
 
 KIND = "upgrades"
@@ -58,12 +59,13 @@ FAQ = [
   "5,000 lb for other properly equipped 4-doors; we could not confirm those from a Jeep page. Use the towing chart "
   "in your owner's manual."),
  ("Does every Wrangler JL come with a factory hitch?",
-  "No. Our hitch guide says a JL has a factory receiver only if it was ordered with the Trailer Tow package. As we "
-  "read Jeep's 2024 pricing release, Trailer Tow with the Heavy-Duty Electrical Group is standard on the Willys and "
-  "Rubicon; we could not confirm other trims or years. Look under the rear bumper for a square 2 in "
+  "No. Our hitch guide says a JL has a factory receiver only if it was built with the Trailer Tow package. Jeep's "
+  "2024 press kit lists it as standard on the Rubicon and Rubicon X, and as we read the 2024 pricing release, on "
+  "the Willys too; we could not confirm other trims or years. Look under the rear bumper for a square 2 in "
   "opening. Owners on JLwranglerforums report the factory receiver they have seen is a Class II rated 3,500 lb. If "
-  "one is fitted, you need only a ball mount and wiring. If not, Mopar sells the factory part as kit 82215209 for "
-  "about $275–$312."),
+  "one is fitted, read its label and compare it with the tow rating in your owner's manual. A 3,500 lb Class II "
+  "receiver caps a Jeep rated higher. If the label covers what you tow, you need only a ball mount and wiring. If "
+  "no receiver is fitted, Mopar sells the factory part as kit 82215209 for about $275–$312."),
  ("What changes if I have a Wrangler 4xe or a Rubicon 392?",
   "The 4xe changes the most. Its battery sits under the rear seat, so 3W, LASFIT and Falafa list their liner sets as "
   "not for the 4xe. Our guide's route is Husky's 13021 front pair, about $90–$130, with a rear piece that names the "
@@ -114,7 +116,7 @@ ARTICLE = {
  "takeaways": [
   "**Count the doors first.** Husky's 93991 is the 2-door liner set and the 93921 the Unlimited set. The budget sets in our guide are Unlimited only.",
   "**JL, not JK.** Both were built as 2018 models. Full liner sets are generation-specific, while CURT's and Draw-Tite's hitches are listed for both.",
-  "**The Jeep's tow rating beats the hitch's.** Listed figures run from 2,000 lb on 2018–2023 2-doors to 5,000 lb on 2024 4-door Rubicon automatics.",
+  "**The Jeep's tow rating beats the hitch's.** Listed figures run from 2,000 lb on 2018–2023 2-doors to 5,000 lb on 2024 4-door Rubicon automatics with 33 in tires.",
   "**The 4xe and 392 carry their own fit notes.** The 4xe's battery changes the rear floor, and both are excluded from some light kits.",
   "**The spare sits above the receiver, and lights go last.** Measure before buying a hitch rack. Most light bars are off-road only, so check your state's rules.",
  ],
@@ -198,22 +200,23 @@ ARTICLE = {
            "owners on JLwranglerforums describe it as a 2024-on Unlimited Rubicon figure. Dealer guides extend "
            "5,000 lb to any properly equipped 4-door with the 8-speed automatic and list 2024-on 2-doors at up to "
            "3,500 lb. We could not confirm from a Jeep page that a 4-door "
-           "Sport or Sahara, a Rubicon on 35 in tires or any 2-door reaches those figures. Treat them as ceilings "
+           "Sport or Sahara, a Rubicon on 35 in tires or any 2-door reaches those figures. Treat them as unconfirmed "
            "and use the towing chart in your owner's manual.",
    "table": {"caption": "2018–2026 Wrangler JL tow ratings as listed (the lower of vehicle and hitch applies)",
              "head": ["Configuration", "Years", "Listed maximum", "Hitch that matches"],
              "rows": [
               ["2-door", "2018–2023", "2,000 lb (vehicle data, dealer guides)", "Any. Every hitch in our guide is rated above the Jeep"],
-              ["2-door", "2024 on", "Up to 3,500 lb in dealer guides; not confirmed from a Jeep page", "Mopar 82215209 (3,500 lb) or any Class III"],
+              ["2-door", "2024 on", "Up to 3,500 lb in dealer guides; not confirmed from a Jeep page. Use the owner's manual chart", "Mopar 82215209 (3,500 lb) or any Class III"],
               ["4-door Unlimited", "2018–2023", "3,500 lb (vehicle data, dealer guides)", "Mopar 82215209 matches; CURT 13392 or Draw-Tite 76382 add tongue weight"],
               ["4-door Rubicon, 2.0L or 3.6L, automatic, 33 in tires", "2024 on", "5,000 lb (Jeep's 2024 press kit)", "CURT 13392 (5,000 lb / 500 lb). Draw-Tite's 4,500 lb or Mopar's 3,500 lb becomes the limit"],
-              ["Other 4-doors", "2024 on", "Up to 5,000 lb in dealer guides; not confirmed from Jeep for non-Rubicon trims", "CURT 13392 covers either figure"],
+              ["Other 4-doors", "2024 on", "Up to 5,000 lb in dealer guides; not confirmed from Jeep for non-Rubicon trims. Use the owner's manual chart", "CURT 13392 covers either figure"],
               ["4xe plug-in hybrid", "2021 on", "3,500 lb", "Mopar 82215209, confirmed for the 4xe in Quadratec's Q&A"],
               ["Rubicon 392", "Years offered", "3,500 lb", "Ask the seller about exhaust clearance"],
              ]}},
   {"h": "The factory receiver, the tailgate spare and the wiring",
-   "body": "**Look first.** Our hitch guide says a JL has a factory receiver only if it was ordered with the Trailer "
-           "Tow package. As we read Jeep's 2024 pricing release, Trailer Tow with the Heavy-Duty Electrical Group is "
+   "body": "**Look first.** Our hitch guide says a JL has a factory receiver only if it was built with the Trailer "
+           "Tow package. Jeep's 2024 press kit lists Trailer Tow as standard on the Rubicon and Rubicon X. As we "
+           "read Jeep's 2024 pricing release, Trailer Tow with the Heavy-Duty Electrical Group is "
            "standard on the Willys and Rubicon. We could not confirm other trims or years, so look under the rear "
            "bumper for a square 2 in opening and check the window sticker.\n\n"
            "**Read its label.** Our vehicle data records the factory hitch as Class II with a 2 in receiver, and "
@@ -221,7 +224,8 @@ ARTICLE = {
            "Owners on JLwranglerforums say every factory JL receiver they have seen is Class II. One reports a 2024 "
            "Rubicon whose manual shows 5,000 lb with a Class III hitch, while the Jeep was built with a Class II "
            "receiver. We could not confirm what Jeep fits to 5,000 lb Rubicons, so the label decides whether you "
-           "need a second hitch.\n\n"
+           "need a second hitch. Compare it with the tow rating in your owner's manual: a 3,500 lb Class II "
+           "receiver caps a Jeep rated higher.\n\n"
            "**The spare.** It hangs on the tailgate directly above the receiver, and our hitch guide calls it the "
            "main reason hitch racks fail to fit. CURT's 13392 uses a 9 in receiver tube to help racks clear it. Measure "
            "from the receiver pin hole to the back of the tire and compare that with the rack's clearance spec.\n\n"

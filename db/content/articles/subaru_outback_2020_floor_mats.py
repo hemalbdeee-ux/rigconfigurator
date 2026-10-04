@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2020–2025 Subaru Outback (6th gen, BT).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: added one sentence that Subaru's 2022 Outback Wilderness release lists all-weather floor mats as standard, so Wilderness owners check what they already have; release added to sources.
 """
 
 KEY = ("subaru", "outback", "2020-present", "floor-mats")
@@ -12,7 +13,7 @@ FAQ = [
  ("Do Outback liners fit the 2020–2025 Legacy?",
   "Usually, yes. The 6th-gen Outback and 7th-gen Legacy share a platform and cabin floor, and most listings on this page name both: Husky's 95541, Subaru's J501SAN100, YITAMOTOR, OEDRO, the generic 3D set and Auxko. Cargo liners are different, since the Legacy is a sedan with a trunk."),
  ("Does the Outback Wilderness take different liners?",
-  "The Wilderness (2022–2025) shares the Outback cabin floor, so liners listed for the 2020–2025 Outback fit unless the listing excludes it. The Wilderness adds water-repellent upholstery and different trim, not a different floor."),
+  "The Wilderness (2022–2025) shares the Outback cabin floor, so liners listed for the 2020–2025 Outback fit unless the listing excludes it. The Wilderness adds water-repellent upholstery and different trim, not a different floor. Subaru's release for the 2022 Wilderness lists all-weather floor mats as standard on that trim, so check what is already in the car before you buy a set."),
  ("Will 2020–2025 Outback liners fit a 2026 Outback?",
   "Treat the 2026 Outback as a new generation and buy liners that name it. Subaru redesigned the Outback for 2026, and floor liners are generation-specific."),
  ("Do 2015–2019 Outback liners fit a 2020?",
@@ -164,6 +165,7 @@ ARTICLE = {
   ["Subaru J501SAN100 heavy-gauge mats listing", "https://www.amazon.com/dp/B07WRSDBSS"],
   ["OEDRO Outback/Legacy liners listing", "https://www.amazon.com/dp/B093L62R7H"],
   ["Subaru Outback, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Outback"],
+  ["Subaru debuts 2022 Outback Wilderness: standard all-weather floor mats (Subaru U.S. Media Center)", "https://media.subaru.com/newsrelease.do?fIId=1724&id=1762&mid="],
  ],
 }
 

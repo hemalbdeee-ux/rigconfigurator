@@ -1,5 +1,9 @@
 """Long-form article — Best Floor Mats & Liners for 2021–2026 Chevy Tahoe (5th gen, T1XX).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from maker pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: TPE row price band now matches the Mixsuper pick and the JSLYF FITS band; captain's chairs by
+trim reworded to Chevrolet's current Tahoe page; Husky 99241 pick tells the reader to confirm the second-row layout;
+added the LS-only nine-seat front bench (Edmunds 2025); the 2025 floor-pan carryover is now worded as not confirmed;
+"trucks" changed to Tahoe or SUV in the article text (the FITS note on B09N1F5ZF4 is left as recorded).
 """
 
 KEY = ("chevrolet", "tahoe", "2021-present", "floor-mats")
@@ -16,7 +20,7 @@ FAQ = [
  ("Do 2015–2020 Tahoe liners fit the 2021+?",
   "No. The 2021 Tahoe moved to a new platform with independent rear suspension, which lowered and flattened the rear floor. Husky's 99203 is for 2015–2020 and its 99241 for 2021+. Buy 2021+ listings."),
  ("Did the 2025 Tahoe refresh change the liners?",
-  "The 2025 refresh brought a new dashboard and interior, but the floor pan carried over. Several listings here run to 2025 or 2026. Some stop at 2024 (JSLYF), so confirm newer years with the seller."),
+  "Wikipedia describes the 2025 refresh as new front and rear fascias and a revised interior with a 17.7 in screen and a redesigned center console. We could not confirm from Chevrolet that the floor pan carried over. Four listings here span 2021–2026 with no split at 2025 (Husky 28291 and 14241, Mixsuper, and TOUGHPRO's bucket set with cargo mat), which points that way. Others stop at 2025, and JSLYF stops at 2024, so confirm newer years with the seller."),
  ("What does TOUGHPRO's 'made in USA' mean?",
   "TOUGHPRO's listings describe its heavy-duty rubber mats as made in USA. They're rubber mats rather than rigid molded liners, so they're heavier, grippier and stay flexible in the cold, with lower edges than a WeatherBeater."),
  ("Is a cargo liner worth it on a Tahoe?",
@@ -24,7 +28,7 @@ FAQ = [
  ("How should the driver liner sit?",
   "Flat on the carpet, hooked onto GM's retention posts and clear of the pedals at full travel. Remove the factory mat first and heel-test the liner toward the pedals."),
  ("Do these fit the Tahoe Z71 and High Country?",
-  "Yes. Trim levels share the floor; the second-row seat choice is what matters. High Country and many Premier trucks have captain's chairs; LS and LT trucks more often have a bench, but either can be ordered differently."),
+  "By the listings, yes: none of them excludes a trim in its title. The second-row seat choice is what matters. Chevrolet's current Tahoe page, which now shows the 2027 model, lists captain's chairs as standard on the Premier and High Country and available on the LT, RST and Z71. We could not confirm the layout by trim for every year back to 2021, so go by the seats, not the badge."),
  ("How do I clean three-row liners?",
   "Pull each row, shake out crumbs, rinse and scrub with mild soap, and dry before reinstalling. Rubber mats like TOUGHPRO can be pressure-washed on a low setting. Skip silicone protectants."),
  ("Are Mixsuper liners compatible with the Escalade?",
@@ -61,12 +65,12 @@ ARTICLE = {
    ["Second row", "Bench (8 seats) or captain's chairs (7)", "TOUGHPRO and Mixsuper sell separate versions"],
    ["Vehicle length", "Tahoe/Yukon vs Suburban/Yukon XL", "Front/2nd often shared; 3rd row and cargo differ"],
    ["Generation", "2015–2020 vs 2021+", "Not compatible"],
-   ["Refresh", "2025+ interior", "Floor carried over; confirm year ranges"],
+   ["Refresh", "2025+ interior", "Floor carryover not confirmed; check the year range"],
   ],
  },
  "look_for": [
   {"h": "Bench or captain's chairs",
-   "body": "The Tahoe offers a second-row bench for eight passengers or two captain's chairs for seven. The choice changes the second-row floor liner and the third-row liner, because captain's chairs leave a walkway to the third row. TOUGHPRO sells separate sets for bucket seating and bench seating. Mixsuper's 3-row set is buckets only, not bench. Husky sells a third-row liner specifically for trucks with the second-row bench. Check your second row before you shop; it's the most common reason for a wrong order."},
+   "body": "The Tahoe offers a second-row bench for eight passengers or two captain's chairs for seven. The choice changes the second-row floor liner and the third-row liner, because captain's chairs leave a walkway to the third row. TOUGHPRO sells separate sets for bucket seating and bench seating. Mixsuper's 3-row set is buckets only, not bench. Husky sells a third-row liner specifically for Tahoes with the second-row bench. Check your second row before you shop; it's the most common reason for a wrong order. Edmunds' 2025 trim page also lists a front-row bench, for nine seats, as an LS-only option. No listing in this guide mentions it, so ask the seller whether the front piece fits."},
   {"h": "Shared parts across GM's full-size SUVs",
    "body": "The Tahoe, Yukon, Suburban, Yukon XL, Escalade and Escalade ESV share a platform, and the front and second-row floors are close enough that Husky lists its 99241 set for all of them. The third row and cargo area are where the long-wheelbase Suburban and Yukon XL differ from the Tahoe and Yukon. Husky sells a third-row liner for the Suburban, Yukon XL and ESV separately from the one for the Tahoe, Yukon and Escalade. Buy front and second row by generation; buy third row and cargo by length."},
   {"h": "The flat 5th-gen floor",
@@ -94,7 +98,7 @@ ARTICLE = {
    ["USA-made molded liner", "Husky 99241", "Front + 2nd", "High", "$170–$240", "Snow, mud"],
    ["USA-made rubber full set", "TOUGHPRO bench + 3rd + cargo", "All rows + cargo", "Low-medium", "$130–$180", "Full coverage on a budget"],
    ["USA-made rubber 3-row", "TOUGHPRO buckets", "3 rows", "Low-medium", "$110–$150", "Captain's chairs"],
-   ["3-row TPE", "Mixsuper, JSLYF", "3 rows", "Medium", "$120–$170", "Value"],
+   ["3-row TPE", "Mixsuper, JSLYF", "3 rows", "Medium", "$130–$170 (Mixsuper); $120–$160 (JSLYF)", "Value"],
    ["Molded cargo liner", "Husky 28291", "Cargo over folded 3rd row", "High", "$120–$170", "Gear haulers"],
   ],
  },
@@ -102,7 +106,7 @@ ARTICLE = {
   {"asin": "B08W8HR82H", "role": "Best overall", "price": "$170–$240",
    "pros": ["Made in the USA from ProGard", "Lifetime warranty against cracks and breaks", "StayPut nibs", "Front and 2nd row, 3 pieces", "Lists Tahoe, Yukon, Suburban, Escalade 2021–2025"],
    "cons": ["Third row and cargo sold separately", "Title stops at 2025; confirm 2026", "Firm feel"],
-   "body": "Husky's WeatherBeater 99241 is the front and second-row set for the 2021–2025 Tahoe, and the same listing covers the Suburban, Yukon, Yukon XL, Escalade and Escalade ESV. That breadth is a strong sign that Husky cut it to the shared GM full-size floor rather than to one trim.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks. The tall, firm walls are the reason to pay more: a Tahoe carries a lot of people, and in snow country that means a lot of melt in the footwells.\n\nIt covers the front and second row. Add Husky's third-row liner for your seating (14241 for Tahoe, Yukon and Escalade with a second-row bench) and the 28291 cargo liner to finish the cabin. For a 2026, confirm with Husky's fit tool.",
+   "body": "Husky's WeatherBeater 99241 is the front and second-row set for the 2021–2025 Tahoe, and the same listing covers the Suburban, Yukon, Yukon XL, Escalade and Escalade ESV. That breadth is a strong sign that Husky cut it to the shared GM full-size floor rather than to one trim.\n\nHusky says WeatherBeater is laser-measured using vehicle-specific data, designed and made in the USA from ProGard and anchored by StayPut nibs, with a lifetime warranty against cracks and breaks. The tall, firm walls are the reason to pay more: a Tahoe carries a lot of people, and in snow country that means a lot of melt in the footwells.\n\nIt covers the front and second row. Add Husky's third-row liner for your seating (14241 for Tahoe, Yukon and Escalade with a second-row bench) and the 28291 cargo liner to finish the cabin. The listing title recorded for this page names no second-row layout, so confirm bench or captain's chairs in Husky's fit tool before ordering. For a 2026, confirm the year there too.",
    "who": "Tahoe owners who want the best-documented liners in the rows that get dirtiest.",
    "specs": [["Part #", "Husky 99241"], ["Pieces", "3"], ["Fits", "2021–2025 Tahoe, Yukon, Suburban, Yukon XL, Escalade, ESV"], ["Material", "ProGard"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
   {"asin": "B08NWHWBV4", "role": "Best full set (bench)", "price": "$130–$180",
@@ -120,19 +124,19 @@ ARTICLE = {
   {"asin": "B09SNYCX4M", "role": "Best 3-row TPE", "price": "$130–$170",
    "pros": ["3-row TPE liner set", "Lists Tahoe, Yukon and Escalade 2021–2026", "For 2nd-row buckets", "Raised edges", "Covers the newest year"],
    "cons": ["Not for 2nd-row bench", "No published warranty", "Cargo not included"],
-   "body": "Mixsuper's 3-row liners are listed for 2021–2026 Tahoe, Yukon and Escalade with second-row buckets, not the bench. It's a TPE liner with raised edges, lighter than rubber and with taller lips.\n\nThe 2026 coverage is useful for newer trucks, and the Yukon and Escalade mention shows the pattern follows the shared floor. Mixsuper doesn't publish warranty terms we could check.\n\nIf you want a liner-style tray rather than a rubber mat for a captain's-chair Tahoe, it's the value choice. JSLYF's TPE set, listed to 2024, is an alternative in our product list. Check the second-row piece in the listing photos: on a captain's-chair Tahoe, the walkway between the chairs is where third-row passengers step, and a piece that covers it saves the carpet there.",
+   "body": "Mixsuper's 3-row liners are listed for 2021–2026 Tahoe, Yukon and Escalade with second-row buckets, not the bench. It's a TPE liner with raised edges, lighter than rubber and with taller lips.\n\nThe 2026 coverage is useful for newer Tahoes, and the Yukon and Escalade mention shows the pattern follows the shared floor. Mixsuper doesn't publish warranty terms we could check.\n\nIf you want a liner-style tray rather than a rubber mat for a captain's-chair Tahoe, it's the value choice. JSLYF's TPE set, listed to 2024, is an alternative in our product list. Check the second-row piece in the listing photos: on a captain's-chair Tahoe, the walkway between the chairs is where third-row passengers step, and a piece that covers it saves the carpet there.",
    "who": "Captain's-chair owners who want TPE liners across three rows.",
    "specs": [["Rows", "3"], ["Fits", "2021–2026 Tahoe/Yukon/Escalade, 2nd-row buckets (not bench)"], ["Material", "TPE"], ["Warranty", "Confirm with seller"], ["Price band", "$130–$170"]]},
   {"asin": "B097BKX5JQ", "role": "Best cargo liner", "price": "$120–$170",
    "pros": ["Covers the cargo floor over the folded 3rd row", "Lists 2021–2026 Tahoe, Yukon and Escalade", "Made in the USA", "Lifetime warranty against cracks and breaks", "Tall walls contain spills"],
    "cons": ["Cargo only", "Not for Suburban/Yukon XL length", "Firm material"],
-   "body": "Husky's WeatherBeater 28291 is a cargo liner for the 2021–2026 Tahoe, Yukon and Escalade that runs to the back of the folded third row. With the third row down, the Tahoe's load floor is long and flat, and this liner covers it.\n\nIt carries the WeatherBeater credentials: laser-measured, made in the USA and a lifetime warranty against cracks and breaks. For families who haul sports gear, strollers or luggage, the cargo area gets as dirty as the footwells.\n\nIt's for the standard-length trucks. Suburban and Yukon XL owners need their own cargo liner. A tip for dog owners: Tahoe cargo areas are big enough that a dog slides around under braking on a smooth liner. Lay a washable blanket over the liner; the liner catches what soaks through.",
+   "body": "Husky's WeatherBeater 28291 is a cargo liner for the 2021–2026 Tahoe, Yukon and Escalade that runs to the back of the folded third row. With the third row down, the Tahoe's load floor is long and flat, and this liner covers it.\n\nIt carries the WeatherBeater credentials: laser-measured, made in the USA and a lifetime warranty against cracks and breaks. For families who haul sports gear, strollers or luggage, the cargo area gets as dirty as the footwells.\n\nIt's for the standard-length SUVs. Suburban and Yukon XL owners need their own cargo liner. A tip for dog owners: Tahoe cargo areas are big enough that a dog slides around under braking on a smooth liner. Lay a washable blanket over the liner; the liner catches what soaks through.",
    "who": "Tahoe owners who haul gear with the third row folded.",
    "specs": [["Part #", "Husky 28291"], ["Fits", "2021–2026 Tahoe, Yukon, Escalade"], ["Coverage", "Cargo over folded 3rd row"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
   {"asin": "B09N1F5ZF4", "role": "Best third-row add-on (bench)", "price": "$60–$100",
-   "pros": ["Third-row liner for 2nd-row bench trucks", "Same WeatherBeater material and warranty", "Made in the USA", "Pairs with Husky 99241", "Lists 2021–2026"],
-   "cons": ["Bench trucks only", "Third row only", "Firm material"],
-   "body": "Husky's WeatherBeater 14241 is the third-row liner for 2021–2026 Tahoe, Yukon and Escalade with a second-row bench. Paired with the 99241 front and second-row set, it gives you a complete Husky cabin.\n\nThe third row is where kids ride and where crumbs and mud end up out of sight. A molded liner with walls comes out in one piece for cleaning.\n\nFor captain's-chair trucks, Husky lists different third-row parts; check the fit tool. It also costs far less than a full new set if you already own Husky's front and second-row liners, so it's the easiest way to finish coverage for a family that has started using the third row more.",
+   "pros": ["Third-row liner for 2nd-row bench Tahoes", "Same WeatherBeater material and warranty", "Made in the USA", "Pairs with Husky 99241", "Lists 2021–2026"],
+   "cons": ["Bench seating only", "Third row only", "Firm material"],
+   "body": "Husky's WeatherBeater 14241 is the third-row liner for 2021–2026 Tahoe, Yukon and Escalade with a second-row bench. Paired with the 99241 front and second-row set, it gives you a complete Husky cabin.\n\nThe third row is where kids ride and where crumbs and mud end up out of sight. A molded liner with walls comes out in one piece for cleaning.\n\nFor captain's-chair Tahoes, Husky lists different third-row parts; check the fit tool. It also costs far less than a full new set if you already own Husky's front and second-row liners, so it's the easiest way to finish coverage for a family that has started using the third row more.",
    "who": "Bench-seat Tahoe owners completing a Husky set.",
    "specs": [["Part #", "Husky 14241"], ["Fits", "2021–2026 Tahoe, Yukon, Escalade with 2nd-row bench"], ["Row", "3rd"], ["Made in", "USA"], ["Warranty", "Lifetime, cracks and breaks"]]},
  ],
@@ -160,6 +164,8 @@ ARTICLE = {
   ["Husky Liners 28291 cargo liner listing", "https://www.amazon.com/dp/B097BKX5JQ"],
   ["TOUGHPRO Tahoe bench set listing", "https://www.amazon.com/dp/B08NWHWBV4"],
   ["Chevrolet Tahoe, fifth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"],
+  ["Chevrolet Tahoe: captain's chairs by trim (Chevrolet)", "https://www.chevrolet.com/suvs/tahoe"],
+  ["2025 Chevrolet Tahoe trims: seating, LS front-row bench (Edmunds)", "https://edmunds.com/chevrolet/tahoe/2025/trims"],
  ],
 }
 

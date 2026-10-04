@@ -2,8 +2,12 @@
 Mirrors the approved cargo-box pages (RAV4, Telluride). No invented hands-on testing: box specs come from Yakima,
 Thule, Rhino-Rack, SportRack and etrailer pages fetched 2026-09-27; vehicle facts from db/migrations/003_vehicles.sql
 plus etrailer's Tahoe roof guide, The Rack Shop kits, Cars.com (76 in height), KBB and Wikipedia.
-Note: 003_vehicles.sql stores roof_type 'raised-rails', but etrailer and The Rack Shop list the 2021+ Tahoe with
-FLUSH rails (Z71 has its own fit kit) — the article follows the retailers. Roof load limit not verified: owner's manual.
+Roof: flush side rails, as stored in 003_vehicles.sql and listed by etrailer and The Rack Shop (Z71 has its own fit
+kit). Roof load limit not verified: owner's manual.
+Source fixes 2026-10-04: removed the stale raised-rails remarks (docstring, look_for); verdict no longer points to a
+Tahoe roof rack page that is not published; added the RST Performance Edition "Removes roof rack" exception from
+Edmunds' 2025 trim page (fit_table, look_for, sources). Wikipedia's "largest SUV in the full-size length segment"
+wording was re-read and the FAQ claim kept as attributed.
 """
 
 KEY = ("chevrolet", "tahoe", "2021-present", "cargo-boxes")
@@ -60,6 +64,7 @@ ARTICLE = {
   "rows": [
    ["LS, LT, RST, Premier, High Country", "Flush rails front to back (etrailer, The Rack Shop)", "Flush-rail kits: Thule Evo Flush Rail + fit kit TH95JW, Yakima SightLine; 165 lb", "Bars slide on the rails; set inside the box's spread"],
    ["Z71", "Flush rails, own fit kit", "Thule Fit Kit 186117 setup: 165 lb, 58 in max bar spread (The Rack Shop)", "Same boxes"],
+   ["RST with the Performance Edition package", "Edmunds' 2025 trim page: the package \"Removes roof rack\"; we could not confirm whether the side rails stay", "Look at the roof before ordering feet; ask the dealer what is fitted", "A box needs crossbars first"],
    ["Suburban (same generation)", "Shares roof fit (our data)", "Bars listed for Suburban", "Same boxes, more liftgate room"],
    ["All 2021–2026", "Roof figure: check the owner's manual", "Kits we found: 165 lb", "Bars + box + gear under the lowest figure"],
    ["Height", "76 in (Cars.com, 2021)", "Bars add height", "Box adds 15–19 in; no standard 7 ft garage"],
@@ -67,7 +72,7 @@ ARTICLE = {
  },
  "look_for": [
   {"h": "Flush rails and trim-specific fit kits",
-   "body": "Our older notes listed raised rails, but the retailers who fit racks to the fifth-gen Tahoe list flush-mounted rails that run front to back, with no gap underneath for a strap-style tower. etrailer shows only that roof type for the 2021 Tahoe, with a Thule setup of WingBar Evo bars, Evo Flush Rail feet and fit kit TH95JW. The Rack Shop sells separate flush-rail kits for the regular Tahoe and the Z71, whose Thule setup uses Fit Kit 186117. Buy feet made for flush rails and a fit kit listed for your trim; every box here clamps to the bars once they're on."},
+   "body": "The retailers who fit racks to the fifth-gen Tahoe list flush-mounted side rails that run front to back, with no gap underneath for a strap-style tower. etrailer shows only that roof type for the 2021 Tahoe, with a Thule setup of WingBar Evo bars, Evo Flush Rail feet and fit kit TH95JW. The Rack Shop sells separate flush-rail kits for the regular Tahoe and the Z71, whose Thule setup uses Fit Kit 186117. Buy feet made for flush rails and a fit kit listed for your trim; every box here clamps to the bars once they're on. One exception to check: Edmunds' 2025 trim page says the RST Performance Edition package \"Removes roof rack\". We could not confirm whether the side rails stay on that package, so look at the roof before ordering feet."},
   {"h": "165 lb kits and the missing roof figure",
    "body": "We couldn't confirm a published Chevrolet roof figure for this generation, so read the roof-load section of your owner's manual before loading anything. The crossbar kits set a working ceiling in the meantime. The Rack Shop's Yakima and Thule flush-rail kits for the Tahoe are rated at 165 lb, and etrailer lists the Thule flush-rail feet at 165 lb even though the WingBar Evo bars are rated at 220 lb. The feet decide it. The boxes here weigh 38.6 lb (MasterFit 440L) to 65 lb (CBX XXL), so after the bars you may have as little as 90 lb or less for gear."},
   {"h": "Loading height on a 76 in roof",
@@ -160,7 +165,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Fit flush-rail crossbars for your trim, then choose the Yakima GrandTour 16 for most Tahoe families, the Yakima CBX XXL for the most space, or the SkyBox 16 if height is tight.",
-  "body": "On the fifth-gen Tahoe, the roof has room for anything, but three things set the rules: flush rails with trim-specific fit kits, 165 lb ratings on the kits we found, and a 76 in body that puts any box well past a standard garage door. The GrandTour 16 balances those best, with 16 cu ft, dual-side loading and weight left for gear. The CBX XXL and Thule Motion 3 XXL use the long roof fully if you pack them light, the SkyBox 16 is the lowest full-size box, the Rhino-Rack MasterFit 440L is the lightest, and the SportRack Vista XL is the budget pick if you have a step to load it from the rear.\n\nStart with the bars; our Tahoe roof rack page lists flush-rail kits by trim. Running boards make the side reach to the box easier, and for heavy gear the Tahoe's Class IV trailer hitch takes a hitch cargo carrier. The vehicle hub lists every fit-checked accessory for your Tahoe.",
+  "body": "On the fifth-gen Tahoe, the roof has room for anything, but three things set the rules: flush rails with trim-specific fit kits, 165 lb ratings on the kits we found, and a 76 in body that puts any box well past a standard garage door. The GrandTour 16 balances those best, with 16 cu ft, dual-side loading and weight left for gear. The CBX XXL and Thule Motion 3 XXL use the long roof fully if you pack them light, the SkyBox 16 is the lowest full-size box, the Rhino-Rack MasterFit 440L is the lightest, and the SportRack Vista XL is the budget pick if you have a step to load it from the rear.\n\nStart with the bars: the flush-rail kits in this guide are sold by trim, and the Z71 takes its own fit kit. Running boards make the side reach to the box easier, and for heavy gear the Tahoe's Class IV trailer hitch takes a hitch cargo carrier. The vehicle hub lists every fit-checked accessory for your Tahoe.",
  },
  "sources": [
   ["2021 Chevrolet Tahoe roof types (etrailer)", "https://www.etrailer.com/roof-2021_chevrolet_tahoe.htm"],
@@ -176,6 +181,7 @@ ARTICLE = {
   ["Thule Motion 3 XXL (Thule)", "https://www.thule.com/en-us/cargo-carrier/car-top-carrier/thule-motion-3-xxl-_-639950"],
   ["Thule Motion 3 spread and warranty (etrailer)", "https://www.etrailer.com/Roof-Box/Thule/TH59PN.html"],
   ["SportRack Vista XL (SportRack) and mounting positions (etrailer)", "https://www.sportrack.com/product/vista-xl-cargo-box/"],
+  ["2025 Chevrolet Tahoe trims: RST Performance Edition package (Edmunds)", "https://edmunds.com/chevrolet/tahoe/2025/trims"],
  ],
 }
 

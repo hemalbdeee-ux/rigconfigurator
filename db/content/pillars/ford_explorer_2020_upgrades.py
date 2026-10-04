@@ -26,6 +26,12 @@ Ford Authority); liner fit around the 2025 console; fit of any part on the Timbe
 Interceptor Utility beyond what the guides say; SportRack Vista XL weight and load rating; and 2025–2026 fit of
 listings whose titles stop at 2023, 2024 or 2025. No Explorer guide exists for running boards or lighting; neither
 is ranked.
+Source fixes 2026-10-04: four Ford documents opened and several items in the "Not verified" list above are now
+sourced and reworded: Class III Trailer Tow Package standard for 2025 (Ford's 2025 Explorer page) and 2026 (Ford's
+2026 towing guide); 2023-2024 factory package named Class IV Trailer Tow Package (Ford's 2023 and 2024 towing guides;
+2020-2022 name still not confirmed); 3,000 lb without the package (2.3L, Ford's 2024 guide); hybrid 5,000 lb with the
+package (Ford's 2024 guide); maximum tongue load 560 lb for 2024 and 500 lb for 2026; retail Hybrid span stated as
+2020-2023 (Ford Authority plus the 2023 Ford towing guide). Text now matches the corrected guides.
 """
 
 KIND = "upgrades"
@@ -43,14 +49,15 @@ FAQ = [
   "clamp-on bars for the raised rails cost about $80–$150 and need no fit kit. A cargo box is third, since it mounts "
   "to those bars. A trailer hitch is last because many Explorers already have a receiver."),
  ("Does every 2020–2026 Explorer come with a trailer hitch from the factory?",
-  "No. On 2020–2024 Explorers the Trailer Tow Package was optional, so many were built with no receiver. Dealer and "
-  "reference pages in our hitch guide report that Ford made the Class III package standard on every 2025 trim, and "
-  "Ford's current Explorer page, which now shows the 2027 model, lists it as standard. We could not confirm 2025 and "
-  "2026 from a Ford document. Look under the rear bumper for a square 2 in opening."),
+  "No. On 2020–2024 Explorers the Trailer Tow Package was optional on most trims, so many were built with no receiver. "
+  "Ford's 2025 Explorer page and its 2026 towing guide list the Class III Trailer Tow Package as standard, and "
+  "Ford's current Explorer page, which now shows the 2027 model, says the same. CURT still lists its 13438 for "
+  "2025–2027 Explorers without a factory receiver, so look under the rear bumper for a square 2 in opening."),
  ("How much can a 2020–2026 Explorer tow, and does an aftermarket hitch raise it?",
   "A hitch never raises it. Our vehicle data lists a maximum of 5,600 lb with the tow package, which is the 3.0L "
-  "EcoBoost V6 figure for 2020–2024. The 2.3L EcoBoost is rated at 5,300 lb with the package, and the hybrid lower. "
-  "Dealer pages and TowingSpecs list 5,000 lb for every 2025 and 2026 Explorer. The lower of hitch and vehicle "
+  "EcoBoost V6 figure for 2020–2024. The 2.3L EcoBoost is rated at 5,300 lb with the package, and Ford's 2024 towing "
+  "guide lists the 3.3L hybrid at 5,000 lb and a 2.3L Explorer without the package at 3,000 lb. Ford's 2025 Explorer "
+  "page and 2026 towing guide list 5,000 lb for 2025 and 2026. The lower of hitch and vehicle "
   "applies, so a 6,000 lb CURT 13438 adds no capacity and a 3,500 lb Draw-Tite 76910 reduces it."),
  ("How much weight can an Explorer carry on the roof with crossbars and a cargo box?",
   "Use the lowest of three numbers. Brand-name raised-rail systems for the Explorer are rated at 165 lb. The box may "
@@ -76,11 +83,12 @@ FAQ = [
  ("Did the 2025 facelift change which Explorer accessories fit?",
   "Only in part. Our vehicle data notes that the 2025 facelift keeps roof and hitch fit, and etrailer's 2025 "
   "Explorer list carries the same raised-rail part numbers as earlier years. Two things changed for buyers. The "
-  "Class III tow package is reported standard from 2025, so a hitch is rarely needed. And our floor liner guide says "
+  "Class III tow package is standard from 2025, per Ford, so a hitch is rarely needed. And our floor liner guide says "
   "the console was revised, so confirm the second-row liner with the seller."),
  ("Do these upgrades fit the Explorer Hybrid, ST, Timberline and Police Interceptor Utility?",
   "Our guides treat the Hybrid, ST and Timberline as sharing the sixth-generation floor and raised rails, and 3W's "
-  "liner listing names the hybrid. The hybrid's tow rating is lower. Listings rarely name the Timberline or the 2026 "
+  "liner listing names the hybrid. Ford sold the Hybrid to retail buyers for 2020–2023, and Ford's 2024 towing guide "
+  "lists the 3.3L hybrid at 5,000 lb with the package. Listings rarely name the Timberline or the 2026 "
   "Tremor, so check for a gap under the rail and ask the seller. The Police Interceptor Utility has a fleet-specific "
   "interior, often with vinyl flooring, and retail liners aren't listed for it."),
  ("How much does it cost to add all four upgrades to an Explorer?",
@@ -102,14 +110,14 @@ ARTICLE = {
            "Explorer guides, weighing how many Explorers each upgrade suits, what it costs, what it depends on and "
            "how much work or doubt sits in the fit. Price bands are the prices on those guides' picks, checked in "
            "September 2026, and are approximate. Vehicle facts come from our vehicle data, the guides' sources, "
-           "Wikipedia, Ford Authority, Draw-Tite and Ford's Explorer and accessory pages. Ford's page now shows the "
+           "Wikipedia, Ford Authority, Draw-Tite, Ford's towing guides and Ford's Explorer and accessory pages. Ford's page now shows the "
            "2027 model, and we say so wherever we lean on it. Where we couldn't confirm a factory detail, the text "
            "says so.",
  "takeaways": [
   "**Look at the second row first.** Captain's chairs seat six and a bench seats seven, and the second-row floor liner is shaped differently for each.",
   "**Buy 2020+ parts.** The 2020 Explorer moved to a new rear-wheel-drive-based platform, so 2011–2019 liners, hitches and crossbars don't carry over.",
   "**Crossbars come before the cargo box.** Raised rails take clamp-on bars with no fit kit, and brand-name systems for the Explorer are rated at 165 lb.",
-  "**Check for a receiver before hitch shopping.** The tow package was optional for 2020–2024, and dealers report it standard from 2025.",
+  "**Check for a receiver before hitch shopping.** The tow package was optional on most 2020–2024 trims, and Ford lists it as standard from 2025.",
   "**No hitch raises the tow rating.** Sources put it at 5,300 lb (2.3L) or 5,600 lb (3.0L) with the package for 2020–2024 and 5,000 lb for 2025–2026.",
  ],
  "priority": [
@@ -152,8 +160,8 @@ ARTICLE = {
   {"category": "hitches",
    "h": "4. Trailer hitch last: many Explorers already have one, and the rest need trimming",
    "why": "A trailer hitch sits last because it is the upgrade the fewest owners need to buy and the one with the "
-          "most work in it. On 2020–2024 Explorers the Trailer Tow Package was optional, and dealer pages report the "
-          "Class III package as standard on every 2025 trim. So look under the rear bumper first. If no receiver is "
+          "most work in it. On 2020–2024 Explorers the Trailer Tow Package was optional on most trims, and Ford lists the "
+          "Class III package as standard for 2025 and 2026. So look under the rear bumper first. If no receiver is "
           "there, the default in our guide is CURT's 13438, a Class III hitch rated at 6,000 lb with 600 lb of "
           "tongue weight, about $235. etrailer's install notes call for trimming the underbody panel and bumper "
           "fascia, modifying the heat shield and lowering the exhaust, in 1.5 to 3.5 hours. Draw-Tite's 76910 "
@@ -195,32 +203,36 @@ ARTICLE = {
              ]}},
   {"h": "Towing: the factory package, the rating by engine and year, and what a bolt-on hitch can't change",
    "body": "**The receiver.** Our vehicle data records a Class III hitch with a 2 in receiver for this generation. "
-           "Our hitch guide found that the Trailer Tow Package was optional on 2020–2024 Explorers, and that dealer "
-           "and reference pages report the Class III package as standard on every 2025 trim. Ford's current page, "
-           "which now shows the 2027 model, describes a standard Class III Trailer Tow Package with a hitch "
-           "receiver, a seven-wire harness and four- and seven-pin connectors. We could not confirm 2025 and 2026 "
-           "from a Ford document, and CURT still lists its 13438 for 2025–2027 Explorers that have no factory "
-           "receiver.\n\n"
+           "Our hitch guide found that the Trailer Tow Package was optional on most 2020–2024 trims; Ford's 2024 "
+           "towing guide lists it as standard on the ST and Timberline. Ford's 2025 Explorer page and its 2026 "
+           "towing guide list a standard Class III Trailer Tow Package, and Ford's current page, which now shows "
+           "the 2027 model, describes it as a hitch receiver, a seven-wire harness and four- and seven-pin "
+           "connectors. CURT still lists its 13438 for 2025–2027 Explorers that have no factory receiver, so look "
+           "under the bumper whatever the year.\n\n"
            "**The rating.** Our vehicle data lists a maximum of **5,600 lb with the tow package**, which is the "
-           "3.0L EcoBoost V6 figure. Wikipedia gives 5,300 lb for the 2.3L EcoBoost. For 2025 and 2026, the dealer "
-           "pages and TowingSpecs cited in our hitch guide list **5,000 lb** for every engine, and Ford's current "
-           "page says the same. Your figure is on the door-jamb label and in the owner's guide.\n\n"
+           "3.0L EcoBoost V6 figure for 2020–2024. Ford's 2024 towing guide gives 5,300 lb for the 2.3L EcoBoost with "
+           "the package and 5,000 lb for the 3.3L hybrid. For 2025 and 2026, Ford's 2025 Explorer page and 2026 "
+           "towing guide list **5,000 lb**, and Ford's current page says the same for any model. Your figure is "
+           "on the door-jamb label and in the owner's guide.\n\n"
            "**What a bolt-on hitch changes.** It adds a receiver, not rating. The lower of hitch and vehicle "
-           "applies. Our hitch guide adds that Ford quoted its top ratings for Explorers with the factory package, "
-           "which it says also covers cooling and wiring. If you plan to tow near 5,000 lb without the package, ask "
-           "a Ford dealer what your VIN is rated for.\n\n"
-           "**Class and tongue weight.** We could not confirm from Ford which hitch class the 2020–2024 package "
-           "used with each engine, so read the label on the receiver. Among bolt-on hitches, tongue weight is "
-           "600 lb on the Class III CURT, 900 lb on Draw-Tite's Class IV 76320 and 350 lb on the 76910. Draw-Tite "
-           "says neither of its two is suitable for weight distribution systems.\n\n"
+           "applies. Ford's 2023 and 2024 towing guides require the factory Trailer Tow Package for trailers over "
+           "3,000 lb, and the 2024 guide lists 3,000 lb for a 2.3L Explorer without it. If your Explorer was built "
+           "without the package, plan around 3,000 lb and ask a Ford dealer what your VIN is rated for.\n\n"
+           "**Class and tongue weight.** Ford's 2023 and 2024 towing guides name the factory package the Class IV "
+           "Trailer Tow Package, and Ford names the 2025-on package Class III. We could not confirm the name for "
+           "2020–2022, so read the label on the receiver. Ford's 2024 guide lists a maximum tongue load of 560 lb "
+           "(500 lb for the hybrid), and the 2026 guide lists 500 lb. Among bolt-on hitches, tongue weight is "
+           "600 lb on the Class III CURT, 900 lb on Draw-Tite's Class IV 76320 and 350 lb on the 76910; the lower "
+           "of hitch and vehicle applies. Draw-Tite says neither of its two is suitable for weight distribution "
+           "systems.\n\n"
            "**Wiring.** Without the factory package there is no trailer socket, so budget for a harness.",
    "table": {"caption": "2020–2026 Explorer tow ratings and factory receivers, as the sources in our hitch guide report them",
              "head": ["Model years", "Engine", "Rating with the package", "Factory receiver"],
              "rows": [
-              ["2020–2024", "2.3L EcoBoost four-cylinder", "5,300 lb", "Only with the optional Trailer Tow Package"],
-              ["2020–2024", "3.0L EcoBoost V6 (ST, Platinum, King Ranch)", "5,600 lb", "Only with the optional package"],
-              ["Hybrid years", "3.3L V6 hybrid", "Lower; sources differ, so read the owner's guide", "Only with the optional package"],
-              ["2025–2026", "2.3L or 3.0L EcoBoost", "5,000 lb", "Dealers report the Class III package standard on every trim"],
+              ["2020–2024", "2.3L EcoBoost four-cylinder", "5,300 lb", "Only with the Trailer Tow Package (optional on most trims)"],
+              ["2020–2024", "3.0L EcoBoost V6 (ST, Platinum, King Ranch)", "5,600 lb", "Only with the Trailer Tow Package (standard on the ST in Ford's 2024 guide)"],
+              ["2020–2023 (retail)", "3.3L V6 hybrid", "5,000 lb in Ford's 2024 guide; read the owner's guide for your year", "Only with the Trailer Tow Package"],
+              ["2025–2026", "2.3L or 3.0L EcoBoost", "5,000 lb", "Class III package standard, per Ford's 2025 page and 2026 towing guide"],
              ]}},
   {"h": "Raised rails, crossbars and the roof limit: the math under a cargo box",
    "body": "Three limits stack under a cargo box: the box's cargo rating, the bar rating and the roof limit.\n\n"
@@ -250,9 +262,9 @@ ARTICLE = {
    "body": "- **The roof takes bulky, light loads.** A hard box on 165 lb bars has about 108–129 lb left for gear. "
            "In return it keeps the liftgate and rear camera clear, locks, and keeps soft bags dry.\n"
            "- **The hitch takes heavy loads.** A hitch cargo carrier or platform bike rack loads the receiver, not "
-           "the roof. Tongue weight is rated at 600 lb on CURT's 13438 and 350 lb on Draw-Tite's 76910. The "
-           "Explorer has its own tongue weight limit in the owner's guide, which we could not confirm for this "
-           "page, and the lower figure applies.\n"
+           "the roof. Tongue weight is rated at 600 lb on CURT's 13438 and 350 lb on Draw-Tite's 76910. Ford's "
+           "towing guides list the Explorer's own maximum tongue load at 560 lb for 2024 (500 lb for the hybrid) "
+           "and 500 lb for 2026, and the lower figure applies.\n"
            "- **Heavy bikes go on the hitch.** Our roof rack guide notes that lifting bikes onto a tall SUV roof is "
            "hard work.\n\n"
            "Fit the four in this order.\n\n"
@@ -272,8 +284,9 @@ ARTICLE = {
            "roof rack guide says 2011–2019 bars were made for a different roof.\n\n"
            "**Hybrid.** Ford Authority reported in October 2023 that the 2024 lineup dropped the 3.3L V6 hybrid, "
            "along with the Limited Hybrid and Platinum Hybrid trims that carried it, while the Police Interceptor "
-           "Utility kept the powertrain. That makes 2023 the last retail year as we read it. Its tow rating is "
-           "lower, and 3W's is the only liner listing in our guide that names the hybrid.\n\n"
+           "Utility kept the powertrain. Ford's 2023 towing guide lists a 3.3L hybrid Explorer, so the retail Hybrid "
+           "ran 2020–2023. Ford's 2024 towing guide lists the hybrid at 5,000 lb with the package, and 3W's is "
+           "the only liner listing in our guide that names the hybrid.\n\n"
            "**2025 facelift.** Wikipedia describes a redesigned front fascia, a revised interior and a lineup cut "
            "to Active, ST-Line, ST and Platinum, with the Tremor and Active 100A added for 2026. Our vehicle data "
            "notes that the facelift keeps roof and hitch fit. Our floor liner guide says the console changed, so "
@@ -300,7 +313,7 @@ ARTICLE = {
           "Floor liners need the first two and cost the least, so they go first. Crossbars come next and the "
           "cargo box after them, because the box mounts to those bars and 165 lb of bar rating, less "
           "the box, decides what goes inside.\n\n"
-          "The trailer hitch is last for most owners. Dealers report a standard receiver from 2025, many earlier "
+          "The trailer hitch is last for most owners. Ford lists a standard receiver from 2025, many earlier "
           "Explorers were ordered with one, and the rest need an afternoon of trimming to add it. If your loads are "
           "heavy, put the hitch second, since the receiver carries what the roof can't. Owners of a 2011–2019 "
           "Explorer should treat this page as a list of questions, not part numbers.",
@@ -309,13 +322,17 @@ ARTICLE = {
   ["Ford Explorer (sixth generation): CD6 platform, engines, towing, trims, 2025 facelift (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Explorer_(sixth_generation)"],
   ["Ford Explorer, 2027 model shown: seating, Class III Trailer Tow Package, 5,000 lb, Slick Roof Conversion (Ford)", "https://www.ford.com/suvs/explorer/"],
   ["2024 Ford Explorer drops 3.3L V6 hybrid powertrain (Ford Authority)", "https://fordauthority.com/2023/10/2024-ford-explorer-drops-3-3l-v6-hybrid-powertrain/"],
+  ["2024 Ford Explorer Towing Guide: 5,300 lb 2.3L, 5,600 lb 3.0L, 3,000 lb without the package, tongue load (Ford)", "https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2024-Ford-Explorer-Towing-Guide.pdf"],
+  ["2023 Ford RV & Trailer Towing Guide: Explorer 3.3L hybrid listed, Class IV Trailer Tow Package required over 3,000 lb (Ford)", "https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2023-Ford-RV-and-Trailer-Towing-Guide.pdf"],
+  ["2025 Ford Explorer comparison page: Class III Trailer Tow Package standard, up to 5,000 lb (Ford)", "https://www.ford.com/local/chicago-cedar-rapids-quad-cities/competitive-compare/suvs/explorer/2025/2025-ford-explorer/"],
+  ["2026 Ford Explorer Towing Guide: 5,000 lb, standard Class III Trailer Tow Package (Ford)", "https://www.vdm.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2026-Ford-Explorer-Towing-Guide.pdf"],
   ["Explorer 2020–2027 Crossbar System Kit by Yakima, VLB5Z7855100A (Ford Accessories)", "https://ford.com/product/racks-and-carriers-by-yakima-crossbar-kit-p2819514137"],
   ["Explorer towing capacity by year (TowingSpecs)", "https://towingspecs.com/ford/explorer/towing-capacity/"],
   ["2025 Explorer towing and standard Class III package (Group 1 Ford of Shreveport)", "https://www.group1fordofshreveport.com/ford-research/ford-explorer-towing-capacity/"],
   ["CURT 13438 Class 3 hitch (CURT)", "https://www.curtmfg.com/part/13438"],
   ["CURT CU78FR install notes for 2022 Explorer (etrailer)", "https://www.etrailer.com/Trailer-Hitch/Ford/Explorer/2022/CU78FR.html"],
   ["Draw-Tite 76910 Hidden Hitch (Draw-Tite)", "https://www.draw-tite.com/product/76910_class-iii-trailer-hitch"],
-  ["Draw-Tite 76320 Class IV hitch (Draw-Tite)", "https://www.draw-tite.com/product/76320_class-iii-trailer-hitch"],
+  ["Draw-Tite 76320 Class 4 hitch; the URL says class-iii, the page says Class 4 (Draw-Tite)", "https://www.draw-tite.com/product/76320_class-iii-trailer-hitch"],
   ["2023 Ford Explorer roof rack systems by rail type (etrailer)", "https://www.etrailer.com/roof-2023_Ford_Explorer.htm"],
   ["Explorer roof rack, cargo box and panoramic roof answers (etrailer)", "https://www.etrailer.com/answers.aspx?AnswerModel=Explorer&Manufacturer=Thule&Filter=fit&AnswerMake=Ford"],
   ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],

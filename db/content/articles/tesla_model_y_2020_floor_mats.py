@@ -1,5 +1,6 @@
 """Long-form article — Best Floor Mats & Liners for 2020–2026 Tesla Model Y (pre-refresh and Juniper).
 No invented hands-on testing: fit facts from listing titles in FITS, specs from retailer pages in sources (checked 2026-09-24).
+Source fixes 2026-10-04: the "light bar = Juniper" test no longer stands alone (Wikipedia: the Model Y Standard, released October 2025, has no front lightbar and no rear screen); FAQ, fit_table, look_for, pick note and install step 1 now say to go by model year, the door-jamb build date and the listing's fit notes; dated the US seven-seat option (until the 2025 refresh) and noted the Model Y L (US launch July 2026), both per Wikipedia.
 """
 
 KEY = ("tesla", "model-y", "2020-present", "floor-mats")
@@ -10,13 +11,13 @@ META = ("Six Model Y all-weather mat sets from 3D MAXpider, TripleAliners, 3W, F
 
 FAQ = [
  ("How do I know if my Model Y is a Juniper?",
-  "The refreshed Model Y, nicknamed Juniper, has a full-width light bar across the front and rear, a rear-seat touchscreen and ambient lighting. Listings on this page call it the 2025–2026 Model Y Juniper. If your car has the older front with separate headlights and no light bar, it's a pre-refresh car and needs a 2020–2024 set."),
+  "Go by the model year and the build date on the door-jamb label, then match them to the listing's fit notes. Listings on this page call the refreshed car the 2025–2026 Model Y Juniper. It has a full-width light bar across the front and rear and a rear-seat touchscreen, and Wikipedia says Tesla announced US availability from March 2025. The lights alone can mislead. Wikipedia says the Model Y Standard, released in October 2025, has no front lightbar, simpler taillights and no rear screen, yet it is a refreshed car. A 2020–2024 model year car is pre-refresh and needs a 2020–2024 set. A 2025 can be either body, so check the build date and ask the seller."),
  ("Do pre-refresh Model Y mats fit a Juniper?",
   "Don't assume so. Mat makers sell separate sets, and several listings on this page say 'not Juniper' or 'Juniper only'. The trunk and interior trim changed with the refresh. 3D MAXpider, for example, sells a Kagu set for the 2021–2025 Model Y and a separate one for the 2026 Juniper. Match the listing to your car's generation."),
  ("What about the 7-seat Model Y?",
-  "Tesla offered a seven-seat option on the pre-refresh Model Y. Its second-row floor and cargo area differ from the five-seat car, and most sets on this page are listed for five seats only. 3D MAXpider sells a separate third-row mat for the 7-seat 2021–2025 Model Y. If you have seven seats, look for a set that names it."),
+  "Tesla offered a seven-seat option on the pre-refresh Model Y; Wikipedia says the US option ran until the 2025 refresh. Its second-row floor and cargo area differ from the five-seat car, and most sets on this page are listed for five seats only. 3D MAXpider sells a separate third-row mat for the 7-seat 2021–2025 Model Y. If you have seven seats, look for a set that names it. The six-seat Model Y L, which Wikipedia says launched in the US in July 2026, is a longer car, and no set on this page names it."),
  ("What is the Model Y 'Standard' trim and does it matter?",
-  "Tesla added a lower-priced Standard version of the refreshed Model Y. Some Juniper listings, including Foronetry's and TripleAliners', say not for the Standard trim, which suggests its interior or trunk differs. If you have the Standard, ask the seller before ordering."),
+  "Tesla added a lower-priced Standard version of the refreshed Model Y. Wikipedia dates it to October 2025 and says it has no front lightbar and no rear-seat screen. Some Juniper listings, including Foronetry's and TripleAliners', say not for the Standard trim, which suggests its interior or trunk differs. We could not confirm what differs. If you have the Standard, ask the seller before ordering."),
  ("Why do Model Y kits have so many pieces?",
   "The Model Y has a lot of zones to protect: front footwells, a large rear floor, the frunk, the main trunk floor, the lower trunk well, the seatbacks when folded and the rear bumper sill. Kits range from six to eleven pieces depending on how many of those they include. Autocessking's 11-piece and TripleAliners' 10-piece are the most complete here."),
  ("Is 3D MAXpider worth paying more for?",
@@ -56,15 +57,15 @@ ARTICLE = {
   "caption": "Model Y mats by generation and version",
   "head": ["Version", "How to tell", "What to buy"],
   "rows": [
-   ["Pre-refresh 5-seat (2020–2024)", "Separate headlights, no light bar", "3D MAXpider 2021–2025, 3W, Foronetry 2021–2024, WEIZE"],
+   ["Pre-refresh 5-seat (2020–2024)", "Model year 2020–2024, or a 2025 built before the refresh (door-jamb label)", "3D MAXpider 2021–2025, 3W, Foronetry 2021–2024, WEIZE"],
    ["Pre-refresh 7-seat", "Third-row seat", "Sets naming 7-seat; 3D MAXpider third-row mat"],
-   ["Juniper (2025–2026)", "Full-width light bar, rear screen", "3D MAXpider Juniper, TripleAliners, Foronetry, Autocessking"],
-   ["Juniper Standard", "Lower-priced trim", "Several Juniper kits exclude it; confirm"],
+   ["Juniper (2025–2026)", "Refreshed 2025–2026 car; full-width light bar and rear screen, except on the Standard", "3D MAXpider Juniper, TripleAliners, Foronetry, Autocessking"],
+   ["Juniper Standard", "Lower-priced trim from October 2025; no front light bar or rear screen (Wikipedia)", "Several Juniper kits exclude it; confirm"],
   ],
  },
  "look_for": [
   {"h": "Pre-refresh or Juniper",
-   "body": "The refreshed Model Y, which listings call Juniper, changed the interior and trunk trim enough that mat makers sell separate sets. The listings on this page are explicit: 3W, Foronetry's 9-piece and WEIZE are for 2020–2024 pre-refresh cars; Foronetry's 8-piece, TripleAliners, Autocessking and 3D MAXpider's Juniper set are for the Juniper. The quickest way to tell is the light bar: a full-width light strip across the front and rear means Juniper. Don't rely on the model year alone around the changeover, because some 2025 cars were built before and after it."},
+   "body": "The refreshed Model Y, which listings call Juniper, changed the interior and trunk trim enough that mat makers sell separate sets. The listings on this page are explicit: 3W, Foronetry's 9-piece and WEIZE are for 2020–2024 pre-refresh cars; Foronetry's 8-piece, TripleAliners, Autocessking and 3D MAXpider's Juniper set are for the Juniper. A full-width light strip across the front and rear means a refreshed car, but a car without one is not always pre-refresh: Wikipedia says the Model Y Standard, released in October 2025, has no front lightbar and no rear screen. Go by the model year and the build date on the door-jamb label, and by the listing's fit notes. A 2025 can be either body, because cars were built before and after the changeover."},
   {"h": "Five seats, seven seats or Standard",
    "body": "Tesla offered a seven-seat option on the pre-refresh Model Y, and its second-row floor and cargo area differ. Most sets here are listed for five seats. 3D MAXpider sells a separate third-row mat for the 7-seat 2021–2025 car. On the Juniper side, some listings exclude the lower-priced Standard version, which suggests its interior or trunk differs. If you have either of these, confirm with the seller before ordering."},
   {"h": "Which zones to cover",
@@ -99,7 +100,7 @@ ARTICLE = {
   {"asin": "B0936RH9SH", "role": "Best pre-refresh", "price": "$150–$230",
    "pros": ["Full cabin set for the 2021–2025 Model Y", "Three-layer construction per retailer descriptions", "Carbon-fiber-textured surface", "Patented grip underside", "Separate third-row mat for 7-seat cars"],
    "cons": ["Frunk and trunk sold separately", "Costs more than multi-piece kits", "Confirm 2025 build (pre-refresh vs Juniper)"],
-   "body": "3D MAXpider's Kagu full set is listed for the 2021–2025 Model Y, the pre-refresh car. Retailer descriptions of the Kagu line describe a three-layer construction, a carbon-fiber-textured surface with a soft, rubber-like finish and a patented underside that grips the carpet, which matters on the Model Y's flat floor.\n\nThe brand's catalog is its strength: it sells a separate Kagu set for the 2026 Juniper, separate front-row pieces and a third-row mat for the 7-seat pre-refresh car. That clarity reduces the risk of ordering the wrong generation. The texture also suits the Tesla cabin better than a ribbed mat.\n\nThe trade-off is coverage per dollar: the full set covers the cabin, not the frunk and trunk, which you buy separately. If your car is a 2025, check for the light bar before ordering; a 2025 Juniper needs the Juniper set. For a 2020 car, 3D MAXpider lists a separate 2020 set.",
+   "body": "3D MAXpider's Kagu full set is listed for the 2021–2025 Model Y, the pre-refresh car. Retailer descriptions of the Kagu line describe a three-layer construction, a carbon-fiber-textured surface with a soft, rubber-like finish and a patented underside that grips the carpet, which matters on the Model Y's flat floor.\n\nThe brand's catalog is its strength: it sells a separate Kagu set for the 2026 Juniper, separate front-row pieces and a third-row mat for the 7-seat pre-refresh car. That clarity reduces the risk of ordering the wrong generation. The texture also suits the Tesla cabin better than a ribbed mat.\n\nThe trade-off is coverage per dollar: the full set covers the cabin, not the frunk and trunk, which you buy separately. If your car is a 2025, check the build date on the door-jamb label and the listing's fit notes before ordering; a 2025 Juniper needs the Juniper set. For a 2020 car, 3D MAXpider lists a separate 2020 set.",
    "who": "Pre-refresh owners who want the best-documented cabin mats.",
    "specs": [["Line", "3D MAXpider Kagu"], ["Fits", "2021–2025 Model Y (pre-refresh)"], ["Pieces", "Full cabin set"], ["Construction", "3-layer (retailer)"], ["7-seat", "Separate third-row mat"], ["2020 cars", "Separate 2020 set"]]},
   {"asin": "B0F8PPNW49", "role": "Best Juniper", "price": "$150–$230",
@@ -134,7 +135,7 @@ ARTICLE = {
    "specs": [["Pieces", "8"], ["Covers", "Frunk, trunk, cargo, rear mats"], ["Fits", "2025–2026 Model Y Juniper 5-seat (not Standard)"], ["Material", "All-weather (per listing)"], ["Price band", "$140–$190"]]},
  ],
  "install": [
-  "Confirm your generation (light bar = Juniper), seating and trim.",
+  "Confirm your generation from the model year and the build date on the door-jamb label, then your seating and trim. A light bar means a refreshed car, but the Standard has none.",
   "Remove any old mats and vacuum the cabin, frunk and trunk.",
   "Seat the driver mat, using retention points if present, and heel-test it toward the pedals.",
   "Fit the passenger and rear mats across the flat rear floor.",
@@ -156,7 +157,7 @@ ARTICLE = {
   ["3D MAXpider Kagu Model Y Juniper listing", "https://www.amazon.com/dp/B0F8PPNW49"],
   ["3D MAXpider Model Y 7-seat third row listing", "https://www.amazon.com/dp/B098W37G9X"],
   ["TripleAliners Model Y Juniper 10-piece listing", "https://www.amazon.com/dp/B0DZGGYTBC"],
-  ["Tesla Model Y (Wikipedia)", "https://en.wikipedia.org/wiki/Tesla_Model_Y"],
+  ["Tesla Model Y: 2025 refresh, Model Y Standard, seven-seat option, Model Y L (Wikipedia)", "https://en.wikipedia.org/wiki/Tesla_Model_Y"],
  ],
 }
 

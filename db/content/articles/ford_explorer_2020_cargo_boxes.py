@@ -4,6 +4,10 @@ INNO (via etrailer), SportRack and Rightline Gear (via RealTruck) pages fetched 
 db/migrations/003_vehicles.sql and the Explorer roof-rack article (raised rails, 165 lb brand-name bar ratings,
 58-65 in bars, adjustable spread). Boxes are universal; the Explorer-specific part is raised-rail bars,
 spread, the panoramic roof and liftgate clearance.
+Source fixes 2026-10-04: Hybrid years changed from 2020–2024 to 2020–2023 for retail buyers (Ford Authority); the bare
+"tows up to 5,600 lb" now carries engine and year (Ford towing guides, Wikipedia); "Class III" dropped from the factory
+receiver wording; readers told to check that their roof has rails because Ford lists a Slick Roof Conversion (rail
+delete); six sources added.
 """
 
 KEY = ("ford", "explorer", "2020-present", "cargo-boxes")
@@ -18,7 +22,7 @@ FAQ = [
  ("How much weight can I put in a cargo box on an Explorer?",
   "Two limits apply. The brand-name raised-rail systems on etrailer's Explorer lists are rated at 165 lb, and the Explorer's own roof limit is in your owner's manual; we could not confirm that figure from Ford for this page. The box and its contents count against the bar rating, and the bars count too against the roof limit. A 51.5 lb GrandTour 16 on 165 lb bars leaves 113.5 lb for gear at most, and less if the manual figure is lower."),
  ("Do I need special crossbars for a cargo box on an Explorer?",
-  "You need crossbars, but not special ones. The sixth-gen Explorer has raised side rails with a gap underneath, so any raised-rail crossbar that names the Explorer will clamp on without a vehicle-specific fit kit. Every box on this page mounts to those bars. Our Explorer roof rack page lists fit-checked bars, from about $250 brand-name sets to budget Amazon kits."),
+  "You need crossbars, but not special ones. The sixth-gen Explorer's raised side rails have a gap underneath, so any raised-rail crossbar that names the Explorer will clamp on without a vehicle-specific fit kit. Look at your own roof first: Ford's current Explorer page, which shows the 2027 model, lists a Slick Roof Conversion that deletes the rails on the Active, ST-Line, Platinum and ST. Every box on this page mounts to those bars. Our Explorer roof rack page lists fit-checked bars, from about $250 brand-name sets to budget Amazon kits."),
  ("Will a roof box hit the Explorer's liftgate?",
   "A long box mounted too far back can. etrailer's experts measure from the front crossbar to the line where the roof meets the hatch, then compare that with the box maker's figure; Thule lists more than 52 3/32 in of front clearance for the Motion 3 XL. On the Explorer, slide the box forward on the long bars, open the power liftgate slowly the first time, and lower its opening height if it still gets close."),
  ("Can I open the Explorer's panoramic roof with a cargo box on?",
@@ -28,11 +32,11 @@ FAQ = [
  ("How far apart should the crossbars be on an Explorer for a cargo box?",
   "Set them inside the box's range. The raised-rail clamps slide along the rails, so the Explorer can meet almost any box: Yakima lists 24 to 36 in for the GrandTour 16 and 24 to 35.5 in for the CBX 16, etrailer lists 24 to 39 in for the INNO Wedge 660 and 21-13/16 to 36-9/16 in for the Thule Motion 3. The SportRack Vista XL uses fixed positions at 25-7/8, 27-7/8 or 29-7/8 in, so set the bars to one of those."),
  ("Is a roof box or a hitch cargo carrier better on an Explorer?",
-  "Both have a place. The Explorer offers a Class III 2 in receiver and tows up to 5,600 lb with the tow package, so a hitch carrier handles coolers and heavy bins without touching the roof limit. A roof box keeps the liftgate and rear camera clear, locks, and keeps soft bags dry. Three-row families often run both: bags up top, heavy gear on the hitch."),
+  "Both have a place. Ford's tow package adds a 2 in receiver, and with it the Explorer is rated at 5,300 lb (2.3L) or 5,600 lb (3.0L) for 2020–2024 and 5,000 lb for 2025–2026, so a hitch carrier handles coolers and heavy bins without touching the roof limit. A roof box keeps the liftgate and rear camera clear, locks, and keeps soft bags dry. Three-row families often run both: bags up top, heavy gear on the hitch."),
  ("Will a cargo box fit in my garage with an Explorer?",
   "Measure before you drive in. The boxes here add 11 in (INNO Wedge 660), 15 in (CBX 16), 16-1/2 in (Thule Pulse L), 17 in (Motion 3 XL), 18 in (GrandTour 16, Rightline Sport 3) or 19 in (SportRack Vista XL) on top of the crossbars, which already sit above the raised rails. Measure the Explorer with bars fitted, add the box height, and compare it with the garage door opening."),
  ("Does a cargo box fit the 2025–2026 Explorer and the Hybrid?",
-  "Yes. Boxes clamp to crossbars, not the vehicle, and the 2025 facelift kept the raised-rail rack approach on etrailer's 2025 Explorer list. The 2020–2024 Hybrid shares the same roof. For a 2026 Tremor or Active 100A, check that your roof has raised rails with a gap, then buy bars that name 2026."),
+  "Yes. Boxes clamp to crossbars, not the vehicle, and the 2025 facelift kept the raised-rail rack approach on etrailer's 2025 Explorer list. The Hybrid, sold to retail buyers for 2020–2023, shares the same roof. For a 2026 Tremor or Active 100A, check that your roof has raised rails with a gap, then buy bars that name 2026."),
 ]
 
 ARTICLE = {
@@ -41,7 +45,7 @@ ARTICLE = {
  "reviewed": "2026-09-27",
  "method": "We did not mount these boxes ourselves. We ranked them on published specs from Yakima and Thule, etrailer's figures for the INNO Wedge 660, the Thule Pulse and the Thule Motion 3 spread, SportRack's own page, and RealTruck's Rightline Gear listing: volume, exterior size, box weight, cargo rating, crossbar spread, ski length and warranty. We then checked those numbers against the Explorer's raised rails, the 165 lb rating of brand-name Explorer bar systems, etrailer's Explorer cargo box and panoramic-roof answers, and the liftgate. Prices were checked in September 2026; Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Crossbars first.** The Explorer has raised rails with a gap underneath, so any raised-rail bar that names it clamps on without a fit kit. Every box here mounts to those bars.",
+  "**Crossbars first.** The Explorer's raised rails have a gap underneath, so any raised-rail bar that names it clamps on without a fit kit. Check that your roof has them: Ford lists a Slick Roof Conversion that deletes the rails on some trims. Every box here mounts to those bars.",
   "**Spread is easy on this SUV.** Raised-rail clamps slide along the rail, so you can set the 24 in, 32 in or fixed-position spread a box needs.",
   "**The bars set the working limit.** Brand-name Explorer systems are rated at 165 lb; the roof figure is in your owner's manual. Box plus cargo must stay under both.",
   "**Keep the panoramic roof closed.** etrailer's experts say a rack is fine on a panoramic-roof Explorer ST, but advise against opening the glass with a rack or box installed.",
@@ -58,11 +62,11 @@ ARTICLE = {
   "caption": "2020–2026 Explorer: what the box mounts to",
   "head": ["Years / trims", "Roof", "Crossbar notes", "Box notes"],
   "rows": [
-   ["2020–2024 incl. XLT, ST, Timberline (2021+), Hybrid", "Raised side rails with a gap", "Raised-rail clamps; 58–65 in bars on etrailer; 165 lb brand-name ratings", "Any box here; spread adjustable"],
+   ["2020–2024 incl. XLT, ST, Timberline (2021+), Hybrid (2020–2023)", "Raised side rails with a gap", "Raised-rail clamps; 58–65 in bars on etrailer; 165 lb brand-name ratings", "Any box here; spread adjustable"],
    ["2021–2022 ST with panoramic roof", "Raised side rails", "etrailer: rack installs fine", "Keep the glass closed with a box on"],
    ["2025 (Active, ST-Line, ST, Platinum)", "Raised side rails", "Same systems on etrailer's 2025 list", "Same boxes"],
    ["2026 (adds Tremor, Active 100A)", "Check your roof", "Buy bars that name 2026", "Boxes carry over"],
-   ["Any year, no rails", "Naked roof", "Door-jamb clip systems", "Soft bag can strap on without a rack"],
+   ["Any year, no rails (Ford lists a Slick Roof Conversion that deletes them)", "Naked roof", "Door-jamb clip systems", "Soft bag can strap on without a rack"],
   ],
  },
  "look_for": [
@@ -161,7 +165,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Fit raised-rail crossbars, then choose the Yakima GrandTour 16 for most families, the CBX 16 for square loads, the Thule Motion 3 XL for skis, or the Rightline Sport 3 on a tight budget.",
-  "body": "The sixth-gen Explorer is the easy case for a cargo box: raised rails, long bars and clamps that slide to whatever spread the box needs. The GrandTour 16 is the all-round pick for a three-row family, the CBX 16 gives the same volume 3 in lower with a flat floor, and the Thule Motion 3 XL is worth its price if the trips involve 200 cm skis. The Thule Pulse L is the light, short choice etrailer's expert recommends, the INNO Wedge 660 is the one to buy if a garage door is the limit, and the SportRack Vista XL and Rightline Sport 3 cover budget hard and soft options. Whatever you choose, the 165 lb bar rating and your manual's roof figure decide how much goes inside.\n\nStart with the bars; our Explorer roof rack page lists raised-rail crossbars by trim and year. For heavy gear, the Explorer's Class III trailer hitch takes a hitch cargo carrier or bike rack, and laser-fit floor liners protect the cabin on muddy trips. The vehicle hub lists every fit-checked accessory for your Explorer.",
+  "body": "The sixth-gen Explorer is the easy case for a cargo box: raised rails, long bars and clamps that slide to whatever spread the box needs. The GrandTour 16 is the all-round pick for a three-row family, the CBX 16 gives the same volume 3 in lower with a flat floor, and the Thule Motion 3 XL is worth its price if the trips involve 200 cm skis. The Thule Pulse L is the light, short choice etrailer's expert recommends, the INNO Wedge 660 is the one to buy if a garage door is the limit, and the SportRack Vista XL and Rightline Sport 3 cover budget hard and soft options. Whatever you choose, the 165 lb bar rating and your manual's roof figure decide how much goes inside.\n\nStart with the bars; our Explorer roof rack page lists raised-rail crossbars by trim and year. For heavy gear, a 2 in trailer hitch takes a hitch cargo carrier or bike rack, and laser-fit floor liners protect the cabin on muddy trips. The vehicle hub lists every fit-checked accessory for your Explorer.",
  },
  "sources": [
   ["Yakima GrandTour 16 (Yakima)", "https://yakima.com/products/grandtour-16"],
@@ -175,6 +179,12 @@ ARTICLE = {
   ["Rightline Gear Sport 3 (RealTruck)", "https://realtruck.com/p/rightline-gear-cargo-bags/rlg-100s30/"],
   ["Explorer cargo box and panoramic roof answers (etrailer)", "https://www.etrailer.com/answers.aspx?AnswerModel=Explorer&Manufacturer=Thule&Filter=fit&AnswerMake=Ford"],
   ["2023 Ford Explorer roof rack systems by rail type (etrailer)", "https://www.etrailer.com/roof-2023_Ford_Explorer.htm"],
+  ["Ford Explorer, 2027 model shown: standard roof rails and the Slick Roof Conversion that deletes them (Ford)", "https://www.ford.com/suvs/explorer/"],
+  ["2024 Ford Explorer drops 3.3L V6 hybrid powertrain (Ford Authority)", "https://fordauthority.com/2023/10/2024-ford-explorer-drops-3-3l-v6-hybrid-powertrain/"],
+  ["2024 Ford Explorer Towing Guide: 5,300 lb 2.3L, 5,600 lb 3.0L, 3,000 lb without the package, tongue load (Ford)", "https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2024-Ford-Explorer-Towing-Guide.pdf"],
+  ["2025 Ford Explorer comparison page: Class III Trailer Tow Package standard, up to 5,000 lb (Ford)", "https://www.ford.com/local/chicago-cedar-rapids-quad-cities/competitive-compare/suvs/explorer/2025/2025-ford-explorer/"],
+  ["2026 Ford Explorer Towing Guide: 5,000 lb, standard Class III Trailer Tow Package (Ford)", "https://www.vdm.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2026-Ford-Explorer-Towing-Guide.pdf"],
+  ["Ford Explorer sixth generation: 5,300 lb 2.3L and 5,600 lb 3.0L tow ratings (Wikipedia)", "https://en.wikipedia.org/wiki/Ford_Explorer_(sixth_generation)"],
  ],
 }
 

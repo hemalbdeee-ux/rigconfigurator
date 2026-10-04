@@ -58,9 +58,9 @@ VALUES
  'Single 5 ft bed; optional Trail Rail system changes cover and rack fit. Roof is removable, so overland loads go on a bed rack.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'ranger','Ranger','2019-2023','4th Gen (T6, US)',2019,2023,'truck',
- '{61}','bare',NULL,'4',2,7500,'265/65R17','6x139.7',2,
- '{"bed_names":{"61":"5 ft (SuperCrew)"},"supercab_bed":"6 ft (72 in) on SuperCab — add condition if stocking","variants":["Tremor 2021+"]}',
- 'US-market SuperCrew has a 5 ft bed (SuperCab: 6 ft). Class IV factory hitch on most trims.'),
+ '{61,73}','bare',NULL,'4',2,7500,'265/65R17','6x139.7',2,
+ '{"bed_names":{"61":"5 ft (SuperCrew)","73":"6 ft (SuperCab)"},"supercab_bed":"6 ft bed on SuperCab; cover makers list it as 6 ft 1 in or 72.7 in, stored as 73","variants":["Tremor package, model year 2021 on (SuperCrew 4x4, XLT or Lariat)"],"hitch":"receiver came with the optional Trailer Tow Package (53R on the 2019 towing guide); no trim confirmed with it standard"}',
+ 'US-market SuperCrew has a 5 ft bed (61 in); SuperCab has a 6 ft bed (72.7 in, stored as 73). Check under the rear bumper for the factory hitch receiver; the 7,500 lb maximum needs the tow package.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'ranger','Ranger','2024-present','5th Gen (P703)',2024,NULL,'truck',
  '{60}','bare',NULL,'4',2,7500,'265/65R17','6x139.7',2,
@@ -88,15 +88,15 @@ VALUES
  '{"trd_pro_factory_rack":"basket rack replaces rails on TRD Pro","rear_window":"power roll-down","third_row":"optional (Limited/SR5)","roof_load":"120 lb per 2016 owner''s manual (as quoted by Trail4Runner) — confirm in your manual","fit_note":"crossbar kits for raised rails; TRD Pro needs basket-compatible mounts"}',
  'Factory raised rails on most trims (TRD Pro has a basket rack instead). Long generation = huge aftermarket; hitch is Class III on tow-package trucks.'),
 
-((SELECT id FROM makes WHERE slug='toyota'),'4runner','4Runner','2025-present','6th Gen (N410)',2025,NULL,'suv',
+((SELECT id FROM makes WHERE slug='toyota'),'4runner','4Runner','2025-present','6th Gen (N500)',2025,NULL,'suv',
  '{}','raised-rails',NULL,'4',2,6000,'265/70R18','6x139.7',2,
- '{"hybrid":"i-FORCE MAX on TRD Pro/Trailhunter","fit_note":"new roof + rail geometry — 5th-gen crossbars do not fit","verify":["roof load rating","rail style by trim"]}',
- 'All-new 2025 platform on TNGA-F. 5th-gen roof racks, mats and hitches do NOT carry over.'),
+ '{"hybrid":"i-FORCE MAX standard on Platinum, TRD Pro and Trailhunter; available on TRD Off-Road, TRD Off-Road Premium and Limited","fit_note":"New roof and rail geometry: 2010-2024 crossbars and racks do not fit. Rail style and factory crossbars are not confirmed by grade (Toyota lists an ARB roof rack on the Trailhunter), so look at your roof.","verify":["roof load rating (165 lb dynamic / 770 lb static is from the GearJunkie first-drive review, not a Toyota document; one owner cites 125 lb for factory crossbars)","rail style and factory crossbars by grade, including the TRD Pro roof","hitch receiver class and which grades ship with a receiver (no Toyota source found)","third row by grade (GearJunkie: non-hybrid SR5 and Limited only)","grille light bar on grades other than TRD Pro and Trailhunter","model code N500 is from Wikipedia, not a Toyota page"]}',
+ 'All-new for 2025 on TNGA-F. 2010-2024 roof racks, crossbars and floor liners do NOT carry over. Roof load, rail style by grade and hitch class are not confirmed from Toyota.'),
 
 ((SELECT id FROM makes WHERE slug='jeep'),'wrangler','Wrangler','2018-present','JL',2018,NULL,'suv',
  '{}','removable',NULL,'2',2,5000,'255/75R17','5x127',2,
- '{"doors":["2-door","4-door Unlimited"],"roof":"removable hardtop / soft top / Sky One-Touch","spare":"tailgate-mounted — bike racks need spare-tire clearance","hitch":"factory Class II 2 in on tow package; aftermarket Class III common","tow":"2018–2023: 2,000 lb 2-door / 3,500 lb 4-door; 2024+: 3,500 lb 2-door / 5,000 lb 4-door (3.6L V6 or 2.0L turbo, 8-speed auto, tow pkg); 4xe and 392: 3,500 lb","variants":["Rubicon","392","4xe"]}',
- 'Removable roof means roof racks bolt to the hardtop or a cage-style rack. Tailgate spare tire dictates bike-rack and cargo-carrier choice.'),
+ '{"doors":["2-door","4-door Unlimited"],"roof":"removable hardtop / soft top / Sky One-Touch","spare":"tailgate-mounted — bike racks need spare-tire clearance","hitch":"factory Class II 2 in (3,500 lb) on Trailer Tow package, read the receiver label against the owner manual rating; aftermarket Class III common","tow":"2018–2023: 2,000 lb 2-door / 3,500 lb 4-door (dealer guides; Jeep 2018 release: up to 3,500 lb with towing package); 2024+: 5,000 lb confirmed by Jeep only for 4-door Rubicon 2.0L or 3.6L automatic on 33 in tires; all other 2024+ configurations not confirmed above the 2018–2023 figures, use the towing chart in the owner manual; 4xe and 392: 3,500 lb (dealer guides)","variants":["Rubicon","392","4xe"],"hitch_blurb":"The 5,000 lb maximum is confirmed by Jeep only for 2024 and later 4-door Rubicon automatics on 33 in tires; 2018 to 2023 Wranglers are listed at 2,000 lb (2-door) or 3,500 lb (4-door), so read the towing chart in your owner manual. An aftermarket hitch never raises the vehicle rating."}',
+ 'Removable roof means roof racks bolt to the hardtop or a cage-style rack. Tailgate spare tire dictates bike-rack and cargo-carrier choice. Tow rating runs from 2,000 lb to 5,000 lb by year, doors and trim; 5,000 lb is confirmed only for 2024+ 4-door Rubicon automatics on 33 in tires.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'bronco','Bronco','2021-present','6th Gen (U725)',2021,NULL,'suv',
  '{}','removable',NULL,'2',2,3500,'285/70R17','6x139.7',2,
@@ -119,9 +119,9 @@ VALUES
  'Three-row family SUV with flush side rails on most trims; Class III hitch and 5,000 lb tow. Grand Highlander is a different vehicle.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'outback','Outback','2020-present','6th Gen (BT)',2020,2025,'suv',
- '{}','raised-rails',176,'2',2,3500,'225/60R18','5x114.3',2,
- '{"rails":"raised rails with integrated swing-out crossbars (most trims); Wilderness has fixed ladder-style rack","hitch":"2 in factory (Subaru L101SAN000, Class II, harness included); 2 in aftermarket Class III common","tow":"2,700 lb std; 3,500 lb XT/Wilderness","fit_note":"crossbars for integrated-rail Outbacks differ from standard raised rails; 2026 Outback is a new generation"}',
- 'Integrated swing-out crossbars on most trims (Wilderness has a fixed rack) — check which rail style before buying a crossbar kit.'),
+ '{}','raised-rails',150,'2',2,3500,'225/60R18','5x114.3',2,
+ '{"rails":"raised rails with integrated, retractable crossbars on every trim except Wilderness (Subaru: 150 lb maximum capacity); Wilderness (2022-2025) has fixed ladder-type rails with no built-in crossbars (Subaru: 200 lb dynamic, 700 lb static)","hitch":"2 in Subaru accessory hitch (L101SAN000, Class II, harness included); 2 in aftermarket Class III common","tow":"2,700 lb with the 2.5L (Base, Premium, Limited, Touring; Onyx Edition from 2023); 3,500 lb with the 2.4L turbo (Onyx Edition XT, Limited XT, Touring XT, Wilderness)","fit_note":"crossbar kits are rail-specific: bars for the standard raised rails and bars for the Wilderness ladder rails do not interchange; roof figures are from the Subaru 2022, 2023 and 2025 trim sheets, and the owner manual is the authority; 2026 Outback is a new generation"}',
+ 'Roof rails with integrated, retractable crossbars (150 lb per Subaru) on every trim except the Wilderness, which has fixed ladder-type rails and no built-in crossbars (200 lb dynamic, 700 lb static). Check which rail you have before buying a crossbar kit.'),
 
 ((SELECT id FROM makes WHERE slug='subaru'),'forester','Forester','2019-2024','5th Gen (SK)',2019,2024,'suv',
  '{}','raised-rails',176,'2',1.25,1500,'225/60R17','5x114.3',2,
@@ -130,8 +130,8 @@ VALUES
 
 ((SELECT id FROM makes WHERE slug='tesla'),'model-y','Model Y','2020-present','1st Gen incl. 2025 Juniper refresh',2020,NULL,'ev',
  '{}','fixed-points',165,'3',2,3500,'255/45R19','5x114.3',2,
- '{"roof":"glass roof with 4 fixed mounting points (Tesla-spec crossbars only)","hitch":"2 in receiver with Tow Package (retrofit available)","juniper_2025":"refreshed 2025 — some mats/liners differ","third_row":"optional 7-seat"}',
- 'Glass roof with fixed points — only Tesla-spec crossbar kits fit. Tow Package adds a 2 in receiver. 2025 Juniper refresh changes some interior fitments.'),
+ '{"roof":"glass roof with 4 fixed mounting points (Tesla-spec crossbars only)","hitch":"2 x 2 in square receiver with the Tesla Tow Package (sold with the car or later through the Tesla Shop); Tesla prints no hitch class, Class 3 is the aftermarket makers label; owner manual: do not install an accessory carrier on a Model Y not equipped with the tow package; receiver designed for vertical loads up to 160 lb","tow":"3,500 lb / 350 lb tongue for 5-seat and Performance with 5 or fewer occupants; 6- and 7-seat cars: lower limits by wheel size and occupied seats, some combinations not permitted (see the owner manual table); Trailer Mode must be active when towing","juniper_2025":"refreshed 2025 (US availability from March 2025; a 2025 can be either body); mats/liners differ, and aftermarket roof bars and hitches are split by body","third_row":"optional 7-seat in the US until the 2025 refresh","variants":["Model Y Standard (October 2025 on): no front light bar, no rear screen, headliner over the glass roof","Model Y L (US launch July 2026): 6-seat 2-2-2, 7.0 in longer; excluded from the Tesla Roof Rack"],"hitch_blurb":"Tesla prints no hitch class; Class 3 is the aftermarket makers label. The Tesla owner manual says not to install an accessory carrier on a Model Y that is not equipped with the Tesla tow package, so ask Tesla before fitting an aftermarket hitch. An aftermarket hitch never raises the vehicle rating."}',
+ 'Glass roof with fixed points: only Model Y-specific fixed-point crossbar kits fit, and Tesla rates its own rack at 165 lb. The Tesla Tow Package adds a 2 in receiver (Tesla prints no hitch class): 3,500 lb for 5-seat and Performance cars, less on 6- and 7-seat cars depending on wheels and occupied seats. Tesla owner manual says not to install an accessory carrier on a Model Y without the tow package. The 2025 Juniper refresh, the Standard (October 2025) and the six-seat Model Y L (US, July 2026) change some fitments.'),
 
 ((SELECT id FROM makes WHERE slug='tesla'),'model-3','Model 3','2017-present','1st Gen incl. 2024 Highland refresh',2017,NULL,'ev',
  '{}','fixed-points',NULL,'none',NULL,NULL,'235/45R18','5x114.3',2,
@@ -140,8 +140,8 @@ VALUES
 
 ((SELECT id FROM makes WHERE slug='ford'),'explorer','Explorer','2020-present','6th Gen (U625)',2020,NULL,'suv',
  '{}','raised-rails',NULL,'3',2,5600,'255/55R20','5x114.3',3,
- '{"rails":"raised rails standard","third_row":true,"hybrid":"Hybrid 2020-2024","fit_note":"2025 facelift keeps roof/hitch fit"}',
- 'RWD-based three-row with raised rails and Class III hitch (5,600 lb with tow package).'),
+ '{"rails":"raised side rails standard; Ford 2027 Explorer page lists a Slick Roof Conversion that deletes them on Active, ST-Line, Platinum and ST - check the roof","third_row":true,"hybrid":"Hybrid 2020-2023 (retail); Police Interceptor Utility kept the 3.3L hybrid","tow":"with factory tow package: 5,300 lb 2.3L / 5,600 lb 3.0L (2020-2024), 5,000 lb (2025-2026); 3,000 lb without the package per Ford 2024 towing guide","fit_note":"2025 facelift keeps roof/hitch fit; Class III Trailer Tow Package standard from 2025 (Ford)"}',
+ 'RWD-based three-row SUV with raised side rails (a rail-delete Slick Roof Conversion is listed on some trims) and a 2 in factory receiver with the tow package: 5,300 lb (2.3L) or 5,600 lb (3.0L) for 2020-2024, 5,000 lb for 2025-2026.'),
 
 ((SELECT id FROM makes WHERE slug='jeep'),'grand-cherokee','Grand Cherokee','2022-present','5th Gen (WL)',2022,NULL,'suv',
  '{}','flush-rails',NULL,'4',2,6200,'265/60R18','5x127',2,
@@ -150,8 +150,8 @@ VALUES
 
 ((SELECT id FROM makes WHERE slug='chevrolet'),'tahoe','Tahoe','2021-present','5th Gen (T1)',2021,NULL,'suv',
  '{}','flush-rails',NULL,'4',2,8400,'275/60R20','6x139.7',3,
- '{"rails":"flush side rails (per etrailer and The Rack Shop); Z71 uses its own fit kit","third_row":true,"suburban":"same fit for roof/hitch; different cargo mats","variants":["Z71","RST","High Country"]}',
- 'Full-size three-row; flush side rails, Class IV hitch, 8,400 lb tow. Suburban shares roof and hitch fit.'),
+ '{"rails":"flush side rails (per etrailer and The Rack Shop); Z71 uses its own fit kit","rst_performance_edition":"2025 RST Performance Edition package removes the roof rack (per Edmunds); side rails not confirmed, check the roof","second_row":"bench (8 seats) or bucket seats (7); buckets standard on Premier and High Country, available on LT, RST and Z71 (per Chevrolet); 9-seat front bench is an LS-only option (per Edmunds, 2025)","factory_steps":"assist steps standard on Premier and High Country, power-retractable optional on Premier and in the High Country Deluxe Package (per GM Authority); tubular assist steps on Z71 (per Chevrolet); LS, LT, RST not confirmed","third_row":true,"suburban":"same fit for roof/hitch; different third-row liners, cargo liners and running boards","variants":["Z71","RST","High Country"]}',
+ 'Full-size three-row SUV; flush side rails, Class IV hitch, up to 8,400 lb tow. Suburban shares roof and hitch fit.'),
 
 ((SELECT id FROM makes WHERE slug='kia'),'telluride','Telluride','2020-present','1st Gen',2020,2025,'suv',
  '{}','flush-rails',NULL,'3',2,5000,'245/60R18','5x114.3',3,

@@ -3,7 +3,7 @@ Hub page: ranks the three published Tahoe category guides and links to them. No 
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields, their
 FITS bands (TOUGHPRO bucket set with cargo mat) or price text in the cargo box guide (crossbar kits); vehicle facts
 from db/migrations/003_vehicles.sql (SUV, flush side rails, Z71 on its own fit kit, no stored roof load figure,
-hitch class 4 with a 2 in receiver, 8,400 lb with the factory tow package, three rows, Suburban shares roof and
+hitch class 4 with a 2 in receiver, 8,400 lb maximum tow rating, three rows, Suburban shares roof and
 hitch fit but not cargo mats, Z71 / RST / High Country variants), the three guides and their sources, and six pages
 opened for this page on 2026-10-04: Wikipedia's Tahoe page (210.7 in length, 120.9 in wheelbase, independent rear
 suspension lowered the floor and added 10 in of third-row legroom, Z71 running boards at launch, 2025 facelift with
@@ -23,9 +23,13 @@ Not verified, and worded as such in the text: Chevrolet's roof load figure (no o
 second-row layout by trim for 2021–2024; whether Husky's 99241 second-row piece suits both bench and captain's
 chairs (the title recorded in the guide states neither); front liner fit on the nine-seat LS front bench; whether
 the RST Performance Edition keeps its side rails; Z71 fit, bar weight and spread of the budget crossbars; load
-ratings and warranties of the running boards; the floor guide's statement that the 2025 floor pan carried over;
+ratings and warranties of the running boards; whether the 2025 floor pan and rocker fit carried over;
 the height of 2025 and later Tahoes (76 in is Cars.com's 2021 figure); and 2026 or 2027 fit of listings whose
 titles stop at 2023, 2024 or 2025. No Tahoe guide exists for roof racks or trailer hitches; neither is ranked.
+Source fixes 2026-10-04: aligned with the corrected guides. Dropped "either layout can be ordered differently",
+"trims share the floor", "same rocker mounting points on every trim" and "the floor pan carried over" (none
+confirmed); 8,400 lb is now worded as Chevrolet's maximum available figure, not tied to a tow package we did not
+confirm; the HD Ridez title is noted as also excluding the Suburban.
 """
 
 KIND = "upgrades"
@@ -63,14 +67,14 @@ FAQ = [
   "lists black tubular assist steps on the Z71. We could not confirm what LS, LT and RST models carry in each "
   "model year. Our running board guide says aftermarket boards replace factory steps and do not bolt alongside them."),
  ("Do the Z71, RST or High Country need different parts?",
-  "For floor liners, no. Our guide says trims share the floor, and the second-row layout is what matters. Running boards use the same rocker mounting points on every trim, though a Z71 or High Country may already carry factory steps. The roof is where trim matters most. The Rack Shop sells a separate Thule "
+  "For floor liners, no listing in our guide excludes a trim, and the second-row layout is what matters. No running board listing excludes a trim either, though a Z71 or High Country may already carry factory steps, and we could not confirm that every trim shares the same rocker mounting points. The roof is where trim matters most. The Rack Shop sells a separate Thule "
   "setup for the Z71 using Fit Kit 186117, rated at 165 lb with a 58 in maximum bar spread, while etrailer lists "
   "fit kit TH95JW for the regular flush-rail Tahoe. Edmunds' 2025 trim page says the RST Performance Edition "
   "removes the roof rack, so look at that roof before ordering bars."),
  ("Did the 2025 refresh change which Tahoe accessories fit?",
   "Our guides found no maker that split its parts at 2025. Wikipedia describes the 2025 update as new front and "
-  "rear fascias, a standard 17.7 in screen and a redesigned center console, and our floor liner guide says the "
-  "floor pan carried over. Husky's cargo liner 28291, Mixsuper's set and APS's 5 in nerf bars are listed for "
+  "rear fascias, a standard 17.7 in screen and a redesigned center console. We could not confirm that the "
+  "floor pan or the rocker fit carried over. Husky's cargo liner 28291, Mixsuper's set and APS's 5 in nerf bars are listed for "
   "2021–2026. Other titles stop earlier: Husky's 99241 and the APS and HD Ridez boards at 2025, JSLYF's liners at "
   "2024 and TAC's bars at 2023. Treat a short year range as a question for the seller."),
  ("What is the roof weight limit on a 2021–2026 Tahoe?",
@@ -87,8 +91,8 @@ FAQ = [
  ("Do I need to buy crossbars or a trailer hitch for a Tahoe?",
   "Crossbars: yes, for a cargo box. Retailers list this Tahoe with flush side rails that run front to back, and a "
   "box needs bars across them. Trailer hitch: perhaps not. Our vehicle data lists a Class IV hitch with a 2 in "
-  "receiver and a maximum of 8,400 lb with the factory tow package, and Chevrolet's current page shows the same "
-  "8,400 lbs. We could not confirm that every trim and year leaves the factory with a receiver, so look under the rear bumper before shopping."),
+  "receiver and a maximum of 8,400 lb, and Chevrolet's current page gives the same 8,400 lbs as the maximum "
+  "available towing capacity. We could not confirm that every trim and year leaves the factory with a receiver, so look under the rear bumper before shopping."),
  ("How much does it cost to add all three upgrades to a Tahoe?",
   "From the prices on our three guides' picks, a budget build runs about $710–$850: a TOUGHPRO rubber set, HD "
   "Ridez boards and SportRack's Vista XL. A mid build runs about $969–$1,249 with Husky's 99241 front and "
@@ -175,7 +179,7 @@ ARTICLE = {
            "Chevrolet's current Tahoe page lists captain's chairs as standard on the Premier and High Country and "
            "available on the LT, RST and Z71. Edmunds' 2025 trim page describes eight-passenger seating on the LS, "
            "second-row bucket seats that drop capacity to seven under the LT and Premier, and a front-row bench that makes nine "
-           "seats as an LS-only option. Our floor liner guide adds that either layout can be ordered differently.\n\n"
+           "seats as an LS-only option. Chevrolet's page now shows the 2027 model, and we could not confirm the layout by trim for 2021–2024.\n\n"
            "The layout changes two liners, not one. Captain's chairs leave a walkway to the third row, so the "
            "second-row and third-row pieces are both cut differently from a bench Tahoe's. One part is unclear: "
            "the title of Husky's 99241 front and second-row set, as recorded in our guide, names no second-row "
@@ -202,7 +206,7 @@ ARTICLE = {
              "rows": [
               ["Floor liners, front and second row", "Often yes", "Husky 99241 is listed for the Tahoe, Suburban, Yukon, Yukon XL, Escalade and Escalade ESV", "Buy by generation: 2021 on"],
               ["Third-row liner and cargo liner", "No", "Husky sells a separate third-row liner for the Suburban, Yukon XL and ESV; the 28291 cargo liner is for the Tahoe, Yukon and Escalade", "Buy by length"],
-              ["Running boards", "No", "Longer wheelbase and longer rear doors; APS and HD Ridez titles exclude the Yukon XL", "Buy boards that name the Tahoe or the standard Yukon"],
+              ["Running boards", "No", "Longer wheelbase and longer rear doors; APS and HD Ridez titles exclude the Yukon XL, and HD Ridez's also rules out the Suburban", "Buy boards that name the Tahoe or the standard Yukon"],
               ["Crossbars and cargo box", "Roof fit is shared, per our vehicle data", "The budget crossbar listing names the Tahoe, Suburban, Yukon XL and Escalade ESV; a box clamps to any bars", "Buy bars listed for your exact vehicle and year"],
              ]}},
   {"h": "What your Tahoe may already have: assist steps, side rails and a receiver",
@@ -218,7 +222,7 @@ ARTICLE = {
            "ordering feet.\n\n"
            "**A receiver.** No trailer hitch or roof rack guide exists for the Tahoe on this site yet, so neither "
            "is ranked. Our vehicle data lists a **Class IV hitch with a 2 in receiver** and a maximum of "
-           "**8,400 lb** with the factory tow package, and Chevrolet's current page shows the same 8,400 lbs. "
+           "**8,400 lb**, and Chevrolet's current page gives the same 8,400 lbs as the maximum available towing capacity. "
            "That is a ceiling; the figure for your build is in the owner's manual. We could not confirm that "
            "every trim and year has a receiver, so look under the rear bumper. If one is there, a hitch cargo "
            "carrier keeps heavy items low and leaves the roof box for light, bulky ones."},
@@ -247,8 +251,8 @@ ARTICLE = {
            "2015–2020 and 99241 for 2021 on. Our running board guide says the body and rocker are new too. A "
            "cargo box carries over from any vehicle, but crossbar feet are sold by vehicle and year.\n\n"
            "**The 2025 refresh.** Wikipedia describes new front and rear fascias, a standard 17.7 in screen and a "
-           "redesigned center console, with production starting in October 2024. Our floor liner guide says the "
-           "floor pan carried over, and our guides found no maker that sells a separate 2025 part.\n\n"
+           "redesigned center console, with production starting in October 2024. We could not confirm that the "
+           "floor pan or the rocker fit carried over. Several listings in our guides span 2021–2026, and our guides found no maker that sells a separate 2025 part.\n\n"
            "**Where listings stop.** Year ranges in titles lag the vehicle. In our guides, Husky's 28291 and "
            "14241, Mixsuper's set and APS's 5 in nerf bars run to 2026. Husky's 99241, TOUGHPRO's bench set, APS's "
            "fixed boards and HD Ridez's boards stop at 2025, JSLYF at 2024 and TAC's bars at 2023. Rough Country's "

@@ -2,8 +2,8 @@
 Hub page: ranks the three published Ranger category guides and links to them. No product picks or ASINs here
 (the site pulls each guide's #1 pick). Every price comes from the linked guides' picks[].price fields or price text in
 those guides (the RetraxPRO XR band is the guide's product-list band and is worded "confirm on the listing").
-Vehicle facts come from db/migrations/003_vehicles.sql (61 in SuperCrew bed, SuperCab 6 ft noted at 72 in, Class IV
-hitch, 2 in receiver, 7,500 lb with the factory tow package, "Class IV factory hitch on most trims", Tremor 2021+;
+Vehicle facts come from db/migrations/003_vehicles.sql as proposed on 2026-10-04 (61 in SuperCrew bed, 73 in SuperCab
+bed, Class IV hitch, 2 in receiver, 7,500 lb with the factory tow package, Tremor from model year 2021;
 2024-present row: 2019–2023 tonneau fitments do not carry over), from the three guides and their sources, and from
 three pages opened on 2026-10-04: Wikipedia's Ford Ranger (T6) page (North American cabs are a four-door SuperCab and
 a four-door SuperCrew; one powertrain, 2.3 L EcoBoost with a 10-speed automatic), Ford's October 2018 announcement
@@ -11,14 +11,20 @@ as republished by ForConstructionPros (1,860 lb maximum payload; 7,500 lb
 "when equipped with the tow package and a trailer brake controller") and MotorWeek's report of Ford's 2024 Ranger
 launch (SuperCrew with a 5 ft bed only). Wikipedia's Ford Ranger (Americas) page was also read; it added nothing
 that is used here, so it is not cited.
-Not verified, and worded as such in the text: which trims and model years left the factory with the receiver (the
-"most trims" wording is our vehicle data only); which cab and drivetrain carry the 1,860 lb and 7,500 lb figures, and
-whether they held for 2020–2023; ZROADZ Z835201 fit on 2022–2023 trucks (the Amazon title stops at 2021); whether the
+Not verified, and worded as such in the text: which trims and model years had the receiver as standard (a copy of the
+2019 towing guide lists it with the optional Trailer Tow Package; 2020–2023 guides were not read); the receiver class
+(Class IV is our vehicle data only); which cab and drivetrain carry the 1,860 lb and 7,500 lb figures; ZROADZ Z835201
+fit on 2022–2023 trucks (page title 2019–2026, web address 2019–2023, Amazon title 2019–2021); whether the
 TruXedo Lo Pro is one of the "select covers" for Yakima's Tonneau Kit 1, and Putco's approval of the Lo Pro by name
 (Putco names the cover type, not the model); prices of the 6 ft cover versions and of the JOYTUTUS and OBNAUX
-listings; warranty transfer for brands other than BAK and Retrax; which cabs the Tremor package was sold on
-(the page does not say). The 2024 facts were read on a press outlet's page, not on Ford's own site. No running board
+listings; warranty transfer for brands other than BAK and Retrax; which cabs the FX4 package was sold on (Wikipedia
+says all 4x4 models). The 2024 facts were read on a press outlet's page, not on Ford's own site. No running board
 or hitch listing was checked for this generation, so none is named.
+Source fixes 2026-10-04: SuperCab bed now 73 in (72.7 in rounded) to match the proposed vehicle data; "Class IV hitch on
+most trims" replaced with the optional Trailer Tow Package and a check under the bumper; Tremor stated as SuperCrew 4x4
+XLT/Lariat from model year 2021 (Equipment World report of Ford's reveal); Husky front plus rear corrected to $150–$230
+and the premium totals to $3,089–$3,169 and $2,100–$2,180; ZROADZ and Gator EFX year rows restated; folding-cover
+wording aligned with the guides; three sources added.
 """
 
 KIND = "upgrades"
@@ -34,8 +40,8 @@ FAQ = [
   "Floor liners, then a tonneau cover, then a bed rack if you need one. Liners cost the least, about $80–$120 for "
   "OMAC's SuperCrew set in our guide, and need one fact: SuperCrew or SuperCab. The cover comes second because the "
   "bed is small and often the only lockable storage. It needs the bed length, which follows the cab, and a "
-  "2019–2023 part number. Decide on the rack before paying for the cover, since most folding covers leave nowhere "
-  "to mount one. OMAC liners and Tyger's T3 soft cover at about $223 come to about $303–$343."),
+  "2019–2023 part number. Decide on the rack before paying for the cover, since most folding covers leave no rail "
+  "for one. OMAC liners and Tyger's T3 soft cover at about $223 come to about $303–$343."),
  ("Do 2019–2023 Ranger accessories fit the 2024 and newer Ranger?",
   "Don't count on it. The 2024 truck has a new cab and a different bed, about 59.6 in long and 48.2 in between the "
   "wheel wells, against about 61 in and 44.8 in on the older SuperCrew bed. BAK, Retrax, TruXedo and Tyger sell "
@@ -53,13 +59,15 @@ FAQ = [
   "rails, which points to a roll-up such as the TruXedo Lo Pro at about $540; confirm it with Putco. Yakima says select covers need its "
   "Tonneau Kit 1 under the OutPost HD and OverHaul HD towers. Retrax sells the RetraxPRO XR, part T-80335, with "
   "T-slot rails for crossbars over the cover. Ranger5G owners note that a rolled cover takes about 5–6 in, so the "
-  "bars must sit higher. Most folding covers leave no place for a rack."),
+  "bars must sit higher. Most folding covers leave no rail for a rack. Some owners report combinations that work, so "
+  "confirm with the rack maker."),
  ("Do I need to buy a trailer hitch for a 2019–2023 Ranger?",
-  "Maybe not. Look under the rear bumper first. Our vehicle data lists a Class IV factory hitch with a 2 in receiver "
-  "on most trims and a maximum of 7,500 lb with the factory tow package. Ford's 2018 announcement gives the same "
-  "7,500 lb for trucks equipped with the tow package and a trailer brake controller. We could not confirm which "
-  "trims and model years had the receiver as standard, so we print no trim list. If your truck has a receiver, an "
-  "aftermarket trailer hitch adds nothing."),
+  "Maybe not. Look under the rear bumper first. A copy of the 2019 Ranger towing guide posted on Ranger5G lists the "
+  "hitch receiver as part of the optional Trailer Tow Package and calls for that package on trailers over 3,500 lb. "
+  "Ford's 2018 announcement gives a 7,500 lb maximum for trucks equipped with the tow package and a trailer brake "
+  "controller. We could not confirm which trims and model years had the receiver as standard, so we print no trim "
+  "list. Our vehicle data lists the factory receiver as Class IV with a 2 in opening. If your truck has a receiver, "
+  "an aftermarket trailer hitch adds nothing."),
  ("How much payload do a bed rack and rooftop tent use on a Ranger?",
   "Ford announced the 2019 Ranger with a maximum payload of 1,860 lb, a best-case figure. Yours is on the door-jamb "
   "label. The rack comes out of it first. ZROADZ lists the Z835201 at 125 lb, and Yakima lists the OverHaul HD "
@@ -70,11 +78,13 @@ FAQ = [
   "From the prices on our guides' picks, a budget build without a rack runs about $303–$343: OMAC liners and Tyger's "
   "T3 soft cover. A mid build runs about $1,449–$1,489 before crossbars and Yakima's tonneau kit, with a 3W or "
   "LASFIT liner set, the TruXedo Lo Pro and Yakima's OutPost HD towers. A premium SuperCrew build starts at about "
-  "$3,089–$3,159 with Husky's front and rear pieces, the Lo Pro and Putco's Venture TEC. Owners who skip the rack "
-  "can buy a hard cover instead: Husky liners plus the RetraxPRO MX come to about $2,100–$2,170."),
+  "$3,089–$3,169 with Husky's front and rear pieces, the Lo Pro and Putco's Venture TEC. Owners who skip the rack "
+  "can buy a hard cover instead: Husky liners plus the RetraxPRO MX come to about $2,100–$2,180."),
  ("Does a Ranger Tremor or FX4 need different parts?",
-  "Mostly no. Our floor liner guide says the Tremor package, which it dates to 2021–2023, and the FX4 package change "
-  "suspension, tires and trim, not the cab floor. Our tonneau guide says covers are listed by model year and bed "
+  "Mostly no. Ford offered the Tremor Off-Road Package from the 2021 model year on XLT and Lariat SuperCrew 4x4 "
+  "trucks, so a Tremor has the SuperCrew cab and the 5 ft bed. Our floor liner guide notes that Ford describes "
+  "Tremor and FX4 as off-road packages, and that liner listings fit by cab and year, not by "
+  "package. Our tonneau guide says covers are listed by model year and bed "
   "length, not by trim, and that none of the makers it checked names the Tremor. If the truck has extra bed "
   "accessories such as tie-down rails or a divider, confirm the clamps clear them. The fit line for ZROADZ's "
   "Z835201 rack names XL, XLT and Lariat trucks with the standard bed, so ask ZROADZ about any package it doesn't "
@@ -98,14 +108,14 @@ ARTICLE = {
            "much of its fit is confirmed for this generation (cab, bed length, model year). Price bands are the "
            "prices listed on those guides' picks, checked at maker and retailer stores in September 2026, and are "
            "approximate. Vehicle facts come from our vehicle data, the guides' sources, Wikipedia's Ranger page, "
-           "Ford's 2018 announcement of the 2019 truck and MotorWeek's report of the 2024 launch. Where we could "
+           "Ford's 2018 announcement of the 2019 truck, a copy of the 2019 towing guide and MotorWeek's report of the 2024 launch. Where we could "
            "not confirm a factory detail, the text says so.",
  "takeaways": [
   "**Count the doors first.** SuperCrew, with four full doors, has the 5 ft bed (61 in). SuperCab has the 6 ft bed (72.7 in).",
   "**Treat 2024 as a different truck.** Its bed is about 59.6 in long and wider between the wheel wells, and makers sell separate 2024+ parts.",
   "**Read the part number, not only the year range.** Titles on Husky, Gator, Putco and budget rack listings run to 2024 or 2025.",
-  "**Choose the rack before the cover.** Putco names inside-rail roll-up covers for its rack, and most folding covers leave nowhere to mount one.",
-  "**Look under the bumper before hitch shopping.** Our data lists a Class IV hitch on most trims, which we could not confirm trim by trim.",
+  "**Choose the rack before the cover.** Putco names inside-rail roll-up covers for its rack, and most folding covers leave no rail for one.",
+  "**Look under the bumper before hitch shopping.** The 2019 towing guide lists the hitch receiver with the optional Trailer Tow Package, so not every truck has one.",
  ],
  "priority": [
   {"category": "floor-mats",
@@ -117,7 +127,7 @@ ARTICLE = {
           "rear area with jump seats. The front footwells are shared, which is why Husky lists its WeatherBeater "
           "13411 front pair for both cabs. The rear floors are not: Husky's 14411 rear is SuperCrew only, its 93801 "
           "three-piece set is SuperCab only, and every budget TPE set in our guide is SuperCrew only. Prices in our "
-          "guide run about $80–$120 for OMAC's full set, about $110–$150 for 3W's or LASFIT's, about $150–$220 for "
+          "guide run about $80–$120 for OMAC's full set, about $110–$150 for 3W's or LASFIT's, about $150–$230 for "
           "Husky front plus rear and about $150–$210 for the SuperCab set. The trade-off is price against written "
           "terms: Husky states a lifetime warranty against cracks and breaks, and the budget brands publish little.",
    "skip_if": "The truck came with fitted liners in good shape that hook onto the driver-side retention posts."},
@@ -154,10 +164,10 @@ ARTICLE = {
   "caption": "Approximate price bands from the picks in our 2019–2023 Ranger guides (September 2026; Amazon prices move daily). Each column lists SuperCrew 5 ft parts that can be ordered together",
   "head": ["Upgrade", "Budget", "Mid", "Premium"],
   "rows": [
-   ["Floor liners", "About $80–$120 (OMAC 3D TPE full set)", "About $110–$150 (3W or LASFIT full set)", "About $150–$220 (Husky WeatherBeater 13411 front plus 14411 rear)"],
+   ["Floor liners", "About $80–$120 (OMAC 3D TPE full set)", "About $110–$150 (3W or LASFIT full set)", "About $150–$230 (Husky WeatherBeater 13411 front plus 14411 rear)"],
    ["Tonneau cover", "About $223 (Tyger T3 soft tri-fold, TG-BC3F1066)", "About $540 (TruXedo Lo Pro roll-up, 531001)", "About $540 (TruXedo Lo Pro roll-up, the cover type Putco names for its rack)"],
    ["Bed rack", "None in this tier. The budget clamp racks in our guide don't state cover fit", "About $799 (Yakima OutPost HD towers; crossbars and Tonneau Kit 1 extra; confirm the cover in Yakima's fit lookup)", "From about $2,399 (Putco Venture TEC, 5'1\" bed, tent kit included)"],
-   ["Total", "About $303–$343 (liners and cover)", "About $1,449–$1,489 before crossbars and tonneau kit", "From about $3,089–$3,159"],
+   ["Total", "About $303–$343 (liners and cover)", "About $1,449–$1,489 before crossbars and tonneau kit", "From about $3,089–$3,169"],
   ],
  },
  "sections": [
@@ -183,7 +193,7 @@ ARTICLE = {
   {"h": "SuperCrew or SuperCab: each cab comes with one bed",
    "body": "On the US-market 2019–2023 Ranger the cab decides the bed, so one fact answers two questions. The "
            "SuperCrew has the 5 ft bed and the SuperCab has the 6 ft bed. Our vehicle data stores the SuperCrew bed "
-           "as 61 in and notes the SuperCab bed at 72 in, rounded to whole inches. Cover makers print 61 in and "
+           "as 61 in and the SuperCab bed as 73 in, both rounded to whole inches. Cover makers print 61 in and "
            "72.7 in, sold as 5'1\" and 6'1\".\n\n"
            "The newer truck removes the choice. MotorWeek's report of Ford's launch says the 2024 Ranger comes only "
            "as a SuperCrew with a 5 ft bed. A SuperCab owner who trades up changes cab, bed and every bed part at "
@@ -209,17 +219,19 @@ ARTICLE = {
               ["BAKFlip MX4", "448332 for 2019–2023; 448342 for 2024+", "Order 448332 for the 5 ft bed"],
               ["TruXedo Lo Pro", "531001 for 2019–2023; 531701 for 2024+", "Order 531001, or 531101 for the 6 ft bed"],
               ["Tyger T3", "TG-BC3F1066 for 2019–2023; TG-BC3F1205 for 2024+", "Order TG-BC3F1066; that part is 5 ft only"],
-              ["Gator EFX GC24022", "RealTruck lists 2019–2023 and says it does not include 2024+; one Amazon title reads 2019–2025", "Fine on a 2019–2023 truck. Don't count on it for a 2024"],
+              ["Gator EFX GC24022", "RealTruck's fit line reads 2019–2023, 5'1\" bed; one Amazon title reads 2019–2025", "Fine on a 2019–2023 truck. For a 2024, go by RealTruck's fit line, not the Amazon title"],
               ["Husky WeatherBeater 13411 front pair", "Listed for 2019–2024, both cabs; Husky sells 13791 and 14791 for the 2024+ SuperCrew", "Fine on a 2019–2023 truck. Treat 2024 as that listing's claim"],
               ["LASFIT full set", "Title starts at 2020", "Ask the seller about a 2019"],
-              ["ZROADZ Z835201", "Amazon title reads 2019–2021; ZROADZ's own page lists later years", "Confirm a 2022 or 2023 truck with the seller"],
+              ["ZROADZ Z835201", "ZROADZ's page title reads 2019–2026, its web address reads 2019–2023 and its fitment list names XL, XLT and Lariat for 2019–2023; the Amazon title reads 2019–2021", "Confirm a 2022 or 2023 truck with ZROADZ or the seller"],
               ["Putco Venture TEC", "Listing reads Ford Ranger 2019–2025, 5'1\" bed", "Fits the SuperCrew bed. Ask Putco before moving it to a 2024"],
               ["JOYTUTUS and OBNAUX clamp racks", "Listings span 2019–2025 and 2004–2025", "Confirm the rating and your bed with the seller"],
              ]}},
   {"h": "Choose the cover and the rack together, then count the payload",
    "body": "The bed rack is last on the buying list and first on the deciding list. Our tonneau guide says most "
-           "folding covers leave nowhere to mount a rack, so the cover you were about to buy can rule out the rack "
-           "you want later. The pairings our guides could document:\n\n"
+           "folding covers leave no rail for a rack, so the cover you were about to buy can rule out the rack "
+           "you want later. One Ranger5G owner reports a Diamondback bifold cover with Front Runner racks and a "
+           "rooftop tent, so some combinations work. Confirm with the rack maker. The pairings our guides could "
+           "document:\n\n"
            "- **Roll-up under a rack.** Putco says the Venture TEC works with roll-up covers that mount inside the "
            "bed rails. The TruXedo Lo Pro, about $540, is a roll-up with internal mounting. Putco names the cover "
            "type and not the model, so confirm the pairing before ordering. Ranger5G owners describe the same "
@@ -246,14 +258,17 @@ ARTICLE = {
   {"h": "Towing and side steps: what the truck may already have",
    "body": "There is no trailer hitch guide and no running boards guide for the 2019–2023 Ranger on this site, so "
            "neither is ranked here. This is what the truck may already have.\n\n"
-           "**The receiver.** Our vehicle data lists a **Class IV factory hitch with a 2 in receiver** on most "
-           "trims. We could not confirm trim by trim, or year by year, which trucks left the factory with it. Ford's "
-           "2018 announcement ties the top tow figure to a tow package, which suggests some trucks were built "
-           "without one. Don't go by trim name. Look under the rear bumper. If a receiver is there, an aftermarket "
-           "trailer hitch adds nothing.\n\n"
+           "**The receiver.** Not every truck has one. A copy of the 2019 Ranger towing guide posted on Ranger5G "
+           "lists the hitch receiver, with a 7-wire harness and a 4-pin and 7-pin connector, as the optional "
+           "Trailer Tow Package (code 53R), and calls for that package on trailers over 3,500 lb. We read that "
+           "guide for the 2019 model year only, and we could not confirm whether any trim had the receiver as "
+           "standard. Our vehicle data lists the factory receiver as **Class IV with a 2 in opening**; we did not "
+           "find the class on the Ford pages we read. Don't go by trim name. Look under the rear bumper. If a "
+           "receiver is there, an aftermarket trailer hitch adds nothing.\n\n"
            "**The rating.** Our vehicle data lists a maximum of **7,500 lb with the factory tow package**. Ford's "
-           "announcement words it as 7,500 lb when equipped with the tow package and a trailer brake controller. We "
-           "read that figure for the 2019 model year only. Your figure is in the owner's manual, and a receiver "
+           "announcement words it as 7,500 lb when equipped with the tow package and a trailer brake controller. "
+           "Ford's 2021 Ranger media page also gives 7,500 lb as the maximum. We did not read the 2020, 2022 or "
+           "2023 figures. Your figure is in the owner's manual, and a receiver "
            "never raises it.\n\n"
            "**Running boards.** We have not checked any running board listing for this generation, so we name none. "
            "If you shop for them, the listing should name your cab, because the SuperCrew has four full-size doors "
@@ -263,7 +278,7 @@ ARTICLE = {
  "avoid": [
   {"h": "SuperCrew parts on a SuperCab", "body": "Rear liners, 5 ft covers and Putco's 5'1\" rack are SuperCrew parts. The SuperCab needs Husky's 93801 or 14421, a 6 ft cover and a rack that fits by bed rail."},
   {"h": "Trusting a year range that crosses 2024", "body": "Branded makers sell separate parts for the 2024 bed. A title that reads 2019–2025 or 2004–2025 deserves a question to the seller."},
-  {"h": "Paying for a folding cover when a rack is planned", "body": "Our tonneau guide says most folding covers leave nowhere to mount a rack. Decide on the rack first, then buy an inside-rail roll-up, the RetraxPRO XR or a cover the rack maker confirms."},
+  {"h": "Paying for a folding cover when a rack is planned", "body": "Our tonneau guide says most folding covers leave no rail for a rack. Decide on the rack first, then buy an inside-rail roll-up, the RetraxPRO XR or a cover the rack maker confirms."},
   {"h": "Loading a rack without counting payload", "body": "ZROADZ lists its rack at 125 lb before a tent goes on, and the JOYTUTUS listing's 900 lb has no static and dynamic split. Add rack, tent, gear and passengers against the door-jamb payload."},
  ],
  "verdict": {
@@ -272,7 +287,7 @@ ARTICLE = {
           "bed length and model year. Floor liners need only the cab and cost the least, so they go first. The "
           "tonneau cover needs the bed, which follows the cab, and a part number from the right side of the 2024 "
           "redesign. Wikipedia lists one powertrain, a 2.3 L EcoBoost with a 10-speed automatic, and "
-          "our guides found that the FX4 and Tremor packages don't change liner or cover fit.\n\n"
+          "the liner and cover listings in our guides fit by cab, bed and year, not by FX4 or Tremor package.\n\n"
           "The bed rack sits last because few owners need one and a mid-size payload limits what it can carry, but "
           "the rack decision still has to be made before the cover is paid for. Skip the trailer hitch shopping "
           "until you have looked under the bumper, and ask any running boards seller the same cab and year "
@@ -295,5 +310,8 @@ ARTICLE = {
   ["Yakima OverHaul HD towers (Yakima)", "https://yakima.com/products/overhaul-hd"],
   ["Show me your tonneau cover bed rack combo (Ranger5G)", "https://www.ranger5g.com/forum/threads/show-me-your-tonneau-cover-bed-rack-combo.15304/page-2"],
   ["Husky Liners: WeatherBeater vs X-act Contour (Husky Liners)", "https://huskyliners.com/blog/husky-liners-weatherbeater-vs-xact-contour/"],
+  ["Ford unveils 2021 Ranger Tremor: XLT and Lariat SuperCrew 4x4 (Equipment World)", "https://www.equipmentworld.com/trucks/pickups/article/15051976/ford-unveils-2021-ranger-tremor"],
+  ["2021 Ranger: Tremor and FX4 Off-Road Packages (Ford Media Center)", "https://media.ford.com/content/fordmedia/fna/us/en/products/trucks/ranger/2021-ranger.html"],
+  ["2019 Ford Ranger towing guide, rev. 01.29.19 (copy posted on Ranger5G)", "https://www.ranger5g.com/forum/attachments/2019-ranger-towing-guide-pdf.75608/"],
  ],
 }

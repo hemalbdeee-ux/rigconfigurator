@@ -17,8 +17,11 @@ export function categoryBlurb(slug: string, v: Vehicle): string {
       return `The ${gen} ${v.model_name} has a ${roof.replace("-", " ")} roof${v.roof_load_lb ? ` rated ${v.roof_load_lb} lb dynamic` : ""}, which dictates the crossbar style. Every kit here matches that roof type — no drilling, no guessing.`;
     case "cargo-boxes":
       return `Boxes are universal; the crossbars are what fit the ${v.model_name}. Pick bars for a ${roof.replace("-", " ")} roof first, then a box under your roof-load limit${v.roof_load_lb ? ` (${v.roof_load_lb} lb incl. bars)` : ""}.`;
-    case "hitches":
-      return `${v.model_name} hitch facts: ${hitch}${tow ? `, factory max tow ${tow}` : ""}. Aftermarket hitches bolt to existing frame holes for bike racks, carriers and light towing — the vehicle rating never rises.`;
+    case "hitches": {
+      // attrs.hitch_blurb (optional) replaces the generic sentence on vehicles where it would be wrong or unsafe.
+      const note = typeof v.attrs?.hitch_blurb === "string" ? v.attrs.hitch_blurb : "Aftermarket hitches bolt to existing frame holes for bike racks, carriers and light towing — the vehicle rating never rises.";
+      return `${v.model_name} hitch facts: ${hitch}${tow ? `, factory max tow ${tow}` : ""}. ${note}`;
+    }
     case "bike-racks":
       return `Hitch-mount racks need a receiver (${hitch}); roof racks need crossbars. For e-bikes, hitch mounts only.`;
     case "floor-mats":

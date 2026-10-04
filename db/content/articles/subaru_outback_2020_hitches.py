@@ -1,17 +1,18 @@
 """Long-form article — Best Trailer Hitches for 2020–2025 Subaru Outback (6th gen, BT).
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every spec below
 comes from the manufacturer/dealer pages listed in sources (checked 2026-09-24).
+Source fixes 2026-10-04: 2.5-liter row now includes the non-turbo Onyx Edition (2023 on) per Subaru's 2023 and 2025 trim comparison sheets; the "every hitch is rated at 3,500 lb or more" claim limited to the CURT and Draw-Tite hitches with published ratings; 2,700 lb / 3,500 lb figures now carry the engine condition wherever they appear; Subaru's 2022, 2023 and 2025 sheets added to sources.
 """
 
 KEY = ("subaru", "outback", "2020-present", "hitches")
 
 TITLE = "Best Trailer Hitches for 2020–2025 Subaru Outback: 5 Picks for 2,700 and 3,500 lb Trims"
-META = ("Five 2 in hitches for the 2020–2025 Outback, from the Subaru OEM kit to CURT and Draw-Tite, with the "
-        "2,700 vs 3,500 lb tow split, Wilderness fascia and wiring notes.")
+META = ("Five 2 in hitches for the 2020–2025 Outback, from the Subaru OEM kit to CURT and Draw-Tite: "
+        "2.5L 2,700 lb vs turbo 3,500 lb tow split, Wilderness fascia, wiring.")
 
 FAQ = [
  ("How much can a 2020–2025 Subaru Outback tow?",
-  "It depends on the engine, not the hitch. Subaru's hitch documentation lists 2,700 lb with a 270 lb maximum tongue weight for the 2.5-liter Outback, and 3,500 lb with a 350 lb tongue weight for the 2.4-liter turbo used in XT trims and the Wilderness. Every hitch on this page is rated at 3,500 lb or more, so on a 2.5-liter car the vehicle, not the hitch, sets the limit. Check the towing section of your owner's manual for your exact trim."),
+  "It depends on the engine, not the hitch. Subaru's hitch documentation lists 2,700 lb with a 270 lb maximum tongue weight for the 2.5-liter Outback, and 3,500 lb with a 350 lb tongue weight for the 2.4-liter turbo used in XT trims and the Wilderness. The CURT and Draw-Tite hitches on this page are rated at 3,500 lb or more, so on a 2.5-liter car the vehicle, not the hitch, sets the limit. The budget TUZILLA's ratings have to be confirmed on its listing. Check the towing section of your owner's manual for your exact trim."),
  ("Does a 3,500 lb or 4,500 lb hitch let a 2.5-liter Outback tow more?",
   "No. A hitch rating is the most the hitch itself can hold. The vehicle rating covers the frame, brakes, cooling and transmission, and the lower of the two numbers always wins. The Draw-Tite 76597 is rated for 4,500 lb and 675 lb of tongue weight, but bolted to a 2.5-liter Outback it is still a 2,700 lb, 270 lb hitch. Buying a stronger hitch gives you margin and longevity, not towing capacity."),
  ("Is the Subaru factory hitch better than CURT or Draw-Tite?",
@@ -55,15 +56,15 @@ ARTICLE = {
   "caption": "2020–2025 Outback: what sets your towing limit",
   "head": ["Version", "Engine", "Max tow (Subaru)", "Max tongue weight", "Hitch notes"],
   "rows": [
-   ["Base, Premium, Limited, Touring", "2.5 L flat-four, 182 hp", "2,700 lb", "270 lb", "Any 2 in hitch here fits; the vehicle rating is the limit."],
-   ["XT trims (Onyx Edition XT, Limited XT, Touring XT)", "2.4 L turbo, 260 hp", "3,500 lb", "350 lb", "Every pick is rated at 3,500 lb or more."],
+   ["Base, Premium, Limited, Touring; Onyx Edition (2023 on)", "2.5 L flat-four, 182 hp", "2,700 lb", "270 lb", "Any 2 in hitch here fits; the vehicle rating is the limit."],
+   ["XT trims (Onyx Edition XT, Limited XT, Touring XT)", "2.4 L turbo, 260 hp", "3,500 lb", "350 lb", "The CURT and Draw-Tite picks are rated at 3,500 lb or more; confirm the TUZILLA's rating on its listing."],
    ["Wilderness (2022–2025)", "2.4 L turbo, 260 hp", "3,500 lb", "350 lb", "Own rear fascia; OEM hitch needs a Wilderness panel and cutting template."],
    ["2020–2025 Legacy sedan", "2.5 L or 2.4 L turbo", "See owner's manual", "See owner's manual", "CURT 13494 and 13570 list Legacy; Draw-Tite 76597 and OEM do not."],
   ],
  },
  "look_for": [
   {"h": "Your engine's rating, not the hitch's",
-   "body": "Every hitch has its own gross trailer weight (GTW) and tongue weight (TW) rating, and so does the car. The lower number is your limit. On the 6th-gen Outback, Subaru splits the rating by engine: the 2.5-liter car is rated for 2,700 lb and 270 lb of tongue weight, while the 2.4-liter turbo in XT trims and the Wilderness gets 3,500 lb and 350 lb. That means the Draw-Tite 76597's 4,500 lb rating is headroom, not extra capacity. Look at the badge on the tailgate before you plan the trailer. The XT and Wilderness badges mean the turbo; everything else is the 2.5-liter. Remember that tongue weight is its own limit: a loaded hitch cargo carrier or bike rack counts entirely against 270 or 350 lb, even with no trailer attached. Passengers and luggage also reduce what the car can safely carry behind it."},
+   "body": "Every hitch has its own gross trailer weight (GTW) and tongue weight (TW) rating, and so does the car. The lower number is your limit. On the 6th-gen Outback, Subaru splits the rating by engine: the 2.5-liter car is rated for 2,700 lb and 270 lb of tongue weight, while the 2.4-liter turbo in XT trims and the Wilderness gets 3,500 lb and 350 lb. That means the Draw-Tite 76597's 4,500 lb rating is headroom, not extra capacity. Look at the badge on the tailgate before you plan the trailer. The XT and Wilderness badges mean the turbo; everything else is the 2.5-liter, including the Onyx Edition without XT (2023 on). Remember that tongue weight is its own limit: a loaded hitch cargo carrier or bike rack counts entirely against 270 or 350 lb, even with no trailer attached. Passengers and luggage also reduce what the car can safely carry behind it."},
   {"h": "Concealed vs exposed receiver",
    "body": "Hitches for the Outback come in two shapes. Concealed designs such as the CURT 13494 and Draw-Tite 76597 tuck the cross tube behind the bumper so only the receiver mouth shows. Exposed designs such as the CURT 13570 run a round cross tube visibly under the bumper. Concealed looks cleaner and keeps the cross tube out of sight and out of the way. Exposed tubes tend to be heavier (37 lb for the 13570 against 31 lb for the 13494) and CURT rates the 13570 as a harder install. Both styles use the same 2 in receiver, so ball mounts, bike racks and carriers work the same on either. The choice is mainly looks, weight and install effort, not capability."},
   {"h": "Trim-specific fascia and underguards",
@@ -104,7 +105,7 @@ ARTICLE = {
    "specs": [["Class", "3"], ["Part #", "CURT 13494"], ["Receiver", "2 in square, open back"], ["Ratings", "3,500 lb GTW / 350 lb TW"], ["Fits", "2020–2026 Outback, 2020–2025 Legacy, all trims (per CURT)"], ["Weight", "31 lb"], ["Style", "Concealed main body"], ["Finish", "Gloss black powder coat, carbon steel"], ["Warranty", "Limited lifetime (1 yr finish, 1 yr parts)"]]},
   {"asin": "B0B9T39SYC", "role": "Highest hitch rating", "price": "$230–$320",
    "pros": ["4,500 lb GTW / 675 lb TW, the highest rating here", "Weight-distribution compatible", "Bolt-on, no drilling, about 60 minutes (Draw-Tite's figure)", "Concealed design", "Powder coat over e-coat; limited lifetime warranty"],
-   "cons": ["The extra rating doesn't raise the Outback's 2,700 or 3,500 lb limit", "Listed for the Outback wagon only, not the Legacy", "Wiring sold separately"],
+   "cons": ["The extra rating doesn't raise the Outback's limit: 2,700 lb (2.5-liter) or 3,500 lb (turbo XT and Wilderness)", "Listed for the Outback wagon only, not the Legacy", "Wiring sold separately"],
    "body": "The Draw-Tite 76597 is the strongest hitch on this page on paper. Draw-Tite rates it for 4,500 lb gross trailer weight and 675 lb tongue weight, and it is one of the few Outback hitches listed as weight-distribution compatible. That rating does not let the car tow more. Bolted to a 2.5-liter Outback, it is still limited to Subaru's 2,700 lb and 270 lb, and on a turbo XT or Wilderness to 3,500 lb and 350 lb. What you get is margin: the hitch is working well inside its own limits, which matters with heavy hitch-mounted cargo carriers and bumpy trailheads.\n\nDraw-Tite lists it for the 2020–2026 Outback wagon, bolt-on to the vehicle frame with no drilling, and gives an install time of 60 minutes. The body is concealed. It weighs 32 lb and is finished in black powder coat over e-coat, which is the better corrosion treatment for cars in salt states. It carries a limited lifetime warranty and is tested to V-5 and SAE J684 standards. It is not listed for the Legacy, so sedan owners should look at the CURT picks instead. As with every aftermarket hitch here, add a plug-in 4-flat harness to the order if you plan to tow.",
    "who": "XT and Wilderness owners who tow near the limit or run a heavy cargo carrier and want the most hitch margin.",
    "specs": [["Class", "III"], ["Part #", "Draw-Tite 76597"], ["Receiver", "2 in square"], ["Ratings", "4,500 lb GTW / 675 lb TW (WD same)"], ["Fits", "2020–2026 Outback wagon (per Draw-Tite)"], ["Weight", "32 lb"], ["Install", "About 60 min, bolt-on, no drilling"], ["Finish", "Black powder coat over e-coat"], ["Warranty", "Limited lifetime"]]},
@@ -123,7 +124,7 @@ ARTICLE = {
   {"asin": "B0FWC1VHNS", "role": "Best budget", "price": "$130–$190",
    "pros": ["Lowest price on this page", "2 in Class 3 receiver", "Listing names both 2020–2026 Outback and 2020–2025 Legacy", "Fine for bike racks and light cargo carriers", "Bolt-on design per listing"],
    "cons": ["No maker spec page to check ratings, weight or coating against", "Warranty terms thinner than CURT or Draw-Tite", "Wilderness fit not spelled out"],
-   "body": "If the hitch will mostly carry a bike rack or a small cargo tray, a budget Class 3 like this TUZILLA saves roughly $70–$150 against the name brands. The listing names the 2020–2026 Outback (all) and the 2020–2025 Legacy and calls it a 2 in Class 3. What you give up is documentation. CURT and Draw-Tite publish GTW, tongue weight, product weight, finish and install time on their own sites, and budget brands generally don't publish a full spec sheet outside the listing.\n\nThat matters less than it sounds if you stay inside the Outback's own limits, since the vehicle rating of 2,700 or 3,500 lb is the ceiling either way. Before you buy, confirm on the listing the published tongue weight, the coating (you want powder coat over e-coat for winter roads), whether the hardware is included, and whether the Wilderness is covered. If you plan to tow a trailer near the limit every weekend, spend the extra on the CURT 13494 or Draw-Tite 76597 instead. The WOLFSTORM and AUTOFREE hitches listed for the same years are similar budget alternatives, with the same caveats.",
+   "body": "If the hitch will mostly carry a bike rack or a small cargo tray, a budget Class 3 like this TUZILLA saves roughly $70–$150 against the name brands. The listing names the 2020–2026 Outback (all) and the 2020–2025 Legacy and calls it a 2 in Class 3. What you give up is documentation. CURT and Draw-Tite publish GTW, tongue weight, product weight, finish and install time on their own sites, and budget brands generally don't publish a full spec sheet outside the listing.\n\nThat matters less than it sounds if you stay inside the Outback's own limits, since the vehicle rating, 2,700 lb on the 2.5-liter or 3,500 lb on the turbo XT and Wilderness, is the ceiling either way. Before you buy, confirm on the listing the published tongue weight, the coating (you want powder coat over e-coat for winter roads), whether the hardware is included, and whether the Wilderness is covered. If you plan to tow a trailer near the limit every weekend, spend the extra on the CURT 13494 or Draw-Tite 76597 instead. The WOLFSTORM and AUTOFREE hitches listed for the same years are similar budget alternatives, with the same caveats.",
    "who": "Owners who mainly need a 2 in receiver for a bike rack or cargo tray and want to spend under $200.",
    "specs": [["Class", "3 (per listing)"], ["Receiver", "2 in"], ["Fits", "2020–2026 Outback, 2020–2025 Legacy (per listing)"], ["Ratings", "Confirm on listing; vehicle limit still applies"], ["Finish", "Confirm on listing"], ["Price band", "$130–$190"]]},
  ],
@@ -151,6 +152,9 @@ ARTICLE = {
   ["Draw-Tite 76597 Class III hitch (Draw-Tite)", "https://www.draw-tite.com/product/76597_class-3-trailer-hitch"],
   ["Subaru L101SAN000 trailer hitch (Subaru Parts Pros)", "https://www.subarupartspros.com/sku/l101san000.html"],
   ["Subaru L101SAN000 trailer hitch (Subaru parts catalog)", "https://parts.subaru.com/p/Subaru__Outback/Trailer-Hitch/78905090/L101SAN000.html"],
+  ["2022 Outback trim comparison: engine and towing capacity by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2022/OBK"],
+  ["2023 Outback trim comparison: engine and towing capacity by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2023/OBK"],
+  ["2025 Outback trim comparison: engine and towing capacity by trim (Subaru)", "https://www.subaru.com/services/vehicles/pdf/trimComparison/2025/OBK"],
   ["Subaru Outback, sixth generation (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Outback"],
   ["Subaru Legacy, seventh generation (Wikipedia)", "https://en.wikipedia.org/wiki/Subaru_Legacy_(seventh_generation)"],
   ["How much can my Subaru tow? (Wilsonville Subaru)", "https://www.wilsonvillesubaru.com/how-much-can-my-subaru-tow/"],

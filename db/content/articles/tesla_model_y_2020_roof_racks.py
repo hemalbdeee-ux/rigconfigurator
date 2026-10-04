@@ -2,6 +2,7 @@
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: specs come from the
 Tesla Shop, TESEVO, Tesstudio, EVBASE and etrailer pages listed in sources (checked 2026-09-24).
 Roof type replaces bed length: the Model Y has a glass roof with four hidden fixed mounting points.
+Source fixes 2026-10-04: replaced the unsupported claim that the LBNL study found empty racks "the biggest single factor in wasted fuel nationally" with what its abstract says (FAQ, avoid); TESEVO's 4.1 in is its "Overall Height" and its page does not say whether that includes the towers, so the text now says to check the bar profile against the box maker's clamp limit; dated the Model Y Standard (October 2025) and Model Y L (US launch July 2026) per Wikipedia; hitch-carrier mentions now carry Tesla's manual wording on accessory carriers and the tow package.
 """
 
 KEY = ("tesla", "model-y", "2020-present", "roof-racks")
@@ -30,7 +31,7 @@ FAQ = [
  ("Is the roof rack noisy on a Model Y?",
   "The Model Y cabin is quiet, so bar noise is easier to hear than on a gas SUV. Tesla says its rack was designed for minimal interior noise. Aftermarket makers make the same claim: the listings for the RuiHui and 'quiet aero' sets, and TESEVO's own page, all describe low-noise profiles. Bars mounted backward or with missing rubber strips in the T-slot whistle, so check both after install."),
  ("Should I remove the rack when I'm not using it?",
-  "If you drive a lot of highway miles, yes. The LBNL roof-rack study found that empty racks left on cars were the biggest single factor in wasted fuel nationally. On an EV that shows up as range. Fixed-point bars come off in a few minutes with the included tool, so take them off between trips and keep them in the frunk or garage."),
+  "If you drive a lot of highway miles, yes. A Lawrence Berkeley National Laboratory study estimated that roof racks accounted for about 100 million gallons of gasoline a year across US light-duty vehicles in 2015, and found that estimate most sensitive to the share of vehicles driving with racks installed but empty. Its authors say policies that cut extensive driving with empty racks could save more fuel nationally than better rack aerodynamics. The study counts gasoline, not EV range, but drag costs an EV energy too. Fixed-point bars come off in a few minutes with the included tool, so take them off between trips and keep them in the frunk or garage."),
 ]
 
 ARTICLE = {
@@ -58,8 +59,8 @@ ARTICLE = {
   "rows": [
    ["Original Model Y", "2020 to early 2025", "Glass roof, 4 fixed points under trim", "Tesla rack fits; aftermarket sets listed 2020–2024 or 2020–2025. Confirm early-2025 build."],
    ["Juniper refresh (Long Range, Performance)", "Early 2025 onward", "Glass roof, 4 fixed points", "Buy a listing that names Juniper; Tesstudio and EVBASE use separate parts."],
-   ["Model Y Standard", "Late 2025 onward", "Check your car", "TESEVO excludes it; EVBASE lists a separate part. Ask the seller."],
-   ["Model Y L (6-seat)", "2026 onward", "Longer body", "Tesla excludes it from its rack; no confirmed fit here."],
+   ["Model Y Standard", "October 2025 onward (Wikipedia)", "Check your car", "TESEVO excludes it; EVBASE lists a separate part. Ask the seller."],
+   ["Model Y L (6-seat)", "US launch July 2026 (Wikipedia)", "Longer body", "Tesla excludes it from its rack; no confirmed fit here."],
   ],
  },
  "look_for": [
@@ -92,7 +93,7 @@ ARTICLE = {
    ["Tesla OEM rack", "$500 (Tesla Shop)", "165 lb", "Tesla claims minimal", "Owners who want the factory fit"],
    ["Aftermarket fixed-point bars", "About $150–$270", "165 lb (75 kg) listed", "Similar to OEM when empty", "Budget, or when the OEM rack is out of stock"],
    ["Bars + cargo box", "Bars + box", "Box weight counts toward 165 lb", "10–25% at 65–75 mph (fueleconomy.gov)", "Road trips with bulky gear"],
-   ["Hitch carrier (instead of roof)", "Separate hitch category", "160 lb vertical limit (Tesla manual)", "1–5% on the highway (fueleconomy.gov)", "Bikes and range-conscious trips"],
+   ["Hitch carrier (instead of roof)", "Separate hitch category", "160 lb on Tesla's tow package receiver; the manual says no carrier without that package", "1–5% on the highway (fueleconomy.gov)", "Bikes and range-conscious trips"],
   ],
  },
  "picks": [
@@ -111,7 +112,7 @@ ARTICLE = {
   {"asin": "B0BZPF68LD", "role": "Best-documented aftermarket", "price": "$269",
    "pros": ["Maker publishes weight (12.4 lb) and bar lengths", "75 kg / 165 lb rating, accessories included", "Integrated tower locks with keys", "Tool-free design, wrench and protective films included", "Maker sells separate Juniper and 2020–2024 versions"],
    "cons": ["Amazon title names only the 2020–2023 Model Y", "Excludes Model Y Standard and Model Y L", "30-day return window only"],
-   "body": "TESEVO publishes more than most aftermarket brands, which is why it earns a spot. On its own store, the lockable aluminum rack is rated for 75 kg (165 lb) including mounted accessories. The set weighs 5.6 kg (12.4 lb). The front bar is 53.1 in and the rear bar 48.6 in, each 3.3 in wide and 4.1 in tall. The towers have integrated locks with a key set, and the kit ships with a wrench, protective films and hardware, with no drilling. TESEVO lists it at $269, marked down from $359.\n\nFitment needs care. TESEVO's store sells versions for the 2020–2024 Model Y and the Juniper 2025+, and excludes the Standard and the Model Y L. The Amazon listing linked here names the 2020–2023 Model Y, so treat it as a pre-refresh rack. If you own a 2024 or a Juniper, buy the version that names your car. TESEVO also gives a 30-day return window. With the published 12.4 lb weight you can do the load math properly: 165 lb minus the bars leaves about 152 lb for the carrier and cargo, which is more certainty than most listings give you.",
+   "body": "TESEVO publishes more than most aftermarket brands, which is why it earns a spot. On its own store, the lockable aluminum rack is rated for 75 kg (165 lb) including mounted accessories. The set weighs 5.6 kg (12.4 lb). The front bar is 53.1 in and the rear bar 48.6 in, with a crossbar width of 3.3 in. TESEVO also lists an 'Overall Height' of 4.1 in, and its page does not say whether that is the bar alone or includes the towers, so check the bar profile against your box maker's clamp limit. etrailer's GrandTour answer, for example, allows bars up to 1-11/16 in tall. The towers have integrated locks with a key set, and the kit ships with a wrench, protective films and hardware, with no drilling. TESEVO lists it at $269, marked down from $359.\n\nFitment needs care. TESEVO's store sells versions for the 2020–2024 Model Y and the Juniper 2025+, and excludes the Standard and the Model Y L. The Amazon listing linked here names the 2020–2023 Model Y, so treat it as a pre-refresh rack. If you own a 2024 or a Juniper, buy the version that names your car. TESEVO also gives a 30-day return window. With the published 12.4 lb weight you can do the load math properly: 165 lb minus the bars leaves about 152 lb for the carrier and cargo, which is more certainty than most listings give you.",
    "who": "Owners of a 2020–2024 Model Y who want published weights and dimensions before they buy.",
    "specs": [["Type", "Fixed-point crossbars"], ["Fits", "2020–2023 Model Y (Amazon title); maker sells Juniper version separately"], ["Load rating", "75 kg / 165 lb incl. accessories"], ["Weight", "5.6 kg / 12.4 lb"], ["Bar length", "53.1 in front, 48.6 in rear"], ["Lock", "Integrated tower locks"], ["Install", "Tool-free design, no drilling"], ["Returns", "30 days"]]},
   {"asin": "B09VJZ3JWH", "role": "Best value lockable (2020–2024 body)", "price": "$150–$220",
@@ -139,11 +140,11 @@ ARTICLE = {
   {"h": "A 2020–2024 rack on a Juniper", "body": "Makers that publish fitment sell separate Juniper parts. A listing that stops at 2024, or says 2025 without naming Juniper, is for the original body."},
   {"h": "Universal clamp or rail towers", "body": "The Model Y has neither rails nor gutters. Racks for those roof types can't use the fixed points and may press on the glass."},
   {"h": "Ignoring the weight of the carrier", "body": "165 lb covers bars, box and cargo together. A heavy box plus the bars can use half the rating before you pack anything."},
-  {"h": "Leaving bars on all year", "body": "The LBNL study found empty racks were the biggest single factor in wasted fuel. On an EV that is range, so take the bars off between trips."},
+  {"h": "Leaving bars on all year", "body": "The LBNL study, which counts gasoline use, found its national estimate most sensitive to the share of vehicles driving with empty racks, and says policies that cut that driving could save more fuel nationally than better rack aerodynamics. Drag costs an EV energy too, so take the bars off between trips."},
  ],
  "verdict": {
   "thesis": "Buy Tesla's $500 rack if you can get one; otherwise match the listing to your body — RuiHui for a Juniper, TESEVO or AUXPACBO for a 2020–2024 car — and keep everything inside 165 lb.",
-  "body": "On the Model Y, the rack choice comes down to the body. Tesla's rack is the only one whose maker covers every Model Y except the L, with integrated locks and a 165 lb rating. For a Juniper, the RuiHui set is the best-documented listing that names the refresh and includes locks. For a 2020–2024 car, TESEVO publishes the most detail and AUXPACBO is the cheaper lockable option. Whatever you buy, the 165 lb limit covers the bars and the carrier, and a box on the roof costs real range at highway speed.\n\nIf you carry bikes more than luggage, a trailer hitch with a hitch-mounted carrier costs less range than anything on the roof. A cargo box turns the bars into a road-trip setup, and all-weather floor mats protect the cabin. The vehicle hub lists every fit-checked accessory for the Model Y.",
+  "body": "On the Model Y, the rack choice comes down to the body. Tesla's rack is the only one whose maker covers every Model Y except the L, with integrated locks and a 165 lb rating. For a Juniper, the RuiHui set is the best-documented listing that names the refresh and includes locks. For a 2020–2024 car, TESEVO publishes the most detail and AUXPACBO is the cheaper lockable option. Whatever you buy, the 165 lb limit covers the bars and the carrier, and a box on the roof costs real range at highway speed.\n\nIf you carry bikes more than luggage, a trailer hitch with a hitch-mounted carrier costs less range than anything on the roof. Tesla's owner's manual says not to install an accessory carrier on a Model Y that is not equipped with the tow package, so read the hitch guide before you buy a receiver. A cargo box turns the bars into a road-trip setup, and all-weather floor mats protect the cabin. The vehicle hub lists every fit-checked accessory for the Model Y.",
  },
  "sources": [
   ["Tesla Model Y Roof Rack (Tesla Shop)", "https://shop.tesla.com/product/model-y-roof-rack"],
@@ -155,6 +156,8 @@ ARTICLE = {
   ["Yakima carrier fit on Tesla factory bars (etrailer expert answers)", "https://www.etrailer.com/answers.aspx?AnswerMake=Tesla&Manufacturer=Yakima&Filter=fit"],
   ["Cargo box and rear carrier fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
   ["Fuel consumption impacts of auto roof racks (Lawrence Berkeley National Laboratory)", "https://eta.lbl.gov/publications/fuel-consumption-impacts-auto-roof"],
+  ["Model Y Owner's Manual: Towing and Accessories (Tesla)", "https://www.tesla.com/ownersmanual/modely/en_us/GUID-F5C80FF5-8DE3-4750-8BAF-0DCC0CFA0C5C.html"],
+  ["Tesla Model Y: Model Y Standard and Model Y L dates (Wikipedia)", "https://en.wikipedia.org/wiki/Tesla_Model_Y"],
  ],
 }
 

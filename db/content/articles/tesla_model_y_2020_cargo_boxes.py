@@ -4,6 +4,7 @@ Thule, Rhino-Rack and SportRack product pages and etrailer (INNO) listed in sour
 db/migrations/003_vehicles.sql, the Tesla Shop, the Model Y owner's manual and the Model Y roof-rack page's
 references (checked 2026-09-27). Boxes are universal; the Model Y-specific part is the glass roof with fixed points,
 the 165 lb rating, the ~35.5 in factory spread, power liftgate clearance and range.
+Source fixes 2026-10-04: removed the unsourced claim that the 7-seat Model Y "has the same roof as the 5-seat" (now: Tesla's rack listing excludes only the Model Y L, we could not confirm a seven-seat roof fit, and Wikipedia says the US seven-seat option ended at the 2025 refresh); dated the Model Y Standard (October 2025) and Model Y L (US launch July 2026) per Wikipedia; the hitch-carrier FAQ now carries Tesla's manual wording on accessory carriers and the tow package.
 """
 
 KEY = ("tesla", "model-y", "2020-present", "cargo-boxes")
@@ -24,13 +25,13 @@ FAQ = [
  ("How much range does a roof box cost on a Model Y?",
   "Tesla doesn't publish a figure for a box. The best public data is from fueleconomy.gov, which says a large, blunt rooftop cargo box can reduce fuel economy by around 2–8% in city driving, 6–17% on the highway and 10–25% at 65–75 mph, while rear-mounted cargo boxes cost 1–5% on the highway. An EV loses energy to drag the same way, so plan road-trip charging around the high end and take the box off between trips."),
  ("Is a hitch cargo carrier better than a roof box on a Model Y?",
-  "For range, usually yes. A Model Y with the Tow Package has a 2 in receiver, per our vehicle data, and fueleconomy.gov puts rear-mounted carriers at 1–5% worse on the highway against 6–17% for a rooftop box. The trade-offs are that a hitch carrier blocks or loads the liftgate unless it swings or tilts, and it isn't sealed unless you buy a hitch box. For skis and soft luggage on long trips, the roof box still wins on convenience."),
+  "For range, usually yes, but read Tesla's manual first. It says not to install an accessory carrier on a Model Y that is not equipped with the tow package, and that the tow package receiver is designed for vertical loads up to 160 lb. A Model Y with the Tow Package has a 2 in receiver, per our vehicle data, and fueleconomy.gov puts rear-mounted carriers at 1–5% worse on the highway against 6–17% for a rooftop box. The trade-offs are that a hitch carrier blocks or loads the liftgate unless it swings or tilts, and it isn't sealed unless you buy a hitch box. For skis and soft luggage on long trips, the roof box still wins on convenience."),
  ("Does the 2025 Juniper change which cargo box fits?",
   "The box doesn't care, because it clamps to crossbars. What changes is the bars. Tesstudio and EVBASE sell separate racks for the 2020–2024 Model Y and the Juniper, while Tesla says its own rack fits every Model Y except the Model Y L. Buy bars for your body, measure the new spread, and check it against the box's range before mounting."),
  ("Will Thule and Yakima box clamps fit Tesla's Model Y crossbars?",
   "Usually, within limits. Tesla's bars are aluminum T-slot bars, and Tesla says the slots take cargo boxes. etrailer confirms the Yakima GrandTour 16 and 18 fit Model Y bars no wider than 3-1/2 in and no taller than 1-11/16 in. For other boxes, measure your bar and compare it with the clamp's range; aftermarket bars vary in profile."),
  ("Can I put a cargo box on a Model Y with a 7-seat or Model Y L?",
-  "The 7-seat Model Y has the same roof as the 5-seat, so the same bars and boxes apply. The Model Y L is different: Tesla excludes it from its Model Y rack, and we found no confirmed rack for it on our roof rack page. Until a rack listed for the Model Y L exists, there is no safe base for a box on that car."),
+  "Wikipedia says the US seven-seat option ended at the 2025 refresh, so a seven-seat car is a pre-refresh Model Y. Tesla says its rack fits all Model Y vehicles except the Model Y L, which leaves the seven-seat car included. We could not confirm from a maker's page that the seven-seat roof matches the five-seat, so check the bar listing for your car. The Model Y L, the six-seat version that Wikipedia says launched in the US in July 2026, is different: Tesla excludes it from its Model Y rack, and we found no confirmed rack for it on our roof rack page. Until a rack listed for the Model Y L exists, there is no safe base for a box on that car."),
  ("Will a roof box make the Model Y too tall for my garage?",
   "Measure the garage door opening and add the height of the bars and box. The INNO Wedge 660 is only 11 in tall, the Yakima CBX 16 15 in, the Thule Pulse 2 M 16.6 in, the SportRack Horizon 2 L 16 in, the DeepSpace 10 16 in, the Rhino-Rack MasterFit 440 17 in and the GrandTour 16 18 in. Also set the liftgate height for the garage ceiling, since Tesla warns that it opens up to about 7.5 ft."),
 ]
@@ -58,10 +59,10 @@ ARTICLE = {
   "caption": "Model Y roof setups (what you need before any box goes on)",
   "head": ["Body", "Build", "Crossbars", "Box notes"],
   "rows": [
-   ["Original Model Y (5- or 7-seat)", "2020 to early 2025", "Tesla rack, or aftermarket bars listed 2020–2024", "Factory spread about 35.5 in (etrailer Q&A); 165 lb limit"],
+   ["Original Model Y (5- or 7-seat)", "2020 to early 2025", "Tesla rack, or aftermarket bars listed 2020–2024 (confirm 7-seat fit on aftermarket bars)", "Factory spread about 35.5 in (etrailer Q&A); 165 lb limit"],
    ["Juniper refresh", "Early 2025 onward", "Tesla rack, or bars that name Juniper", "Same boxes; measure the spread on your bars"],
-   ["Model Y Standard", "Late 2025 onward", "Check the bar listing; some makers list separate parts", "Confirm bars before choosing a box"],
-   ["Model Y L (6-seat)", "2026 onward", "Excluded from Tesla's rack; no confirmed rack", "No box until a rack is listed"],
+   ["Model Y Standard", "October 2025 onward (Wikipedia)", "Check the bar listing; some makers list separate parts", "Confirm bars before choosing a box"],
+   ["Model Y L (6-seat)", "US launch July 2026 (Wikipedia)", "Excluded from Tesla's rack; no confirmed rack", "No box until a rack is listed"],
   ],
  },
  "look_for": [
@@ -179,6 +180,8 @@ ARTICLE = {
   ["SportRack Horizon 2 (SportRack)", "https://www.sportrack.com/product/horizon2/"],
   ["Tesstudio roof rack variants, Model Y and Juniper (Tesstudio)", "https://www.tesstudio.com/products/tesstudio-roof-rack-for-tesla-model-3-highland-model-y-model-y-juniper-set-of-2"],
   ["Cargo box and rear carrier fuel economy impact (fueleconomy.gov)", "https://www.fueleconomy.gov/feg/driveHabits.jsp"],
+  ["Model Y Owner's Manual: Towing and Accessories (Tesla)", "https://www.tesla.com/ownersmanual/modely/en_us/GUID-F5C80FF5-8DE3-4750-8BAF-0DCC0CFA0C5C.html"],
+  ["Tesla Model Y: seven-seat option, Model Y Standard and Model Y L dates (Wikipedia)", "https://en.wikipedia.org/wiki/Tesla_Model_Y"],
  ],
 }
 

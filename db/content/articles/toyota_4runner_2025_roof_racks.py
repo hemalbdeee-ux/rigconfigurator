@@ -1,6 +1,7 @@
-"""Long-form article — Best Roof Racks for 2025–2026 Toyota 4Runner (6th gen, N410).
+"""Long-form article — Best Roof Racks for 2025–2026 Toyota 4Runner (6th gen, N500).
 Mirrors the approved pilot (ford_f150_2021_tonneau.py). No invented hands-on testing: every spec below comes
 from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+Source fixes 2026-10-04: model code N410 changed to N500 (Wikipedia); the 165 lb dynamic / 770 lb static roof figure is now attributed to GearJunkie's first-drive review, marked as not confirmed from Toyota, with one owner's 125 lb factory-crossbar figure noted and the owner's manual named as the authority; rail style by grade reworded to what Toyota's launch release confirms (Trailhunter ARB roof rack) and look at the roof otherwise; crossbar price band in the prose aligned to the picks ($100 to $170).
 """
 
 KEY = ("toyota", "4runner", "2025-present", "roof-racks")
@@ -11,11 +12,11 @@ META = ("Five roof racks for the 6th-gen 4Runner, from $100 rail crossbars to Ro
 
 FAQ = [
  ("What is the best roof rack for a 2025–2026 4Runner?",
-  "For most owners, the Rough Country 88205. It is built for the 6th-gen roof, lists 300 lb dynamic and 600 lb static ratings, gives you a 40 x 56 in aluminum deck with adjustable T-slot crossbars, and costs $699.95 at Rough Country. If you want a full-length deck and a lifetime warranty, the Sherpa Capitol is the premium pick. If you only carry bikes, skis or a cargo box, crossbars on the factory rails cost about $100–$150."),
+  "For most owners, the Rough Country 88205. It is built for the 6th-gen roof, lists 300 lb dynamic and 600 lb static ratings, gives you a 40 x 56 in aluminum deck with adjustable T-slot crossbars, and costs $699.95 at Rough Country. If you want a full-length deck and a lifetime warranty, the Sherpa Capitol is the premium pick. If you only carry bikes, skis or a cargo box, crossbars on the factory rails cost about $100–$170."),
  ("Do 2010–2024 4Runner roof racks fit the 2025–2026 4Runner?",
   "No. The sixth-generation 4Runner is built on a new platform with a new roof and new rail geometry, so 5th-gen racks and crossbars do not carry over. The makers sell separate parts: Rough Country's 5th-gen platform is 88201 and the 6th-gen version is 88205, and Front Runner's Slimsport is KSTF003T for the old truck and KSTF004T for the new one. If you're buying used, check the part number against your model year before you pay."),
  ("How much weight can the 6th-gen 4Runner roof carry?",
-  "Use the figure in your owner's manual. Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static for the 2025 4Runner. Dynamic is the limit while driving, and the rack's own weight counts against it, so a 50 lb platform leaves roughly 115 lb for cargo under that figure. A rack's own rating, such as Rough Country's 300 lb dynamic, doesn't raise the vehicle's limit. The lower number is the one that applies on the road."),
+  "Use the figure in your owner's manual, which is the authority. We could not confirm a roof limit from a Toyota document. The working figure on this page is 165 lb dynamic and 770 lb static, which GearJunkie's first-drive review reports for the 2025 4Runner and owners on 4Runner6G.com quote. In another thread there, one owner cites 125 lb dynamic for the factory crossbars. Dynamic is the limit while driving, and the rack's own weight counts against it, so a 50 lb platform leaves roughly 115 lb for cargo under the 165 lb figure. A rack's own rating, such as Rough Country's 300 lb dynamic, doesn't raise the vehicle's limit. The lower number is the one that applies on the road."),
  ("Is the Trailhunter roof rack sold separately?",
   "Yes. Toyota sells the ARB-built platform as a genuine accessory, part PT989-89251, listed for the 2025 4Runner including the hybrid. Owners on 4Runner6G.com say it's the same rack the Trailhunter wears, without the Trailhunter badge, and that installing it means removing the factory roof rails first. One owner reported a DIY total of $1,223 with tax. Toyota's parts site marks it as in-store pickup only, so it's usually bought through a dealer."),
  ("Can I put crossbars on the factory side rails?",
@@ -25,11 +26,11 @@ FAQ = [
  ("Will a platform rack work with the 4Runner's moonroof?",
   "Usually yes, because platforms sit above the roof on feet and don't touch the glass. An owner who installed the Toyota/ARB rack on 4Runner6G.com reported no interference with the factory moonroof. The other makers here don't mention the moonroof on their product pages, so if yours has one, ask the seller whether any bracket or crossbar sits over the opening before you order."),
  ("Can the 2025–2026 4Runner carry a rooftop tent?",
-  "Yes, but plan the weights first. Add the tent and the rack together and compare the total with your manual's dynamic roof limit; owners cite 165 lb, which rules out many heavy hard-shell tents. Once parked, the static limit covers the tent plus the people in it, and owners cite 770 lb. Choose a rack with a published static rating, such as Rough Country (600 lb) or Sherpa (700 lb), and check the tent maker's crossbar spacing."),
+  "Yes, but plan the weights first. Add the tent and the rack together and compare the total with your manual's dynamic roof limit; GearJunkie reports 165 lb, which would rule out many heavy hard-shell tents. Once parked, the static limit covers the tent plus the people in it, and GearJunkie reports 770 lb. We could not confirm either figure from Toyota. Choose a rack with a published static rating, such as Rough Country (600 lb) or Sherpa (700 lb), and check the tent maker's crossbar spacing."),
  ("What about Front Runner racks for the 6th-gen 4Runner?",
   "Front Runner (now sold under Dometic) makes the KSTF004T Slimsport at $1,049, with an 88 x 48 in load area, a full fairing trimmed in rubber and a 5-year warranty, plus a light-bar-ready KSTF005T. It also sells the Slimline II in full-length (KRTF059T) and 3/4 (KRTF060T, $1,299) kits, all no-drill on the factory mounting points. We didn't find Amazon listings titled for the 6th gen, so buy from Dometic or a Front Runner dealer and check the part number."),
  ("Is a platform rack worth it over crossbars on the new 4Runner?",
-  "Only if you carry flat or bulky gear often: recovery boards, cases, fuel cans, a tent or a light bar. A platform gives you a flat deck with T-slots for all of that. For bikes, skis, a kayak or a cargo box, crossbars at $100–$150 do the same job, weigh far less and leave more of the roof limit for cargo. Many owners start with bars and add a platform later."),
+  "Only if you carry flat or bulky gear often: recovery boards, cases, fuel cans, a tent or a light bar. A platform gives you a flat deck with T-slots for all of that. For bikes, skis, a kayak or a cargo box, crossbars at $100–$170 do the same job, weigh far less and leave more of the roof limit for cargo. Many owners start with bars and add a platform later."),
 ]
 
 ARTICLE = {
@@ -39,10 +40,10 @@ ARTICLE = {
  "method": "We did not install these racks ourselves. We ranked them on published specs (load rating, deck size, weight, fairing, warranty), on the fitment each maker or seller lists for the 2025–2026 4Runner, and on what owners report on the 4Runner6G.com forum. Prices were checked at the manufacturer or a specialist retailer in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**5th-gen racks don't fit.** The 2025 4Runner has a new roof and rail geometry. Rough Country (88201 vs 88205) and Front Runner (KSTF003T vs KSTF004T) sell separate parts for each generation.",
-  "**The roof limit is lower than any rack rating.** Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static. The rack's weight counts against the dynamic figure while driving.",
+  "**The roof limit is lower than any rack rating.** GearJunkie's first-drive review reports 165 lb dynamic and 770 lb static. We could not confirm either from Toyota, so your owner's manual is the authority. The rack's weight counts against the dynamic figure while driving.",
   "**Platforms bolt to the factory mounting points.** No drilling on any platform here, but some, like the Toyota/ARB rack, replace the factory rails.",
-  "**Trailhunter owners already have a platform.** Toyota sells the same ARB-built rack as PT989-89251 for other trims.",
-  "**Crossbars are enough for bikes, skis and a cargo box.** Two bars on the factory rails cost about $100–$150 and weigh a fraction of a platform.",
+  "**Trailhunter owners already have a platform.** Toyota's launch release lists an ARB roof rack on the Trailhunter, and Toyota sells the same ARB-built rack as PT989-89251 for other trims. We could not confirm rail style for the other grades, so look at your roof.",
+  "**Crossbars are enough for bikes, skis and a cargo box.** Two bars on the factory rails cost about $100–$170 and weigh a fraction of a platform.",
  ],
  "top_picks": [
   {"asin": "B0G59NJ2N9", "role": "Best overall", "why": "Built for the 6th gen, 300 lb dynamic / 600 lb static, adjustable T-slot crossbars, $699.95"},
@@ -55,8 +56,8 @@ ARTICLE = {
   "caption": "2025–2026 4Runner roof setups (match the rack to the roof you have, not the trim name)",
   "head": ["Roof as delivered", "Typical trucks", "What fits", "Notes"],
   "rows": [
-   ["Factory raised side rails", "Most trims", "Clamp-on crossbars, or a platform on the factory mounting points", "Bars must be listed for 2025–2026; 5th-gen clamps don't match."],
-   ["Factory ARB platform", "Trailhunter", "Use it as-is, or swap for another platform", "Rail-clamp crossbars have nothing to grip."],
+   ["Factory raised side rails", "Not confirmed by grade, TRD Pro included; look at your roof", "Clamp-on crossbars, or a platform on the factory mounting points", "Bars must be listed for 2025–2026; 5th-gen clamps don't match."],
+   ["Factory ARB platform", "Trailhunter (ARB roof rack per Toyota)", "Use it as-is, or swap for another platform", "Rail-clamp crossbars have nothing to grip."],
    ["Rails removed / bare mounting points", "Trucks set up for a platform", "Rough Country 88205, Sherpa Capitol, Toyota PT989-89251, Front Runner", "Keep the rail hardware in case you go back to stock."],
    ["Any roof, rooftop tent planned", "Any trim", "A platform with a published static rating", "Rack plus tent must stay under the manual's dynamic limit while driving."],
   ],
@@ -65,7 +66,7 @@ ARTICLE = {
   {"h": "Generation first — 2010–2024 parts won't fit",
    "body": "The sixth-generation 4Runner moved to Toyota's TNGA-F platform for 2025, and the roof changed with it. That's why every maker on this page sells a separate part. Rough Country's 5th-gen platform is 88201 while the 6th-gen one is 88205; Front Runner's Slimsport is KSTF003T for the old truck and KSTF004T for the new one. Used racks are plentiful because the 5th gen ran for 15 years, and many sellers list them as simply \"4Runner roof rack.\" Check the part number against the maker's fitment before you pay, and on Amazon look for 2025 or 2026 in the listing title."},
   {"h": "The vehicle's dynamic roof limit",
-   "body": "Every rack has its own rating, but the roof's limit is lower and it's the one that counts on the road. Owners on 4Runner6G.com cite 165 lb dynamic and 770 lb static for the 2025 4Runner; confirm those numbers in your own manual. The rack's own weight comes out of the dynamic figure. Sherpa quotes about 50 lb for the Capitol, which leaves roughly 115 lb for cargo while driving. Rough Country doesn't publish the 88205's weight, so ask before you do the math. The static number matters only when parked, such as with a rooftop tent."},
+   "body": "Every rack has its own rating, but the roof's limit is lower and it's the one that counts on the road. GearJunkie's first-drive review reports 165 lb dynamic and 770 lb static for the 2025 4Runner, and owners on 4Runner6G.com quote it. We could not confirm either number from a Toyota document, and one owner cites 125 lb for the factory crossbars, so your owner's manual is the authority. The rack's own weight comes out of the dynamic figure. Sherpa quotes about 50 lb for the Capitol, which leaves roughly 115 lb for cargo while driving. Rough Country doesn't publish the 88205's weight, so ask before you do the math. The static number matters only when parked, such as with a rooftop tent."},
   {"h": "Full-length, three-quarter or short deck",
    "body": "The 6th-gen racks here come in very different lengths. Rough Country's 88205 is 40 x 56 in, a short deck that leaves much of the roof clear. Toyota's ARB-built rack is listed at 71 x 55 in on Amazon. Sherpa's Capitol is full length at 95 x 48.5 in, and Front Runner's Slimsport load area is 88 x 48 in. A short deck weighs less and keeps the rear of the roof free; a long one fits a tent plus gear, or long items like a canoe. Measure your largest load before you choose."},
   {"h": "Fairings and wind noise",
@@ -88,7 +89,7 @@ ARTICLE = {
   "caption": "Roof rack types compared on the 2025–2026 4Runner",
   "head": ["Type", "Price on this page", "Mounts to", "Rack weight", "Best for"],
   "rows": [
-   ["Clamp-on crossbars", "~$100–$150", "Factory raised rails", "Light", "Bikes, skis, kayaks, a cargo box"],
+   ["Clamp-on crossbars", "~$100–$170", "Factory raised rails", "Light", "Bikes, skis, kayaks, a cargo box"],
    ["Short aluminum platform", "$699.95 (Rough Country)", "Roof mounting points", "Not published", "Recovery boards, cases, a light tent"],
    ["Factory-style platform", "~$1,200–$1,600 (Toyota/ARB)", "Factory rail points (rails removed)", "Not published", "A factory look, Trailhunter-matching setup"],
    ["Low-profile platform with fairing", "$1,049 (Front Runner Slimsport)", "Factory attachment points", "Not published", "Daily drivers that want less noise"],
@@ -105,7 +106,7 @@ ARTICLE = {
   {"asin": "B0FLWS68WN", "role": "Best premium platform", "price": "$1,559",
    "pros": ["Full-length 95 x 48.5 in deck, only 2.5 in tall", "About 50 lb, light for its size", "300 lb dynamic and 700 lb static ratings", "Drill-free, with OE-style rubber seals", "Made in Colorado with a lifetime warranty on defects"],
    "cons": ["$1,559 is the most expensive rack here", "Light-bar and non-light-bar versions are different builds", "Wind fairing is a separate item"],
-   "body": "Sherpa's Capitol is the rack to buy if you want the whole roof usable and don't mind paying for it. Sherpa lists it at $1,559 for the 2025–2026 4Runner. The deck is 95 in long, 48.5 in wide and 2.5 in tall, and it carries nine 48 in extruded crossbars. Sherpa quotes a weight of about 50 lb, 300 lb dynamic and 700 lb static. The low weight is the headline here: on a roof where owners cite a 165 lb dynamic limit, a light full-length rack leaves more capacity for gear than a heavier steel one.\n\nThe side plates are ¼ in aircraft-grade aluminum with integrated tie-down points, finished in black textured powder coat with black oxide stainless hardware. Installation is described as 100% drill-free to the factory locations using OE-style seals. You choose a half-height version for a single-row light bar or a full-height version without one, so decide on lighting before you order. The Amazon listing is titled for the 2025+ 4Runner 6th gen and also quotes a 700 lb capacity.",
+   "body": "Sherpa's Capitol is the rack to buy if you want the whole roof usable and don't mind paying for it. Sherpa lists it at $1,559 for the 2025–2026 4Runner. The deck is 95 in long, 48.5 in wide and 2.5 in tall, and it carries nine 48 in extruded crossbars. Sherpa quotes a weight of about 50 lb, 300 lb dynamic and 700 lb static. The low weight is the headline here: on a roof with a reported 165 lb dynamic limit, a light full-length rack leaves more capacity for gear than a heavier steel one.\n\nThe side plates are ¼ in aircraft-grade aluminum with integrated tie-down points, finished in black textured powder coat with black oxide stainless hardware. Installation is described as 100% drill-free to the factory locations using OE-style seals. You choose a half-height version for a single-row light bar or a full-height version without one, so decide on lighting before you order. The Amazon listing is titled for the 2025+ 4Runner 6th gen and also quotes a 700 lb capacity.",
    "who": "Owners who want a full-length deck for a tent and gear, a light rack, and a US-made product with a lifetime warranty.",
    "specs": [["Type", "Full-length platform"], ["Fits", "2025–2026 4Runner (6th gen)"], ["Deck size", "95 x 48.5 x 2.5 in"], ["Weight", "~50 lb"], ["Dynamic load", "300 lb"], ["Static load", "700 lb"], ["Crossbars", "9 x 48 in extrusions"], ["Material", "Aircraft-grade aluminum, stainless hardware"], ["Warranty", "Lifetime, manufacturing defects"]]},
   {"asin": "B0F5KDQG7K", "role": "Best factory-look platform", "price": "$1,200–$1,600",
@@ -143,7 +144,7 @@ ARTICLE = {
  ],
  "verdict": {
   "thesis": "Buy only racks made for 2025–2026. The Rough Country 88205 is the best all-round platform at $699.95, the Sherpa Capitol is the full-length premium choice, and crossbars on the factory rails are enough for bikes, skis and a cargo box.",
-  "body": "On the sixth-generation 4Runner, the roof's dynamic limit shapes everything. Owners cite 165 lb, so a rack's weight matters as much as its rating. The Rough Country gives you a short, well-rated aluminum deck at a fair price. The Sherpa Capitol covers the whole roof at about 50 lb, and the Toyota/ARB rack gives any trim the Trailhunter look with dealer support. If all you carry is bikes or skis, $100–$170 of crossbars does the job and leaves the most capacity for gear.\n\nIf your platform is really for storage, a cargo box on crossbars keeps gear dry and locked, and a trailer hitch with a cargo carrier moves weight off the roof entirely. Owners of the 2010–2024 4Runner should use our separate guide, because none of the racks above fit the older truck.",
+  "body": "On the sixth-generation 4Runner, the roof's dynamic limit shapes everything. GearJunkie reports 165 lb, which we could not confirm from Toyota, so a rack's weight matters as much as its rating. The Rough Country gives you a short, well-rated aluminum deck at a fair price. The Sherpa Capitol covers the whole roof at about 50 lb, and the Toyota/ARB rack gives any trim the Trailhunter look with dealer support. If all you carry is bikes or skis, $100–$170 of crossbars does the job and leaves the most capacity for gear.\n\nIf your platform is really for storage, a cargo box on crossbars keeps gear dry and locked, and a trailer hitch with a cargo carrier moves weight off the roof entirely. Owners of the 2010–2024 4Runner should use our separate guide, because none of the racks above fit the older truck.",
  },
  "sources": [
   ["Rough Country roof rack 88205, 2025–2026 4Runner", "https://www.roughcountry.com/product/toyota-4runner-roof-rack-88205"],
@@ -152,7 +153,10 @@ ARTICLE = {
   ["Toyota Roof Rack by ARB PT989-89251 (Toyota Auto Parts)", "https://autoparts.toyota.com/products/product/roof-rack-pt98989251"],
   ["Toyota PT989-89251 fitment (Sparks Toyota Parts)", "https://www.sparksparts.com/oem-parts/toyota-roof-rack-pt98989251"],
   ["ARB / Trailhunter roof rack install, PT989-89251 (4Runner6G.com)", "https://www.4runner6g.com/arb-trailhunter-roof-rack-install/"],
-  ["Trailhunter roof rack on another trim, roof load thread (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/installing-trailhunter-roof-rack-on-another-trim-same-weight-load-capacity.2248/"],
+  ["Trailhunter roof rack on another trim, roof load thread quoting GearJunkie (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/installing-trailhunter-roof-rack-on-another-trim-same-weight-load-capacity.2248/"],
+  ["2025 Toyota 4Runner First Drive Review: roof load figures, hybrid battery location, third row (GearJunkie)", "https://gearjunkie.com/motors/2025-toyota-4runner-first-drive-review"],
+  ["TRD Off-Road Premium OEM roof rails dynamic load (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/trd-off-road-premium-oem-roof-rails-dynamic-load.5655/"],
+  ["The All-New 2025 Toyota 4Runner: grades, i-FORCE MAX by grade, 6,000 lb towing, Trailhunter ARB roof rack (Toyota Newsroom)", "https://pressroom.toyota.com/the-all-new-2025-toyota-4runner-the-icon-that-inspires-exploration/"],
   ["Front Runner Slimsport KSTF004T, 6th-gen 4Runner (Dometic)", "https://www.dometic.com/en-us/product/toyota-4runner-6th-gen-roofrack-slimsport-kstf004t"],
   ["Front Runner 3/4 Slimline II KRTF060T, 6th-gen 4Runner (Dometic)", "https://www.dometic.com/en-us/product/toyota-4runner-6th-gen-34-slimline-ii-roof-rack-krtf060t"],
  ],

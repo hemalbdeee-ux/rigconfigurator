@@ -1,4 +1,4 @@
-"""Upgrades pillar: 2025–2026 Toyota 4Runner (6th gen, N410, TNGA-F; an SUV, no bed).
+"""Upgrades pillar: 2025–2026 Toyota 4Runner (6th gen, N500, TNGA-F; an SUV, no bed).
 Hub page: ranks the four published 4Runner category guides and links to them. No product picks or ASINs here
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields, plus one
 price quoted in the cargo box guide's text (The Rack Shop's Thule raised-rail crossbar kit, $444.90 on sale).
@@ -24,14 +24,15 @@ pages opened for this page on 2026-10-04:
   available on i-FORCE SR5 and Limited; roof rails, running boards and rock rails by grade). It was read through a
   text extraction and its grade columns could not be matched reliably, so the page prints no trim list from it.
 Not verified, and worded as such in the text: the roof load limit from a Toyota document (GearJunkie's review, the
-forum's stated origin of 165 / 770 lb, was not opened) and whether one figure covers raised rails, factory crossbars and the ARB platform alike; rail style and factory crossbars for every grade;
+forum's stated origin of 165 / 770 lb, names no Toyota document) and whether one figure covers raised rails, factory crossbars and the ARB platform alike; rail style and factory crossbars for every grade;
 what the TRD Pro's roof carries; which grades ship with a hitch receiver, and the receiver's class (Class IV with a
 2 in receiver is our vehicle data, not a Toyota page); which grades have running boards or rock rails; why liner
-makers exclude the hybrid (the makers don't say); whether a hybrid can be ordered with a third row; 2026 fit of
+makers exclude the hybrid (the makers don't say); whether a hybrid can be ordered with a third row, from a Toyota page (GearJunkie says the third row is only on non-hybrid SR5 and Limited); 2026 fit of
 Husky's 96531 and Toyota's PT989-89251, whose listings name 2025; box clamp fit on the Trailhunter's or any
 aftermarket platform's bars; Rough Country 88205 and Toyota/ARB rack weights; whether any grade besides TRD Pro
 and Trailhunter has a grille light bar. No 4Runner guide exists for trailer hitches or running boards on this site;
 none are ranked.
+Source fixes 2026-10-04: model code N410 changed to N500 (Wikipedia); GearJunkie's first-drive review was opened and is now cited as the origin of the 165 / 770 lb roof figure, for the hybrid battery location and for the third row being non-hybrid SR5 and Limited only; hitch wording now says Toyota's launch release gives 6,000 lb and names no receiver, and that Class IV is unconfirmed vehicle data; factory-crossbar reports corrected to one SR5 owner and one TRD Off-Road Premium owner; the carry-over sentence no longer names hitches, which no opened source covers.
 """
 
 KIND = "upgrades"
@@ -64,14 +65,14 @@ FAQ = [
   "which is not the same as third-row coverage, so ask the dealer which rows are included. LASFIT, TripleAliners "
   "and Vantio list five seats, and Husky's 96531 covers the front and second rows only."),
  ("How much weight can the 2025–2026 4Runner roof carry with a rack and a cargo box?",
-  "Use the figure in your owner's manual. Owners on 4Runner6G.com cite 165 lb dynamic, meaning while driving, and "
-  "770 lb static, meaning parked. We could not confirm either from a Toyota document. The rack counts first. Sherpa quotes about 50 lb "
+  "Use the figure in your owner's manual. GearJunkie's first-drive review reports 165 lb dynamic, meaning while driving, and "
+  "770 lb static, meaning parked, and owners on 4Runner6G.com quote it. We could not confirm either from a Toyota document. The rack counts first. Sherpa quotes about 50 lb "
   "for its Capitol platform, which leaves about 115 lb of 165. A 43 lb Thule Force 3 L on top leaves about 72 lb "
   "for gear. A rack's own rating, such as Rough Country's 300 lb dynamic, never raises the roof's limit."),
  ("Can I put a cargo box on the factory crossbars, or do I need a new roof rack?",
   "Factory crossbars will do if your 4Runner has them. On 4Runner6G.com, owners report mounting a "
   "Thule box and a Yakima basket on factory bars, and one had to move the bars one position closer before the "
-  "clamps fit. Check the box's crossbar spread against where your bars can sit: 24 to 36 in for Yakima's GrandTour "
+  "box fit. Check the box's crossbar spread against where your bars can sit: 24 to 36 in for Yakima's GrandTour "
   "16, and three fixed positions for SportRack's Vista XL. One owner in another thread cites 125 lb dynamic for the factory crossbars, lower than the 165 lb usually quoted, so read the manual."),
  ("I have a Trailhunter or TRD Pro. Which of these upgrades do I still need?",
   "Fewer than other owners. Toyota's launch release gives the Trailhunter an ARB roof rack, RIGID color-selectable "
@@ -82,9 +83,9 @@ FAQ = [
   "aftermarket platform or to the Trailhunter's ARB rack, not to the roof itself. Sherpa builds its Capitol in a "
   "half-height version for a single-row light bar, and Front Runner lists a light-bar-ready kit, KSTF005T. Choose the roof rack first. A roof bar gives the most reach, the most hood glare and the most wind noise. The same guide says such lights are usually for off-road use only. Rules vary, so check your state's."),
  ("Does the 2025–2026 4Runner come with a trailer hitch, and how much can it tow?",
-  "Look under the rear bumper and read the window sticker. Our vehicle data records the hitch for this generation "
-  "as Class IV with a 2 in receiver and a 6,000 lb maximum tow rating, and Toyota's launch release gives the same "
-  "6,000 lb maximum. We could not confirm which grades ship with a receiver. The number for your 4Runner is in the "
+  "Look under the rear bumper and read the window sticker. Toyota's launch release gives a maximum towing capacity "
+  "of 6,000 lb and does not mention a hitch receiver. Our vehicle data lists a Class IV hitch with a 2 in receiver, "
+  "but we could not confirm the class, or which grades ship with a receiver, from a Toyota page. The number for your 4Runner is in the "
   "owner's manual. There is no trailer hitch guide for this generation on this site yet, so none is ranked. An aftermarket hitch never raises the tow rating."),
  ("How much does it cost to add all four upgrades to a 2025–2026 4Runner?",
   "From the prices on our four guides' picks, a budget build runs about $840–$930: LASFIT's cabin liners, clamp-on "
@@ -104,13 +105,13 @@ ARTICLE = {
            "4Runner guides, weighing how many owners each upgrade suits, what it costs, which upgrades depend on another, and how much of the fit is confirmed. Price bands are the prices "
            "listed on those guides' picks, checked at maker and retailer stores in September 2026, and are "
            "approximate. Vehicle facts come from our vehicle data, the guides' sources, Toyota's 2025 launch "
-           "release, Wikipedia's 4Runner page and three 4Runner6G.com owner threads. Where we couldn't confirm a "
+           "release, Wikipedia's 4Runner page, GearJunkie's first-drive review and three 4Runner6G.com owner threads. Where we couldn't confirm a "
            "factory detail, the text says so.",
  "takeaways": [
   "**Buy 2025+ parts.** The 4Runner moved to TNGA-F for 2025, and Husky, Rough Country and Front Runner sell separate part numbers for the older generation.",
   "**Gas or hybrid, five seats or seven.** Several liner sets exclude the i-FORCE MAX, and a third row needs a three-row set.",
   "**Look at the roof first.** Raised rails take clamp-on crossbars; a Trailhunter already has an ARB platform that rail clamps can't grip.",
-  "**One roof limit covers rack, box and gear.** Owners cite 165 lb while driving. We could not confirm it from Toyota, so check your manual.",
+  "**One roof limit covers rack, box and gear.** GearJunkie's review reports 165 lb while driving. We could not confirm it from Toyota, so check your manual.",
   "**Check the trim before buying lights.** Toyota fits the TRD Pro and Trailhunter with a grille light bar and RIGID fog lamps.",
  ],
  "priority": [
@@ -135,16 +136,16 @@ ARTICLE = {
           "an ARB platform, and rail-clamp bars have nothing to grip on it. Platforms bolt to the factory mounting "
           "points with no drilling: Rough Country's 88205 at about $700 with a 40 x 56 in deck, Toyota's ARB-built "
           "PT989-89251 at about $1,200–$1,600, and Sherpa's full-length Capitol at about $1,559 and about 50 lb. "
-          "The roof itself is the limit. Owners on 4Runner6G.com cite 165 lb while driving, and the rack's weight "
+          "The roof itself is the limit. GearJunkie's first-drive review reports 165 lb while driving, which we could not confirm from Toyota, and the rack's weight "
           "comes out of that first. Racks and crossbars from the older generation don't fit. The trade-off: a platform gives a flat deck with T-slots, while crossbars weigh far less.",
    "skip_if": "Your roof already carries factory crossbars or the Trailhunter's platform, or nothing you carry needs to go up there."},
   {"category": "cargo-boxes",
    "h": "3. Cargo box third: a universal box, fitted to this roof by weight, spread and hatch gap",
    "why": "A cargo box comes third because it can't be chosen until the rack question is settled. The box is universal; the math is not. Bars or platform, box and gear all share the "
-          "roof's driving limit, which owners cite at 165 lb. The boxes in our guide weigh from 38.6 lb for "
+          "roof's driving limit, which GearJunkie reports as 165 lb. The boxes in our guide weigh from 38.6 lb for "
           "Rhino-Rack's MasterFit 440L to 57 lb for Yakima's CBX 16. Three checks decide fit. Crossbar spread: "
           "Yakima's GrandTour 16 accepts 24 to 36 in, and one owner on 4Runner6G.com had to move the factory "
-          "crossbars one position closer before a Thule box's clamps fit. Hatch clearance: Thule lists more than "
+          "crossbars one position closer before a Thule box fit. Hatch clearance: Thule lists more than "
           "50 5/8 in of front clearance for its Force 3 L. Clamp size, if the box sits on a platform. Prices run "
           "about $450 for SportRack's Vista XL, about $699 for the CBX 16, about $709 for the GrandTour 16, about "
           "$880 for the Force 3 L and about $1,150 for Thule's Motion 3 XL; Rhino-Rack publishes no price. The trade-off is volume against weight: an 18 cu ft box holds more dense gear than the roof can carry.",
@@ -176,20 +177,20 @@ ARTICLE = {
   {"h": "What the 4Runner may already have: roof, grille, fog lamps, steps and hitch",
    "body": "Three of the four upgrades change with what Toyota fitted at the factory. The table is not a full equipment list, and we could not confirm rail style or factory crossbars for every grade.\n\n"
            "**Hitch and towing.** There is no trailer hitch guide for this generation on this site, so none is "
-           "ranked. Our vehicle data records the hitch as **Class IV with a 2 in receiver** and the maximum tow "
-           "rating as **6,000 lb**, and Toyota's launch release gives the same maximum. We could not confirm which "
+           "ranked. Toyota's launch release gives a maximum towing capacity of **6,000 lb** and does not mention a hitch "
+           "receiver. Our vehicle data lists **Class IV with a 2 in receiver**, which we could not confirm from a Toyota page. We also could not confirm which "
            "grades ship with a receiver. Look under the rear bumper before shopping for a trailer hitch.\n\n"
            "**Steps.** There is no running boards guide for this generation either. Toyota's launch release lists "
            "power-extending running boards as available on the Limited. A Toyota 2025 specification sheet posted "
            "on 4Runner6G.com lists running boards on several grades and steel rock rails on the TRD Pro, but we "
            "could not match every line to a grade with confidence, so we print no trim list.",
-   "table": {"caption": "2025–2026 4Runner grades: powertrain and factory equipment per Toyota's launch release",
+   "table": {"caption": "2025–2026 4Runner grades: powertrain and factory equipment per Toyota's launch release, except where another source is named",
              "head": ["Grade", "Powertrain", "Factory equipment we could confirm", "What changes"],
              "rows": [
-              ["SR5", "i-FORCE gas", "LED head and fog lights; optional third row per our liner guide", "Count the seats before ordering liners"],
+              ["SR5", "i-FORCE gas", "LED head and fog lights; third row available per GearJunkie; one owner reports factory crossbars", "Count the seats before ordering liners; a box may fit the bars you have"],
               ["TRD Sport, TRD Sport Premium", "i-FORCE gas", "Nothing we could confirm that changes fit", "Gas five-seat liner sets apply"],
-              ["TRD Off-Road, TRD Off-Road Premium", "Gas, or i-FORCE MAX", "Owners report factory crossbars on SR5 and TRD Off-Road Premium", "Check powertrain; a box may fit the bars you have"],
-              ["Limited", "Gas, or i-FORCE MAX", "Power-extending running boards available; optional third row per our liner guide", "Check powertrain and seating"],
+              ["TRD Off-Road, TRD Off-Road Premium", "Gas, or i-FORCE MAX", "One TRD Off-Road Premium owner reports factory crossbars", "Check powertrain; a box may fit the bars you have"],
+              ["Limited", "Gas, or i-FORCE MAX", "Power-extending running boards available; third row available on the non-hybrid per GearJunkie", "Check powertrain and seating"],
               ["Platinum", "i-FORCE MAX", "Nothing further we could confirm", "Hybrid liner rule applies"],
               ["TRD Pro", "i-FORCE MAX", "20 in LED light bar in the grille; RIGID LED fog lamps", "Skip fog-pocket kits; roof equipment not confirmed"],
               ["Trailhunter", "i-FORCE MAX", "ARB roof rack; RIGID color-selectable LED fog lamps; grille LED light bar", "Skip the roof rack and fog kits; a box clamps to the platform's bars"],
@@ -197,7 +198,7 @@ ARTICLE = {
   {"h": "Older parts, Tacoma parts and listings with no year",
    "body": "The 2025 redesign is the first fit trap in every category. Toyota's launch release puts the 4Runner "
            "on the TNGA-F platform shared with the Tacoma, Tundra, Land Cruiser and Sequoia. Our vehicle data says "
-           "roof racks, mats and hitches from the older generation do not carry over.\n\n"
+           "roof racks and mats from the older generation do not carry over.\n\n"
            "The older generation ran for 15 years, so its parts are plentiful, and our roof rack and lighting guides both note sellers who title them simply \"4Runner\". Look for 2025 or 2026 in the title, and check the part number on a used part.\n\n"
            "Ditch brackets and fog kits are often titled for the 2024+ "
            "Tacoma, the 2022+ Tundra and the 2025+ 4Runner together, because the parts are shared. Floor liners "
@@ -219,7 +220,7 @@ ARTICLE = {
            "the i-FORCE MAX hybrid standard on the Platinum, TRD Pro and Trailhunter and available on the TRD "
            "Off-Road, TRD Off-Road Premium and Limited. The SR5, TRD Sport and TRD Sport Premium are gas.\n\n"
            "The liner makers don't say why they exclude the hybrid. Wikipedia says the hybrid uses the space "
-           "beneath the load floor for its high-voltage battery, a reason to be as careful with cargo liners. It also says the hybrid is expected not to include the third row, which we could not confirm.\n\n"
+           "beneath the load floor for its high-voltage battery, and GearJunkie's first-drive review puts the battery pack on the floor of the rear cargo area, a reason to be as careful with cargo liners. GearJunkie also says the third row is available only on non-hybrid SR5 and Limited versions. The Toyota releases we opened don't say which grades offer it, so count your seats.\n\n"
            "What each set in our guide states:\n\n"
            "- **Husky WeatherBeater 96531:** front and second row. The listing names 2025 and does not state "
            "powertrain or seating, so check Husky's fit tool.\n"
@@ -232,8 +233,8 @@ ARTICLE = {
            "- **NQOQN:** seven-seat. Powertrain not stated, so ask the seller.\n\n"
            "For a hybrid, that leaves Toyota's liner or a seller's written confirmation."},
   {"h": "One roof limit for the rack, the box and the lights",
-   "body": "Everything on the roof shares one number, the least certain fact on this page. Our guides use **165 lb dynamic and 770 lb static**, as cited by owners on 4Runner6G.com. The poster in that "
-           "thread attributes the figures to GearJunkie's first-drive review. In a second thread, a member quotes "
+   "body": "Everything on the roof shares one number, the least certain fact on this page. Our guides use **165 lb dynamic and 770 lb static**, the figures GearJunkie's first-drive review gives for the roof. A poster on 4Runner6G.com "
+           "quotes that review. In a second thread, a member quotes "
            "the same pair for the OEM half roof rack, another owner cites 125 lb dynamic for the factory "
            "crossbars, and a dealer could not give a figure for the raised rails. Our vehicle data holds no figure, and we could not confirm one from Toyota. Your owner's manual is the authority.\n\n"
            "Taking 165 lb as the working number, subtract in this order:\n\n"
@@ -275,7 +276,7 @@ ARTICLE = {
   "body": "The sixth-generation 4Runner is easy to accessorize once five facts are written down: model year, gas "
           "or hybrid, five seats or seven, what is on the roof, and which trim it is. Floor liners need the first "
           "three and cost the least, so they go first. Crossbars at about $100–$170 are enough for a box, and a platform is worth its weight only for flat gear or a roof light.\n\n"
-          "The cargo box is third because it is bought to fit the rack and the roof limit, which owners cite at "
+          "The cargo box is third because it is bought to fit the rack and the roof limit, which GearJunkie reports as "
           "165 lb and which we could not confirm from Toyota. A light bar or fog kit is fourth because the market is thin and most of it is off-road light. "
           "Before shopping for a trailer hitch, look under the rear bumper. Owners of a 2010–2024 4Runner should "
           "treat this page as a list of questions, not part numbers. Each linked guide covers the fit details for "
@@ -283,8 +284,10 @@ ARTICLE = {
  },
  "sources": [
   ["The All-New 2025 Toyota 4Runner: TNGA-F, grades, powertrains, towing, TRD Pro and Trailhunter equipment (Toyota Newsroom)", "https://pressroom.toyota.com/the-all-new-2025-toyota-4runner-the-icon-that-inspires-exploration/"],
-  ["Toyota 4Runner, sixth generation: trims, hybrid battery location, third row (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
-  ["Roof load figures cited by owners, Trailhunter rack on another trim (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/installing-trailhunter-roof-rack-on-another-trim-same-weight-load-capacity.2248/"],
+  ["Toyota 4Runner, sixth generation: model code, trims, hybrid battery location, third row (Wikipedia)", "https://en.wikipedia.org/wiki/Toyota_4Runner"],
+  ["2025 Toyota 4Runner First Drive Review: roof load figures, hybrid battery location, third row (GearJunkie)", "https://gearjunkie.com/motors/2025-toyota-4runner-first-drive-review"],
+  ["2025 Toyota 4Runner Refines Adventure Ready Heritage: available third row, Trailhunter equipment (Toyota Newsroom)", "https://pressroom.toyota.com/2025-toyota-4runner-refines-adventure-ready-heritage/"],
+  ["Roof load thread quoting GearJunkie, Trailhunter rack on another trim (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/installing-trailhunter-roof-rack-on-another-trim-same-weight-load-capacity.2248/"],
   ["TRD Off-Road Premium OEM roof rails dynamic load (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/trd-off-road-premium-oem-roof-rails-dynamic-load.5655/"],
   ["Factory crossbars and a rooftop cargo box, 2025 4Runner (4Runner6G.com)", "https://www.4runner6g.com/forum/threads/help-with-factory-crossbars-measurement-will-my-rooftop-cargo-box-fit.5075/"],
   ["2025 4Runner specifications and product information sheet, as posted by an owner (4Runner6G.com)", "https://4runner6g.com/forum/attachments/2025-4runner-specs-product-info-pdf.5259"],
