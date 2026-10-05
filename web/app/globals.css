@@ -84,3 +84,4 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .upg { margin: 14px 0; } .upg-head { display: flex; gap: 10px; align-items: center; margin-bottom: 6px; }
 .learn-box { border: 1px dashed var(--line); border-radius: 10px; padding: 10px 14px; margin: 18px 0; font-size: 15px; background: var(--card); }
 .btn-ghost { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.price-live { color: inherit; text-decoration: none; } .price-asof { font-size: 12px; font-weight: 400; color: var(--muted); white-space: normal; }

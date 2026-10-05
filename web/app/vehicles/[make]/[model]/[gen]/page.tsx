@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { allVehicles, categoriesFor, fitsFor, getVehicle, heroFor, pagesFor, siblingsOf, vehiclePath, vehicleTitle, yearsLabel, type Fit } from "@/lib/queries";
 import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
-import { SITE_URL, money } from "@/lib/db";
+import { SITE_URL } from "@/lib/db";
+import { Price } from "@/components/Price";
 import { hubSeoTitle } from "@/lib/seo";
 import { upgradesPathFor } from "@/lib/pillars";
 
@@ -42,7 +43,7 @@ function MiniPick({ f, rank, page }: { f: Fit; rank: number; page: string }) {
         </div>
       </div>
       <div className="mini-cta">
-        <div style={{ fontWeight: 700 }}>{money(f.price_cents, f.price_band)}</div>
+        <div style={{ fontWeight: 700 }}><Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(page)}&placement=hub-${rank}`} /></div>
         <a href={`/go/${f.product_id}?page=${encodeURIComponent(page)}&placement=hub-${rank}`} rel="nofollow sponsored noopener" target="_blank">Amazon ›</a>
       </div>
     </div>

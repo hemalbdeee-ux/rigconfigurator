@@ -15,7 +15,7 @@ services:
       NODE_ENV: production
       DATABASE_URL: postgres://${POSTGRES_USER:-rig}:${POSTGRES_PASSWORD:-changeme}@db:5432/${POSTGRES_DB:-rigconfigurator}
       SITE_URL: https://${DOMAIN:-rigconfigurator.com}
-      AMAZON_TAG: ${AMAZON_TAG:-rigconfig-20}
+      AMAZON_TAG: ${AMAZON_TAG:-rigconfigurator-20}
       REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
       IMG_DIR: /app/img
     volumes:
@@ -66,9 +66,10 @@ services:
       DATABASE_URL: postgres://${POSTGRES_USER:-rig}:${POSTGRES_PASSWORD:-changeme}@db:5432/${POSTGRES_DB:-rigconfigurator}
       SITE_URL: https://${DOMAIN:-rigconfigurator.com}
       REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
-      PAAPI_ACCESS_KEY: ${PAAPI_ACCESS_KEY:-}
-      PAAPI_SECRET_KEY: ${PAAPI_SECRET_KEY:-}
-      AMAZON_TAG: ${AMAZON_TAG:-rigconfig-20}
+      CREATORS_CREDENTIAL_ID: ${CREATORS_CREDENTIAL_ID:-}
+      CREATORS_CREDENTIAL_SECRET: ${CREATORS_CREDENTIAL_SECRET:-}
+      CREATORS_VERSION: ${CREATORS_VERSION:-}
+      AMAZON_TAG: ${AMAZON_TAG:-rigconfigurator-20}
       KEEPA_KEY: ${KEEPA_KEY:-}
     volumes:
       - ./pipeline/data:/app/data

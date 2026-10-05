@@ -13,6 +13,7 @@ export type Category = { id: number; slug: string; name: string; fit_rule: strin
 export type Fit = {
   id: number; product_id: number; asin: string; name: string; brand: string | null; image_url: string | null;
   price_cents: number | null; price_band: string | null; rating: number | null; reviews: number | null;
+  price_checked_at: string | Date | null; // set only while the Amazon price is under 23 hours old (v_fitment)
   weight_lb: number | null; attrs: Record<string, any>; pros: string[]; cons: string[];
   condition: Record<string, any>; note: string | null; source: string | null; confidence: number; rank: number;
   category_slug: string; category_name: string;

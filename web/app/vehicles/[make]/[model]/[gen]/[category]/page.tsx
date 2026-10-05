@@ -7,7 +7,8 @@ import { ogImage } from "@/components/Hero";
 import { ArticleView, type Article } from "@/components/ArticleView";
 import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
-import { SITE_URL, money } from "@/lib/db";
+import { SITE_URL } from "@/lib/db";
+import { Price } from "@/components/Price";
 import { articleSeoTitle } from "@/lib/seo";
 import { explainersFor, upgradesPathFor } from "@/lib/pillars";
 
@@ -109,7 +110,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
                 <td>{Object.values(f.condition ?? {}).join(", ") || "All"}</td>
                 <td>{f.attrs?.type ?? "—"}</td>
                 <td>{f.weight_lb ? `${f.weight_lb} lb` : "—"}</td>
-                <td>{money(f.price_cents, f.price_band)}</td>
+                <td><Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=table-${i + 1}`} /></td>
                 <td><a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=table-${i + 1}`} rel="nofollow sponsored" target="_blank">Buy</a></td>
               </tr>))}
           </tbody>

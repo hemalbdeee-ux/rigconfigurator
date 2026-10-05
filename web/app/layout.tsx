@@ -31,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="wrap">{children}</main>
         <footer className="foot">
           <p>As an Amazon Associate we earn from qualifying purchases. Fit data is verified against manufacturer fit guides; always confirm on the retailer page before buying.</p>
+          <p style={{ fontSize: 12 }}>CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED &lsquo;AS IS&rsquo; AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
           <p><Link href="/about">About</Link> · <Link href="/disclosure">Affiliate disclosure</Link> · <Link href="/privacy">Privacy</Link> · <Link href="/terms">Terms</Link></p>
         </footer>
       </body>

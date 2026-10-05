@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Category, Fit, GuideLink, Vehicle } from "@/lib/queries";
 import { vehiclePath, vehicleTitle } from "@/lib/queries";
-import { money } from "@/lib/db";
+import { Price } from "./Price";
 import { getAuthor } from "@/lib/authors";
 import { Inline, Linker, Md } from "./Md";
 import { Hero } from "./Hero";
@@ -124,7 +124,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
               <span className="mini-rank">{i + 1}</span>
               <div><a href={`#pick-${a.picks.findIndex(p => p.asin === t.asin) + 1}`} className="pick-name">{f.name.split(",")[0]}</a>
                 <div className="muted" style={{ fontSize: 13 }}><strong>{t.role}</strong> — {t.why}</div></div>
-              <div className="mini-cta"><div style={{ fontWeight: 700 }}>{a.picks.find(p => p.asin === t.asin)?.price ?? money(f.price_cents, f.price_band)}</div>
+              <div className="mini-cta"><div style={{ fontWeight: 700 }}>{a.picks.find(p => p.asin === t.asin)?.price ?? f.price_band ?? "See price"}</div>
                 <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon ›</a></div>
             </div>
           );
@@ -156,17 +156,17 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         if (!f) return null;
         return (
           <section key={p.asin} id={`pick-${i + 1}`} className="pick">
-            <h2>#{i + 1}: {f.name.split(",")[0]} — {p.role} ({p.price ?? money(f.price_cents, f.price_band)})</h2>
+            <h2>#{i + 1}: {f.name.split(",")[0]} — {p.role} ({p.price ?? f.price_band ?? "See price"})</h2>
             <div className="card pcard">
               <div className="pcard-top">
-                {f.image_url ? <img src={f.image_url} alt={f.name} loading="lazy" /> : null}
+                {f.image_url ? <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=pickimg-${i + 1}`} rel="nofollow sponsored noopener" target="_blank"><img src={f.image_url} alt={f.name} loading="lazy" /></a> : null}
                 <div>
                   <div className="muted" style={{ fontSize: 13, textTransform: "uppercase", letterSpacing: ".05em" }}>{f.brand}</div>
                   <h3 style={{ margin: "2px 0 6px" }}>{f.name}</h3>
                   <span className={`pill ${f.confidence === 1 ? "warn" : "ok"}`}>{f.confidence === 1 ? "Confirm fit on listing" : "Listed for this truck"}</span>
                   {f.note && <span className="pill">{f.note}</span>}
                 </div>
-                <div className="pcard-price"><div className="price">{p.price ?? money(f.price_cents, f.price_band)}</div><Buy f={f} path={path} placement={`pick-${i + 1}`} /></div>
+                <div className="pcard-price"><div className="price">{p.price ?? f.price_band ?? "See price"}</div><Buy f={f} path={path} placement={`pick-${i + 1}`} /></div>
               </div>
               <div className="proscons">
                 <div><div className="pc-h ok">Pros</div><ul>{p.pros.map(x => <li key={x}>{x}</li>)}</ul></div>
@@ -182,7 +182,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
 
       {others.length > 0 && (<section>
         <h3>Also fit-checked for the {vehicleTitle(v)}</h3>
-        <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — {money(f.price_cents, f.price_band)} · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
+        <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — <Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} /> · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
       </section>)}
 
       {a.install?.length ? (<section id="install"><h2>How to install {article(n.one)} {n.one} {n.prep} the {model}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}

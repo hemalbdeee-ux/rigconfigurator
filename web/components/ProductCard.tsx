@@ -1,5 +1,5 @@
 import type { Fit } from "@/lib/queries";
-import { money } from "@/lib/db";
+import { Price } from "./Price";
 
 export function ProductCard({ f, rank, page }: { f: Fit; rank: number; page: string }) {
   const conf = f.confidence === 3 ? ["ok", "Fit verified"] : f.confidence === 2 ? ["", "Fit per listing"] : ["warn", "Fit unverified"];
@@ -7,7 +7,7 @@ export function ProductCard({ f, rank, page }: { f: Fit; rank: number; page: str
   const go = `/go/${f.product_id}?page=${encodeURIComponent(page)}&placement=card-${rank}`;
   return (
     <div className="card product" id={f.asin}>
-      {f.image_url ? <img src={f.image_url} alt={f.name} loading="lazy" /> : <div style={{ width: 120, height: 120, background: "#222", borderRadius: 8 }} />}
+      {f.image_url ? <a href={go} rel="nofollow sponsored noopener" target="_blank"><img src={f.image_url} alt={f.name} loading="lazy" /></a> : <div style={{ width: 120, height: 120, background: "#222", borderRadius: 8 }} />}
       <div>
         <h3>#{rank} {f.name}</h3>
         <div className="muted">{f.brand} {f.rating ? `· ★ ${f.rating} (${f.reviews?.toLocaleString()} reviews)` : ""}</div>
@@ -20,7 +20,7 @@ export function ProductCard({ f, rank, page }: { f: Fit; rank: number; page: str
         <ul>{f.pros?.map(p => <li key={p}>✔ {p}</li>)}{f.cons?.map(c => <li key={c}>✘ {c}</li>)}</ul>
       </div>
       <div className="cta" style={{ textAlign: "right" }}>
-        <div style={{ fontSize: 20, fontWeight: 700 }}>{money(f.price_cents, f.price_band)}</div>
+        <div style={{ fontSize: 20, fontWeight: 700 }}><Price f={f} href={go} /></div>
         <a className="btn" href={go} rel="nofollow sponsored noopener" target="_blank">View on Amazon</a>
       </div>
     </div>
