@@ -21,7 +21,7 @@ Ford's 2026 page lists a Trailer Tow Prep Package as available equipment); the r
 modular or plastic front bumper, the upfitter switches outside the launch year, or a factory roof rack; whether
 Baja's steel-bumper fog pocket kit suits a Raptor's bumper; 2-door fit of the brand-name hitches whose listings
 give no door count; Rough Country's rack weight; how the soft top folds under DV8's RRBR-01; and 2026 fit of
-listings whose titles stop at 2024 or 2025. No Bronco guide exists for running boards, cargo boxes or bike racks;
+listings whose titles stop at 2024 or 2025. No Bronco guide exists for cargo boxes or bike racks;
 none are ranked.
 Source fixes 2026-10-04: the vehicle data summary now gives the Raptor's 4,500 lb and describes roof rack mounting as
 the roof guide does; the roof guide's Bronco Sport trim-name tip was removed.
@@ -29,7 +29,7 @@ the roof guide does; the roof guide's Bronco Sport trim-name tip was removed.
 
 KIND = "upgrades"
 KEY = ("ford", "bronco", "2021-present")
-CATEGORIES = ["floor-mats", "hitches", "roof-racks", "led-light-bars"]
+CATEGORIES = ["floor-mats", "hitches", "roof-racks", "led-light-bars", "running-boards"]
 
 TITLE = "2021–2026 Ford Bronco Upgrades, Ranked: 4 Mods in Order, With Door-Count and Top-Type Fit Traps"
 META = ("Four 2021–2026 Bronco upgrades in buying order: floor liners, trailer hitch, roof rack and light bar, with "

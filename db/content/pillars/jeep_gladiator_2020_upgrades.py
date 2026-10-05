@@ -11,12 +11,12 @@ floor drain plugs. Checked 2026-10-03.
 Not verified, and worded as such in the text: which trims and years ship with a hitch receiver fitted and what class
 it is, which configuration reaches 7,700 lb, which trucks got Trail Rail at the factory, which trims and years have
 the auxiliary switch bank outside the 2024 release, bumper type by trim, and whether any liner in the guide has an
-opening for the floor drains. No Gladiator guide exists for hitches, running boards or rock rails; none are ranked.
+opening for the floor drains. No Gladiator guide exists for hitches; a hitch is not ranked.
 """
 
 KIND = "upgrades"
 KEY = ("jeep", "gladiator", "2020-present")
-CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks", "led-light-bars"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks", "led-light-bars", "running-boards"]
 
 TITLE = "2020–2026 Jeep Gladiator Upgrades, Ranked: 4 Mods for the Open-Top JT, in the Order to Buy Them"
 META = ("Four Jeep Gladiator JT upgrades in buying order: floor liners, tonneau cover, bed rack and light bar, with "
@@ -182,8 +182,8 @@ ARTICLE = {
            "which suggests not every truck is built with one. Look under the rear bumper, or check your window "
            "sticker, and read the class and limits on the receiver's own label. Third, a receiver never raises a "
            "rating; the lowest-rated part of the chain sets the limit.\n\n"
-           "The same look-first rule applies to running boards and rock rails. The site has no Gladiator guide for "
-           "either yet, so they aren't ranked here. Wikipedia notes the Willys comes with standard rock rails, and "
+           "The same look-first rule applies to running boards and rock rails. They now have their own Gladiator "
+           "guide, so they aren't ranked here. Wikipedia notes the Willys comes with standard rock rails, and "
            "other trims may have rocker protection as well. Whatever is bolted under your doors now decides what, "
            "if anything, you need to add."},
   {"h": "Trail Rail: check it once, before any bed purchase",
@@ -269,9 +269,9 @@ ARTICLE = {
           "the bed rack need the Trail Rail check and each other, so they're decided as a pair, with the cover ahead "
           "for most owners and the rack ahead for anyone who camps from the truck.\n\n"
           "A light bar or pod kit ranks last because most of it is off-road lighting, though the shared front end "
-          "gives the JT plenty of documented kits. A trailer hitch, running boards and rock rails aren't ranked, "
-          "since the site has no Gladiator guide for them yet and your truck may already carry some of that "
-          "equipment. Owners who also have a 2018–2026 Wrangler can share Husky's front liner pair and many light "
+          "gives the JT plenty of documented kits. A trailer hitch isn't ranked, since the site has no Gladiator "
+          "guide for one yet and your truck may already carry a receiver. Running boards and rock sliders have "
+          "their own guide. Owners who also have a 2018–2026 Wrangler can share Husky's front liner pair and many light "
           "mounts, and nothing else. Each linked guide covers the fit details for its category.",
  },
  "sources": [

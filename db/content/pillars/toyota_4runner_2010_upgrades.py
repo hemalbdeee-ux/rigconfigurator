@@ -22,8 +22,8 @@ the sliding deck; which TRD Pro years and special editions have the basket rack;
 brackets suit the TRD Pro grille; whether a box's clamps fit a given platform's slats; whether Cali Raised's roof
 light brackets and a platform can share the factory roof points; the weights of the Rough Country 88201, the
 Slimsport and the SportRack Vista XL; 2019–2024 fit of Rhino-Rack's RT4B1 backbone; 2024 fit of listings titled to
-2023; the model years for Toyota's PT908-89200-02 liners. No 4Runner guide exists for trailer hitches or running
-boards; neither is ranked.
+2023; the model years for Toyota's PT908-89200-02 liners. No 4Runner guide exists for trailer hitches; a hitch is not
+ranked.
 Source conflicts, attributed in the text and not presented as disagreements (fix at the source): vehicle data summary
 and the cargo box guide put the Class III receiver on "tow-package trucks", while Toyota's 2013, 2017 and 2020
 releases call the receiver and wiring harness standard; vehicle data says the basket rack replaces the rails on the
@@ -36,7 +36,7 @@ Text fixes 2026-10-04 (round 2): the dek, the roof takeaway and the cargo box he
 
 KIND = "upgrades"
 KEY = ("toyota", "4runner", "2010-2024")
-CATEGORIES = ["floor-mats", "roof-racks", "cargo-boxes", "led-light-bars"]
+CATEGORIES = ["floor-mats", "roof-racks", "cargo-boxes", "led-light-bars", "running-boards"]
 
 TITLE = "2010–2024 Toyota 4Runner Upgrades, Ranked: 4 Mods in Order, With Model-Year and Roof Load Fit Traps"
 META = ("Four 2010–2024 4Runner upgrades in buying order: floor liners, roof rack, cargo box and light bar, with "
@@ -200,7 +200,7 @@ ARTICLE = {
            "The receiver matters on this page because the roof figure is small. The cargo box guide sends coolers, "
            "fuel and recovery gear to a hitch cargo carrier and keeps the roof for sleeping bags, jackets and "
            "duffels.\n\n"
-           "Running boards have no guide for this vehicle either, so they aren't ranked."},
+           "Running boards now have their own guide for this 4Runner, sorted by grade, so they aren't ranked here."},
   {"h": "Fifteen model years: the lines that fall inside the generation",
    "body": "The drivetrain barely changed. Wikipedia lists a 4.0-liter V6 with a 5-speed automatic, plus a 2.7-liter "
            "four-cylinder on 2WD models for 2010 only, and no listing in our guides is split by engine or drivetrain. "

@@ -34,7 +34,7 @@ three as disagreements.
 
 KIND = "upgrades"
 KEY = ("toyota", "tacoma", "2016-2023")
-CATEGORIES = ["floor-mats", "tonneau-covers", "led-light-bars", "bed-racks"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "led-light-bars", "bed-racks", "running-boards"]
 
 TITLE = "2016–2023 Toyota Tacoma Upgrades, Ranked: 4 Mods in Order, With Deck Rail and Transmission Fit Traps"
 META = ("Four 2016–2023 Tacoma upgrades in buying order: floor liners, tonneau cover, light bar and bed rack, "

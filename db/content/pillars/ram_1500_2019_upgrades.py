@@ -17,7 +17,7 @@ whose listing titles stop at 2023 or 2024, and TRX / RHO fit for liners, boards 
 
 KIND = "upgrades"
 KEY = ("ram", "1500", "2019-present")
-CATEGORIES = ["floor-mats", "tonneau-covers", "running-boards", "bed-racks"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "running-boards", "bed-racks", "led-light-bars"]
 
 TITLE = "2019–2026 Ram 1500 Upgrades, Ranked: 4 Mods in Buying Order, With the RamBox and Classic Traps"
 META = ("Four Ram 1500 DT upgrades in buying order: floor liners, tonneau cover, running boards and bed rack, with "
