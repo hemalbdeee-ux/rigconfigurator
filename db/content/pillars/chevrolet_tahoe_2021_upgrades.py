@@ -2,7 +2,7 @@
 Hub page: ranks the three published Tahoe category guides and links to them. No product picks or ASINs here
 (the site pulls each guide's #1 pick). Every price band comes from the linked guides' picks[].price fields, their
 FITS bands (TOUGHPRO bucket set with cargo mat) or price text in the cargo box guide (crossbar kits); vehicle facts
-from db/migrations/003_vehicles.sql (SUV, flush side rails, Z71 on its own fit kit, no stored roof load figure,
+from db/migrations/003_vehicles.sql (SUV, flush side rails, Z71 sold on its own retailer page (same Thule kit 186117 per etrailer), no stored roof load figure,
 hitch class 4 with a 2 in receiver, 8,400 lb maximum tow rating, three rows, Suburban shares roof and
 hitch fit but not cargo mats, Z71 / RST / High Country variants), the three guides and their sources, and six pages
 opened for this page on 2026-10-04: Wikipedia's Tahoe page (210.7 in length, 120.9 in wheelbase, independent rear
@@ -34,7 +34,7 @@ confirm; the HD Ridez title is noted as also excluding the Suburban.
 
 KIND = "upgrades"
 KEY = ("chevrolet", "tahoe", "2021-present")
-CATEGORIES = ["floor-mats", "running-boards", "cargo-boxes"]
+CATEGORIES = ["floor-mats", "running-boards", "cargo-boxes", "roof-racks"]
 
 TITLE = "2021–2026 Chevy Tahoe Upgrades, Ranked: 3 Mods in Order, With Seat-Layout and Suburban Fit Traps"
 META = ("Three 2021–2026 Tahoe upgrades in buying order: floor liners, running boards and cargo box, with bench vs "
@@ -68,8 +68,8 @@ FAQ = [
   "model year. Our running board guide says aftermarket boards replace factory steps and do not bolt alongside them."),
  ("Do the Z71, RST or High Country need different parts?",
   "For floor liners, no listing in our guide excludes a trim, and the second-row layout is what matters. No running board listing excludes a trim either, though a Z71 or High Country may already carry factory steps, and we could not confirm that every trim shares the same rocker mounting points. The roof is where trim matters most. The Rack Shop sells a separate Thule "
-  "setup for the Z71 using Fit Kit 186117, rated at 165 lb with a 58 in maximum bar spread, while etrailer lists "
-  "fit kit TH95JW for the regular flush-rail Tahoe. Edmunds' 2025 trim page says the RST Performance Edition "
+  "setup for the Z71 using Fit Kit 186117, rated at 165 lb with a 58 in maximum bar spread, and etrailer names "
+  "the same kit, sold as TH95JW, for a 2022 Tahoe with flush rails, so confirm the kit by VIN rather than by trim. Edmunds' 2025 trim page says the RST Performance Edition "
   "removes the roof rack, so look at that roof before ordering bars."),
  ("Did the 2025 refresh change which Tahoe accessories fit?",
   "Our guides found no maker that split its parts at 2025. Wikipedia describes the 2025 update as new front and "
@@ -118,7 +118,7 @@ ARTICLE = {
   "**Count the second-row seats.** A bench or captain's chairs changes both the second-row and the third-row floor liner.",
   "**A Tahoe is not a Suburban.** Front and second-row liners are often shared, and so is roof fit; third-row liners, cargo liners and running boards are not.",
   "**Look under the doors.** GM Authority reports factory assist steps as standard on Premier and High Country, with power-retractable steps offered on both. Aftermarket boards replace them.",
-  "**A cargo box needs crossbars first.** The brand-name flush-rail kits in our guide are rated at 165 lb, and the Z71 takes its own Thule fit kit.",
+  "**A cargo box needs crossbars first.** The brand-name flush-rail kits in our guide are rated at 165 lb, and The Rack Shop sells the Z71 on its own page, so confirm the kit by VIN.",
   "**Measure the garage.** Cars.com lists the Tahoe at 76 in tall, so even a 15 in box puts it past a 7 ft door.",
  ],
  "priority": [
@@ -154,7 +154,7 @@ ARTICLE = {
           "where the Tahoe can park. Wikipedia lists the Tahoe at 210.7 in long, and "
           "the cargo box guide says even the 91 in Yakima CBX XXL fits ahead of the liftgate when mounted "
           "forward. Three things decide the purchase. First, crossbars. Retailers list this generation with flush "
-          "side rails, so buy flush-rail feet with the fit kit for your trim; the Z71 takes its own. Second, "
+          "side rails, so buy flush-rail feet and confirm the fit kit for your trim by VIN; the Z71 is sold on its own page. Second, "
           "weight. We could not confirm Chevrolet's roof figure, and the Yakima and Thule kits the guide found "
           "are rated at 165 lb, which has to cover bars, box and cargo. Third, height. At 76 in, a Tahoe with any of these "
           "boxes is past 91 in before the bars. Prices run about $450 for SportRack's rear-opening Vista XL, about "
@@ -220,8 +220,8 @@ ARTICLE = {
            "which run front to back with no gap underneath. They are the base for crossbars, not a substitute. "
            "Edmunds says the 2025 RST Performance Edition removes the roof rack, so look at that roof before "
            "ordering feet.\n\n"
-           "**A receiver.** No trailer hitch or roof rack guide exists for the Tahoe on this site yet, so neither "
-           "is ranked. Our vehicle data lists a **Class IV hitch with a 2 in receiver** and a maximum of "
+           "**A receiver.** No trailer hitch guide exists for the Tahoe on this site yet, so hitches are not ranked; "
+           "the Tahoe roof rack guide now ranks flush-rail crossbars, so they are not ranked again here. Our vehicle data lists a **Class IV hitch with a 2 in receiver** and a maximum of "
            "**8,400 lb**, and Chevrolet's current page gives the same 8,400 lbs as the maximum available towing capacity. "
            "That is a ceiling; the figure for your build is in the owner's manual. We could not confirm that "
            "every trim and year has a receiver, so look under the rear bumper. If one is there, a hitch cargo "

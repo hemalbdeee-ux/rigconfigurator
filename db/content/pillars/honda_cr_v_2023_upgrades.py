@@ -38,7 +38,7 @@ Source fixes 2026-10-04 (round 2): the TrailSport FAQ no longer says the floor l
 
 KIND = "upgrades"
 KEY = ("honda", "cr-v", "2023-present")
-CATEGORIES = ["floor-mats", "hitches", "cargo-boxes"]
+CATEGORIES = ["floor-mats", "hitches", "cargo-boxes", "roof-racks"]
 
 TITLE = "2023–2026 Honda CR-V Upgrades, Ranked: 3 Mods in Order, With Gas vs Hybrid and Roof Fit Traps"
 META = ("Three 2023–2026 CR-V upgrades in buying order: floor liners, trailer hitch and cargo box, with gas vs hybrid "
@@ -195,8 +195,8 @@ ARTICLE = {
               ["TrailSport (new for 2026)", "2.0 L hybrid, all-wheel drive standard", "1,000 lb", "Black roof rails", "36.3 cu ft", "Confirm 2026 on listings that stop at 2025"],
               ["Sport Touring", "2.0 L hybrid, 204 hp total", "1,000 lb", "Black roof rails", "34.7 cu ft", "Hands-free power tailgate; see the hitch section"],
              ]}},
-  {"h": "The roof: no roof rack guide here, so this is what to know about crossbars",
-   "body": "There is no roof rack guide for the 2023–2026 CR-V on this site, so this page ranks no crossbars. A cargo box still needs them, so here is what the sources say.\n\n"
+  {"h": "The roof: what to know about crossbars",
+   "body": "The CR-V roof rack guide on this site ranks crossbars for both roofs, so this page does not rank them again. A cargo box still needs them, so here is what the sources say.\n\n"
            "**What is overhead.** The vehicle data on this site lists a bare roof on gas trims and black roof rails on hybrids. etrailer's "
            "fit guide splits the 2023 CR-V into two roofs: no rails, and flush rails that run front to back. "
            "Honda's 2023 and 2026 specifications list black roof rails on the hybrid trims and not on the LX, EX or "

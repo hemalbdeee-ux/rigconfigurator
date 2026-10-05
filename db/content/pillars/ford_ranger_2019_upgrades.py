@@ -31,7 +31,7 @@ Text fixes 2026-10-04: the two mentions of Husky parts 13791 and 14791 for the 2
 
 KIND = "upgrades"
 KEY = ("ford", "ranger", "2019-2023")
-CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks", "running-boards"]
 
 TITLE = "2019–2023 Ford Ranger Upgrades, Ranked: 3 Mods in Order, With Cab-Bed and 2024 Listing Traps"
 META = ("Three 2019–2023 Ranger upgrades in buying order: floor liners, tonneau cover and bed rack, with SuperCrew "
@@ -258,8 +258,9 @@ ARTICLE = {
            "says to fit the cover before the rack. Then square the rack to the cab, tighten every clamp to the "
            "maker's torque and recheck the fasteners after the first drive."},
   {"h": "Towing and side steps: what the truck may already have",
-   "body": "There is no trailer hitch guide and no running boards guide for the 2019–2023 Ranger on this site, so "
-           "neither is ranked here. This is what the truck may already have.\n\n"
+   "body": "There is no trailer hitch guide for the 2019–2023 Ranger on this site, so hitches are not ranked here. "
+           "Running boards now have their own guide for this truck, split by cab, so they are not ranked again here. "
+           "This is what the truck may already have.\n\n"
            "**The receiver.** Not every truck has one. A copy of the 2019 Ranger towing guide posted on Ranger5G "
            "lists the hitch receiver, with a 7-wire harness and a 4-pin and 7-pin connector, as the optional "
            "Trailer Tow Package (code 53R), and calls for that package on trailers over 3,500 lb. We read that "
@@ -272,8 +273,8 @@ ARTICLE = {
            "Ford's 2021 Ranger media page also gives 7,500 lb as the maximum. We did not read the 2020, 2022 or "
            "2023 figures. Your figure is in the owner's manual, and a receiver "
            "never raises it.\n\n"
-           "**Running boards.** We have not checked any running board listing for this generation, so we name none. "
-           "If you shop for them, the listing should name your cab, because the SuperCrew has four full-size doors "
+           "**Running boards.** The Ranger running boards guide on this site ranks them by cab. "
+           "Whatever you buy, the listing should name your cab, because the SuperCrew has four full-size doors "
            "and the SuperCab has small rear-hinged ones. The year range should sit inside 2019–2023, or the seller "
            "should confirm the brackets for your year in writing."},
  ],

@@ -31,7 +31,7 @@ disagreements.
 
 KIND = "upgrades"
 KEY = ("ford", "f-150", "2015-2020")
-CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks", "running-boards"]
 
 TITLE = "2015–2020 Ford F-150 Upgrades, Ranked: 3 Mods in Order, With Bed Length and 2021 Part-Number Traps"
 META = ("Three 2015–2020 F-150 upgrades in buying order: floor liners, tonneau cover and bed rack, with bed length, "
@@ -176,8 +176,8 @@ ARTICLE = {
  },
  "sections": [
   {"h": "Towing and steps: check what the truck already has",
-   "body": "There is no trailer hitch guide and no running boards guide for the 2015–2020 F-150 on this site, so "
-           "neither is ranked here.\n\n"
+   "body": "There is no trailer hitch guide for the 2015–2020 F-150 on this site, so hitches are not ranked here. "
+           "Running boards now have their own guide for this truck, sorted by cab, so they are not ranked again here.\n\n"
            "**The receiver.** Our vehicle data lists a **Class IV hitch with a 2 in receiver** for this generation. "
            "Not every truck has one. Ford's 2020 RV and Trailer Towing Guide lists "
            "the F-150's hitch receiver as included with the trailer tow packages, option codes 53A, 53B and 53C. We "
