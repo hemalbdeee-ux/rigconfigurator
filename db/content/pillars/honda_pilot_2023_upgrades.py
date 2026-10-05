@@ -28,13 +28,13 @@ names a layout); whether the floor pan is unchanged for 2026 from a Honda docume
 the budget crossbars; a specific bare-roof clamp kit, its price and rating; SportRack Vista XL weight and load
 rating; Rhino-Rack MasterFit 440L price; Honda's dealer hitch part number and price; whether Honda's height figure
 includes the roof rails; hands-free tailgate trims after 2023; and 2026 fit of listings whose titles stop at 2025.
-No Pilot guide exists for roof racks, running boards or lighting; none is ranked.
+No Pilot guide exists for running boards or lighting; none is ranked.
 Source fixes 2026-10-04 (round 2): kept consistent with the corrected guides. "Front-wheel" in the dek reworded to two-wheel drive (Honda says 2WD); the two statements that the floor liner guide treats the cabin floor as the same across trims now say what its listings show (years, no trim or layout named) and that one floor pan could not be confirmed from Honda; the claim that Honda mounts the TrailSport hitch behind the full-size spare was removed (not in the Honda pages read); roof rails on Honda's 2026 page narrowed to TrailSport and Touring, because two fresh readings of that page did not show rails on the Sport.
 """
 
 KIND = "upgrades"
 KEY = ("honda", "pilot", "2023-present")
-CATEGORIES = ["floor-mats", "hitches", "cargo-boxes"]
+CATEGORIES = ["floor-mats", "hitches", "cargo-boxes", "roof-racks"]
 
 TITLE = "2023–2026 Honda Pilot Upgrades, Ranked: 3 Mods in Order, With Roof Rail and Tow Rating Fit Traps"
 META = ("Three 2023–2026 Honda Pilot upgrades in buying order: floor liners, trailer hitch and cargo box, with roof "
@@ -190,8 +190,8 @@ ARTICLE = {
               ["Third row and cargo area", "Every trim", "Same", "Smartliner covers both; MAXPRO, Powerty and NIKALAIKA include the third row but no cargo liner; Husky's 14821 is a third-row piece"],
              ]}},
   {"h": "Roof rails, crossbars and the 165 lb figure: what sits under a cargo box",
-   "body": "There is no roof rack guide for the fourth-generation Pilot on this site, so a roof rack is not ranked "
-           "here.\n\n"
+   "body": "The fourth-generation Pilot now has its own roof rack guide on this site, with bars for the railed trims and "
+           "a clamp kit for the bare roof, so crossbars are not ranked here.\n\n"
            "**The rails.** Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and "
            "Elite for 2023 and 2024. The LX and EX-L come without them. As we read Honda's 2026 page, it lists "
            "roof rails on the TrailSport and Touring and not on the EX-L; we could not read the other "

@@ -29,7 +29,7 @@ Source fixes 2026-10-04: factory-hitch FAQ and section now say to read the recei
 
 KIND = "upgrades"
 KEY = ("jeep", "wrangler", "2018-present")
-CATEGORIES = ["floor-mats", "hitches", "led-light-bars", "running-boards"]
+CATEGORIES = ["floor-mats", "hitches", "led-light-bars", "running-boards", "roof-racks"]
 
 TITLE = "2018–2026 Jeep Wrangler JL Upgrades, Ranked: 3 Mods in Order, With Door-Count and 4xe Fit Traps"
 META = ("Three 2018–2026 Wrangler JL upgrades in buying order: floor liners, trailer hitch and light bar, with "
@@ -259,7 +259,8 @@ ARTICLE = {
            "the carpet, our guide says a nibbed liner grips the bare floor less well, so rely on the retention "
            "posts.\n\n"
            "Running boards now have their own JL guide on this site, split by door count, so they are not ranked "
-           "again here. Roof racks and bike racks have no JL guide yet, so no products are named for them.\n\n"
+           "again here. Roof racks now have their own JL guide, sorted by hardtop, soft top and door count, so they are "
+           "not ranked here either. Bike racks have no JL guide yet, so no products are named for them.\n\n"
            "Fit the three in this order.\n\n"
            "1. **Floor liners.** No tools. Remove the factory mats, check that the drain plugs are seated, hook the "
            "driver liner onto the retention posts and press every pedal to the floor.\n"

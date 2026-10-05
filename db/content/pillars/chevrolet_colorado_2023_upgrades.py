@@ -25,7 +25,7 @@ tell readers to check for the factory hitch, and the vehicle data summary says C
 
 KIND = "upgrades"
 KEY = ("chevrolet", "colorado", "2023-present")
-CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks"]
+CATEGORIES = ["floor-mats", "tonneau-covers", "bed-racks", "running-boards"]
 
 TITLE = "2023–2026 Chevy Colorado Upgrades, Ranked: 3 Mods in Order, With Sport Bar and Model-Year Fit Traps"
 META = ("Three 2023+ Colorado upgrades in buying order: floor liners, tonneau cover and bed rack, with sport bar, "
@@ -169,8 +169,8 @@ ARTICLE = {
  },
  "sections": [
   {"h": "Towing: check for a receiver before you shop for a hitch",
-   "body": "There is no trailer hitch guide for the 2023+ Colorado on this site, and no running boards guide either, "
-           "so neither is ranked above. Here is what the truck may already have.\n\n"
+   "body": "There is no trailer hitch guide for the 2023+ Colorado on this site, so a hitch is not ranked above. Running "
+           "boards now have their own Colorado guide. Here is what the truck may already have.\n\n"
            "**The receiver.** Our vehicle data lists a **Class IV hitch with a 2 in receiver** for this generation. "
            "Chevrolet's 2023 brochure, as we read it, describes a Trailering Package that includes a trailer hitch "
            "and a 7-pin connector, and a separate Advanced Trailering Package that is not offered on the ZR2. The "

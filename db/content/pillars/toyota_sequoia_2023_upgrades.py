@@ -44,7 +44,7 @@ replace factory ones" removed (unsourced) in favor of Go Rhino's fit list for it
 
 KIND = "upgrades"
 KEY = ("toyota", "sequoia", "2023-present")
-CATEGORIES = ["floor-mats", "running-boards", "cargo-boxes"]
+CATEGORIES = ["floor-mats", "running-boards", "cargo-boxes", "roof-racks"]
 
 TITLE = "2023–2026 Toyota Sequoia Upgrades, Ranked: 3 Mods in Order, With Seat-Layout and Tundra Fit Traps"
 META = ("Three 2023–2026 Sequoia upgrades in buying order: floor liners, running boards and cargo box, with 7 vs 8 "
@@ -305,8 +305,9 @@ ARTICLE = {
           "boards depend on the year, the Sequoia name on the listing and what is already bolted to the rocker.\n\n"
           "The cargo box waits until the end for two reasons. With crossbars added it is the largest bill on this "
           "page, and the roof sets its limits: rails that may be raised or flush, a load figure we could not "
-          "confirm and a 75 in body. This site has no Sequoia guide yet for a roof rack or a trailer hitch, so "
-          "neither is ranked, and a receiver may already be under the rear bumper. In every category, the listing "
+          "confirm and a 75 in body. The roof rack guide covers the crossbars and the raised vs flush rail check. This "
+          "site has no Sequoia trailer hitch guide yet, so a hitch is not ranked, and a receiver may already be under "
+          "the rear bumper. In every category, the listing "
           "to distrust is one written for the Tundra or for the 2008–2022 Sequoia. Each linked guide covers the "
           "fit details for its category.",
  },
