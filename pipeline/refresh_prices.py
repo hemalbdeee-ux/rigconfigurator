@@ -7,6 +7,7 @@ Without them this script exits quietly and pages show price_band text.
 Amazon's Associates Program Policies decide the storage rules used here:
 - price data may be cached for up to 24 hours, and an image link may be stored for up to 24 hours;
 - a price shown from the API needs a date/time stamp next to it (the site adds it from price_checked_at).
+Every priced check is also appended to price_history (migration 013) for the deals board.
 So every run re-checks products older than REFRESH_AFTER and then clears any price or Amazon image link
 older than EXPIRE_AFTER. The v_fitment view (migration 012) applies the same cutoff on the read side.
 
@@ -128,6 +129,8 @@ with conn() as c:
             cents = price_cents(it) if it else None
             c.execute("UPDATE products SET price_cents=%s, image_url=%s, price_checked_at=now() WHERE id=%s",
                       (cents, image_url(it) if it else None, pid))
+            if cents:
+                c.execute("INSERT INTO price_history (product_id, price_cents) VALUES (%s, %s)", (pid, cents))
             done += 1; priced += 1 if cents else 0
             for (p,) in c.execute("""SELECT DISTINCT unnest(ARRAY[
                                        '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug,

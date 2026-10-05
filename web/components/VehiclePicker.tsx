@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export type PickerVehicle = { make: string; label: string; path: string };
 
 // Two-step picker: make, then generation. One click to the vehicle hub, where every product is fit-checked.
-export function VehiclePicker({ vehicles, compact = false }: { vehicles: PickerVehicle[]; compact?: boolean }) {
+export function VehiclePicker({ vehicles, compact = false, cta = "Show parts that fit →" }: { vehicles: PickerVehicle[]; compact?: boolean; cta?: string }) {
   const router = useRouter();
   const makes = useMemo(() => [...new Set(vehicles.map(v => v.make))].sort(), [vehicles]);
   const [make, setMake] = useState("");
@@ -28,7 +28,7 @@ export function VehiclePicker({ vehicles, compact = false }: { vehicles: PickerV
           {models.map(v => <option key={v.path} value={v.path}>{v.label.replace(`${v.make} `, "")}</option>)}
         </select>
       </label>
-      <button type="submit" className="btn btn-lg" disabled={!path}>Show parts that fit →</button>
+      <button type="submit" className="btn btn-lg" disabled={!path}>{cta}</button>
     </form>
   );
 }

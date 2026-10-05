@@ -147,3 +147,27 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
   .vgrid { grid-template-columns: 1fr 1fr; gap: 10px; } .vcard-title { font-size: 14px; } .vcard-body { padding: 10px; } .vcard-body .muted { font-size: 12px; }
   .how { padding: 18px; }
 }
+
+/* ---- build / tools / deals ---- */
+.tool-page { max-width: 820px; margin: 0 auto; } .tool-page.wide { max-width: 1100px; }
+.tool-result { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin: 20px 0 32px; }
+.tool-result h2 { margin-top: 0; } .tool-result th { width: 140px; text-transform: none; letter-spacing: 0; font-size: 14px; }
+.builder { display: grid; grid-template-columns: 1fr 300px; gap: 24px; align-items: start; }
+.build-slot { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin-bottom: 12px; }
+.build-slot.skipped { opacity: .55; }
+.build-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.build-toggle { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; cursor: pointer; }
+.build-toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
+.build-row { display: grid; grid-template-columns: 96px 1fr auto; gap: 14px; align-items: center; margin-top: 12px; }
+.build-img { background: #fff; border-radius: 8px; padding: 6px; display: block; } .build-img img, .build-img .img-ph { width: 84px; height: 84px; object-fit: contain; display: block; }
+.build-body select { width: 100%; }
+.build-cta { text-align: right; min-width: 170px; }
+.build-price { font-weight: 800; font-size: 18px; margin-bottom: 8px; } .build-price .price-asof { display: block; font-size: 11px; font-weight: 400; color: var(--muted); }
+.build-total { position: sticky; top: 72px; background: var(--card); border: 1px solid var(--accent); border-radius: 14px; padding: 16px; }
+.build-total .list-plain li { display: flex; justify-content: space-between; gap: 10px; font-size: 14px; padding: 8px 0; }
+.build-sum { display: flex; justify-content: space-between; align-items: baseline; border-top: 2px solid var(--line); margin-top: 8px; padding-top: 10px; }
+.build-sum strong { font-size: 24px; color: var(--accent); }
+@media (max-width: 820px) {
+  .builder { grid-template-columns: 1fr; } .build-total { position: static; }
+  .build-row { grid-template-columns: 72px 1fr; } .build-cta { grid-column: 1 / -1; text-align: left; } .build-img img, .build-img .img-ph { width: 60px; height: 60px; }
+}

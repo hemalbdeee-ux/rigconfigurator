@@ -88,3 +88,26 @@ export async function categoryCounts(): Promise<CategoryCount[]> {
     FROM categories c JOIN fitment_pages fp ON fp.category_id=c.id AND fp.status='published'
     GROUP BY c.id ORDER BY c.sort`);
 }
+
+// ---- /deals ----
+export type Deal = Fit & { vehicle: string; page: string; hi_cents: number; drop_pct: number; seen_at: string };
+
+export async function activeDeals(limit = 30): Promise<Deal[]> {
+  return q<Deal>(`
+    SELECT DISTINCT ON (d.product_id) f.*, d.avg90_cents AS hi_cents, d.drop_pct::float AS drop_pct, d.seen_at::text AS seen_at,
+           v.year_from||'–'||COALESCE(v.year_to, EXTRACT(YEAR FROM CURRENT_DATE)::int)::text||' '||m.name||' '||v.model_name AS vehicle,
+           '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||f.category_slug AS page
+    FROM deals d JOIN v_fitment f ON f.product_id=d.product_id
+    JOIN vehicles v ON v.id=f.vehicle_id JOIN makes m ON m.id=v.make_id
+    WHERE d.active AND f.price_cents IS NOT NULL
+    ORDER BY d.product_id, f.rank
+    LIMIT $1`, [limit]).then(rows => rows.sort((a, b) => b.drop_pct - a.drop_pct));
+}
+
+export type TrackingStats = { since: string | null; products: number; checks: number };
+export async function trackingStats(): Promise<TrackingStats> {
+  try {
+    const r = await q<TrackingStats>(`SELECT min(checked_at)::date::text AS since, count(DISTINCT product_id)::int AS products, count(*)::int AS checks FROM price_history`);
+    return r[0];
+  } catch { return { since: null, products: 0, checks: 0 }; }   // table missing before migration 013
+}

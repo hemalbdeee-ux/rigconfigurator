@@ -116,3 +116,9 @@ export async function publishedGuides(categorySlug?: string): Promise<CategoryIn
     WHERE fp.status='published' ${categorySlug ? "AND c.slug=$1" : ""}
     ORDER BY c.sort, m.name, v.model_name, v.year_from DESC`, categorySlug ? [categorySlug] : []);
 }
+
+export async function getVehicleById(id: number): Promise<Vehicle | null> {
+  if (!Number.isInteger(id)) return null;
+  const rows = await q<Vehicle>(`${VEHICLE_SELECT} WHERE v.id=$1`, [id]);
+  return rows[0] ?? null;
+}
