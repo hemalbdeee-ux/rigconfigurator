@@ -112,7 +112,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         {a.reviewed && <> · Last reviewed {fmtDate(a.reviewed)}</>}
         {verifiedAt && <> · Fit data verified {fmtDate(verifiedAt)}</>}
       </div>
-      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. <Link href="/disclosure">How we make money</Link>.</div>
+      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
 
       <section className="picks-box">
         <div className="picks-h">Our top picks</div>
@@ -124,7 +124,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
               <span className="mini-rank">{i + 1}</span>
               <div><a href={`#pick-${a.picks.findIndex(p => p.asin === t.asin) + 1}`} className="pick-name">{f.name.split(",")[0]}</a>
                 <div className="muted" style={{ fontSize: 13 }}><strong>{t.role}</strong> — {t.why}</div></div>
-              <div className="mini-cta"><div style={{ fontWeight: 700 }}>{a.picks.find(p => p.asin === t.asin)?.price ?? f.price_band ?? "See price"}</div>
+              <div className="mini-cta"><div style={{ fontWeight: 700 }}><Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} /></div>
                 <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon ›</a></div>
             </div>
           );
@@ -156,7 +156,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         if (!f) return null;
         return (
           <section key={p.asin} id={`pick-${i + 1}`} className="pick">
-            <h2>#{i + 1}: {f.name.split(",")[0]} — {p.role} ({p.price ?? f.price_band ?? "See price"})</h2>
+            <h2>#{i + 1}: {f.name.split(",")[0]} — {p.role}</h2>
             <div className="card pcard">
               <div className="pcard-top">
                 {f.image_url ? <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=pickimg-${i + 1}`} rel="nofollow sponsored noopener" target="_blank"><img src={f.image_url} alt={f.name} loading="lazy" /></a> : null}
@@ -166,7 +166,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
                   <span className={`pill ${f.confidence === 1 ? "warn" : "ok"}`}>{f.confidence === 1 ? "Confirm fit on listing" : "Listed for this truck"}</span>
                   {f.note && <span className="pill">{f.note}</span>}
                 </div>
-                <div className="pcard-price"><div className="price">{p.price ?? f.price_band ?? "See price"}</div><Buy f={f} path={path} placement={`pick-${i + 1}`} /></div>
+                <div className="pcard-price"><div className="price"><Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=pick-${i + 1}`} /></div><Buy f={f} path={path} placement={`pick-${i + 1}`} /></div>
               </div>
               <div className="proscons">
                 <div><div className="pc-h ok">Pros</div><ul>{p.pros.map(x => <li key={x}>{x}</li>)}</ul></div>

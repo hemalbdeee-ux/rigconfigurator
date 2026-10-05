@@ -52,21 +52,23 @@ from amazon_creatorsapi.errors import (AccessDeniedError, AmazonCreatorsApiError
                                        AuthenticationError, ItemsNotFoundError, TooManyRequestsError)
 
 RESOURCES = [R.ITEM_INFO_DOT_TITLE, R.IMAGES_DOT_PRIMARY_DOT_LARGE, R.OFFERS_V2_DOT_LISTINGS_DOT_PRICE,
-             R.OFFERS_V2_DOT_LISTINGS_DOT_IS_BUY_BOX_WINNER]
+             R.OFFERS_V2_DOT_LISTINGS_DOT_CONDITION]
 FATAL = (AuthenticationError, AccessDeniedError, AssociateValidationError)
 api = AmazonCreatorsApi(CID, CSECRET, CVERSION, TAG, Country.US, throttling=1.1)
 
 
 def price_cents(item):
-    """Buy-box listing price in cents, or None when Amazon returns no USD offer."""
+    """Lowest new-condition USD price in cents (Associates policy: show the lowest new price), or None."""
     listings = (getattr(item.offers_v2, "listings", None) or []) if item.offers_v2 else []
-    if not listings:
-        return None
-    best = next((l for l in listings if getattr(l, "is_buy_box_winner", False)), listings[0])
-    money = getattr(getattr(best, "price", None), "money", None)
-    if not money or money.amount is None or (money.currency and money.currency != "USD"):
-        return None
-    return int(round(float(money.amount) * 100))
+    cents = []
+    for l in listings:
+        cond = getattr(getattr(l, "condition", None), "value", None)
+        if cond and str(cond).lower() != "new":
+            continue
+        money = getattr(getattr(l, "price", None), "money", None)
+        if money and money.amount is not None and (not money.currency or money.currency == "USD"):
+            cents.append(int(round(float(money.amount) * 100)))
+    return min(cents) if cents else None
 
 
 def image_url(item):

@@ -28,6 +28,11 @@ depth, tone and field names. The owner approved that page; match it.
    RealTruck/etrailer/official store (WebFetch works on realtruck.com, etrailer.com, maker sites; amazon.com
    pages are blocked). Quote prices as "RealTruck lists it at $X" or a price band; if unverified say "about $X"
    or use the FITS band. Never state a number you did not read.
+
+Amazon Associates price rule (Program Policies): a product price may only be shown on the site if it comes from the
+Creators API (the product card does that, with a time stamp). So in article text: never state or guess an Amazon
+price ("$X on Amazon", "Amazon has it for $X"); every exact price must name the maker or retailer it was read from
+("Yakima lists it at $X"), a price band is fine; the `price` field of a pick is editorial data and is NOT rendered.
 4. NO invented hands-on testing. Never write "we tested", "our testing", "we installed", "hands-on",
    "after N miles", "our truck". Authority = fitment data + maker specs + cited owner reports.
    Owner reports: only cite a forum thread you actually opened/searched ("owners on TacomaWorld report…").

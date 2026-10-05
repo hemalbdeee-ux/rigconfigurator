@@ -88,7 +88,7 @@ export default async function UpgradesPage({ params }: { params: Promise<P> }) {
       <p className="dek">{a.dek}</p>
       <Hero h={hero} alt={`${vehicleTitle(v)} upgrades`} priority />
       <Byline author={a.author} reviewed={a.reviewed} />
-      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. <Link href="/disclosure">How we make money</Link>.</div>
+      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
 
       <Takeaways items={a.takeaways} linker={L} />
       <Toc items={toc} />

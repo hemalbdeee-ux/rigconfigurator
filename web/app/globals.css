@@ -55,7 +55,7 @@ select { background:var(--card); color:var(--fg); border:1px solid var(--line); 
 .pcard { padding: 18px; margin: 12px 0 18px; }
 .pcard-top { display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: start; }
 .pcard-top img { width: 140px; height: 140px; object-fit: contain; background: #fff; border-radius: 8px; }
-.pcard-price { text-align: right; } .pcard-price .price { font-size: 26px; font-weight: 800; color: var(--accent); margin-bottom: 8px; }
+.pcard-price { text-align: right; } .pcard-price .price { font-size: 26px; font-weight: 800; color: var(--accent); margin-bottom: 8px; } .pcard-price .price .price-asof { display: block; font-size: 12px; font-weight: 400; color: var(--muted); }
 .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
 .proscons ul { margin: 6px 0; padding-left: 18px; font-size: 14px; }
 .pc-h { font-weight: 800; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; } .pc-h.ok { color: var(--ok); } .pc-h.bad { color: #f87171; }
@@ -84,4 +84,4 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .upg { margin: 14px 0; } .upg-head { display: flex; gap: 10px; align-items: center; margin-bottom: 6px; }
 .learn-box { border: 1px dashed var(--line); border-radius: 10px; padding: 10px 14px; margin: 18px 0; font-size: 15px; background: var(--card); }
 .btn-ghost { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
-.price-live { color: inherit; text-decoration: none; } .price-asof { font-size: 12px; font-weight: 400; color: var(--muted); white-space: normal; }
+.price-live { color: inherit; text-decoration: none; } .price-src { font-size: 11px; font-weight: 400; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-right: 4px; } .price-asof { font-size: 12px; font-weight: 400; color: var(--muted); white-space: normal; }

@@ -123,6 +123,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
         <ul>{checks.map(c => <li key={c}>{c}</li>)}</ul>
       </>)}
 
+      {ready.length > 0 && <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices labelled &ldquo;Amazon price&rdquo; come from Amazon and carry their own time stamp. <Link href="/disclosure">How we make money</Link>.</div>}
       {ready.map(c => {
         const list = byCat(c.slug);
         const p = published.get(c.slug)!;

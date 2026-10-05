@@ -31,7 +31,7 @@ FAQ = [
   "Usually some. Autoblog points out that leaving any crossbars on increases wind noise and costs fuel economy, which is the point of the Outback's retractable design. Aero (teardrop) bars are quieter than square or round bars; The Rack Shop recommends Yakima's JetStream over its steel CoreBar for that reason. Bars that overhang the rails, or a missing end cap, are the usual whistlers. Take bars off between trips if you can."),
  ("Do these crossbars need drilling?",
   "No. Every set here clamps around the existing raised rails, with no drilling. The standard-rail bars replace the retractable crossbars' job; you simply stow the factory bars along the rails first. Keep the factory bars' sockets clean, since Autoblog notes they can fill with gunk over time, which makes them stiff when you want them back."),
- ("Thule or Yakima kit vs a $100 lockable Amazon set?",
+ ("Thule or Yakima kit vs a budget lockable set?",
   "A Thule or Yakima system buys a fit-guide-backed part number, a known warranty, lockable towers and a large accessory range. etrailer prices Thule WingBar Evo for this Outback at $704.85, and The Rack Shop sells a Yakima SkyLine kit at $653.85. The lockable ERKUL and Tuyoung sets cost a fraction of that and work well for bags and bikes, but their specs come from the listing alone. For a rooftop tent or daily use, the name-brand kit is the safer buy."),
 ]
 

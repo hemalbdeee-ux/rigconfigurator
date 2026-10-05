@@ -37,7 +37,7 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six cross bar sets for the 4th-generation Highlander's factory side rails, from about $80 Amazon side-rail bars to Toyota's own PT767-48200, plus the Thule and Yakima fixed-point systems etrailer lists at around $700. We list which trims have rails, each set's load rating and lock status, and what a roof load costs you in fuel.",
+ "dek": "Six cross bar sets for the 4th-generation Highlander's factory side rails, from budget Amazon side-rail bars to Toyota's own PT767-48200, plus the Thule and Yakima fixed-point systems etrailer lists at around $700. We list which trims have rails, each set's load rating and lock status, and what a roof load costs you in fuel.",
  "author": "jake-morrison",
  "reviewed": "2026-10-04",
  "method": "We did not install these bars ourselves. We ranked them on stated fitment (years and trims named in the listing), published load ratings, locks and price, and compared them with the Thule and Yakima systems etrailer lists for the 2020–2025 Highlander. Prices for Thule and Yakima were checked at etrailer in September 2026. Amazon prices move daily, so the button shows the live price.",

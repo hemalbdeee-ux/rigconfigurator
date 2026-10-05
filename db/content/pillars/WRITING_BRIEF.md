@@ -47,6 +47,8 @@ ARTICLE = {
 }
 ```
 Minimum 2,500 words. Aim 2,800–3,600. Numbers (SAE/ratings/weights/prices) only from pages you actually read; cite them in sources.
+Amazon Associates price rule: never state or guess an Amazon price in the text; an exact price must name the maker or
+retailer it was read from (or come from a guide that does), and tier totals stay "about $X–$Y" bands.
 
 ## Finish
 `python3 db/content/validate_pillars.py db/content/pillars/<files>` → fix until PASS.
