@@ -9,6 +9,8 @@ META = ("Six F-150 SuperCrew running boards and nerf bars from Westin, Go Rhino,
         "step width, finish, warranty and Lightning fit notes.")
 
 FAQ = [
+ ('What are the best running boards for a 2021–2026 F-150?',
+  "For a 2021–2026 F-150 SuperCrew, our top running board is the Go Rhino RB20, a wide galvanized steel step with a lifetime structural warranty. If you want a nerf bar, Westin's PRO TRAXX 5 oval is listed for the 2015–2026 F-150 Crew Cab and the Lightning. Lifted trucks are better served by the RB20 kit that adds two pairs of drop steps. The Nilight 6 in aluminum boards are the value pick and bolt to the factory holes. Whichever you choose, check that the listing names your cab and your model year before you order."),
  ("Do 2015–2020 F-150 running boards fit a 2021+ F-150?",
   "Often, yes, for the SuperCrew. Westin lists its PRO TRAXX 5 21-53945 for 2015–2026 F-150 Crew Cab and 2022–2026 Lightning, and Go Rhino lists its RB20 69415587PC for 2015–2024 F-150 SuperCrew. The cab and rocker mounting points carried over. Check the listing names your cab and years before ordering."),
  ("Do I need to drill to install running boards on an F-150?",

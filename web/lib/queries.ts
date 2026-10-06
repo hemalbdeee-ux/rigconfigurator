@@ -25,6 +25,16 @@ const VEHICLE_SELECT = `
 
 // Open-ended generations show the current year ("2019–2026"), matching article titles; ISR keeps it fresh.
 export const yearsLabel = (v: Vehicle) => `${v.year_from}–${v.year_to ?? new Date().getFullYear()}`;
+/** Every model year of the generation, e.g. [2021, 2022, …]. An open generation runs to the current calendar year, like yearsLabel. */
+export const modelYears = (v: Vehicle): number[] => {
+  const to = v.year_to ?? new Date().getFullYear();
+  return Array.from({ length: Math.max(1, to - v.year_from + 1) }, (_, i) => v.year_from + i);
+};
+/** "2021, 2022, 2023 and 2024": searchers type one model year, so pages spell each year out once. */
+export const modelYearsText = (v: Vehicle) => {
+  const ys = modelYears(v).map(String);
+  return ys.length < 2 ? ys.join("") : `${ys.slice(0, -1).join(", ")} and ${ys[ys.length - 1]}`;
+};
 export const vehicleTitle = (v: Vehicle) => `${yearsLabel(v)} ${v.make_name} ${v.model_name}`;
 export const vehiclePath = (v: Vehicle) => `/vehicles/${v.make_slug}/${v.model_slug}/${v.gen_slug}`;
 

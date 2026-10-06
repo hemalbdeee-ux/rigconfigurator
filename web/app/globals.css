@@ -43,6 +43,7 @@ select { background:var(--card); color:var(--fg); border:1px solid var(--line); 
 .art p, .art li { line-height: 1.7; }
 .dek { font-size: 18px; color: var(--fg); opacity: .9; margin: 8px 0 12px; }
 .byline { font-size: 14px; color: var(--muted); }
+.fit-years { font-size: 14px; color: var(--muted); margin: 6px 0 0; }
 .disclose { font-size: 13px; color: var(--muted); border-left: 3px solid var(--line); padding: 4px 10px; margin: 12px 0 20px; }
 .picks-box { border: 1px solid var(--line); border-radius: 12px; background: var(--card); padding: 8px 16px; margin: 16px 0; }
 .picks-h { font-weight: 800; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 0; color: var(--accent); }

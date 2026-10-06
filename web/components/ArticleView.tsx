@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Category, Fit, GuideLink, Vehicle } from "@/lib/queries";
-import { vehiclePath, vehicleTitle } from "@/lib/queries";
+import { modelYearsText, vehiclePath, vehicleTitle } from "@/lib/queries";
 import { Price } from "./Price";
 import { getAuthor } from "@/lib/authors";
 import { Inline, Linker, Md } from "./Md";
@@ -112,6 +112,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         {a.reviewed && <> · Last reviewed {fmtDate(a.reviewed)}</>}
         {verifiedAt && <> · Fit data verified {fmtDate(verifiedAt)}</>}
       </div>
+      <p className="fit-years">Covers the {modelYearsText(v)} {v.make_name} {v.model_name} ({v.gen_name}). Some listings name fewer model years, so check the fit note on each pick.</p>
       <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
 
       <section className="picks-box">

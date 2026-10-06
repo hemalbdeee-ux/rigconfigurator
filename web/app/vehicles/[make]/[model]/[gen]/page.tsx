@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allVehicles, categoriesFor, fitsFor, getVehicle, heroFor, pagesFor, siblingsOf, vehiclePath, vehicleTitle, yearsLabel, type Fit } from "@/lib/queries";
+import { allVehicles, categoriesFor, fitsFor, getVehicle, heroFor, modelYearsText, pagesFor, siblingsOf, vehiclePath, vehicleTitle, type Fit } from "@/lib/queries";
 import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
 import { SITE_URL } from "@/lib/db";
 import { Price } from "@/components/Price";
-import { hubSeoTitle } from "@/lib/seo";
+import { hubSeoTitle, shortCategory } from "@/lib/seo";
 import { upgradesPathFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
@@ -21,7 +21,14 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const { make, model, gen } = await params;
   const v = await getVehicle(make, model, gen);
   if (!v) return {};
-  const description = `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it: bed, roof, hitch and interior.`;
+  // Name the categories this vehicle really has a guide for; the old line said "bed, roof, hitch and interior" on every hub.
+  const [cats, pages] = await Promise.all([categoriesFor(v.body_style), pagesFor(v.id)]);
+  const live = new Set(pages.filter(p => p.status === "published").map(p => p.category_slug));
+  const names = cats.filter(c => live.has(c.slug)).map(c => shortCategory(c)).map(n => n.startsWith("LED ") ? `LED ${n.slice(4).toLowerCase()}` : n.toLowerCase());
+  const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}` : names.join("");
+  const description = names.length
+    ? `Accessories that fit the ${vehicleTitle(v)}: ${list}. Fit facts, what to check before buying and Amazon prices.`
+    : `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it.`;
   const title = hubSeoTitle(v);
   return {
     title,
@@ -68,7 +75,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
     return o.charAt(0).toUpperCase() + o.slice(1);
   };
   const facts: [string, string | null][] = [
-    ["Generation", v.gen_name], ["Years", v.year_to ? yearsLabel(v) : `${v.year_from}–present (current generation)`], ["Body", v.body_style.toUpperCase()],
+    ["Generation", v.gen_name], ["Model years", v.year_to ? modelYearsText(v) : `${modelYearsText(v)} (current generation)`], ["Body", v.body_style.toUpperCase()],
     ["Bed lengths", v.bed_lengths_in?.length ? v.bed_lengths_in.map(b => `${b} in (${(b / 12).toFixed(1)} ft)`).join(", ") : null],
     ["Roof type", fact("roof_type_fact", v.roof_type)], ["Roof load", fact("roof_fact", v.roof_load_lb ? `${v.roof_load_lb} lb dynamic` : null)],
     ["Hitch", fact("hitch_fact", v.hitch_class && v.hitch_class !== "none" ? `Class ${v.hitch_class} (${v.receiver_in} in receiver)` : "No factory receiver")],

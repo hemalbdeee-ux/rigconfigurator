@@ -9,12 +9,16 @@ export const MAX_TITLE = 60;
 
 /**
  * <title> for search results (≤ 60 chars), kept separate from the on-page H1.
- * Tries each candidate with the brand suffix, then without, then cuts the last one at a word boundary.
+ * Candidates run from the fullest wording to the shortest. Each is tried with the brand suffix, then without it,
+ * before moving on to a shorter one: the make name ("Ford", "Kia") is a search term and the brand suffix is not,
+ * so a full candidate without the suffix beats a stripped one with it. The last resort cuts at a word boundary.
  * Returned as { absolute } so the layout's "%s | Rig Configurator" template is not applied twice.
  */
 export function seoTitle(...candidates: string[]): { absolute: string } {
-  for (const c of candidates) if ((c + SUFFIX).length <= MAX_TITLE) return { absolute: c + SUFFIX };
-  for (const c of candidates) if (c.length <= MAX_TITLE) return { absolute: c };
+  for (const c of candidates) {
+    if ((c + SUFFIX).length <= MAX_TITLE) return { absolute: c + SUFFIX };
+    if (c.length <= MAX_TITLE) return { absolute: c };
+  }
   const last = candidates[candidates.length - 1];
   return { absolute: last.slice(0, MAX_TITLE + 1).replace(/\s+\S*$/, "").replace(/[\s,:;–—-]+$/, "") };
 }

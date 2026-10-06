@@ -15,6 +15,8 @@ META = ("Five 2-inch hitches for the first-gen Telluride: CURT, Draw-Tite, Kia O
         "5,500 lb catch and the 2020–22 vs 2023–25 wiring split.")
 
 FAQ = [
+ ('What is the best trailer hitch for a Kia Telluride?',
+  'For most 2020–2025 Tellurides we pick the CURT 13420. It has a concealed body and is rated 5,000 lb gross trailer weight and 750 lb tongue weight. Buy the Draw-Tite 76420 if you will tow with a weight-distribution setup, since it is rated 6,000 lb that way and also fits the Palisade. The Kia genuine hitch, sold with its harness, is the dealer route at a higher price. Order the wiring harness for your model year at the same time as the hitch, because the harness fit splits between 2022 and 2023.'),
  ("How much can a 2020–2025 Kia Telluride tow?",
   "Kia's 2023 press kit says \"Standard towing rated up to 5,000 pounds\" and 5,500 lb for the X-Pro trim, which was new for 2023. A Kia dealer page repeats 5,500 lb for the 2024 and 2025 X-Pro and 5,000 lb for the other trims. Owners on TellurideForum point out that the maximum tongue weight is 500 lb, which is 10% of 5,000 lb. Check your owner's manual for your trim and drivetrain, and remember that passengers and cargo count against what the Telluride can carry, not just the trailer."),
  ("Can an X-Pro tow 5,500 lb with one of these hitches?",
