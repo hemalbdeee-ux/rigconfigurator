@@ -13,6 +13,8 @@ META = ("Six crossbars for the 6th-gen Outback, split by rail type: retractable-
         "with load limits, spread, noise and tent notes.")
 
 FAQ = [
+ ("What is the best roof rack for a 2020–2025 Subaru Outback?",
+  "It depends on the rail. For a standard 2020–2025 Subaru Outback with raised rails and retractable crossbars, the Thule aero bar kit built for the stowable factory rack is the best overall set, and the lockable ERKUL aluminum set is the best value. For the 2022–2025 Outback Wilderness, which has ladder-type rails and no built-in crossbars, Tuyoung's 330 lb all-aluminum bars are the best choice for tents and heavy loads, and BougeRV's lockable set suits bikes, boats and boxes. Bars for one rail type do not fit the other. Subaru lists 150 lb for the standard roof and 200 lb while driving for the Wilderness, so use the owner's manual figure for your year, and the 2026 Outback is a different car."),
  ("Do I even need aftermarket crossbars on a 2020–2025 Outback?",
   "Maybe not. Non-Wilderness Outbacks of this generation have raised side rails with Subaru's retractable crossbars built in: you lift a tab, pull the bar out of its socket and swing it across. For a light cargo bag, a single bike or skis, those bars do the job. Owners move to aftermarket bars when they want a wider bar for two items side by side, a T-slot channel for modern accessories, or a quieter aero profile. Subaru's 2022, 2023 and 2025 spec sheets list no built-in crossbars on the Wilderness, so it needs a set before anything that mounts to bars can go on. The 2022 sheet lists a Thule crossbar set as an option on that trim."),
  ("Will Outback Wilderness crossbars fit a regular Outback, or the other way around?",

@@ -15,6 +15,8 @@ META = ("Seven Yakima, Thule, Rhino-Rack, INNO and SportRack boxes for the 4th-g
         "the 165 lb roof figure, spread and liftgate checks.")
 
 FAQ = [
+ ("What is the best cargo box for a 2023–2026 Honda Pilot?",
+  "The Yakima GrandTour 16 is the best overall pick for most Pilot families. Yakima lists it at 16 cu ft in a 79 in shell, with dual-side opening, SKS locks and a 24–36 in crossbar spread that suits most raised-rail and clamp kits. If roof weight matters most, the Rhino-Rack MasterFit 440L gives 15.5 cu ft at 38.6 lb, which leaves the most of Honda's 165 lb roof figure for gear. The Thule Motion 3 XXL is the biggest box at 21 cu ft, but it weighs 57.2 lb, so pack it light. Fit crossbars for your trim first: raised-rail bars on the Sport, TrailSport, Touring and Elite, or a bare-roof clamp kit on the LX and EX-L."),
  ("Which 2023–2026 Honda Pilot trims have roof rails?",
   "Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and Elite for both the 2023 and 2024 Pilot. The LX and EX-L come without rails, so they need a bare-roof crossbar kit that clamps into the door openings before any box can go on. The Info Center pages we read cover 2023 and 2024 only. If you have a 2025 or 2026 Pilot, including the Black Edition (added for 2025, per Wikipedia) or the Touring Blackout (on Honda's 2026 page), look at the roof: rails that run front to back mean a raised-rail kit, and a smooth roof means a clamp kit. Crossbar listings for this generation often split exactly this way."),
  ("What is the roof weight limit on a 2023–2026 Pilot?",

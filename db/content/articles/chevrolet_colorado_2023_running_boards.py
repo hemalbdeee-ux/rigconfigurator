@@ -9,6 +9,8 @@ META = ("Seven 3rd-gen Colorado Crew Cab side steps from Rough Country, Westin, 
         "drop steps, sliders, a ZR2 rail step and power steps.")
 
 FAQ = [
+ ("What are the best running boards for a 2023–2026 Chevy Colorado?",
+  "Rough Country's HD2 aluminum board is the best overall running board for the 2023–2026 Colorado. It has a 5 in step, bolts on and does not rust the way a chipped steel board can. Westin's PRO TRAXX 4 is the nerf bar pick, in polished stainless with a lifetime finish warranty. Westin's HDX Drop gives a lifted truck a lower step on pavement, and Rough Country's power boards keep trail clearance with a 660 lb per-side rating. On a ZR2, the factory rock rail is in the way, so use the snap-on clip step instead. Check that the listing names your model year, since some titles stop at 2025."),
  ("Do 2015–2022 Colorado running boards fit the 2023+ Colorado?",
   "Often, yes, but only buy a part the maker lists for your year. The 2023 Colorado is a new generation with a new body, so we expected a catalog split. The fit lists we read show the opposite for steps: Westin lists its PRO TRAXX 4 (21-24010) and HDX Drop (56-14015) for the 2015–2026 Colorado Crew Cab, and Rough Country lists its HD2 boards (SRB151977) and power boards (PSR92010) for 2015–2026. That means the rocker mounting points carry over on these kits. Floor liners and tonneau covers did not carry over, so do not assume every accessory works this way. If a step listing stops at 2022, skip it."),
  ("Is the 2023+ Colorado Crew Cab only?",

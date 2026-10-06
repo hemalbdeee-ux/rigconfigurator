@@ -12,6 +12,8 @@ META = ("Five crossbar sets for the WL Grand Cherokee, L and 4xe flush side rail
         "fits, fixed-spread limits and the 2021 model-year trap.")
 
 FAQ = [
+ ("What is the best roof rack for a 2022–2026 Jeep Grand Cherokee?",
+  "Wonderdriver's clamp-on crossbars are the best overall value. The listing covers the Grand Cherokee and the Grand Cherokee L through 2026, the bars slide along the flush rail so you can set the spread your carrier needs, and the printed rating is 300 lb. The low-noise set is the pick for highway miles. BRIGHTLINES' OEM-style bars bolt into the flush rails' holes with a 165 lb rating, FLYCLE's set adds an anti-theft lock, and a Thule system brings a fit kit and a lifetime warranty. Match the body first: a 2021 two-row Grand Cherokee is the previous WK2 with a different roof, so buy these bars for a 2022–2026 two-row or a 2021–2026 L. The roof limit in your owner's manual is the real ceiling."),
  ("What kind of roof rails does the 2022+ Grand Cherokee have?",
   "Flush side rails on the trims that have them. etrailer's 2023 Grand Cherokee list is almost entirely systems for flush rails that run front to back, and the Yakima and Rhino-Rack systems on it mount at fixed points in those rails. Amazon listings say the same: the budget pick here is sold for factory flush side rails only. etrailer also lists two Rhino-Rack systems for a Grand Cherokee with no rails, so check your own roof before ordering."),
  ("Do these bars fit the Grand Cherokee L?",

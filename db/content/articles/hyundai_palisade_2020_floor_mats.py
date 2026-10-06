@@ -10,6 +10,8 @@ META = ("Six 1st-gen Palisade floor liner options from WeatherTech, Husky, Smart
         "Megiteller, sorted by 7- vs 8-seat, with the 2026 redesign cutoff.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2025 Hyundai Palisade?",
+  "WeatherTech's FloorLiners full set is the best overall pick. It covers all three rows from one brand, is laser-measured for a custom fit and carries a lifetime limited warranty. Husky's WeatherBeater 95711 is the best made-in-USA choice for the front and second row, and the 22711 cargo liner covers the load floor. Smartliner's 3-row set is the one-piece TPE value with a limited lifetime warranty, and TOUGHPRO is the rubber budget pick for seven-seat vehicles with second-row buckets. Before ordering any of them, confirm your second-row layout, because the second-row piece differs between captain's chairs and a bench. A 2026 Palisade is a new generation and needs liners that name it."),
  ("Do 2020–2025 Palisade liners fit a 2026 Palisade?",
   "No. The 2026 Palisade is a new generation. Husky sells a separate 96381 set for it, distinct from the 95711 for 2020–2024. Buy liners that name your generation."),
  ("What's the difference between 7-seat and 8-seat Palisade liners?",

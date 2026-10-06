@@ -15,6 +15,8 @@ META = ("Six Thule, Yakima, INNO, Rhino-Rack and SportRack boxes for the Model 3
         "28 in bar spread, trunk clearance and range.")
 
 FAQ = [
+ ("What is the best cargo box for a 2017–2026 Tesla Model 3?",
+  "The Thule Pulse 2 M is the best overall cargo box for the 2017–2026 Tesla Model 3. At 31 lb and 68.9 in long with 14 cu ft, it leaves the most of the 150 lb rating Tesla gives its own rack and suits the car's 28 in crossbar spread. The INNO Wedge 660 is the lowest profile at 11 in tall, with a 24–39 in spread range that covers 28 in. If you need 16 cu ft, the Yakima SkyBox 16 fits a 24–34.5 in spread. The SportRack Vista XL is the budget pick, with 18 cu ft in 63 in. Fit crossbars for your build first, since original and Highland cars take different aftermarket bars, and Tesla's manual says to use only roof rack systems approved by Tesla."),
  ("Can you put a cargo box on a Tesla Model 3?",
   "Yes, once crossbars are fitted. The Model 3 has a glass roof with no rails, so the bars bolt into fixed mounting points under the roof trim; Tesla's own Model 3 Roof Rack has T-slots meant for cargo boxes, bike racks and ski racks. Any universal box then clamps to the bars, as long as its crossbar spread range covers the car's short spread and the total load stays under the 150 lb Tesla gives its own rack. Tesla's owner's manual says you must use 'only roof rack systems that have been approved by Tesla'. We could not confirm whether Tesla approves any aftermarket bars, so ask Tesla."),
  ("How much weight can a Model 3 roof carry with a cargo box?",

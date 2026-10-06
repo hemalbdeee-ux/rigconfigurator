@@ -9,6 +9,8 @@ META = ("Five 3rd-gen Colorado Crew Cab floor liner sets from Smartliner, Husky,
         "with the 2023 model-year and Canyon notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2023–2026 Chevy Colorado?",
+  "The Smartliner 2-row set is the best overall floor liner for the 2023–2026 Colorado. It is listed for the 2023–2026 Crew Cab, molded from one piece of TPE and backed by a limited lifetime warranty. Husky's WeatherBeater 99221 is the made-in-USA pick with the tallest walls, but its listing covers 2024–2025, so confirm a 2023 or 2026 first. HAFIDI and Binmotor are the budget TPE sets, and Liner Master's XPE set is the lightest and most cushioned. The 3rd-gen Colorado is Crew Cab only in the US, so fit comes down to the model year on the listing."),
  ("Do 2015–2022 Colorado liners fit a 2023+ Colorado?",
   "No. The 2023 Colorado is a new generation with a new cab. Husky's catalog shows the break: 18111 and 19111 for 2015–2022 Colorado and Canyon, and 99221, 13221 and 19251 for the new truck. Buy a set listed for 2023 or later."),
  ("Why does Husky list its new Colorado liners from 2024, not 2023?",

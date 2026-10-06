@@ -24,6 +24,8 @@ META = ("Six crossbar sets for the 4th-gen Pilot: bolt-on and clamp bars for the
         "a door-frame kit for the bare LX and EX-L, and the 165 lb rule.")
 
 FAQ = [
+ ("What is the best roof rack for a 2023–2026 Honda Pilot?",
+  "It depends on your roof. For the raised rails on the Sport, TrailSport, Touring and Elite, the best overall pick is the BRIGHTLINES replacement crossbar set, which bolts directly to the preset holes in the rails for a factory look, with a 154 lb rating and a one-year warranty on ASG Auto Sports' page. SNIXWOO's all-aluminum bars are the OE-style upgrade with a 220 lb bar claim, and Snailfly's set is the one with a lock named in the title. For a bare-roof LX or EX-L, the pick is the Wonderdriver door-frame clamp kit, the only title here that names those two trims. Whatever you buy, Honda's 165 lb roof figure covers bars, carrier and cargo together, and if a title stops at 2025, confirm 2026 with the seller."),
  ("Which 2023–2026 Honda Pilot trims have roof rails?",
   "Honda's Info Center lists roof rails as standard on the Sport, TrailSport, Touring and Elite for the 2023 Pilot, which leaves the LX and EX-L with a bare roof. Honda's current Pilot page, showing the 2026 lineup, lists Roof Rails on the Sport, TrailSport, Touring, Touring Blackout, Elite and Black Edition as we read it, and not on the EX-L. Wikipedia notes that the LX was dropped for 2025 and the Black Edition added that year. So for every model year the rule is the same: the EX-L, and the LX through 2024, are bare; everything else has rails. Look at the roof before you shop. Rails that run front to back take rail-mounted bars, and a smooth roof takes a door-frame clamp kit."),
  ("Are the Pilot's roof rails raised or flush?",

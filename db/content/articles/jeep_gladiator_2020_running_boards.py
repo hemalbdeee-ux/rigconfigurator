@@ -21,6 +21,8 @@ META = ("Seven Jeep Gladiator JT side steps, from TAC tube bars to AMP Research 
         "sliders, with factory rock rail notes by trim.")
 
 FAQ = [
+ ("What are the best running boards for a 2020–2026 Jeep Gladiator JT?",
+  "Rough Country's 90762 contoured drop steps are the best overall pick for a Gladiator without factory rock rails. Quadratec lists a 465 lb rating, a 3-year limited warranty and a 1 to 2 hour install. If the truck leaves pavement, Rough Country's power running boards are the value power step, rated up to 660 lb per side with a no-drill mount, and AMP Research's PowerStep is the premium power step. Go Rhino's 4 in OE Xtreme is the simple tube step, and Rough Country's 90802 sliders protect the rocker on rocky trails. Look under the doors first: Jeep lists factory rock rails on the Willys, Rubicon and Mojave, and Quadratec says Rubicon rock rails must be removed for the 90762."),
  ("Do Wrangler JL Unlimited running boards fit the Gladiator?",
   "Do not assume so. The Gladiator is based on the Wrangler JL, but Wikipedia lists a 137.3 in wheelbase for the JT against 118.4 in for the 4-door Wrangler Unlimited, a gap of 18.9 in. The makers we read sell the two as separate parts. Westin's Outlaw Drop is 20-14165 for the 2020–2026 Gladiator and 20-14065 for the 2018–2026 Wrangler 4-door, and Quadratec lists Rough Country's 90762, Go Rhino's 684451687T and AMP Research's 75135-01A for the Gladiator JT by name. Buy a step whose title or fit list names the Gladiator JT and your model year."),
  ("Does my Gladiator already have factory rock rails?",

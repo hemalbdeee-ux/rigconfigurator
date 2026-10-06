@@ -10,6 +10,8 @@ META = ("Six JL Wrangler floor liner sets from Husky, 3W, LASFIT and OEDRO, spli
         "plug-in hybrid and the cargo-area subwoofer.")
 
 FAQ = [
+ ("What are the best floor liners for a 2018–2026 Jeep Wrangler JL?",
+  "Husky's WeatherBeater 93921 is the best overall pick for a 4-door Unlimited, and the 93991 is the matching set for the 2-door. Both are made in the USA from ProGard with tall firm walls and a lifetime warranty against cracks and breaks, and they are the only picks here for the 2-door. LASFIT's recycled TPE set is the value choice for a gas or eTorque Unlimited, with a cold rating but no 4xe fit. 3W's floor-and-cargo kit covers the whole interior of a JLU with the cargo subwoofer, and OEDRO's full set is the budget option. Fit comes down to doors, powertrain and the cargo subwoofer, so 4xe owners should confirm the rear piece before buying anything. For a 2026, check Husky's fit tool."),
  ("Why do so many JL liners exclude the 4xe?",
   "The Wrangler 4xe plug-in hybrid carries its battery pack under the rear seat, which changes the rear floor area. 3W, LASFIT and Falafa all list their Unlimited sets as not for the 4xe. If you have a 4xe, look for a listing that names it or ask the seller about the rear piece; the front floor is the same as other JLs."),
  ("Do JK Wrangler liners fit a JL?",

@@ -19,6 +19,8 @@ META = ("Five 2-inch hitches for the 6th-gen Explorer with GTW and tongue rating
         "and how Ford's 5,000–5,600 lb ratings by year cap them.")
 
 FAQ = [
+ ("What is the best trailer hitch for a 2020–2026 Ford Explorer?",
+  "The CURT 13438 is the best trailer hitch for a 2020–2026 Explorer that left the factory without a receiver. It is rated at 6,000 lb gross trailer weight and 600 lb tongue weight, more than any sixth-generation Explorer is rated to tow, and carries a limited lifetime warranty. The Draw-Tite 76910 Hidden Hitch is for owners who want the receiver out of sight; it is rated at 3,500 lb and installs in about 40 minutes with no drilling. The KUAFU, Autekcomma and TLAPS hitches are budget copies for bike racks and light trailers. Check for a factory receiver first; 2025–2026 Explorers come with a Class III package as standard."),
  ("Does my Explorer already have a factory hitch?",
   "Look under the rear bumper for a square 2 in receiver and check the window sticker for a Trailer Tow Package. On 2020–2024 Explorers the package was optional on most trims, so many left the factory with no receiver at all. Ford's 2025 Explorer page and its 2026 towing guide list the Class III Trailer Tow Package as standard. CURT still lists its 13438 for 2025–2027 Explorers without a factory receiver, so look anyway. If a receiver is already there, you don't need anything on this page except a ball mount and wiring."),
  ("How much can a 2020–2024 Explorer tow?",

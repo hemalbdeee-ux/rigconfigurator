@@ -11,6 +11,8 @@ META = ("Six floor liner options for the 2019–2023 Ranger SuperCrew and SuperC
         "and budget TPE, with the 2024 cutoff explained.")
 
 FAQ = [
+ ("What are the best floor liners for a 2019–2023 Ford Ranger?",
+  "The best-documented setup is Husky's WeatherBeater 13411 front pair, listed for SuperCrew and SuperCab, paired with the 14411 rear piece for a SuperCrew. Husky says WeatherBeater is laser-measured, made in the USA from ProGard and covered by a lifetime warranty against cracks and breaks. If you want one box for a SuperCrew, 3W's TPE set covers both rows for 2019–2023 and costs less than Husky's two parts. LASFIT is the recycled TPE choice with a stated −13°F to 167°F rating, and OMAC is the budget pick. SuperCab owners should buy Husky's 93801 three-piece set, because the budget brands cut SuperCrew liners only. Count your doors, confirm the cab and year range on the listing, and do not mix in 2024+ listings."),
  ("Do 2019–2023 Ranger liners fit a 2024 Ranger?",
   "No. The 2024 Ranger is a new generation with a new cab, and Husky sells separate 2024+ parts; confirm part number and row on the listing. One exception: Husky's 13411 front pair is listed for 2019–2024 SuperCrew and SuperCab, which suggests some overlap at the front for the 2024 model year. Treat that as a specific listing claim, not a rule, and buy 2024+ liners for a 2024 or later truck."),
  ("What's the difference between the Ranger SuperCab and SuperCrew?",

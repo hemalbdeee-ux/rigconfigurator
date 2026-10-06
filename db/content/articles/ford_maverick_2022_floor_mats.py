@@ -9,6 +9,8 @@ META = ("Seven Maverick floor liner options from Husky, WeatherTech, Mixsuper, o
         "thing that decides fit: hybrid or 2.0L EcoBoost.")
 
 FAQ = [
+ ("What are the best floor liners for a 2022–2026 Ford Maverick?",
+  "It depends on the powertrain. For a hybrid, the best pick is the Husky WeatherBeater 95401, listed for 2022–2026 hybrid models only, made in the USA from ProGard with StayPut nibs and a lifetime warranty against cracks and breaks. For a 2.0L EcoBoost truck, including the Tremor, buy the Husky WeatherBeater 95051, which has the same credentials and is cut for the gas model. WeatherTech's FloorLiners are the brand-name alternative, but the listing does not state the powertrain, so confirm with WeatherTech's fit tool. On a budget, Mixsuper's custom-fit liners cover 2022–2026 hybrids, and the gas-only all-weather mats plus cargo liner set covers the EcoBoost. Check your window sticker or the hybrid badge before ordering, because the hybrid battery under the rear seat changes the rear floor."),
  ("Why are Maverick liners split by hybrid and EcoBoost?",
   "The Maverick Hybrid places its battery under the rear seat, and that changes the rear floor compared with the 2.0L EcoBoost truck. Husky sells separate sets: 95401 for hybrid models and 95051 for the EcoBoost. Most budget listings name one or the other. Check your window sticker or the hybrid badge before ordering."),
  ("Do front liners differ between hybrid and EcoBoost?",

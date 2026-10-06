@@ -14,6 +14,8 @@ META = ("Seven Yakima, Thule, INNO, Rhino-Rack and SportRack boxes for the SK Fo
         "Wilderness rails, spread and liftgate clearance.")
 
 FAQ = [
+ ("What is the best cargo box for a 2019–2024 Subaru Forester?",
+  "The Yakima GrandTour 16 is the best overall cargo box for the 2019–2024 Subaru Forester. It gives 16 cu ft in a 79 in shell with dual-side opening, a 24–36 in crossbar spread and a limited lifetime warranty. The Thule Pulse 2 M is the lightest box at 31 lb and 68.9 in long, which leaves the most of the standard rails' 176 lb driving limit for gear. The SportRack Vista XL is the budget pick, with 18 cu ft in a 63 in shell and a rear-opening lid. Any box needs crossbars first, so fit bars for your rail type, and remember that the 2022–2024 Wilderness has its own rails and many standard bars are titled not Wilderness."),
  ("What size cargo box fits a 2019–2024 Subaru Forester?",
   "Most Forester owners are best served by 11 to 16 cu ft. The Forester is a compact SUV, so length matters as much as volume. The Thule Pulse 2 M is 68.9 in long, the SportRack Vista XL 63 in, the Rhino-Rack MasterFit 440 76 in and the Thule Force 3 L 76.8 in. The Yakima GrandTour 16 is 79 in and the CBX 16 is 83 in. Shorter boxes leave more room for the open liftgate, so start from length and then pick the volume you need."),
  ("How much weight can I carry in a roof box on a Forester?",

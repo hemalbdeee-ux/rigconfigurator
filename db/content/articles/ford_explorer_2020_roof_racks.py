@@ -15,6 +15,8 @@ META = ("Five crossbar sets for the sixth-gen Explorer's raised side rails, with
         "notes, and why a \"flush\" bar isn't a flush rail.")
 
 FAQ = [
+ ("What is the best roof rack for a 2020–2026 Ford Explorer?",
+  "KINGGERI's crossbars are the best overall roof rack for the 2020–2026 Explorer. The listing names 2020–2026 with factory raised side rails, so it covers the pre-facelift years, the 2025 facelift and 2026, and it prints a 330 lb rating. Powerty's set is the lockable pick, listed for 2020–2026 with a 300 lb printed rating, and KitsPro is the budget set for 2020–2025 raised rails. If you want a brand name, Malone's AirFlow2 comes with locks and a limited lifetime warranty. Any sixth-gen Explorer with raised rails takes a clamp-on rack, but for a 2026 Tremor or Active 100A, check that your rail has a gap under it before ordering."),
  ("Does the 2020+ Explorer have raised or flush roof rails?",
   "Raised. etrailer's roof rack lists for the 2020, 2023 and 2025 Explorer are built around systems for factory raised rails that run front to back, with a gap under the rail for the clamp. Every Amazon pick here is listed for the Explorer's raised side rails, and one says outright that it is not for flush-rail roofs. etrailer also lists naked-roof systems, which clip into the door frames, for an Explorer without rails. Look at your own roof before ordering: Ford's current Explorer page, which shows the 2027 model, lists a Slick Roof Conversion that deletes the standard roof rails on the Active, ST-Line, Platinum and ST. We could not confirm whether earlier model years offered it."),
  ("What does 'flush' mean on Explorer rack listings?",

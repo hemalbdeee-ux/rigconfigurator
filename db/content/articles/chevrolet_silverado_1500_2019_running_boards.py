@@ -9,6 +9,8 @@ META = ("Six Silverado 1500 Crew Cab running boards and nerf bars from Westin, G
         "and TAC, with the 2019 LD trap and finish and warranty notes.")
 
 FAQ = [
+ ("What are the best running boards for a 2019–2026 Chevy Silverado 1500?",
+  "Westin's PRO TRAXX 5 polished stainless nerf bar is the top pick for the 2019–2026 Silverado 1500 Crew Cab. Its finish carries a lifetime warranty, and it bolts on with no drilling on most applications. Go Rhino's RB20 is the best running board, with a wide galvanized steel step and a limited lifetime structural warranty. Rough Country's RPT2 is the mid-price board that also fits the HD trucks, and 3STONZ is the aluminum value pick. Every pick here is a Crew Cab part for the T1 body, so rule out the 2019 Silverado LD, which uses the older body, and confirm a 2026 with the seller."),
  ("What is the 2019 Silverado LD and why is it excluded?",
   "In 2019 Chevrolet sold the new T1 Silverado 1500 alongside a carryover of the previous truck, badged Silverado LD (and the Sierra 1500 Limited at GMC). The LD uses the older body and rocker mounting points. Westin's listings say 'Exc 2019 Silverado LD/Sierra 1500 Limited', and budget listings say 'excl. 2019 LD'. If your 2019 has the older-style body, buy parts for the 2014–2018 truck."),
  ("Do Silverado running boards fit the Sierra 1500?",

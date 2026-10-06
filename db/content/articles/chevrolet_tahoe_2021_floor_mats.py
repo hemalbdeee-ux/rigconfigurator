@@ -13,6 +13,8 @@ META = ("Six 5th-gen Tahoe floor liner options from Husky, TOUGHPRO, Mixsuper an
         "vs buckets, with Suburban and Yukon cross-fit notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2021–2026 Chevy Tahoe?",
+  "Husky's WeatherBeater 99241 is the best floor liner for the 2021–2026 Tahoe. It covers the front and second row, is made in the USA and carries a lifetime warranty against cracks and breaks. Add Husky's 14241 third-row liner and 28291 cargo liner for a complete set. TOUGHPRO's rubber sets cover every row for bench or captain's-chair Tahoes on a budget, and Mixsuper is the 3-row TPE choice for second-row buckets. Check your second row first, bench or captain's chairs, since TOUGHPRO and Mixsuper sell separate versions, and confirm the year range on the listing for a 2026."),
  ("Do Tahoe liners fit the Suburban, Yukon and Escalade?",
   "The front and second row often do. Husky's WeatherBeater 99241 front and second-row set is listed for 2021–2025 Escalade and Escalade ESV, Suburban and Tahoe, and Yukon and Yukon XL. The third row and cargo area differ between the standard-length Tahoe and Yukon and the long-wheelbase Suburban and Yukon XL, so buy those pieces for your exact model."),
  ("How do I know if I have a second-row bench or captain's chairs?",

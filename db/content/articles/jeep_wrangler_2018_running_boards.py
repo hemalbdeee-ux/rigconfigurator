@@ -16,6 +16,8 @@ META = ("Seven JL Wrangler side steps by door count: AMP Research PowerStep, Rou
         "and rock sliders, and Westin HDX drop nerf bars.")
 
 FAQ = [
+ ("What are the best running boards for a 2018–2026 Jeep Wrangler JL?",
+  "AMP Research's PowerStep Smart Series is the best overall pick for a 4-door that goes off-road. The steps drop when a door opens and fold up against the body when it closes, so nothing hangs below the rocker on the trail. Westin's HDX Drop 56-140652 is the best fixed step for the Unlimited, a one-piece bar with die-stamped foot plates and a written warranty, and the 56-14055 is the version for the 2-door. Rough Country's dual-motor retractable steps are the value power step, and its bolt-on nerf bars are the budget pick for the 2-door. Count the doors first, because 2-door and 4-door steps do not interchange, and check for factory rails on a Rubicon. Several listings stop at 2024 or 2025, so a 2026 owner should ask the seller."),
  ("Do 2-door Wrangler JL side steps fit the 4-door Unlimited?",
   "No. Side steps run between the wheel wells, and the 4-door Unlimited has a 118.4 in wheelbase against 96.8 in for the 2-door, per Wikipedia's JL page. That is more than 21 in of extra rocker, so a 2-door step is far too short and its brackets land in the wrong places. Every maker sells separate parts: Westin's HDX Drop is 56-14055 for the 2-door and 56-140652 for the Unlimited, and Rough Country's listings name 2-Door or 4-Door in the title. Count your doors before you order anything on this page."),
  ("Do JK Wrangler running boards fit a JL?",

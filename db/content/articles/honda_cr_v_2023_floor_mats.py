@@ -10,6 +10,8 @@ META = ("Seven 6th-gen CR-V floor and cargo liner picks from Husky, HAFIDI, Weiz
         "hybrid and the upper vs lower cargo deck explained.")
 
 FAQ = [
+ ("What are the best floor liners for a 2023–2026 Honda CR-V?",
+  "Husky's WeatherBeater 99411 is the best overall pick for a 2024–2026 CR-V, including hybrid models. Husky says it is laser-measured, made in the USA from ProGard and covered by a lifetime warranty against cracks and breaks, with tall walls that hold snowmelt. For a 2023, or to cover the cargo area with the same brand, Husky's 4-piece bundle covers the front, second row and cargo of 2023–2024 models. On a budget, HAFIDI's TPE liners cover the cabin of the 2023–2026 CR-V and CR-V Hybrid, and Weize's full set adds a cargo liner for the upper deck position. Cabin sets usually fit gas and hybrid alike, but for cargo liners match the powertrain and check whether your cargo floor board sits in the upper or lower position."),
  ("Do CR-V Hybrid and gas models take the same floor liners?",
   "For the cabin, usually yes. Most cabin sets on this page list both gas and hybrid, including Husky's 99411 and HAFIDI. Cargo liners are where differences show up, because the cargo floor and adjustable deck can differ. Autocessking's cargo kit is listed for the hybrid specifically."),
  ("What does 'upper deck position' mean on a CR-V cargo liner?",

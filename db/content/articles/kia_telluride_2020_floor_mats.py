@@ -10,6 +10,8 @@ META = ("Five 2020–2025 Telluride floor liner sets from WeatherTech, Husky, Sm
         "matched to 7- vs 8-seat layouts and the second-row console.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2025 Kia Telluride?",
+  "WeatherTech's FloorLiners full set is the best overall pick. It covers the first, second and third rows from one brand, is laser-measured and carries a lifetime limited warranty. Husky's WeatherBeater 95691 is the made-in-USA choice for the front and second row, where the mud lands, with a lifetime warranty against cracks and breaks. Smartliner's set adds a cargo liner to three rows with a limited lifetime warranty, TOUGHPRO is the rubber budget pick, and SUPER LINER fits captain's chairs without a console precisely. The Telluride is fit by its second row, so confirm whether you have a bench, captain's chairs with a console, or chairs without one before ordering. All five are first-generation parts for 2020–2025; the 2027 is a new generation that needs liners naming it."),
  ("Do 7-seat and 8-seat Tellurides take the same liners?",
   "The front row does, the second row may not. Seven-seat Tellurides have two captain's chairs, with or without a center console between them; eight-seat Tellurides have a bench. SUPER LINER's set is for buckets without a center console. WeatherTech asks you to confirm seating layout. Husky's 95691 front and second-row set and Smartliner's 3-row set are listed broadly for the Telluride; check the second-row piece against your layout."),
  ("Do Palisade liners fit the Telluride?",

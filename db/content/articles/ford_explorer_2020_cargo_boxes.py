@@ -17,6 +17,8 @@ META = ("Seven Yakima, Thule, INNO, SportRack and Rightline cargo boxes for the 
         "165 lb bar math, spread and liftgate checks.")
 
 FAQ = [
+ ("What is the best cargo box for a 2020–2026 Ford Explorer?",
+  "The Yakima GrandTour 16 is the best cargo box for the 2020–2026 Explorer. It holds 16 cu ft, is 18 in deep for bulky gear, opens from both sides and fits a 24 to 36 in bar spread. The Yakima CBX 16 gives the same volume 3 in lower with a flat floor for square loads. The Thule Motion 3 XL is the ski pick, with 18 cu ft and room for 200 cm skis. The INNO Wedge 660 is the lowest profile at 11 in if a garage door is the limit, and the Rightline Gear Sport 3 soft carrier is the budget choice. Fit raised-rail crossbars first, and let the 165 lb bar rating and your manual's roof figure decide the load."),
  ("What size cargo box fits a 2020–2026 Ford Explorer?",
   "Most Explorer owners are best served by 16 to 18 cu ft. The roof is long and the raised-rail crossbars are wide (58 to 65 in on etrailer's systems), so a full-width 16 cu ft box such as the Yakima GrandTour 16 (79 x 35 x 18 in) or CBX 16 (83 x 38 x 15 in) sits easily with room left over. The Thule Motion 3 XL adds 18 cu ft and 200 cm skis. Bigger boxes weigh more, so check the box plus cargo against your bars' rating before you size up."),
  ("How much weight can I put in a cargo box on an Explorer?",

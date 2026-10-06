@@ -12,6 +12,8 @@ META = ("Six 3rd-gen Sequoia floor liner options from Smartliner, Husky, HAFIDI,
         "7- vs 8-passenger and the sliding third row, with Tundra cross-fit notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2023–2026 Toyota Sequoia?",
+  "Smartliner's 3-row set is the best overall pick. It covers the 2023–2025 Sequoia with one-piece, 100% recyclable TPE and a limited lifetime warranty. Husky's WeatherBeater 18571 front pair and 14281 third-row liner are the made-in-USA picks, with a lifetime warranty against cracks and breaks. HAFIDI's TPE set is the 3-row value pick for 2023–2025, and Cartist's set is cut for 7-passenger models without a center console. Every 3rd-gen Sequoia is a hybrid, so the fit question is the second row: count the seats, check for a console between captain's chairs, and confirm 7 vs 8 passenger before ordering. Husky's front pair lists 2024–2026, so ask before ordering for a 2023."),
  ("Do Tundra liners fit the Sequoia?",
   "The front row can. Husky lists its WeatherBeater 18571 front pair for 2022–2026 Tundra CrewMax and Double Cab and 2024–2026 Sequoia, because the two share the TNGA-F platform and front footwell. The second and third rows are completely different, since the Tundra is a pickup. Buy rear pieces that name the Sequoia."),
  ("Is every 2023+ Sequoia a hybrid?",

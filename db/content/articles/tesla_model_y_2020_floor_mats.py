@@ -10,6 +10,8 @@ META = ("Six Model Y all-weather mat sets from 3D MAXpider, TripleAliners, 3W, F
         "2020–2024 vs Juniper, 5-seat vs 7-seat and Standard trim.")
 
 FAQ = [
+ ("What are the best floor mats for a 2020–2026 Tesla Model Y?",
+  "It depends on the generation. For a pre-refresh 2020–2024 Tesla Model Y, 3D MAXpider's Kagu full set for the 2021–2025 car is the best cabin set, with a three-layer construction and a grip underside for the flat floor, and 3W's 6-piece TPE set is the best value, covering the floor, cargo area and frunk of 5-seat cars. For the 2025–2026 Juniper, 3D MAXpider's Juniper Kagu set is the best-documented cabin fit, and TripleAliners' 10-piece kit is the most complete with frunk, trunk, backrest and bumper guard pieces. Pre-refresh and Juniper sets do not swap, 7-seat cars need a set that names them, and several Juniper kits exclude the Standard trim, so match the model year and door-jamb build date to the listing first."),
  ("How do I know if my Model Y is a Juniper?",
   "Go by the model year and the build date on the door-jamb label, then match them to the listing's fit notes. Listings on this page call the refreshed car the 2025–2026 Model Y Juniper. It has a full-width light bar across the front and rear and a rear-seat touchscreen, and Wikipedia says Tesla announced US availability from March 2025. The lights alone can mislead. Wikipedia says the Model Y Standard, released in October 2025, has no front lightbar, simpler taillights and no rear screen, yet it is a refreshed car. A 2020–2024 model year car is pre-refresh and needs a 2020–2024 set. A 2025 can be either body, so check the build date and ask the seller."),
  ("Do pre-refresh Model Y mats fit a Juniper?",

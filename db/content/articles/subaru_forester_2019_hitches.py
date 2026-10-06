@@ -11,6 +11,8 @@ META = ("Six hitches for the 2019–2024 Forester: 1.25 and 2 in picks from Draw
         "plus the 1,500 lb (3,000 lb Wilderness) limit and bike-rack tips.")
 
 FAQ = [
+ ("What is the best trailer hitch for a 2019–2024 Subaru Forester?",
+  "The Draw-Tite 76271 is the best overall trailer hitch for the 2019–2024 Subaru Forester. It is a Class III with a 2 in receiver, rated at 3,500 lb and 525 lb tongue weight, and it bolts on with no drilling in about 30 minutes. The 2 in opening takes almost any platform bike rack or cargo carrier. The CURT 13409 is the best 2 in alternative, with A-coat inside and out for salt states, though it requires hole enlargement. If 1.25 in is all you need, the Draw-Tite 36671 is lighter. Subaru's own L101SSJ005 is the factory option for 2022–2024 cars and includes a wiring harness. The Forester's own 1,500 lb and 150 lb limits still apply, and the Wilderness is rated at 3,000 lb and 300 lb."),
  ("How much can a 2019–2024 Subaru Forester tow?",
   "Subaru's trim comparison sheets list 1,500 lb of towing capacity for the standard Forester and 3,000 lb for the Wilderness, which arrived for 2022. A Subaru dealer listing for the 2022–2024 accessory hitch gives tongue weights of 150 lb and 300 lb. For 2019–2021 cars, the dealer page for the earlier kit prints 176 lb, so check the owner's manual and plan on 150 lb until you have. Every aftermarket hitch with a published rating on this page is rated at 3,500 lb, but that rating doesn't change what the car can tow. The lower number always wins, so a non-Wilderness Forester is a 1,500 lb tow vehicle whichever hitch you bolt on."),
  ("Should I get a 1.25 in or 2 in receiver on a Forester?",

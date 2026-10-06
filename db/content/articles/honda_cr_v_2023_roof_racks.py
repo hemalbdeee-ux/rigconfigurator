@@ -20,6 +20,8 @@ META = ("Six crossbar sets for the 6th-gen CR-V by roof: door-frame clamp bars f
         "for the hybrids' flush rails, with load and fit notes.")
 
 FAQ = [
+ ("What is the best roof rack for a 2023–2026 Honda CR-V?",
+  "It depends on your roof, which follows the powertrain. For a hybrid Sport, Sport-L, Sport Touring or 2026 TrailSport with black roof rails, the best overall pick is the ANTS PART set, titled for the 2023–2026 CR-V and CR-V Sport Hybrid with roof rails. The HEKA set is the alternative if you want a stated 220 lb bar rating. For a gas LX, EX or EX-L with a bare roof, the pick is the Wonderdriver door-frame clamp set, titled for those three trims for 2023–2026. Look at your roof before you shop: the rails are flush, so raised-rail clamp bars do not fit, and the roof limit in your owner's manual includes the bars."),
  ("Does the 2023–2026 Honda CR-V have roof rails?",
   "Only the hybrid trims. Honda's 2024 and 2026 Specifications & Features tables list Black Roof Rails as standard on the Sport, Sport-L and Sport Touring (2024) and on the Sport, TrailSport, Sport-L and Sport Touring (2026), and not on the gas LX, EX and EX-L. Our cargo box guide read the 2023 table, which lists the rails on the Sport and Sport Touring, the two hybrids sold that year. We did not read the 2025 table. Look at your roof before you shop: a smooth roof needs door-frame clamp bars, and a roof with rails needs bars made for those rails."),
  ("Are the CR-V's roof rails raised or flush?",

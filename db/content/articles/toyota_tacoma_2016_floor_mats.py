@@ -9,6 +9,8 @@ META = ("Six 3rd-gen Tacoma Double Cab liner sets, from Husky WeatherBeater and 
         "the automatic vs manual and 2016–2017 vs 2018+ front-row split.")
 
 FAQ = [
+ ("What are the best floor liners for a 2016–2023 Toyota Tacoma?",
+  "Husky's WeatherBeater 93941 is the best overall pick for a 2018–2023 automatic Double Cab. It is made in the USA with a lifetime warranty against cracks and breaks. Toyota's genuine TRD Pro all-weather liners are the factory option for 2016–2023 automatics. TOUGHPRO's rubber set is the heavy rubber pick for grip in the cold, 3W's TPE liners are the TPE value for 2016–2023 automatic Double Cabs, and TuxMat gives the most coverage with a limited lifetime warranty. Before ordering, match three things: cab, transmission and model year. All full sets here are Double Cab, most are automatic only, and Husky splits the automatic front liner between 2016–2017 and 2018–2023 trucks."),
  ("Why do Tacoma liners care about automatic vs manual?",
   "The manual Tacoma has a different floor shape around the shifter and clutch pedal. Liners cut for the automatic leave the clutch area wrong and may interfere with the pedal. Husky sells separate front pairs: 13981 for 2018–2024 manual trucks with the shifter, and different parts for automatics. 3W and YHTAUTO list automatic only. If you have three pedals, only buy a set that names the manual."),
  ("Is there a difference between 2016–2017 and 2018–2023 Tacoma front liners?",

@@ -10,6 +10,8 @@ META = ("Six 6th-gen Outback floor liner sets from Husky, Subaru, OEDRO, YITAMOT
         "Legacy cross-fit, Wilderness notes and the 2026 cutoff.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2025 Subaru Outback?",
+  "Husky's WeatherBeater 95541 is the best overall floor liner for the 2020–2025 Subaru Outback. It is a three-piece front and second-row set, laser-measured, made in the USA from ProGard, with a lifetime warranty against cracks and breaks and tall walls for snow country. Subaru's heavy-gauge all-weather mats, J501SAN100, are the best factory option, a set of four with a dependable fit at the retention hooks for less money. OEDRO's TPE liners are the best TPE value, and the generic 3D set and YITAMOTOR cover the budget end. One floor fits every 2020–2025 Outback trim, Wilderness and XT included, and most listings also name the 2020–2025 Legacy. The 2026 Outback is a new generation, so buy liners that name it."),
  ("Do Outback liners fit the 2020–2025 Legacy?",
   "Usually, yes. The 6th-gen Outback and 7th-gen Legacy share a platform and cabin floor, and most listings on this page name both: Husky's 95541, Subaru's J501SAN100, YITAMOTOR, OEDRO, the generic 3D set and Auxko. Cargo liners are different, since the Legacy is a sedan with a trunk."),
  ("Does the Outback Wilderness take different liners?",

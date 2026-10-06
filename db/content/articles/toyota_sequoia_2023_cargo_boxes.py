@@ -19,6 +19,8 @@ META = ("Six Yakima, Thule, Rhino-Rack, INNO and SportRack boxes plus Toyota cro
         "type, TRD Pro rack, weight and garage height.")
 
 FAQ = [
+ ("What is the best cargo box for a 2023–2026 Toyota Sequoia?",
+  "The Yakima SkyBox 16 Carbonite is the best overall pick for most Sequoia families. It holds 16 cu ft, weighs 47 lb, stands 15 in tall and opens from both sides. The INNO Wedge 660 is the lowest profile box at 11 in tall, for tall garages and highway fuel economy. The Rhino-Rack MasterFit 440L is the lightest at 38.6 lb, leaving the most weight for gear. The Thule Motion 3 XXL is the biggest box at 21 cu ft if you pack light, and the SportRack Vista XL is the budget pick if you have a ladder. Before any box, fit crossbars matched to your rail type, since etrailer lists both raised and flush rails for this Sequoia, and confirm the roof figure in your owner's manual."),
  ("Does the 2023–2026 Sequoia have raised rails or flush rails?",
   "Check your own roof. etrailer lists two roof types for the 2023 Sequoia: factory installed raised rails and flush mounted rails, both running front to back. It does not say which grades have which, and the Toyota releases we read do not describe the roof rails, so we could not confirm rail type by grade. Rack Warehouse sells Yakima's raised-rail TimberLine FX kit for the Sequoia, but its page covers 2001–2025 models without separating this generation. If you can slide your fingers under the rail between its end mounts, it's a raised rail and strap-style towers fit. If the rail sits tight to the roof with no gap, it's a flush rail, so buy flush-rail feet listed for the Sequoia."),
  ("What is the roof load limit on a 2023–2026 Sequoia?",

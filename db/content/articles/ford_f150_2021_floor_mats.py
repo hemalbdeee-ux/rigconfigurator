@@ -10,6 +10,8 @@ META = ("Five F-150 SuperCrew floor liner sets from Husky, LASFIT, Mixsuper and 
         "decides fit: fold-flat rear storage or not.")
 
 FAQ = [
+ ("What are the best floor liners for a 2021–2026 Ford F-150?",
+  "The Husky WeatherBeater 94041 is the best overall pick for a 2021–2026 F-150 SuperCrew without fold-flat rear storage. It is made in the USA, laser-measured, uses StayPut nibs, and carries a lifetime warranty against cracks and breaks. The listing covers 2015–2026 SuperCrew trucks including the 2022–2026 Lightning. If your truck has the fold-flat load floor, go with the Husky fold-flat bundle, which pairs the fold-flat WeatherBeater liners with a 5.5 ft bed mat, or the Mixsuper two-row set after confirming the storage type with the seller. LASFIT's recycled TPE set is the value pick for plain rear floors and states a rating of −13°F to 167°F. Before ordering, lift the rear seat cushions and match the second-row liner to your rear storage type."),
  ("Do 2015–2020 F-150 floor liners fit a 2021–2026 F-150?",
   "Often, yes, which surprises people. Husky lists its WeatherBeater 94041 set for 2015–2026 SuperCrew trucks, and LASFIT, Weize and Mixsuper list 2015–2025 or 2015–2026 SuperCrew coverage on the listings on this page. The cab floor pan carried over into the 14th generation. What did not carry over is every rear-floor option: trucks with the fold-flat rear storage need a different second-row piece. Match the rear floor first, then the year range."),
  ("How do I know if my F-150 has fold-flat rear storage?",

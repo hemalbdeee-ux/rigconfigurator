@@ -9,6 +9,8 @@ META = ("Six Sierra 1500 Crew Cab side steps from Westin, Go Rhino, Rough Countr
         "wheel-to-wheel bars by bed length and the 2019 Sierra Limited trap.")
 
 FAQ = [
+ ("What are the best running boards for a 2019–2026 GMC Sierra 1500?",
+  "It depends on whether you want a step beside the bed. If you reach into the bed often, the pick is a Westin wheel-to-wheel bar for your bed length: the PRO TRAXX 5 21-534680 in stainless for the 5 ft 5 in bed, or the R5 modular 28-534695 for the 6 ft 5 in bed. For a cab-length nerf bar, Westin's polished 304 stainless PRO TRAXX 5 21-54130 carries a lifetime warranty against manufacturer defects and bolts on with no drilling on most applications. For the widest step, Go Rhino's RB20 is galvanized steel with a limited lifetime structural warranty. RHOBRA's 6 in OE-style boards are the budget pick. Every pick is a Crew Cab part, and none fits the 2019 Sierra 1500 Limited, which uses the old body."),
  ("What is the 2019 Sierra 1500 Limited?",
   "GMC sold a carryover of the previous-generation Sierra in 2019, badged Sierra 1500 Limited, alongside the new T1 truck. It uses the old body and rocker mounting points. Westin's listings exclude it by name. If your 2019 has the older body, buy parts for the 2014–2018 Sierra."),
  ("What's the difference between cab-length and wheel-to-wheel nerf bars?",

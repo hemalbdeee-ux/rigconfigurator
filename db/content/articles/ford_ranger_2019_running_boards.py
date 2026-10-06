@@ -10,6 +10,8 @@ META = ("Seven 2019–2023 Ranger side steps, from Westin HDX drop steps and PRO
         "Westin power boards, matched to SuperCrew or SuperCab.")
 
 FAQ = [
+ ("What are the best running boards for a 2019–2023 Ford Ranger?",
+  "For a SuperCrew, the best overall pick is the Westin HDX Drop 56-14155. It is fully welded one-piece steel with a stamped step plate at each door for a lower first step, installs with no drilling, and carries a 3-year warranty, per RealTruck. For a SuperCab, the pick is the Westin PRO TRAXX 5 21-54145, a 5 in oval nerf bar cut for the shorter cab. If you want a step that disappears when the doors close, the AMP Research PowerStep and Westin's Pro-e are the two power boards that name this truck, and both quote 300 lb per side. TAC's Sidewinder is the budget slider-style step for FX4 trucks. Count your doors first: boards are cut to the cab length, so the title must name SuperCrew or SuperCab."),
  ("Do SuperCrew running boards fit a Ranger SuperCab?",
   "No. The SuperCrew has four full-size doors and a longer cab, and the SuperCab has small rear-hinged doors and a shorter cab. Boards and nerf bars are cut to the cab length, and the bracket spacing differs, so a SuperCrew part is too long for a SuperCab. Westin sells separate part numbers for each cab: the PRO TRAXX 5 21-54145 is the SuperCab bar, and the HDX Drop 56-14155 is listed for the SuperCrew. Count the doors before you order, then read the title for the cab name. If the title does not name a cab, ask the seller."),
  ("Which 2019–2023 Ranger trims came with factory running boards?",

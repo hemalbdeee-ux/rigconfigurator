@@ -13,6 +13,8 @@ META = ("Six crossbar sets for the SK Forester's raised rails, incl. Subaru OEM 
         "700 lb parked limits and Wilderness notes.")
 
 FAQ = [
+ ("What is the best roof rack for a 2019–2024 Subaru Forester?",
+  "The Tuyoung lockable crossbar set is the best roof rack for a standard-rail 2019–2024 Subaru Forester. It is titled for Foresters with raised rails, rated at 300 lb, lockable and clamps on without drilling. Subaru's genuine SOA367010 aero bars are the best factory-look option for Premium-and-up trims, though Subaru says they do not support rooftop tents. The Snailfly set is the budget pick for light loads, titled for the 2014–2024 Forester except Wilderness. None of these bars is sold for the 2022–2024 Wilderness, which needs a Wilderness-listed Thule or Yakima system, and a Base without the optional raised rails needs a clamp-style system instead. Load to the car's 176 lb driving limit, not the bar's rating."),
  ("What is the roof load limit on a 2019–2024 Forester?",
   "Subaru's 2022 and 2024 trim comparison sheets print a 176 lb maximum capacity for the standard roof rails. Subaru's release on the refreshed 2022 Forester calls that a dynamic (driving) capacity and adds a 700 lb static (parked) limit. For the 2022–2024 Wilderness, the sheets give 220 lb dynamic and 800 lb static. The 2019 sheet lists the rails without a capacity, so 2019–2021 owners should take the figure from the owner's manual. The dynamic figure covers the crossbars and everything on them while moving."),
  ("Do standard Forester crossbars fit the Forester Wilderness?",

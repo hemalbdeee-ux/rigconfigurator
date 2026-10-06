@@ -13,6 +13,8 @@ META = ("Six side steps for the 13th-gen F-150 SuperCrew and SuperCab, from AMP'
         "boards and bars: step width, warranty and cab fit.")
 
 FAQ = [
+ ("What are the best running boards for a 2015–2020 Ford F-150?",
+  "Rough Country's RPT2 is the best running board for a 2015–2020 F-150 SuperCrew. It is a steel board with a 6.75 in step, the widest on this page, a no-drill install and a limited lifetime warranty. Rough Country's HD2 is the one-piece aluminum board for salt states. SuperCab owners should buy Westin's PRO TRAXX 5 21-53935, which Westin lists for the SuperCab through 2026, and a SuperCrew with the 6.5 ft bed can use Westin's 21-534635 wheel-to-wheel bar. AMP's PowerStep Smart Series is the power step for anyone who needs the lowest step. Match the cab first; the Rough Country picks are Crew Cab only."),
  ("Which running boards fit a 2015–2020 F-150 SuperCrew?",
   "Any board or bar sold for the 2015–2020 F-150 Crew Cab or SuperCrew. On this page that is the Rough Country RPT2, HD2 and BA2 (Rough Country says all three fit Crew Cab models only), the Westin 21-534635 wheel-to-wheel bar (listed for the 2015–2020 SuperCrew with the 6.5 ft bed) and AMP Research's PowerStep Smart Series 86151-01A, which retailers list for the 2015–2020 F-150 without naming a cab. Westin's cab-length PRO TRAXX 5 for the SuperCrew is 21-53945 in black. Read the title for the cab before you order, because a SuperCab bar is shorter and its brackets land in different places."),
  ("Do 2015–2020 F-150 running boards fit a 2021+ F-150?",

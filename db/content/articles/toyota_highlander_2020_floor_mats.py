@@ -10,6 +10,8 @@ META = ("Six 4th-gen Highlander floor liner sets from Husky, TGBROS, MAXPRO, LAS
         "captain's chairs vs bench and gas vs hybrid.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2026 Toyota Highlander?",
+  "Husky's X-act Contour 4-piece kit is the best overall pick. It covers the front, second and third rows, is made in the USA and carries a lifetime warranty against cracks and breaks. For three rows on a budget, TGBROS lists a full 3-row set for a bench or buckets with a console, and MAXPRO lists 3-row liners for 2020–2026 gas models, not the hybrid. LASFIT is the pick for 8-seat gas models with the bench, and Smartliner's third-row liner adds coverage to any two-row set. Before ordering, confirm two things: captain's chairs or bench in the second row, and gas or hybrid, since MAXPRO and LASFIT exclude the Highlander Hybrid."),
  ("Why do some Highlander liners exclude the hybrid?",
   "Toyota says the Highlander Hybrid's battery pack is installed under the second-row seats. We could not confirm how much that changes the floor, but MAXPRO and LASFIT list their sets as not for the hybrid. The generic 7-seat set on this page names the hybrid, and Husky's WeatherBeater pieces are listed for the Highlander without a hybrid exclusion in their titles. Look for 'Hybrid' on the tailgate badge and buy accordingly."),
  ("What's the difference between 7-seat and 8-seat Highlander liners?",

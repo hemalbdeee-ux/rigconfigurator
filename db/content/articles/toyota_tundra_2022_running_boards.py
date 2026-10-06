@@ -9,6 +9,8 @@ META = ("Seven 3rd-gen Tundra CrewMax side steps from Go Rhino, Rough Country, O
         "vs Slim widths, the 600 lb rating and drop-step notes.")
 
 FAQ = [
+ ("What are the best running boards for a 2022–2026 Toyota Tundra?",
+  "Go Rhino's RB30 is the best overall pick for the CrewMax. RealTruck lists it with a 7 in step, open flow-through slots that shed dirt and snow, a 600 lb per side rating, galvanized 16-gauge steel and a limited lifetime structural warranty, in a bedliner finish. The Go Rhino RB20 is the widest step at 7.5 in front and 6.5 in rear, and the RB20 Slim has a 5.5 in step for the most clearance. Rough Country's BA2 5 in boards are the mid-price pick and list 2022–2025, and TIEZFUL's drop-down steps are the pick for short passengers. Every pick here is CrewMax, so Double Cab owners need shorter boards, and the Go Rhino titles stop at 2024, so confirm a 2025 or 2026 with the seller."),
  ("Do 2007–2021 Tundra running boards fit the 2022+ Tundra?",
   "No. The 2022 Tundra is a new generation on the TNGA-F platform with a new cab and rocker. Go Rhino sells separate brackets for 2007–2021 Tundras (such as its 6944155 bracket kit) and separate board kits for 2022+. Buy listings that name 2022 or later."),
  ("CrewMax or Double Cab?",

@@ -11,6 +11,8 @@ META = ("Five 5th-gen 4Runner floor and cargo liner picks, from Husky WeatherBea
         "the 2013 split, third-row and sliding cargo deck notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2010–2024 Toyota 4Runner?",
+  "Husky's WeatherBeater 99571 is the best overall floor liner for the 2010–2024 Toyota 4Runner, listed for 2013–2024 trucks and the 2014–2024 Lexus GX460. It is laser-measured, made in the USA from ProGard, with a lifetime warranty against cracks and breaks and tall walls for trails and snow. Pair it with Husky's 25722 cargo liner for a standard cargo area, or the 25741 for third-row trucks. TuxMat's set gives the most coverage, running up the sidewalls, for 2013–2024 5-seat trucks. Toyota's TRD Pro all-weather liners are the factory option. Most sets start at 2013, so 2010–2012 owners should confirm fit, and check your seating and cargo floor, since the sliding cargo deck and third row each take a different cargo liner."),
  ("Why do many 4Runner liners start at 2013 instead of 2010?",
   "Husky's WeatherBeater 99571 and TuxMat's set are both listed for 2013–2024, not 2010–2024. The 5th gen launched for 2010, and liner makers treat the early trucks separately, likely because of a change to the floor or retention hooks. We can't confirm the exact reason from the listings. If you have a 2010–2012, buy a set that names your year or confirm with the seller."),
  ("What is the sliding cargo deck and why does it matter?",

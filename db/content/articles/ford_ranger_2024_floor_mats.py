@@ -14,6 +14,8 @@ META = ("Five floor liner picks for the 2024–2026 Ranger SuperCrew from LASFIT
         "3D MAXpider, with carpet-floor, Raptor and model-year notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2024–2026 Ford Ranger?",
+  "LASFIT's three-piece set is the best overall pick. Its Amazon title names the 2024, 2025 and 2026 Ranger SuperCrew Cab, it covers the front and rear rows in one box, and LASFIT says it is GRS-certified recycled TPE rated from −13°F to 167°F. Smartliner is the warranty value pick, with a limited lifetime warranty and the option to buy one row at a time. Husky's WeatherBeater is the made-in-USA choice, but its title was cut off, so confirm the row and part number on the listing. TuxMat covers the most carpet because it extends up the sidewalls. Two fit checks apply: LASFIT and Smartliner's second row are for carpeted floors only, and no pick title names the Raptor, so get a written yes from the seller for that trim."),
  ("Do 2019–2023 Ranger floor liners fit a 2024–2026 Ranger?",
   "Treat them as different parts. The 2024 Ranger is a new generation, and Wikipedia notes it was engineered for the American market from the start, unlike the truck it replaced. We did not find a source that compares the two floors, so we can't say what changed in inches. What we can say is that liner listings split at 2024. Smartliner sells one set titled 2019–2023 and a separate one for 2024–2026, and LASFIT and 3W have their own listings for the new truck too. One oddity: Tractor Supply titles a Husky front pair for the old truck as 2019–2024. Ask Husky before you read that as proof of carry-over."),
  ("Is the 2024–2026 Ranger sold as a SuperCab?",

@@ -11,6 +11,8 @@ META = ("Six crossbar sets for the first-gen Palisade's flush side rails, from a
         "with load limits, crossbar spread and the 2026 fit trap.")
 
 FAQ = [
+ ("What is the best roof rack for a 2020–2025 Hyundai Palisade?",
+  "The Thule Evo Flush Rail system with fit kit 6008 is the best overall pick. It has published fit data, a 165 lb rating and a limited lifetime warranty, and it is worth the money if the bars stay on for years. The ERKUL Heavy Duty set is the best value: aluminum bars with solid metal mounts, anti-theft locks and a 220 lb printed rating, listed for the 2020–2025 Palisade with flush rails. OMAC's flush-rail bars are the budget lockable choice with a 165 lb printed rating. Whichever you buy, the lower of the rack's rating and the 220 lb roof rails figure on Hyundai's spec sheets decides how much goes up there. The Thule Amazon title lists 2020–2023, so confirm 2024 and 2025 with the seller."),
  ("Does the Hyundai Palisade have raised or flush roof rails?",
   "The Amazon listings we checked name the SE, SEL, XRT, Limited and Calligraphy with factory side rails, and the rack makers treat those as flush rails: the rail is attached to the roof along its whole length with no gap underneath. Thule's fit guide pairs the 2020–2025 Palisade with its Evo Flush Rail foot and fit kit 6008, and etrailer's Palisade list has flush-rail and naked-roof systems but no raised-rail towers. Some Amazon sellers just say \"side rails,\" which is the same thing. If you can't slide your fingers under the rail, buy flush-rail bars. Hyundai's 2024 specification sheet also lists a Calligraphy Night Edition, which no listing we found names, so check the rail on that one yourself."),
  ("Will 2020–2025 Palisade crossbars fit the 2026 Palisade?",

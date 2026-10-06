@@ -12,6 +12,8 @@ META = ("Six 6th-gen Explorer floor liner sets from Husky, 3W, LASFIT, DrCarNow 
         "7-passenger seating, the second-row console and the Hybrid.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2026 Ford Explorer?",
+  "Husky's WeatherBeater 99321 is the best floor liner for the 2020–2026 Explorer. The four-piece front and second-row set is made in the USA, listed through 2026 and backed by a lifetime warranty against cracks and breaks. Husky's 6-piece kit adds the third row and cargo area for a complete set. For three rows of TPE on a 6-passenger Explorer, 3W names the hybrid and LASFIT adds a cold rating, and KUST's rubber set covers the front two rows for the least money. Check your second row before ordering: captain's chairs or bench, and console or open walkway, since that decides which set fits."),
  ("How do I tell a 6-passenger from a 7-passenger Explorer?",
   "Look at the second row. Six-passenger Explorers have two captain's chairs, sometimes with a center console between them. Seven-passenger Explorers have a three-person bench. The second-row floor liner is shaped differently for each. 3W, LASFIT and DrCarNow on this page are 6-passenger only."),
  ("Do 2011–2019 Explorer liners fit the 2020+ Explorer?",

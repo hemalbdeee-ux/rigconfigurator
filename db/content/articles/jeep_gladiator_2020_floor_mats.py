@@ -9,6 +9,8 @@ META = ("Six Gladiator JT floor liner sets from Husky, 3W, LASFIT, Rough Country
         "lockable rear under-seat storage and Wrangler cross-fit notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2020–2026 Jeep Gladiator JT?",
+  "Husky's WeatherBeater three-piece set is the best overall pick for a trail Gladiator. It is made in the USA from ProGard, has tall firm walls and carries a lifetime warranty against cracks and breaks. For a daily driver, 3W's TPE set is the value pick for the first and second rows, and LASFIT's heavy-duty recycled TPE liners are listed through 2026 and rated for cold weather. Rough Country's all-weather mats are cut for trucks with the lockable rear under-seat bin, and Mopar's rubber mats give the factory look. Before ordering, lift the rear cushion and confirm your under-seat storage setup. The Husky title stops at 2024, so check Husky's fit tool for a 2025 or 2026."),
  ("Do Wrangler JL liners fit the Gladiator?",
   "The front pair can: Husky's 13021 front liners are listed for 2018–2026 Wrangler JK/JL and 2020–2026 Gladiator, because the front footwells are shared. The rear floor is different, since the Gladiator is a pickup with its own cab and rear seat. Buy a rear or full set that names the Gladiator."),
  ("What is the Gladiator's lockable under-seat storage?",

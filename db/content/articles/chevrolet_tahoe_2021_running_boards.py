@@ -14,6 +14,8 @@ META = ("Five 5th-gen Tahoe side steps from Rough Country, APS, HD Ridez and bud
         "with the Yukon share and Suburban/Yukon XL trap.")
 
 FAQ = [
+ ("What are the best running boards for a 2021–2026 Chevy Tahoe?",
+  "Rough Country's power running boards are the top pick for the 2021–2026 Tahoe. They give a low 6 in step when a door opens and tuck away for clearance when it closes, with dual motors and LED lights, though wiring is required. APS's black powder-coated boards are the best fixed board and exclude the Yukon XL by name, and HD Ridez's 5 in boards are the budget board. APS also sells a 5 in nerf bar listed through 2026. Whatever you pick, match the length: Tahoe and Yukon, not Suburban or Yukon XL, and confirm your model year, since several listings stop at 2025."),
  ("Do Tahoe running boards fit the Suburban or Yukon XL?",
   "No. The Suburban and Yukon XL have a longer wheelbase and longer rear doors, so boards cut for the Tahoe and Yukon are too short. The APS listings on this page say 'exclude Yukon XL' in their titles, and the HD Ridez title recorded here rules out both the Yukon XL and the Suburban. Buy boards that name your exact model."),
  ("Do Tahoe running boards fit the GMC Yukon?",

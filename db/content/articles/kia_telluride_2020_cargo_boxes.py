@@ -13,6 +13,8 @@ META = ("Seven Yakima, Thule and SportRack cargo boxes for the 2020–2025 Tellu
         "220 lb roof vs 165 lb bar limits and spread checks.")
 
 FAQ = [
+ ("What is the best cargo box for a 2020–2025 Kia Telluride?",
+  "The Yakima GrandTour 16 is the best overall pick for a three-row family. It holds 16 cu ft in an 18 in deep shell for bulky gear, opens from both sides, and its 24–36 in spread range fits flush-rail kits. The Yakima SkyBox 16 is the value pick, with the same 16 cu ft at a lower 15 in height, which helps at a garage door. The Thule Motion 3 XXL is the biggest box at 21 cu ft and 215 cm skis, and the SportRack Vista XL is the budget choice if rear loading is acceptable. Fit crossbars for your rail type first, and remember that a 165 lb bar rating and, on some flush-rail setups, a 27.5 in maximum spread set the rules."),
  ("What is the roof weight limit on a 2020–2025 Kia Telluride?",
   "The roof rack page of Kia's 2024 owner's manual prints \"220 lbs. (100 kg) EVENLY DISTRIBUTED\" as the most that can be loaded onto the roof rack, and etrailer cites the same figure. We read the 2024 manual only, so the owner's manual for your model year is the authority. In practice the crossbars often set a lower limit: the Thule systems etrailer recommends for the Telluride are rated at 165 lb. Your working limit is the lower of the roof and bar ratings, and the bars, box and gear all count against it."),
  ("Does the Telluride have flush rails or raised rails?",

@@ -9,6 +9,8 @@ META = ("Five Frontier Crew Cab side steps from Go Rhino, TAC and TIEZFUL, and w
         "bracket check on the 2022+ truck.")
 
 FAQ = [
+ ("What are the best running boards for a 2022–2026 Nissan Frontier Crew Cab?",
+  "Go Rhino's RB30 Slim 69634680SPC is the best overall pick. RealTruck describes the RB30 line as galvanized 16-gauge steel with flow-through slots, a 600 lb per side rating, a limited lifetime structural warranty and a 5-year finish warranty, installed with no drilling. TAC's Sidewinder 4 in drop steps put a lower step at each door, help on a lifted truck or for shorter passengers, and the listing covers 2026. TIEZFUL's 5.1 in drop-down steps and its 2-step rails cover the budget end. Every one of these listings spans both Frontier generations, so ask the seller to confirm the brackets for a 2022+ Crew Cab before ordering. The Go Rhino title stops at 2024, so also confirm 2025 and 2026."),
  ("Why do so many Frontier running boards list 2005 to 2025?",
   "The 2022 Frontier got a new body and interior, but it's built on an updated version of the previous truck's platform, and several board makers list one part for both generations. That doesn't guarantee the brackets line up on a 2022+. Westin sells a separate 27-2435 mount kit for the 2022 Frontier Crew Cab and King Cab, which suggests the mounting changed. Confirm 2022+ bracket fit with the seller before ordering any listing that spans both generations."),
  ("Crew Cab or King Cab?",

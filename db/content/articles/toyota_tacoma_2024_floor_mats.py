@@ -9,6 +9,8 @@ META = ("Five 4th-gen Tacoma Double Cab liner sets from WeatherTech, Toyota, LAS
         "exclusions, manual-transmission front and XtraCab notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2024–2026 Toyota Tacoma?",
+  "WeatherTech's FloorLiners are the best overall pick for an automatic Double Cab you are keeping. WeatherTech says they are laser-measured and backed by a lifetime limited warranty, and the listing covers 2024–2026. Toyota's genuine all-weather liners, PT206-35242-20, are the factory option with a fit a dealer can confirm by VIN. LASFIT's recycled TPE set is the pick for gas trucks on a budget, listed for 2024–2026 Double Cab automatics and not for the hybrid. AOMSAZTO is the budget set, and Husky's WeatherBeater 13921 front pair covers Double Cab and XtraCab automatics. Confirm cab, powertrain and transmission before ordering: the i-FORCE MAX hybrid changes the rear floor, and manual trucks need a manual-specific front such as Husky's 13931."),
  ("Why do some Tacoma liners exclude the hybrid?",
   "The i-FORCE MAX hybrid places its battery under the rear seat of the Double Cab, which changes the rear floor and under-seat area. LASFIT and COZONY both list their 2024+ sets as not for the hybrid. If you have a TRD Pro, a Trailhunter or any Tacoma with the i-FORCE MAX badge, buy a set that names the hybrid or ask the seller before ordering."),
  ("Do 3rd-gen (2016–2023) Tacoma liners fit a 2024?",

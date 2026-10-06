@@ -13,6 +13,8 @@ META = ("Six Yakima, Thule and SportRack cargo boxes sized for the 5th-gen RAV4:
         "roof load math, LE bare-roof notes.")
 
 FAQ = [
+ ("What is the best cargo box for a 2019–2025 Toyota RAV4?",
+  "The Yakima GrandTour 16 is the best overall pick. It puts 16 cu ft in 79 in, the shortest Yakima 16 here, with dual-side opening and a 24–36 in crossbar spread. The Thule Force 3 L is the shortest 16 cu ft box at 76.8 in and 43 lb, for more money. The SportRack Vista XL is the budget pick, with 18 cu ft in 63 in and a rear-opening lid. The DeepSpace 10 is the choice if roof weight matters most, as long as your bars can be spread 32 in apart. Before any box, fit crossbars for your trim: raised-rail bars on XLE and up, bars that name the Adventure, TRD Off-Road or Woodland, or a bare-roof clamp kit on the LE."),
  ("What size cargo box fits a 2019–2025 RAV4?",
   "Most owners land on 12 to 16 cu ft. The RAV4 is a compact SUV with a short roof, so box length matters more than volume. The Thule Force 3 L packs 16 cu ft into 76.8 in and the Yakima GrandTour 16 into 79 in. The SportRack Vista XL fits 18 cu ft into 63 in, and the DeepSpace 10 is only 60 in long. Long ski boxes of 84 in and up are the ones most likely to crowd the open liftgate, so measure before you choose one."),
  ("Will a roof box hit the RAV4 liftgate when it opens?",

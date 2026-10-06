@@ -27,6 +27,8 @@ META = ("Seven 5th-gen 4Runner side steps sorted by grade: Westin drop steps and
         "Cali Raised rock sliders, and what fits a Limited.")
 
 FAQ = [
+ ("What are the best running boards for a 2010–2024 Toyota 4Runner?",
+  "It depends on the grade. For a 2014–2024 SR5, Trail, TRD Off-Road or TRD Pro, Westin's HDX Drop 56-13835 is the best overall running board, a one-piece steel bar with two drop steps per side and a maker fit list by grade. For the Limited, Nightshade and TRD Sport, Westin's PRO TRAXX 4 21-23585 is the pick, a 4 in oval tube nerf bar listed for those grades. Rough Country's dual-motor power boards are the best power steps, with 660 lb per side, and Cali Raised's Step Edition sliders are the best rock slider for rocky trails. The Limited group and the SR5 and TRD group take different parts that do not swap, and the 2010–2013 SR5 needs a title that names it."),
  ("Do running boards for a 4Runner SR5 fit the Limited?",
   "Usually not. Makers and sellers split the 2010–2024 4Runner into two groups. Westin lists its PRO TRAXX 4 bars 21-23585 for the 2010–2024 Limited, the 2020–2021 Nightshade and the 2022–2023 TRD Sport, and its HDX Drop 56-13835 for the SR5 from 2014, the Trail, TRD Off-Road, TRD Pro and Venture. Rough Country says its power boards do not fit the Limited, the 2010–2013 SR5 or the TRD Sport. TAC and Hooke Road print the same exclusions in their Amazon titles. Find your grade and model year in the title or in the maker's fit list before you order anything."),
  ("Why is the 2010–2013 SR5 grouped with the Limited?",

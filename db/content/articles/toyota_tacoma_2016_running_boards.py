@@ -13,6 +13,8 @@ META = ("Seven 2016–2023 Tacoma side steps matched to Double Cab or Access Cab
         "Go Rhino boards, a power board, and budget bars.")
 
 FAQ = [
+ ("What are the best running boards for a 2016–2023 Toyota Tacoma?",
+  "Westin's HDX Stainless Drop 56-127752 is the best overall pick for a Double Cab. It is 401 stainless steel under a textured black powder coat, bolts on with no drilling and carries a 5-year limited warranty. Go Rhino's RB20 is the best flat running board, with a 7.5 in step at the front and galvanized 16-gauge steel. Westin's XTS 42-14205 is the rock slider for trucks that see rocks, Tyger's Star Armor is the rated value pick at 500 lb per side, and TAC's 4.25 in oval bar is the Access Cab pick. The cab decides the part: Double Cab steps do not fit the Access Cab, and a wheel-to-wheel bar such as Westin's 56-534185 must also match the 73.7 in bed."),
  ("Do Double Cab running boards fit a Tacoma Access Cab?",
   "No. A cab-length step is cut to the door opening, and its brackets are spaced for one cab. Toyota's 2023 release describes two cab types, the extended Access Cab and the four-door Double Cab. Tyger says on its Star Armor page that the Double Cab part only fits the cab with four full-size doors and is not for the Access Cab, which has two full-size front doors and two rear-hinged doors. TAC sells a separate bar whose title names the 2005–2023 Access Cab, and that is the Access Cab pick on this page. Count the doors, then read the title for the cab name. If the title names no cab, ask the seller."),
  ("Which 2016–2023 Tacoma grades came with factory running boards?",

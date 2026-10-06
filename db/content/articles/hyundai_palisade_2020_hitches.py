@@ -15,6 +15,8 @@ META = ("Five 2 in hitches for the first-gen Palisade: CURT, Draw-Tite, a Stealt
         "bundle, plus the 1,650 lb unbraked limit and 2023 wiring split.")
 
 FAQ = [
+ ("What is the best trailer hitch for a 2020–2025 Hyundai Palisade?",
+  "The CURT 13427 is the best overall pick for most Palisades. It is a Class III hitch with a concealed main body, rated 5,000 lb gross trailer weight and 750 lb tongue weight, and CURT calls the install novice-level. The Draw-Tite 76420 is the pick for weight-distribution towing, rated 6,000 lb and 750 lb with a WD system, with a 30-minute no-drill install. The Stealth Hitches rack package hides the receiver when it is out, and the KUAFU Class 3 is the budget option for bikes and light trailers. If you have a 2023–2025 Palisade, the Reese bundle pairs the hitch with a 4-way harness matched to the facelift. Check CURT's fitment table against your Palisade before ordering, and match the wiring to your side of the 2023 facelift."),
  ("How much can a 2020–2025 Palisade tow?",
   "Hyundai's 2020, 2023 and 2024 Palisade spec sheets list 5,000 lb with trailer brakes and 1,650 lb without. Each sheet prints one figure for the model, with no FWD or AWD split. We did not read the sheets for 2021, 2022 or 2025, so check the owner's manual for those years. The unbraked figure is the one people miss: a small utility trailer loaded with a mower or firewood can pass 1,650 lb, and above that Hyundai expects the trailer to have its own brakes. Weigh a loaded utility trailer once; many owners are surprised by the number."),
  ("Does the Palisade come ready to tow?",

@@ -9,6 +9,8 @@ META = ("Five Bronco 4-door floor liner and cargo picks from Husky, LASFIT, 3W a
         "rubberized floor, 2-door and Bronco Sport traps explained.")
 
 FAQ = [
+ ("What are the best floor liners for a 2021–2026 Ford Bronco?",
+  "Husky's WeatherBeater 95301 is the best floor liner for the 2021–2026 Bronco 4-door. It is made in the USA, has tall firm walls that hold rain and mud when the doors are off, and carries a lifetime warranty against cracks and breaks; pair it with Husky's 23321 cargo liner. LASFIT's recycled TPE set is the pick for a daily driver, 3W's kit covers the floor and cargo area of a carpeted 4-door in one order, and Lwope's rubber mats are the budget choice. Check the listing name first, Bronco rather than Bronco Sport, and the floor under the mats, carpet or washable rubberized, since the 3W kit is carpet only."),
  ("Do Bronco Sport liners fit the Bronco?",
   "No. The Bronco Sport is a smaller, unibody crossover built on a different platform, and its floor has nothing in common with the body-on-frame Bronco. Husky sells separate parts: 95341 for the Bronco Sport and 95301 for the Bronco 4-door. Several listings on this page say 'not Bronco Sport' in the title. Read it before ordering."),
  ("What is the Bronco's washable rubberized floor?",

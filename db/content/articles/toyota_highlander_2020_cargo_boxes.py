@@ -15,6 +15,8 @@ META = ("Six Yakima, Thule, INNO and SportRack cargo boxes for the 4th-gen Highl
         "max spread on flush rails, bare-roof trims, hatch gap.")
 
 FAQ = [
+ ("What is the best cargo box for a 2020–2026 Toyota Highlander?",
+  "The Yakima SkyBox 16 Carbonite is the best overall cargo box for the 2020–2026 Toyota Highlander. It holds 16 cu ft in a 15 in tall shell, opens from both sides and has a 24–34.5 in crossbar spread that fits the 31 in maximum of the Thule Fixpoint kit for this car. The Thule Pulse L is the lightest 16 cu ft box at 36 lb, which leaves the most gear allowance against the 165 lb bar rating. The Thule Motion 3 XXL is the biggest at 21 cu ft, and the SportRack Vista XL is the budget pick. You need crossbars first: XLE, XSE, Limited and Platinum have factory side rails per listings, and some Highlanders leave the factory with a bare roof."),
  ("What is the roof load limit for a cargo box on a 2020–2026 Highlander?",
   "Plan around 165 lb. That is a crossbar rating, not a Toyota roof figure. Toyota Customs, the parts department of a Toyota dealer in Edmonton, Canada, lists 75 kg (165 lb), evenly distributed, for Toyota's Highlander crossbars. AHG Auto Service gives the same 75 kg for the genuine bars on 2020–2023 models, and The Rack Shop's Thule kit for this Highlander is rated at 165 lb. That figure covers the bars, the box and the gear. We could not confirm a separate roof figure from a Toyota document, so the owner's manual is the authority. Use the lowest number you find."),
  ("How far apart can crossbars sit on a Highlander's factory rails?",

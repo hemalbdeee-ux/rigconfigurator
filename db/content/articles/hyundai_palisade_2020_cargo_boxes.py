@@ -14,6 +14,8 @@ META = ("Seven Yakima, Thule, Rhino-Rack, INNO and Rightline cargo boxes for the
         "32 in spread, 165 vs 220 lb bar math, hatch clearance.")
 
 FAQ = [
+ ("What is the best cargo box for a 2020–2025 Hyundai Palisade?",
+  "The Yakima SkyBox 16 Carbonite is the best overall pick for most Palisade families. Yakima lists it at 16 cu ft and 47 lb, with a 24–34.5 in spread that covers the Palisade's roughly 32 in, and at 15 in tall it stays low. If you need the most volume, the Thule Motion 3 XXL holds 21 cu ft, and the Palisade's roughly 71 in of hatch clearance leaves room for it when mounted forward. The Rhino-Rack MasterFit 440 is the light mid-size choice, and the Rightline Gear Sport 3 soft carrier is the budget option. Fit flush-rail crossbars that name the 2020–2025 Palisade first, because raised-rail towers will not grip its rails, and keep bars, box and cargo under the lowest rating that applies."),
  ("What size cargo box fits a 2020–2025 Hyundai Palisade?",
   "The Palisade's roof and hatch leave room for almost any size. An etrailer expert puts its rear hatch clearance at about 71 in, well past the 55 in a Thule Motion XT needs, so even the 91.3 in Thule Motion 3 XXL (21 cu ft) is a realistic choice. For most families a 16 cu ft box like the Yakima SkyBox 16 is the sweet spot: enough for third-row luggage while leaving weight for gear under a 165 lb bar rating."),
  ("How much weight can the Palisade's roof crossbars hold?",

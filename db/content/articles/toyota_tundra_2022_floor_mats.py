@@ -9,6 +9,8 @@ META = ("Six 3rd-gen Tundra floor liner sets from Husky, LASFIT and budget TPE, 
         "checked for the i-FORCE MAX hybrid.")
 
 FAQ = [
+ ("What are the best floor liners for a 2022–2026 Toyota Tundra?",
+  "Husky's WeatherBeater 99481 is the best overall pick for the CrewMax, and the 99471 is the set for the Double Cab. Both are made in the USA with a lifetime warranty against cracks and breaks and cover 2022–2026. LASFIT's recycled TPE set is the softer TPE pick for a gas CrewMax. LNZMPART's full set is the pick for the i-FORCE MAX hybrid because its title names it, and AOMSAZTO's bundle adds a 5.5 ft bed mat and lists the Tundra Hybrid CrewMax. Confirm cab and powertrain before ordering: CrewMax and Double Cab rear liners do not swap, and on a hybrid the battery under the rear seat means you should pick a set that names the i-FORCE MAX or confirm the rear piece."),
  ("Do 2014–2021 Tundra liners fit a 2022+ Tundra?",
   "No. The 2022 Tundra moved to the TNGA-F platform with a new cab. Husky's catalog makes the break clear: the 99581 set is for 2014–2021 CrewMax and the 99481 set is for 2022–2026 CrewMax. Buy a set listed for 2022 or later."),
  ("How do I tell a CrewMax from a Double Cab?",

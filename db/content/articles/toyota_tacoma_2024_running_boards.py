@@ -9,6 +9,8 @@ META = ("Eight 4th-gen Tacoma Double Cab side steps from Go Rhino (RB10, RB20, R
         "CLAMBER, from slim boards to drop steps and slider-style steps.")
 
 FAQ = [
+ ("What are the best running boards for a 2024–2026 Toyota Tacoma?",
+  "Go Rhino's RB20 Slim is the best overall pick for the Double Cab. RealTruck lists it with a 5.5 in step that keeps side clearance, galvanized 16-gauge steel, a bedliner coating and a limited lifetime structural warranty. The full-width Go Rhino RB20 is the widest step at 7.5 in front and 6.5 in rear, for families and road-focused trucks. The RB30 Slim adds flow-through slots for snow, TAC's Gen5 4 in drop steps give the lowest first step and name the hybrid, and CLAMBER's 7.5 in slider-style steps are the pick for trails. Every pick here is Double Cab, and the Go Rhino titles name only 2024, so confirm a 2025 or 2026 with the seller and check for factory rails on a TRD Pro or Trailhunter."),
  ("Do 2016–2023 Tacoma running boards fit the 2024+?",
   "No. The 2024 Tacoma is a new generation on the TNGA-F platform with a new body and rocker. Go Rhino sells separate kits: 69442987PC for 2005–2023 Double Cab and the 69443280 series for the 2024 Double Cab. Buy listings that name 2024 or later."),
  ("Double Cab or XtraCab?",

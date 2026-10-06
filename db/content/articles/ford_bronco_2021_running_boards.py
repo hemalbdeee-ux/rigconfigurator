@@ -18,6 +18,8 @@ META = ("Six 2021–2026 Bronco side steps by door count: Rough Country power an
         "Go Rhino D1 and rock sliders, plus factory rock rail notes.")
 
 FAQ = [
+ ("What are the best running boards for a 2021–2026 Ford Bronco?",
+  "Rough Country's BA2 is the best running board for a 2021–2026 Bronco 4-door. It is a 5 in steel board with a no-drill bolt-on install and a 5-year limited warranty, and Rough Country lists it for 2021–2026. Rough Country's dual-motor power boards fold away for trail clearance and carry a 660 lb per-side rating. For the 2-door, Westin's Outlaw Drop gives the lowest step, and Rough Country's oval nerf steps are the budget bar if the rocker is bare. Go Rhino's D1 has the longest warranty once the seller confirms the door count. Count the doors and look for factory rock rails first, since most steps here go on in place of them."),
  ("Do 2-door Bronco running boards fit the 4-door?",
   "No. A side step runs between the wheel wells, and the two bodies are different lengths there. Wikipedia lists a 100.4 in wheelbase for the 2-door Bronco and 116.1 in for the 4-door, a gap of 15.7 in, with overall lengths of 174.8 in against 189.4 to 190.5 in. Every maker we read sells the two bodies as separate parts. Rough Country's BA2 board is 41008 for the 2-door and 41007 for the 4-door, and Westin's Outlaw Drop is 20-14185 for the 2-door and 20-14195 for the 4-door. Count your doors, then buy a listing whose title names that count."),
  ("Do Bronco Sport running boards fit the full-size Bronco?",

@@ -9,6 +9,8 @@ META = ("Six Silverado 1500 Crew Cab liner sets from WeatherTech, Husky, 3W, LAS
         "buckets and the three rear under-seat storage versions.")
 
 FAQ = [
+ ("What are the best floor liners for a 2019–2026 Chevy Silverado 1500?",
+  "Husky's WeatherBeater 94021 is the best overall floor liner for the 2019–2026 Silverado 1500 Crew Cab with carpet and underseat storage. It is made in the USA with a lifetime warranty against cracks and breaks. WeatherTech's front-bench set covers bench-seat trucks for 2019–2026 with a lifetime limited warranty. 3W is the TPE value pick for carpeted rear storage, LASFIT fits bucket-seat trucks, and KUST or Falafa handle trucks with the plastic rear storage box. Match two things before ordering: your front seat layout, bench or buckets, and the rear under-seat storage type, carpeted, box or none."),
  ("What rear under-seat storage does my Silverado have?",
   "Lift the rear seat cushions. Crew Cab Silverados come with one of three setups: a carpeted floor with factory carpeted storage, a molded plastic storage box under the seat, or a plain floor with no storage. The listings on this page split along exactly those lines. 3W is cut for factory carpeted storage, Falafa and KUST for the rear under-seat storage box, and one budget set for trucks without the box. Husky's 94021 set is listed for trucks with carpet and underseat storage."),
  ("Do Silverado liners fit the GMC Sierra 1500?",

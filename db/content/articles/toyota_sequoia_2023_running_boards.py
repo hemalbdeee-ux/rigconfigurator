@@ -14,6 +14,8 @@ META = ("Seven 3rd-gen Sequoia side steps from Go Rhino, POFENZE and budget bran
         "options, with width, load rating and warranty notes.")
 
 FAQ = [
+ ("What are the best running boards for a 2023–2026 Toyota Sequoia?",
+  "Go Rhino's RB30 is the best overall pick. RealTruck lists it with a 7 in step, open flow-through slots that shed dirt and snow, a 600 lb per side rating and galvanized 16-gauge steel with a limited lifetime structural warranty. The Go Rhino RB20 has the widest step at 7.5 in front and 6.5 in rear, and the RB20 kit with two pairs of drop steps is the pick for families with small kids. The RB30 Slim gives more clearance, and POFENZE's carbon-steel boards are the budget pick, listed for 2023–2026. The Go Rhino titles name the 2023–2024 Sequoia, so confirm a 2025 or 2026 with the seller, and look under the doors first, since Toyota lists power running boards as standard on the Capstone."),
  ("Do Tundra running boards fit the Sequoia?",
   "No. The Sequoia shares the TNGA-F platform with the Tundra, but it's an SUV with a different body length and door layout. Go Rhino sells separate Sequoia kits (for example the 69443973 series) from its Tundra CrewMax kits. Buy boards that name the Sequoia."),
  ("Do 2008–2022 Sequoia boards fit the 2023+?",

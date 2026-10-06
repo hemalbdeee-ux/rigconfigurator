@@ -11,6 +11,8 @@ META = ("Five 2 in hitches for the 2020–2025 Outback, from the Subaru OEM kit 
         "2.5L 2,700 lb vs turbo 3,500 lb tow split, Wilderness fascia, wiring.")
 
 FAQ = [
+ ("What is the best trailer hitch for a 2020–2025 Subaru Outback?",
+  "The CURT 13494 is the best overall trailer hitch for the 2020–2025 Subaru Outback. It is a Class 3 with a 2 in receiver and a concealed main body, rated at 3,500 lb and 350 lb tongue weight, and is listed for the Outback and Legacy in all trims. The Draw-Tite 76597 has the highest hitch rating, 4,500 lb and 675 lb, and bolts on with no drilling for XT or Wilderness owners who want extra margin. Subaru's L101SAN000 is the factory option with the wiring harness included, and the dealer handles the Wilderness fascia. The engine sets the tow limit: 2,700 lb for the 2.5-liter and 3,500 lb for the 2.4-liter turbo in XT trims and the Wilderness."),
  ("How much can a 2020–2025 Subaru Outback tow?",
   "It depends on the engine, not the hitch. Subaru's hitch documentation lists 2,700 lb with a 270 lb maximum tongue weight for the 2.5-liter Outback, and 3,500 lb with a 350 lb tongue weight for the 2.4-liter turbo used in XT trims and the Wilderness. The CURT and Draw-Tite hitches on this page are rated at 3,500 lb or more, so on a 2.5-liter car the vehicle, not the hitch, sets the limit. The budget TUZILLA's ratings have to be confirmed on its listing. Check the towing section of your owner's manual for your exact trim."),
  ("Does a 3,500 lb or 4,500 lb hitch let a 2.5-liter Outback tow more?",

@@ -9,6 +9,8 @@ META = ("Seven Ram 1500 DT Crew Cab side steps from Go Rhino, Westin, PZ, BINARY
         "body trap, slim vs full-width boards and drop steps.")
 
 FAQ = [
+ ("What are the best running boards for a 2019–2026 Ram 1500?",
+  "Go Rhino's RB20 with the bedliner coating is the best running board for the 2019–2026 Ram 1500 DT Crew Cab. It is galvanized 16-gauge steel with a 7.5 in front and 6.5 in rear step, a limited lifetime structural warranty and a no-drill install. The RB20 Slim is the best slim board, with a 5.5 in step and more side clearance. Westin's PRO TRAXX 4 is the best nerf bar and the one that lists the 2026 model year. For a lifted truck, SMANOW's drop-down steps put a lower step at each door. Every pick is for the new-body DT Crew Cab only, so confirm your truck is not a 1500 Classic and not a Quad Cab before ordering."),
  ("Will DT running boards fit a Ram 1500 Classic?",
   "No. Ram sold the new DT 1500 and the older 1500 Classic side by side from 2019 to 2024, and they have different bodies and rocker mounting points. Go Rhino's titles say 'New Body Style Only. Excludes Classic Body Style', and Westin's say 'Exc 1500 Classic'. The interior is the quick check: most DTs have a rotary gear selector on the dash."),
  ("Crew Cab or Quad Cab?",

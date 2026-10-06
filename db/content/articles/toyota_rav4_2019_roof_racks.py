@@ -14,6 +14,8 @@ META = ("Five crossbars for the 5th-gen RAV4, split by rail: standard raised rai
         "the bare-roof LE, with load limit, spread and noise notes.")
 
 FAQ = [
+ ("What is the best roof rack for a 2019–2025 Toyota RAV4?",
+  "For most RAV4s with standard raised rails, the Autekcomma lockable crossbars are the best overall pick. The title names every trim it excludes, and it carries a 260 lb bar rating, the highest on this page. FLYCLE is the value lockable set for the same standard rails, and VEVOR is the budget lockable set with a 160 lb rating, listed for 2020–2023. Adventure and TRD Off-Road owners should buy the ROKIOTOEX set, which is titled for their factory raised rails. The bare-roof LE needs a clamp kit such as Thule's naked-roof WingBar Evo. Match the bars to your rail type, not your powertrain, and keep the total load under the roof figure in your owner's manual, bars included."),
  ("Which crossbars fit my RAV4 — how do I tell my rail type?",
   "Look at the roof and the badge. Our vehicle data puts standard raised rails on XLE and up, which is what most crossbar listings mean by \"2019–2025 RAV4.\" Listings treat the Adventure and TRD Off-Road rails as a separate fit, and the Autekcomma title excludes the Woodland as well. Our vehicle data lists the LE with a bare roof. Match the listing's exclusions to your badge: several bars here say \"not Adventure / TRD Off-Road\" in the title."),
  ("Do regular RAV4 crossbars fit the Adventure or TRD Off-Road?",

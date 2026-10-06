@@ -17,6 +17,8 @@ META = ("Six Yakima, Thule, Rhino-Rack and SportRack boxes plus crossbars for th
         "kits, loading height and garage clearance.")
 
 FAQ = [
+ ("What is the best cargo box for a 2021–2026 Chevy Tahoe?",
+  "The Yakima GrandTour 16 is the best cargo box for the 2021–2026 Tahoe. It holds 16 cu ft, weighs 51.5 lb, opens from both sides and leaves weight for gear under the 165 lb rating of the flush-rail crossbar kits. The Yakima CBX XXL is the biggest box at 21.5 cu ft for crews who pack light, and the SkyBox 16 is the lowest full-size box at 15 in tall for tight doors. The Rhino-Rack MasterFit 440L is the lightest. Fit flush-rail crossbars for your trim first; the Z71 is sold as its own fit, so confirm the kit by VIN. The Tahoe is 76 in tall, so any box puts it past a standard garage door."),
  ("Does the 2021–2026 Tahoe have raised rails or flush rails?",
   "Retailer fit guides list the fifth-generation Tahoe with flush-mounted side rails that run front to back, not raised rails with a gap underneath. etrailer shows only that roof type for the 2021 Tahoe, and The Rack Shop sells its Z71 Thule setup on its own page, but with the same Thule Fit Kit 186117 that etrailer names for a 2022 Tahoe with flush rails (sold there as TH95JW). Buy crossbar feet made for flush rails and have the retailer confirm the kit by VIN; raised-rail towers won't clamp on."),
  ("What is the roof weight limit on a 2021–2026 Tahoe?",

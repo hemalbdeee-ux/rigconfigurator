@@ -10,6 +10,8 @@ META = ("Six 2-row Grand Cherokee WL floor liner sets from Husky, 3W, Flymotor a
         "the WK2, 2022 WK and Grand Cherokee L traps explained.")
 
 FAQ = [
+ ("What are the best floor liners for a 2022–2026 Jeep Grand Cherokee WL?",
+  "Husky's WeatherBeater 95411 is the best overall pick for a gas WL. It is a three-piece front and second-row set, made in the USA from ProGard, with a lifetime warranty against cracks and breaks, and it excludes the 4xe. For a 4xe, 3W's TPE floor mats plus cargo liner cover the 2022–2026 WL including the plug-in hybrid. The generic floor liner and cargo mat set is the budget route to full coverage, and the all-weather mat set is the cheapest cabin set with the widest year range. Rule out the look-alikes first: the carryover 2022 WK, the older WK2 and the three-row L take different parts. For a 2026, confirm with Husky's fit tool."),
  ("How do I tell a WL Grand Cherokee from a WK2 or the 2022 WK?",
   "The WL (2022+ two-row) has the newer body with slimmer headlights and a large available touchscreen on a redesigned dash. The WK2 ran from 2011 to 2021, and Jeep sold a carryover '2022 Grand Cherokee WK' alongside the new WL for one year. Husky's catalog treats the 2022 WK with the WK2 (for example its 99151 set lists 2016–2021 Grand Cherokee and 2022 WK). If your 2022 has the older-style dash, it's a WK and needs WK2 liners."),
  ("Do Grand Cherokee L liners fit the two-row WL?",

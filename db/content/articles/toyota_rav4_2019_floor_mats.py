@@ -11,6 +11,8 @@ META = ("Six 5th-gen RAV4 floor liner sets from WeatherTech, Husky, Powerty, AOM
         "Hybrid and Prime, with cargo and 2026 notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2019–2025 Toyota RAV4?",
+  "WeatherTech's FloorLiners are the best overall pick. WeatherTech says they are laser-measured and backed by a lifetime limited warranty, and they cover the front and second row. The generic 3D custom-fit set is the pick for a Hybrid or Prime on a budget, because it lists gas, Hybrid and Prime. Powerty lists all 2019–2025 models, the floor-and-cargo set adds the load floor and lists the hybrid, and AOMSAZTO is the lowest-price pick for gas RAV4s only. Match the powertrain before ordering: AOMSAZTO and Husky's 95501 are gas only, and WeatherTech asks you to confirm Hybrid or Prime on the listing."),
  ("Do RAV4 Hybrid and Prime take different liners than the gas RAV4?",
   "Sometimes. Toyota says the RAV4 Prime's larger lithium-ion battery is mounted under the floor. We could not confirm from Toyota where the Hybrid's battery sits or how either floor differs from the gas car's, but some listings exclude the hybrid. AOMSAZTO's set on this page is gas only. The generic 3D liners list gas, Hybrid and Prime, and Powerty lists all models. WeatherTech asks you to confirm hybrid or Prime on the listing. Match the powertrain before ordering."),
  ("Is the cargo area different on the hybrid?",

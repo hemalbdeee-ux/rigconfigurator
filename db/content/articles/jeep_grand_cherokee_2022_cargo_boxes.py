@@ -13,6 +13,8 @@ META = ("Seven Yakima, Thule, Rhino-Rack, SportRack and Rightline cargo boxes fo
         "fixed-point 24.5 in spread, 165 lb bars, hatch checks.")
 
 FAQ = [
+ ("What is the best cargo box for a 2022–2026 Jeep Grand Cherokee?",
+  "The Yakima SkyBox 16 is the best overall pick. It holds 16 cu ft, stands 15 in tall, weighs 47 lb, and its 24 in minimum crossbar spread fits the roughly 24.5 in fixed spread of a Rhino-Rack Vortex rack as well as clamp-on bars. Skiers should look at the Thule Motion 3 XL, which holds 18 cu ft and skis up to 200 cm and suits the L's longer roof best. The Rhino-Rack MasterFit 440 is the light match for Vortex bars, and the Rightline Gear Sport 3 is the budget soft carrier. Get flush-rail bars for your WL body first and check the crossbar spread, and remember that 165 lb bars and your owner's manual roof figure decide how full the box gets."),
  ("What size cargo box fits a 2022–2026 Grand Cherokee?",
   "A 16 cu ft box suits most two-row Grand Cherokees, and the three-row L's longer roof gives more room for an 18 cu ft box. Just as important as volume is crossbar spread: several flush-rail systems mount at fixed points, and etrailer lists the Rhino-Rack Vortex at about 24.5 in. The Yakima SkyBox 16 and CBX 16 (24 in minimum), the Thule Motion 3 XL (21-13/16 in minimum) and the Rhino-Rack MasterFit 440 (620 mm, about 24.4 in) all start below that."),
  ("Why does crossbar spread matter so much on a Grand Cherokee?",

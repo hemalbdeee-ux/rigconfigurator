@@ -24,6 +24,8 @@ META = ("Seven roof racks and crossbars listed for the 3rd-gen Sequoia, lockable
         "with the raised vs flush rail check and TRD Pro notes.")
 
 FAQ = [
+ ("What is the best roof rack for a 2023–2026 Toyota Sequoia?",
+  "The Tuyoung 260 lb lockable crossbars are the best overall pick. The title names the 2023–2026 Sequoia, prints a 260 lb rating and says lockable, the only set here with both. The ANTS PART bars are the budget pick and run 2023 through 2026 by title. The Front Runner Slimsport KSTS003T is the premium platform for an overland build, with a 105 x 54.4 in deck, though OK4WD lists it at 103.6 lb before cargo. If you want a 165 lb rating in writing, Rack Warehouse sells a Thule or Yakima raised-rail kit through a dealer. Look under the rail first: etrailer lists both raised and flush rails for this Sequoia and names no grades, and the clamp has to match your rail."),
  ("Does the 2023–2026 Toyota Sequoia have raised or flush roof rails?",
   "Both exist, and we could not confirm which grades get which. etrailer lists two roof types for the 2023 and 2024 Sequoia: \"Factory installed raised rails that run front to back\" and \"Flush mounted rails that run front to back\". It names no grades, and Toyota's releases for the 2023 reveal and the 2025 model year do not describe the roof rails at all. So check your own roof. Slide your fingers under the side rail between its end mounts. A gap you can pass a strap through means raised rails. A rail that sits tight to the roof along its whole length means flush rails. Raised-rail clamps and flush-rail feet are different parts, so settle this before you order anything."),
  ("What is the roof load limit on a 2023–2026 Sequoia?",

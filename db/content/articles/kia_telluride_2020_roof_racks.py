@@ -12,6 +12,8 @@ META = ("Six crossbar sets for the first-gen Telluride, split by rail: flush rai
         "raised rails, plus BRIGHTLINES, Thule and Yakima.")
 
 FAQ = [
+ ("What is the best roof rack for a 2020–2025 Kia Telluride?",
+  "It depends on your rail. For standard trims, Snailfly's lockable bars are the best pick: the listing names the EX, S, SX and SX-P and says the bars do not fit the X-Line or X-Pro. For the X-Line and X-Pro's raised rails, Tuyoung's set is the pick, listed only for the 2023–2025 X-Line and X-Pro with a 300 lb printed rating. BRIGHTLINES sells one set for each rail type with a printed 165 lb rating and locks. If the bars will work hard for years, a Thule or Yakima system from etrailer brings a fit kit and a lifetime warranty. Look at your rail first, and treat the 220 lb roof rack load printed in Kia's 2024 owner's manual as the ceiling."),
  ("Does my Telluride have flush or raised roof rails?",
   "It depends on the trim. Kia added the X-Line and X-Pro for the 2023 model year and lists raised, bridge-type roof rails as an X-Line feature, and the X-Pro shares them; those rails stand off the roof with a gap you can put your hand through. The other trims (LX, S, EX, SX, SX-P) have lower rails that sit close to the roof, and Thule fits them with its Evo Flush Rail foot and a Telluride fit kit. Look along the rail from the side: daylight under it means raised, none means flush."),
  ("Do X-Line crossbars fit a standard Telluride?",

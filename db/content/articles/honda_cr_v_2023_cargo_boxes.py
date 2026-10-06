@@ -15,6 +15,8 @@ META = ("Five Thule, Rhino-Rack, INNO, Yakima and SportRack boxes plus bare-roof
         "clamp kits for gas trims, rails on hybrids, liftgate fit.")
 
 FAQ = [
+ ("What is the best cargo box for a 2023–2026 Honda CR-V?",
+  "The Thule Pulse 2 M is the best overall pick. Thule lists it at 14 cu ft, 68.9 in long and 31 lb, so it sits well forward on the CR-V's short roof and leaves the most of Honda's 165 lb accessory-rail total for gear. If you want more space, the Rhino-Rack MasterFit 440L gives 15.5 cu ft at 38.6 lb with a wide 620–930 mm spread range, which suits a door-clamp kit. On a budget, the SportRack Vista XL holds 18 cu ft in a 63 in shell if your bars land on one of its three fixed positions. Fit crossbars for your roof first, a door-clamp kit on bare-roof gas trims or a rail kit on hybrid trims, and mount any box forward to clear the liftgate."),
  ("Does the 2023–2026 Honda CR-V have roof rails?",
   "It depends on the trim. Honda's 2023 and 2026 specifications list black roof rails as standard on the hybrid trims (Sport, TrailSport, Sport-L and Sport Touring) and none on the gas LX, EX and EX-L. We did not read Honda's 2024 or 2025 tables. etrailer's fit guide splits the 2023 CR-V into two roof types: no rails or crossbars, and flush rails that run front to back. Honda also sells accessory rails (part 08L02-3A0-100, listed for 2023–2027) for a CR-V without them. Look at your roof: a smooth roof needs a clamp kit, and rails need a flush-rail kit."),
  ("How much weight can a CR-V roof box carry?",

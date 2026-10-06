@@ -14,6 +14,8 @@ META = ("Five 2-inch hitches for the 4th-gen Pilot, with GTW and tongue ratings,
         "the full-size spare catch, and 3,500 vs 5,000 lb by drivetrain.")
 
 FAQ = [
+ ("What is the best trailer hitch for a 2023–2026 Honda Pilot?",
+  "The Draw-Tite 76453 is the best overall pick. It is a Class IV hitch with a 2 in receiver, rated at 6,000 lb gross trailer weight and 900 lb tongue weight, and Draw-Tite quotes a 40-minute install with no drilling and a limited lifetime warranty. It is listed for the 2023–2026 Pilot except with a full-size spare tire. For a bike rack or a light trailer, the Autekcomma 13472-style Class 3 hitch is the budget pick; ask the seller about the hands-free tailgate sensor relocation kit CURT calls for. TrailSport owners do not need any of these, because Honda fits an integrated Class III hitch as standard on that trim. Whatever you buy, tow within Honda's rating of 5,000 lb with all-wheel drive or 3,500 lb with two-wheel drive."),
  ("Does the 2023+ Pilot TrailSport need an aftermarket hitch?",
   "No. Honda's press kit lists a tow hitch as standard on the TrailSport, and Honda's Info Center describes it as an integrated Class III hitch. Every other trim needs either Honda's dealer-installed towing accessories or an aftermarket hitch like the ones on this page. That means the LX (2023 and 2024), Sport, EX-L, Touring and Elite, plus the Black Edition from 2025 and the Touring Blackout shown on Honda's 2026 page. Wikipedia says the LX was dropped for 2025 and the Black Edition was added that year."),
  ("How much can a 2023–2026 Pilot tow?",

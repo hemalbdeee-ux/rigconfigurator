@@ -9,6 +9,8 @@ META = ("Six 2022+ Frontier Crew Cab floor liner options from WeatherTech, Husky
         "TPE, checked against the Fender under-seat speaker and rear storage.")
 
 FAQ = [
+ ("What are the best floor liners for a 2022–2026 Nissan Frontier Crew Cab?",
+  "Smartliner's 2-row set is the best overall pick. It is a one-piece TPE liner listed for the 2022–2026 Frontier Crew Cab, laser-scanned for the vehicle and covered by a limited lifetime warranty. WeatherTech's All-Weather mats, the W608 front and W610 rear, are the brand-name choice for easy daily use, with lower edges than a liner. Rough Country's all-weather mats suit PRO-4X owners, Powerty's 3D TPE liners are cut for trucks with the second-row under-seat storage bin, and Binmotor's set is the budget pick for trucks without the rear speaker. The decision happens under the rear seat: lift the cushion and check whether you have the Fender speaker, a storage bin or plain carpet before ordering, and tell the seller which one."),
  ("Why do some Frontier liners say 'not for rear under-seat speaker'?",
   "Frontiers with the Fender premium audio system, common on PRO-4X and SL trims, have a speaker enclosure under the rear seat. It changes the rear floor area, so some rear liners don't sit correctly. LUMWAY and Binmotor list their sets as not for the rear under-seat speaker. If you have Fender audio, look for a set that names it or confirm with the seller."),
  ("Do 2005–2021 Frontier liners fit a 2022+ Frontier?",

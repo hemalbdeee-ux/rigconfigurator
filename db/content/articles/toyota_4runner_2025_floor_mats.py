@@ -10,6 +10,8 @@ META = ("Six 6th-gen 4Runner floor liner sets from Husky, Toyota, LASFIT and Tri
         "hybrid, third-row seating and cargo coverage.")
 
 FAQ = [
+ ("What are the best floor liners for a 2025–2026 Toyota 4Runner?",
+  "Husky's WeatherBeater 96531 is the best overall floor liner for the 2025–2026 Toyota 4Runner. It is a three-piece front and second-row set, laser-measured, made in the USA from ProGard, with a lifetime warranty against cracks and breaks and the tallest walls here. Toyota's genuine all-weather liners are the best factory option and the safest fit for a hybrid or 7-seat truck, since a dealer can confirm them by VIN and Toyota lists them as third-row compatible. For a gas 5-seat truck, LASFIT's recycled TPE liners are the best TPE pick and TripleAliners' kit adds cargo and seatback pieces. LASFIT and TripleAliners exclude the hybrid, 7-seat trucks need a 3-row set, and Husky lists the 2025, so confirm 2026 before ordering."),
  ("Do 5th-gen 4Runner liners fit the 2025 4Runner?",
   "No. The 2025 4Runner is a new generation on the TNGA-F platform, shared with the Tacoma, with a new cabin floor. Husky sells a separate 96531 set for it, distinct from the 99571 it sells for 2013–2024 trucks. Buy only listings that name 2025 or later."),
  ("Why do so many listings say 'not hybrid'?",

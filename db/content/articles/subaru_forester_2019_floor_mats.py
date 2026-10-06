@@ -10,6 +10,8 @@ META = ("Five 5th-gen Forester floor liner sets from Husky, Subaru, LASFIT, 3W a
         "Wilderness notes and cargo coverage for dog owners.")
 
 FAQ = [
+ ("What are the best floor liners for a 2019–2024 Subaru Forester?",
+  "Husky's WeatherBeater 95891 is the best overall floor liner for the 2019–2024 Subaru Forester. It is laser-measured, made in the USA from ProGard and covered by a lifetime warranty against cracks and breaks, which matters most in snow country. Subaru's genuine all-weather liners, J501SSJ030, are the best factory option, with a dependable fit at the retention hooks for less money. LASFIT's recycled TPE liners are the cold-weather TPE pick, rated from −13°F to 167°F, and IKABEVEM's set adds a cargo liner. All picks cover the 2019–2024 model years as one fit. Wilderness owners should confirm the trim, since Subaru does not offer its own liners on it, and the redesigned 2025 Forester needs a separate set such as Husky's 95381."),
  ("Do 2019–2024 Forester liners fit a 2025 Forester?",
   "Not the redesigned 2025 Forester, which is a new generation. Husky sells the 95381 set for 2025–2026 Foresters, separate from the 95891 it sells for 2019–2024. The 2025 Wilderness is the exception. Wikipedia says the outgoing Forester ended after the 2024 model year except for the Wilderness, which was offered for 2025, and that the redesigned Wilderness went on sale as a 2026 model. We could not confirm liner fit for a 2025 Wilderness, so have a dealer or the seller check it by VIN. Buy liners that name your model year range."),
  ("Does the Forester Wilderness need different liners?",

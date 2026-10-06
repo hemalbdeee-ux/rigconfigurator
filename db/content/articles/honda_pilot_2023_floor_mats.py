@@ -10,6 +10,8 @@ META = ("Six 4th-gen Honda Pilot floor liner options from Smartliner, MAXPRO, Po
         "with the removable second-row middle seat and TrailSport notes.")
 
 FAQ = [
+ ("What are the best floor liners for a 2023–2026 Honda Pilot?",
+  "Smartliner's set is the best overall pick. It covers all three rows plus the cargo area of the 2023–2025 Pilot, and Smartliner says each liner is molded from one piece of 100% recyclable TPE with a limited lifetime warranty. On a budget, MAXPRO's complete 3-row set covers 2023–2025, and Powerty's 3D TPE 3-row set is the safest choice for a 2026. If you want US-made liners where the kids sit, Husky's X-act Contour 50931 covers the second row and its WeatherBeater 14821 the third, both with a lifetime warranty against cracks and breaks. Whatever you buy, check the listing photos for a second-row piece that runs full width to cover the walkway left by the removable middle seat, and ask the seller if your Pilot has captain's chairs."),
  ("Do 2016–2022 Pilot liners fit the 2023 Pilot?",
   "No. The 2023 Pilot is a new generation with a new floor. Husky's catalog shows the split: its 18411 front liners are for 2016–2022 Pilot and 2019–2025 Passport, while its 12821 second-row and 14821 third-row liners are for 2023+. Buy liners that name 2023 or later."),
  ("What is the Pilot's removable second-row middle seat?",

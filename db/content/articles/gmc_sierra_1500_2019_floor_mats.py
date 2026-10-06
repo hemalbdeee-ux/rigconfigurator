@@ -9,6 +9,8 @@ META = ("Five Sierra 1500 Crew Cab floor liner sets, from TuxMat's max-coverage 
         "checked against Denali and AT4 seats and rear storage.")
 
 FAQ = [
+ ("What are the best floor liners for a 2019–2026 GMC Sierra 1500?",
+  "Husky's WeatherBeater 94021 is the best overall pick for a Sierra 1500 Crew Cab. It is made in the USA from Husky's ProGard material, held in place with StayPut nibs, and covered by a lifetime warranty against cracks and breaks, with high firm walls that hold slush. It is listed for carpet with underseat storage. If coverage and looks matter most, TuxMat is the pick: its mats extend up the sidewalls and carry a limited lifetime warranty and a 30-day money-back guarantee. OMAC is the budget Sierra-specific liner, and Falafa's set is cut for trucks with the plastic under-seat storage box. Every pick is a Crew Cab set, so match your front seats, bench or buckets, and lift the rear cushion to confirm the storage type before ordering."),
  ("Do Denali and AT4 Sierras need special floor liners?",
   "No. The Denali, AT4, AT4X, Elevation, SLT and SLE Crew Cabs share the T1 cab floor, so the fit rules are the same as any Crew Cab: match the front seats and the rear under-seat storage. Denali and AT4 trucks almost always have front buckets with a console, which narrows the choice to bucket-seat liners. Some listings name trims; if yours does not, it's the layout that counts."),
  ("Can I use Silverado 1500 liners in a Sierra 1500?",

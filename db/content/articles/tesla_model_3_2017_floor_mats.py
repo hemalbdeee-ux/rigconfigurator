@@ -10,6 +10,8 @@ META = ("Five Model 3 Highland all-weather mat sets from 3D MAXpider, SUPER LINE
         "cabin, frunk and trunk, with the 2017–2023 fit trap.")
 
 FAQ = [
+ ("What are the best floor mats for a 2024–2026 Tesla Model 3 Highland?",
+  "3D MAXpider's Kagu full set is the best overall floor mat set for the 2024–2026 Tesla Model 3 Highland. It has a three-layer construction with a carbon-fiber-textured surface and a patented grip underside, which matters on the Model 3's flat floor, and 3D MAXpider sells the front row, second row and frunk liner individually. SUPER LINER's 8-piece set is the best full coverage, with floor, seatback, cargo and trunk pieces for owners who fold the rear seats. BRYOUS's 8-piece set is the best budget kit with front and rear cargo liners, though its listing stops at 2025. Highland cars need Highland mats, since 2017–2023 Model 3 sets are sold separately, so check the listing's diagram for the pieces you want covered."),
  ("Do 2017–2023 Model 3 mats fit the 2024 Highland?",
   "Don't assume so. The Highland refresh changed the interior and trunk trim enough that mat makers sell separate sets. Every set on this page is listed for 2024 and later Highland cars; SUPER LINER, BRYOUS, FemboMAX and 3W all say 2024–2025 or 2024–2026, and 3D MAXpider sells separate Highland part numbers. If you have a 2017–2023 car, buy a set that names those years."),
  ("How do I know if my Model 3 is a Highland?",
