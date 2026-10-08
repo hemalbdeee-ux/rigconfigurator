@@ -95,15 +95,21 @@ export async function siblingsOf(v: Vehicle & { make_id?: number }): Promise<Veh
 export type GuideLink = { path: string; title: string; vehicle: string; category: string };
 
 // Other published guides for the same vehicle, then the same category on sibling vehicles.
-export async function relatedGuides(vehicleId: number, categoryId: number, limit = 6): Promise<GuideLink[]> {
-  return q<GuideLink>(`
-    SELECT '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path, fp.title,
+export async function relatedGuides(vehicleId: number, categoryId: number, limit = 8): Promise<GuideLink[]> {
+  // Two halves: this vehicle's other guides, then the same category on other vehicles of the same body style.
+  // The second half is picked by a per-vehicle rotation instead of a fixed order, so every guide gets inbound
+  // links from several others (a fixed order left the same few pages linked everywhere and the rest orphaned).
+  const half = Math.ceil(limit / 2);
+  const sel = `SELECT '/vehicles/'||m.slug||'/'||v.model_slug||'/'||v.gen_slug||'/'||c.slug AS path, fp.title,
            v.year_from||'–'||COALESCE(v.year_to, EXTRACT(YEAR FROM CURRENT_DATE)::int)::text||' '||m.name||' '||v.model_name AS vehicle, c.name AS category
     FROM fitment_pages fp JOIN vehicles v ON v.id=fp.vehicle_id JOIN makes m ON m.id=v.make_id JOIN categories c ON c.id=fp.category_id
-    WHERE fp.status='published' AND NOT (fp.vehicle_id=$1 AND fp.category_id=$2)
-      AND (fp.vehicle_id=$1 OR (fp.category_id=$2 AND v.body_style=(SELECT body_style FROM vehicles WHERE id=$1)))
-    ORDER BY (fp.vehicle_id=$1) DESC, (v.make_id=(SELECT make_id FROM vehicles WHERE id=$1)) DESC, v.year_from DESC
-    LIMIT $3`, [vehicleId, categoryId, limit]);
+    WHERE fp.status='published'`;
+  const [same, cross] = await Promise.all([
+    q<GuideLink>(`${sel} AND fp.vehicle_id=$1 AND fp.category_id<>$2 ORDER BY c.sort LIMIT $3`, [vehicleId, categoryId, half]),
+    q<GuideLink>(`${sel} AND fp.vehicle_id<>$1 AND fp.category_id=$2 AND v.body_style=(SELECT body_style FROM vehicles WHERE id=$1)
+                  ORDER BY ((v.id * 31 + $1 * 17) % 101), v.id LIMIT $3`, [vehicleId, categoryId, limit - half]),
+  ]);
+  return [...same, ...cross];
 }
 
 export type Hero = { file: string; width: number; height: number; title: string; author: string; license: string; license_url: string | null; source_url: string };

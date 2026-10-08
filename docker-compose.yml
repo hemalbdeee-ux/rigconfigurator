@@ -17,6 +17,7 @@ services:
       SITE_URL: https://${DOMAIN:-rigconfigurator.com}
       AMAZON_TAG: ${AMAZON_TAG:-rigconfigurator-20}
       REVALIDATE_SECRET: ${REVALIDATE_SECRET:-changeme}
+      INDEXNOW_KEY: ${INDEXNOW_KEY:-}
       IMG_DIR: /app/img
     volumes:
       - ./pipeline/data/img:/app/img:ro   # licensed hero photos from pipeline/fetch_images.py
@@ -71,6 +72,7 @@ services:
       CREATORS_VERSION: ${CREATORS_VERSION:-}
       AMAZON_TAG: ${AMAZON_TAG:-rigconfigurator-20}
       KEEPA_KEY: ${KEEPA_KEY:-}
+      INDEXNOW_KEY: ${INDEXNOW_KEY:-}
     volumes:
       - ./pipeline/data:/app/data
     depends_on:

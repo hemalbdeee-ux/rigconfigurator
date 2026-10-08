@@ -89,7 +89,7 @@ ARTICLE = {
                       ["2020–2026 Tesla Model Y", "165 lb", "Not stated", "Tesla's rating for its own rack"],
                       ["2019–2025 Toyota RAV4", "165 lb", "Not stated", "Site data; some references quote 176 lb"],
                       ["2025–2026 Toyota 4Runner", "165 lb", "770 lb", "Owners on 4Runner6G; unconfirmed in site data"],
-                      ["2020–2025 Subaru Outback", "176 lb in site data; 150–165 lb also quoted", "700 lb (Wilderness)", "Site data, The Rack Shop, Subaru"],
+                      ["2020–2025 Subaru Outback", "150 lb (Subaru sheets); Wilderness 200 lb", "700 lb (Wilderness)", "Subaru spec sheets, via the site's Outback guides"],
                       ["2019–2024 Subaru Forester", "176 lb (220 lb Wilderness)", "700 lb (800 lb Wilderness)", "Site data and launch coverage"],
                       ["2023–2026 Honda CR-V and Pilot", "165 lb on the rails", "Not stated", "Honda, via the site's cargo box guides"]]}},
   {"h": "Crossbar spread: the number box buyers forget",
