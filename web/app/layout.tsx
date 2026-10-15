@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import "./globals.css";
 import { SITE_URL } from "@/lib/db";
 import { DEFAULT_OG } from "@/components/Hero";
+
+const GA_ID = "G-ETSZ9MSTVN";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -33,6 +36,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <p style={{ fontSize: 12 }}>CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED &lsquo;AS IS&rsquo; AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
           <p><Link href="/about">About</Link> · <Link href="/disclosure">Affiliate disclosure</Link> · <Link href="/privacy">Privacy</Link> · <Link href="/terms">Terms</Link></p>
         </footer>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+        </Script>
       </body>
     </html>
   );
