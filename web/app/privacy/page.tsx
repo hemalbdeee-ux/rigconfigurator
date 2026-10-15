@@ -1,178 +1,53 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/db";
-import { DEFAULT_OG } from "@/components/Hero";
-import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
-import { GUIDE_COPY } from "@/lib/guideCopy";
-import { allPillars } from "@/lib/pillars";
-import { categoryCounts, featuredVehicles, recentGuides, siteStats, topPicks } from "@/lib/home";
-import { VehiclePicker } from "@/components/VehiclePicker";
-import { Price } from "@/components/Price";
+import type { Metadata } from "next";
+import { CONTACT_EMAIL } from "@/lib/db";
 
-// Rendered per request: at `docker build` the DB is unreachable and a prerendered copy would list no vehicles.
-export const dynamic = "force-dynamic";
+const UPDATED = "October 15, 2026";
 
-const HOME_TITLE = "Rig Configurator: Fit-Checked Truck & SUV Accessories";
-const HOME_DESC = "Pick your vehicle, see only the racks, hitches, tonneau covers and gear that actually fit. Verified against manufacturer fit guides.";
 export const metadata: Metadata = {
-  title: { absolute: HOME_TITLE },
-  description: HOME_DESC,
-  alternates: { canonical: "/" },
-  openGraph: { title: HOME_TITLE, description: HOME_DESC, url: "/", siteName: "Rig Configurator", type: "website", locale: "en_US", images: DEFAULT_OG },
-  twitter: { card: "summary_large_image", title: HOME_TITLE, description: HOME_DESC },
+  title: "Privacy Policy",
+  description: "What Rig Configurator records when you visit or click an Amazon link, what Amazon records, and how to contact us about your data.",
+  alternates: { canonical: "/privacy" },
 };
 
-const homeLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    { "@type": "WebSite", "@id": `${SITE_URL}/#website`, url: `${SITE_URL}/`, name: "Rig Configurator", publisher: { "@id": `${SITE_URL}/#org` } },
-    { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: "Rig Configurator", url: `${SITE_URL}/` },
-  ],
-};
-
-const CATEGORY_ICON: Record<string, string> = {
-  "tonneau-covers": "▭", "bed-racks": "⌸", "roof-racks": "⌶", "cargo-boxes": "▣",
-  "hitches": "⊙", "floor-mats": "▤", "running-boards": "▬", "led-light-bars": "✦",
-};
-
-const fmtDate = (d: string | null) => d ? new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }) : "";
-
-export default async function Home() {
-  const [vehicles, stats, featured, picks, cats, recent, pillars] = await Promise.all([
-    allVehicles(), siteStats(), featuredVehicles(), topPicks(6), categoryCounts(), recentGuides(6), allPillars(),
-  ]);
-  const explainers = pillars.filter(p => p.kind === "explainer").slice(0, 6);
-  const pickerRows = vehicles.map(v => ({ make: v.make_name, label: vehicleTitle(v), path: vehiclePath(v) }));
-
+export default function Privacy() {
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeLd) }} />
+    <article className="art">
+      <h1>Privacy Policy</h1>
+      <p className="muted">Last updated {UPDATED}</p>
+      <p>Rig Configurator (&ldquo;we&rdquo;, &ldquo;us&rdquo;) runs rigconfigurator.com, a site that matches truck and SUV accessories to specific vehicles. This page explains what we collect when you use the site. The short version: there are no accounts, no forms and no advertising trackers. We record basic server logs, anonymous clicks on our Amazon links, and site usage statistics through Google Analytics.</p>
 
-      {/* 1. Hero: one job, get the visitor to their vehicle hub in one click */}
-      <section className="home-hero">
-        <div className="home-hero-copy">
-          <div className="eyebrow">Fit-checked accessories for {stats.vehicles} trucks and SUVs</div>
-          <h1>Parts that actually fit your rig.</h1>
-          <p className="home-sub">Pick your vehicle. See only the tonneau covers, racks, hitches, liners and steps listed for that exact generation, with the live Amazon price next to each one.</p>
-          <VehiclePicker vehicles={pickerRows} />
-          <ul className="trust">
-            <li><strong>{stats.guides}</strong> buying guides</li>
-            <li><strong>{stats.products.toLocaleString()}</strong> fit-checked products</li>
-            <li><strong>{stats.vehicles}</strong> vehicle generations</li>
-            <li>Rankings never sold</li>
-          </ul>
-        </div>
-      </section>
+      <h2>What we collect</h2>
+      <h3>Server logs</h3>
+      <p>Like almost every website, our web server records standard request data: IP address, browser user agent, the page requested, the referring page and the time. We use these logs to keep the site running, to debug errors and to block abuse. They are not used to profile visitors and are not shared or sold.</p>
+      <h3>Clicks on Amazon links</h3>
+      <p>Buttons such as &ldquo;Check price on Amazon&rdquo; go through a short redirect on our site (<code>/go/…</code>) before sending you to Amazon. When that happens we save the product, the page you were on, which button you clicked, your browser&apos;s user agent string and, if our network provider supplies it, your country. <strong>We do not save your IP address or any identifier with this click record.</strong> We use it to see which guides and products people find useful.</p>
+      <h3>Google Analytics</h3>
+      <p>We use Google Analytics 4 to understand how visitors use the site, for example which pages are read, how people arrive and roughly where they are. Google Analytics sets first-party cookies (such as <code>_ga</code>) and collects data such as pages viewed, device and browser type, approximate location and referring site. Google processes this data under the <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">Google Privacy Policy</a>. We do not use it for advertising and do not send names, email addresses or other personal details to Google. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out browser add-on</a> or by blocking cookies.</p>
+      <h3>What we do not collect</h3>
+      <p>We do not use advertising pixels. We do not ask for your name, email address or payment details, and we do not sell or rent personal information.</p>
 
-      {/* 2. Popular vehicles with photos: the second-fastest route to a hub */}
-      <section className="home-sec">
-        <div className="sec-head">
-          <h2>Start with your vehicle</h2>
-          <Link href="/vehicles">All {stats.vehicles} vehicles →</Link>
-        </div>
-        <div className="vgrid">
-          {featured.map(v => (
-            <Link key={v.id} href={vehiclePath(v)} className="vcard">
-              {v.hero
-                ? <img src={`/img/${v.hero.file.replace(/\.webp$/, "-800.webp")}`} alt={vehicleTitle(v)} loading="lazy" width={800} height={450} />
-                : <div className="vcard-ph" aria-hidden="true">{v.body_style === "truck" ? "Truck" : "SUV"}</div>}
-              <div className="vcard-body">
-                <div className="vcard-title">{vehicleTitle(v)}</div>
-                <div className="muted">{v.gen_name} · {v.guides} guide{v.guides === 1 ? "" : "s"}</div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <h2>Amazon and other third parties</h2>
+      <p>Rig Configurator is a participant in the Amazon Services LLC Associates Program. When you follow one of our links to Amazon, Amazon may set cookies to record that you came from our site, so it can credit us with a commission if you buy. Once you are on Amazon, <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" rel="nofollow noopener" target="_blank">Amazon&apos;s Privacy Notice</a> applies, not this one. Amazon tells us about qualifying purchases in aggregate reports; it does not tell us who you are.</p>
+      <p>Some product photos are loaded directly from Amazon&apos;s image servers, which means your browser contacts Amazon to fetch them. Links to manufacturer sites and sources in our guides open those sites under their own privacy policies.</p>
 
-      {/* 3. Top picks: live Amazon price + direct link, the shortest path to a purchase */}
-      {picks.length > 0 && (
-        <section className="home-sec">
-          <div className="sec-head">
-            <h2>Top picks right now</h2>
-            <span className="muted">Rank #1 in its guide · live Amazon price</span>
-          </div>
-          <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices labelled &ldquo;Amazon price&rdquo; come from Amazon and carry their own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
-          <div className="pgrid">
-            {picks.map((p, i) => {
-              const go = `/go/${p.product_id}?page=${encodeURIComponent("/")}&placement=home-pick-${i + 1}`;
-              return (
-                <div key={p.id} className="pcard-home">
-                  <a href={go} rel="nofollow sponsored noopener" target="_blank" className="pcard-img">
-                    {p.image_url ? <img src={p.image_url} alt={p.name} loading="lazy" /> : <div className="img-ph" aria-hidden="true" />}
-                  </a>
-                  <div className="pcard-meta">
-                    <div className="pcard-role">{p.role ?? "Top pick"} · <Link href={p.page}>{p.vehicle} · {p.category_name}</Link></div>
-                    <div className="pcard-name">{p.name.split(",")[0]}</div>
-                    <div className="pcard-price-home"><Price f={p} href={go} /></div>
-                  </div>
-                  <div className="pcard-actions">
-                    <a className="btn" href={go} rel="nofollow sponsored noopener" target="_blank">View on Amazon ›</a>
-                    <Link href={p.page} className="btn-ghost">Why it ranks #1</Link>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      )}
+      <h2>How long we keep data</h2>
+      <p>Server logs are kept only as long as needed for security and troubleshooting, and are then deleted or rotated. Click records contain no personal identifiers and may be kept to compare page performance over time.</p>
 
-      {/* 4. Shop by category */}
-      <section className="home-sec">
-        <div className="sec-head"><h2>Shop by category</h2><Link href="/guides">All guides →</Link></div>
-        <div className="cgrid">
-          {cats.map(c => (
-            <Link key={c.slug} href={`/guides/${c.slug}`} className="ccard">
-              <span className="cicon" aria-hidden="true">{CATEGORY_ICON[c.slug] ?? "•"}</span>
-              <span className="ccard-body">
-                <span className="ccard-title">{c.name}</span>
-                <span className="muted">{GUIDE_COPY[c.slug]?.blurb ?? `${c.guides} vehicle guides`}</span>
-                <span className="ccard-count">{c.guides} vehicle guide{c.guides === 1 ? "" : "s"}</span>
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <h2>Your choices and rights</h2>
+      <p>You can block or delete cookies in your browser, including Amazon&apos;s, at any time. Depending on where you live, for example the EU, UK or California, you may have the right to ask what personal data we hold about you, to have it corrected or deleted, or to object to its use. Because we don&apos;t link click records or analytics data to named individuals, in most cases we will have nothing that identifies you, but we will answer every request. Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
 
-      {/* 5. How it works + why trust it */}
-      <section className="home-sec how">
-        <h2>How every guide is built</h2>
-        <div className="how-grid">
-          <div><span className="how-n">1</span><strong>One vehicle, one generation.</strong><p>Every guide covers one truck or SUV generation, because a redesign changes the bed, roof rails and hitch mounts. Nothing is matched by model name alone.</p></div>
-          <div><span className="how-n">2</span><strong>Fit from the makers, not the badge.</strong><p>Bed lengths, roof types and tow ratings come from manufacturer fit guides and spec sheets. Where a maker publishes no figure, the guide says so and sends you to the owner&apos;s manual.</p></div>
-          <div><span className="how-n">3</span><strong>Ranked on specs, priced live.</strong><p>Picks are ranked on published ratings, coverage, warranty and fit notes. Amazon prices refresh several times a day with a time stamp. A product&apos;s commission is never a ranking factor.</p></div>
-        </div>
-      </section>
+      <h2>Children</h2>
+      <p>The site is written for adult vehicle owners. It is not directed at children under 13, and we do not knowingly collect information from them.</p>
 
-      {/* 6. Recent guides + explainers */}
-      <section className="home-sec two-col">
-        <div>
-          <div className="sec-head"><h2>Recently reviewed</h2></div>
-          <ul className="list-plain">
-            {recent.map(r => (
-              <li key={r.path}>
-                <Link href={r.path}>{r.title}</Link>
-                <div className="muted">{r.vehicle} · {r.category}{r.reviewed ? ` · reviewed ${fmtDate(r.reviewed)}` : ""}</div>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <div className="sec-head"><h2>Settle the basics first</h2><Link href="/learn">All explainers →</Link></div>
-          <ul className="list-plain">
-            {explainers.map(p => (
-              <li key={p.path}><Link href={p.path}>{p.title}</Link>{p.dek && <div className="muted">{p.dek}</div>}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <h2>Security</h2>
+      <p>The site is served only over HTTPS. Logs and the database are held on a private server that is not publicly reachable.</p>
 
-      {/* 7. Closing CTA */}
-      <section className="home-cta">
-        <h2>Ready when you are.</h2>
-        <p className="muted">Pick your vehicle and see only what fits.</p>
-        <VehiclePicker vehicles={pickerRows} compact />
-      </section>
-    </>
+      <h2>Changes to this policy</h2>
+      <p>If we change what we collect, we will update this page and the date at the top.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. See also our <Link href="/terms">Terms of Use</Link> and <Link href="/disclosure">Affiliate Disclosure</Link>.</p>
+    </article>
   );
 }
