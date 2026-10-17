@@ -8,8 +8,8 @@ import { VehiclePicker } from "@/components/VehiclePicker";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Fit Tools: Hitch Class, Bed Length and Tow Rating by Vehicle",
-  description: "Look up the hitch class and receiver size, bed lengths in inches and feet, tow rating and roof type for every truck and SUV generation we cover, with a bed length chart.",
+  title: { absolute: "Fit Tools: Hitch, Bed Length & Tow Rating by Vehicle" },
+  description: "Hitch class, receiver size, bed length, tow rating and roof type for 32 truck and SUV generations, plus tongue weight and roof load calculators.",
   alternates: { canonical: "/tools" },
   openGraph: { title: "Fit Tools by Vehicle | Rig Configurator", url: "/tools", type: "website", images: staticOg("vehicles", "Fit tools") },
 };
@@ -29,6 +29,10 @@ export default async function Tools({ searchParams }: { searchParams: Promise<{ 
     <section className="tool-page">
       <h1>Fit tools</h1>
       <p className="dek">The four numbers that decide whether an accessory fits: hitch class and receiver size, bed length, tow rating and roof type. Pick a vehicle to see its figures and what to check before buying.</p>
+      <div className="tool-links">
+        <Link href="/tools/tongue-weight-calculator" className="card"><strong>Tongue weight calculator →</strong><div className="muted">Trailer or hitch bike rack: the load to aim for and your vehicle&apos;s limits.</div></Link>
+        <Link href="/tools/roof-load-calculator" className="card"><strong>Roof load calculator →</strong><div className="muted">Bars, box or tent and cargo against your roof figure and the rack rating.</div></Link>
+      </div>
       <VehiclePicker vehicles={vehicles.map(x => ({ make: x.make_name, label: vehicleTitle(x), path: `/tools?vehicle=${x.id}` }))} compact cta="Show fit facts →" />
 
       {v && (

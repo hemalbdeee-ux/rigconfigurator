@@ -4,6 +4,8 @@ The migration adds fitment_pages.article (jsonb) and clears that page's fitments
 """
 import glob, importlib.util, json, os
 here = os.path.dirname(__file__)
+import sys; sys.path.insert(0, here)
+from embeds import EMBEDS
 
 def modules():
     for p in sorted(glob.glob(os.path.join(here, "articles", "*.py"))):
@@ -18,7 +20,9 @@ if __name__ == "__main__":
     for m in modules():
         make, model, gen, cat = m.KEY
         faq = json.dumps([{"q": q, "a": a} for q, a in m.FAQ], ensure_ascii=False)
-        art = json.dumps(m.ARTICLE, ensure_ascii=False)
+        art_obj = dict(m.ARTICLE)
+        if EMBEDS.get("/".join(m.KEY)): art_obj["embeds"] = EMBEDS["/".join(m.KEY)]
+        art = json.dumps(art_obj, ensure_ascii=False)
         where = f"vehicle_id=(SELECT v.id FROM vehicles v JOIN makes mk ON mk.id=v.make_id WHERE mk.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}') AND category_id=(SELECT id FROM categories WHERE slug='{cat}')"
         # upsert: an article module alone can create a new vehicle x category page (published by 005 once it has >= 2 fits)
         out.append(f"""INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, faq, article, verified_at)

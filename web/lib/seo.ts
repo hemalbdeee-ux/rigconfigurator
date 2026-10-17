@@ -58,3 +58,18 @@ export function hubSeoTitle(v: Vehicle) {
 export function categorySeoTitle(c: Category) {
   return seoTitle(`${c.name} by Vehicle: Fit-Checked Guides`, `${shortCategory(c)} by Vehicle: Fit-Checked Guides`, `${shortCategory(c)} by Vehicle`);
 }
+
+export const MAX_DESC = 155;
+/**
+ * Meta description for search results (≤ 155 chars). Long stored descriptions are cut at the last full sentence that fits,
+ * else at a word boundary with a closing period, so the snippet never ends mid-word.
+ */
+export function clampDesc(s?: string | null): string | undefined {
+  if (!s) return undefined;
+  const t = s.replace(/\s+/g, " ").trim();
+  if (t.length <= MAX_DESC) return t;
+  const cut = t.slice(0, MAX_DESC);
+  const lastStop = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("; "));
+  if (lastStop >= 80) return cut.slice(0, lastStop + 1).replace(/;$/, ".");
+  return cut.replace(/\s+\S*$/, "").replace(/[\s,:;–—-]+$/, "") + ".";
+}

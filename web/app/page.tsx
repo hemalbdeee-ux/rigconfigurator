@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/db";
 import { DEFAULT_OG } from "@/components/Hero";
-import { allVehicles, vehiclePath, vehicleTitle } from "@/lib/queries";
+import { allVehicles, publishedGuides, vehiclePath, vehicleTitle } from "@/lib/queries";
 import { GUIDE_COPY } from "@/lib/guideCopy";
 import { allPillars } from "@/lib/pillars";
 import { categoryCounts, featuredVehicles, recentGuides, siteStats, topPicks } from "@/lib/home";
@@ -35,12 +35,32 @@ const CATEGORY_ICON: Record<string, string> = {
   "hitches": "⊙", "floor-mats": "▤", "running-boards": "▬", "led-light-bars": "✦",
 };
 
+// The pages other sites quote: two calculators and three data charts.
+const DATA_LINKS = [
+  { path: "/tools/tongue-weight-calculator", name: "Tongue weight calculator", blurb: "Trailer or hitch bike rack: the load to aim for and your vehicle's limit." },
+  { path: "/tools/roof-load-calculator", name: "Roof load calculator", blurb: "Bars, box or tent and cargo against your roof figure." },
+  { path: "/learn/roof-load-limits-by-vehicle", name: "Roof load limits by vehicle", blurb: "Dynamic roof figures for 32 trucks and SUVs, with sources." },
+  { path: "/learn/factory-tow-hitch-by-vehicle", name: "Factory tow hitch chart", blurb: "Which vehicles ship with a receiver, class, tow and tongue figures." },
+  { path: "/learn/truck-bed-length-chart", name: "Truck bed length chart", blurb: "Bed lengths in inches and feet for 14 pickup generations." },
+];
+// Guides with the most Search Console impressions (Oct 2026); revisit when the data changes.
+const POPULAR = [
+  "/vehicles/toyota/4runner/2025-present/roof-racks",
+  "/vehicles/chevrolet/silverado-1500/2019-present/floor-mats",
+  "/vehicles/ford/f-150/2021-present/running-boards",
+  "/vehicles/gmc/sierra-1500/2019-present/running-boards",
+  "/vehicles/ford/f-150/2021-present/tonneau-covers",
+  "/vehicles/kia/telluride/2020-present/hitches",
+];
+
 const fmtDate = (d: string | null) => d ? new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }) : "";
 
 export default async function Home() {
   const [vehicles, stats, featured, picks, cats, recent, pillars] = await Promise.all([
     allVehicles(), siteStats(), featuredVehicles(), topPicks(6), categoryCounts(), recentGuides(6), allPillars(),
   ]);
+  const guides = await publishedGuides();
+  const popular = POPULAR.map(p => guides.find(g => g.path === p)).filter((g): g is NonNullable<typeof g> => Boolean(g));
   const explainers = pillars.filter(p => p.kind === "explainer").slice(0, 6);
   const pickerRows = vehicles.map(v => ({ make: v.make_name, label: vehicleTitle(v), path: vehiclePath(v) }));
 
@@ -133,6 +153,21 @@ export default async function Home() {
           ))}
         </div>
       </section>
+
+      {/* 4b. Tools and data charts: the pages other sites cite */}
+      <section className="home-sec">
+        <div className="sec-head"><h2>Free calculators and data charts</h2><Link href="/tools">All tools →</Link></div>
+        <div className="tool-links">
+          {DATA_LINKS.map(x => <Link key={x.path} href={x.path} className="card"><strong>{x.name} →</strong><div className="muted">{x.blurb}</div></Link>)}
+        </div>
+      </section>
+
+      {popular.length > 0 && (
+        <section className="home-sec">
+          <div className="sec-head"><h2>Most-searched fit guides</h2></div>
+          <ul className="list-plain two-up">{popular.map(g => <li key={g.path}><Link href={g.path}>{g.title}</Link><div className="muted">{g.vehicle} · {g.category_name}</div></li>)}</ul>
+        </section>
+      )}
 
       {/* 5. How it works + why trust it */}
       <section className="home-sec how">

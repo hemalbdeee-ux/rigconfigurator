@@ -6,7 +6,7 @@ import { Hero, ogImage } from "@/components/Hero";
 import { categoryBlurb, checkBeforeBuying } from "@/lib/hubCopy";
 import { SITE_URL } from "@/lib/db";
 import { Price } from "@/components/Price";
-import { hubSeoTitle, shortCategory } from "@/lib/seo";
+import { hubSeoTitle, shortCategory, clampDesc, MAX_DESC } from "@/lib/seo";
 import { upgradesPathFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
@@ -26,9 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const live = new Set(pages.filter(p => p.status === "published").map(p => p.category_slug));
   const names = cats.filter(c => live.has(c.slug)).map(c => shortCategory(c)).map(n => n.startsWith("LED ") ? `LED ${n.slice(4).toLowerCase()}` : n.toLowerCase());
   const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}` : names.join("");
-  const description = names.length
+  const full = names.length
     ? `Accessories that fit the ${vehicleTitle(v)}: ${list}. Fit facts, what to check before buying and Amazon prices.`
     : `Fit facts for the ${vehicleTitle(v)} (${v.gen_name}) and every accessory verified to fit it.`;
+  // A long category list overruns the snippet; name the count and the first and last category instead.
+  const description = clampDesc(full.length <= MAX_DESC || names.length < 3 ? full
+    : `${names.length} fit-checked accessory guides for the ${vehicleTitle(v)}, from ${names[0]} to ${names[names.length - 1]}, with fit facts and Amazon prices.`);
   const title = hubSeoTitle(v);
   return {
     title,

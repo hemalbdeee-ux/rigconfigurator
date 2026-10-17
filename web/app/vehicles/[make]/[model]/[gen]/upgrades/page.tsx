@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { getVehicle, heroFor, vehiclePath, vehicleTitle, type Vehicle } from "@/lib/queries";
 import { getUpgrades, vehicleGuideSummaries, explainersFor } from "@/lib/pillars";
 import { SITE_URL } from "@/lib/db";
-import { seoTitle, titleYears } from "@/lib/seo";
+import { seoTitle, titleYears, clampDesc } from "@/lib/seo";
 import { linkMap } from "@/lib/links";
 import { Hero, ogImage } from "@/components/Hero";
 import { Linker, Md } from "@/components/Md";
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const path = `${vehiclePath(d.v)}/upgrades`;
   return {
     title: upgradesSeoTitle(d.v),
-    description: d.page.meta_desc ?? undefined,
+    description: clampDesc(d.page.meta_desc),
     alternates: { canonical: path },
     openGraph: { title: d.page.title, description: d.page.meta_desc ?? undefined, url: path, type: "article", images: ogImage(d.hero) },
     twitter: { card: "summary_large_image", title: d.page.title },

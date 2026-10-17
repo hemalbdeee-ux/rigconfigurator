@@ -30,6 +30,7 @@ export default function Privacy() {
       <h2>Amazon and other third parties</h2>
       <p>Rig Configurator is a participant in the Amazon Services LLC Associates Program. When you follow one of our links to Amazon, Amazon may set cookies to record that you came from our site, so it can credit us with a commission if you buy. Once you are on Amazon, <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" rel="nofollow noopener" target="_blank">Amazon&apos;s Privacy Notice</a> applies, not this one. Amazon tells us about qualifying purchases in aggregate reports; it does not tell us who you are.</p>
       <p>Some product photos are loaded directly from Amazon&apos;s image servers, which means your browser contacts Amazon to fetch them. Links to manufacturer sites and sources in our guides open those sites under their own privacy policies.</p>
+      <p>Some guides show install videos from YouTube and owner posts from Reddit through those platforms&apos; own embeds. A YouTube video loads from youtube-nocookie.com only when you press play; a Reddit post loads Reddit&apos;s embed script when the page opens. Once loaded, those services apply their own privacy policies.</p>
 
       <h2>How long we keep data</h2>
       <p>Server logs are kept only as long as needed for security and troubleshooting, and are then deleted or rotated. Click records contain no personal identifiers and may be kept to compare page performance over time.</p>

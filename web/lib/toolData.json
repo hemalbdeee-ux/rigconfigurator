@@ -1,0 +1,582 @@
+{
+ "tow": {
+  "ford f-150 2021": {
+   "receiver": "Standard: Ford's 2024 guide lists a 2 in receiver rated 11,600 lb as standard; Tow/Haul Package (53T) adds a reinforced 14,000 lb receiver. 2021–2023 trucks: look under the bumper, standard status not confirmed for those years",
+   "size": "2 in; site data Class IV, Ford's 2024 guide prints no class (Wikipedia: Class IV standard on 2024 and later)",
+   "max_tow_lb": 14000,
+   "max_tow": "14,000 (site data, 3.5L EcoBoost max tow); Lightning 10,000 with weight distribution (Ford 2024 guide)",
+   "tongue_lb": 500,
+   "tongue": "500 weight-carrying; 1,350 with weight distribution (Ford 2024 guide)",
+   "carrier_lb": null,
+   "source": "Ford 2024 F-150 Towing Guide (maker); 2021–2023 trim status not confirmed"
+  },
+  "ford f-150 2015": {
+   "receiver": "Package: Ford's 2020 towing guide lists the receiver as included with the trailer tow packages (53A, 53B, 53C); a truck ordered without one may have no receiver",
+   "size": "2 in; site data Class IV, class not on the Ford page",
+   "max_tow_lb": 13200,
+   "max_tow": "13,200 (site data; Motor Authority, 2018 3.5L EcoBoost); 5,000 bumper-only limit (Ford 2020 guide)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Ford 2020 RV and Trailer Towing Guide (maker, via the site's F-150 hub)"
+  },
+  "chevrolet silverado 1500 2019": {
+   "receiver": "Not confirmed by trim: the site could not confirm from Chevrolet which trims and years ship with the receiver",
+   "size": "2 in, Class IV (site data; not confirmed from Chevrolet)",
+   "max_tow_lb": 13300,
+   "max_tow": "13,300 when properly equipped (Chevrolet Silverado page)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Chevrolet page for the rating (maker); receiver trim list not confirmed; site note: look under the bumper and read the window sticker"
+  },
+  "gmc sierra 1500 2019": {
+   "receiver": "Not confirmed by trim: the site could not confirm from GMC which trims and years ship with the receiver",
+   "size": "2 in, Class IV (site data; not confirmed from GMC)",
+   "max_tow_lb": 13200,
+   "max_tow": "13,200 (site data); GMC's 2026 page quotes 13,300 for one diesel Double Cab 2WD standard-bed build with the Max Trailering Package",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "GMC 2026 Sierra page for the rating (maker); receiver trim list not confirmed; site data and GMC page differ by 100 lb"
+  },
+  "ram 1500 2019": {
+   "receiver": "Not confirmed by trim: the site could not confirm from Ram which trims and years ship with the receiver",
+   "size": "2 in, Class IV (site data; not confirmed from Ram)",
+   "max_tow_lb": 12750,
+   "max_tow": "12,750 (site data and Wikipedia); Ram's 2026 capability page tops out at 11,610 with the 3.0L Hurricane, 11,320 5.7L HEMI, 8,130 3.6L V6",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Ram 2026 capability page (maker) and Wikipedia disagree on the maximum; receiver trim list not confirmed"
+  },
+  "toyota tacoma 2016": {
+   "receiver": "Package: Toyota's releases put a Class IV towing receiver hitch with a 4- and 7-pin connector in the Tow Package; the 2018 release calls the V6 Tow Package optional",
+   "size": "2 in, Class IV (Toyota releases name the class; size from site data)",
+   "max_tow_lb": 6800,
+   "max_tow": "6,800 with the Tow Package (site data)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota 2016, 2018, 2021 and 2023 releases (maker)"
+  },
+  "toyota tacoma 2024": {
+   "receiver": "Not confirmed from Toyota: the 2024 release names no receiver. CarGurus says a Class IV hitch is standard on the SR5 i-FORCE and TRD PreRunner XtraCab trucks rated 6,500 lb",
+   "size": "2 in (site data); site data says Class III, CarGurus says Class IV: not confirmed, read the label",
+   "max_tow_lb": 6500,
+   "max_tow": "6,500 on SR5 i-FORCE and TRD PreRunner and XtraCab grades (Toyota 2024 release); CarGurus: SR 3,500, Trailhunter up to 6,000",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota 2024 release for the rating (maker); receiver status from CarGurus (reference), not confirmed from Toyota"
+  },
+  "toyota tundra 2022": {
+   "receiver": "Not confirmed by grade: Toyota's 2022 release does not describe the receiver, and the site could not confirm from Toyota that every grade and year has one",
+   "size": "2 in, Class IV (site data; not confirmed from Toyota)",
+   "max_tow_lb": 12000,
+   "max_tow": "12,000 (Toyota 2022 release)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota 2022 Tundra release for the rating (maker); receiver grade list not confirmed"
+  },
+  "jeep gladiator 2020": {
+   "receiver": "Package or trim, partly confirmed: Jeep's 2024 release lists Trailer Tow equipment under the Willys, Mojave and Rubicon; Mopar sells an accessory receiver (82215648), so some trucks leave without one",
+   "size": "2 in; site data Class III, the Mopar accessory is described as Class IV: read the label",
+   "max_tow_lb": 7700,
+   "max_tow": "7,700 when properly equipped (Jeep 2024 and 2025 releases); Wikipedia: 4,000 standard, 7,650 select Sport with HD tow package, 7,000 Rubicon automatic",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Jeep 2024 and 2025 releases (maker) for trims and rating; full trim list not confirmed; site data and Mopar listing disagree on class"
+  },
+  "ford ranger 2019": {
+   "receiver": "Package: the 2019 towing guide (copy posted on Ranger5G) lists the receiver with a 7-wire harness and 4-/7-pin connector as the optional Trailer Tow Package (53R); no trim confirmed with it standard",
+   "size": "2 in, Class IV (site data; class not on the Ford pages read)",
+   "max_tow_lb": 7500,
+   "max_tow": "7,500 with the tow package and a trailer brake controller (Ford 2018 announcement)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Ford document read as a forum-hosted copy, 2019 model year only (medium confidence); Ford announcement for the rating (maker)"
+  },
+  "ford ranger 2024": {
+   "receiver": "Package: Class IV hitch receiver with 4-/7-pin connector in the Trailer Tow Package (53R), standard on the Raptor, optional on XL, XLT and Lariat",
+   "size": "Class IV (Ford 2026 guide); 2 in per site data, opening size not confirmed on Ford pages",
+   "max_tow_lb": 7500,
+   "max_tow": "7,500 with the package; Raptor 5,510; 3,500 bumper-only limit (Ford)",
+   "tongue_lb": 750,
+   "tongue": "750; Raptor 550 (Ford 2026 guide)",
+   "carrier_lb": null,
+   "source": "Ford 2024 and 2026 Ranger towing guides (maker)"
+  },
+  "chevrolet colorado 2023": {
+   "receiver": "Package: Chevrolet's 2023 brochure puts the trailer hitch and 7-pin connector in the Trailering Package; which trims get it as standard was not confirmed",
+   "size": "Site data Class IV, 2 in; the brochure prints no class or size",
+   "max_tow_lb": 7700,
+   "max_tow": "7,700 with the Trailering or Advanced Trailering Package and the 2.7L Turbo Plus on WT and LT; ZR2 6,000 (Chevrolet 2023 brochure); GM Authority 2026: ZR2 Bison 5,500, 3,500 without the package",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Chevrolet 2023 brochure (maker) for the package and rating; trim standard-ness not confirmed"
+  },
+  "ford maverick 2022": {
+   "receiver": "Package: Class III 2 in receiver with 4-/7-pin connector in the 4K Tow Package (53Q); no factory receiver confirmed without it",
+   "size": "2 in, Class III (Ford towing guide)",
+   "max_tow_lb": 4000,
+   "max_tow": "4,000 on AWD trucks with 4K (EcoBoost 2022–2026; hybrid AWD 2025–2026); 2,000 otherwise (Ford)",
+   "tongue_lb": 400,
+   "tongue": "400 (Ford towing guide, for the 4K package receiver); no separate figure found for 2,000 lb trucks",
+   "carrier_lb": null,
+   "source": "Ford 2025 Maverick towing information (maker)"
+  },
+  "nissan frontier 2022": {
+   "receiver": "Trim or package: Nissan's 2025 specifications list a Class IV receiver hitch as standard on the SL 4x2 Crew Cab, optional on SV 4x2 and PRO-X, not listed on the S; the 4x4 columns could not be read cleanly; King Cab SV Convenience Package lists a trailer hitch with harness",
+   "size": "Class IV (Nissan 2025 specifications); site data says Class III, 2 in: read the label",
+   "max_tow_lb": 6720,
+   "max_tow": "6,720 at launch (site data, Wikipedia); up to 7,150 from 2025 (Nissan 2025 press kit, King Cab S 4x2)",
+   "tongue_lb": null,
+   "tongue": "Nissan lists tongue load by configuration, 631 to 716, not labeled as a maximum; use the owner's manual",
+   "carrier_lb": null,
+   "source": "Nissan 2025 Frontier press kit (maker), table partly unreadable; site data and Nissan disagree on class"
+  },
+  "toyota 4runner 2010": {
+   "receiver": "Standard on all grades: Toyota lists an integrated tow-hitch receiver and wiring harness as standard (2017, 2019, 2020 and 2021 releases)",
+   "size": "2 in, Class III (site data); Toyota names no class or size, read the label",
+   "max_tow_lb": 5000,
+   "max_tow": "5,000 on all models (Toyota)",
+   "tongue_lb": 500,
+   "tongue": "500 (Toyota 2017, 2019, 2020 and 2021 releases)",
+   "carrier_lb": null,
+   "source": "Toyota releases (maker)"
+  },
+  "toyota 4runner 2025": {
+   "receiver": "Not confirmed: Toyota's launch release does not mention a receiver, and no Toyota source was found for which grades ship with one",
+   "size": "Site data Class IV, 2 in; not confirmed from Toyota",
+   "max_tow_lb": 6000,
+   "max_tow": "6,000 (Toyota launch release)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota 2025 4Runner release (maker) for the rating; receiver not confirmed"
+  },
+  "jeep wrangler 2018": {
+   "receiver": "Package: Trailer Tow package; Jeep's 2024 press kit lists it as standard on the Rubicon and Rubicon X. The factory part is Mopar 82215209, a Class II receiver",
+   "size": "2 in, Class II, 3,500 lb (Mopar)",
+   "max_tow_lb": null,
+   "max_tow": "2018–2023: 2,000 2-door, 3,500 4-door (dealer guides; Jeep 2018 release: up to 3,500 with towing package); 5,000 confirmed by Jeep only for 2024 and later 4-door Rubicon 2.0L or 3.6L automatics on 33 in tires; 4xe and 392: 3,500 (dealer guides)",
+   "tongue_lb": 350,
+   "tongue": "350 for the factory receiver (Mopar); vehicle tongue limit not confirmed from Jeep",
+   "carrier_lb": null,
+   "source": "Jeep 2018 and 2024 press material (maker) plus Mopar listing; most 2024+ configurations not confirmed above 2018–2023 figures"
+  },
+  "ford bronco 2021": {
+   "receiver": "Dealer-installed on most: Ford's 2024 towing guide lists the hitch receiver, 7-wire harness with 4-/7-pin connector and trailer module as dealer-installed equipment, with a Trailer Tow Prep Package included on all models except the Raptor; the Raptor includes Tow Package 2 as standard. Bronco6G owners report the receiver only with the Trailer Tow Package",
+   "size": "2 in; Ford's guide prints no class; site data Class II; an etrailer expert answer rates the factory hitch 3,500 / 350 lb",
+   "max_tow_lb": 3500,
+   "max_tow": "3,500 (most builds); Raptor 4,500 (Ford 2024 guide)",
+   "tongue_lb": 350,
+   "tongue": "350; Raptor 450 (Ford 2024 guide)",
+   "carrier_lb": null,
+   "source": "Ford 2024 Bronco Towing Guide (maker); class not published"
+  },
+  "toyota rav4 2019": {
+   "receiver": "None on most versions. A Toyota dealer says the 2024 Adventure and TRD Off-Road include a receiver with the Tow Prep Package; Adventure and TRD Off-Road were discontinued for 2025",
+   "size": "Factory receiver size not confirmed; Toyota accessory PK960-42K10 has a 2 in tube, class not clearly stated on Toyota's page",
+   "max_tow_lb": 3500,
+   "max_tow": "3,500 Adventure and TRD Off-Road with Tow Prep; 1,500 gas LE through Limited; 1,750 Hybrid; 2,500 Prime (2024 Toyota dealer figures)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota dealer pages (dealer); Toyota accessory page (maker) for the accessory hitch"
+  },
+  "honda cr-v 2023": {
+   "receiver": "None confirmed: Honda accessory hitch 08L92-3A0-100 is dealer-installed",
+   "size": "Honda accessory: Class I, size not stated (Honda parts dealer); aftermarket Class 3, 2 in",
+   "max_tow_lb": 1500,
+   "max_tow": "1,500 gas LX, EX, EX-L; 1,000 hybrid Sport, TrailSport, Sport-L, Sport Touring (Honda 2023 and 2026 specifications)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Honda specifications (maker) for the rating; accessory details from a Honda parts dealer (dealer)"
+  },
+  "toyota highlander 2020": {
+   "receiver": "None confirmed on any grade: Toyota sells Tow Hitch Receiver PT228-48174 as an accessory",
+   "size": "Accessory receiver, size not stated on the page read; aftermarket 2 in Class 3",
+   "max_tow_lb": 5000,
+   "max_tow": "5,000 on 2.4L turbo models; 3,500 on all Hybrid models (Toyota 2025 release); 2021 V6: 5,000 with the available towing package (Toyota 2021 release)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota releases and Toyota parts page (maker)"
+  },
+  "subaru outback 2020": {
+   "receiver": "None from the factory: Subaru accessory hitch L101SAN000 (Class II, harness included) is dealer-installed; the Wilderness needs its own fascia panel",
+   "size": "2 in, Class II (Subaru accessory, per dealer listing); aftermarket 2 in Class III",
+   "max_tow_lb": 2700,
+   "max_tow": "2,700 with the 2.5L (Base, Premium, Limited, Touring, Onyx Edition from 2023); 3,500 with the 2.4L turbo (XT trims, Wilderness) (Subaru)",
+   "tongue_lb": 270,
+   "tongue": "270 (2.5L); 350 (2.4L turbo) (Subaru accessory documentation)",
+   "carrier_lb": null,
+   "source": "Subaru trim sheets and hitch documentation (maker) read through a Subaru dealer parts listing (dealer)"
+  },
+  "subaru forester 2019": {
+   "receiver": "None confirmed: Subaru accessory L101SSJ001 (2019–2021) or L101SSJ005 (2022–2024 and 2025 Wilderness), both dealer-installed",
+   "size": "1-1/4 in, Class One per dealer (2019–2021); 2 in (2022–2024); site data 1.25 in Class II",
+   "max_tow_lb": 1500,
+   "max_tow": "1,500; Wilderness 3,000 (Subaru 2019, 2022 and 2024 sheets)",
+   "tongue_lb": 150,
+   "tongue": "150; Wilderness 300 (Subaru dealer listing for the 2022–2024 hitch); 2019–2021 not confirmed, the dealer page for that hitch prints 176",
+   "carrier_lb": null,
+   "source": "Subaru trim sheets (maker) for the rating; Subaru Parts Pros (dealer) for the hitch and tongue figures"
+  },
+  "tesla model y 2020": {
+   "receiver": "Package only: 2 in receiver with the Tesla Tow Package, sold with the car or later through the Tesla Shop; the owner's manual says not to install an accessory carrier on a car without it",
+   "size": "2 in; Tesla prints no class (Class 3 is the aftermarket label)",
+   "max_tow_lb": 3500,
+   "max_tow": "3,500 for 5-seat and Performance with five or fewer occupants; lower limits on 6- and 7-seat cars by wheel size and occupied seats (Tesla owner's manual)",
+   "tongue_lb": 350,
+   "tongue": "350; carriers up to 160 vertical load (Tesla owner's manual)",
+   "carrier_lb": 160,
+   "source": "Tesla owner's manual and Tesla Shop (maker)"
+  },
+  "tesla model 3 2017": {
+   "receiver": "Package only, 2024 and later: the Tesla Shop lists the Tow Package for Rear-Wheel Drive and All-Wheel Drive cars produced in 2024 or later, not the Performance; 2017–2023 cars: none, and the manual says do not use Model 3 for towing",
+   "size": "2 in with 4-pin connector (Tesla Shop); Tesla prints no class; site data lists no factory class",
+   "max_tow_lb": 2200,
+   "max_tow": "2,200 with trailer brakes, 1,650 without, only with the Tesla package (Tesla owner's manual)",
+   "tongue_lb": 200,
+   "tongue": "200; carriers up to 121 (Tesla owner's manual, with the package)",
+   "carrier_lb": 121,
+   "source": "Tesla Shop and owner's manuals (maker)"
+  },
+  "ford explorer 2020": {
+   "receiver": "Package 2020–2024: Trailer Tow Package, optional on most trims, standard on the ST in Ford's 2024 guide; standard 2025–2026: Class III Trailer Tow Package (Ford)",
+   "size": "2 in; Ford names the package Class IV in its 2023 and 2024 guides and Class III for 2025–2026; 2020–2022 name not confirmed, read the label",
+   "max_tow_lb": 5300,
+   "max_tow": "5,300 2.3L; 5,600 3.0L (2020–2024, with package); 5,000 (2025–2026); 3,000 without the package (Ford 2024 guide)",
+   "tongue_lb": 560,
+   "tongue": "560 (Ford 2024 guide); 500 (Ford 2026 guide)",
+   "carrier_lb": null,
+   "source": "Ford 2023, 2024 and 2026 towing guides and 2025 Explorer page (maker)"
+  },
+  "jeep grand cherokee 2022": {
+   "receiver": "Package: factory receiver only on vehicles built with the available Trailer-Tow Package, which a dealer towing guide says includes 4- and 7-pin wiring",
+   "size": "2 in; Class IV per a dealer towing guide, Class III per the Mopar replacement listing: read the label",
+   "max_tow_lb": 6200,
+   "max_tow": "6,200 3.6L V6 and 2026 2.0L turbo (Jeep 2026 capability page); 7,200 5.7L V8 where offered; 4xe 6,000 Trailhawk and up, 3,500 base trims (one dealer guide)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Jeep capability page (maker) for the V6 and turbo; dealer towing guide (dealer) for the package and class"
+  },
+  "chevrolet tahoe 2021": {
+   "receiver": "Not confirmed by trim: the site's hub says most Tahoes ship with a receiver but could not confirm from Chevrolet which trims and years; a request for Chevrolet's 2024 brochure failed on October 8, 2026",
+   "size": "2 in, Class IV (site data; not confirmed from Chevrolet)",
+   "max_tow_lb": 8400,
+   "max_tow": "8,400 maximum available with the Max Trailering Package (Chevrolet Tahoe page)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Chevrolet page (maker) for the rating; receiver trim list not confirmed"
+  },
+  "kia telluride 2020": {
+   "receiver": "Not confirmed by trim: the site could not confirm from Kia which trims got the tow package in each year; Kia's 2024 specifications page lists no hitch; a harness listing says the factory tow package is required",
+   "size": "Factory receiver not confirmed; aftermarket 2 in Class III",
+   "max_tow_lb": 5000,
+   "max_tow": "5,000; 5,500 on the X-Pro (Kia 2023 press kit; Kia 2024 specifications)",
+   "tongue_lb": 500,
+   "tongue": "500 per owner reports on TellurideForum; not confirmed from Kia",
+   "carrier_lb": null,
+   "source": "Kia press kit and specifications (maker) for the rating; receiver status not confirmed; tongue weight from owner reports (low confidence)"
+  },
+  "hyundai palisade 2020": {
+   "receiver": "None: Hyundai's 2020, 2023 and 2024 spec sheets list no tow hitch as equipment; the 2023 sheet lists pre-wiring and a heavy-duty transmission cooler",
+   "size": "No factory receiver; aftermarket 2 in Class 3",
+   "max_tow_lb": 5000,
+   "max_tow": "5,000 with trailer brakes; 1,650 without (Hyundai 2020, 2023 and 2024 spec sheets)",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Hyundai specification sheets (maker)"
+  },
+  "honda pilot 2023": {
+   "receiver": "Trim: integrated Class III trailer hitch standard on the TrailSport only (Honda Info Center, Honda press kit); other trims need a dealer accessory or an aftermarket hitch",
+   "size": "2 in, Class III (Honda Info Center)",
+   "max_tow_lb": 5000,
+   "max_tow": "5,000 AWD; 3,500 2WD (Honda)",
+   "tongue_lb": null,
+   "tongue": "In the owner's manual; not published on pages read",
+   "carrier_lb": null,
+   "source": "Honda Info Center and 2023 press kit (maker)"
+  },
+  "toyota sequoia 2023": {
+   "receiver": "Not confirmed by grade: the Toyota releases read do not describe the receiver",
+   "size": "2 in, Class IV (site data; not confirmed from Toyota)",
+   "max_tow_lb": 9520,
+   "max_tow": "Up to 9,520 (Toyota releases for 2023, 2025 and 2026); the January 2022 reveal said 9,000",
+   "tongue_lb": null,
+   "tongue": "Not published on pages read",
+   "carrier_lb": null,
+   "source": "Toyota releases (maker) for the rating; receiver grade list not confirmed"
+  }
+ },
+ "roof": {
+  "toyota 4runner 2010": {
+   "roof_type": "Raised rails; TRD roof rack on TRD Pro from 2019; Yakima basket on Trail and Venture editions",
+   "roof_lb": 120,
+   "roof": "120 (site working figure)",
+   "covers": "Site treats it as a driving limit with the rack included; the source comment does not say rail or roof",
+   "source": "not confirmed; site note: 120 lb per a reader comment on Trail4Runner citing a 2016 SR5 owner's manual; a Toyota dealer parts page gives 132 lb for cross bar kit PT278-89170, a bar rating with no model years",
+   "confirmed": false
+  },
+  "toyota rav4 2019": {
+   "roof_type": "Raised rails on XLE and up (Adventure and TRD Off-Road rails are a separate fit); LE bare roof",
+   "roof_lb": 165,
+   "roof": "165 (site working figure)",
+   "covers": "Site treats it as the driving limit, bars included",
+   "source": "not confirmed; site note: 165 lb could not be traced to Toyota; RAV4Resource lists 176.4 lb (80 kg) for 2019–2024; Toyota dealer catalog for the Adventure cross bars prints no figure",
+   "confirmed": false
+  },
+  "subaru outback 2020": {
+   "roof_type": "Raised rails with integrated retractable crossbars; Wilderness (2022–2025) ladder-type rails, no built-in bars",
+   "roof_lb": 150,
+   "roof": "150 standard rails; Wilderness 200 dynamic, 700 static",
+   "covers": "Maximum capacity for the rails with integrated cross bars; Wilderness figures labeled dynamic and static by Subaru",
+   "source": "Subaru trim comparison sheets, 2022, 2023 and 2025 (maker); 2020, 2021 and 2024 sheets not read",
+   "confirmed": true
+  },
+  "subaru forester 2019": {
+   "roof_type": "Raised rails standard on Premium, Sport, Limited, Touring, optional on Base (bare possible); Wilderness rails 2022–2024",
+   "roof_lb": 176,
+   "roof": "176 standard rails; Wilderness 220 dynamic, 800 static",
+   "covers": "Subaru's 2022 release calls 176 lb the dynamic capacity and adds 700 lb static; the 2019 sheet prints no figure",
+   "source": "Subaru trim sheets 2022 and 2024 and the 2022 release (maker); 2019–2021 owners use the manual",
+   "confirmed": true
+  },
+  "tesla model y 2020": {
+   "roof_type": "Glass roof with four fixed points; Tesla-approved racks only per the manual",
+   "roof_lb": 165,
+   "roof": "165 (Tesla rack rating)",
+   "covers": "Tesla Shop rating for the Tesla Model Y Roof Rack, bars and cargo together; the owner's manual Vehicle Loading page prints no roof load (read 2026-10-08)",
+   "source": "maker rack rating (Tesla Shop); no manual roof figure",
+   "confirmed": true
+  },
+  "kia telluride 2020": {
+   "roof_type": "Flush rails on LX, S, EX, SX, SX-P; raised bridge-type rails on X-Line and X-Pro (2023+)",
+   "roof_lb": 220,
+   "roof": "220",
+   "covers": "Roof rack load, evenly distributed; brand-name crossbar systems are rated 165 lb, so the bars usually set the limit",
+   "source": "owner's manual, Kia 2024 (maker); only the 2024 manual read",
+   "confirmed": true
+  },
+  "hyundai palisade 2020": {
+   "roof_type": "Flush rails",
+   "roof_lb": 220,
+   "roof": "220",
+   "covers": "Roof rails load capacity; the sheets do not say whether it is for driving only; Thule Evo Flush Rail system 165 lb",
+   "source": "Hyundai specification sheets, 2020, 2023 and 2024 (maker)",
+   "confirmed": true
+  },
+  "honda pilot 2023": {
+   "roof_type": "Raised rails on Sport, TrailSport, Touring and Elite; bare roof on LX and EX-L",
+   "roof_lb": 165,
+   "roof": "165",
+   "covers": "Up to 165 lb of cargo on the rails using accessory crossbars; no Honda figure for the bare-roof trims",
+   "source": "Honda Info Center, 2023 and 2024 (maker); Honda crossbars 08L04-T90-100 also 165 lb at a Honda dealer",
+   "confirmed": true
+  },
+  "tesla model 3 2017": {
+   "roof_type": "Glass roof with fixed points; Tesla-approved racks only per the manual",
+   "roof_lb": null,
+   "roof": "not published / not confirmed (Tesla rack 150)",
+   "covers": "Tesla Shop lists a 150 lb load rating and a 495 lb static load limit for the Tesla Model 3 Roof Rack; the owner's manual prints no roof load",
+   "source": "maker rack rating (Tesla Shop); site stores no roof figure",
+   "confirmed": false
+  },
+  "toyota 4runner 2025": {
+   "roof_type": "Raised rails (not confirmed by grade); ARB roof rack on Trailhunter per Toyota",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No site figure; GearJunkie reports 165 lb dynamic and 770 lb static, one owner cites 125 lb for the factory crossbars",
+   "source": "not confirmed; press first-drive review and 4Runner6G owner posts, not a Toyota document",
+   "confirmed": false
+  },
+  "honda cr-v 2023": {
+   "roof_type": "Bare roof on gas LX, EX and EX-L; black roof rails (flush per etrailer) on hybrid trims",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No figure in Honda's 2024 or 2026 spec tables; Honda accessory rails 08L02-3A0-100 are marked 165 lb total by a Honda dealer; no figure for the hybrid trims' rails",
+   "source": "dealer page (Bernardi Parts) for the accessory rails only; Honda spec sheets silent on the roof",
+   "confirmed": false
+  },
+  "toyota highlander 2020": {
+   "roof_type": "Flush rails with fixed points on railed trims; some roofs bare (L, LE to confirm)",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Toyota roof figure; Toyota cross bars PT767-48200 listed at 165 lb (75 kg) by a Canadian Toyota dealer; Thule and Yakima systems 165 lb (etrailer)",
+   "source": "dealer page (Toyota Customs, Edmonton) and retailer kit ratings; crossbar rating, not a roof figure",
+   "confirmed": false
+  },
+  "ford explorer 2020": {
+   "roof_type": "Raised rails standard; Ford lists a Slick Roof Conversion that deletes them on some trims",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Ford figure read; brand-name raised-rail systems 165 lb (etrailer); Ford's support site has an Explorer Roof Rack Limits video, but the figure is not in the page text",
+   "source": "not confirmed; retailer kit ratings; owner's manual is the authority",
+   "confirmed": false
+  },
+  "jeep grand cherokee 2022": {
+   "roof_type": "Flush rails on most trims",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Jeep figure read; Thule WingBar Evo, Yakima SkyLine and Rhino-Rack Vortex 165 lb (etrailer); the 2023 owner's manual has a Roof Luggage Rack section at page 79 we could not read",
+   "source": "not confirmed; retailer kit ratings; owner's manual is the authority",
+   "confirmed": false
+  },
+  "chevrolet tahoe 2021": {
+   "roof_type": "Flush rails; 2025 RST Performance Edition package removes the roof rack",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Chevrolet figure; GM accessory page says capacity varies by model and trim; Thule feet 165 lb with 220 lb bars (etrailer); Yakima and Z71 Thule kits 165 lb (The Rack Shop)",
+   "source": "not confirmed; GM accessory page plus retailer kit ratings; feet set the ceiling",
+   "confirmed": false
+  },
+  "toyota sequoia 2023": {
+   "roof_type": "Side rails, raised or flush (etrailer lists both for 2023, no grades); TRD Pro factory roof rack",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Toyota figure; TRD Pro factory roof rack 132 lb evenly distributed (Rave Offroad); Thule Evo Raised Rail kit 165 lb (Rack Warehouse)",
+   "source": "not confirmed; retailer ratings for a factory rack and a kit; owner's manual is the authority",
+   "confirmed": false
+  },
+  "ford f-150 2021": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; the site routes cargo to the bed",
+   "source": "not confirmed; site note: no roof guide for this truck, owner's manual only",
+   "confirmed": false
+  },
+  "ford f-150 2015": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "chevrolet silverado 1500 2019": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "gmc sierra 1500 2019": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "ram 1500 2019": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "toyota tacoma 2016": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed racks clamp to the deck rails",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "toyota tacoma 2024": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "toyota tundra 2022": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "jeep gladiator 2020": {
+   "roof_type": "Removable hardtop or soft top",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; site note: no roof racks, use bed racks",
+   "source": "not confirmed; site note: roof is removable, overland loads go on a bed rack",
+   "confirmed": false
+  },
+  "ford ranger 2019": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "ford ranger 2024": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "chevrolet colorado 2023": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "ford maverick 2022": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; FLEXBED carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "nissan frontier 2022": {
+   "roof_type": "Bare cab roof",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No roof figure stored; bed carries the load",
+   "source": "not confirmed; site note: no roof guide, owner's manual only",
+   "confirmed": false
+  },
+  "jeep wrangler 2018": {
+   "roof_type": "Removable hardtop, soft top or Sky One-Touch",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No Jeep figure read; rack makers publish their own: Rough Country 225 dynamic and 450 static, Rhino-Rack 264, TrailFX 300, Hooke Road 160 for the 2-door",
+   "source": "not confirmed; rack-maker ratings only (Rough Country, Rhino-Rack, TrailFX, Hooke Road)",
+   "confirmed": false
+  },
+  "ford bronco 2021": {
+   "roof_type": "Removable hardtop or soft top; hardtop has factory rail points on some trims",
+   "roof_lb": null,
+   "roof": "not published / not confirmed",
+   "covers": "No site figure; owners on Bronco6G quote 110 lb dynamic and 450 lb static citing Ford's equipment installation guide, and some threads say 100 lb",
+   "source": "not confirmed; owner forum citing a Ford document the site did not open",
+   "confirmed": false
+  }
+ }
+}

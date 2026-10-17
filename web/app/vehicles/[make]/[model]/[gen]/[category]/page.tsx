@@ -9,7 +9,7 @@ import { getAuthor } from "@/lib/authors";
 import { ProductCard } from "@/components/ProductCard";
 import { SITE_URL } from "@/lib/db";
 import { Price } from "@/components/Price";
-import { articleSeoTitle } from "@/lib/seo";
+import { articleSeoTitle, clampDesc } from "@/lib/seo";
 import { explainersFor, upgradesPathFor } from "@/lib/pillars";
 
 export const revalidate = 3600;
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   return {
     title: articleSeoTitle(d.v, d.c),   // ≤ 60 chars for the SERP; the full headline stays as the H1
 
-    description: d.page?.meta_desc ?? `${d.c.name} verified to fit the ${vehicleTitle(d.v)}, with prices and fit notes.`,
+    description: clampDesc(d.page?.meta_desc ?? `${d.c.name} verified to fit the ${vehicleTitle(d.v)}, with prices and fit notes.`),
     alternates: { canonical: path },
     robots: d.page?.status === "published" ? undefined : { index: false },
     openGraph: { title, description: d.page?.meta_desc ?? undefined, url: path, siteName: "Rig Configurator", type: "article", images: ogImage(d.hero) },

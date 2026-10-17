@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { categorySeoTitle } from "@/lib/seo";
+import { categorySeoTitle, clampDesc } from "@/lib/seo";
 import { SITE_URL } from "@/lib/db";
 import { GUIDE_COPY } from "@/lib/guideCopy";
 import { staticOg } from "@/components/Hero";
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
     ? `${c.name} by vehicle generation. ${GUIDE_COPY[c.slug].blurb}`
     : `${c.name} matched to your exact truck or SUV generation, with prices and fit notes.`;
   return {
-    title, description,
+    title, description: clampDesc(description),
     alternates: { canonical: `/guides/${c.slug}` },
     openGraph: { title: title.absolute, description, url: `/guides/${c.slug}`, type: "website", images: staticOg(`guide-${c.slug}`, `${c.name} by vehicle`) },
   };

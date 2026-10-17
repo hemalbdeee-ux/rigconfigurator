@@ -6,6 +6,7 @@ import { getAuthor } from "@/lib/authors";
 import { Inline, Linker, Md } from "./Md";
 import { Hero } from "./Hero";
 import type { Hero as HeroT } from "@/lib/queries";
+import { Embeds, type Embed } from "./Embeds";
 
 type Table = { caption?: string; head: string[]; rows: string[][] };
 type Pick = { asin: string; role: string; price?: string; pros: string[]; cons: string[]; body: string; who: string; specs: [string, string][] };
@@ -15,6 +16,7 @@ export type Article = {
   fit_table?: Table; look_for: { h: string; body: string }[]; look_table?: Table; types_table?: Table;
   picks: Pick[]; install?: string[]; avoid?: { h: string; body: string }[];
   verdict: { thesis: string; body: string }; sources?: [string, string][];
+  embeds?: Embed[];
 };
 
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -96,6 +98,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
     ["what-to-look-for", "What to look for"],
     ...(a.types_table ? [["types", typesH] as [string, string]] : []),
     ...a.picks.map((p, i) => [slug(`pick-${i + 1}`), `#${i + 1}: ${byAsin.get(p.asin)?.brand ?? ""} — ${p.role}`] as [string, string]),
+    ...(a.embeds?.length ? [["real-world", "Real-world fit"] as [string, string]] : []),
     ...(a.install?.length ? [["install", `How to install ${article(n.one)} ${n.one}`] as [string, string]] : []),
     ...(a.avoid?.length ? [["avoid", "What to avoid"] as [string, string]] : []),
     ["faq", "FAQ"], ["verdict", "Verdict"],
@@ -114,6 +117,10 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       </div>
       <p className="fit-years">Covers the {modelYearsText(v)} {v.make_name} {v.model_name} ({v.gen_name}). Some listings name fewer model years, so check the fit note on each pick.</p>
       <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
+
+      <section className="short-answer" aria-label="Short answer">
+        <strong>Short answer:</strong> {a.verdict.thesis} <a href="#verdict">Full verdict ↓</a>
+      </section>
 
       <section className="picks-box">
         <div className="picks-h">Our top picks</div>
@@ -185,6 +192,8 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <h3>Also fit-checked for the {vehicleTitle(v)}</h3>
         <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — <Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} /> · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
       </section>)}
+
+      {a.embeds?.length ? <Embeds items={a.embeds} model={model} /> : null}
 
       {a.install?.length ? (<section id="install"><h2>How to install {article(n.one)} {n.one} {n.prep} the {model}</h2><ol>{a.install.map(s => <li key={s}><Inline s={s} linker={L} /></li>)}</ol></section>) : null}
 

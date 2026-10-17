@@ -4,12 +4,21 @@ import type { Metadata } from "next";
 import { getExplainer } from "@/lib/pillars";
 import { publishedGuides } from "@/lib/queries";
 import { SITE_URL } from "@/lib/db";
-import { seoTitle } from "@/lib/seo";
+import { clampDesc, seoTitle } from "@/lib/seo";
 import { CATEGORY_PHRASES } from "@/lib/links";
 import { staticOg } from "@/components/Hero";
 import { Linker, Md } from "@/components/Md";
 import { AuthorBox, Avoid, Byline, Faq, Method, T, Takeaways, Toc, Verdict } from "@/components/PillarParts";
 import { getAuthor } from "@/lib/authors";
+import { CiteBox } from "@/components/CiteBox";
+
+// Chart pages people quote: they get a citation box, and a link to the calculator that uses their figures.
+const DATA_PAGES = new Set(["roof-load-limits-by-vehicle", "factory-tow-hitch-by-vehicle", "truck-bed-length-chart"]);
+const TOOL_FOR: Record<string, { path: string; name: string }> = {
+  "roof-load-limits-by-vehicle": { path: "/tools/roof-load-calculator", name: "Roof load calculator" },
+  "factory-tow-hitch-by-vehicle": { path: "/tools/tongue-weight-calculator", name: "Tongue weight calculator" },
+  "trailer-hitch-classes-explained": { path: "/tools/tongue-weight-calculator", name: "Tongue weight calculator" },
+};
 
 export const revalidate = 3600;
 type P = { slug: string };
@@ -21,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const cat = page.category_slugs[0];
   return {
     title: seoTitle(page.title.split(":")[0], page.title.split(":")[0].slice(0, 58)),
-    description: page.meta_desc ?? undefined,
+    description: clampDesc(page.meta_desc),
     alternates: { canonical: path },
     openGraph: { title: page.title, description: page.meta_desc ?? undefined, url: path, type: "article",
       images: cat ? staticOg(`guide-${cat}`, page.title) : undefined },
@@ -34,11 +43,14 @@ export default async function Explainer({ params }: { params: Promise<P> }) {
   if (!page) notFound();
   const a = page.article;
   const path = `/learn/${page.slug}`;
-  const guides = (await Promise.all(page.category_slugs.map(c => publishedGuides(c)))).flat();
+  const perCat = await Promise.all(page.category_slugs.map(c => publishedGuides(c)));
+  const guides = perCat.flat();
+  // Only categories with at least one published guide have a /guides index; the others would link to a 404.
+  const liveCats = page.category_slugs.filter((_, i) => perCat[i].length > 0);
 
   // Link the first mention of each covered category to its /guides index.
   const map: Record<string, string> = {};
-  for (const c of page.category_slugs) for (const p of CATEGORY_PHRASES[c] ?? []) map[p] = `/guides/${c}`;
+  for (const c of liveCats) for (const p of CATEGORY_PHRASES[c] ?? []) map[p] = `/guides/${c}`;
   const L = new Linker(map, 4);
 
   const toc: [string, string][] = [
@@ -87,13 +99,16 @@ export default async function Explainer({ params }: { params: Promise<P> }) {
       {guides.length > 0 && (<section id="by-vehicle"><h2>Find the right one for your vehicle</h2>
         <p className="muted" style={{ fontSize: 14 }}>Each guide lists only the parts sold for that generation, with its fit gotchas.</p>
         <ul className="cat-list">{guides.map(g => <li key={g.path}><Link href={g.path}>{g.vehicle} {g.category_name.toLowerCase()}</Link></li>)}</ul>
-        <p style={{ fontSize: 14 }}>{page.category_slugs.map(c => <Link key={c} href={`/guides/${c}`} style={{ marginRight: 12 }}>All {c.replace(/-/g, " ")} guides →</Link>)}</p>
+        <p style={{ fontSize: 14 }}>{liveCats.map(c => <Link key={c} href={`/guides/${c}`} style={{ marginRight: 12 }}>All {c.replace(/-/g, " ")} guides →</Link>)}</p>
       </section>)}
 
       <Avoid items={a.avoid} />
       <Faq faq={page.faq} />
       <Verdict v={a.verdict} />
+      {TOOL_FOR[page.slug] && (<aside className="learn-box"><strong>Do the math for your vehicle:</strong>{" "}
+        <Link href={TOOL_FOR[page.slug].path}>{TOOL_FOR[page.slug].name} →</Link></aside>)}
       <Method method={a.method} sources={a.sources} />
+      {DATA_PAGES.has(page.slug) && <CiteBox url={`${SITE_URL}${path}`} name={page.title.split(":")[0]} />}
       <AuthorBox author={a.author} />
     </article>
   );

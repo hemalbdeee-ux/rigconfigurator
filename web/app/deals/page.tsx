@@ -7,7 +7,7 @@ import { Price } from "@/components/Price";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Deals: Amazon Price Drops on Fit-Checked Truck & SUV Parts",
+  title: { absolute: "Truck & SUV Accessory Price Drops | Rig Configurator" },
   description: "Fit-checked racks, covers, hitches, liners and steps whose Amazon price is at least 10% under their own 30-day high, from our price tracking.",
   alternates: { canonical: "/deals" },
   openGraph: { title: "Amazon Price Drops on Fit-Checked Parts | Rig Configurator", url: "/deals", type: "website", images: staticOg("vehicles", "Deals") },
