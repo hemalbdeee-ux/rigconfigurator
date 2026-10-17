@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   description: "Pick your vehicle, see only the racks, hitches, tonneau covers and gear that actually fit. Verified against manufacturer fit guides.",
   openGraph: { siteName: "Rig Configurator", type: "website", locale: "en_US", images: DEFAULT_OG },
   twitter: { card: "summary_large_image" },
+  // Pinterest domain claim (social plan): renders <meta name="p:domain_verify" ...> in every page head.
+  other: { "p:domain_verify": "7cb436579f1a8cd3c2a593f2d4711aa6" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
