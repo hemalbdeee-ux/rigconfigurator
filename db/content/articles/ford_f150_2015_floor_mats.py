@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS and maker pa
 
 KEY = ("ford", "f-150", "2015-2020", "floor-mats")
 
-TITLE = "Best Floor Liners for 2015–2020 Ford F-150: 6 SuperCrew & SuperCab Sets Checked by Cab and Rear Floor"
+TITLE = "Best Floor Mats & Liners for 2015–2020 Ford F-150: 6 SuperCrew & SuperCab Sets Checked by Cab and Rear Floor"
 META = ("Six floor liner sets listed for the 13th-gen F-150, from Husky WeatherBeater to $80 TPE, sorted by cab, "
         "bench vs buckets and rear storage so the first order fits.")
 

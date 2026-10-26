@@ -5,7 +5,7 @@ Source fixes 2026-10-04 (round 2): "raised rails" in the verdict corrected to fl
 
 KEY = ("toyota", "highlander", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2026 Toyota Highlander: 6 Three-Row Sets for 7-Seat, 8-Seat and Hybrid"
+TITLE = "Best Floor Mats & Liners for 2020–2026 Toyota Highlander: 6 Three-Row Sets for 7-Seat, 8-Seat and Hybrid"
 META = ("Six 4th-gen Highlander floor liner sets from Husky, TGBROS, MAXPRO, LASFIT and Smartliner, sorted by "
         "captain's chairs vs bench and gas vs hybrid.")
 

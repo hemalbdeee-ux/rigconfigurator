@@ -5,7 +5,7 @@ Source fixes 2026-10-04: dek price corrected from "$80 TPE" to the cheapest pick
 
 KEY = ("jeep", "wrangler", "2018-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2018–2026 Jeep Wrangler JL: 6 Picks for 2-Door, 4-Door and 4xe"
+TITLE = "Best Floor Mats & Liners for 2018–2026 Jeep Wrangler JL: 6 Picks for 2-Door, 4-Door and 4xe"
 META = ("Six JL Wrangler floor liner sets from Husky, 3W, LASFIT and OEDRO, split by 2-door vs Unlimited, 4xe "
         "plug-in hybrid and the cargo-area subwoofer.")
 

@@ -5,7 +5,7 @@ Source fixes 2026-10-04 (round 2): Telluride wording changed from "share a platf
 
 KEY = ("hyundai", "palisade", "2020-2025", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2025 Hyundai Palisade: 6 Three-Row Picks, and Why 2026 Is Different"
+TITLE = "Best Floor Mats & Liners for 2020–2025 Hyundai Palisade: 6 Three-Row Picks, and Why 2026 Is Different"
 META = ("Six 1st-gen Palisade floor liner options from WeatherTech, Husky, Smartliner, TOUGHPRO, RILLEC and "
         "Megiteller, sorted by 7- vs 8-seat, with the 2026 redesign cutoff.")
 

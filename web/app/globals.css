@@ -208,3 +208,10 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .meter { position: relative; height: 28px; border-radius: 8px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; margin: 10px 0 4px; }
 .meter-fill { height: 100%; background: var(--ok); opacity: .55; } .meter.near .meter-fill { background: var(--warn); } .meter.over .meter-fill { background: #ff6b6b; }
 .meter-label { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 10px; font-size: 13px; font-weight: 600; }
+.vnum { border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin: 22px 0; background: var(--card); }
+.vnum h2 { margin-top: 0; font-size: 20px; }
+.vnum table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.vnum th { text-align: left; vertical-align: top; width: 32%; padding: 6px 10px 6px 0; }
+.vnum td { padding: 6px 0; vertical-align: top; }
+.vnum tr + tr th, .vnum tr + tr td { border-top: 1px solid var(--line); }
+.vnum-links { display: flex; gap: 18px; flex-wrap: wrap; margin: 10px 0 0; font-size: 15px; }

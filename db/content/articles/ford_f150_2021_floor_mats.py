@@ -5,7 +5,7 @@ Amazon listing titles recorded in FITS and from maker pages in sources (checked 
 
 KEY = ("ford", "f-150", "2021-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2021–2026 Ford F-150: 5 Picks by Rear Storage Type (SuperCrew & Lightning)"
+TITLE = "Best Floor Mats & Liners for 2021–2026 Ford F-150: 5 Picks by Rear Storage Type (SuperCrew & Lightning)"
 META = ("Five F-150 SuperCrew floor liner sets from Husky, LASFIT, Mixsuper and Weize, split by the one detail that "
         "decides fit: fold-flat rear storage or not.")
 

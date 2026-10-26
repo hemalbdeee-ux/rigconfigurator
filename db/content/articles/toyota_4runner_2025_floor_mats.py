@@ -5,7 +5,7 @@ Source fixes 2026-10-04: model code N500 kept (Wikipedia; N410 appears nowhere o
 
 KEY = ("toyota", "4runner", "2025-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2025–2026 Toyota 4Runner: 6 Picks for Gas, Hybrid, 5-Seat and 7-Seat"
+TITLE = "Best Floor Mats & Liners for 2025–2026 Toyota 4Runner: 6 Picks for Gas, Hybrid, 5-Seat and 7-Seat"
 META = ("Six 6th-gen 4Runner floor liner sets from Husky, Toyota, LASFIT and TripleAliners, sorted by i-FORCE MAX "
         "hybrid, third-row seating and cargo coverage.")
 

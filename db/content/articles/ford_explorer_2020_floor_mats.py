@@ -7,7 +7,7 @@ towing guide lists a 2023 hybrid), with the Police Interceptor Utility noted as 
 
 KEY = ("ford", "explorer", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2026 Ford Explorer: 6 Three-Row Sets for 6- and 7-Passenger"
+TITLE = "Best Floor Mats & Liners for 2020–2026 Ford Explorer: 6 Three-Row Sets for 6- and 7-Passenger"
 META = ("Six 6th-gen Explorer floor liner sets from Husky, 3W, LASFIT, DrCarNow and KUST, matched to 6- vs "
         "7-passenger seating, the second-row console and the Hybrid.")
 

@@ -7,7 +7,7 @@ removed the unsourced TRD Pro and Capstone seating lines; verdict no longer assu
 
 KEY = ("toyota", "sequoia", "2023-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2023–2026 Toyota Sequoia: 6 Picks for Three Rows, 7- and 8-Passenger"
+TITLE = "Best Floor Mats & Liners for 2023–2026 Toyota Sequoia: 6 Picks for Three Rows, 7- and 8-Passenger"
 META = ("Six 3rd-gen Sequoia floor liner options from Smartliner, Husky, HAFIDI, Cartist and Auxko, matched to "
         "7- vs 8-passenger and the sliding third row, with Tundra cross-fit notes.")
 

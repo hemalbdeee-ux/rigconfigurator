@@ -5,7 +5,7 @@ Source fixes 2026-10-04: removed the unsourced claims that the 4xe battery place
 
 KEY = ("jeep", "grand-cherokee", "2022-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2022–2026 Jeep Grand Cherokee WL: 6 Picks, 4xe vs Gas, Not the L or WK2"
+TITLE = "Best Floor Mats & Liners for 2022–2026 Jeep Grand Cherokee WL: 6 Picks, 4xe vs Gas, Not the L or WK2"
 META = ("Six 2-row Grand Cherokee WL floor liner sets from Husky, 3W, Flymotor and budget TPE, with the 4xe split and "
         "the WK2, 2022 WK and Grand Cherokee L traps explained.")
 

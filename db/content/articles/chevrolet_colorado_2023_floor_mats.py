@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("chevrolet", "colorado", "2023-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2023–2026 Chevy Colorado Crew Cab: 5 Picks, Smartliner to Husky"
+TITLE = "Best Floor Mats & Liners for 2023–2026 Chevy Colorado Crew Cab: 5 Picks, Smartliner to Husky"
 META = ("Five 3rd-gen Colorado Crew Cab floor liner sets from Smartliner, Husky, HAFIDI, Binmotor and Liner Master, "
         "with the 2023 model-year and Canyon notes.")
 

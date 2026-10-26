@@ -6,7 +6,7 @@ Text fixes 2026-10-04: the two mentions of Husky parts 13791 and 14791 for the 2
 
 KEY = ("ford", "ranger", "2019-2023", "floor-mats")
 
-TITLE = "Best Floor Liners for 2019–2023 Ford Ranger: 6 SuperCrew & SuperCab Sets, Husky to $80 TPE"
+TITLE = "Best Floor Mats & Liners for 2019–2023 Ford Ranger: 6 SuperCrew & SuperCab Sets, Husky to $80 TPE"
 META = ("Six floor liner options for the 2019–2023 Ranger SuperCrew and SuperCab, from Husky WeatherBeater to LASFIT "
         "and budget TPE, with the 2024 cutoff explained.")
 

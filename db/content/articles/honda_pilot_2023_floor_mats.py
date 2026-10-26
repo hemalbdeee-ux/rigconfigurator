@@ -5,7 +5,7 @@ Source fixes 2026-10-04 (round 2): second-row layouts are now named by trim and 
 
 KEY = ("honda", "pilot", "2023-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2023–2026 Honda Pilot: 6 Three-Row Sets, Plus Husky Rear Pieces"
+TITLE = "Best Floor Mats & Liners for 2023–2026 Honda Pilot: 6 Three-Row Sets, Plus Husky Rear Pieces"
 META = ("Six 4th-gen Honda Pilot floor liner options from Smartliner, MAXPRO, Powerty, Weize, NIKALAIKA and Husky, "
         "with the removable second-row middle seat and TrailSport notes.")
 

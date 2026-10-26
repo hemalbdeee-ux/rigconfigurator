@@ -6,7 +6,7 @@ Text fixes 2026-10-04 (round 2): removed the unsourced claim that the Hybrid and
 
 KEY = ("toyota", "rav4", "2019-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2019–2025 Toyota RAV4: 6 Picks for Gas, Hybrid and Prime"
+TITLE = "Best Floor Mats & Liners for 2019–2025 Toyota RAV4: 6 Picks for Gas, Hybrid and Prime"
 META = ("Six 5th-gen RAV4 floor liner sets from WeatherTech, Husky, Powerty, AOMSAZTO and budget TPE, sorted by gas, "
         "Hybrid and Prime, with cargo and 2026 notes.")
 

@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("toyota", "tacoma", "2024-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2024–2026 Toyota Tacoma Double Cab: 5 Picks, Gas vs i-FORCE MAX Hybrid"
+TITLE = "Best Floor Mats & Liners for 2024–2026 Toyota Tacoma Double Cab: 5 Picks, Gas vs i-FORCE MAX Hybrid"
 META = ("Five 4th-gen Tacoma Double Cab liner sets from WeatherTech, Toyota, LASFIT and budget TPE, with the hybrid "
         "exclusions, manual-transmission front and XtraCab notes.")
 

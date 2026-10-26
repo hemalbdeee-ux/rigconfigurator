@@ -6,7 +6,7 @@ Text fixes 2026-10-04 (round 2): the guide has five pick cards, so the TITLE, ME
 
 KEY = ("toyota", "4runner", "2010-2024", "floor-mats")
 
-TITLE = "Best Floor Liners for 2010–2024 Toyota 4Runner: 5 Picks for Cabin and Cargo, 5-Seat vs 7-Seat"
+TITLE = "Best Floor Mats & Liners for 2010–2024 Toyota 4Runner: 5 Picks for Cabin and Cargo, 5-Seat vs 7-Seat"
 META = ("Five 5th-gen 4Runner floor and cargo liner picks, from Husky WeatherBeater and TuxMat to Toyota TRD Pro, with "
         "the 2013 split, third-row and sliding cargo deck notes.")
 

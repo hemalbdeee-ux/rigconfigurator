@@ -7,6 +7,7 @@ import { Inline, Linker, Md } from "./Md";
 import { Hero } from "./Hero";
 import type { Hero as HeroT } from "@/lib/queries";
 import { Embeds, type Embed } from "./Embeds";
+import { VehicleNumbers } from "./VehicleNumbers";
 
 type Table = { caption?: string; head: string[]; rows: string[][] };
 type Pick = { asin: string; role: string; price?: string; pros: string[]; cons: string[]; body: string; who: string; specs: [string, string][] };
@@ -138,6 +139,8 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
           );
         })}
       </section>
+
+      <VehicleNumbers v={v} category={c.slug} />
 
       <section className="box takeaways">
         <strong>Key takeaways</strong>

@@ -9,7 +9,7 @@ Text fixes 2026-10-04: "one cab" statements are now attributed to MotorWeek's la
 
 KEY = ("ford", "ranger", "2024-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2024–2026 Ford Ranger: 5 Picks, LASFIT and Smartliner to Husky"
+TITLE = "Best Floor Mats & Liners for 2024–2026 Ford Ranger: 5 Picks, LASFIT and Smartliner to Husky"
 META = ("Five floor liner picks for the 2024–2026 Ranger SuperCrew from LASFIT, Smartliner, Husky, TuxMat and "
         "3D MAXpider, with carpet-floor, Raptor and model-year notes.")
 

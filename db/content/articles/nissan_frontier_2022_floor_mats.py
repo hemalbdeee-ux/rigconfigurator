@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("nissan", "frontier", "2022-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2022–2026 Nissan Frontier Crew Cab: 6 Picks by Rear Speaker and Storage"
+TITLE = "Best Floor Mats & Liners for 2022–2026 Nissan Frontier Crew Cab: 6 Picks by Rear Speaker and Storage"
 META = ("Six 2022+ Frontier Crew Cab floor liner options from WeatherTech, Husky, Smartliner, Rough Country and budget "
         "TPE, checked against the Fender under-seat speaker and rear storage.")
 

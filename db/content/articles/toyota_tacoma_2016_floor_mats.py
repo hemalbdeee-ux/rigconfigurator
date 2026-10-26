@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("toyota", "tacoma", "2016-2023", "floor-mats")
 
-TITLE = "Best Floor Liners for 2016–2023 Toyota Tacoma Double Cab: 6 Picks by Transmission and Model Year"
+TITLE = "Best Floor Mats & Liners for 2016–2023 Toyota Tacoma Double Cab: 6 Picks by Transmission and Model Year"
 META = ("Six 3rd-gen Tacoma Double Cab liner sets, from Husky WeatherBeater and Toyota TRD Pro to $70 TPE, with "
         "the automatic vs manual and 2016–2017 vs 2018+ front-row split.")
 

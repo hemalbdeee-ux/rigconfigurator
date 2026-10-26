@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("jeep", "gladiator", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2026 Jeep Gladiator JT: 6 Picks, Husky to Mopar, With Rear Storage Notes"
+TITLE = "Best Floor Mats & Liners for 2020–2026 Jeep Gladiator JT: 6 Picks, Husky to Mopar, With Rear Storage Notes"
 META = ("Six Gladiator JT floor liner sets from Husky, 3W, LASFIT, Rough Country, MAXLINER and Mopar, with the "
         "lockable rear under-seat storage and Wrangler cross-fit notes.")
 

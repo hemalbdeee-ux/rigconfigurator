@@ -8,7 +8,7 @@ added the LS-only nine-seat front bench (Edmunds 2025); the 2025 floor-pan carry
 
 KEY = ("chevrolet", "tahoe", "2021-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2021–2026 Chevy Tahoe: 6 Picks for Bench vs Captain's Chairs and Every Row"
+TITLE = "Best Floor Mats & Liners for 2021–2026 Chevy Tahoe: 6 Picks for Bench vs Captain's Chairs and Every Row"
 META = ("Six 5th-gen Tahoe floor liner options from Husky, TOUGHPRO, Mixsuper and JSLYF, split by second-row bench "
         "vs buckets, with Suburban and Yukon cross-fit notes.")
 

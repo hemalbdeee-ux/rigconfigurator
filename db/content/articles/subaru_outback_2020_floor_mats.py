@@ -5,7 +5,7 @@ Source fixes 2026-10-04: added one sentence that Subaru's 2022 Outback Wildernes
 
 KEY = ("subaru", "outback", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2025 Subaru Outback: 6 Picks That Also Fit the Legacy"
+TITLE = "Best Floor Mats & Liners for 2020–2025 Subaru Outback: 6 Picks That Also Fit the Legacy"
 META = ("Six 6th-gen Outback floor liner sets from Husky, Subaru, OEDRO, YITAMOTOR, Auxko and budget TPE, with "
         "Legacy cross-fit, Wilderness notes and the 2026 cutoff.")
 

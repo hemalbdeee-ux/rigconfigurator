@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("ford", "bronco", "2021-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2021–2026 Ford Bronco 4-Door: 5 Picks, Carpet vs Rubberized Floor"
+TITLE = "Best Floor Mats & Liners for 2021–2026 Ford Bronco 4-Door: 5 Picks, Carpet vs Rubberized Floor"
 META = ("Five Bronco 4-door floor liner and cargo picks from Husky, LASFIT, 3W and budget brands, with the washable "
         "rubberized floor, 2-door and Bronco Sport traps explained.")
 

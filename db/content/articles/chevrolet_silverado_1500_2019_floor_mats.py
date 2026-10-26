@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("chevrolet", "silverado-1500", "2019-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2019–2026 Chevy Silverado 1500 Crew Cab: 6 Sets by Seat and Storage Layout"
+TITLE = "Best Floor Mats & Liners for 2019–2026 Chevy Silverado 1500 Crew Cab: 6 Sets by Seat and Storage Layout"
 META = ("Six Silverado 1500 Crew Cab liner sets from WeatherTech, Husky, 3W, LASFIT and KUST, matched to bench vs "
         "buckets and the three rear under-seat storage versions.")
 

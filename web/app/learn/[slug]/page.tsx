@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getExplainer } from "@/lib/pillars";
+import { allPillars, getExplainer } from "@/lib/pillars";
 import { publishedGuides } from "@/lib/queries";
 import { SITE_URL } from "@/lib/db";
 import { clampDesc, seoTitle } from "@/lib/seo";
@@ -22,6 +22,11 @@ const TOOL_FOR: Record<string, { path: string; name: string }> = {
 
 export const revalidate = 3600;
 type P = { slug: string };
+
+// Listing the params makes the route ISR (cached HTML) instead of rendered per request.
+export async function generateStaticParams() {
+  return (await allPillars()).filter(p => p.kind === "explainer").map(p => ({ slug: p.slug }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
   const page = await getExplainer((await params).slug);

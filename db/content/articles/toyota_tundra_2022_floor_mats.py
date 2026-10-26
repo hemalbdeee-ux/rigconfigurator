@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("toyota", "tundra", "2022-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2022–2026 Toyota Tundra: 6 CrewMax & Double Cab Sets, Gas and i-FORCE MAX"
+TITLE = "Best Floor Mats & Liners for 2022–2026 Toyota Tundra: 6 CrewMax & Double Cab Sets, Gas and i-FORCE MAX"
 META = ("Six 3rd-gen Tundra floor liner sets from Husky, LASFIT and budget TPE, split by CrewMax vs Double Cab and "
         "checked for the i-FORCE MAX hybrid.")
 

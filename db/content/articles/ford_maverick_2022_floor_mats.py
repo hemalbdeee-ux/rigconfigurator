@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("ford", "maverick", "2022-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2022–2026 Ford Maverick: 7 Picks, Split Hybrid vs EcoBoost"
+TITLE = "Best Floor Mats & Liners for 2022–2026 Ford Maverick: 7 Picks, Split Hybrid vs EcoBoost"
 META = ("Seven Maverick floor liner options from Husky, WeatherTech, Mixsuper, otoez and SHINJEW, split by the one "
         "thing that decides fit: hybrid or 2.0L EcoBoost.")
 

@@ -5,7 +5,7 @@ Source fixes 2026-10-04 (round 2): the trim FAQ now says the TrailSport is a 202
 
 KEY = ("honda", "cr-v", "2023-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2023–2026 Honda CR-V: 7 Picks for Gas and Hybrid, With Cargo Deck Notes"
+TITLE = "Best Floor Mats & Liners for 2023–2026 Honda CR-V: 7 Picks for Gas and Hybrid, With Cargo Deck Notes"
 META = ("Seven 6th-gen CR-V floor and cargo liner picks from Husky, HAFIDI, Weize, TTX and budget TPE, with gas vs "
         "hybrid and the upper vs lower cargo deck explained.")
 

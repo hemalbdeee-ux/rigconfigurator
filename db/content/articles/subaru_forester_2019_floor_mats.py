@@ -5,7 +5,7 @@ Text fixes 2026-10-04: Wilderness liner fit no longer asserted (Subaru's 2022 an
 
 KEY = ("subaru", "forester", "2019-2024", "floor-mats")
 
-TITLE = "Best Floor Liners for 2019–2024 Subaru Forester: 5 Picks, Husky and Subaru OEM to $90 TPE"
+TITLE = "Best Floor Mats & Liners for 2019–2024 Subaru Forester: 5 Picks, Husky and Subaru OEM to $90 TPE"
 META = ("Five 5th-gen Forester floor liner sets from Husky, Subaru, LASFIT, 3W and IKABEVEM, with the 2025 cutoff, "
         "Wilderness notes and cargo coverage for dog owners.")
 

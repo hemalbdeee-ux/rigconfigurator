@@ -5,7 +5,7 @@ Source fixes 2026-10-04 (round 2): model-year span corrected from 2020–2026 to
 
 KEY = ("kia", "telluride", "2020-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2020–2025 Kia Telluride: 5 Three-Row Picks From WeatherTech to TOUGHPRO"
+TITLE = "Best Floor Mats & Liners for 2020–2025 Kia Telluride: 5 Three-Row Picks From WeatherTech to TOUGHPRO"
 META = ("Five 2020–2025 Telluride floor liner sets from WeatherTech, Husky, Smartliner, TOUGHPRO and SUPER LINER, "
         "matched to 7- vs 8-seat layouts and the second-row console.")
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getVehicle, heroFor, vehiclePath, vehicleTitle, type Vehicle } from "@/lib/queries";
+import { allVehicles, getVehicle, heroFor, vehiclePath, vehicleTitle, type Vehicle } from "@/lib/queries";
 import { getUpgrades, vehicleGuideSummaries, explainersFor } from "@/lib/pillars";
 import { SITE_URL } from "@/lib/db";
 import { seoTitle, titleYears, clampDesc } from "@/lib/seo";
@@ -14,10 +14,17 @@ import { getAuthor } from "@/lib/authors";
 export const revalidate = 3600;
 type P = { make: string; model: string; gen: string };
 
+// Listing the params makes the route ISR (cached HTML, ~50 ms) instead of rendered per request.
+export async function generateStaticParams() {
+  const vs = await allVehicles();
+  return vs.map(v => ({ make: v.make_slug, model: v.model_slug, gen: v.gen_slug }));
+}
+
 const model = (v: Vehicle) => /^\d+(\s|$)/.test(v.model_name) ? `${v.make_name} ${v.model_name}` : v.model_name;
 const upgradesSeoTitle = (v: Vehicle) => seoTitle(
-  `${titleYears(v)} ${v.make_name} ${v.model_name} Upgrades, Ranked`,
-  `${titleYears(v)} ${model(v)} Upgrades, Ranked`,
+  `${titleYears(v)} ${v.make_name} ${v.model_name} Upgrades & Mods, Ranked`,
+  `${titleYears(v)} ${model(v)} Upgrades & Mods, Ranked`,
+  `${titleYears(v)} ${model(v)} Upgrades & Mods`,
   `${titleYears(v)} ${model(v)} Upgrades`,
 );
 

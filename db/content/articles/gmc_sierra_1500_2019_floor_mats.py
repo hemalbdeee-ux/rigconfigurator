@@ -4,7 +4,7 @@ No invented hands-on testing: fit facts from listing titles in FITS, specs from 
 
 KEY = ("gmc", "sierra-1500", "2019-present", "floor-mats")
 
-TITLE = "Best Floor Liners for 2019–2026 GMC Sierra 1500 Crew Cab: 5 Picks From TuxMat to $90 Rubber"
+TITLE = "Best Floor Mats & Liners for 2019–2026 GMC Sierra 1500 Crew Cab: 5 Picks From TuxMat to $90 Rubber"
 META = ("Five Sierra 1500 Crew Cab floor liner sets, from TuxMat's max-coverage mats to Husky and budget TPE, "
         "checked against Denali and AT4 seats and rear storage.")
 
