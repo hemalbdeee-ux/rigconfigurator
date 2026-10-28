@@ -75,8 +75,9 @@ export default async function Explainer({ params }: { params: Promise<P> }) {
         { "@type": "ListItem", position: 2, name: page.title, item: `${SITE_URL}${path}` }] },
       { "@type": "Article", headline: page.title.length <= 110 ? page.title : page.title.split(":")[0], description: page.meta_desc,
         mainEntityOfPage: `${SITE_URL}${path}`, datePublished: page.published_at, dateModified: a.reviewed ?? page.published_at,
-        author: { "@type": "Person", name: getAuthor(a.author).name, url: `${SITE_URL}/about` },
-        publisher: { "@type": "Organization", name: "Rig Configurator", url: SITE_URL } },
+        image: `${SITE_URL}/og/default.jpg`,
+        author: { "@type": "Person", "@id": `${SITE_URL}/about#${getAuthor(a.author).id}`, name: getAuthor(a.author).name, url: `${SITE_URL}/about`, jobTitle: getAuthor(a.author).role },
+        publisher: { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: "Rig Configurator", url: SITE_URL, logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png`, width: 600, height: 120 } } },
       ...(page.faq.length ? [{ "@type": "FAQPage", mainEntity: page.faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
     ],
   };

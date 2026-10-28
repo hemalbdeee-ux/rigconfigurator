@@ -1,0 +1,15 @@
+# Rig Configurator
+> Fit-checked truck and SUV accessories. Pick a vehicle generation; see only the tonneau covers, racks, hitches, liners and steps the makers list for it, with live Amazon prices.
+
+Every guide covers one vehicle generation. Fit comes from manufacturer fit guides and part-number listings, checked against owner reports; we do not install the products ourselves. Sources are cited on every guide.
+
+## Guides
+- https://rigconfigurator.com/vehicles — 32 vehicle hubs
+- https://rigconfigurator.com/guides — category guides by vehicle
+- https://rigconfigurator.com/learn — explainers and data charts (bed lengths, roof load limits, factory hitches)
+- https://rigconfigurator.com/tools — tongue weight and roof load calculators
+- https://rigconfigurator.com/sitemap.xml
+
+## Policies
+- https://rigconfigurator.com/about
+- https://rigconfigurator.com/disclosure

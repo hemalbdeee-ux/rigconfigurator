@@ -12,7 +12,8 @@ export async function siteStats(): Promise<SiteStats> {
            (SELECT count(*)::int FROM fitment_pages WHERE status='published') AS guides,
            (SELECT count(DISTINCT product_id)::int FROM fitments) AS products,
            (SELECT count(*)::int FROM makes) AS makes`);
-  return r[0];
+  // No DB during `next build` (q() returns []): render zeros; ISR regenerates the real numbers at runtime.
+  return r[0] ?? { vehicles: 0, guides: 0, products: 0, makes: 0 };
 }
 
 // The vehicles featured on the home page, in order. Big-parc trucks and SUVs first; the rest live on /vehicles.

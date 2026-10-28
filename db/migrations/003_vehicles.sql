@@ -16,7 +16,7 @@ VALUES
 -- ===================== TRUCKS =====================
 ((SELECT id FROM makes WHERE slug='ford'),'f-150','F-150','2021-present','14th Gen (P702)',2021,NULL,'truck',
  '{67,79,98}','bare',NULL,'4',2,14000,'275/65R18','6x135',2,
- '{"bed_utility_track":"optional (XLT+)","tailgate_step":"optional","variants":["Lightning 2022+","Raptor","Tremor"],"bed_material":"aluminum","verify":["tow max is 3.5L EcoBoost Max Tow"]}',
+ '{"bed_utility_track":"optional (XLT+)","tailgate_step":"optional","variants":["Lightning 2022+","Raptor","Tremor"],"bed_material":"aluminum","verify":["tow max is 3.5L EcoBoost Max Tow"],"tow_fact":"14,000 lb max on 2021-2023 (3.5L EcoBoost, Max Trailer Tow Package); Ford lists 13,500 lb for 2024 and newer. Most configurations are rated well below either figure"}',
  'Three bed lengths (5.5 / 6.5 / 8 ft). Check for the optional bed utility track before buying rail-clamp covers; Lightning shares the 5.5 ft bed.'),
 
 ((SELECT id FROM makes WHERE slug='ford'),'f-150','F-150','2015-2020','13th Gen (P552)',2015,2020,'truck',

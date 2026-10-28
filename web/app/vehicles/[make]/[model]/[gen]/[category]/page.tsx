@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
     description: clampDesc(d.page?.meta_desc ?? `${d.c.name} verified to fit the ${vehicleTitle(d.v)}, with prices and fit notes.`),
     alternates: { canonical: path },
     robots: d.page?.status === "published" ? undefined : { index: false },
-    openGraph: { title, description: d.page?.meta_desc ?? undefined, url: path, siteName: "Rig Configurator", type: "article", images: ogImage(d.hero) },
+    openGraph: { title, description: d.page?.meta_desc ?? undefined, url: path, siteName: "Rig Configurator", type: "article", images: ogImage(d.hero, `${vehicleTitle(d.v)} — ${d.c.name.toLowerCase()} guide`) },
     twitter: { card: "summary_large_image", title },
   };
 }
@@ -84,7 +84,7 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
       { "@type": "Organization", "@id": orgId, name: "Rig Configurator", url: SITE_URL,
         logo: { "@type": "ImageObject", "@id": `${SITE_URL}/#logo`, url: `${SITE_URL}/logo.png`, contentUrl: `${SITE_URL}/logo.png`, width: 600, height: 120 } },
       { "@type": "WebSite", "@id": `${SITE_URL}/#website`, url: SITE_URL, name: "Rig Configurator", publisher: { "@id": orgId } },
-      { "@type": "BreadcrumbList", "@id": `${pageUrl}#breadcrumb`, itemListElement: [
+      { "@type": "BreadcrumbList", "@id": `${pageUrl}#breadcrumb`, name: `${vehicleTitle(v)} › ${c.name}`, itemListElement: [
         { "@type": "ListItem", position: 1, name: "Vehicles", item: `${SITE_URL}/vehicles` },
         { "@type": "ListItem", position: 2, name: vehicleTitle(v), item: `${SITE_URL}${vehiclePath(v)}` },
         { "@type": "ListItem", position: 3, name: c.name, item: pageUrl }] },

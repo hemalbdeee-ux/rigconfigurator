@@ -10,7 +10,7 @@ import { VehiclePicker } from "@/components/VehiclePicker";
 import { Price } from "@/components/Price";
 
 // Rendered per request: at `docker build` the DB is unreachable and a prerendered copy would list no vehicles.
-export const dynamic = "force-dynamic";
+export const revalidate = 3600; // was force-dynamic (Cache-Control: no-store), which blocked edge cache and bfcache and gave a 1.4 s cold TTFB
 
 const HOME_TITLE = "Rig Configurator: Fit-Checked Truck & SUV Accessories";
 const HOME_DESC = "Pick your vehicle, see only the racks, hitches, tonneau covers and gear that actually fit. Verified against manufacturer fit guides.";
@@ -79,7 +79,7 @@ export default async function Home() {
             <li><strong>{stats.guides}</strong> buying guides</li>
             <li><strong>{stats.products.toLocaleString()}</strong> fit-checked products</li>
             <li><strong>{stats.vehicles}</strong> vehicle generations</li>
-            <li>Rankings never sold</li>
+            <li><Link href="/disclosure#rankings">Rankings never sold</Link></li>
           </ul>
         </div>
       </section>

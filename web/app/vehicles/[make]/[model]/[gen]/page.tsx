@@ -86,14 +86,25 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
     ["Tire size", v.tire_size], ["Bolt pattern", v.bolt_pattern], ["Seating rows", String(v.rows_seating)],
   ];
   const checks = checkBeforeBuying(v);
+  // Hub date = the newest fit verification among its published guides (there is no hub-level edit date).
+  const reviewed = pages.filter(p => p.status === "published" && p.verified_at).map(p => p.verified_at as string).sort().pop() ?? null;
+  const fmtDate = (d: string) => new Date(d).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  const pageUrl = `${SITE_URL}${path}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "BreadcrumbList", itemListElement: [
+      // Mirrors the visible crumbs: Vehicles › Make › Model › Generation. Make and model have no page yet, so only the ends carry an item.
+      { "@type": "BreadcrumbList", "@id": `${pageUrl}#breadcrumb`, name: `Vehicles › ${v.make_name} › ${v.model_name} › ${v.gen_name}`, itemListElement: [
         { "@type": "ListItem", position: 1, name: "Vehicles", item: `${SITE_URL}/vehicles` },
-        { "@type": "ListItem", position: 2, name: vehicleTitle(v), item: `${SITE_URL}${path}` }] },
-      { "@type": "ItemList", name: `${vehicleTitle(v)} accessory guides`, itemListElement: ready.map((c, i) => ({
+        { "@type": "ListItem", position: 2, name: v.make_name },
+        { "@type": "ListItem", position: 3, name: v.model_name },
+        { "@type": "ListItem", position: 4, name: v.gen_name, item: pageUrl }] },
+      { "@type": "CollectionPage", "@id": `${pageUrl}#webpage`, url: pageUrl, name: `${vehicleTitle(v)} Accessories That Fit`, description: v.summary,
+        isPartOf: { "@id": `${SITE_URL}/#website` }, breadcrumb: { "@id": `${pageUrl}#breadcrumb` }, publisher: { "@id": `${SITE_URL}/#organization` },
+        ...(reviewed ? { dateModified: reviewed } : {}), ...(hero ? { primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/img/${hero.file}`, width: hero.width, height: hero.height, creditText: hero.author, ...(hero.license_url ? { license: hero.license_url } : {}), acquireLicensePage: hero.source_url } } : {}),
+        mainEntity: { "@id": `${pageUrl}#guides` } },
+      { "@type": "ItemList", "@id": `${pageUrl}#guides`, name: `${vehicleTitle(v)} accessory guides`, numberOfItems: ready.length, itemListElement: ready.map((c, i) => ({
         "@type": "ListItem", position: i + 1, url: `${SITE_URL}${path}/${c.slug}`, name: published.get(c.slug)!.title })) },
     ],
   };
@@ -104,6 +115,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
       <div className="crumbs"><Link href="/vehicles">Vehicles</Link> › {v.make_name} › {v.model_name} › {v.gen_name}</div>
       <h1>{vehicleTitle(v)} Accessories That Fit</h1>
       <p className="muted">{v.summary}</p>
+      {reviewed && <div className="byline">Fit data last verified {fmtDate(reviewed)} · {ready.length} guides, each matched to this generation&apos;s fit guides and part numbers</div>}
       <Hero h={hero} alt={`${vehicleTitle(v)} (${v.gen_name})`} priority />
 
       <div className="stats">

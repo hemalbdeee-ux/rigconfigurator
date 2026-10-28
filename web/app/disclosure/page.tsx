@@ -12,7 +12,8 @@ export default function Disclosure() {
       <h1>Affiliate Disclosure</h1>
       <p><strong>Rig Configurator is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</strong> As an Amazon Associate we earn from qualifying purchases.</p>
       <p>When you click a &ldquo;Check price on Amazon&rdquo; or similar button and buy, we may receive a commission. The price you pay is the same.</p>
-      <h2>What commissions do not change</h2>
+      <h2 id="rankings">What commissions do not change</h2>
+      <p><strong>Rankings are never sold.</strong> We do not accept payment from brands or sellers for placement, we have not taken free or discounted samples in exchange for coverage, there is no paid or sponsored placement in any guide, and a product&apos;s commission rate plays no part in where it ranks. If that ever changes, the affected page will say so at the top.</p>
       <p>Products are ranked on fitment, published specifications, warranty and owner reports. A product&apos;s commission rate is not a ranking factor, and we list products that fit even when they are sold elsewhere.</p>
       <h2 id="prices">Prices</h2>
       <p>Prices written into a guide&apos;s text are list prices or price bands as we read them from makers, retailers or listings on the review date shown on that page; they are not live Amazon prices. Where a product card shows a price labelled &ldquo;Amazon price&rdquo; with an &ldquo;as of&rdquo; date and time, that is the lowest new-condition price Amazon returned to us at that time, refreshed several times a day.</p>

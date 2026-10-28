@@ -79,7 +79,7 @@ function T({ t }: { t: Table }) {
 
 function Buy({ f, path, placement, label = "Check price on Amazon" }: { f?: Fit; path: string; placement: string; label?: string }) {
   if (!f) return null;
-  return <a className="btn" href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=${placement}`} rel="nofollow sponsored noopener" target="_blank">{label} ›</a>;
+  return <a className="btn" href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=${placement}`} rel="nofollow sponsored noopener" target="_blank" aria-label={`${label} — ${f.name.split(",")[0]}`}>{label} ›</a>;
 }
 
 export function ArticleView({ v, c, fits, a, title, faq, related, path, verifiedAt, hero, links, learn = [], upgrades = null }: {
@@ -116,14 +116,8 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       <div className="crumbs"><Link href="/vehicles">Vehicles</Link> › <Link href={vehiclePath(v)}>{vehicleTitle(v)}</Link> › {c.name}</div>
       <h1>{title}</h1>
       <p className="dek">{a.dek}</p>
-      <Hero h={hero} alt={`${vehicleTitle(v)} — ${c.name.toLowerCase()} guide`} priority />
-      <div className="byline">
-        By <Link href="/about">{author.name}</Link> · {author.role}
-        {a.reviewed && <> · Last reviewed {fmtDate(a.reviewed)}</>}
-        {verifiedAt && <> · Fit data verified {fmtDate(verifiedAt)}</>}
-      </div>
-      <p className="fit-years">Covers the {modelYearsText(v)} {v.make_name} {v.model_name} ({v.gen_name}). Some listings name fewer model years, so check the fit note on each pick.</p>
-      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
+      {/* Order matters: the disclosure stays ahead of the first affiliate link; the answer and the picks sit above the fold, before the photo and byline. */}
+      <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices in the text are list prices on the review date; a live Amazon price carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
 
       <section className="short-answer" aria-label="Short answer">
         <strong>Short answer:</strong> {a.short_answer ?? a.verdict.thesis} <a href="#verdict">Full verdict ↓</a>
@@ -140,11 +134,19 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
               <div><a href={`#pick-${a.picks.findIndex(p => p.asin === t.asin) + 1}`} className="pick-name">{f.name.split(",")[0]}</a>
                 <div className="muted" style={{ fontSize: 13 }}><strong>{t.role}</strong> — {t.why}</div></div>
               <div className="mini-cta"><div style={{ fontWeight: 700 }}><Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} /></div>
-                <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon ›</a></div>
+                <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=top-${i + 1}`} rel="nofollow sponsored noopener" target="_blank" aria-label={`${f.name.split(",")[0]} on Amazon`}>Amazon ›</a></div>
             </div>
           );
         })}
       </section>
+
+      <Hero h={hero} alt={`${vehicleTitle(v)} — ${c.name.toLowerCase()} guide`} priority />
+      <div className="byline">
+        By <Link href="/about">{author.name}</Link> · {author.role}
+        {a.reviewed && <> · Last reviewed {fmtDate(a.reviewed)}</>}
+        {verifiedAt && <> · Fit data verified {fmtDate(verifiedAt)}</>}
+      </div>
+      <p className="fit-years"><strong>Fit-checked means:</strong> matched to the maker&apos;s fit guide and part number, then checked against owner reports; not installed by us (<a href="#method">how we chose</a>). Covers the {modelYearsText(v)} {v.make_name} {v.model_name} ({v.gen_name}); some listings name fewer model years, so check the fit note on each pick.</p>
 
       <VehicleNumbers v={v} category={c.slug} />
 
@@ -180,7 +182,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
             <h2>#{i + 1}: {f.name.split(",")[0]} — {p.role}</h2>
             <div className="card pcard">
               <div className="pcard-top">
-                {f.image_url ? <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=pickimg-${i + 1}`} rel="nofollow sponsored noopener" target="_blank"><img src={f.image_url} alt={f.name} loading="lazy" /></a> : null}
+                {f.image_url ? <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=pickimg-${i + 1}`} rel="nofollow sponsored noopener" target="_blank"><img src={f.image_url} alt={f.name} width={140} height={140} loading="lazy" /></a> : null}
                 <div>
                   <div className="muted" style={{ fontSize: 13, textTransform: "uppercase", letterSpacing: ".05em" }}>{f.brand}</div>
                   <h3 style={{ margin: "2px 0 6px" }}>{f.name}</h3>
@@ -203,7 +205,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
 
       {others.length > 0 && (<section>
         <h3>Also fit-checked for the {vehicleTitle(v)}</h3>
-        <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — <Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} /> · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank">Amazon</a></li>)}</ul>
+        <ul>{others.map((f, i) => <li key={f.asin}>{f.name} — <Price f={f} href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} /> · <a href={`/go/${f.product_id}?page=${encodeURIComponent(path)}&placement=also-${i + 1}`} rel="nofollow sponsored noopener" target="_blank" aria-label={`${f.name.split(",")[0]} on Amazon`}>Amazon</a></li>)}</ul>
       </section>)}
 
       {a.embeds?.length ? <Embeds items={a.embeds} model={model} /> : null}
@@ -233,7 +235,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <strong style={{ color: "var(--fg)" }}>{next.title}</strong> <span>→</span>
       </Link>)}
 
-      {a.method && (<section className="method"><h3>How we chose</h3><p>{a.method}</p>
+      {a.method && (<section className="method" id="method"><h3>How we chose</h3><p>{a.method}</p>
         {a.sources?.length ? (<><strong style={{ fontSize: 14 }}>Sources</strong><ul className="sources">{a.sources.map(([l, u]) => <li key={u}><a href={u} rel="nofollow noopener" target="_blank">{l}</a></li>)}</ul></>) : null}
       </section>)}
 

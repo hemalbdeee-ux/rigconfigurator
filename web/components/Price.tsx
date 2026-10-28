@@ -14,7 +14,7 @@ export function Price({ f, href }: { f: Fit; href: string }) {
   return (
     <>
       <a href={href} rel="nofollow sponsored noopener" target="_blank" className="price-live"><span className="price-src">Amazon price</span> ${(f.price_cents / 100).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</a>
-      <span className="price-asof"> (as of {stamp(f.price_checked_at)} · <Link href="/disclosure#prices">Details</Link>)</span>
+      <span className="price-asof"> (as of {stamp(f.price_checked_at)} · <Link href="/disclosure#prices" aria-label="How Amazon prices are timestamped">Details</Link>)</span>
     </>
   );
 }
