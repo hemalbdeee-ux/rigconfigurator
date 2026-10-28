@@ -64,22 +64,43 @@ export default async function FitmentPage({ params }: { params: Promise<P> }) {
   const title = page?.title ?? `Best ${c.name} for ${vehicleTitle(v)}`;
   const faq: { q: string; a: string }[] = page?.faq ?? [];
 
+  // One connected @graph: every node has an @id and the Article/WebPage/ItemList/FAQ nodes reference each other by it.
+  const pageUrl = `${SITE_URL}${path}`;
+  const author = getAuthor(article?.author);
+  const orgId = `${SITE_URL}/#organization`, personId = `${SITE_URL}/about#${author.id}`, webpageId = `${pageUrl}#webpage`;
+  const byAsin = new Map(fits.map(f => [f.asin, f]));
+  // Ranked picks when the page has an article (names + on-page anchors); otherwise the fit list. Never Amazon URLs.
+  const listItems = article
+    ? article.picks.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: byAsin.get(p.asin)?.name ?? p.asin, url: `${pageUrl}#pick-${i + 1}` }))
+    : fits.map((f, i) => ({ "@type": "ListItem", position: i + 1, name: f.name }));
+  const heroImage = hero ? {
+    "@type": "ImageObject", "@id": `${pageUrl}#primaryimage`, url: `${SITE_URL}/img/${hero.file}`, contentUrl: `${SITE_URL}/img/${hero.file}`,
+    width: hero.width, height: hero.height, caption: hero.title, creditText: hero.author, creator: { "@type": "Person", name: hero.author },
+    ...(hero.license_url ? { license: hero.license_url } : {}), acquireLicensePage: hero.source_url, copyrightNotice: `${hero.author} · ${hero.license}`,
+  } : null;
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "Organization", "@id": orgId, name: "Rig Configurator", url: SITE_URL,
+        logo: { "@type": "ImageObject", "@id": `${SITE_URL}/#logo`, url: `${SITE_URL}/logo.png`, contentUrl: `${SITE_URL}/logo.png`, width: 600, height: 120 } },
+      { "@type": "WebSite", "@id": `${SITE_URL}/#website`, url: SITE_URL, name: "Rig Configurator", publisher: { "@id": orgId } },
+      { "@type": "BreadcrumbList", "@id": `${pageUrl}#breadcrumb`, itemListElement: [
         { "@type": "ListItem", position: 1, name: "Vehicles", item: `${SITE_URL}/vehicles` },
         { "@type": "ListItem", position: 2, name: vehicleTitle(v), item: `${SITE_URL}${vehiclePath(v)}` },
-        { "@type": "ListItem", position: 3, name: c.name, item: `${SITE_URL}${path}` }] },
-      // Names only: ListItem.url must point at pages on this site, never at Amazon.
-      { "@type": "ItemList", name: title, numberOfItems: fits.length, itemListElement: fits.map((f, i) => ({
-        "@type": "ListItem", position: i + 1, name: f.name })) },
-      ...(article ? [{ "@type": "Article", headline: title.length <= 110 ? title : articleSeoTitle(v, c).absolute, description: page?.meta_desc, mainEntityOfPage: `${SITE_URL}${path}`,
-        author: { "@type": "Person", name: getAuthor(article.author).name, url: `${SITE_URL}/about` },
-        publisher: { "@type": "Organization", name: "Rig Configurator", url: SITE_URL },
-        datePublished: page?.published_at ?? article.reviewed, dateModified: article.reviewed ?? page?.updated_at,
-        ...(hero ? { image: `${SITE_URL}/img/${hero.file}` } : {}) }] : []),
-      ...(faq.length ? [{ "@type": "FAQPage", mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
+        { "@type": "ListItem", position: 3, name: c.name, item: pageUrl }] },
+      { "@type": "WebPage", "@id": webpageId, url: pageUrl, name: title, description: page?.meta_desc, isPartOf: { "@id": `${SITE_URL}/#website` },
+        breadcrumb: { "@id": `${pageUrl}#breadcrumb` }, ...(heroImage ? { primaryImageOfPage: { "@id": heroImage["@id"] } } : {}),
+        ...(page?.published_at ? { datePublished: page.published_at } : {}), ...(article?.reviewed ? { dateModified: article.reviewed } : {}) },
+      ...(heroImage ? [heroImage] : []),
+      { "@type": "ItemList", "@id": `${pageUrl}#picks`, name: title, numberOfItems: listItems.length, itemListElement: listItems },
+      ...(article ? [
+        { "@type": "Person", "@id": personId, name: author.name, url: `${SITE_URL}/about`, jobTitle: author.role, worksFor: { "@id": orgId } },
+        { "@type": "Article", "@id": `${pageUrl}#article`, headline: title.length <= 110 ? title : articleSeoTitle(v, c).absolute, description: page?.meta_desc,
+          url: pageUrl, mainEntityOfPage: { "@id": webpageId }, isPartOf: { "@id": webpageId }, about: { "@id": `${pageUrl}#picks` },
+          author: { "@id": personId }, publisher: { "@id": orgId },
+          datePublished: page?.published_at ?? article.reviewed, dateModified: article.reviewed ?? page?.updated_at,
+          ...(heroImage ? { image: { "@id": heroImage["@id"] } } : {}) }] : []),
+      ...(faq.length ? [{ "@type": "FAQPage", "@id": `${pageUrl}#faq`, isPartOf: { "@id": webpageId }, mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] : []),
     ],
   };
 

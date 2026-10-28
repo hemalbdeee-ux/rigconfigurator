@@ -39,7 +39,7 @@ ARTICLE = {
  "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment each maker lists for the 2015–2020 F-150, and on what owners report on F150Forum and related boards. Prices were checked at RealTruck, Tyger Auto and Rough Country in September 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
   "**Measure the bed before anything else.** The 2015–2020 F-150 has three beds: 5.5 ft (67.1 in), 6.5 ft (78.9 in) and 8 ft (97.6 in). SuperCrew trucks have the 5.5 or 6.5 ft box; SuperCab and Regular Cab have 6.5 or 8 ft.",
-  "**2021+ hard covers are a different part.** BAK, Retrax and Gator sell separate 2015–2020 part numbers (BAKFlip MX4 448329, RetraxPRO MX 80373, Gator EFX GC24019). A few soft covers, such as the TruXedo Lo Pro 597701, span 2015–2026.",
+  "**2021+ hard covers are a different part.** BAK, Retrax and Gator sell separate 2015–2020 part numbers (BAKFlip MX4 448329, RetraxPRO MX 80373, Gator EFX GC24019). A few soft covers, such as the TruXedo Lo Pro 597701, span 2015–2026. Owners of a 2021 or newer truck should use the [2021–2026 F-150 tonneau cover guide](/vehicles/ford/f-150/2021-present/tonneau-covers) instead; the part numbers are different.",
   "**Every 2017–2020 Raptor uses the 5.5 ft bed,** in both SuperCab and SuperCrew form. The MX4, RetraxPRO and Lo Pro are all listed for it.",
   "**Load ratings separate the hard covers:** 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4, 300 lb for the Gator EFX. Rough Country and the soft covers publish no rating.",
   "**A cover is only as secure as the tailgate.** Lock the tailgate or a hard cover is just a lid with a latch.",

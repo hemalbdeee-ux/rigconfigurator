@@ -1,19 +1,20 @@
 """Pilot long-form article — Best Tonneau Covers for 2021–2026 Ford F-150 (14th gen).
 Playbook: /areas/rigconfigurator-article-playbook (best-of skeleton). No invented hands-on testing:
-every spec below comes from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
+every spec below comes from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24; Retrax, Lightning and BoxLink notes re-checked 2026-10-28).
+Rewritten 2026-10-28 so the page reads from the 14th-gen angle rather than as a year-swapped copy of the 2015–2020 guide.
 """
 
 KEY = ("ford", "f-150", "2021-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2021–2026 Ford F-150: 6 Fit-Checked Picks by Bed Length"
-META = ("Six tonneau covers matched to the 14th-gen F-150 by bed length — 5.5, 6.5 and 8 ft — with load ratings, "
-        "warranties, install times and the Lightning, Raptor and Pro Access tailgate notes most lists skip.")
+TITLE = "Best Tonneau Covers for the 2021–2026 Ford F-150: 6 Picks Checked for Lightning, Raptor and the Pro Access Tailgate"
+META = ("Tonneau covers for the 14th-gen F-150, matched by bed length and checked against what this generation changed: "
+        "the Lightning, the Raptor, BoxLink cleats and the 2024 Pro Access tailgate. Six picks from $229 to $2,150.")
 
 FAQ = [
  ("What is the best tonneau cover for a 2021+ F-150?",
   "For most owners, the BAKFlip MX4 (448339 for the 5.5 ft bed): aluminum panels with polymer cores, 400 lb distributed load rating, auto-latching, a 5-year warranty and a sub-30-minute clamp-on install. If you want a hard cover for about half the money, the Gator EFX is the value pick; if you need the whole bed open without panels stacked against the cab, go RetraxPRO MX."),
  ("Do 2015–2020 F-150 tonneau covers fit a 2021 F-150?",
-  "Sometimes. Some soft covers are sold as one part for both generations — the TruXedo Lo Pro 597701 is listed for 2015–2026 on the 5.5 ft bed. Hard covers from BAK, Retrax and Gator use separate 2021+ part numbers (448339, 80378, GC24029). Buy the part number your model year is listed for; don't assume a 13th-gen cover fits. Our 2015–2020 F-150 guide covers the previous generation."),
+  "Sometimes. Some soft covers are sold as one part for both generations — the TruXedo Lo Pro 597701 is listed for 2015–2026 on the 5.5 ft bed. Hard covers from BAK, Retrax and Gator use separate 2021+ part numbers (448339, 80378, GC24029). Buy the part number your model year is listed for; don't assume a 13th-gen cover fits. Our [2015–2020 F-150 tonneau cover guide](/vehicles/ford/f-150/2015-2020/tonneau-covers) covers the previous generation."),
  ("Do these covers fit the F-150 Lightning and Raptor?",
   "Both have the 5.5 ft (67.1 in) bed only. The BAKFlip MX4, RetraxPRO MX, Gator EFX and TruXedo Lo Pro listings all name the Raptor and the 2022+ Lightning; the Tyger T3 names the Lightning. For any cover not on this list, look for Lightning or Raptor in the listing title."),
  ("How do I know if I have the 5.5, 6.5 or 8 ft bed?",
@@ -33,16 +34,16 @@ FAQ = [
 ]
 
 ARTICLE = {
- "dek": "Six covers that fit the 14th-generation F-150's 5.5, 6.5 and 8 ft beds, ranked from a $229 soft tri-fold to a $1,850 retractable. For each one we list load rating, warranty and install time, and the fit details for the Lightning, Raptor and Pro Access tailgate.",
+ "dek": "The 14th-generation F-150 kept the three bed lengths of the truck before it, but the cover makers didn't carry their parts over. BAK, Retrax and Gator each list a new 2021+ part number, and a 2015–2020 hard cover is not a safe buy for this truck. This guide covers six tonneau covers sold specifically for the 2021–2026 F-150, from a $229 soft tri-fold to a $2,150 retractable, and checks each one against the questions a 14th-gen owner actually has: does it name the Lightning, does it name the Raptor, and what happens with the swing-out Pro Access tailgate on 2024 and newer trucks.",
  "author": "jake-morrison",
- "reviewed": "2026-09-24",
- "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment the maker lists for the 2021–2026 F-150, and on what F-150 owners report on the F150gen14 and F150Forum boards. Prices were checked at the manufacturer or RealTruck store in September 2026. Amazon prices move daily, so the button shows the live price.",
+ "reviewed": "2026-10-28",
+ "short_answer": "Measure the bed, then buy the part number listed for your year. On the 5.5 ft bed that means the BAKFlip MX4 448339 if the budget allows, the Gator EFX GC24029 if it doesn't, and the RetraxPRO MX 80378 if the bed opens and closes all day.",
+ "method": "We did not install these covers ourselves. We ranked them on published specs (load rating, materials, warranty, install time), on the fitment the maker lists for the 2021–2026 F-150, and on what F-150 owners report on the F150gen14, F150Forum and F-150 Lightning boards. Prices were checked at the manufacturer or RealTruck store in September 2026 and the Retrax price re-checked in October 2026. Amazon prices move daily, so the button shows the live price.",
  "takeaways": [
-  "**Measure first.** The 14th-gen F-150 comes with three beds: 5.5 ft (67.1 in), 6.5 ft (78.9 in) and 8 ft (97.6 in). A cover for the wrong length won't seal, and no brand fixes that.",
-  "**Hard covers from BAK, Retrax and Gator have their own 2021+ part numbers.** Some soft covers, such as the TruXedo Lo Pro 597701, fit 2015–2026. Match the part number to your model year.",
-  "**Lightning and Raptor use the 5.5 ft bed only.** Every hard cover here names both in its listing.",
-  "**Load ratings are a real difference:** 500 lb for the RetraxPRO MX, 400 lb for the BAKFlip MX4 and 300 lb for the Gator EFX. Soft covers have no load rating.",
-  "**Security comes from the tailgate.** A hard cover is only as secure as the tailgate below it, so lock the tailgate or the cover is just a lid.",
+  "**The hard covers here use 2021+-only part numbers.** 448339, GC24029 and 80378 are not the same parts as the [2015–2020 versions](/vehicles/ford/f-150/2015-2020/tonneau-covers), even though the bed lengths match. Only one soft cover on this page, the TruXedo Lo Pro 597701, is sold as one part across both generations.",
+  "**Lightning and Raptor are 5.5 ft trucks.** There is no 6.5 or 8 ft option on either, so every cover on this page is a candidate for both, and each listing we checked names them.",
+  "**The load ratings split the hard covers three ways:** 500 lb RetraxPRO MX, 400 lb BAKFlip MX4, 300 lb Gator EFX. The two soft covers publish none.",
+  "**Nothing here attaches to the tailgate,** so the 2024+ Pro Access tailgate still drops normally. None of the makers mention the swing-out section, so if you use it daily, that's the one question to put to the seller before you order.",
  ],
  "top_picks": [
   {"asin": "B08L44X6NZ", "role": "Best overall", "why": "Aluminum panels with polymer cores, 400 lb rating, 5-year warranty, installs in under 30 minutes"},
@@ -52,21 +53,39 @@ ARTICLE = {
   {"asin": "B0B94WC2F1", "role": "Best budget", "why": "Aluminum-frame soft tri-fold with a 5-year warranty for about $229"},
  ],
  "fit_table": {
-  "caption": "2021–2026 F-150 beds (the cover must match the bed, not the cab)",
-  "head": ["Bed", "Inside length at rail", "Cabs", "Notes"],
+  "caption": "Which bed do you have? Three lengths, three sets of part numbers. Measure before you order: tape from the front bulkhead to the inside face of the closed tailgate, at rail height, and you'll get roughly 67, 79 or 98 inches",
+  "head": ["Bed", "Inside length at the rail", "Which 2021–2026 trucks", "What to order"],
   "rows": [
-   ["5.5 ft (sold as 5'7\")", "67.1 in", "SuperCrew", "Only bed on the Raptor and Lightning. Most covers are made for this length."],
-   ["6.5 ft (sold as 6'7\")", "78.9 in", "SuperCrew, SuperCab, Regular Cab", "Order the 6.5 ft part number (MX4 448337, RetraxPRO 80379)."],
-   ["8 ft", "97.6 in", "SuperCab (through 2023), Regular Cab", "Ford dropped the SuperCab 8 ft for 2024. Fewer cover options."],
+   ["5.5 ft (listed as 5'7\")", "67.1 in", "SuperCrew; the only bed on Raptor and Lightning", "The part numbers in this guide: 448339, GC24029, 80378, 597701, TG-BC3F1064"],
+   ["6.5 ft (listed as 6'7\")", "78.9 in", "SuperCrew, SuperCab, Regular Cab", "MX4 448337 or RetraxPRO MX 80379; the Gator and soft covers here are 5.5 ft parts"],
+   ["8 ft", "97.6 in", "Regular Cab; SuperCab only through 2023", "Fewest options. Confirm the listing names 8 ft or 97–98 in before buying"],
+  ],
+ },
+ "gen_notes": {
+  "h": "What the 14th-gen redesign changed for cover buyers",
+  "intro": "The 2021 redesign didn't change the bed lengths, but it changed enough around them that the cover makers started over on part numbers. The things that matter when you shop:",
+  "items": [
+   {"h": "Separate hard-cover SKUs",
+    "body": "BAK, Retrax and Gator don't publish what changed, they just list new parts: MX4 448339 instead of 448329, RetraxPRO MX 80378 instead of 80373, Gator EFX GC24029 instead of GC24019. Treat a forum post about a 2018 install as a different truck."},
+   {"h": "BoxLink cleats on the rails",
+    "body": "Ford's BoxLink system puts bolt-on cleats at the bed rails, and owners on the F-150 forums report them included on XLT and higher trims in most years, with the set varying by year. Every cover here clamps inside the rail, so a cleat sitting at a clamp point comes off before the cover goes on; that step, not the clamps themselves, is where installs slow down. Follow the cover's instruction sheet for which cleats to pull."},
+   {"h": "The Lightning (2022+)",
+    "body": "It has the 5.5 ft bed only, and every listing on this page names it. Its power outlets sit in the bed wall on the driver's side, below the rail; none of the listings we checked flags them as a conflict with a clamp-on cover, but none shows an installed photo either, so look at the clamp positions in the instruction sheet against your bed before ordering."},
+   {"h": "The Raptor (2021+)",
+    "body": "Also 5.5 ft only. The BAKFlip MX4, Gator EFX, RetraxPRO MX and TruXedo Lo Pro listings name the Raptor; the Tyger T3 names the Lightning but not the Raptor, so check that listing if you have one. None of the listings we checked names the Raptor R separately. It shares the 5.5 ft bed, but confirm with the seller rather than assume."},
+   {"h": "The 2024 refresh",
+    "body": "Two changes: the Pro Access tailgate, with a swing-out door inside the main tailgate, and the end of the SuperCab 8 ft box, which leaves the 8 ft bed on the Regular Cab only. Covers seal against the top of the tailgate and don't attach to it, so the main tailgate still drops. Whether the rear seal clears the swing-out section when you use it as a door is the open question. None of the six makers address it, which is why we say ask the seller."},
+   {"h": "Pro Power Onboard",
+    "body": "On gas and hybrid trucks the optional generator's outlet panel is in the bed wall, same as the Lightning's. It sits below the rail. As with the Lightning, no listing we checked names it as a conflict, and none confirms clearance in a photo, so check the clamp positions against your bed."},
   ],
  },
  "look_for": [
   {"h": "Bed length — it outranks brand",
    "body": "Tonneau covers are sold by bed length, and the F-150 has three. Retailers often print 5'7\", 6'7\" and 8'2\" rather than Ford's 5.5, 6.5 and 8 ft names, so check the inches. Measure inside the bed at the rail, from the bulkhead to the inside of the closed tailgate: about 67 in, 79 in or 98 in. If a cover is even an inch short, the tailgate seal won't close up and water gets in at the back corners."},
   {"h": "Generation-specific part numbers",
-   "body": "The 2021 redesign kept the 5.5 and 6.5 ft lengths, but BAK, Retrax and Gator still list separate 2021+ part numbers: BAKFlip MX4 448339 vs 448329 for 2015–2020, RetraxPRO MX 80378 vs 80373. Some soft roll-ups carry over. TruXedo lists the Lo Pro 597701 for 2015–2026. The practical rule is to buy the part number the maker lists for your model year, not one from a forum post about a 2018."},
-  {"h": "Load rating and what 'hard' really means",
-   "body": "For hard covers, the published distributed-load rating is the clearest way to compare. RetraxPRO MX aluminum slats are rated at 500 lb, BAKFlip MX4 aluminum/polymer panels at 400 lb and Gator EFX aluminum panels at 300 lb. Soft vinyl covers carry no rating. They are weather covers. If snow sits on your truck for days, or you want to strap a cooler on top, buy something rated."},
+   "body": "Three of the four hard-cover makers on this page sell the 2021+ F-150 a different part from the 2015–2020 truck, even though the bed lengths are the same: BAKFlip MX4 448339 (the older part is 448329), RetraxPRO MX 80378 (older: 80373), Gator EFX GC24029 (older: GC24019). The makers don't publish what changed. The TruXedo Lo Pro 597701 and the OEDRO are the only covers here sold across both generations. The rule: buy the SKU the maker lists for your model year, and ignore an older truck's install thread when it comes to the part number."},
+  {"h": "Load rating is how you compare hard covers",
+   "body": "A hard cover's published distributed-load rating is the one number that lets you compare them. On this page that's 500 lb for the RetraxPRO MX's aluminum slats, 400 lb for the MX4's aluminum-and-polymer panels and 300 lb for the Gator EFX's aluminum panels. The OEDRO publishes none, and neither soft cover does. If snow sits on the truck for days, or a cooler or a sheet of ply is going on top, you want a number, and you want to remember that the number assumes the load is spread flat. A knee in one spot is a point load."},
   {"h": "How much bed you get back",
    "body": "Folding covers stack against the cab when open. The MX4 folds flush against the cab, and Gator says the EFX gives roughly two-thirds of the bed when folded. A retractable rolls into a canister that takes about 10–11 in at the front, but the rest of the bed is fully open and the cover can stop anywhere. Roll-ups give the whole bed but leave a rolled bundle strapped at the cab."},
   {"h": "Warranty length is a quality signal",
@@ -75,7 +94,7 @@ ARTICLE = {
  "look_table": {
   "head": ["Feature", "Look for", "Avoid"],
   "rows": [
-   ["Fitment", "Part number listed for 2021–2026 F-150 and your bed length in inches", "\"Fits most full-size trucks\" or a range that stops at 2020"],
+   ["Fitment", "A listing that names the 2021–2026 F-150, your bed in inches, and Lightning or Raptor if you have one", "\"Fits most full-size trucks\", a 2015–2020 part number, or a range that stops at 2020"],
    ["Frame", "Aluminum frame or rails, no-drill clamps", "Plastic clamps, or listings that don't name a frame material"],
    ["Load rating", "Published distributed rating (300–500 lb) if you need a hard cover", "\"Heavy duty\" with no number"],
    ["Seals / drainage", "Tailgate seal and drain tubes named in the listing", "No mention of drainage"],
@@ -84,47 +103,47 @@ ARTICLE = {
   ],
  },
  "types_table": {
-  "caption": "Cover types compared on the F-150",
-  "head": ["Type", "Price on this page", "Security", "Bed access", "Load on top", "Best for"],
+  "caption": "Which type fits how you use the bed. Load on top, if that's the deciding factor: RetraxPRO MX 500 lb, BAKFlip MX4 400 lb, Gator EFX 300 lb, soft covers none; all ratings are for weight spread evenly across the cover",
+  "head": ["If you mostly need…", "Buy this type", "On this page", "What you give up"],
   "rows": [
-   ["Soft roll-up", "~$520 (Lo Pro)", "Low (vinyl)", "Full bed", "None", "Hauling tall loads often"],
-   ["Soft tri-fold", "~$229 (T3)", "Low (vinyl)", "About ⅔; can be removed", "None", "Budget weather cover"],
-   ["Hard tri-fold", "~$549 (EFX)", "High with tailgate locked", "About ⅔", "300 lb", "Security on a budget"],
-   ["Hard fold (MX4)", "~$1,050", "High with tailgate locked", "Nearly full; folds against the cab", "400 lb", "Best all-round"],
-   ["Retractable", "~$1,850 (RetraxPRO)", "High; locks at any position", "Full, minus ~10–11 in canister", "500 lb", "Daily open/close, contractors"],
+   ["Gear locked in the bed overnight", "Hard folding", "BAKFlip MX4, $1,050 · Gator EFX, $549", "Panels stack against the cab; the Gator opens about two-thirds of the bed"],
+   ["The whole bed open ten times a day", "Retractable", "RetraxPRO MX, $1,850–$2,150", "The canister takes 10–11 in at the front; the highest price here"],
+   ["Tall or bulky loads most weeks", "Soft roll-up", "TruXedo Lo Pro, $520", "No security, no load rating"],
+   ["Rain and dirt kept out for the least money", "Soft tri-fold", "Tyger T3, $229", "No security; over-rail bedliners need holes cut"],
+   ["A hard cover and a bed rack together", "Railed retractable", "RetraxPRO XR (T-80378)", "Rack and cover priced together; see pick #3"],
   ],
  },
  "picks": [
   {"asin": "B08L44X6NZ", "role": "Best overall", "price": "$1,050",
    "pros": ["400 lb distributed load rating", "Aluminum panels with high-density polymer cores", "Patented auto-latching system", "Third brake light visible in every position", "5-year warranty; made in Missouri"],
    "cons": ["More than 4× the price of a soft tri-fold", "Stacked panels ride against the cab when open", "Separate part number (448337) for the 6.5 ft bed"],
-   "body": "The MX4 is the cover the others get compared to, and it comes out on top on the specs that matter. The aluminum panels have polymer cores, and BAK rates the cover for 400 lb evenly distributed, which is enough for snow or a sheet of plywood laid on top. The latches engage by themselves when you close it. The panels fold flat against the cab, and the third brake light stays visible in every position, which is worth checking on any folding cover.\n\nPart 448339 is listed for the 2021–2026 F-150 5.5 ft bed, including Raptor and the 2022+ Lightning. BAK quotes a one-person install in under 30 minutes with no drilling. The cover clamps inside the rails, so stake-pocket accessories stay usable. RealTruck lists it at $1,049.99 (list price $1,199.99) with a 5-year warranty. One owner's install thread on F150gen14 reports no leaks after setup.",
-   "who": "Owners who want a secure hard cover that stays on the truck year-round and will pay once rather than replace a soft cover twice.",
+   "body": "On a 2021+ truck the MX4 question is simpler than it used to be: 448339 for the 5.5 ft bed, 448337 for the 6.5 ft, and the listing names the Raptor and the 2022+ Lightning outright. There's no cross-referencing an older part number and hoping. What you're paying for is the combination nothing else on this page matches: a 400 lb distributed rating on aluminum panels with polymer cores, latches that engage on their own when the cover closes, a stack that folds flat against the cab without blocking the third brake light, and a 5-year warranty on a cover built in Missouri.\n\nBAK's own figure is a one-person, no-drill install in under 30 minutes, and because the clamps grab inside the rail the stake pockets stay free for BoxLink accessories. The RealTruck price in September was $1,049.99 against a $1,199.99 list. The one 14th-gen owner report we found, an install thread on F150gen14, reported no leaks after setup, which is worth noting because the older-generation MX4 has a long forum history of tailgate-corner seepage.",
+   "who": "A 2021+ owner who keeps tools or gear in the bed and would rather buy one hard cover with a 5-year warranty than cycle through soft ones.",
    "specs": [["Type", "Hard folding (tri-fold)"], ["Part #", "448339 (5.5 ft) · 448337 (6.5 ft)"], ["Fits", "2021–2026 F-150 incl. Raptor, 2022+ Lightning"], ["Material", "Aluminum panels, polymer cores"], ["Load rating", "400 lb distributed"], ["Latching", "Auto-latch, locks with tailgate"], ["Install", "<30 min, no drill"], ["Warranty", "5 years"], ["Made in", "USA (Missouri)"]]},
   {"asin": "B08L71GBX7", "role": "Best value hard cover", "price": "$549",
    "pros": ["All aluminum, multi-layer panels", "Automatic dual slam-latches, single pull-cable release", "Drain rails and flush perimeter seals", "Cargo retriever tool included", "About half the price of the MX4"],
    "cons": ["300 lb rating (MX4: 400 lb)", "2-year warranty only", "About ⅔ of the bed is open when folded"],
-   "body": "The EFX gets you most of the hard-cover benefits for about half the MX4's price. The panels are multi-layer aluminum. Twin slam-latches lock it automatically, Gator says it has twice as many latch points along the length, and one pull cable releases them. Water is handled by flush perimeter seals and drain rails. At $549 (list $599) at RealTruck, it's the cheapest cover here that locks and carries weight on top.\n\nYou give up some load rating and some warranty. Gator rates the EFX at 300 lb against the MX4's 400 lb, and the warranty is 2 years rather than 5. When the cover is folded, Gator says about two-thirds of the bed is open, so long loads either go diagonal or need the cover off. GC24029 is listed for the 2021–2026 F-150 5'7\" bed, including Raptor and the 2022+ Lightning.",
-   "who": "Buyers who want a lockable hard cover under $600 and don't need a 400 lb rating or a long warranty.",
+   "body": "The EFX is the cover we'd point most 14th-gen owners to when $1,050 isn't on the table. It locks, it carries weight, it's aluminum, and GC24029 is a 2021+ part that names the Raptor and the 2022+ Lightning on the 5'7\" bed. RealTruck's September price was $549 against a $599 list, which makes it the cheapest cover here that does both of the things a hard cover is for.\n\nWhat Gator built in: multi-layer aluminum panels, twin slam-latches that lock on their own and release from a single pull cable, flush perimeter seals with drain rails to carry water off, and a cargo retriever tool in the box. What it doesn't match is the MX4's numbers. The rating is 300 lb rather than 400, the warranty is 2 years plus a 30-day exchange rather than 5, and Gator says roughly two-thirds of the bed is open when the panels are folded, so a long load either rides at an angle or the cover comes off.",
+   "who": "A 2021+ owner who wants the bed lockable for under $600 and won't be loading the cover or keeping the truck long enough for a 5-year warranty to matter.",
    "specs": [["Type", "Hard tri-fold"], ["Part #", "GC24029 (5.5 ft)"], ["Fits", "2021–2026 F-150 incl. Raptor, 2022+ Lightning"], ["Material", "Multi-layer aircraft-grade aluminum"], ["Load rating", "300 lb distributed"], ["Latching", "Automatic dual slam-latches"], ["Install", "≤30 min, no drill"], ["Warranty", "2 years + 30-day exchange"]]},
-  {"asin": "B08L46PC1S", "role": "Best retractable", "price": "$1,850",
+  {"asin": "B08L46PC1S", "role": "Best retractable", "price": "$1,850–$2,150",
    "pros": ["500 lb rating, the highest here", "Locks at any position (TraxLatch)", "Works independently of the tailgate", "Drain tubes in the water-management system", "Limited lifetime warranty"],
    "cons": ["Most expensive cover here", "Canister takes about 10–11 in at the front of the bed", "Roller repairs mean pulling the canister out", "Not fully waterproof at the tailgate gap in heavy rain"],
-   "body": "A retractable is the only style here that opens the whole bed and still locks at any point, so you can leave the front 2 ft covered and the back open. The RetraxPRO MX uses double-wall aluminum slats rated for 500 lb, the highest on this page, and it opens and closes regardless of the tailgate. RealTruck lists the 5.5 ft 80378 at $1,849.99 (list $2,149.99) with a limited lifetime warranty.\n\nThe canister takes roughly 10–11 in at the front of the bed, although flat items like plywood or rods can slide underneath it. Rack Attack's breakdown notes that these covers aren't completely watertight at the tailgate gap in hard rain, and that a roller failure means unbolting the canister. If you want crossbars or a bed rack as well, look at the XR version (T-80378), which adds T-slot rails.",
-   "who": "Contractors and daily users who open the bed several times a day and want it fully open and locked in any position.",
+   "body": "For a truck that works, a retractable solves a problem the folding covers can't: the bed opens fully, with nothing stacked against the cab, and the cover locks wherever you stop it. The RetraxPRO MX does that with double-wall aluminum slats rated for 500 lb, the highest number on this page, a key-lockable TraxLatch handle, and an action that doesn't care whether the tailgate is up or down. Part 80378 is the 5.5 ft version, 80379 is the 6.5 ft, and RealTruck lists both for the 2021–2026 F-150, the Raptor and the 2022–2026 Lightning. The list price is $2,149.99 with a limited lifetime warranty for the original owner; it was on sale at $1,849.99 when we checked in September and back at list in late October, so expect it anywhere in that band.\n\nThe costs are specific. The canister sits in the first 10–11 in of the bed, though flat stock can slide under it. Rack Attack's Retrax breakdown notes two more: in hard rain the tailgate gap isn't fully watertight, and if a roller fails the canister has to come out to fix it. Retrax also makes regular clamp checks a condition of the warranty. If a bed rack or rooftop tent is in the plan, the XR version, T-80378, adds T-slot rails along the bed and is the only way on this page to run a rack over a cover.",
+   "who": "A 2021+ owner who opens the bed several times a day, wants it locked at any point, and will pay for that over a folding cover.",
    "specs": [["Type", "Retractable (manual)"], ["Part #", "80378 (5.5 ft) · 80379 (6.5 ft) · XR: T-80378"], ["Fits", "2021–2026 F-150 incl. Raptor & Lightning"], ["Material", "Double-wall aluminum slats"], ["Load rating", "500 lb distributed"], ["Lock", "Key-lockable TraxLatch, infinite positions"], ["Bed space lost", "~10–11 in (canister)"], ["Install", "<60 min, 4 clamps"], ["Warranty", "Limited lifetime (non-transferable)"]]},
   {"asin": "B00ONO665M", "role": "Best soft roll-up", "price": "$520",
    "pros": ["Sits ¾ in above the rails, the lowest-profile roll-up TruXedo makes", "Self-adjusting spring tensioner keeps it tight in cold weather", "Quick-release; comes off without tools", "One part fits 2015–2026 (and Raptor, Lightning)", "Limited lifetime warranty; assembled in South Dakota"],
    "cons": ["Vinyl gives no real security", "No load rating", "Costs about as much as the Gator EFX hard cover"],
-   "body": "For anyone who hauls tall loads every week, a roll-up is the practical choice. It rolls to the cab in seconds and gives the whole bed back. The Lo Pro sits only ¾ in above the rails, so it looks almost flush. Its spring tensioner adjusts itself, which fixes the usual roll-up problem of vinyl going slack in cold weather and flapping at highway speed.\n\nThe 597701 is one of the few covers sold as a single part for 2015–2026 F-150s with the 5'7\" bed, including Raptor and Lightning. That matters if you're buying used or moving the cover to another F-150 later. At $519.99 it costs about the same as the Gator EFX. Choose the Lo Pro for full bed access, and choose the EFX for security.",
-   "who": "Owners who haul tall or bulky loads often and care more about full bed access than security.",
+   "body": "The Lo Pro is the only cover on this page that TruXedo sells as one part for both generations: 597701 is listed for the 2015–2026 F-150, the 2017+ Raptor and the 2022+ Lightning, all on the 5'7\" bed. For a 2021+ owner that cuts two ways. It means a used one from a 13th-gen truck fits, and it means this is the cover to buy if you're not sure you'll keep the truck, because it moves with you.\n\nAs a roll-up it does the roll-up job: rolls to the cab in seconds, gives the whole bed back, and sits only ¾ in above the rails, the lowest profile TruXedo makes. The spring tensioner adjusts itself, which is what stops the vinyl going slack in cold weather and drumming at highway speed. The quick-release lets the whole cover come off without tools. RealTruck listed it at $519.99 in September with a limited lifetime warranty and an install under an hour. That price puts it level with the Gator EFX, so the choice between them is a clean one: Lo Pro for bed access, EFX for a lock.",
+   "who": "A 2021+ owner who hauls tall loads most weeks, or who wants a cover that fits the next F-150 as well as this one.",
    "specs": [["Type", "Soft roll-up"], ["Part #", "597701 (5.5 ft)"], ["Fits", "2015–2026 F-150, 2017+ Raptor, 2022+ Lightning"], ["Material", "Industrial-grade vinyl, leather-grain finish"], ["Profile", "¾ in above rails"], ["Tension", "Self-adjusting spring tensioner"], ["Install", "<1 hr, no drill"], ["Warranty", "Limited lifetime (non-transferable)"]]},
   {"asin": "B0B94WC2F1", "role": "Best budget", "price": "$229",
    "pros": ["$229, the lowest price here", "24 oz marine-grade vinyl on aluminum frames", "Stainless steel clamps", "5–10 minute install (Tyger's estimate)", "5-year warranty, longer than the Gator EFX's"],
    "cons": ["No real security (vinyl)", "Over-rail bedliners need small holes cut", "5.5 ft bed only"],
-   "body": "The T3 is the cheapest way to keep rain, road dirt and casual thieves out of an F-150 bed without buying a no-name cover. It uses 24 oz marine-grade vinyl over aluminum frames with stainless clamps, weighs 31.6 lb, and Tyger backs it with a 5-year warranty, longer than you get with the Gator EFX at more than twice the price. Tyger lists it at $229 for the 2021–2026 F-150 and 2022+ Lightning 5.5 ft bed.\n\nOne detail from Tyger's own fitment notes: if your truck has a bedliner that wraps over the rails, you'll need to cut small holes in it for the clamps. Under-rail and spray-in liners need nothing. Tri-folds also flip up against the cab or come off completely, which a roll-up can't do as neatly.",
-   "who": "First-time cover buyers, lease trucks, and anyone who wants the bed covered for under $250.",
-   "specs": [["Type", "Soft tri-fold"], ["Fits", "2021–2026 F-150, 2022+ Lightning, 5.5 ft"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "31.6 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
+   "body": "Tyger makes a 2021+-specific T3, part TG-BC3F1064, listed for the 2021–2026 F-150 and the 2022+ Lightning on the 5.5 ft bed, and at $229 it's the cheapest way here to keep rain and road dirt off whatever's in the bed. The construction is 24 oz marine-grade vinyl on aluminum frames with stainless clamps, the whole thing weighs 31.6 lb, and the 5-year warranty is longer than the Gator EFX's at more than twice the money. Tyger's own install estimate is 5–10 minutes.\n\nTwo things to know before ordering. Tyger's fitment notes say a bedliner that wraps over the rails needs small holes cut for the clamps; spray-in and under-rail liners don't. And the listing names the Lightning but not the Raptor, so Raptor owners should confirm with Tyger rather than assume. A tri-fold flips up against the cab or comes off entirely, which a roll-up can't do as cleanly.",
+   "who": "A first cover on a new or leased 2021+ truck, or anyone who wants the bed covered for under $250 and doesn't need it locked.",
+   "specs": [["Type", "Soft tri-fold"], ["Part #", "TG-BC3F1064 (5.5 ft)"], ["Fits", "2021–2026 F-150, 2022+ Lightning, 5.5 ft"], ["Material", "24 oz marine vinyl, aluminum frames"], ["Clamps", "Stainless steel"], ["Weight", "31.6 lb"], ["Install", "5–10 min (maker's figure), no drill"], ["Warranty", "5 years (US)"]]},
   {"asin": "B0DK3928N1", "role": "Budget hard tri-fold", "price": "$300–$400",
    "pros": ["Hard FRP panels for well under $500", "No-drill clamps", "Listing spans 2015–2025 on the 5.5 ft bed"],
    "cons": ["No published load rating", "Warranty and seal details thinner than name brands", "Check the listing for 2026 fit"],
@@ -147,8 +166,8 @@ ARTICLE = {
   {"h": "A folding cover when you want a bed rack", "body": "Most folding covers leave nowhere to mount a rack. If a rack or rooftop tent is planned, look at a railed retractable (RetraxPRO XR) or a rack made to sit over a cover."},
  ],
  "verdict": {
-  "thesis": "Measure the bed first, then pick: the BAKFlip MX4 if you can spend $1,050, the Gator EFX if you can't, and the RetraxPRO MX if you open the bed ten times a day.",
-  "body": "The best F-150 cover is the one sold for your bed length and model year. After that, the choice depends on how you use the bed. The MX4 has the best mix of load rating, warranty and daily use. The EFX gives you a lockable hard cover for about half the money. The Retrax is worth its price only if full-bed access that locks in any position saves you time every day. For a cover under $250, the Tyger T3's 5-year warranty beats cheap no-name listings.\n\nOnce the cover is on, most owners move on to the cab: laser-fit floor liners for the 14th-gen floor, and running boards if the truck sits high. The vehicle hub lists every fit-checked accessory for your F-150.",
+  "thesis": "Buy the 2021+ part number for your bed, then: MX4 if you can, EFX if you can't, Retrax if the bed is open all day.",
+  "body": "On this truck the first filter is the part number, not the brand. Once you're looking at 2021+ listings for your bed length, the choice is about use. The BAKFlip MX4 448339 has the best mix of rating, warranty and daily convenience and is the default for an owner who keeps gear in the bed. The Gator EFX GC24029 gets you a lockable aluminum cover for $549. The RetraxPRO MX 80378 only earns its $1,850–$2,150 if full-bed access that locks at any point is something you use every day. Under $250, the Tyger T3's 5-year warranty is the reason to pick it over an unbranded listing. If you own a Lightning or a Raptor, every cover here is a 5.5 ft part and the listings name your truck; if you own a 2024+ with the Pro Access tailgate, ask the seller about the swing-out section before you order.\n\nOnce the cover is on, most owners move on to the cab: laser-fit floor liners for the 14th-gen floor, and running boards if the truck sits high. The vehicle hub lists every fit-checked accessory for your F-150.",
  },
  "sources": [
   ["BAKFlip MX4 448339 (RealTruck)", "https://realtruck.com/p/bakflip-mx4-tonneau-cover/bak-448339/"],
@@ -159,6 +178,8 @@ ARTICLE = {
   ["Retrax ONE vs PRO, MX vs XR (Rack Attack)", "https://rackattack.com/retrax-tonneau-cover-review-one-pro-mx-xr-guide"],
   ["Ford F-Series 14th generation (bed and cab configurations)", "https://en.wikipedia.org/wiki/Ford_F-Series_(fourteenth_generation)"],
   ["BAKFlip MX4 owner install thread (F150gen14)", "https://www.f150gen14.com/forum/threads/bakflip-mx4-tonneau-cover-installed-no-leaks.25411/"],
+  ["BoxLink cleats by trim, owner reports (F-150 Lightning Forum)", "https://www.f150lightningforum.com/forum/threads/boxlink-cleats.28771/"],
+  ["Lightning bed outlet and accessory-slot locations (F-150 Lightning Forum)", "https://www.f150lightningforum.com/forum/threads/bed-accessory-slots.27553/"],
  ],
 }
 
@@ -166,10 +187,10 @@ ARTICLE = {
 FITS = [
  ("B08L44X6NZ","BAKFlip MX4 Hard Folding Tonneau Cover 448339, 2021-2026 F-150 incl. Raptor/Lightning, 5.5 ft (67.1 in)","BAK","$1,000–$1,200",{"bed_length_in":67},"5-year warranty; 400 lb rating."),
  ("B08L71GBX7","Gator EFX Hard Tri-Fold Tonneau Cover GC24029, 2021-2026 F-150 incl. Raptor/Lightning, 5.5 ft","Gator","$520–$600",{"bed_length_in":67},"300 lb rating; 2-year warranty."),
- ("B08L46PC1S","RetraxPRO MX Retractable Tonneau Cover 80378, 2021-2025 F-150 incl. Raptor/Lightning, 5.5 ft","Retrax","$1,750–$2,150",{"bed_length_in":67},"Canister uses ~10-11 in of bed."),
+ ("B08L46PC1S","RetraxPRO MX Retractable Tonneau Cover 80378, 2021-2026 F-150 incl. Raptor/Lightning, 5.5 ft","Retrax","$1,750–$2,150",{"bed_length_in":67},"Canister uses ~10-11 in of bed."),
  ("B00ONO665M","TruXedo Lo Pro Soft Roll-Up Tonneau Cover 597701, 2015-2026 F-150, 5.5 ft","TruXedo","$480–$540",{"bed_length_in":67},"Also fits 2015-2020."),
  ("B0B94WC2F1","Tyger Auto T3 Soft Tri-Fold Tonneau Cover, 2021-2026 F-150 & Lightning, 5.5 ft","Tyger Auto","$220–$260",{"bed_length_in":67},"Over-rail bedliners need small holes cut."),
  ("B0DK3928N1","OEDRO FRP Hard Tri-Fold Tonneau Cover, 2015-2025 F-150, 5.5 ft","OEDRO","$300–$400",{"bed_length_in":67},"No published load rating; confirm 2026 on listing."),
  ("B08L447MY5","BAKFlip MX4 Hard Folding Tonneau Cover 448337, 2021-2026 F-150, 6.5 ft (78.9 in)","BAK","$1,050–$1,250",{"bed_length_in":79},"6.5 ft version of #1."),
- ("B08L46D1CG","RetraxPRO MX Retractable Tonneau Cover 80379, 2021-2025 F-150, 6.5 ft (78.9 in)","Retrax","$1,800–$2,200",{"bed_length_in":79},"6.5 ft version of #3."),
+ ("B08L46D1CG","RetraxPRO MX Retractable Tonneau Cover 80379, 2021-2026 F-150, 6.5 ft (78.9 in)","Retrax","$1,800–$2,200",{"bed_length_in":79},"6.5 ft version of #3."),
 ]

@@ -13,8 +13,13 @@ type Table = { caption?: string; head: string[]; rows: string[][] };
 type Pick = { asin: string; role: string; price?: string; pros: string[]; cons: string[]; body: string; who: string; specs: [string, string][] };
 export type Article = {
   dek: string; author?: string; reviewed?: string; method?: string; takeaways: string[];
+  /** Optional one-paragraph answer for the box under the disclosure; defaults to verdict.thesis. */
+  short_answer?: string;
   top_picks: { asin: string; role: string; why: string }[];
-  fit_table?: Table; look_for: { h: string; body: string }[]; look_table?: Table; types_table?: Table;
+  fit_table?: Table;
+  /** Optional generation-specific section between the fit table and "What to look for" (what this redesign changed for buyers). */
+  gen_notes?: { h: string; intro?: string; items: { h: string; body: string }[] };
+  look_for: { h: string; body: string }[]; look_table?: Table; types_table?: Table;
   picks: Pick[]; install?: string[]; avoid?: { h: string; body: string }[];
   verdict: { thesis: string; body: string }; sources?: [string, string][];
   embeds?: Embed[];
@@ -96,6 +101,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
   const typesH = typesCap.h || `${cap(n.one)} types compared`;
   const toc: [string, string][] = [
     ...(a.fit_table ? [["fit-check", fitH] as [string, string]] : []),
+    ...(a.gen_notes ? [["gen-notes", a.gen_notes.h] as [string, string]] : []),
     ["what-to-look-for", "What to look for"],
     ...(a.types_table ? [["types", typesH] as [string, string]] : []),
     ...a.picks.map((p, i) => [slug(`pick-${i + 1}`), `#${i + 1}: ${byAsin.get(p.asin)?.brand ?? ""} — ${p.role}`] as [string, string]),
@@ -120,7 +126,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       <div className="disclose">We earn a commission from qualifying Amazon purchases, at no extra cost to you. Prices written in the text are list prices or price bands as we read them on the review date, not live Amazon prices; where an Amazon price is shown it carries its own time stamp. <Link href="/disclosure">How we make money</Link>.</div>
 
       <section className="short-answer" aria-label="Short answer">
-        <strong>Short answer:</strong> {a.verdict.thesis} <a href="#verdict">Full verdict ↓</a>
+        <strong>Short answer:</strong> {a.short_answer ?? a.verdict.thesis} <a href="#verdict">Full verdict ↓</a>
       </section>
 
       <section className="picks-box">
@@ -150,6 +156,10 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       <nav className="toc-box"><strong>On this page</strong><ol>{toc.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}</ol></nav>
 
       {a.fit_table && (<section id="fit-check"><h2>{fitH}</h2><T t={{ ...a.fit_table, caption: fitCap.note }} /></section>)}
+
+      {a.gen_notes && (<section id="gen-notes"><h2>{a.gen_notes.h}</h2>
+        {a.gen_notes.intro && <p>{a.gen_notes.intro}</p>}
+        {a.gen_notes.items.map(x => <p key={x.h}><strong>{x.h}.</strong> <Inline s={x.body} linker={L} /></p>)}</section>)}
 
       <section id="what-to-look-for">
         <h2>What to look for in {model} {n.many}</h2>
