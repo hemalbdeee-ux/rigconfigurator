@@ -8,7 +8,7 @@ export const AUTHORS: Record<string, Author> = {
     name: "Jake Morrison",
     role: "Fitment editor",
     penName: true,
-    bio: "Jake Morrison edits Rig Configurator's buying guides and keeps its fitment database current. Every product is matched to a vehicle generation, bed length or roof type using the maker's fit guide and part-number listing, then checked against owner reports, before it appears on a page. His own daily driver is a 2019 Toyota Premio.",
+    bio: "Jake Morrison edits Rig Configurator's buying guides and keeps its fitment database current. Every product is matched to a vehicle generation, bed length or roof type using the maker's fit guide and part-number listing, then checked against owner reports, before it appears on a page.",
     facts: ["10 years in Amazon product research", "Maintains the Rig Configurator fitment database", "Sources cited on every guide"],
   },
 };

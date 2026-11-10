@@ -6,7 +6,12 @@ import { Price } from "@/components/Price";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
+// An empty deals page is not a search landing page: noindex until at least one qualifying drop is listed.
+export async function generateMetadata(): Promise<Metadata> {
+  const live = (await activeDeals(1)).length > 0;
+  return { ...BASE_META, ...(live ? {} : { robots: { index: false, follow: true } }) };
+}
+const BASE_META: Metadata = {
   title: { absolute: "Truck & SUV Accessory Price Drops | Rig Configurator" },
   description: "Fit-checked racks, covers, hitches, liners and steps whose Amazon price is at least 10% under their own 30-day high, from our price tracking.",
   alternates: { canonical: "/deals" },

@@ -10,7 +10,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2015–2020 Ford F-150 (Super
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='f-150' AND v.gen_slug='2015-2020'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Chevy Silverado 1500 (Crew Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2025 Chevy Silverado 1500 by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2025 Chevy Silverado 1500, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Rear under-seat storage**: T1 Crew Cabs came with no box, a plastic storage box or carpeted storage. Liners are cut for one — check under the rear bench.
@@ -21,7 +21,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Chevy Silverado 1
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='chevrolet' AND v.model_slug='silverado-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 GMC Sierra 1500 (Crew Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2025 GMC Sierra 1500 by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2025 GMC Sierra 1500, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Same floor as the Silverado** — Silverado/Sierra liners interchange; storage layout still matters.
@@ -32,7 +32,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 GMC Sierra 1500 (
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='gmc' AND v.model_slug='sierra-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Ram 1500 DT (Crew Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2025 Ram 1500 DT by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2025 Ram 1500 DT, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **DT vs Classic**: the Ram 1500 Classic (sold through 2024) has a different floor. All picks here are DT (new body).
@@ -43,7 +43,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Ram 1500 DT (Crew
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ram' AND v.model_slug='1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2016–2023 Toyota Tacoma (Double Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2016–2023 Toyota Tacoma by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2016–2023 Toyota Tacoma, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Access Cab vs Double Cab**: different rear floors; buy for your cab.
@@ -54,7 +54,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2016–2023 Toyota Tacoma (Do
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2016-2023'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2024–2025 Toyota Tacoma (Double Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2024–2025 Toyota Tacoma by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2024–2025 Toyota Tacoma, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **New TNGA-F platform** — 2016–2023 liners do not fit.
@@ -65,7 +65,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2024–2025 Toyota Tacoma (Do
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2024-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Toyota Tundra (CrewMax)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2022–2025 Toyota Tundra by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2022–2025 Toyota Tundra, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **CrewMax vs Double Cab**: different rear floors.
@@ -76,7 +76,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Toyota Tundra (Cr
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='tundra' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2023 Ford Ranger (SuperCrew)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2023 Ford Ranger by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2023 Ford Ranger, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **SuperCrew vs SuperCab**: different rear floors.
@@ -87,7 +87,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2023 Ford Ranger (Supe
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='ranger' AND v.gen_slug='2019-2023'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Chevy Colorado (Crew Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2023–2025 Chevy Colorado by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2023–2025 Chevy Colorado, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **3rd gen only** — 2015–2022 liners don't fit the 2023+ floor.
@@ -98,7 +98,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Chevy Colorado (C
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='chevrolet' AND v.model_slug='colorado' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Nissan Frontier (Crew Cab)$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2022–2025 Nissan Frontier by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2022–2025 Nissan Frontier, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **2022+ interior is new** even though the frame carries over — many listings say 2005–2021; skip those.
@@ -108,7 +108,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Nissan Frontier (
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='nissan' AND v.model_slug='frontier' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2010–2024 Toyota 4Runner$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2010–2024 Toyota 4Runner by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2010–2024 Toyota 4Runner, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Sliding rear cargo deck** (optional) changes the cargo liner; floor liners are unaffected.
@@ -119,7 +119,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2010–2024 Toyota 4Runner$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='4runner' AND v.gen_slug='2010-2024'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2018–2025 Jeep Wrangler JL$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2018–2025 Jeep Wrangler JL by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2018–2025 Jeep Wrangler JL, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **2-door vs 4-door** (Unlimited): different rear floors.
@@ -130,7 +130,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2018–2025 Jeep Wrangler JL$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='jeep' AND v.model_slug='wrangler' AND v.gen_slug='2018-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Ford Bronco$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2021–2025 Ford Bronco by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2021–2025 Ford Bronco, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **2-door vs 4-door** rear floors differ.
@@ -141,7 +141,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Ford Bronco$t$, $
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='bronco' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Toyota Highlander$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Toyota Highlander by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Toyota Highlander, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Captain's chairs vs 2nd-row bench** changes the 2nd-row liner.
@@ -152,7 +152,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Toyota Highlander
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='highlander' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2024 Subaru Forester$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2024 Subaru Forester by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2024 Subaru Forester, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **SK generation only**; 2025+ is new.
@@ -162,7 +162,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2024 Subaru Forester$t
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='subaru' AND v.model_slug='forester' AND v.gen_slug='2019-2024'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for Tesla Model 3 (2024+ Highland)$t$, $m$Laser-fit floor liners and all-weather mats checked against the Tesla Model 3 (2024+ Highland) by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the Tesla Model 3 (2024+ Highland), not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Highland (2024+) vs pre-Highland (2017–2023)**: the refresh changed the front footwells — our picks are Highland listings. Pre-Highland owners need 2017–2023 listings.
@@ -172,7 +172,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for Tesla Model 3 (2024+ Highland
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='tesla' AND v.model_slug='model-3' AND v.gen_slug='2017-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Ford Explorer$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Ford Explorer by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Ford Explorer, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Captain's chairs vs 2nd-row bench** changes the 2nd-row liner.
@@ -183,7 +183,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Ford Explorer$t$,
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='explorer' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Chevy Tahoe$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2021–2025 Chevy Tahoe by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2021–2025 Chevy Tahoe, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Captain's chairs vs bench** in the 2nd row.
@@ -194,7 +194,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Chevy Tahoe$t$, $
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='chevrolet' AND v.model_slug='tahoe' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Kia Telluride$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Kia Telluride by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Kia Telluride, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Captain's chairs (7-seat) vs bench (8-seat)** changes the 2nd-row liner.
@@ -204,7 +204,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Kia Telluride$t$,
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='kia' AND v.model_slug='telluride' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Hyundai Palisade$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Hyundai Palisade by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Hyundai Palisade, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Captain's chairs vs bench** in the 2nd row.
@@ -214,7 +214,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Hyundai Palisade$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='hyundai' AND v.model_slug='palisade' AND v.gen_slug='2020-2025'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Honda Pilot$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2023–2025 Honda Pilot by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2023–2025 Honda Pilot, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **4th gen only**; 2016–2022 liners don't fit.
@@ -225,7 +225,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Honda Pilot$t$, $
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='honda' AND v.model_slug='pilot' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Toyota Sequoia$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2023–2025 Toyota Sequoia by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2023–2025 Toyota Sequoia, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **3rd gen (TNGA-F)** — no crossover with 2008–2022.
@@ -236,7 +236,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Toyota Sequoia$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='sequoia' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Ford Maverick$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2022–2025 Ford Maverick by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2022–2025 Ford Maverick, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Hybrid vs EcoBoost**: the rear under-seat floor differs — hybrid liners won't fit an EcoBoost and vice-versa. Check your powertrain.
@@ -246,7 +246,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Ford Maverick$t$,
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='maverick' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Toyota RAV4$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2019–2025 Toyota RAV4 by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2019–2025 Toyota RAV4, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Hybrid / Prime** have different rear floors on some listings — confirm.
@@ -256,7 +256,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2019–2025 Toyota RAV4$t$, $
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='rav4' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Subaru Outback$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Subaru Outback by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Subaru Outback, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **6th gen (BT) only**.
@@ -267,7 +267,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Subaru Outback$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='subaru' AND v.model_slug='outback' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Jeep Gladiator$t$, $m$Laser-fit floor liners and all-weather mats checked against the 2020–2025 Jeep Gladiator by cab, seating and storage layout — plus the layout gotchas that cause returns.$m$, $i$Every set below is listed for the 2020–2025 Jeep Gladiator, not a 'universal trim-to-fit' mat. Liners fail for three reasons: wrong generation, wrong seating layout (bench vs buckets, 2nd-row captain's chairs vs bench) and wrong under-seat storage. Check those three against the notes on each pick and the fit is a non-issue.$i$, $g$- **Different from Wrangler JL** in the rear — use Gladiator listings.
@@ -277,7 +277,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Jeep Gladiator$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='jeep' AND v.model_slug='gladiator' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2015–2020 Ford F-150$t$, $m$Tonneau covers fit-checked for the 2015–2020 Ford F-150 by bed length, with the rail and tailgate gotchas that decide whether a cover seals.$m$, $i$A tonneau cover fits by bed length first and rail design second — brand is a distant third. Measure inside the bed from bulkhead to tailgate before you order, then match the listing to that number. Soft roll-ups are cheapest, hard tri-folds are the value pick and retractables seal best.$i$, $g$- **Beds**: 5.5 ft (67.1 in), 6.5 ft (78.9 in), 8 ft (97.6 in). Measure.
@@ -288,7 +288,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2015–2020 Ford F-150$t$, $m$Tonn
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ford' AND v.model_slug='f-150' AND v.gen_slug='2015-2020'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2016–2023 Toyota Tacoma$t$, $m$Tonneau covers fit-checked for the 2016–2023 Toyota Tacoma by bed length, with the rail and tailgate gotchas that decide whether a cover seals.$m$, $i$A tonneau cover fits by bed length first and rail design second — brand is a distant third. Measure inside the bed from bulkhead to tailgate before you order, then match the listing to that number. Soft roll-ups are cheapest, hard tri-folds are the value pick and retractables seal best.$i$, $g$- **Beds**: 5 ft (60.5 in) and 6 ft (73.7 in).
@@ -299,7 +299,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2016–2023 Toyota Tacoma$t$, $m$T
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2016-2023'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2023 Ford Ranger$t$, $m$Tonneau covers fit-checked for the 2019–2023 Ford Ranger by bed length, with the rail and tailgate gotchas that decide whether a cover seals.$m$, $i$A tonneau cover fits by bed length first and rail design second — brand is a distant third. Measure inside the bed from bulkhead to tailgate before you order, then match the listing to that number. Soft roll-ups are cheapest, hard tri-folds are the value pick and retractables seal best.$i$, $g$- **Beds**: 5 ft (SuperCrew) and 6 ft (SuperCab).
@@ -309,7 +309,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2023 Ford Ranger$t$, $m$Ton
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ford' AND v.model_slug='ranger' AND v.gen_slug='2019-2023'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2023–2025 Chevy Colorado$t$, $m$Tonneau covers fit-checked for the 2023–2025 Chevy Colorado by bed length, with the rail and tailgate gotchas that decide whether a cover seals.$m$, $i$A tonneau cover fits by bed length first and rail design second — brand is a distant third. Measure inside the bed from bulkhead to tailgate before you order, then match the listing to that number. Soft roll-ups are cheapest, hard tri-folds are the value pick and retractables seal best.$i$, $g$- **5 ft 2 in bed only** in this generation.
@@ -320,7 +320,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2023–2025 Chevy Colorado$t$, $m$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='chevrolet' AND v.model_slug='colorado' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Nissan Frontier$t$, $m$Tonneau covers fit-checked for the 2022–2025 Nissan Frontier by bed length, with the rail and tailgate gotchas that decide whether a cover seals.$m$, $i$A tonneau cover fits by bed length first and rail design second — brand is a distant third. Measure inside the bed from bulkhead to tailgate before you order, then match the listing to that number. Soft roll-ups are cheapest, hard tri-folds are the value pick and retractables seal best.$i$, $g$- **Beds**: 5 ft and 6 ft.
@@ -330,7 +330,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Nissan Frontier$t$, $m
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='nissan' AND v.model_slug='frontier' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Toyota Highlander$t$, $m$Crossbars matched to the 2020–2025 Toyota Highlander's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2020–2025 Toyota Highlander ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Raised rails on most trims**; base L may ship bare — confirm your rails.
@@ -340,7 +340,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Toyota Highlan
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='toyota' AND v.model_slug='highlander' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2019–2024 Subaru Forester$t$, $m$Crossbars matched to the 2019–2024 Subaru Forester's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2019–2024 Subaru Forester ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Raised rails on every trim**, 176 lb dynamic.
@@ -350,7 +350,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2019–2024 Subaru Foreste
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='subaru' AND v.model_slug='forester' AND v.gen_slug='2019-2024'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for Tesla Model 3$t$, $m$Crossbars matched to the Tesla Model 3's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The Tesla Model 3 ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Glass roof with fixed points** under the door seals — only fixed-point kits; never clamp-on gutter bars.
@@ -360,7 +360,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for Tesla Model 3$t$, $m$Cross
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='tesla' AND v.model_slug='model-3' AND v.gen_slug='2017-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Hyundai Palisade$t$, $m$Crossbars matched to the 2020–2025 Hyundai Palisade's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2020–2025 Hyundai Palisade ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Side rails on most trims**; some sellers describe them as flush — check whether there is a gap under your rails.
@@ -370,7 +370,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Hyundai Palisa
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='hyundai' AND v.model_slug='palisade' AND v.gen_slug='2020-2025'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2022–2025 Jeep Grand Cherokee$t$, $m$Crossbars matched to the 2022–2025 Jeep Grand Cherokee's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2022–2025 Jeep Grand Cherokee ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Flush side rails** on most WL trims — raised-rail clamp bars will not fit.
@@ -380,7 +380,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2022–2025 Jeep Grand Che
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='jeep' AND v.model_slug='grand-cherokee' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2019–2025 Toyota RAV4$t$, $m$Crossbars matched to the 2019–2025 Toyota RAV4's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2019–2025 Toyota RAV4 ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Two rail styles**: standard raised rails vs Adventure / TRD Off-Road / Woodland rails. Bars are listed for one or the other.
@@ -390,7 +390,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2019–2025 Toyota RAV4$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='toyota' AND v.model_slug='rav4' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Kia Telluride$t$, $m$Crossbars matched to the 2020–2025 Kia Telluride's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2020–2025 Kia Telluride ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **X-Line / X-Pro** have a taller rail — use X-Line/X-Pro-specific bars.
@@ -400,7 +400,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Kia Telluride$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='kia' AND v.model_slug='telluride' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Ford Explorer$t$, $m$Crossbars matched to the 2020–2025 Ford Explorer's roof type — raised rails, flush rails or fixed points — with load limits and trim exceptions.$m$, $i$Crossbars fit by roof type, not by vehicle name alone. The 2020–2025 Ford Explorer ships with a specific rail style, and some trims differ; a bar kit built for raised rails will not clamp to flush rails and vice-versa. Every pick below states the roof it fits — match it to your roof, then stay under the roof's dynamic load rating (bars + cargo).$i$, $g$- **Raised rails vs flush rails**: most Explorers have raised side rails; check for a gap under the rail before buying clamp bars.
@@ -410,7 +410,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Ford Explorer$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='ford' AND v.model_slug='explorer' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2018–2025 Jeep Wrangler JL$t$, $m$Bolt-on receiver hitches listed for the 2018–2025 Jeep Wrangler JL, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2018–2025 Jeep Wrangler JL is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Factory hitch** comes with the tow package on many JLs — check under the rear bumper first.
@@ -421,7 +421,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2018–2025 Jeep Wrangler JL$t$, 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='jeep' AND v.model_slug='wrangler' AND v.gen_slug='2018-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Ford Explorer$t$, $m$Bolt-on receiver hitches listed for the 2020–2025 Ford Explorer, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2020–2025 Ford Explorer is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Factory Class 3/4 receiver** is standard or packaged on many trims — check before buying.
@@ -431,7 +431,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Ford Explorer$t$, $m$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='ford' AND v.model_slug='explorer' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2023–2025 Honda Pilot$t$, $m$Bolt-on receiver hitches listed for the 2023–2025 Honda Pilot, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2023–2025 Honda Pilot is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Honda tow package** is dealer-installed on many trucks; TrailSport often has it standard — check first.
@@ -441,7 +441,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2023–2025 Honda Pilot$t$, $m$Bo
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='honda' AND v.model_slug='pilot' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2023–2025 Honda CR-V$t$, $m$Bolt-on receiver hitches listed for the 2023–2025 Honda CR-V, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2023–2025 Honda CR-V is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Tow rating** is 1,500 lb — the hitch here is mainly for bike racks and cargo carriers.
@@ -451,7 +451,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2023–2025 Honda CR-V$t$, $m$Bol
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='honda' AND v.model_slug='cr-v' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2022–2025 Jeep Grand Cherokee$t$, $m$Bolt-on receiver hitches listed for the 2022–2025 Jeep Grand Cherokee, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2022–2025 Jeep Grand Cherokee is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Factory Class 4 receiver** with the tow package — check first.
@@ -461,7 +461,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2022–2025 Jeep Grand Cherokee$t
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='jeep' AND v.model_slug='grand-cherokee' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2021–2025 Ford Bronco$t$, $m$Bolt-on receiver hitches listed for the 2021–2025 Ford Bronco, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2021–2025 Ford Bronco is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Factory receiver** on many trims (and Sasquatch) — the CURT 13493 is only for trucks without one.
@@ -472,7 +472,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2021–2025 Ford Bronco$t$, $m$Bo
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='ford' AND v.model_slug='bronco' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Subaru Outback$t$, $m$Bolt-on receiver hitches listed for the 2020–2025 Subaru Outback, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2020–2025 Subaru Outback is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Tow rating** 2,700 lb (2.5L) or 3,500 lb (XT turbo). Hitch rating does not raise it.
@@ -482,7 +482,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Subaru Outback$t$, $m
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='subaru' AND v.model_slug='outback' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Kia Telluride$t$, $m$Bolt-on receiver hitches listed for the 2020–2025 Kia Telluride, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2020–2025 Kia Telluride is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Tow rating** 5,000 lb; self-leveling rear suspension on some trims helps with tongue weight.
@@ -492,7 +492,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Kia Telluride$t$, $m$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='kia' AND v.model_slug='telluride' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Hyundai Palisade$t$, $m$Bolt-on receiver hitches listed for the 2020–2025 Hyundai Palisade, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2020–2025 Hyundai Palisade is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Tow rating** 5,000 lb.
@@ -502,7 +502,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Hyundai Palisade$t$, 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='hyundai' AND v.model_slug='palisade' AND v.gen_slug='2020-2025'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2019–2024 Subaru Forester$t$, $m$Bolt-on receiver hitches listed for the 2019–2024 Subaru Forester, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your 2019–2024 Subaru Forester is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **Tow rating** 1,500 lb (3,000 lb Wilderness) — a 2 in hitch is for bike racks, not heavier towing.
@@ -512,7 +512,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2019–2024 Subaru Forester$t$, $
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='subaru' AND v.model_slug='forester' AND v.gen_slug='2019-2024'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for Tesla Model 3$t$, $m$Bolt-on receiver hitches listed for the Tesla Model 3, with receiver size, the vehicle's real tow limit and what the hitch rating does not change.$m$, $i$A hitch is rated for what the hitch can carry; your Tesla Model 3 is rated for what the vehicle can pull. The lower number always wins. The picks below bolt to existing frame holes with no welding — the brand-name options come with engineering data, the budget ones are fine for bike racks and cargo carriers.$i$, $g$- **No US tow rating** from Tesla for most Model 3s — treat these as bike-rack / cargo-carrier hitches.
@@ -522,7 +522,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for Tesla Model 3$t$, $m$Bolt-on rece
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='tesla' AND v.model_slug='model-3' AND v.gen_slug='2017-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2021–2025 Ford F-150 (SuperCrew)$t$, $m$Running boards and nerf bars listed for the 2021–2025 Ford F-150 by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2021–2025 Ford F-150 has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **SuperCrew vs SuperCab**: board length differs — picks here are SuperCrew.
@@ -533,7 +533,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2021–2025 Ford F-15
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='ford' AND v.model_slug='f-150' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 Chevy Silverado 1500 (Crew Cab)$t$, $m$Running boards and nerf bars listed for the 2019–2025 Chevy Silverado 1500 by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2019–2025 Chevy Silverado 1500 has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **Crew Cab vs Double Cab** — picks are Crew Cab.
@@ -544,7 +544,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 Chevy Sil
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='chevrolet' AND v.model_slug='silverado-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 GMC Sierra 1500 (Crew Cab)$t$, $m$Running boards and nerf bars listed for the 2019–2025 GMC Sierra 1500 by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2019–2025 GMC Sierra 1500 has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **Same rocker as Silverado** Crew Cab.
@@ -554,7 +554,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 GMC Sierr
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='gmc' AND v.model_slug='sierra-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 Ram 1500 DT (Crew Cab)$t$, $m$Running boards and nerf bars listed for the 2019–2025 Ram 1500 DT by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2019–2025 Ram 1500 DT has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **DT vs Classic** — picks are DT (new body).
@@ -564,7 +564,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2019–2025 Ram 1500 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='ram' AND v.model_slug='1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2022–2025 Toyota Tundra (CrewMax)$t$, $m$Running boards and nerf bars listed for the 2022–2025 Toyota Tundra by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2022–2025 Toyota Tundra has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **CrewMax vs Double Cab** board lengths differ.
@@ -574,7 +574,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2022–2025 Toyota Tu
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='toyota' AND v.model_slug='tundra' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2021–2025 Chevy Tahoe$t$, $m$Running boards and nerf bars listed for the 2021–2025 Chevy Tahoe by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2021–2025 Chevy Tahoe has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **Tahoe vs Suburban** have different wheelbases — boards are not interchangeable.
@@ -584,7 +584,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2021–2025 Chevy Tah
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='chevrolet' AND v.model_slug='tahoe' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2023–2025 Toyota Sequoia$t$, $m$Running boards and nerf bars listed for the 2023–2025 Toyota Sequoia by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2023–2025 Toyota Sequoia has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **3rd gen only**.
@@ -594,7 +594,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2023–2025 Toyota Se
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='toyota' AND v.model_slug='sequoia' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2024–2025 Toyota Tacoma (Double Cab)$t$, $m$Running boards and nerf bars listed for the 2024–2025 Toyota Tacoma by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2024–2025 Toyota Tacoma has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **Double Cab vs XtraCab** lengths differ.
@@ -604,7 +604,7 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2024–2025 Toyota Ta
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2024-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2022–2025 Nissan Frontier (Crew Cab)$t$, $m$Running boards and nerf bars listed for the 2022–2025 Nissan Frontier by cab length, with bracket, drop-step and power-step notes.$m$, $i$Running boards fit by cab length and mounting brackets. The 2022–2025 Nissan Frontier has factory threaded mounting points on the rocker, so bolt-on kits need no drilling — but a Crew Cab board will not fit an extended cab. Match the cab, then pick the step style: flat boards look OE, drop steps help shorter riders, power steps hide when the doors close.$i$, $g$- **Crew Cab vs King Cab** lengths differ.
@@ -614,4 +614,4 @@ SELECT v.id, c.id, $t$Best Running Boards & Side Steps for 2022–2025 Nissan Fr
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='running-boards'
 WHERE m.slug='nissan' AND v.model_slug='frontier' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();

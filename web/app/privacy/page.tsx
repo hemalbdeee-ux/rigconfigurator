@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { CONTACT_EMAIL } from "@/lib/db";
 
-const UPDATED = "October 15, 2026";
+const UPDATED = "November 11, 2026";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -24,8 +24,10 @@ export default function Privacy() {
       <p>Buttons such as &ldquo;Check price on Amazon&rdquo; go through a short redirect on our site (<code>/go/…</code>) before sending you to Amazon. When that happens we save the product, the page you were on, which button you clicked, your browser&apos;s user agent string and, if our network provider supplies it, your country. <strong>We do not save your IP address or any identifier with this click record.</strong> We use it to see which guides and products people find useful.</p>
       <h3>Google Analytics</h3>
       <p>We use Google Analytics 4 to understand how visitors use the site, for example which pages are read, how people arrive and roughly where they are. Google Analytics sets first-party cookies (such as <code>_ga</code>) and collects data such as pages viewed, device and browser type, approximate location and referring site. Google processes this data under the <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">Google Privacy Policy</a>. We do not use it for advertising and do not send names, email addresses or other personal details to Google. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out browser add-on</a> or by blocking cookies.</p>
+      <h3>Fit reports you email us</h3>
+      <p>Guides invite owners to email a fit report. If you send one, we use your message and any photo to check and correct the page. We publish a photo, a first name or a quote only if you tell us we may, and you can ask us to remove it at any time. We do not add your address to a mailing list.</p>
       <h3>What we do not collect</h3>
-      <p>We do not use advertising pixels. We do not ask for your name, email address or payment details, and we do not sell or rent personal information.</p>
+      <p>We do not use advertising pixels. Using the site needs no account, name, email address or payment details, and we do not sell or rent personal information.</p>
 
       <h2>Amazon and other third parties</h2>
       <p>Rig Configurator is a participant in the Amazon Services LLC Associates Program. When you follow one of our links to Amazon, Amazon may set cookies to record that you came from our site, so it can credit us with a commission if you buy. Once you are on Amazon, <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" rel="nofollow noopener" target="_blank">Amazon&apos;s Privacy Notice</a> applies, not this one. Amazon tells us about qualifying purchases in aggregate reports; it does not tell us who you are.</p>

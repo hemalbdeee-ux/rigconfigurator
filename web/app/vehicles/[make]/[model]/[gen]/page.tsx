@@ -102,7 +102,9 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
         { "@type": "ListItem", position: 4, name: v.gen_name, item: pageUrl }] },
       { "@type": "CollectionPage", "@id": `${pageUrl}#webpage`, url: pageUrl, name: `${vehicleTitle(v)} Accessories That Fit`, description: v.summary,
         isPartOf: { "@id": `${SITE_URL}/#website` }, breadcrumb: { "@id": `${pageUrl}#breadcrumb` }, publisher: { "@id": `${SITE_URL}/#organization` },
-        ...(reviewed ? { dateModified: reviewed } : {}), ...(hero ? { primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/img/${hero.file}`, width: hero.width, height: hero.height, creditText: hero.author, ...(hero.license_url ? { license: hero.license_url } : {}), acquireLicensePage: hero.source_url } } : {}),
+        ...(reviewed ? { dateModified: reviewed } : {}), ...(hero ? { primaryImageOfPage: { "@type": "ImageObject", "@id": `${pageUrl}#primaryimage`, name: hero.title, caption: hero.title, url: `${SITE_URL}/img/${hero.file}`, contentUrl: `${SITE_URL}/img/${hero.file}`,
+          width: hero.width, height: hero.height, creditText: hero.author, creator: { "@type": "Person", name: hero.author },
+          ...(hero.license_url ? { license: hero.license_url } : {}), acquireLicensePage: hero.source_url, copyrightNotice: `${hero.author} · ${hero.license}` } } : {}),
         mainEntity: { "@id": `${pageUrl}#guides` } },
       { "@type": "ItemList", "@id": `${pageUrl}#guides`, name: `${vehicleTitle(v)} accessory guides`, numberOfItems: ready.length, itemListElement: ready.map((c, i) => ({
         "@type": "ListItem", position: i + 1, url: `${SITE_URL}${path}/${c.slug}`, name: published.get(c.slug)!.title })) },

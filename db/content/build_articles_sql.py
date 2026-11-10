@@ -2,7 +2,7 @@
 Each module: KEY=(make,model,gen,category), TITLE, META, FAQ[(q,a)], ARTICLE{...}, FITS[(asin,name,brand,band,cond,note)].
 The migration adds fitment_pages.article (jsonb) and clears that page's fitments (re-created from FITS by the CSV import that apply.sh runs next).
 """
-import glob, importlib.util, json, os
+import glob, importlib.util, json, os, re
 here = os.path.dirname(__file__)
 import sys; sys.path.insert(0, here)
 from embeds import EMBEDS
@@ -23,10 +23,14 @@ if __name__ == "__main__":
         art_obj = dict(m.ARTICLE)
         if EMBEDS.get("/".join(m.KEY)): art_obj["embeds"] = EMBEDS["/".join(m.KEY)]
         art = json.dumps(art_obj, ensure_ascii=False)
+        # "Fit data verified" = the day the fit facts were actually re-read: ARTICLE["fit_verified"] when a later
+        # re-check happened, else the review date. Never CURRENT_DATE: that restamped every guide on each deploy.
+        verified = art_obj.get("fit_verified") or art_obj["reviewed"]
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", verified), (m.KEY, verified)
         where = f"vehicle_id=(SELECT v.id FROM vehicles v JOIN makes mk ON mk.id=v.make_id WHERE mk.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}') AND category_id=(SELECT id FROM categories WHERE slug='{cat}')"
         # upsert: an article module alone can create a new vehicle x category page (published by 005 once it has >= 2 fits)
         out.append(f"""INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, faq, article, verified_at)
-SELECT v.id, c.id, $t${m.TITLE}$t$, $m${m.META}$m$, $f${faq}$f$::jsonb, $a${art}$a$::jsonb, CURRENT_DATE
+SELECT v.id, c.id, $t${m.TITLE}$t$, $m${m.META}$m$, $f${faq}$f$::jsonb, $a${art}$a$::jsonb, DATE '{verified}'
 FROM vehicles v JOIN makes mk ON mk.id=v.make_id, categories c
 WHERE mk.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}' AND c.slug='{cat}'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq,

@@ -2,12 +2,13 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/db";
 import { allFitmentPaths, allVehicles, vehiclePath } from "@/lib/queries";
 import { allPillars } from "@/lib/pillars";
+import { activeDeals } from "@/lib/home";
 
 // Rendered per request: the DB is not reachable during `docker build`, so a build-time sitemap would be empty.
 export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [vs, fps, pillars] = await Promise.all([allVehicles(), allFitmentPaths(), allPillars()]);
+  const [vs, fps, pillars, deals] = await Promise.all([allVehicles(), allFitmentPaths(), allPillars(), activeDeals(1)]);
   return [
     { url: SITE_URL, changeFrequency: "daily", priority: 1 },
     { url: `${SITE_URL}/vehicles`, changeFrequency: "weekly", priority: 0.9 },
@@ -16,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/tools`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/tools/tongue-weight-calculator`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/tools/roof-load-calculator`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/deals`, changeFrequency: "daily", priority: 0.6 },
+    ...(deals.length ? [{ url: `${SITE_URL}/deals`, changeFrequency: "daily" as const, priority: 0.6 }] : []),   // listed only while it has a drop (page is noindex when empty)
     ...[...new Set(fps.map(f => f.category_slug))].map(c => ({ url: `${SITE_URL}/guides/${c}`, changeFrequency: "weekly" as const, priority: 0.7 })),
     ...(pillars.length ? [{ url: `${SITE_URL}/learn`, changeFrequency: "weekly" as const, priority: 0.7 }] : []),
     ...pillars.map(p => ({ url: `${SITE_URL}${p.path}`, lastModified: new Date(p.updated), changeFrequency: "monthly" as const, priority: 0.8 })),

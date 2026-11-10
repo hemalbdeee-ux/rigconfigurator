@@ -215,3 +215,6 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .vnum td { padding: 6px 0; vertical-align: top; }
 .vnum tr + tr th, .vnum tr + tr td { border-top: 1px solid var(--line); }
 .vnum-links { display: flex; gap: 18px; flex-wrap: wrap; margin: 10px 0 0; font-size: 15px; }
+.owner-report { border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 4px 18px 10px; margin: 28px 0; background: var(--card); }
+.owner-report h2 { font-size: 20px; }
+.plain-links { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 18px; }

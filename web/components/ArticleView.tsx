@@ -8,6 +8,7 @@ import { Hero } from "./Hero";
 import type { Hero as HeroT } from "@/lib/queries";
 import { Embeds, type Embed } from "./Embeds";
 import { VehicleNumbers } from "./VehicleNumbers";
+import { CONTACT_EMAIL } from "@/lib/db";
 
 type Table = { caption?: string; head: string[]; rows: string[][] };
 type Pick = { asin: string; role: string; price?: string; pros: string[]; cons: string[]; body: string; who: string; specs: [string, string][] };
@@ -144,7 +145,7 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
       <div className="byline">
         By <Link href="/about">{author.name}</Link> · {author.role}
         {a.reviewed && <> · Last reviewed {fmtDate(a.reviewed)}</>}
-        {verifiedAt && <> · Fit data verified {fmtDate(verifiedAt)}</>}
+        {verifiedAt && fmtDate(verifiedAt) !== fmtDate(a.reviewed) && <> · Fit data re-checked {fmtDate(verifiedAt)}</>}
       </div>
       <p className="fit-years"><strong>Fit-checked means:</strong> matched to the maker&apos;s fit guide and part number, then checked against owner reports; not installed by us (<a href="#method">how we chose</a>). Covers the {modelYearsText(v)} {v.make_name} {v.model_name} ({v.gen_name}); some listings name fewer model years, so check the fit note on each pick.</p>
 
@@ -234,6 +235,17 @@ export function ArticleView({ v, c, fits, a, title, faq, related, path, verified
         <div className="lbl">Next step for your {model}</div>
         <strong style={{ color: "var(--fg)" }}>{next.title}</strong> <span>→</span>
       </Link>)}
+
+      <section className="owner-report" id="owner-report">
+        <h2>Own a {model}? Tell us what fit</h2>
+        <p>These picks are matched from fit guides and part numbers, not from our own installs, so a report from a real {model} is worth more than another spec sheet. If you have fitted one of these {n.many}, or one we did not list, email <a href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Fit report: ${vehicleTitle(v)} ${c.name}`)}`}>{CONTACT_EMAIL}</a> with:</p>
+        <ul>
+          <li>model year, trim and the detail that decides fit on this vehicle (cab, bed length, roof rails or seating)</li>
+          <li>the brand and part number, and whether it went on without drilling or trimming</li>
+          <li>a photo of it installed, if you are happy for us to show it</li>
+        </ul>
+        <p className="muted">We read every report, correct the page when a fit note is wrong, and publish a photo or a first name only with your permission.</p>
+      </section>
 
       {a.method && (<section className="method" id="method"><h3>How we chose</h3><p>{a.method}</p>
         {a.sources?.length ? (<><strong style={{ fontSize: 14 }}>Sources</strong><ul className="sources">{a.sources.map(([l, u]) => <li key={u}><a href={u} rel="nofollow noopener" target="_blank">{l}</a></li>)}</ul></>) : null}

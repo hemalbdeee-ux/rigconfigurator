@@ -31,6 +31,15 @@ export default async function Build({ searchParams }: { searchParams: Promise<{ 
         <h1>Build your setup</h1>
         <p className="dek">Pick a vehicle. The builder lists the top fit-checked pick in every category for that generation, lets you swap each one, and totals the live Amazon prices.</p>
         <VehiclePicker vehicles={vehicles.map(x => ({ make: x.make_name, label: vehicleTitle(x), path: `/build?vehicle=${x.id}` }))} compact cta="Start the build →" />
+        <h2>How the builder works</h2>
+        <ol>
+          <li><strong>Pick the generation.</strong> {vehicles.length} truck and SUV generations are covered; each one has its own parts list, because a redesign changes beds, roof rails and mounting points.</li>
+          <li><strong>Start from the top pick in each category.</strong> The builder opens with the first-ranked product from each of that vehicle&apos;s fit-checked guides and offers up to five alternatives per category.</li>
+          <li><strong>Untick what you do not need and swap the rest.</strong> The total follows your choices.</li>
+        </ol>
+        <h2>What the total includes</h2>
+        <p>The total adds up the Amazon prices we last fetched for the ticked products; each price carries its own time stamp, and Amazon&apos;s page is the final word. A product Amazon gave no price for shows a price band and is left out of the total, with a note saying so. Shipping, tax and installation are not included.</p>
+        <p className="muted">Want the reasoning behind each pick first? <Link href="/vehicles">Open your vehicle&apos;s fit hub</Link> or <Link href="/guides">browse the guides by category</Link>.</p>
       </section>
     );
   }

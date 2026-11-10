@@ -14,7 +14,7 @@ SELECT v.id, c.id, $t${title}$t$, $m${meta}$m$, $i${intro}$i$, $g${g}$g$, $f${f}
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='{cat}'
 WHERE m.slug='{make}' AND v.model_slug='{model}' AND v.gen_slug='{gen}'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 """)
     dest = os.path.join(os.path.dirname(__file__), "..", "migrations", fname)
     open(dest, "w", encoding="utf-8").write("\n".join(out))

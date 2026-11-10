@@ -9,7 +9,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2021–2025 Ford F-150 (5.5 / 6.5 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ford' AND v.model_slug='f-150' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 Chevy Silverado 1500 (5'8" / 6'6" / 8 ft)$t$, $m$Tonneau covers verified for the T1 Silverado 1500 by bed length, including Multi-Flex tailgate and Durabed rail notes.$m$, $i$The T1 Silverado has three beds: 5'8" short (70 in), 6'6" standard (79 in) and 8 ft long (98 in). The short bed is on every Crew Cab and is where most cover stock sits. Matching your bed length is the only spec that matters more than cover type.$i$, $g$- **Multi-Flex tailgate (2021+)** has an inner gate that swings inside the cover's tailgate seal — most covers fit but a handful of low-profile hard covers block the inner-gate release.
@@ -19,7 +19,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 Chevy Silverado 1500 (
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='chevrolet' AND v.model_slug='silverado-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 Ram 1500 DT (5'7" / 6'4" Bed, RamBox Guide)$t$, $m$Ram 1500 DT tonneau covers by bed length, with a clear split between standard beds and RamBox-equipped trucks.$m$, $i$The DT Ram has two beds — 5'7" (67 in) and 6'4" (76 in) — and the single biggest fit question is RamBox. RamBox trucks have a narrower bed opening with factory rails, so they need RamBox-specific covers. Everything below is labelled standard or RamBox.$i$, $g$- **RamBox** = separate SKU. A standard-bed cover will not seal on a RamBox truck and vice-versa.
@@ -29,7 +29,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 Ram 1500 DT (5'7" / 6'
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ram' AND v.model_slug='1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 GMC Sierra 1500 (MultiPro & CarbonPro Fit Guide)$t$, $m$Sierra 1500 tonneau covers by bed length, split for MultiPro tailgate and the CarbonPro composite bed.$m$, $i$The Sierra shares its 5'8", 6'6" and 8 ft beds with the Silverado, but two GMC-only options change the answer: the MultiPro six-way tailgate (standard on most trims) and the optional CarbonPro carbon-fiber bed (AT4 / Denali). CarbonPro needs its own covers.$i$, $g$- **CarbonPro bed** has different rail geometry — most standard covers do not clamp. Only buy covers that list CarbonPro.
@@ -39,7 +39,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2019–2025 GMC Sierra 1500 (Multi
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='gmc' AND v.model_slug='sierra-1500' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Toyota Tundra (5.5 / 6.5 / 8.1 ft Bed)$t$, $m$Fit-verified tonneau covers for the 3rd-gen Tundra's composite bed, by bed length, with deck-rail notes.$m$, $i$The 2022+ Tundra has a composite bed with a factory deck-rail system on three lengths: 5.5 ft (66 in), 6.5 ft (79 in) and 8.1 ft (98 in). The deck rails sit inside the bed rail cap, so most clamp-on covers fit, but the composite rail cap dents easier than steel — use rubber-padded clamps.$i$, $g$- **2007–2021 Tundra covers do not fit** — the bed and rails changed completely in 2022.
@@ -49,7 +49,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Toyota Tundra (5.5 / 6
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='toyota' AND v.model_slug='tundra' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2020–2025 Jeep Gladiator (5 ft Bed, Trail Rail Guide)$t$, $m$Gladiator JT tonneau covers verified for the 5 ft bed, split between standard beds and the optional Trail Rail cargo system.$m$, $i$The Gladiator has one 5 ft (60 in) bed. The fit question is the optional Trail Rail cargo management system — its rails sit inside the bed and change how clamp-style covers seat. The Gladiator also has a taller bed rail than most midsize trucks, so low-profile hard covers look best.$i$, $g$- **Trail Rail system**: covers must state Trail Rail compatibility or you remove the rails (Torx bolts, reversible).
@@ -59,7 +59,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2020–2025 Jeep Gladiator (5 ft B
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='jeep' AND v.model_slug='gladiator' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Ford Maverick (4.5 ft FLEXBED)$t$, $m$Maverick tonneau covers verified for the 4.5 ft FLEXBED, with notes on the bed slots, tie-downs and the hybrid.$m$, $i$The Maverick's 4.5 ft (54 in) FLEXBED is unique — no other truck shares it, so only Maverick-listed covers fit. The bed rails have molded slots for DIY dividers and the tailgate has a mid-position stop; both are compatible with most covers.$i$, $g$- **FLEXBED slots** are below the rail cap; clamp-style covers fit over them.
@@ -69,7 +69,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2022–2025 Ford Maverick (4.5 ft 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ford' AND v.model_slug='maverick' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2024–2025 Ford Ranger (5 ft Bed, New Generation)$t$, $m$Tonneau covers verified for the all-new 2024+ Ranger's 5 ft bed — 2019–2023 covers do not fit.$m$, $i$The 2024 Ranger is a new platform with a 5 ft (60 in) bed. Many sellers list one SKU for 2019–2026, but the new bed is not identical to the old one, so treat 2019–2026 listings as unverified until the seller confirms 2024+ — the fit pill on each card shows what we could verify.$i$, $g$- **2019–2023 covers are not automatically compatible** — the 2024 bed rail cap and width differ; only buy listings that name 2024+ or confirm with the seller.
@@ -79,7 +79,7 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2024–2025 Ford Ranger (5 ft Bed,
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='ford' AND v.model_slug='ranger' AND v.gen_slug='2024-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Bed Racks for 2016–2023 Toyota Tacoma (Deck Rail Mount, Tent-Ready)$t$, $m$Overland bed racks verified for the 3rd-gen Tacoma's deck-rail system, for rooftop tents, bikes and cargo.$m$, $i$The 3rd-gen Tacoma's composite bed has factory deck rails that most racks clamp to — no drilling. Pick by height: low-profile (cab height) for MPG and tents; mid-height for bed access under a tent; high (over-cab) for max storage.$i$, $g$- **Deck rails are the mount** — racks without deck-rail clamps need drilling into the composite bed; avoid.
@@ -89,7 +89,7 @@ SELECT v.id, c.id, $t$Best Bed Racks for 2016–2023 Toyota Tacoma (Deck Rail Mo
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='bed-racks'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2016-2023'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Bed Racks for 2020–2025 Jeep Gladiator (Rooftop Tent & Overland)$t$, $m$Gladiator bed racks verified for rooftop tents and cargo, with Trail Rail and bed-height notes.$m$, $i$With a removable roof, the Gladiator's bed rack is the overland platform. Racks either clamp to the bed rail cap or bolt into the Trail Rail channels. Bed rails sit high, so most tents end up level with the cab roof on a mid-height rack.$i$, $g$- **Trail Rail**: some racks use it as the mount; others need it removed.
@@ -99,7 +99,7 @@ SELECT v.id, c.id, $t$Best Bed Racks for 2020–2025 Jeep Gladiator (Rooftop Ten
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='bed-racks'
 WHERE m.slug='jeep' AND v.model_slug='gladiator' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Bed Racks for 2024–2025 Ford Ranger (Overland & Rooftop Tent)$t$, $m$Bed racks with confirmed 2024+ Ranger fitment — the new bed does not accept 2019–2023 racks.$m$, $i$The 2024 Ranger bed has no factory rail channels, so racks clamp to the bed rail cap or bolt through. Most Amazon racks are adjustable universal clamp designs listed across several generations — check the fit pill and confirm bed-width compatibility with the seller.$i$, $g$- **2019–2023 fitment is not automatic** — confirm 2024+ with the seller before ordering.
@@ -109,7 +109,7 @@ SELECT v.id, c.id, $t$Best Bed Racks for 2024–2025 Ford Ranger (Overland & Roo
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='bed-racks'
 WHERE m.slug='ford' AND v.model_slug='ranger' AND v.gen_slug='2024-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2010–2024 Toyota 4Runner (Raised Rails vs TRD Pro)$t$, $m$Crossbars, platforms and baskets verified for the 5th-gen 4Runner's raised rails, with a separate answer for TRD Pro.$m$, $i$Most 5th-gen 4Runners have factory raised rails — crossbar kits clamp on with no drilling. TRD Pro trims ship with a factory basket rack instead, which needs basket-specific mounts. Roof load is 165 lb dynamic; that caps rooftop tents to lightweight softshells.$i$, $g$- **TRD Pro** = factory basket, no raised rails. Buy TRD-Pro-listed mounts.
@@ -119,7 +119,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2010–2024 Toyota 4Runner
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='toyota' AND v.model_slug='4runner' AND v.gen_slug='2010-2024'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2025+ Toyota 4Runner (6th Gen)$t$, $m$Crossbars and platforms with confirmed 2025+ 4Runner fitment — 5th-gen racks do not fit the new roof.$m$, $i$The 6th-gen 4Runner moved to the TNGA-F platform with a new roof and rail geometry, so 2010–2024 racks do not carry over. Trailhunter ships with a factory rack; other trims have raised rails. Verified 2025+ fitments only below.$i$, $g$- **5th-gen racks do not fit.**
@@ -129,7 +129,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2025+ Toyota 4Runner (6th 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='toyota' AND v.model_slug='4runner' AND v.gen_slug='2025-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks for 2021–2025 Ford Bronco (Hardtop, Soft Top & 2-Door vs 4-Door)$t$, $m$Bronco roof racks verified by top type and door count, from hardtop crossbars to full exo-racks.$m$, $i$The Bronco's roof is removable, so racks mount one of three ways: crossbars on the hardtop's factory rail points, an exo-rack that bolts to the body, or nothing on a soft top. 2-door and 4-door need different rack lengths.$i$, $g$- **Soft top** = no roof rack; use a rear cargo carrier or exo-rack.
@@ -139,7 +139,7 @@ SELECT v.id, c.id, $t$Best Roof Racks for 2021–2025 Ford Bronco (Hardtop, Soft
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='ford' AND v.model_slug='bronco' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Subaru Outback (Integrated Rails vs Wilderness)$t$, $m$Crossbars and platforms verified for the 6th-gen Outback's swing-out integrated rails, plus the fixed Wilderness rack.$m$, $i$Most 2020+ Outbacks have raised rails with integrated crossbars that swing out from the rails — great for occasional use, but capped at 176 lb and not ideal for tents or heavy boxes. Aftermarket kits either clamp to the rails with the factory bars stowed, or replace them. The Wilderness trim has a fixed ladder-style rack that takes different mounts.$i$, $g$- **Wilderness** = fixed rack, not swing-out bars; buy Wilderness-listed mounts.
@@ -149,7 +149,7 @@ SELECT v.id, c.id, $t$Best Roof Racks & Crossbars for 2020–2025 Subaru Outback
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='subaru' AND v.model_slug='outback' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Roof Racks for 2020–2025 Tesla Model Y (Fixed-Point Glass Roof, Juniper Included)$t$, $m$Roof racks that mount to the Model Y's four fixed points — the only safe way to carry loads on the glass roof.$m$, $i$The Model Y has a panoramic glass roof with four hidden fixed mounting points under plastic caps. Only fixed-point crossbar kits fit — no clamp bars, no door-jamb bars, ever. Tesla's own rack and a handful of aftermarket kits use these points. The 2025 Juniper refresh keeps the same mount points.$i$, $g$- **Never use door-jamb or clamp crossbars** on the glass roof.
@@ -159,7 +159,7 @@ SELECT v.id, c.id, $t$Best Roof Racks for 2020–2025 Tesla Model Y (Fixed-Point
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='roof-racks'
 WHERE m.slug='tesla' AND v.model_slug='model-y' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2019–2025 Toyota RAV4 (Raised Rails, Hybrid & Prime)$t$, $m$Cargo boxes and crossbar pairings verified for the 5th-gen RAV4, with sizing for the hatch and the rails.$m$, $i$The RAV4's raised rails (XLE and up) take standard clamp crossbars; LE has a bare roof and needs a different kit. A 12–16 cu ft box is the sweet spot — anything longer than 80 in can foul the hatch when open. Hybrid and Prime share the roof.$i$, $g$- **LE trim** has no rails — needs a bare-roof crossbar kit before any box.
@@ -169,7 +169,7 @@ SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2019–2025 Toyota RAV4 (Rais
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='cargo-boxes'
 WHERE m.slug='toyota' AND v.model_slug='rav4' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2020–2025 Subaru Outback$t$, $m$Cargo boxes verified for the Outback's integrated crossbars and aftermarket rails, with hatch-clearance sizing.$m$, $i$The Outback's long roof takes big boxes well, but the factory swing-out bars sit close together — short boxes fit, long ones overhang. For 16 cu ft and up, use aftermarket bars with wider spread. Wilderness owners mount to the fixed rack.$i$, $g$- **Factory swing-out bars**: bar spread is fixed — check the box's minimum spread.
@@ -179,7 +179,7 @@ SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2020–2025 Subaru Outback$t$
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='cargo-boxes'
 WHERE m.slug='subaru' AND v.model_slug='outback' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2020–2025 Kia Telluride$t$, $m$Cargo boxes and crossbar pairings verified for the Telluride's raised rails and long roof.$m$, $i$The Telluride's flat, long roof with raised rails is one of the easiest three-row SUVs to load: clamp crossbars, then almost any box up to 22 cu ft fits without hatch issues. Roof load is 220 lb, higher than most rivals.$i$, $g$- **Raised rails** on every trim; factory crossbars are an accessory — aftermarket clamp bars are usually better.
@@ -189,7 +189,7 @@ SELECT v.id, c.id, $t$Best Rooftop Cargo Boxes for 2020–2025 Kia Telluride$t$,
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='cargo-boxes'
 WHERE m.slug='kia' AND v.model_slug='telluride' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2022–2025 Ford Maverick (Class III 2 in Receiver)$t$, $m$Bolt-on Class III hitches verified for the Maverick, plus what the factory 4K Tow Package already gives you.$m$, $i$Mavericks without the 4K Tow Package have no receiver (or a 1.25 in Class I on some builds). Aftermarket Class III hitches bolt to the existing frame holes and add a 2 in receiver for bike racks, cargo carriers and small trailers — within the truck's 2,000 lb (hybrid) or 4,000 lb (4K package) rating.$i$, $g$- **Hitch rating ≠ truck rating**: a Class III hitch says 5,000 lb, but the Maverick tows 2,000 lb (hybrid) or 4,000 lb (EcoBoost + 4K package).
@@ -199,7 +199,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2022–2025 Ford Maverick (Class 
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='ford' AND v.model_slug='maverick' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2019–2025 Toyota RAV4 (Hybrid & Prime Included)$t$, $m$Class III 2 in hitches verified for the 5th-gen RAV4 with ratings by trim, hybrid battery clearance and wiring notes.$m$, $i$Most RAV4s leave the factory with no receiver. Aftermarket Class III hitches give a 2 in receiver for bike racks and small trailers. Tow rating is 1,500 lb on most trims, 3,500 lb on Adventure / TRD Off-Road — the hitch never raises that.$i$, $g$- **Hybrid / Prime**: the battery sits ahead of the rear axle; hitches list hybrid compatibility — buy those.
@@ -209,7 +209,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2019–2025 Toyota RAV4 (Hybrid &
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='toyota' AND v.model_slug='rav4' AND v.gen_slug='2019-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Tesla Model Y (Bike Racks, Cargo & 3,500 lb Tow)$t$, $m$Hitches verified for the Model Y — the factory Tow Package option, the retrofit, and aftermarket 2 in receivers.$m$, $i$The Model Y tows 3,500 lb with Tesla's Tow Package (2 in receiver + trailer mode). If you didn't order it, you have two options: Tesla's retrofit, or an aftermarket bolt-on 2 in receiver for bike racks and cargo carriers (no trailer mode, so no towing without it).$i$, $g$- **Aftermarket hitch = no Trailer Mode** — fine for bike racks, not for towing.
@@ -219,7 +219,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Tesla Model Y (Bike R
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='tesla' AND v.model_slug='model-y' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Toyota Highlander (Class III, 5,000 lb)$t$, $m$Class III hitches verified for the 4th-gen Highlander and Highlander Hybrid, with wiring and no-cut options.$m$, $i$The Highlander is rated 5,000 lb with the factory tow package; without it, an aftermarket Class III hitch bolts to the frame for bike racks, cargo carriers and small trailers. Hybrids share the hitch fitment.$i$, $g$- **Grand Highlander** is a different vehicle — separate hitches.
@@ -229,7 +229,7 @@ SELECT v.id, c.id, $t$Best Trailer Hitches for 2020–2025 Toyota Highlander (Cl
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='hitches'
 WHERE m.slug='toyota' AND v.model_slug='highlander' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2025+ Toyota 4Runner (6th Gen)$t$, $m$Laser-fit floor liners and rubber mats with confirmed 2025+ 4Runner fitment — 5th-gen mats do not fit.$m$, $i$The 6th-gen 4Runner has a new floor, so 2010–2024 mats are the wrong shape. This list covers full-coverage liners (raised edges) and flat rubber mats, for 2-row and 3-row (Limited / Platinum) configurations.$i$, $g$- **5th-gen mats do not fit.**
@@ -239,7 +239,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2025+ Toyota 4Runner (6th Gen
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='toyota' AND v.model_slug='4runner' AND v.gen_slug='2025-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Honda CR-V (Incl. Hybrid)$t$, $m$Fitted floor liners and rubber mats verified for the 6th-gen CR-V and CR-V Hybrid — 2017–2022 mats do not fit.$m$, $i$The 2023 CR-V grew and changed its floor, so previous-gen mats are the wrong shape. Hybrid and gas share the front and rear floor; the cargo area differs because the Hybrid's floor sits slightly higher.$i$, $g$- **2017–2022 mats do not fit** the 2023+ floor.
@@ -249,7 +249,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2023–2025 Honda CR-V (Incl.
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='honda' AND v.model_slug='cr-v' AND v.gen_slug='2023-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Tesla Model Y (Juniper vs Pre-Refresh)$t$, $m$All-weather liners and mats verified for the Model Y, split for 2020–2024 and the 2025 Juniper refresh, including frunk, trunk well and 7-seat.$m$, $i$The Model Y has more mat zones than most SUVs: front, rear, trunk floor, trunk well, frunk and — on 7-seaters — the third row. The 2025 Juniper refresh changed the floor and centre console, so mats are not interchangeable across the refresh.$i$, $g$- **Juniper (2025+)** mats ≠ 2020–2024 mats. Check the year on every piece.
@@ -259,7 +259,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2020–2025 Tesla Model Y (Ju
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='tesla' AND v.model_slug='model-y' AND v.gen_slug='2020-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Jeep Grand Cherokee (WL, 4xe, and L)$t$, $m$Floor liners verified for the WL Grand Cherokee, with separate notes for the 4xe hybrid and the three-row Grand Cherokee L.$m$, $i$The 2022+ WL platform has different floors for the two-row Grand Cherokee and the three-row Grand Cherokee L, and the 4xe hybrid changes the cargo floor. Match all three variables — model, rows, powertrain — before buying.$i$, $g$- **Grand Cherokee L** (3-row) has a longer rear floor; 2-row liners will not fit.
@@ -269,7 +269,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2022–2025 Jeep Grand Cherok
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='jeep' AND v.model_slug='grand-cherokee' AND v.gen_slug='2022-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Ford F-150 (SuperCrew, SuperCab, Lightning)$t$, $m$Fitted floor liners verified for the 14th-gen F-150 by cab and features — rear under-seat storage, Lightning and the Interior Work Surface.$m$, $i$The 14th-gen F-150 has three cab types and several features that change mat shape: the fold-flat rear seat with under-seat storage, the Max Recline front seats, and the Lightning's flat floor. Match cab + those options.$i$, $g$- **SuperCrew vs SuperCab** rear mats differ; Regular Cab has no rear.
@@ -279,7 +279,7 @@ SELECT v.id, c.id, $t$Best Floor Mats & Liners for 2021–2025 Ford F-150 (Super
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='floor-mats'
 WHERE m.slug='ford' AND v.model_slug='f-150' AND v.gen_slug='2021-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best LED Light Bars for 2018–2025 Jeep Wrangler JL (Hood, Bumper & Windshield Mounts)$t$, $m$LED light bars and brackets verified for the JL Wrangler, by mount position, with wiring and legality notes.$m$, $i$The JL Wrangler takes light bars in four places: hood cowl (20–22 in), stubby/steel bumper (20–30 in), windshield / A-pillar (50–52 in) and the roof (only with a rack). Brackets are JL-specific and often sold separately — check whether the bar includes them.$i$, $g$- **JK brackets do not fit** the JL windshield or hood.
@@ -289,7 +289,7 @@ SELECT v.id, c.id, $t$Best LED Light Bars for 2018–2025 Jeep Wrangler JL (Hood
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='led-light-bars'
 WHERE m.slug='jeep' AND v.model_slug='wrangler' AND v.gen_slug='2018-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();
 
 INSERT INTO fitment_pages (vehicle_id, category_id, title, meta_desc, intro_md, gotchas_md, faq, verdict_md, status, verified_at)
 SELECT v.id, c.id, $t$Best Tonneau Covers for 2024–2025 Toyota Tacoma (4th Gen, 5 ft & 6 ft Bed)$t$, $m$Tonneau covers with confirmed 2024+ Tacoma fitment — the new composite bed and deck rails do not accept 2016–2023 covers.$m$, $i$The 4th-gen Tacoma keeps a composite bed with deck rails, but the bed rail cap and width changed, so 2016–2023 covers do not fit. Two beds: 5 ft (60 in) and 6 ft (74 in). Hybrid i-FORCE MAX trucks share the bed.$i$, $g$- **2016–2023 covers do not fit.**
@@ -299,4 +299,4 @@ SELECT v.id, c.id, $t$Best Tonneau Covers for 2024–2025 Toyota Tacoma (4th Gen
 FROM vehicles v JOIN makes m ON m.id=v.make_id JOIN categories c ON c.slug='tonneau-covers'
 WHERE m.slug='toyota' AND v.model_slug='tacoma' AND v.gen_slug='2024-present'
 ON CONFLICT (vehicle_id, category_id) DO UPDATE SET title=EXCLUDED.title, meta_desc=EXCLUDED.meta_desc, intro_md=EXCLUDED.intro_md,
-  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, verified_at=EXCLUDED.verified_at, updated_at=now();
+  gotchas_md=EXCLUDED.gotchas_md, faq=EXCLUDED.faq, verdict_md=EXCLUDED.verdict_md, updated_at=now();

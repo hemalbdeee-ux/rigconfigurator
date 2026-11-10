@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allVehicles, getVehicle, heroFor, vehiclePath, vehicleTitle, type Vehicle } from "@/lib/queries";
-import { getUpgrades, vehicleGuideSummaries, explainersFor } from "@/lib/pillars";
+import { allVehicles, getVehicle, heroFor, siblingsOf, yearsLabel, vehiclePath, vehicleTitle, type Vehicle } from "@/lib/queries";
+import { allPillars, getUpgrades, vehicleGuideSummaries, explainersFor } from "@/lib/pillars";
 import { SITE_URL } from "@/lib/db";
 import { seoTitle, titleYears, clampDesc } from "@/lib/seo";
 import { linkMap } from "@/lib/links";
@@ -33,8 +33,11 @@ async function load(p: P) {
   if (!v) return null;
   const page = await getUpgrades(v.id);
   if (!page) return null;
-  const [guides, hero, learn, links] = await Promise.all([vehicleGuideSummaries(v.id), heroFor(v.id), explainersFor(page.category_slugs), linkMap(v, "__upgrades__")]);
-  return { v, page, guides, hero, learn, links };
+  const [guides, hero, learn, links, sibs, pillars] = await Promise.all([vehicleGuideSummaries(v.id), heroFor(v.id), explainersFor(page.category_slugs), linkMap(v, "__upgrades__"), siblingsOf(v), allPillars()]);
+  // Upgrade plans of the closest vehicles (same make first, then same body style) that have one published.
+  const live = new Set(pillars.filter(p => p.kind === "upgrades").map(p => p.path));
+  const others = sibs.map(s => ({ path: `${vehiclePath(s)}/upgrades`, label: `${yearsLabel(s)} ${s.make_name} ${s.model_name}` })).filter(o => live.has(o.path));
+  return { v, page, guides, hero, learn, links, others };
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
@@ -53,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
 export default async function UpgradesPage({ params }: { params: Promise<P> }) {
   const d = await load(await params);
   if (!d) notFound();
-  const { v, page, guides, hero, learn, links } = d;
+  const { v, page, guides, hero, learn, links, others } = d;
   const a = page.article;
   const L = new Linker(links);
   const hub = vehiclePath(v);
@@ -136,6 +139,10 @@ export default async function UpgradesPage({ params }: { params: Promise<P> }) {
         <p className="muted">Fit facts plus every guide for the {vehicleTitle(v)}.</p>
         <Link className="btn" href={hub}>Open the {model(v)} fit hub →</Link>
       </section>
+
+      {others.length > 0 && (<section><h2>Upgrade plans for similar vehicles</h2>
+        <ul className="plain-links">{others.map(o => <li key={o.path}><Link href={o.path}>{o.label} upgrades, ranked</Link></li>)}</ul>
+        <p className="muted" style={{ fontSize: 14 }}><Link href="/vehicles">All vehicles we cover →</Link></p></section>)}
 
       <Method method={a.method} sources={a.sources} />
       <AuthorBox author={a.author} />
