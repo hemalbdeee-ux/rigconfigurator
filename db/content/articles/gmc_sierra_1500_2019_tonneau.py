@@ -6,7 +6,7 @@ manufacturer/retailer pages in SOURCES (checked 2026-09-24).
 
 KEY = ("gmc", "sierra-1500", "2019-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2019–2026 GMC Sierra 1500: 6 Picks for CarbonPro and Steel Beds"
+TITLE = "Best Tonneau Bed Covers for 2019–2026 GMC Sierra 1500: 6 Picks for CarbonPro and Steel Beds"
 META = ("Six Sierra 1500 tonneau covers split by bed: four CarbonPro-specific part numbers and two for steel beds, "
         "with MultiPro tailgate notes, load ratings and warranties.")
 

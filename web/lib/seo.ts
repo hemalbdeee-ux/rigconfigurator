@@ -29,6 +29,7 @@ const SHORT: Record<string, string> = {
   "roof-racks": "Roof Racks",
   "hitches": "Trailer Hitches",
   "floor-mats": "Floor Mats",
+  "tonneau-covers": "Tonneau Bed Covers",   // "tacoma bed cover" 3,700/mo vs our old "Tonneau Covers" only (Ahrefs, Nov 2026)
   "running-boards": "Running Boards",
   "dash-cams": "Dash Cams",
   "lift-kits": "Lift Kits",

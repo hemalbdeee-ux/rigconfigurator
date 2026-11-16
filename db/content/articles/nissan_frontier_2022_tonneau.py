@@ -6,7 +6,7 @@ opened from our research tools, so no owner reports are cited.
 
 KEY = ("nissan", "frontier", "2022-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2022–2026 Nissan Frontier: 6 Fit-Checked Picks for 5 and 6 ft Beds"
+TITLE = "Best Tonneau Bed Covers for 2022–2026 Nissan Frontier: 6 Fit-Checked Picks for 5 and 6 ft Beds"
 META = ("Six tonneau covers fit-checked for the 2022+ Frontier's 5 and 6 ft beds, with load ratings, warranties, "
         "Utili-track notes and how to spot 2005–2021 listings.")
 

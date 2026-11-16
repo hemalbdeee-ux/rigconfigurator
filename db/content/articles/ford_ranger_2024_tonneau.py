@@ -6,7 +6,7 @@ Text fixes 2026-10-04: rack FAQ and the racks look_for section now say to pick t
 
 KEY = ("ford", "ranger", "2024-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2024–2026 Ford Ranger: 6 Fit-Checked Picks incl. Raptor"
+TITLE = "Best Tonneau Bed Covers for 2024–2026 Ford Ranger: 6 Fit-Checked Picks incl. Raptor"
 META = ("Six tonneau covers matched to the new 2024–2026 Ranger's 5 ft bed, with load ratings, warranties, Raptor "
         "fit, cargo-rail notes and the 2026 bed-rail change.")
 

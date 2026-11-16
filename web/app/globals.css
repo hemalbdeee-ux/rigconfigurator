@@ -218,3 +218,5 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .owner-report { border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 4px 18px 10px; margin: 28px 0; background: var(--card); }
 .owner-report h2 { font-size: 20px; }
 .plain-links { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 18px; }
+.spec .src-col { width: 1%; white-space: nowrap; font-size: 13px; text-align: right; }
+.spec .sources li { margin: 4px 0; }

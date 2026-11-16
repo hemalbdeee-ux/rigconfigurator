@@ -6,7 +6,7 @@ that name the Ford Maverick and its 4.5 ft (54.4 in) bed.
 
 KEY = ("ford", "maverick", "2022-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2022–2026 Ford Maverick: 6 Picks for the 4.5 ft FLEXBED"
+TITLE = "Best Tonneau Bed Covers for 2022–2026 Ford Maverick: 6 Picks for the 4.5 ft FLEXBED"
 META = ("Six tonneau covers for the Ford Maverick's 54.4 in FLEXBED, with load ratings, warranties, "
         "install times and the leak, FLEXBED and hybrid-vs-EcoBoost fit notes.")
 

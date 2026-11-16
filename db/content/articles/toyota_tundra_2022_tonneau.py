@@ -6,7 +6,7 @@ opened from our research tools, so no owner reports are cited.
 
 KEY = ("toyota", "tundra", "2022-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2022–2026 Toyota Tundra: 6 Fit-Checked Picks for Deck Rail Beds"
+TITLE = "Best Tonneau Bed Covers for 2022–2026 Toyota Tundra: 6 Fit-Checked Picks for Deck Rail Beds"
 META = ("Six tonneau covers fit-checked for the 3rd-gen Tundra's 5.5, 6.5 and 8.1 ft beds, with load ratings, "
         "warranties and the deck rail and cleat notes that decide fit.")
 

@@ -5,7 +5,7 @@ from the manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
 
 KEY = ("ford", "f-150", "2015-2020", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2015–2020 Ford F-150: 6 Fit-Checked Picks by Bed Length"
+TITLE = "Best Tonneau Bed Covers for 2015–2020 Ford F-150: 6 Fit-Checked Picks by Bed Length"
 META = ("Six tonneau covers matched to the 13th-gen aluminum F-150 by bed length, with load ratings, warranties, "
         "install times and the Raptor and 2021+ part-number traps.")
 

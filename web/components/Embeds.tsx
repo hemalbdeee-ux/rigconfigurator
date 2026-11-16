@@ -18,7 +18,7 @@ function YouTube({ e }: { e: Extract<Embed, { kind: "youtube" }> }) {
         {play
           ? <iframe src={`https://www.youtube-nocookie.com/embed/${e.id}?autoplay=1&rel=0`} title={e.title} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" />
           : <button type="button" className="embed-yt-facade" onClick={() => setPlay(true)} aria-label={`Play video: ${e.title}`}>
-              <img src={`https://i.ytimg.com/vi/${e.id}/hqdefault.jpg`} alt="" loading="lazy" width={480} height={360} />
+              <img src={`https://i.ytimg.com/vi/${e.id}/hqdefault.jpg`} alt={`Video: ${e.title}`} loading="lazy" width={480} height={360} />
               <span className="embed-play" aria-hidden="true">▶</span>
             </button>}
       </div>

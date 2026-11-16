@@ -6,7 +6,7 @@ pages in SOURCES (checked 2026-09-24).
 
 KEY = ("chevrolet", "colorado", "2023-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2023–2026 Chevy Colorado: 6 Picks Built for the New 5'2\" Bed"
+TITLE = "Best Tonneau Bed Covers for 2023–2026 Chevy Colorado: 6 Picks Built for the New 5'2\" Bed"
 META = ("Six tonneau covers with 2023+ Colorado part numbers, not recycled 2015–2022 fits, with load ratings, warranties "
         "and Trail Boss sport bar and StowFlex notes.")
 

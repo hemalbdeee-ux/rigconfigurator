@@ -5,7 +5,7 @@ manufacturer/retailer pages listed in SOURCES (checked 2026-09-24).
 
 KEY = ("chevrolet", "silverado-1500", "2019-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2019–2026 Chevy Silverado 1500: 6 Picks for Short, Standard and Long Beds"
+TITLE = "Best Tonneau Bed Covers for 2019–2026 Chevy Silverado 1500: 6 Picks for Short, Standard and Long Beds"
 META = ("Six tonneau covers matched to the T1 Silverado 1500's 5'10\", 6'7\" and 8 ft beds, with load ratings, warranties "
         "and Multi-Flex, power tailgate and 2019 LD fit notes.")
 

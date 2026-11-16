@@ -6,7 +6,7 @@ Source fixes 2026-10-04: Tremor FAQ now states SuperCrew 4x4 XLT/Lariat from mod
 
 KEY = ("ford", "ranger", "2019-2023", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2019–2023 Ford Ranger: 6 Fit-Checked Picks for 5 ft and 6 ft Beds"
+TITLE = "Best Tonneau Bed Covers for 2019–2023 Ford Ranger: 6 Fit-Checked Picks for 5 ft and 6 ft Beds"
 META = ("Six tonneau covers matched to the 2019–2023 Ranger's 5 ft SuperCrew and 6 ft SuperCab beds, with load "
         "ratings, warranties, install notes and the 2024 part-number trap.")
 

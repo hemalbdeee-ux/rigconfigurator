@@ -4,7 +4,8 @@ import { staticOg } from "@/components/Hero";
 import { activeDeals, trackingStats } from "@/lib/home";
 import { Price } from "@/components/Price";
 
-export const dynamic = "force-dynamic";
+// ISR (15 min): was rendered per request at ~2.3 s. db/apply.sh revalidates it after each deploy; the hourly deals job changes little in between.
+export const revalidate = 900;
 
 // An empty deals page is not a search landing page: noindex until at least one qualifying drop is listed.
 export async function generateMetadata(): Promise<Metadata> {

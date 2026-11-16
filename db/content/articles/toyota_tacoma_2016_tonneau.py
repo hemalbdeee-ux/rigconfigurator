@@ -7,7 +7,7 @@ but the deck rail cleats and Trail Edition bed storage boxes decide what actuall
 
 KEY = ("toyota", "tacoma", "2016-2023", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2016–2023 Toyota Tacoma: 6 Picks for the 5 ft and 6 ft Beds"
+TITLE = "Best Tonneau Bed Covers for 2016–2023 Toyota Tacoma: 6 Picks for the 5 ft and 6 ft Beds"
 META = ("Six tonneau covers for the 3rd-gen Tacoma's 60.5 and 73.7 in beds: load ratings, warranties, "
         "deck rail cleat notes and which ones clear Trail Edition bed boxes.")
 

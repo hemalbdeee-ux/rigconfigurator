@@ -6,7 +6,7 @@ that name the 2019+ Ram 1500 (new body), bed length and RamBox / multifunction-t
 
 KEY = ("ram", "1500", "2019-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2019–2026 Ram 1500: 6 Picks Matched to Bed, RamBox and Tailgate"
+TITLE = "Best Tonneau Bed Covers for 2019–2026 Ram 1500: 6 Picks Matched to Bed, RamBox and Tailgate"
 META = ("Six tonneau covers for the DT Ram 1500's 5'7\" and 6'4\" beds, with the RamBox, multifunction "
         "tailgate, TRX bed bar and Ram Classic part-number traps spelled out.")
 

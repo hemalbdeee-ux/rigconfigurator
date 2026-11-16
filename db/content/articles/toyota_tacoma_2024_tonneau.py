@@ -7,7 +7,7 @@ over, and listing year ranges lag the model year. Different picks mix from the 2
 
 KEY = ("toyota", "tacoma", "2024-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2024–2026 Toyota Tacoma: 6 Deck-Rail-Ready Picks by Bed"
+TITLE = "Best Tonneau Bed Covers for 2024–2026 Toyota Tacoma: 6 Deck-Rail-Ready Picks by Bed"
 META = ("Six tonneau covers built for the 4th-gen Tacoma's 5 ft and 6 ft beds: deck rail requirements, 400–600 lb "
         "ratings, warranties, and why 2016–2023 covers won't fit.")
 

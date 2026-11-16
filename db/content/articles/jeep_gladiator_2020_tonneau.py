@@ -6,7 +6,7 @@ that name the Jeep Gladiator (JT) and the 5 ft (60 in) bed.
 
 KEY = ("jeep", "gladiator", "2020-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for 2020–2026 Jeep Gladiator: 5 Picks for the 5 ft Bed and Trail Rail"
+TITLE = "Best Tonneau Bed Covers for 2020–2026 Jeep Gladiator: 5 Picks for the 5 ft Bed and Trail Rail"
 META = ("Five tonneau covers for the Jeep Gladiator's 5 ft bed, with load ratings, warranties, Trail Rail "
         "fit and the tailgate-lock and soft-top security notes.")
 

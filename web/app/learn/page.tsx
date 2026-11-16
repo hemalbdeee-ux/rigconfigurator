@@ -4,8 +4,8 @@ import { allPillars } from "@/lib/pillars";
 import { SITE_URL } from "@/lib/db";
 import { staticOg } from "@/components/Hero";
 
-// Rendered per request: at `docker build` the DB is unreachable and a prerendered copy would be empty.
-export const dynamic = "force-dynamic";
+// ISR: the build-time copy is empty (no DB during `docker build`); db/apply.sh revalidates this path right after each deploy.
+export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Learn: Truck & SUV Accessory Explainers",
   description: "Plain-English explainers for truck and SUV accessories: hard vs soft tonneau covers, hitch classes, roof rail types, and upgrade plans by vehicle.",

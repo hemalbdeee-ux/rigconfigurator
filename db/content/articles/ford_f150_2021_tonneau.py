@@ -6,7 +6,7 @@ Rewritten 2026-10-28 so the page reads from the 14th-gen angle rather than as a 
 
 KEY = ("ford", "f-150", "2021-present", "tonneau-covers")
 
-TITLE = "Best Tonneau Covers for the 2021–2026 Ford F-150: 6 Picks Checked for Lightning, Raptor and the Pro Access Tailgate"
+TITLE = "Best Tonneau Bed Covers for the 2021–2026 Ford F-150: 6 Picks Checked for Lightning, Raptor and the Pro Access Tailgate"
 META = ("Tonneau covers for the 14th-gen F-150, matched by bed length and checked against what this generation changed: "
         "the Lightning, the Raptor, BoxLink cleats and the 2024 Pro Access tailgate. Six picks from $229 to $2,150.")
 
