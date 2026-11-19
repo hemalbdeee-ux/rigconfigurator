@@ -220,3 +220,7 @@ a.autolink { text-decoration: underline; text-underline-offset: 2px; }
 .plain-links { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 18px; }
 .spec .src-col { width: 1%; white-space: nowrap; font-size: 13px; text-align: right; }
 .spec .sources li { margin: 4px 0; }
+
+.year-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 14px 0; font-size: 15px; }
+.year-pick a { border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; text-decoration: none; background: var(--card); }
+.year-pick a:hover { border-color: var(--ok); }

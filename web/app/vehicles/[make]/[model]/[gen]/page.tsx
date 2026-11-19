@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/db";
 import { Price } from "@/components/Price";
 import { hubSeoTitle, shortCategory, clampDesc, MAX_DESC } from "@/lib/seo";
 import { upgradesPathFor } from "@/lib/pillars";
-import { specPath, specsForModel } from "@/lib/specs";
+import { genSpecsForModel, specPath, specsForModel } from "@/lib/specs";
 
 export const revalidate = 3600;
 type P = { make: string; model: string; gen: string };
@@ -66,6 +66,7 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
   const v = await getVehicle(make, model, gen);
   if (!v) notFound();
   const [cats, fits, pages, sibs, hero, upgrades, specs] = await Promise.all([categoriesFor(v.body_style), fitsFor(v.id), pagesFor(v.id), siblingsOf(v), heroFor(v.id), upgradesPathFor(v), specsForModel(make, model)]);
+  const genSpecs = (await genSpecsForModel(make, model)).filter(x => x.gen_slug === gen);
   const path = vehiclePath(v);
   const published = new Map(pages.filter(p => p.status === "published").map(p => [p.category_slug, p]));
   const byCat = (slug: string) => fits.filter(f => f.category_slug === slug);
@@ -138,6 +139,8 @@ export default async function VehicleHub({ params }: { params: Promise<P> }) {
         <strong style={{ color: "var(--fg)" }}>{vehicleTitle(v)} upgrades, ranked by priority</strong> <span>→</span>
       </Link>)}
 
+      {genSpecs.length > 0 && (<section><h2>Specs by model year</h2>
+        <ul className="plain-links">{genSpecs.map(x => <li key={x.topic}><Link href={specPath(x)}>{x.gen_label} {v.model_name} {x.topic_label.toLowerCase()}</Link></li>)}</ul></section>)}
       {specs.length > 0 && (<section><h2>{v.model_name} specs</h2>
         <ul className="plain-links">{specs.map(x => <li key={x.topic}><Link href={specPath(x)}>{v.make_name} {v.model_name} {x.topic_label.toLowerCase()}</Link></li>)}</ul></section>)}
 

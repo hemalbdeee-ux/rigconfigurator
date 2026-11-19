@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { allPillars } from "@/lib/pillars";
+import { allCharts, specPath } from "@/lib/specs";
 import { SITE_URL } from "@/lib/db";
 import { staticOg } from "@/components/Hero";
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Learn() {
-  const all = await allPillars();
+  const [all, charts] = await Promise.all([allPillars(), allCharts()]);
   const explainers = all.filter(p => p.kind === "explainer");
   const upgrades = all.filter(p => p.kind === "upgrades");
   const jsonLd = { "@context": "https://schema.org", "@type": "CollectionPage", url: `${SITE_URL}/learn`, name: "Learn",
@@ -26,6 +27,8 @@ export default async function Learn() {
       <p className="dek">The questions to settle before you pick a product: which type, which rating, which size. Each explainer links to the fit-checked guides for every vehicle we cover.</p>
       {explainers.length > 0 && (<section><h2>Explainers</h2>
         <div className="grid">{explainers.map(p => <Link key={p.path} href={p.path} className="card"><h3>{p.title}</h3>{p.dek && <div className="muted" style={{ fontSize: 14 }}>{p.dek}</div>}</Link>)}</div></section>)}
+      {charts.length > 0 && (<section><h2>Spec charts</h2>
+        <div className="grid">{charts.map(c => <Link key={c.model_slug} href={specPath(c)} className="card"><h3>{c.title}</h3></Link>)}</div></section>)}
       {upgrades.length > 0 && (<section><h2>Upgrade plans by vehicle</h2>
         <div className="grid">{upgrades.map(p => <Link key={p.path} href={p.path} className="card"><h3>{p.title}</h3>{p.dek && <div className="muted" style={{ fontSize: 14 }}>{p.dek}</div>}</Link>)}</div></section>)}
       <p style={{ marginTop: 24 }}><Link href="/guides">Browse all buying guides by category →</Link></p>

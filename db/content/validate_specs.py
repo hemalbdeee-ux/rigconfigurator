@@ -18,6 +18,11 @@ def check(name, m):
     if e: return e
     make, model, topic = m.KEY
     if topic not in TOPICS: e.append(f"unknown topic {topic}")
+    kind, gen = getattr(m, "KIND", "model"), getattr(m, "GEN", "")
+    if kind not in ("model", "generation", "chart"): e.append(f"unknown KIND {kind}")
+    if kind == "generation" and not re.fullmatch(r"\d{4}-(\d{4}|present)", gen): e.append("generation page needs GEN like 2016-2023 or 2024-present")
+    if kind != "generation" and gen: e.append("GEN is only for generation pages")
+    if kind == "chart" and make != "chart": e.append('chart page: KEY = ("chart", <slug>, <topic>)')
     if not re.fullmatch(r"[a-z0-9-]+", make + model): e.append("slugs must be lowercase a-z, 0-9, -")
     if len(m.SEO_TITLE) > 60: e.append(f"SEO_TITLE {len(m.SEO_TITLE)} > 60")
     if not 70 <= len(m.META) <= 155: e.append(f"META length {len(m.META)} not 70-155")
@@ -44,6 +49,13 @@ def check(name, m):
             if any(isinstance(c, str) and re.search(r"\b(TBD|TODO|unknown|approx)\b", c, re.I) for c in r[:-1]): e.append(f"section {s['id']}: placeholder in row {r[0]!r}")
     for i in range(1, n_src + 1):
         if i not in used: e.append(f"source {i} is cited by no row")
+    ids = {s_["id"] for s_ in p["sections"]}
+    if kind == "generation":
+        if not p.get("years"): e.append("generation page needs PAGE.years {model year: section id}")
+        for y, sid in (p.get("years") or {}).items():
+            if not re.fullmatch(r"\d{4}", str(y)) or sid not in ids: e.append(f"PAGE.years {y}: no section {sid}")
+    for label, path in (p.get("links") or {}).items():
+        if not path.startswith("/"): e.append(f"PAGE.links {label}: path must start with /")
     words = len(" ".join([p["answer"], *p["check"], *[s.get("intro", "") for s in p["sections"]], *[n for s in p["sections"] for n in s.get("notes", [])], *[a for _, a in m.FAQ]]).split())
     if words > 900: e.append(f"{words} words outside tables (> 900)")
     return e

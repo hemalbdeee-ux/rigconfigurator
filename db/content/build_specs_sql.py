@@ -32,22 +32,28 @@ if __name__ == "__main__":
   UNIQUE (make_slug, model_slug, topic)
 );""",
            "-- publish_at: a published page is served only from this moment (scheduled release, 10:00 Asia/Dhaka on PUBLISH_AT).",
-           "ALTER TABLE spec_pages ADD COLUMN IF NOT EXISTS publish_at TIMESTAMPTZ;", ""]
+           "ALTER TABLE spec_pages ADD COLUMN IF NOT EXISTS publish_at TIMESTAMPTZ;",
+           "-- kind: model (/specs/<make>/<model>/<topic>), generation (/vehicles/<make>/<model>/<gen>/specs/<topic>) or chart (/learn/<slug>).",
+           "ALTER TABLE spec_pages ADD COLUMN IF NOT EXISTS kind TEXT NOT NULL DEFAULT 'model';",
+           "ALTER TABLE spec_pages ADD COLUMN IF NOT EXISTS gen_slug TEXT NOT NULL DEFAULT '';",
+           "ALTER TABLE spec_pages DROP CONSTRAINT IF EXISTS spec_pages_make_slug_model_slug_topic_key;",
+           "CREATE UNIQUE INDEX IF NOT EXISTS spec_pages_key ON spec_pages (make_slug, model_slug, gen_slug, topic);", ""]
     n = pub = 0
     for name, m in modules():
         errs = check(name, m)
         assert not errs, (name, errs)
         make, model, topic = m.KEY
+        kind, gen = getattr(m, "KIND", "model"), getattr(m, "GEN", "")
         status = "published" if (m.PUBLISH or preview) else "draft"
         at = getattr(m, "PUBLISH_AT", None)          # "YYYY-MM-DD": release day; None = live as soon as deployed
         at_sql = f"TIMESTAMPTZ '{at} 10:00:00+06'" if (at and status == "published" and not preview) else "NULL"
         pub_date = f"DATE '{at}'" if at else "CURRENT_DATE"
         faq = json.dumps([{"q": q, "a": a} for q, a in m.FAQ], ensure_ascii=False)
         page = json.dumps(m.PAGE, ensure_ascii=False)
-        out.append(f"""INSERT INTO spec_pages (make_slug, model_slug, topic, make_name, model_name, topic_label, title, seo_title, meta_desc, faq, page, status, published_at, publish_at)
-VALUES ('{make}', '{model}', '{topic}', {lit(m.MAKE)}, {lit(m.MODEL)}, {lit(m.TOPIC_LABEL)}, {lit(m.TITLE)}, {lit(m.SEO_TITLE)}, {lit(m.META)}, {lit(faq)}::jsonb, {lit(page)}::jsonb, '{status}', {pub_date if status == "published" else "NULL"}, {at_sql})
-ON CONFLICT (make_slug, model_slug, topic) DO UPDATE SET make_name=EXCLUDED.make_name, model_name=EXCLUDED.model_name, topic_label=EXCLUDED.topic_label,
-  title=EXCLUDED.title, seo_title=EXCLUDED.seo_title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq, page=EXCLUDED.page, status=EXCLUDED.status, publish_at=EXCLUDED.publish_at,
+        out.append(f"""INSERT INTO spec_pages (make_slug, model_slug, topic, make_name, model_name, topic_label, title, seo_title, meta_desc, faq, page, status, published_at, publish_at, kind, gen_slug)
+VALUES ('{make}', '{model}', '{topic}', {lit(m.MAKE)}, {lit(m.MODEL)}, {lit(m.TOPIC_LABEL)}, {lit(m.TITLE)}, {lit(m.SEO_TITLE)}, {lit(m.META)}, {lit(faq)}::jsonb, {lit(page)}::jsonb, '{status}', {pub_date if status == "published" else "NULL"}, {at_sql}, '{kind}', '{gen}')
+ON CONFLICT (make_slug, model_slug, gen_slug, topic) DO UPDATE SET make_name=EXCLUDED.make_name, model_name=EXCLUDED.model_name, topic_label=EXCLUDED.topic_label,
+  title=EXCLUDED.title, seo_title=EXCLUDED.seo_title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq, page=EXCLUDED.page, status=EXCLUDED.status, publish_at=EXCLUDED.publish_at, kind=EXCLUDED.kind,
   published_at=COALESCE(spec_pages.published_at, EXCLUDED.published_at), updated_at=now();
 """)
         n += 1; pub += status == "published"

@@ -11,6 +11,8 @@ import { Linker, Md } from "@/components/Md";
 import { AuthorBox, Avoid, Byline, Faq, Method, T, Takeaways, Toc, Verdict } from "@/components/PillarParts";
 import { getAuthor } from "@/lib/authors";
 import { CiteBox } from "@/components/CiteBox";
+import { allCharts, getChart, specPath } from "@/lib/specs";
+import { SpecView } from "@/components/SpecView";
 
 // Chart pages people quote: they get a citation box, and a link to the calculator that uses their figures.
 const DATA_PAGES = new Set(["roof-load-limits-by-vehicle", "factory-tow-hitch-by-vehicle", "truck-bed-length-chart"]);
@@ -25,12 +27,18 @@ type P = { slug: string };
 
 // Listing the params makes the route ISR (cached HTML) instead of rendered per request.
 export async function generateStaticParams() {
-  return (await allPillars()).filter(p => p.kind === "explainer").map(p => ({ slug: p.slug }));
+  return [...(await allPillars()).filter(p => p.kind === "explainer").map(p => ({ slug: p.slug })), ...(await allCharts()).map(c => ({ slug: c.model_slug }))];
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
-  const page = await getExplainer((await params).slug);
-  if (!page) return {};
+  const slug = (await params).slug;
+  const page = await getExplainer(slug);
+  if (!page) {   // spec chart (db/content/specs, KIND = "chart")
+    const c = await getChart(slug);
+    if (!c) return {};
+    return { title: { absolute: c.seo_title }, description: c.meta_desc, alternates: { canonical: specPath(c) },
+      openGraph: { title: c.title, description: c.meta_desc, url: specPath(c), type: "article", images: staticOg("vehicles", c.title) } };
+  }
   const path = `/learn/${page.slug}`;
   const cat = page.category_slugs[0];
   return {
@@ -44,8 +52,13 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
 }
 
 export default async function Explainer({ params }: { params: Promise<P> }) {
-  const page = await getExplainer((await params).slug);
-  if (!page) notFound();
+  const slug = (await params).slug;
+  const page = await getExplainer(slug);
+  if (!page) {
+    const chart = await getChart(slug);
+    if (!chart) notFound();
+    return <SpecView s={chart} />;
+  }
   const a = page.article;
   const path = `/learn/${page.slug}`;
   const perCat = await Promise.all(page.category_slugs.map(c => publishedGuides(c)));

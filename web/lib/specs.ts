@@ -3,12 +3,19 @@ import { q } from "./db";
 /** Spec lookup pages (/specs/<make>/<model>/<topic>). Content: db/content/specs/*.py → 014_spec_pages.sql. */
 export type SpecRow = (string | number | number[])[];   // cells…, then the source number(s) of the row
 export type SpecSection = { id: string; h: string; intro?: string; table: { head: string[]; rows: SpecRow[] }; notes?: string[] };
+export type SpecKind = "model" | "generation" | "chart";
 export type SpecPage = {
-  id: number; make_slug: string; model_slug: string; topic: string; make_name: string; model_name: string; topic_label: string;
+  id: number; kind: SpecKind; gen_slug: string; make_slug: string; model_slug: string; topic: string; make_name: string; model_name: string; topic_label: string;
   title: string; seo_title: string; meta_desc: string; faq: { q: string; a: string }[]; published_at: string | null;
-  page: { answer: string; reviewed: string; covers: string; not_covered?: string; sections: SpecSection[]; check: string[]; related?: string[]; sources: [string, string][] };
+  page: { answer: string; reviewed: string; covers: string; not_covered?: string; sections: SpecSection[]; check: string[]; related?: string[]; sources: [string, string][];
+    years?: Record<string, string>;      // generation page: model year → section id (the "pick your year" row)
+    gen_label?: string;                  // generation page: "2024–2026"
+    links?: Record<string, string> };   // chart page: first-cell text → path of that vehicle's own spec page
 };
-export const specPath = (p: { make_slug: string; model_slug: string; topic: string }) => `/specs/${p.make_slug}/${p.model_slug}/${p.topic}`;
+export const specPath = (p: { make_slug: string; model_slug: string; topic: string; kind?: SpecKind; gen_slug?: string }) =>
+  p.kind === "chart" ? `/learn/${p.model_slug}`
+  : p.kind === "generation" ? `/vehicles/${p.make_slug}/${p.model_slug}/${p.gen_slug}/specs/${p.topic}`
+  : `/specs/${p.make_slug}/${p.model_slug}/${p.topic}`;
 
 // The table is created by migration 014. Until that has run on a database, behave as "no spec pages" instead of failing the page.
 // A page is live when it is published and its scheduled release time (publish_at, if any) has passed.
@@ -17,15 +24,28 @@ async function safe<T>(sql: string, params: any[] = []): Promise<T[]> {
   try { return await q<T>(sql, params); } catch (e: any) { if (e?.code === "42P01" || e?.code === "42703") return []; throw e; }
 }
 
-export async function getSpec(make: string, model: string, topic: string): Promise<SpecPage | null> {
-  const r = await safe<SpecPage>(`SELECT * FROM spec_pages WHERE ${LIVE} AND make_slug=$1 AND model_slug=$2 AND topic=$3`, [make, model, topic]);
+export async function getSpec(make: string, model: string, topic: string, gen = ""): Promise<SpecPage | null> {
+  const r = await safe<SpecPage>(`SELECT * FROM spec_pages WHERE ${LIVE} AND make_slug=$1 AND model_slug=$2 AND topic=$3 AND gen_slug=$4 AND kind=$5`,
+    [make, model, topic, gen, gen ? "generation" : "model"]);
+  return r[0] ?? null;
+}
+export async function getChart(slug: string): Promise<SpecPage | null> {
+  const r = await safe<SpecPage>(`SELECT * FROM spec_pages WHERE ${LIVE} AND kind='chart' AND model_slug=$1`, [slug]);
   return r[0] ?? null;
 }
 
-export type SpecLink = { make_slug: string; model_slug: string; topic: string; make_name: string; model_name: string; topic_label: string; title: string; updated: string };
-export async function allSpecs(): Promise<SpecLink[]> {
-  return safe<SpecLink>(`SELECT make_slug, model_slug, topic, make_name, model_name, topic_label, title, (page->>'reviewed') AS updated
-    FROM spec_pages WHERE ${LIVE} ORDER BY make_name, model_name, topic_label`);
+export type SpecLink = { kind: SpecKind; gen_slug: string; gen_label: string | null; make_slug: string; model_slug: string; topic: string; make_name: string; model_name: string; topic_label: string; title: string; updated: string };
+/** Every live page of every kind (sitemap, link blocks). */
+export async function everySpec(): Promise<SpecLink[]> {
+  return safe<SpecLink>(`SELECT kind, gen_slug, (page->>'gen_label') AS gen_label, make_slug, model_slug, topic, make_name, model_name, topic_label, title, (page->>'reviewed') AS updated
+    FROM spec_pages WHERE ${LIVE} ORDER BY make_name, model_name, gen_slug, topic_label`);
+}
+/** Model-level pages only (/specs/...). */
+export async function allSpecs(): Promise<SpecLink[]> { return (await everySpec()).filter(s => s.kind === "model"); }
+export async function allCharts(): Promise<SpecLink[]> { return (await everySpec()).filter(s => s.kind === "chart"); }
+/** Generation-level pages of one model (all generations). */
+export async function genSpecsForModel(make: string, model: string): Promise<SpecLink[]> {
+  return (await everySpec()).filter(s => s.kind === "generation" && s.make_slug === make && s.model_slug === model);
 }
 /** The same spec for other models (same make first), for cross-links between spec pages. */
 export async function sameTopicElsewhere(s: { make_slug: string; model_slug: string; topic: string }, max = 10): Promise<SpecLink[]> {
