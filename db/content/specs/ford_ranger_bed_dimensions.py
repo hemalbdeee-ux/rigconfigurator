@@ -1,0 +1,13 @@
+"""Spec page: Ford Ranger bed size. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'ranger', 'bed-dimensions')
+MAKE, MODEL, TOPIC_LABEL = "Ford", 'Ranger', 'Bed size'
+PUBLISH = True
+PUBLISH_AT = '2026-11-21'
+
+TITLE = 'Ford Ranger Bed Size: Length, Width and Depth in Inches'
+SEO_TITLE = 'Ford Ranger Bed Size: Length, Width and Depth'
+META = "Ford Ranger bed size from Ford's 2026 spec sheet: 59.6 in long, 48.2 in between the wheelhouses, 62.4 in maximum width, 20.8 in deep, 43.5 cu ft."
+
+FAQ = [('How long is the Ford Ranger bed?', "59.6 in at the floor, by Ford's 2026 specification sheet. Ford calls it the 4.97 ft box."), ('How wide is the Ranger bed between the wheel wells?', '48.2 in, so a 48 in sheet fits flat between the wheelhouses. The maximum inside width is 62.4 in.'), ('Does the Ranger come with a longer bed?', 'Not for 2026: Ford lists one cab, the SuperCrew, with one box.'), ('How high is the tailgate from the ground?', '34.7 in with the tailgate open and the truck empty; 36.1 in on the Raptor.')]
+
+PAGE = {'answer': 'The 2026 Ford Ranger bed is 59.6 in long at the floor, 48.2 in wide between the wheelhouses, 62.4 in wide at its widest and 20.8 in deep, with 43.5 cu ft of volume. Every 2026 Ranger is a SuperCrew with this one box.', 'reviewed': '2026-11-19', 'covers': 'Model year 2026', 'not_covered': "2019 to 2025: Ford's sheets for these years are not on this page yet.", 'sections': [{'id': 'box', 'h': 'Ranger box dimensions (2026)', 'table': {'head': ['Measurement', 'Figure'], 'rows': [['Inside length at the floor', '59.6 in', 1], ['Width between the wheelhouses', '48.2 in', 1], ['Maximum inside width', '62.4 in', 1], ['Inside height at the molding', '20.8 in', 1], ['Cargo box volume', '43.5 cu ft', 1]]}}, {'id': 'truck', 'h': 'Tailgate height and truck size (2026)', 'table': {'head': ['Measurement', '4x2 and 4x4', 'Raptor'], 'rows': [['Open tailgate to ground, empty', '34.7 in', '36.1 in', 1], ['Overall length', '210.6 in', '210.9 in', 1], ['Wheelbase', '128.7 in', '128.7 in', 1], ['Ground clearance', '9.3 in', '10.7 in', 1]]}}], 'check': ['Measure the floor from the bulkhead to the inside of the closed tailgate. It should read about 60 in.', 'Order a tonneau cover or bed rack by model year and the 5 ft box. Covers for the older, pre-2024 Ranger are a different fit.', "Your owner's manual and the labels on your truck override this page."], 'related': ['tonneau-covers', 'bed-racks'], 'sources': [('Ford, 2026 Ranger Technical Specifications (v1.0, 13 Jan 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Ranger%20Technical_Specs.pdf')]}

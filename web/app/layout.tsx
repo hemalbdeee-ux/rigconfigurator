@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/build">Build</Link>
             <Link href="/vehicles">Vehicles</Link>
             <Link href="/guides">Guides</Link>
+            <Link href="/specs">Specs</Link>
             <Link href="/learn">Learn</Link>
             <Link href="/tools">Tools</Link>
             <Link href="/deals">Deals</Link>

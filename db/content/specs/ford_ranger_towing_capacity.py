@@ -1,0 +1,13 @@
+"""Spec page: Ford Ranger towing capacity. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'ranger', 'towing-capacity')
+MAKE, MODEL, TOPIC_LABEL = "Ford", 'Ranger', 'Towing capacity'
+PUBLISH = True
+PUBLISH_AT = '2026-11-21'
+
+TITLE = 'Ford Ranger Towing Capacity: 7,500 lb, or 5,510 lb for the Raptor'
+SEO_TITLE = 'Ford Ranger Towing Capacity by Engine (2026)'
+META = "Ford Ranger towing capacity from Ford's 2026 spec sheet: 7,500 lb with the 2.3L or 2.7L EcoBoost, 5,510 lb for the Raptor, plus payload."
+
+FAQ = [('How much can a Ford Ranger tow?', "Up to 7,500 lb with the 2.3L EcoBoost or the 2.7L EcoBoost V6, by Ford's 2026 specification sheet."), ('How much can a Ranger Raptor tow?', 'Up to 5,510 lb with its 3.0L EcoBoost V6.'), ('Does the V6 tow more than the four-cylinder?', 'No. Ford lists the same 7,500 lb maximum for the 2.3L and the 2.7L.'), ("What is the Ranger's payload?", 'Ford lists a maximum 4x4 payload of 1,763 lb with the 2.3L, 1,513 lb with the 2.7L and 1,373 lb for the Raptor.')]
+
+PAGE = {'answer': 'The 2026 Ford Ranger tows up to 7,500 lb with either the 2.3L EcoBoost four-cylinder or the 2.7L EcoBoost V6. The Ranger Raptor, with the 3.0L V6, tows up to 5,510 lb.', 'reviewed': '2026-11-19', 'covers': 'Model year 2026', 'not_covered': "2019 to 2025: Ford's sheets for these years are not on this page yet.", 'sections': [{'id': 'towing', 'h': 'Maximum conventional towing by engine (2026)', 'table': {'head': ['Engine', 'Available maximum towing', 'Available maximum 4x4 payload'], 'rows': [['2.3L EcoBoost I-4', '7,500 lb', '1,763 lb', 1], ['2.7L EcoBoost V6', '7,500 lb', '1,513 lb', 1], ['3.0L EcoBoost V6 (Raptor)', '5,510 lb', '1,373 lb', 1]]}, 'notes': ["Ford's footnote: when properly equipped; maximum towing varies based on cargo, vehicle configuration, accessories and number of passengers.", 'Payload varies with accessories and configuration. The figure for your truck is on its door-jamb label.']}], 'check': ["Confirm the engine on the window sticker, and check in the owner's manual what towing equipment the maximum figure needs.", 'Tongue weight counts against payload: with a 7,500 lb trailer it can use a large share of it.', "Use the lower of the hitch receiver's rating and the truck's rating.", "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['hitches', 'tonneau-covers', 'bed-racks'], 'sources': [('Ford, 2026 Ranger Technical Specifications (v1.0, 13 Jan 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Ranger%20Technical_Specs.pdf')]}

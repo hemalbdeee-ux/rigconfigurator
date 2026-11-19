@@ -1,9 +1,9 @@
 """Spec page: Ford Maverick bed size. Figures copied from Ford's technical specification sheets and ford.com.
-DRAFT: model years 2022-2024 are not read yet; do not publish until they are, or the title is narrowed.
 """
 KEY = ("ford", "maverick", "bed-dimensions")
 MAKE, MODEL, TOPIC_LABEL = "Ford", "Maverick", "Bed size"
-PUBLISH = False
+PUBLISH = True
+PUBLISH_AT = "2026-11-19"
 
 TITLE = "Ford Maverick Bed Size: Length, Width and Height in Inches"
 SEO_TITLE = "Ford Maverick Bed Size: Length, Width and Height"

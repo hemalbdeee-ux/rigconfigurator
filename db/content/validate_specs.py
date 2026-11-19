@@ -21,6 +21,8 @@ def check(name, m):
     if not re.fullmatch(r"[a-z0-9-]+", make + model): e.append("slugs must be lowercase a-z, 0-9, -")
     if len(m.SEO_TITLE) > 60: e.append(f"SEO_TITLE {len(m.SEO_TITLE)} > 60")
     if not 70 <= len(m.META) <= 155: e.append(f"META length {len(m.META)} not 70-155")
+    at = getattr(m, "PUBLISH_AT", None)
+    if at is not None and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", at): e.append("PUBLISH_AT must be YYYY-MM-DD")
     p = m.PAGE
     for k in ("answer", "reviewed", "covers", "sections", "check", "sources"):
         if not p.get(k): e.append(f"PAGE.{k} empty")

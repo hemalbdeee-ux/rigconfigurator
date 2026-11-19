@@ -1,9 +1,9 @@
 """Spec page: Toyota Tacoma towing capacity. Figures copied from Toyota's brochure specification tables and press releases.
-DRAFT: model years 2016-2020, 2022 and 2026 are not read yet; do not publish until they are, or the title is narrowed.
 """
 KEY = ("toyota", "tacoma", "towing-capacity")
 MAKE, MODEL, TOPIC_LABEL = "Toyota", "Tacoma", "Towing capacity"
-PUBLISH = False
+PUBLISH = True
+PUBLISH_AT = "2026-11-19"
 
 TITLE = "Toyota Tacoma Towing Capacity by Year, Cab and Grade"
 SEO_TITLE = "Toyota Tacoma Towing Capacity by Year, Cab and Grade"

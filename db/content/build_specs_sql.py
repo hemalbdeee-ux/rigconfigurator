@@ -30,19 +30,24 @@ if __name__ == "__main__":
   published_at DATE,                                  -- set the first time the page is published, never changed
   updated_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
   UNIQUE (make_slug, model_slug, topic)
-);""", ""]
+);""",
+           "-- publish_at: a published page is served only from this moment (scheduled release, 10:00 Asia/Dhaka on PUBLISH_AT).",
+           "ALTER TABLE spec_pages ADD COLUMN IF NOT EXISTS publish_at TIMESTAMPTZ;", ""]
     n = pub = 0
     for name, m in modules():
         errs = check(name, m)
         assert not errs, (name, errs)
         make, model, topic = m.KEY
         status = "published" if (m.PUBLISH or preview) else "draft"
+        at = getattr(m, "PUBLISH_AT", None)          # "YYYY-MM-DD": release day; None = live as soon as deployed
+        at_sql = f"TIMESTAMPTZ '{at} 10:00:00+06'" if (at and status == "published" and not preview) else "NULL"
+        pub_date = f"DATE '{at}'" if at else "CURRENT_DATE"
         faq = json.dumps([{"q": q, "a": a} for q, a in m.FAQ], ensure_ascii=False)
         page = json.dumps(m.PAGE, ensure_ascii=False)
-        out.append(f"""INSERT INTO spec_pages (make_slug, model_slug, topic, make_name, model_name, topic_label, title, seo_title, meta_desc, faq, page, status, published_at)
-VALUES ('{make}', '{model}', '{topic}', {lit(m.MAKE)}, {lit(m.MODEL)}, {lit(m.TOPIC_LABEL)}, {lit(m.TITLE)}, {lit(m.SEO_TITLE)}, {lit(m.META)}, {lit(faq)}::jsonb, {lit(page)}::jsonb, '{status}', {"CURRENT_DATE" if status == "published" else "NULL"})
+        out.append(f"""INSERT INTO spec_pages (make_slug, model_slug, topic, make_name, model_name, topic_label, title, seo_title, meta_desc, faq, page, status, published_at, publish_at)
+VALUES ('{make}', '{model}', '{topic}', {lit(m.MAKE)}, {lit(m.MODEL)}, {lit(m.TOPIC_LABEL)}, {lit(m.TITLE)}, {lit(m.SEO_TITLE)}, {lit(m.META)}, {lit(faq)}::jsonb, {lit(page)}::jsonb, '{status}', {pub_date if status == "published" else "NULL"}, {at_sql})
 ON CONFLICT (make_slug, model_slug, topic) DO UPDATE SET make_name=EXCLUDED.make_name, model_name=EXCLUDED.model_name, topic_label=EXCLUDED.topic_label,
-  title=EXCLUDED.title, seo_title=EXCLUDED.seo_title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq, page=EXCLUDED.page, status=EXCLUDED.status,
+  title=EXCLUDED.title, seo_title=EXCLUDED.seo_title, meta_desc=EXCLUDED.meta_desc, faq=EXCLUDED.faq, page=EXCLUDED.page, status=EXCLUDED.status, publish_at=EXCLUDED.publish_at,
   published_at=COALESCE(spec_pages.published_at, EXCLUDED.published_at), updated_at=now();
 """)
         n += 1; pub += status == "published"

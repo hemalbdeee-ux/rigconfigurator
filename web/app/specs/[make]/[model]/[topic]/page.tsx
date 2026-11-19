@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CONTACT_EMAIL, SITE_URL } from "@/lib/db";
-import { allSpecs, getSpec, guidesForModel, hubsForModel, specPath, specsForModel, type SpecRow } from "@/lib/specs";
+import { allSpecs, getSpec, guidesForModel, hubsForModel, sameTopicElsewhere, specPath, specsForModel, type SpecRow } from "@/lib/specs";
 import { getAuthor } from "@/lib/authors";
 import { AuthorBox, fmtDate } from "@/components/PillarParts";
 import { staticOg } from "@/components/Hero";
@@ -32,7 +32,7 @@ export default async function SpecPageView({ params }: { params: Promise<P> }) {
   const s = await getSpec(make, model, topic);
   if (!s) notFound();
   const p = s.page, path = specPath(s), url = `${SITE_URL}${path}`, name = `${s.make_name} ${s.model_name}`;
-  const [guides, hubs, siblings] = await Promise.all([guidesForModel(make, model, p.related ?? []), hubsForModel(make, model), specsForModel(make, model)]);
+  const [guides, hubs, siblings, elsewhere] = await Promise.all([guidesForModel(make, model, p.related ?? []), hubsForModel(make, model), specsForModel(make, model), sameTopicElsewhere(s)]);
   const others = siblings.filter(x => x.topic !== s.topic);
   const author = getAuthor();
   const jsonLd = {
@@ -108,6 +108,12 @@ export default async function SpecPageView({ params }: { params: Promise<P> }) {
       {others.length > 0 && (
         <section><h2>More {name} specs</h2>
           <ul className="plain-links">{others.map(o => <li key={o.topic}><Link href={specPath(o)}>{name} {o.topic_label.toLowerCase()}</Link></li>)}</ul>
+        </section>
+      )}
+
+      {elsewhere.length > 0 && (
+        <section><h2>{s.topic_label} of other models</h2>
+          <ul className="plain-links">{elsewhere.map(o => <li key={specPath(o)}><Link href={specPath(o)}>{o.make_name} {o.model_name} {o.topic_label.toLowerCase()}</Link></li>)}</ul>
         </section>
       )}
 

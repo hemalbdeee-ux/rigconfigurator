@@ -1,0 +1,13 @@
+"""Spec page: Ford Maverick gas tank size. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'maverick', 'gas-tank-size')
+MAKE, MODEL, TOPIC_LABEL = "Ford", 'Maverick', 'Gas tank size'
+PUBLISH = True
+PUBLISH_AT = '2026-11-19'
+
+TITLE = 'Ford Maverick Gas Tank Size: Hybrid and EcoBoost'
+SEO_TITLE = 'Ford Maverick Gas Tank Size: Hybrid vs EcoBoost'
+META = "Ford Maverick gas tank size from Ford's 2026 spec sheet: 13.8 gallons on the 2.5L Hybrid and 16.5 gallons on the 2.0L EcoBoost."
+
+FAQ = [('How many gallons does a Ford Maverick hold?', "13.8 gallons with the 2.5L Hybrid and 16.5 gallons with the 2.0L EcoBoost, by Ford's 2026 specification sheet."), ('Do the Tremor and Lobo have a different tank?', "Ford's sheet lists the tank by engine only. A Tremor or Lobo has the tank of the engine it was built with."), ('How far will a tank take me?', 'That depends on the fuel economy of your truck. Multiply the tank size by the EPA figure on your window sticker for an estimate; the usable range is lower because you refuel before empty.')]
+
+PAGE = {'answer': "The 2026 Ford Maverick holds 13.8 gallons of fuel with the 2.5L Hybrid and 16.5 gallons with the 2.0L EcoBoost, according to Ford's specification sheet.", 'reviewed': '2026-11-19', 'covers': 'Model year 2026', 'not_covered': "2022 to 2025: Ford's sheets for these years are not on this page yet.", 'sections': [{'id': 'tank', 'h': 'Fuel tank capacity by engine (2026)', 'table': {'head': ['Engine', 'Fuel tank capacity'], 'rows': [['2.5L Hybrid', '13.8 gal', 1], ['2.0L EcoBoost I-4', '16.5 gal', 1]]}}, {'id': 'weight', 'h': 'Base curb weight (2026)', 'intro': 'Useful beside the tank size when you work out what the truck weighs fueled and loaded.', 'table': {'head': ['Powertrain or trim', 'Base curb weight'], 'rows': [['2.5L Hybrid, FWD', '3,667 lb', 1], ['2.5L Hybrid, AWD', '3,838 lb', 1], ['2.0L EcoBoost, FWD', '3,517 lb', 1], ['2.0L EcoBoost, AWD', '3,652 lb', 1], ['Tremor (AWD)', '3,890 lb', 1], ['Lobo (AWD)', '3,814 lb', 1]]}}], 'check': ["Your engine is on the window sticker and in the owner's manual, which also gives the capacity for your model year.", "The pump may stop before or after the listed figure: the capacity is the tank's rated volume, not what fits after the low-fuel light.", "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['tonneau-covers', 'hitches'], 'sources': [('Ford, 2026 Maverick Technical Specifications (v1.2, 20 Jul 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Maverick_Specs.pdf')]}
