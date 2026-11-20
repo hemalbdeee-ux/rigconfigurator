@@ -1,0 +1,13 @@
+"""Spec page: Ford Bronco engine oil capacity. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'bronco', 'oil-type-capacity')
+MAKE, MODEL, TOPIC_LABEL = "Ford", 'Bronco', 'Oil capacity'
+PUBLISH = True
+PUBLISH_AT = '2026-11-22'
+
+TITLE = 'Ford Bronco Oil Capacity by Engine (2026)'
+SEO_TITLE = 'Ford Bronco Oil Capacity by Engine (2026)'
+META = "Ford Bronco engine oil capacity from Ford's 2026 spec sheet, filter included: 5.6 qt for the 2.3L, 6.0 qt for the 2.7L V6, 7.0 qt for the 3.0L Raptor."
+
+FAQ = [('How much oil does a 2026 Ford Bronco take?', 'Including the filter, Ford lists 5.6 quarts (5.3 liters) for the 2.3L EcoBoost and 6.0 quarts (5.7 liters) for the 2.7L EcoBoost V6.'), ('How much oil does the Bronco Raptor take?', '7.0 quarts (6.6 liters) including the filter, for the 3.0L EcoBoost V6 that Ford lists as Raptor only.'), ('What type of oil does the Bronco use?', "Ford's specification sheet gives capacity only. The oil grade and specification for your engine are in the capacities and specifications section of the owner's manual, and the grade is usually printed on the oil filler cap.")]
+
+PAGE = {'answer': "The 2026 Ford Bronco takes 5.6 quarts of engine oil with the 2.3L EcoBoost, 6.0 quarts with the 2.7L EcoBoost V6 and 7.0 quarts with the Raptor's 3.0L EcoBoost V6, filter included, according to Ford's specification sheet. The sheet does not print the oil grade.", 'reviewed': '2026-11-20', 'covers': 'Model year 2026', 'not_covered': "The oil grade (viscosity and specification) for any year, and capacities for 2021 to 2025: Ford's 2026 sheet prints capacity only. This page is about the Bronco, not the Bronco Sport.", 'sections': [{'id': 'oil', 'h': 'Engine oil capacity, including filter (2026)', 'table': {'head': ['Engine', 'Oil capacity (quarts)', 'Oil capacity (liters)'], 'rows': [['2.3L EcoBoost I-4', '5.6 qt', '5.3 L', 1], ['2.7L EcoBoost V6', '6.0 qt', '5.7 L', 1], ['3.0L EcoBoost V6 (Raptor only)', '7.0 qt', '6.6 L', 1]]}, 'notes': ['Ford labels this row "Oil Capacity, Including Filter".']}], 'check': ["Look up the oil grade and specification in the capacities and specifications section of your owner's manual before you buy oil.", 'After an oil change, fill short of the listed capacity, run the engine briefly, wait, then top up to the upper mark on the dipstick.', "Your engine is named on the window sticker and in the owner's manual.", "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['floor-mats', 'seat-covers'], 'sources': [('Ford, 2026 Bronco Technical Specifications (v1.0, 18 Feb 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Bronco_Technical_Specifications.pdf')]}

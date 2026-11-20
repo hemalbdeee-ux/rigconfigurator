@@ -1,34 +1,34 @@
 seq,id,stage,make,model,years,topic,url,keyword,volume,status,publish_on,file,covers,note
 1,RC-0191,1 model page,Ford,Maverick,all covered years,towing-capacity,/specs/ford/maverick/towing-capacity,ford maverick towing capacity,,scheduled,2026-11-19,ford_maverick_towing_capacity.py,Model year 2026,
-2,RC-0195,1 model page,Ford,Maverick,all covered years,payload-capacity,/specs/ford/maverick/payload-capacity,ford maverick payload capacity,,todo,,,,
+2,RC-0195,1 model page,Ford,Maverick,all covered years,payload-capacity,/specs/ford/maverick/payload-capacity,ford maverick payload capacity,,scheduled,2026-11-21,ford_maverick_payload_capacity.py,Model year 2026,
 3,RC-0015,1 model page,Ford,Maverick,all covered years,bed-dimensions,/specs/ford/maverick/bed-dimensions,ford maverick bed size,2000,scheduled,2026-11-19,ford_maverick_bed_dimensions.py,"Model years 2025, 2026 and 2027",
 4,RC-0088,1 model page,Ford,Maverick,all covered years,ground-clearance,/specs/ford/maverick/ground-clearance,ford maverick ground clearance,450,scheduled,2026-11-19,ford_maverick_ground_clearance.py,Model year 2026,
 5,RC-0194,1 model page,Ford,Maverick,all covered years,gas-tank-size,/specs/ford/maverick/gas-tank-size,ford maverick gas tank size,,scheduled,2026-11-19,ford_maverick_gas_tank_size.py,Model year 2026,
-6,RC-0087,1 model page,Ford,Maverick,all covered years,tire-size,/specs/ford/maverick/tire-size,ford maverick tire size,450,todo,,,,
-7,RC-0192,1 model page,Ford,Maverick,all covered years,bolt-pattern,/specs/ford/maverick/bolt-pattern,ford maverick bolt pattern,,todo,,,,
-8,RC-0193,1 model page,Ford,Maverick,all covered years,oil-type-capacity,/specs/ford/maverick/oil-type-capacity,ford maverick oil type and capacity,,todo,,,,
+6,RC-0087,1 model page,Ford,Maverick,all covered years,tire-size,/specs/ford/maverick/tire-size,ford maverick tire size,450,scheduled,2026-11-21,ford_maverick_tire_size.py,Model year 2026,
+7,RC-0192,1 model page,Ford,Maverick,all covered years,bolt-pattern,/specs/ford/maverick/bolt-pattern,ford maverick bolt pattern,,blocked,,,,2026-11-20: Ford's 2026 spec sheet (read twice) prints no bolt pattern or lug data; needs a Ford owner's manual or other Ford document
+8,RC-0193,1 model page,Ford,Maverick,all covered years,oil-type-capacity,/specs/ford/maverick/oil-type-capacity,ford maverick oil type and capacity,,scheduled,2026-11-21,ford_maverick_oil_type_capacity.py,Model year 2026,Capacity only: Ford's 2026 spec sheet prints no oil grade
 9,RC-0006,1 model page,Ford,F-150,all covered years,towing-capacity,/specs/ford/f-150/towing-capacity,f150 towing capacity,3600,scheduled,2026-11-19,ford_f_150_towing_capacity.py,Model year 2026,
 10,RC-0103,1 model page,Ford,F-150,all covered years,payload-capacity,/specs/ford/f-150/payload-capacity,f150 payload capacity,400,scheduled,2026-11-19,ford_f_150_payload_capacity.py,Model year 2026,
 11,RC-0069,1 model page,Ford,F-150,all covered years,bed-dimensions,/specs/ford/f-150/bed-dimensions,ford f150 bed size,600,scheduled,2026-11-19,ford_f_150_bed_dimensions.py,Model year 2026,
-12,RC-0183,1 model page,Ford,F-150,all covered years,ground-clearance,/specs/ford/f-150/ground-clearance,ford f-150 ground clearance,,todo,,,,
+12,RC-0183,1 model page,Ford,F-150,all covered years,ground-clearance,/specs/ford/f-150/ground-clearance,ford f-150 ground clearance,,scheduled,2026-11-21,ford_f_150_ground_clearance.py,Model year 2026,
 13,RC-0070,1 model page,Ford,F-150,all covered years,gas-tank-size,/specs/ford/f-150/gas-tank-size,f150 gas tank size,600,scheduled,2026-11-19,ford_f_150_gas_tank_size.py,Model year 2026,
-14,RC-0101,1 model page,Ford,F-150,all covered years,tire-size,/specs/ford/f-150/tire-size,ford f150 tire size,400,todo,,,,
-15,RC-0025,1 model page,Ford,F-150,all covered years,bolt-pattern,/specs/ford/f-150/bolt-pattern,f150 lug pattern,1200,todo,,,,
-16,RC-0102,1 model page,Ford,F-150,all covered years,oil-type-capacity,/specs/ford/f-150/oil-type-capacity,ford f150 oil type,400,todo,,,,
+14,RC-0101,1 model page,Ford,F-150,all covered years,tire-size,/specs/ford/f-150/tire-size,ford f150 tire size,400,scheduled,2026-11-21,ford_f_150_tire_size.py,Model year 2026,
+15,RC-0025,1 model page,Ford,F-150,all covered years,bolt-pattern,/specs/ford/f-150/bolt-pattern,f150 lug pattern,1200,blocked,,,,2026-11-20: Ford's 2026 spec sheet (read twice) prints no bolt pattern or lug data; needs a Ford owner's manual or other Ford document
+16,RC-0102,1 model page,Ford,F-150,all covered years,oil-type-capacity,/specs/ford/f-150/oil-type-capacity,ford f150 oil type,400,scheduled,2026-11-21,ford_f_150_oil_type_capacity.py,Model year 2026,Capacity only: Ford's 2026 spec sheet prints no oil grade
 17,RC-0009,1 model page,Ford,Bronco,all covered years,towing-capacity,/specs/ford/bronco/towing-capacity,ford bronco towing capacity,2800,scheduled,2026-11-19,ford_bronco_towing_capacity.py,Model year 2026,
 18,RC-0161,1 model page,Ford,Bronco,all covered years,cargo-space,/specs/ford/bronco/cargo-space,ford bronco cargo space,,scheduled,2026-11-19,ford_bronco_cargo_space.py,Model year 2026,
 19,RC-0164,1 model page,Ford,Bronco,all covered years,ground-clearance,/specs/ford/bronco/ground-clearance,ford bronco ground clearance,,scheduled,2026-11-19,ford_bronco_ground_clearance.py,Model year 2026,
-20,RC-0165,1 model page,Ford,Bronco,all covered years,gas-tank-size,/specs/ford/bronco/gas-tank-size,ford bronco gas tank size,,todo,,,,
-21,RC-0162,1 model page,Ford,Bronco,all covered years,tire-size,/specs/ford/bronco/tire-size,ford bronco tire size,,todo,,,,
-22,RC-0112,1 model page,Ford,Bronco,all covered years,bolt-pattern,/specs/ford/bronco/bolt-pattern,ford bronco lug pattern,350,todo,,,,
-23,RC-0163,1 model page,Ford,Bronco,all covered years,oil-type-capacity,/specs/ford/bronco/oil-type-capacity,ford bronco oil type and capacity,,todo,,,,
+20,RC-0165,1 model page,Ford,Bronco,all covered years,gas-tank-size,/specs/ford/bronco/gas-tank-size,ford bronco gas tank size,,scheduled,2026-11-21,ford_bronco_gas_tank_size.py,Model year 2026,
+21,RC-0162,1 model page,Ford,Bronco,all covered years,tire-size,/specs/ford/bronco/tire-size,ford bronco tire size,,scheduled,2026-11-21,ford_bronco_tire_size.py,Model year 2026,
+22,RC-0112,1 model page,Ford,Bronco,all covered years,bolt-pattern,/specs/ford/bronco/bolt-pattern,ford bronco lug pattern,350,blocked,,,,2026-11-20: Ford's 2026 spec sheet (read twice) prints no bolt pattern or lug data; needs a Ford owner's manual or other Ford document
+23,RC-0163,1 model page,Ford,Bronco,all covered years,oil-type-capacity,/specs/ford/bronco/oil-type-capacity,ford bronco oil type and capacity,,scheduled,2026-11-22,ford_bronco_oil_type_capacity.py,Model year 2026,Capacity only: Ford's 2026 spec sheet prints no oil grade
 24,RC-0020,1 model page,Ford,Expedition,all covered years,towing-capacity,/specs/ford/expedition/towing-capacity,ford expedition towing capacity,1400,scheduled,2026-11-21,ford_expedition_towing_capacity.py,Model year 2026,
 25,RC-0172,1 model page,Ford,Expedition,all covered years,cargo-space,/specs/ford/expedition/cargo-space,ford expedition cargo space,,scheduled,2026-11-21,ford_expedition_cargo_space.py,Model year 2026,
-26,RC-0176,1 model page,Ford,Expedition,all covered years,ground-clearance,/specs/ford/expedition/ground-clearance,ford expedition ground clearance,,todo,,,,
-27,RC-0177,1 model page,Ford,Expedition,all covered years,gas-tank-size,/specs/ford/expedition/gas-tank-size,ford expedition gas tank size,,todo,,,,
-28,RC-0174,1 model page,Ford,Expedition,all covered years,tire-size,/specs/ford/expedition/tire-size,ford expedition tire size,,todo,,,,
-29,RC-0173,1 model page,Ford,Expedition,all covered years,bolt-pattern,/specs/ford/expedition/bolt-pattern,ford expedition bolt pattern,,todo,,,,
-30,RC-0175,1 model page,Ford,Expedition,all covered years,oil-type-capacity,/specs/ford/expedition/oil-type-capacity,ford expedition oil type and capacity,,todo,,,,
+26,RC-0176,1 model page,Ford,Expedition,all covered years,ground-clearance,/specs/ford/expedition/ground-clearance,ford expedition ground clearance,,scheduled,2026-11-22,ford_expedition_ground_clearance.py,Model year 2026,
+27,RC-0177,1 model page,Ford,Expedition,all covered years,gas-tank-size,/specs/ford/expedition/gas-tank-size,ford expedition gas tank size,,scheduled,2026-11-22,ford_expedition_gas_tank_size.py,Model year 2026,
+28,RC-0174,1 model page,Ford,Expedition,all covered years,tire-size,/specs/ford/expedition/tire-size,ford expedition tire size,,scheduled,2026-11-22,ford_expedition_tire_size.py,Model year 2026,
+29,RC-0173,1 model page,Ford,Expedition,all covered years,bolt-pattern,/specs/ford/expedition/bolt-pattern,ford expedition bolt pattern,,blocked,,,,2026-11-20: Ford's 2026 spec sheet (read twice) prints no bolt pattern or lug data; needs a Ford owner's manual or other Ford document
+30,RC-0175,1 model page,Ford,Expedition,all covered years,oil-type-capacity,/specs/ford/expedition/oil-type-capacity,ford expedition oil type and capacity,,scheduled,2026-11-22,ford_expedition_oil_type_capacity.py,Model year 2026,Capacity only: Ford's 2026 spec sheet prints no oil grade
 31,RC-0196,1 model page,Ford,Ranger,all covered years,towing-capacity,/specs/ford/ranger/towing-capacity,ford ranger towing capacity,,scheduled,2026-11-21,ford_ranger_towing_capacity.py,Model year 2026,
 32,RC-0201,1 model page,Ford,Ranger,all covered years,payload-capacity,/specs/ford/ranger/payload-capacity,ford ranger payload capacity,,todo,,,,
 33,RC-0054,1 model page,Ford,Ranger,all covered years,bed-dimensions,/specs/ford/ranger/bed-dimensions,ford ranger bed size,800,scheduled,2026-11-21,ford_ranger_bed_dimensions.py,Model year 2026,
