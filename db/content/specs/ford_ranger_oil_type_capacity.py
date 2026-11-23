@@ -1,0 +1,13 @@
+"""Spec page: Ford Ranger engine oil capacity. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'ranger', 'oil-type-capacity')
+MAKE, MODEL, TOPIC_LABEL = 'Ford', 'Ranger', 'Oil capacity'
+PUBLISH = True
+PUBLISH_AT = '2026-11-22'
+
+TITLE = 'Ford Ranger Oil Capacity by Engine (2026)'
+SEO_TITLE = 'Ford Ranger Oil Capacity by Engine (2026)'
+META = "Ford Ranger engine oil capacity from Ford's 2026 spec sheet, with filter: 5.6 qt for the 2.3L, 6.0 qt for the 2.7L V6 and 7.0 qt for the Raptor's 3.0L V6."
+
+FAQ = [('How much oil does a 2026 Ford Ranger take?', "With the filter, 5.6 quarts for the 2.3L EcoBoost, 6.0 quarts for the 2.7L EcoBoost V6 and 7.0 quarts for the 3.0L EcoBoost V6, by Ford's 2026 specification sheet."), ('How much oil does the Ranger Raptor take?', '7.0 quarts (6.6 liters) including the filter, for its 3.0L EcoBoost V6.'), ('What type of oil does the Ranger use?', "Ford's specification sheet gives capacity only. The oil grade and specification are in the capacities and specifications section of the owner's manual, and the grade is usually printed on the oil filler cap.")]
+
+PAGE = {'answer': "The 2026 Ford Ranger takes 5.6 quarts of engine oil with the 2.3L EcoBoost, 6.0 quarts with the 2.7L EcoBoost V6 and 7.0 quarts with the Raptor's 3.0L EcoBoost V6. Ford's specification sheet gives these figures including the oil filter. The sheet does not print the oil grade.", 'covers': 'Model year 2026', 'not_covered': "The oil grade (viscosity and specification) for any year, and capacities for 2019 to 2025: Ford's 2026 sheet prints capacity only.", 'sections': [{'id': 'oil', 'h': 'Engine oil capacity, including filter (2026)', 'table': {'head': ['Engine', 'Oil capacity, including filter'], 'rows': [['2.3L EcoBoost I-4', '5.6 qt (5.3 L)', 1], ['2.7L EcoBoost V6', '6.0 qt (5.7 L)', 1], ['3.0L EcoBoost V6 (Raptor)', '7.0 qt (6.6 L)', 1]]}}], 'check': ["Look up the oil grade and specification in the capacities and specifications section of your owner's manual before you buy oil.", 'Confirm the engine on the window sticker or under the hood: the three engines take different amounts.', 'After an oil change, fill short of the listed capacity, run the engine briefly, wait, then top up to the upper mark on the dipstick.', "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['floor-mats', 'seat-covers'], 'sources': [('Ford, 2026 Ranger Technical Specifications (v1.0, 13 Jan 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Ranger%20Technical_Specs.pdf')], 'reviewed': '2026-11-21'}

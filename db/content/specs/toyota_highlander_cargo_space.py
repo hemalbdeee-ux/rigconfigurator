@@ -1,0 +1,13 @@
+"""Spec page: Toyota Highlander cargo space. Figures copied from Toyota's 2024 Highlander eBrochure."""
+KEY = ('toyota', 'highlander', 'cargo-space')
+MAKE, MODEL, TOPIC_LABEL = 'Toyota', 'Highlander', 'Cargo space'
+PUBLISH = True
+PUBLISH_AT = '2026-11-25'
+
+TITLE = 'Toyota Highlander Cargo Space: 16.0 cu ft, 84.3 Maximum (2024)'
+SEO_TITLE = 'Toyota Highlander Cargo Space: 16.0 to 84.3 cu ft (2024)'
+META = "Toyota Highlander cargo space from Toyota's 2024 brochure: 16.0 cu ft behind the third row, 48.4 behind the second row and 84.3 behind the front seats."
+
+FAQ = [('How much cargo space does a 2024 Toyota Highlander have?', "16.0 cu ft behind the third row, 48.4 cu ft behind the second row and 84.3 cu ft behind the front seats, by Toyota's 2024 brochure."), ('Is cargo space different in the Highlander Hybrid?', 'No. Toyota prints 84.3/48.4/16.0 cu ft for all eleven 2024 grades, gas and hybrid.')]
+
+PAGE = {'answer': "The 2024 Toyota Highlander has 16.0 cu ft of cargo volume behind the third row, 48.4 cu ft behind the second row and 84.3 cu ft behind the front seats, according to Toyota's brochure. The figures are the same on all eleven gas and hybrid grades.", 'covers': 'Model year 2024', 'not_covered': "2020 to 2023, 2025 and 2026: Toyota's 2026 brochure prints no cargo volume, and the other years are not on this page yet.", 'sections': [{'id': 'cargo', 'h': 'Cargo volume (2024)', 'table': {'head': ['Measured behind', 'Cargo volume', 'Grades'], 'rows': [['Front seats', '84.3 cu ft', 'All eleven gas and hybrid grades', 1], ['Second-row seats', '48.4 cu ft', 'All eleven gas and hybrid grades', 1], ['Third-row seats', '16.0 cu ft', 'All eleven gas and hybrid grades', 1]]}, 'notes': ["Toyota's footnote: cargo and load capacity limited by weight and distribution.", 'The eleven grades are LE, XLE, XSE, Limited, Platinum, Hybrid LE, Hybrid LE Nightshade, Hybrid XLE, Hybrid XLE Nightshade, Hybrid Limited and Hybrid Platinum.']}], 'check': ['The larger figures need the rear seats folded; with every seat in use you have the third-row figure.', "For a cargo box or a roof rack, the roof load limit matters, not the interior volume; look it up in your owner's manual.", 'Always secure cargo and keep the total of passengers and cargo under the figure on the door jamb label.', "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['cargo-boxes', 'roof-racks', 'floor-mats'], 'sources': [('Toyota, 2024 Highlander eBrochure, specifications and features tables', 'https://www.toyota.com/content/dam/toyota/brochures/pdf/2024/highlander_ebrochure.pdf')], 'reviewed': '2026-11-23'}

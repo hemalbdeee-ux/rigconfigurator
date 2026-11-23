@@ -1,0 +1,13 @@
+"""Spec page: Honda Pilot towing capacity. Figures copied from Honda's 2026 Pilot Specifications & Features sheet."""
+KEY = ('honda', 'pilot', 'towing-capacity')
+MAKE, MODEL, TOPIC_LABEL = 'Honda', 'Pilot', 'Towing capacity'
+PUBLISH = True
+PUBLISH_AT = '2026-11-25'
+
+TITLE = 'Honda Pilot Towing Capacity: 5,000 lb AWD, 3,500 lb 2WD (2026)'
+SEO_TITLE = 'Honda Pilot Towing Capacity: 5,000 lb AWD (2026)'
+META = "Honda Pilot towing capacity from Honda's 2026 specification sheet: 5,000 lb with all-wheel drive and 3,500 lb with two-wheel drive."
+
+FAQ = [('How much can a 2026 Honda Pilot tow?', "5,000 lb with all-wheel drive and 3,500 lb with two-wheel drive, by Honda's 2026 specification sheet."), ('Which 2026 Pilot trims tow 5,000 lb?', 'Every trim with all-wheel drive. TrailSport, Touring, Elite and Black Edition are listed with an AWD figure only; Sport and EX-L are listed with both a 2WD and an AWD figure.'), ('Does the Pilot come ready to tow?', "Honda's note says towing requires accessory towing equipment and refers buyers to a Honda dealer for details.")]
+
+PAGE = {'answer': "The 2026 Honda Pilot tows up to 5,000 lb with all-wheel drive and 3,500 lb with two-wheel drive, according to Honda's specification sheet. Honda adds that towing requires accessory towing equipment.", 'covers': 'Model year 2026', 'not_covered': "2023 to 2025 and earlier generations, and tongue weight: Honda's 2026 sheet prints none of these.", 'sections': [{'id': 'towing', 'h': 'Towing capacity by trim (2026)', 'table': {'head': ['Trim', 'Towing capacity, 2WD', 'Towing capacity, AWD'], 'rows': [['Sport', '3,500 lb', '5,000 lb', 1], ['EX-L', '3,500 lb', '5,000 lb', 1], ['TrailSport', 'No 2WD figure', '5,000 lb', 1], ['Touring', 'No 2WD figure', '5,000 lb', 1], ['Elite', 'No 2WD figure', '5,000 lb', 1], ['Black Edition', 'No 2WD figure', '5,000 lb', 1]]}, 'notes': ["Honda's footnote: maximum towing capacity for AWD trims is 5,000 lbs and for 2WD trims is 3,500 lbs. Towing requires accessory towing equipment."]}], 'check': ['Confirm whether your Pilot is 2WD or AWD; the two ratings differ by 1,500 lb.', "Read the towing section of your owner's manual for the tongue weight limit and the equipment Honda requires.", 'Match the hitch, ball mount and ball to the trailer weight; the lowest rating of the three is your limit.', "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['hitches', 'bike-racks', 'cargo-boxes'], 'sources': [('Honda Newsroom, 2026 Honda Pilot Specifications & Features (26 Jan 2026)', 'https://hondanews.com/en-US/honda-automobiles/releases/release-14c469388b7fed5af247fc02e2009aa7-2026-honda-pilot-specifications-features')], 'reviewed': '2026-11-23'}

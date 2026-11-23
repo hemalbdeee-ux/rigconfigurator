@@ -1,0 +1,13 @@
+"""Spec page: Ford Ranger ground clearance. Figures copied from Ford's 2026 technical specification sheet."""
+KEY = ('ford', 'ranger', 'ground-clearance')
+MAKE, MODEL, TOPIC_LABEL = 'Ford', 'Ranger', 'Ground clearance'
+PUBLISH = True
+PUBLISH_AT = '2026-11-22'
+
+TITLE = 'Ford Ranger Ground Clearance: 9.3 in, or 10.7 in for the Raptor (2026)'
+SEO_TITLE = 'Ford Ranger Ground Clearance and Angles (2026)'
+META = "Ford Ranger ground clearance from Ford's 2026 spec sheet: 9.3 in with 4x2 or 4x4 and 10.7 in on the Raptor, with approach, breakover and departure angles."
+
+FAQ = [('What is the ground clearance of a 2026 Ford Ranger?', "9.3 inches with either 4x2 or 4x4, by Ford's 2026 specification sheet."), ('How much ground clearance does the Ranger Raptor have?', '10.7 inches. Ford also lists a 33.0° approach angle, a 24.2° ramp breakover angle and a 26.4° departure angle for the Raptor.'), ('Does 4x4 raise the Ranger?', "Not in Ford's 2026 sheet: the 4x2 and 4x4 columns print the same 9.3 inches and the same three angles."), ('Do bigger tires change ground clearance?', "Yes. Ford's figures are for the truck as built. Different tires, a lift or leveling kit, or a loaded bed change the real clearance.")]
+
+PAGE = {'answer': "The 2026 Ford Ranger has 9.3 inches of ground clearance with 4x2 or 4x4, according to Ford's specification sheet. The Ranger Raptor has 10.7 inches.", 'covers': 'Model year 2026', 'not_covered': "2019 to 2025. Ford's sheet gives one figure each for 4x2, 4x4 and Raptor; it does not break the figure down by series, tire or package.", 'sections': [{'id': 'clearance', 'h': 'Ground clearance and off-road angles (2026)', 'table': {'head': ['Version', 'Ground clearance', 'Approach angle', 'Ramp breakover angle', 'Departure angle'], 'rows': [['4x2', '9.3 in', '30.2°', '23.0°', '25.8°', 1], ['4x4', '9.3 in', '30.2°', '23.0°', '25.8°', 1], ['Raptor 4x4', '10.7 in', '33.0°', '24.2°', '26.4°', 1]]}, 'notes': ["Ford's table is headed in inches unless otherwise noted and attaches no footnote to these rows."]}], 'check': ['Check whether your truck is a Raptor: it is the only version with its own figures.', 'The figures are for an unmodified truck. Running boards, a hitch or a lower air dam can sit lower than the listed clearance point.', 'To measure your own truck, park on level ground and measure from the ground to the lowest fixed point under the truck.', "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['lift-kits', 'running-boards', 'hitches'], 'sources': [('Ford, 2026 Ranger Technical Specifications (v1.0, 13 Jan 2026)', 'https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2026/specs/2026_Ford_Ranger%20Technical_Specs.pdf')], 'reviewed': '2026-11-21'}

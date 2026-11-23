@@ -1,0 +1,13 @@
+"""Spec page: Toyota 4Runner ground clearance. Figures copied from Toyota's 2024 4Runner brochure specification table."""
+KEY = ('toyota', '4runner', 'ground-clearance')
+MAKE, MODEL, TOPIC_LABEL = 'Toyota', '4Runner', 'Ground clearance'
+PUBLISH = True
+PUBLISH_AT = '2026-11-24'
+
+TITLE = 'Toyota 4Runner Ground Clearance: 9 in or 9.6 in (2024)'
+SEO_TITLE = 'Toyota 4Runner Ground Clearance: 9 or 9.6 in (2024)'
+META = "Toyota 4Runner ground clearance from Toyota's 2024 spec table: 9 in on SR5, TRD Sport and Limited, 9.6 in on TRD Off-Road and TRD Pro, with angles."
+
+FAQ = [('What is the ground clearance of a 2024 Toyota 4Runner?', "9 inches on SR5, TRD Sport, SR5 Premium and Limited, and 9.6 inches on TRD Off-Road, TRD Off-Road Premium and TRD Pro, by Toyota's 2024 table."), ('What are the approach and departure angles?', 'Toyota prints 30/26 degrees for the 9-inch grades and 33/26 degrees for the 9.6-inch grades.'), ('Does Toyota publish a breakover angle?', 'Not in the 2024 brochure: it has no breakover row.')]
+
+PAGE = {'answer': "The 2024 Toyota 4Runner has 9 inches of ground clearance as an SR5, TRD Sport, SR5 Premium or Limited and 9.6 inches as a TRD Off-Road, TRD Off-Road Premium or TRD Pro, according to Toyota's specification table. Approach and departure angles are 30/26 or 33/26 degrees.", 'covers': 'Model year 2024', 'not_covered': "2010 to 2023, and the redesigned 2025 and 2026 4Runner. Toyota's 2024 table prints no breakover angle.", 'sections': [{'id': 'clearance', 'h': 'Ground clearance and angles by grade (2024)', 'table': {'head': ['Grade', 'Ground clearance', 'Approach/departure angle'], 'rows': [['SR5', '9 in', '30/26 degrees', 1], ['TRD Sport', '9 in', '30/26 degrees', 1], ['SR5 Premium', '9 in', '30/26 degrees', 1], ['TRD Off-Road', '9.6 in', '33/26 degrees', 1], ['TRD Off-Road Premium', '9.6 in', '33/26 degrees', 1], ['Limited', '9 in', '30/26 degrees', 1], ['TRD Pro', '9.6 in', '33/26 degrees', 1]]}}], 'check': ['Find your grade on the window sticker or the tailgate badge, then read the matching row.', 'The figures are for an unmodified vehicle. Running boards, a hitch or larger tires change the clearance you actually have.', 'To measure your own 4Runner, park on level ground and measure from the ground to the lowest fixed point underneath.', "Your owner's manual and the labels on your own vehicle override this page."], 'related': ['lift-kits', 'running-boards', 'hitches'], 'sources': [('Toyota, 2024 4Runner eBrochure, specifications and features tables', 'https://www.toyota.com/content/dam/toyota/brochures/pdf/2024/4runner_ebrochure.pdf')], 'reviewed': '2026-11-22'}
